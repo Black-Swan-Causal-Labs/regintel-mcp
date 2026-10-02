@@ -1,0 +1,2057 @@
+{
+ "caveat": "Concordance, not impact. These calls record whether the final guidance text moved in the direction a commenter asked for. Changes between draft and final also reflect FDA's internal review, ICH M14, other guidances, and evolving science. A matching change does not show that a comment caused it.",
+ "concordance": [
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A14",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks for a streamlined, less trial-like protocol approach for non-interventional studies; the final retains the same protocol/SAP expectation unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A16",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Asks FDA to specify which information must be pre-specified; the final keeps the same general statement that all essential elements be predefined without added detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A27",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for practical reproducibility recommendations in General Considerations; searched section III and the whole final and no such recommendations were added there.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A57",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks to limit the protocol/SAP expectation to adequate and well-controlled evidence; the final sentence is unchanged and does not reflect the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A58",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks FDA to clarify the meaning of 'before conducting the study'; the final repeats the phrase without clarification.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A59",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A60",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A61",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A62",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks whether the expectation applies only to registrational studies; the final keeps 'to support a regulatory decision' without clarifying.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A63",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask seeks examples of study types paired with the suggested FDA interaction pathway, which concerns FDA interaction process rather than guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A64",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is truncated (data vendors and unpublished statements) and its target in the text cannot be located.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A65",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "(4) Quality assurance and quality control (QA/QC) procedures for data accrual, curation, and incorporation into the final study-specific dataset.",
+   "rationale": "Asks to replace 'transformation' with data integration/linking and transfer/movement; the final changed the word to 'incorporation', which does not reflect the requested wording.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A66",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to develop a data source assessment checklist; no checklist appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A67",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks FDA to describe the information available from EHRs and claims; the final expands the description of EHR and claims characteristics (structured/unstructured data, run-off) but does not systematically describe available information.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A68",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "Each data source should be evaluated to determine whether the available information is appropriate for addressing a specific study question.",
+   "rationale": "Asks that the data source evaluation be made available to FDA on request; the final sentence only changes 'hypothesis' to 'question' and does not add this.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A69",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "Each data source should be evaluated to determine whether the available information is appropriate for addressing a specific study question.",
+   "rationale": "Asks that the evaluation show why the selected source was chosen over rejected sources; the final does not add a comparison with rejected sources.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A70",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "claims may not accurately reflect a particular disease or the comprehensive management of a disease (e.g., the transcription and classification practices of clinical coders may differ), or a patient may have a particular disease or condition that is not reflected or well-reflected in claims data.",
+   "rationale": "Asks to add that claims may not reflect comprehensive management/treatment of a disease; the final adds 'or the comprehensive management of a disease', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A71",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "claims may not accurately reflect a particular disease or the comprehensive management of a disease (e.g., the transcription and classification practices of clinical coders may differ), or a patient may have a particular disease or condition that is not reflected or well-reflected in claims data.",
+   "rationale": "Asks to note that a drug claim may not reflect actual use; the revised claims limitation does not mention actual drug use.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A72",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks to add providers' documentation habits as a determinant of EHR data; the final adds 'the clinical and documentation practices of its providers', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A73",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for an EMR definition in the glossary distinguishing EHR from EMR; the glossary was removed and no EMR definition appears anywhere in the final.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A74",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks whether the EHR description includes abstracted data; the final now refers to structured and unstructured EHR data but does not mention abstracted data in this passage.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A75",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks to add that digital technology may supply data where EHR capture is limited; the add-on module paragraph is unchanged and digital technology is not added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A76",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks for examples of acceptable add-on modules; the final paragraph is unchanged with no examples.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A78",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks to add therapeutic-area experience, intercurrent events and 'validated suitable for' wording; the final adds examples of prior use but none of the requested edits.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A81",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "Patients in different types of commercial or government health care payment programs can differ in a range of characteristics, such as age, socioeconomic status, health conditions, risk factors, and other potential confounders.",
+   "rationale": "Asks to replace 'confounders' with 'covariates'; the final keeps 'other potential confounders'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A82",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "Various factors in health care systems and insurance programs, such as patient out-of-pocket expenses, formulary decisions, and patient coverage, can influence the degree to which patients on a given therapy in one health care system might differ in disease severity, or other disease characteristics, from patients on the same therapy in another health care system.",
+   "rationale": "Asks to add patient out-of-pocket payment as a health system factor; the final replaces medication tiering with 'patient out-of-pocket expenses', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A84",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks FDA to clarify what 'validated' means for health system background information; the final keeps 'collected and validated' without explanation.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A85",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks for flexibility because background on prescribing practices may be impossible to provide; the final narrows item (3) to 'any available information' but still recommends the background items.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A87",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks whether generalizability evaluation applies to all data sources, not only non-U.S.; the final item (4) applies the generalizability discussion to all selected sources with additional explanation for non-U.S. sources, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A88",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks how generalizability factors influence FDA acceptance of non-U.S. RWD; the final adds examples of explanation but nothing on acceptance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A89",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks FDA to name circumstances where a non-U.S. source would not be accepted; no such circumstances are given in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A131",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "Assumptions regarding the missing data (e.g., missing at random, missing not at random) underlying the statistical analysis for study endpoints and important covariates should be supported and the implications of missing data considered in the design and analysis of the study.",
+   "rationale": "Asks FDA to state its preferred approach to missing data (collect more data vs analytic approaches); the final adds design/analysis consideration and sensitivity analysis but states no preference.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A132",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to retitle the section (e.g., 'Unavailable Data'); the final heading remains 'Missing Data: General Considerations'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A133",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The second scenario affects the relevance of the data source. Although both can have an impact on study validity, it is helpful to distinguish between these two scenarios and understand the reasons why information is present or absent in EHRs and medical claims.",
+   "rationale": "Asks for discussion of missingness from differences in assessment between routine care and trials; the final adds a note that the second scenario affects relevance but no such discussion.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A134",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that the estimand be defined before missing data are discussed; the final contains no reference to estimands.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A135",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to emphasize defining the estimand first and to clarify application of missing data methods; no estimand language appears anywhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A138",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The protocol and the statistical analysis plan should be developed and based on an understanding of reasons for the presence and absence of information. Descriptive analyses should be included to characterize the missing data.",
+   "rationale": "Asks for flexibility because descriptive analyses of absent data have limited feasibility; the final keeps the expectation that descriptive analyses be included.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0020-A02",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks whether 'historical experience' means a literature search or the sponsor's own experience; the final replaces it with 'prior use' and gives both previous sponsor submissions and published literature as examples, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0020-A03",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks for more detail and criteria on historical experience; the final adds examples of prior use but no criteria.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0020-A04",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to address out-of-range/implausible values in the missing data section; the final IV.C does not add this (implausible values are covered in VI.A, essentially unchanged from the draft).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A03",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for discussion of the estimand thinking process; no estimand discussion appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A05",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks for clearer, consistent terminology; the final makes some terminology harmonizations (e.g., 'study variables', 'study question') but this is largely editorial.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A06",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks to clarify expectations for historical experience, noting it may not exist; the final adds examples of prior use but does not address when none exists.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A07",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks to add intercurrent events to the list of study elements; the final list does not include them.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A09",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "Assumptions regarding the missing data (e.g., missing at random, missing not at random) underlying the statistical analysis for study endpoints and important covariates should be supported and the implications of missing data considered in the design and analysis of the study.",
+   "rationale": "Asks to align missing data assumptions with the estimand per ICH E9(R1); the final adds no estimand alignment.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A03",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the final to acknowledge retrospective RWD studies cannot generate trial-level evidence; no such statement was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A15",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The second scenario affects the relevance of the data source. Although both can have an impact on study validity, it is helpful to distinguish between these two scenarios and understand the reasons why information is present or absent in EHRs and medical claims.",
+   "rationale": "Asks to remove the reference to absent data or explain how to distinguish it operationally; the final retains the two-scenario distinction and adds no operational criteria.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A16",
+   "section_id": "IV.D.2",
+   "call": "partially adopted",
+   "evidence_span": "(2) differential versus non-differential misclassification (e.g., whether the degree of misclassification of an outcome may differ across treatment groups being compared)",
+   "rationale": "Asks for context on differential/dependent misclassification; the final revises the differential example to a plainer explanation but adds little further context.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A17",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "Assumptions regarding the missing data (e.g., missing at random, missing not at random) underlying the statistical analysis for study endpoints and important covariates should be supported and the implications of missing data considered in the design and analysis of the study.",
+   "rationale": "Asks for explicit mention of missing data for exposures, outcomes and covariates; the final still refers only to study endpoints and important covariates.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A27",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks whether peer-reviewed literature can address data source appropriateness; the final names relevant published literature as an example of prior use to describe, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A28",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks to note that digital technology may supplement add-on EHR modules; the final add-on module paragraph is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A29",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks for wording that appropriate references may suffice instead of new studies; the final allows published literature as an example of prior use, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A11",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "Differences in terminology and coding systems used in different health care systems should also be considered.",
+   "rationale": "Asks to add differences in terminology and coding systems across health care systems; the final adds this sentence, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A16",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "It may also be possible to identify a variable that is a proxy for the missing data. An example of a potential proxy variable includes maternal education as a proxy for socioeconomic status that often is an important confounder when evaluating child-health outcomes.",
+   "rationale": "Asks whether a proxy variable may be justified by rationale alone or requires validation; the final only changes the example and does not address justification.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A02",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "FDA recommends including the following in the protocol: (1) The reason for selecting the particular data sources, and the time frame of data that are available, to address the specific study question.",
+   "rationale": "Asks what data aspects are expected in the protocol submission; the final reframes the IV.A list as items to include in the protocol and adds the time frame of data, a modest step in that direction.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for an FDA-approved digital pre-study evaluation process, which concerns FDA process rather than guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks that future guidance set reliability/relevance thresholds, which concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A05",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks to underscore representativeness; the final broadens the generalizability discussion to all selected data sources, partly concordant, while the relevance definition is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A06",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks FDA to define 'representative patients'; the final relevance definition keeps the term without defining it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A07",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks which study types are fit for claims data; no such guidance was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with NLM and other agencies on claims terminology standards, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A09",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks for guidance on operationalizing EHRs without add-on modules; the add-on module paragraph is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A10",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "Various factors in health care systems and insurance programs, such as patient out-of-pocket expenses, formulary decisions, and patient coverage, can influence the degree to which patients on a given therapy in one health care system might differ in disease severity, or other disease characteristics, from patients on the same therapy in another health care system.",
+   "rationale": "Asks for guidance directing attention to outcomes data across health system and insurance factors; no such addition appears.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A11",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "Patients in different types of commercial or government health care payment programs can differ in a range of characteristics, such as age, socioeconomic status, health conditions, risk factors, and other potential confounders.",
+   "rationale": "Asks for guidance on confounder data across health system factors; the final adds none in IV.A.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A12",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidelines on identifying and analyzing biases in data relevance; none were added to IV.A.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A13",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to coordinate with federal standards-setting agencies, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A14",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to align its standards with USCDI, which concerns FDA standards activity outside this guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A15",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to explain why these data sources are essential for regulatory decisions; no such background was added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A24",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The protocol and the statistical analysis plan should be developed and based on an understanding of reasons for the presence and absence of information. Descriptive analyses should be included to characterize the missing data.",
+   "rationale": "Asks for standards and definitions for documenting and reporting missingness; the final keeps the general descriptive-analysis expectation.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0060-A02",
+   "section_id": "IV.C",
+   "call": "adopted",
+   "evidence_span": "the implications of missing data considered in the design and analysis of the study. Sensitivity analysis should be conducted to evaluate the robustness of findings.",
+   "rationale": "Asks sponsors to consider biases from incomplete data and explain how they will be handled; the final adds that implications be considered in design and analysis and that sensitivity analysis be conducted, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask refers to unspecified 'issues' and its target in the text cannot be located.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A07",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to flag which recommendations apply to EHRs, claims or both; the final does not systematically make this distinction.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A08",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Given that existing electronic health care data were not developed for research purposes or to support regulatory submissions to FDA, it is important to understand their potential limitations when they are used for that purpose.",
+   "rationale": "Asks to note that RWD limitations stem from not being designed for research; the final now says data were 'not developed for research purposes', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A09",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "In addition, data collection is limited to the data captured within an EHR system or network, and may not represent comprehensive care (e.g., care obtained in different facilities in the same or outside of the health care system).",
+   "rationale": "Asks for considerations relevant to EHR data within a single institution; the final adds care in different facilities within the same system and a continuity-of-care limitation, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A10",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks to clarify the extent of background information requested; the final adds examples and the purpose for prescribing information but does not bound the overall extent.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A11",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks to highlight practice-of-medicine differences within the health system of interest; the final adds providers' clinical and documentation practices and EHR configuration as determinants, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A12",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks that health system background apply only to EHR data; the final keeps the recommendation general (now 'health care system(s)').",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A13",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks what to provide on 'method of diagnosis and preferred treatments'; the final repeats the phrase without clarification.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A14",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks how background information will be used to judge fitness; the final states prescribing information matters where it may impact feasibility or interpretation, but not for the other items.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A15",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks that prescribing/use practice description apply only to EHRs; the final keeps it general to the data source.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A16",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks FDA to specify what prescribing/use information is meant; the final adds examples (stepped therapy, prior authorizations, formulary restrictions) and the purpose, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A30",
+   "section_id": "IV.C",
+   "call": "adopted",
+   "evidence_span": "Assumptions regarding the missing data (e.g., missing at random, missing not at random) underlying the statistical analysis for study endpoints and important covariates should be supported and the implications of missing data considered in the design and analysis of the study.",
+   "rationale": "Asks that implications of missing data be addressed in design and/or analysis; the final adds 'considered in the design and analysis of the study', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A02",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A03",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for discussion of open vs closed claims; neither appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A04",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks how much information on a new data source and validation to provide; the final does not specify the amount.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A05",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks for explanation of how non-U.S. data can be generalized to the U.S.; the final adds examples (demographic factors, standard of care) of the explanation expected, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A07",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "It may also be possible to identify a variable that is a proxy for the missing data. An example of a potential proxy variable includes maternal education as a proxy for socioeconomic status that often is an important confounder when evaluating child-health outcomes.",
+   "rationale": "Asks for guidance on acceptability of proxy variables; the final only changes the example.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A02",
+   "section_id": "IV.D.2",
+   "call": "partially adopted",
+   "evidence_span": "Understanding the implications of potential misclassification for study internal validity and study inference is the key step in determining what variables of interest might require validation and to what extent, based on the necessary level of certainty.",
+   "rationale": "Asks for flexibility so that not all covariates must be validated; the final states that which variables require validation and to what extent depends on the necessary level of certainty, partly concordant though III still references applicable validation studies.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A03",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA also recommends using quantitative approaches, such as quantitative bias analyses, either a priori for feasibility assessment, or to facilitate interpretation of study results, or for both purposes, to demonstrate whether and how misclassification, if present, might impact study findings.",
+   "rationale": "Asks to recommend sensitivity or quantitative bias analyses for robustness to misclassification; the final recommends quantitative bias analyses, concordant with the ask.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A06",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "If these exposures are particularly relevant to the study question, the data source may not be suitable, or the protocol should describe how this information gap will be addressed (e.g., by building additional modules into the EHR system, linking, or collecting additional data).",
+   "rationale": "Asks to acknowledge other ways to collect additional data besides EHR modification; the final IV.B.1 adds linking or collecting additional data as options, partly concordant, while the IV add-on paragraph is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A07",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "If these exposures are particularly relevant to the study question, the data source may not be suitable, or the protocol should describe how this information gap will be addressed (e.g., by building additional modules into the EHR system, linking, or collecting additional data).",
+   "rationale": "Asks for examples of ways to collect additional data during routine care; the final IV.B.1 lists building modules, linking or collecting additional data, a brief partial match.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A08",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks to rephrase background as relevant diagnostic/treatment information affecting findings; the final adds 'Relevant' but keeps the rest of the item.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A46",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks for proposed wording on available prescribing information affecting interpretation or feasibility, with examples; the final adopts nearly identical wording, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A47",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks to clarify that the non-U.S. generalizability explanation is qualitative; the final adds examples but says nothing about qualitative vs quantitative.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A52",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The second scenario affects the relevance of the data source. Although both can have an impact on study validity, it is helpful to distinguish between these two scenarios and understand the reasons why information is present or absent in EHRs and medical claims.",
+   "rationale": "Asks to acknowledge the two missingness categories cannot always be distinguished; the final keeps the distinction without this caveat.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A53",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "It may also be possible to identify a variable that is a proxy for the missing data. An example of a potential proxy variable includes maternal education as a proxy for socioeconomic status that often is an important confounder when evaluating child-health outcomes.",
+   "rationale": "Asks what justifies a proxy variable; the final does not address justification.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0022-A02",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Asks FDA to accept exploratory protocols whose analyses evolve; the final keeps the expectation that all essential elements be predefined.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A05",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Supports identifying data sources and providing health system background where feasible; the recommendation survives, still qualified by 'if available'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A06",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks FDA to acknowledge limits in obtaining health system background; the final narrows item (3) to 'any available information' but adds no explicit acknowledgement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A07",
+   "section_id": "IV.C",
+   "call": "adopted",
+   "evidence_span": "The protocol and the statistical analysis plan should be developed and based on an understanding of reasons for the presence and absence of information. Descriptive analyses should be included to characterize the missing data.",
+   "rationale": "Supports outlining missing data handling in the protocol and SAP; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A08",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "Assumptions regarding the missing data (e.g., missing at random, missing not at random) underlying the statistical analysis for study endpoints and important covariates should be supported and the implications of missing data considered in the design and analysis of the study.",
+   "rationale": "Asks to add imputation as an approach in IV.C; the final IV.C does not mention imputation (it remains only in VI.A, as in the draft).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0028-A02",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Supports assigning responsibility to describe how RWD elements were ascertained; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0028-A03",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks to differentiate background expectations between EHR and claims and prioritize elements; the final does neither.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A07",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A08",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks to clarify that a stand-alone SAP is not always needed; the final still expects protocols and statistical analysis plans.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A09",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks what level of detail is required for historical experience; the final adds examples of prior use but no level of detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A10",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks for flexibility because prescribing practices are rarely identifiable; the final narrows item (3) to 'any available information', partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A13",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The protocol and the statistical analysis plan should be developed and based on an understanding of reasons for the presence and absence of information. Descriptive analyses should be included to characterize the missing data.",
+   "rationale": "Asks to acknowledge reasons for missing data may not be understood; the final still bases the protocol and SAP on an understanding of these reasons.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A01",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Supports pre-defining essential elements; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A21",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks to clarify submission may not always be a protocol plus SAP; the final sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A22",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks for flexibility in document format (e.g., STaRT-RWE template); the final is unchanged and names no template.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A47",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks to add EHR system functionality and configuration as determinants of recorded data; the final adds them, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A48",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks to state EHR data are structured and unstructured and that unstructured includes abstracted data; the final adds structured and unstructured but not abstracted data.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A49",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks to acknowledge prospectively collected EHR data may be comprehensive; the final still says EHR-based data collection may not be comprehensive.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A50",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks to describe EHR configuration rather than add-on modules for prospective studies; the add-on paragraph is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A51",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks to clarify that description of historical use can rely on publications; the final gives 'relevant examples in the published literature' as prior use, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A52",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "Various factors in health care systems and insurance programs, such as patient out-of-pocket expenses, formulary decisions, and patient coverage, can influence the degree to which patients on a given therapy in one health care system might differ in disease severity, or other disease characteristics, from patients on the same therapy in another health care system.",
+   "rationale": "Asks to add jurisdiction as a factor; the final factor list does not include jurisdiction.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A53",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to acknowledge benefits of multi-system/multi-payer data; IV.A adds no such discussion.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A63",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Asks to label the categories patient-level vs source-level missing data; the final renames 'cases' to 'scenarios' but does not adopt those labels.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A64",
+   "section_id": "IV.C",
+   "call": "adopted",
+   "evidence_span": "the implications of missing data considered in the design and analysis of the study. Sensitivity analysis should be conducted to evaluate the robustness of findings.",
+   "rationale": "Asks to highlight sensitivity analyses for missing data; the final adds that sensitivity analysis should be conducted, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A65",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "Because providers might order a laboratory test based on a patient’s characteristics, the decision not to order the test or a patient’s decision to forgo the test may have implications on the data’s fitness for use in a proposed study.",
+   "rationale": "Asks to add '(to the extent this is known)'; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A66",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to explain how it judges adequacy of a missing data strategy; no such explanation was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A02",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Supports pre-specification of essential elements; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A03",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to recommend initial feasibility evaluations blinded to outcomes; the final III adds no such recommendation.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A04",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a standard set of descriptive variables FDA prefers; none was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A05",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks whether past peer-reviewed publications suffice to document experience; the final cites published literature as prior use, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A08",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for transparent processes for EHR extraction and mapping to common data models in the missing data section; IV.C adds nothing of this kind.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0032-A01",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for approaches aligning routine-care outcomes with trial outcome measures; none were added to III.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0032-A04",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for specific consideration of mental/behavioral health indications; none appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0038-A01",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Supports the recommendation to provide health system background; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A01",
+   "section_id": "VI",
+   "call": "partially adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks for a formal explanation of 'traceability'; the final adds a parenthetical gloss of traceability in VI but no fuller definition.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A02",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Supports submitting protocols and SAPs before the study; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A03",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that protocol/SAP amendments be submitted and tracked; no such requirement appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A04",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Structured and unstructured data recorded in an EHR system depend on each health care system’s practices for patient care, the clinical and documentation practices of its providers, and the functionality and configuration of the EHR system.",
+   "rationale": "Asks to emphasize EHR data exist in structured and unstructured fields; the final adds 'Structured and unstructured data recorded in an EHR system', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A06",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Supports and asks to emphasize the 'if available' caveat; the final keeps it and extends it with 'any available information' in item (3).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A07",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks for more specific examples of practice-setting information; the final adds examples only for prescribing/utilization practices.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A08",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks for more examples and pre-submission discussions; the final adds examples for prescribing practices, while pre-submission discussions are process.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A21",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Asks to include structured-field gaps captured in unstructured data within traditional missing data; the final does not.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A22",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks to encourage EHR vendors to develop structured fields, which concerns parties and activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A23",
+   "section_id": "IV.C",
+   "call": "adopted",
+   "evidence_span": "the implications of missing data considered in the design and analysis of the study. Sensitivity analysis should be conducted to evaluate the robustness of findings.",
+   "rationale": "Asks that missingness patterns be accounted for and sensitivity analyses considered; the final adds design/analysis consideration and sensitivity analysis, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A24",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a cross-reference from IV.C to IV.D; no such cross-reference appears.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A05",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to reference the target trial framework and ICH E9(R1) estimands; neither is referenced in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to expedite publishing other guidances, which concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A24",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks whether background is general or study-specific; the final ties prescribing information to study feasibility and interpretation, a partial clarification.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A25",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "Prior use of the selected data source for research purposes (e.g., previous submissions to FDA by the sponsor or relevant examples in the published literature) should be described in the protocol.",
+   "rationale": "Asks what prior experience may be relied upon; the final names previous sponsor submissions and published literature as examples, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A26",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to establish a metadata resource akin to HMA/EMA, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A27",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks FDA to confirm published validations need not be repeated; the final adds no such statement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A28",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks what specific generalizability information to submit for non-U.S. sources; the final adds examples (demographic factors, standard of care), partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A29",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks for examples of factors affecting generalizability to the U.S.; the final adds brief examples, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A33",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "Sponsors seeking FDA input before conducting the study should request comments or a meeting to discuss the studywith the relevant FDA review division.",
+   "rationale": "Supports encouraging sponsors to seek FDA feedback; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A52",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "This guidance provides recommendations on selecting data sources to maximize the completeness and accuracy of the data derived from EHRs and medical claims for clinical studies.",
+   "rationale": "Asks to reword as selecting reliable and relevant data sources; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A53",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for an EMR definition distinguishing it from EHR; the glossary was removed and no EMR definition appears.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A54",
+   "section_id": "IV",
+   "call": "adopted",
+   "evidence_span": "Similar to claims data, EHR data may not accurately reflect the presence, characteristics, or severity of a particular disease.",
+   "rationale": "Asks to add that EHR data, like claims, may not reflect disease presence, specificity or severity; the final adds a near-identical sentence, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A55",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to define 'health care system'; no definition appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A56",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks to replace 'how the data can be validated' with 'validated suitable for'; the final changes 'data' to 'study variables' but keeps 'can be validated'.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A57",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "Patients in different types of commercial or government health care payment programs can differ in a range of characteristics, such as age, socioeconomic status, health conditions, risk factors, and other potential confounders.",
+   "rationale": "Asks to use 'covariates' rather than 'confounders'; the final keeps 'confounders'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A58",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "Various factors in health care systems and insurance programs, such as patient out-of-pocket expenses, formulary decisions, and patient coverage, can influence the degree to which patients on a given therapy in one health care system might differ in disease severity, or other disease characteristics, from patients on the same therapy in another health care system.",
+   "rationale": "Notes 'medication tiering' is confusing; the final removes it and substitutes out-of-pocket expenses, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A65",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to retitle the section; the heading is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A66",
+   "section_id": "IV.C",
+   "call": "partially adopted",
+   "evidence_span": "the implications of missing data considered in the design and analysis of the study. Sensitivity analysis should be conducted to evaluate the robustness of findings.",
+   "rationale": "Asks FDA to address missing data directly in the guidance; the final adds design/analysis consideration and a sensitivity analysis recommendation, a modest step in that direction.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A05",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to recommend the STaRT-RWE template; no template is referenced.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A11",
+   "section_id": "IV.C",
+   "call": "adopted",
+   "evidence_span": "For example, lack of information about the result of a laboratory test could be caused by different circumstances: (1) the test might not have been ordered by the health care provider; (2) the test might have been ordered but not conducted;",
+   "rationale": "Supports the lab-test examples of absent information; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0018-A03",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Argues providing contextual information is impractical; the final retains and expands the contextual and generalizability items.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0018-A04",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks to limit detailed source disclosure for de-identification reasons; the final keeps the background information recommendation.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0018-A05",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Recommends aggregated multi-institution RWD as a solution; the final does not add this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0018-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes industry, FDA and KOLs jointly tier lab criticality, which is a process outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A06",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Supports prespecification; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A07",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Concerns using an external study registry, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A09",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for an independent RWD/E review committee, which concerns FDA internal process.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A10",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Asks to distinguish information expected at protocol vs conduct/report stages; the final does not.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A14",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks when data are adequate for intended use; no criteria were added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A37",
+   "section_id": "IV.C",
+   "call": "partially adopted",
+   "evidence_span": "As discussed above, data linkage is one way to address certain types of missing data.",
+   "rationale": "Asks to note linkage can reveal additional missingness; the final only qualifies linkage as addressing 'certain types' of missing data, a slight partial match.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0042-A06",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "In addition, medical claims data can change during the run-off period and claims adjudication process, as initial submissions may be adjusted or corrected, leading to variations in reported diagnoses and procedures over time.",
+   "rationale": "Asks to distinguish EHR and claims strengths and weaknesses in more detail; the final expands each limitation (e.g., claims run-off, EHR documentation) but does not fully contrast them.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0042-A07",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks to note data from few health systems may not be representative; the final now asks for a discussion of generalizability from the selected sources, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A01",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks to tailor background requests to the unit level involved; the final does not.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A02",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks what information on prescribing patterns is expected or a standard format; the final adds examples but no format.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A01",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Supports prespecifying protocols and analysis plans; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A02",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Concerns using an external study registry, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A16",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Proposes reframing missingness as systematic, unsystematic and unavailable; the final keeps two scenarios.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A17",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The protocol and the statistical analysis plan should be developed and based on an understanding of reasons for the presence and absence of information. Descriptive analyses should be included to characterize the missing data.",
+   "rationale": "Asks what descriptive analyses FDA expects; the final adds no detail.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A18",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "Assumptions regarding the missing data (e.g., missing at random, missing not at random) underlying the statistical analysis for study endpoints and important covariates should be supported and the implications of missing data considered in the design and analysis of the study.",
+   "rationale": "Asks FDA to reference acceptable analytic tools for missing data bias; none are referenced and III states such analyses are out of scope.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A24",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A25",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A26",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks FDA to clarify the purpose of the prescribing/use description; the final states it is for information that may impact feasibility or interpretation, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A27",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks to focus on whether the question suits the cohort given prescribing patterns; the final links prescribing information to feasibility and interpretation, partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A05",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A11",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for practical reproducibility recommendations in General Considerations; none were added to III.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A13",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for recommendations on labeling and application presentation, which concerns submission process outside this guidance's text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A14",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks to highlight posting studies on clinicaltrials.gov, which concerns registries outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A15",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A16",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to develop a data source checklist; none appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A17",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for an EMR definition in the glossary; the glossary was removed and no EMR definition appears.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A18",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "This description should include how well the selected data source has been shown to capture study variables (e.g., inclusion and exclusion criteria, exposures, outcomes, key covariates) and how the study variables can be validated for a particular research activity.",
+   "rationale": "Asks to change wording to 'validated suitable for'; the final keeps 'can be validated'.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A22",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "The second scenario affects the relevance of the data source. Although both can have an impact on study validity, it is helpful to distinguish between these two scenarios and understand the reasons why information is present or absent in EHRs and medical claims.",
+   "rationale": "Asks for discussion of missingness from assessment differences between data types; none was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A09",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A10",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A11",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for clarity on when data are adequate with context-based flexibility; no such criteria were added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A13",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks to tie timing to IRB approval and to analysis start; the final keeps 'before conducting the study'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A05",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A18",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Asks for flexibility to describe study elements at a higher level; the final keeps 'for each study element'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A19",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Asks to narrow to 'applicable outcome validation studies'; the final keeps 'applicable validation studies'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A20",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks to reference validation methods in the background item; the final adds no such reference.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A21",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks to qualify 'preferred treatments for the disease' (span truncated); the phrase is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A22",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(4) A discussion on how factors relating to the health care system, including its practices, might affect the generalizability of the study findings from the selected data sources. When non-U.S. data sources are proposed, additional explanation (e.g., demographic factors, standard of care) should be provided to support the generalizability to the U.S. population.",
+   "rationale": "Asks to add generalizability of U.S. data sources to the broader U.S. population; the final item (4) asks for a generalizability discussion for all selected sources, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A30",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Asks how FDA will evaluate intent of data collection; the final gives no such detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A31",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to accept expert testimony to classify data as absent, which concerns FDA review behaviour.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A32",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "It may also be possible to identify a variable that is a proxy for the missing data. An example of a potential proxy variable includes maternal education as a proxy for socioeconomic status that often is an important confounder when evaluating child-health outcomes.",
+   "rationale": "Asks to reference proxies in the analysis-plan discussion; proxies remain mentioned only as before, with no change.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0044-A02",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Encourages stakeholder cooperation on EHR data collection, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A14",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for precise definitions of routine-care terms such as date of diagnosis; none were added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A01",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "Various factors in health care systems and insurance programs, such as patient out-of-pocket expenses, formulary decisions, and patient coverage, can influence the degree to which patients on a given therapy in one health care system might differ in disease severity, or other disease characteristics, from patients on the same therapy in another health care system.",
+   "rationale": "Objects that health system differences are no different from RCTs; the passage is retained.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A02",
+   "section_id": "IV.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Relevant background information about the health care system(s), including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources.",
+   "rationale": "Asks what item (2) specifically requests; the final adds only 'Relevant' and '(s)'.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A03",
+   "section_id": "IV.A",
+   "call": "adopted",
+   "evidence_span": "(3) A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks what is wanted (e.g., formularies) and why prescribing practices are requested; the final adds examples including formulary restrictions and the rationale, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0056-A01",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Asks for expectations on add-on modules; the paragraph is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A01",
+   "section_id": "III",
+   "call": "adopted",
+   "evidence_span": "All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable validation studies.",
+   "rationale": "Supports pre-definition in protocols and SAPs; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A12",
+   "section_id": "III",
+   "call": "not adopted",
+   "evidence_span": "For all studies using EHRs or medical claims data that will be submitted to FDA to support a regulatory decision, sponsors should submit protocols and statistical analysis plans before conducting the study.",
+   "rationale": "Asks to state that protocol and other documents (SAP, implementation plan) be submitted as needed; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A13",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A14",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "(4) Information regarding continuity of care depends on patients remaining within the specific health care system and engaging with the health care system for continuing care.",
+   "rationale": "Asks to discuss longitudinality/observability of EHR data; the final adds a continuity-of-care limitation (and continuity of care in IV.B.1), partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A15",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to note EHR observability limits and the value of linking EHR to claims; the final adds continuity-of-care discussion for EHRs but not the claims-linkage point.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A16",
+   "section_id": "IV",
+   "call": "not adopted",
+   "evidence_span": "For prospective clinical studies proposing to use EHRs, it may be possible to modify the EHR system for the purpose of collecting additional patient data during routine care through an add-on module to the EHR system. However, given the limited ability to add modules to collect extensive additional information, EHR-based data collection may still not be comprehensive.",
+   "rationale": "Objects to the add-on module example and asks to replace it; the example is retained.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A21",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Asks to label categories patient-level vs data source-level; the final does not.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,1811 @@
+[
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A34",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends that the draft guidance be clear and consistent in referencing that the need for and extent of validation required for a given study will depend on the specific context at-hand.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A35",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "Variables of importance for validation could be discussed and agreed to with FDA before the study begins.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A36",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO also suggests that circumstances when validation cannot be performed or where there is an acceptable alternative be discussed in the draft guidance.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A37",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "objects",
+  "source_span": "BIO recommends that FDA carefully reconsider guidance to validate every single variable and outcome at the individual patient level within a given study using EHR or claims data.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A139",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends that the final draft guidance should potential misclassification of a variable of interest (e.g., acknowledge that different magnitudes of confounding may exposure, outcome, covariate) might impact the necessitate different levels of rigor with respect to validation.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A140",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "BIO suggests the following edit: \u201c... differential misclassification; (2) differential versus non-differential misclassification of outcome by exposure treatment group",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A141",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends including a reference to the later section independent misclassification (e.g., correlated (V.D.3) where these are described in more detail.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A142",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends the Agency develop an algorithm to define definition should reflect current medical and scientific the specific condition or drug exposure.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A143",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency clarify if data providers should be developed based on the conceptual definition would need to provide the code to sponsors and/or FDA and if to extract the most complete and accurate data from written descriptions would be adequate.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A144",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency expand the current definitions are usually imperfect and cannot accurately discussion to include more general comments on how classify the variable of interest for every subject, a measurement error (and the performance of operational resulting misclassification can lead to false positives definitions) can be assessed for variables which are not binary and false negatives (Table 1) and may bias the (such as time-to-event and continuous variables).",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A145",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "FDA seems to be proposing metrics for misclassification. Attempting to mitigate all potential for outcome misclassification by suggesting sponsors conduct a quantitative bias analysis as a sensitivity analysis to show how outcome misclassification may impact study results. Determining misclassification has limited feasibility.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A146",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency clarify if this means that draft guidance, complete verification involves assigning abstraction (medical record review) is equivalent to \u201ccomplete an accurate value to the variable of interest for each verification\u201d.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A147",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "General Comment: Complete verification alone does BIO recommends the following edits: not create high quality data. Trial data monitoring has shifted away from 100% Source Data Verification to \u201cAlthough risk-based approaches to source data more risk-based approaches because 100% SDV isn\u2019t verification complete verification of a variable of interest Line 463 particularly effective. Suggest removing the statement minimizes misclassification and maximizes study internal about complete verification being the most rigorous or validity,....\u201d adding content on risk-based approaches.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A148",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends that the final draft guidance provide citations measures described in Table 1, sponsors should of valid algorithms or use of datasets where data are consider whether validating the variable to a greater consistently abstracted may be sufficient.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A149",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends including any particular considerations that validation. However, considerations are not discussed may be different in validating RWD that are being used in for situations where a hybrid clinical/RWD approach is conjunction or in comparison to clinical trial data.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A150",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency provide clarity on what used to establish sensitivity, specificity, and criteria sponsors should use to assess quality.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A151",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency clarify the intention of a detailed description of the planned validation\u2026.\u201d with \u201cplanned validation\u201d and whether it applies to all variables subsequent lines referring to \u201c\u2026.justification for the (exposure/outcome/all covariates), or to selected key variables choice of a reference standard, validation approach, only (exposure/outcome/selected key covariates).",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A153",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "And, that draft guidance might be \u201cplanned validation\u201d. added that it is advisable to validate the operational definitions of key outcome, exposure and confounder variables before conducting the study.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A154",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency provides more clarity analysis plan is filed (as done in the RCT Duplicate (including references to relevant to literature) on how to design project). validation study including: criteria for setting the sample size; what performance metrics can be used if the outcome, exposure or covariate is not a binary variable;",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A156",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency provides more clarity on if \u2018success\u2019 thresholds for these performance metrics would depend on the type of study question that is to be addressed using the RWD (i.e. better performance required for comparative effectiveness studies vs exploratory studies).",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A160",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO suggests the following changes: Key variables used to the study population should be validated. For select the study population should be validated. For example, example, to assess the drug effect in patients with to assess the drug effect in patients with immune BIO Comments on Real-World Data: Assessing Electronic Health Records and Medical Claims Data to Support Regulatory Decision-Making for Drug and Biological Products FDA Docket: FDA\u20132020-D-2307, January 24, 2022 Page 35 of 59 SECTION ISSUE PROPOSED CHANGE immune thrombocytopenic purpora, the disorder thrombocytopenic purpora, the disorder ascertained by ascertained by operational definition International operational definition International Classification of Diseases, Classification of Diseases, Ninth Revision, Clinical Ninth Revision, Clinical Modification (ICD-9-CM) (ICD-10-CM)",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A161",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the expectations/considerations for the population should be validated.\u201d However, unlike validation of inclusion/exclusion criteria be described and/or exposure, outcomes, and covariates, there is no cross-referenced to the corresponding principles already discussion in the draft guidance around the Agency\u2019s covered for exposure, outcomes, or covariates that would apply expectations/considerations for the validation of to inclusion/exclusion criteria as well.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A162",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that in this paragraph, FDA might consider The draft draft guidance states that validation studies adding 1-2 sentences emphasizing the need for researchers to are needed. describe in detail how they are going to not only define their cohort based on an indication of interest, but how they are Information is missing here about how to link a certain going to link said indication to their exposure drug of interest",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A163",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency clarify the context and scope in detail in their study proposal how they will link their of the statement \u201cKey variables used to select the study indication to their exposure drug. For example, a population should be validated\u201d.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A164",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T09",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends that the Agency clarify that they would a detailed description of methods for determining how accept terminology not represented in the FDA Data Standards inclusion and exclusion criteria\u2026\u201d Catalog (e.g., ICD-10, RxNorm, etc.)",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A165",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "BIO suggests the following edit: \u201cThe protocol and/or analysis address the completeness and accuracy of the plan should address the completeness and accuracy of the",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A166",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency refer to types of Bias in to sources of bias as used commonly used in the sections of the document e.g. if the RWD was intended as an literature could aid understanding.. e.g. Table 1 in the external control to data from a clinical trial.. refer to Selection paper The use of external controls: To what extent can bias",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A167",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "BIO suggests deleting \u201cplacebo\u201d or clarify how this would be referred to as the treatment, and may be compared to defined in a database study",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A168",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends the following edit: \u201cThis will usually require understanding of the pharmacological properties of the an understanding of the pharmacological properties (e.g. half- drug\u2026\u201d life) and MoA of the drug",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A169",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the final draft guidance should provide describe the coding system used, the level of guidelines for acceptable reference standards to evaluate granularity represented (e.g., using RxNorm mapping to coding systems.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A170",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends the following edit: \u201cWhen relying on coded data, the operational exposure definitions should be data, the operational exposure definitions should be based on based on the coding system of the selected data the coding system of the selected data source and reflect an source and reflect an understanding of the prescription, understanding of the prescription, delivery, and reimbursement delivery, and reimbursement characteristics of the drug characteristics of the drug (if applicable) in that data source (if applicable) in that data source.\u201d over time\u201d.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A171",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends the following edit: For example, in the United States, the operational definition should include the States, the operational definition should include the appropriate appropriate pharmacy codes (NDC or Healthcare pharmacy codes (NDC or Healthcare Common Procedure Common Procedure Coding System) to capture the use Coding System NDC or Healthcare Common Procedure of the drug in various settings.\u201d Coding System or other applicable codes)",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A172",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency provide a reference for this might include low-cost generic drugs, drugs obtained statement.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A173",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends the following edits: capture the relevant exposure duration (anticipated use \u201cThe data source should capture the relevant exposure of a product over time).\u201d duration (anticipated use of a product over time), when relevant to the treatment and scientific question of The draft guidance indicates that the \u201crelevant interest.\u201d",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A174",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "BIO suggests that this topic could be raised in a workshop describing the duration of exposure as well as the where regulators and data and analytics organizations work to period during which the exposure is having its effect address this topic.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A175",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency consider adding a sentence refill their prescriptions exactly on time or, alternatively , after \u201c\u2026if there are early refills,\u201d which recommends describing may refill their prescriptions early, gaps or stockpiling in and justifying in the study protocol any action being taken by therapy may exist and may be reflected in the data. researchers to address medication non-adherence, if possible.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A176",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends the Agency provide the example of defining a potential gaps in therapy in the data source, and handle maximum allowable gap between consecutive prescriptions to refill stockpiling if there are early refills.\u201d use to define continuous exposure vs. a new treatment episode.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A177",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends the following edit: Data about exposure include information about dose\u201d should include information about dose dosing regimen (dose level and frequency).",
+  "draft_section": "V.C.4",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A178",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency include the concept of chronically, can lead to misclassifications. minimum effective dose since ascertainment by using single dose exposure, especially for drugs used chronically, can lead to misclassifications.",
+  "draft_section": "V.C.4",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A179",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "BIO suggests the following edits: Other than for medications medications administered in hospital settings or administered in hospital settings or infusion settings, infusion settings, electronic health care data capture electronic health care claims data capture prescriptions of prescriptions of drugs and the dispensing of drugs to drugs and the dispensing of drugs to patients while electronic patients, but generally do not capture actual patient health records may not capture drug dispensing.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A180",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency provide clarification on comparison of the exposure classification in the whether patient surveys can be conducted to validate exposure proposed data source with a reference data source.\u201d if appropriate reference data sources are not available.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A181",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Additional guidance is needed on what the FDA considers as an acceptable reference data type and source.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A183",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "BIO suggests the following edit: \u201cIn some instances, for medications used in outpatient settings, dispensing or prescribed medications used in outpatient settings, dispensing billing data would tend to be more accurate than most or billing data would tend to may be more accurate\u2026\u201d",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A184",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency clarify if they are requesting that RWE studies be conducted in multiple databases to The language regarding when EHR versus claims data ensure robust insights are derived.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A185",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "BIO suggests revising to include the evaluation of exposure(s) documenting the methods used to calculate and is necessary, but new validation studies are not expected if validate duration, dose, switching, and other these studies have already been previously performed and characteristics of exposure. Validation and published.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A186",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency clarify that if no appropriate comparison of the exposure classification in the reference data are available if sponsors should used previous proposed data source with a reference data source ...\u201d relevant publication or are there other options that the Agency recommends.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A187",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency consider including in patients after they are filled in the pharmacy setting (i.e. Subsection 3 discussions around ascertainment of the start adherence). and end of exposure therapy. BIO notes that deficiencies in defining the index date or the censoring criteria related to end of therapy were noted in recent reviews by the oncology divisions of applications containing EHR data. It would be useful for the agency to clarify their draft guidance relative to these important design elements.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A189",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "BIO suggests the following edit: \u201cFor example, in assessing dosing in patients taking drugs with substantial renal dosing in patients taking drugs with substantial renal clearance, it may be necessary to have access to clearance, it may be necessary to have access to measurements of serum creatinine, creatinine measurements of serum creatinine, creatinine clearance, clearance, or estimated glomerular filtration rate to or estimated glomerular filtration rate to assess assess appropriateness of dosing.\u201d appropriateness of dosing.\u201d The example provided seems less relevant to a non- interventional study where the goal is to measure real- world treatment effect based on how the medication is being used in routine clinical practice.",
+  "draft_section": "V.C.6",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A190",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the final draft guidance address concomitant medication use should be described in exposure collection other than those for the investigational detail. Definitions of concomitant medication use might product of interest, such as combination therapy components,",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A191",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "BIO also recommends that the Agency provide clarification and ascertainment of concomitant drugs (e.g., examples of when concomitant medication use needs to be nonprescription drugs) should also be described.\u201d described as this may not be necessary for studies where causal effect of treatment is not the main study aim.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A192",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency provide additional draft comparator group is not concurrent with the treatment guidance on the length of the time period that can be group).\u201d extrapolated back to, when no concurrent comparator group is available.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0027-A10",
+  "comment_id": "FDA-2020-D-2307-0027",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Lines 482 \u2013490 Please clarify what the design of a study intended to It would help the reader if more detail (including assess the performance of an operational definition references to relevant literature) could be provided on And Lines 820-952 should look like. how to design validation study including: criteria for setting the sample size;",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0027-A11",
+  "comment_id": "FDA-2020-D-2307-0027",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "what performance metrics can be used if the outcome, exposure or covariate is not a binary variable;",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0027-A12",
+  "comment_id": "FDA-2020-D-2307-0027",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "and what \u2018good\u2019 looks like in terms of values of the sensitivity, specificity, PPV and NPV metrics mentioned for a binary variable.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0027-A13",
+  "comment_id": "FDA-2020-D-2307-0027",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "It would also be helpful to know if \u2018success\u2019 thresholds for these performance metrics would depend on the type of study question that is to be addressed using the RWD",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0027-A14",
+  "comment_id": "FDA-2020-D-2307-0027",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Line 573 The exposure definition should includebrand name and Drug name is the key to identify exposures.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0027-A15",
+  "comment_id": "FDA-2020-D-2307-0027",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Line 627 Suggest to include guide of 'combination therapy' Combination therapy is quite common in",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A04",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We therefore respectfully request that FDA consider clarifying in the Final Guidance that the level of verification and validation required will depend on the nature and purpose of the research question and study being proposed, as well as how well the performance of an existing data source or real-world variable is already understood.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A19",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Flatiron respectfully requests that FDA clarify this to recommend that sponsors capture specific concomitant medications o f i nterest (pain medications, nausea and other supportive care measures), particularly in the case of oncology therapies.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A38",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "verification involves assigning an Guidance if this means that accurate value to the variable of abstraction (medical record",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A39",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T07",
+  "stance": "objects",
+  "source_span": "As noted in our maximizes study internal general comments (section IV.D), we validity,....\u201d respectfully request that FDA consider removing text noting that complete \u201cAlthough risk-based complete verification is the most rigorous and verification of a study variable adding content on risk-based is considered the most rigorous approaches.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A40",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "sensitivity, specificity, and predictive criteria should be used to values should always be evaluated.\u201d assess quality.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A41",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Lines 496-499 Table 1. Flatiron recommends that FDA describe what metrics or The metrics provided in Table 1 are validation elements should be only useful when one has an used when a reference standard is n ot a vailable.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A42",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "and/or claims, we request clarification on a minimum set of exposure related variables that would be needed regardless of the research question.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A43",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "It would be also helpful to acknowledge the inherent limitation of having complete data available for these variables and clearly stating that FDA will determine appropriateness on a case-by-case basis.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A44",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "obtaining and using the prescribed records may not capture therapy.\u201d drug dispensing. but Claims",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A17",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Sponsors would benefit from examples and use cases of incomplete verification and the level of acceptance depending on the different scenarios and varying methods of verifications.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A18",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "It would be helpful for the guidance to make clear that, as the study is concerned with real world use, it may be appropriate to select a comparator that is commonly used off-label rather than a less commonly used comparator that is authorized for use in the specific indication.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0043-A25",
+  "comment_id": "FDA-2020-D-2307-0043",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "we recommend that FDA explicitly recommend descriptions of how the operational and conceptual definitions are linked in the validation process.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0043-A26",
+  "comment_id": "FDA-2020-D-2307-0043",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "At a minimum, we recommend some form of validation on the new data source to confirm similar performance.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A31",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "Given that there are already extensive discussions on validation of exposure (Section V(C)), validation of outcomes (Section V(D)), and validation of covariates (Section V(E)), this subsection on \u201cgeneral considerations\u201d is repetitive and could be removed.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A32",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Specifically, the guidance should be explicit on the need for an empirical assessment of the direction and magnitude of misclassification bias, which would then allow researchers to make a reasonable and informed argument on the impact of misclassification on the effect estimates.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A33",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "Furthermore, we are concerned on the distinction made between differential and non-differential misclassification as this statement has the potential to offer false sense of security.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A34",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Likewise, the current recommendations assume dichotomization of the variable of interest and there is no mention of potential continuous measures.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A37",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "(Line 608) In alignment with our recommendation of making an explicit distinction for when certain recommendations apply to EHR or claims data, we note that unstructured data can be found in the former but not the latter.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A38",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "(Line 622) A major consideration that needs to be included in regards to data elements not captured in EHR is the fact that individuals might get services from health care providers outside of the health system that is being used. We suggest this issue is explicitly described in discussing data sources for the ascertainment of exposure in a given study.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A40",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "(Line 645) If Section V(C)(3) is to remain in this guidance, we note that the statement dealing with prescriptions refills is only relevant to claims data.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A41",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "If Section V(C)(4) is to remain in this guidance, we note that the discussion on dose needs additional consideration pertaining to EHR data.",
+  "draft_section": "V.C.4",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A10",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Complete verification of a variable of interest to minimize misclassification Acknowledge that this is often impractical in research databases that are not owned by the Sponsor",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A11",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Clarification would be useful as to what information FDA would like to see on the potential impact of misclassification and whether sensitivity analyses such as reporting findings if the misclassifcation was as high as x% would suffice; in addition, if the misclassification may introduce bias in both directions, what analyses would FDA prefer?",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A12",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "FDA recommends assessing the performance of operational definitions in an adequately large sample of the study population as part of the proposed study, using justified sampling methods (e.g., random sampling, stratified sampling) Clarify what performance characteristics are acceptable; define adequately large;",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A13",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "also, clarify that the operational definitions pertaining to outcomes would seem to have greater priority than covariates that may not be that important, and hence should be prioritizing in assessing performance.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A14",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Clarify what variables would be considered key - age and diagnosis code and/or procedure code is often used to define a population.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A15",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "It has not been typical that variables used in identifying the population be validated per se unless there are issues with the capture of aspects of the definiton and this is not done for primary data collection or RCTs; instead the operational definition to identify the study population has been justified",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A16",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Much of this information may be missing or incomplete from EHR/claims and requiring these fields could severely limit use of RWD. Clarilfy that the importance of having complete and accurate data in these fields depends on the study question.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A17",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Clarify whether there a minimum set of variables that would be needed regardless of the research question.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A18",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Add acknowledgement that it is not typical to have a referent data source available with which to validate exposure unless working with linked EHR and claims (where prescription orders can be compared to prescription fills).",
+  "draft_section": "V.C.5",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A54",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "It might help the reader to clarify that for population, treatments, and outcome, this is the definition of the variable that might be included in the research objective/hypothesis for the study",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A55",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "This is the definition that might be included in the details of the protocol where the study population, treatments, outcomes and other covariates are defined explicitly",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A56",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "If an operational definition from a prior study is being used, the operational definitions should be assessed in the same data source and in a similar study population Suggest changing 'same data source' to 'similar data source'.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A61",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Clarify that the need for weight in studies of products that dose by weight, is driven by the study question. Not all studies of such products would necessarily require weight",
+  "draft_section": "V.C.6",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A62",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T12",
+  "stance": "objects",
+  "source_span": "Selecting a comparator is an essential part of a study - This section seems out of place.",
+  "draft_section": "V.C.7",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0022-A03",
+  "comment_id": "FDA-2020-D-2307-0022",
+  "theme_id": "T03",
+  "stance": "supports as written",
+  "source_span": "We also agree that undergoing complete verification of the variables included in the studies can minimize the risk of misclassification and maximize internal validity.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0025-A09",
+  "comment_id": "FDA-2020-D-2307-0025",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Regeneronrequests that theAgency acknowledge thatnot all study variables canor shouldbevalidated.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0025-A10",
+  "comment_id": "FDA-2020-D-2307-0025",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Additionally,it shouldalsoberecognized thattheextentof the variables that requirevalidation will differacrossstudiesand novel validationapproaches maybeconsidered.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0025-A11",
+  "comment_id": "FDA-2020-D-2307-0025",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Agreement between theAgencyand theSponsor on variables likely to requirevalidation would likelybenefitfromadirect discussionor interactions(e.g.,duringaprotocol/SAP review interaction).",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A14",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "We recommend that the FDA clarify these additional routes and their limitations, as well as when it is important to pursue such routes.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A15",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "We recommend that language be added to clarify the importance of sensitivity analyses in the context of data validation.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A16",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "(Line 568-570) We ask FDA to clarify the definition of exposure in real-world data and its reference to comparison with \u201cplacebo\u201d.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A17",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "(Line 656-658) We ask FDA to provide additional guidance on the utility of more complex measures of exposure ascertainment such as exposure intensity and if the use of exposure trajectory models would be helpful.",
+  "draft_section": "V.C.4",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A18",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Additional information on treatments outside of oral treatments such as gels, topicals, and differently administrated drugs would be helpful to sponsors.",
+  "draft_section": "V.C.4",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A23",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Information on the completeness of data for implementing inclusion/exclusion criteria may not always be available when the protocol is finalized, so the recommendation as written may not be feasible when unstructured EHR data are used for evaluating these criteria, though the information could be noted in the SAP. We recommend revising this text to say, \u201cprotocol and/or statistical analysis plan.\u201d",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A38",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "The final guidance should clearly state that the approaches to outcome validation highlighted in the Draft Guidance are examples and that the actual approach taken in a specific instance will be study-dependent.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A39",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We suggest updating this section to highlight these additional options that may be considered when designing an RWE study.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A40",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We also suggest that the Agency articulate a risk- based approach for validating study variables, under which the extent to which a data element is validated depends on its importance to the overall study.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A41",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Recommendations for validating composite endpoints consisting of many specific endpoints, such as total congenital malformations, also would be beneficial\u2014either in the final guidance or in future guidances.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A42",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "This footnote appears to imply that abstraction (i.e., medical record review) can qualify as \u201ccomplete verification\u201d in appropriate circumstances. We agree and recommend clarifying the language in the footnote to confirm.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A43",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We also welcome the addition of other approaches, such as AI-driven 24 Draft Guidance at Lines 464\u201365. 10 validation in which human validation of a subset of cases is used to train an algorithm that completes the validation.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A44",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "We suggest outlining the Agency\u2019s recommendations for selecting a reference standard and the recommended approach if there is no suitable reference standard.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A68",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "We suggest adding in this section the importance of including the clinical rationale when defining and developing variables in RWD.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A69",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "In particular, we recommend acknowledging that variables do not carry the same weight. A minor confounder will not have the same importance as the study exposure in question or the outcome(s) of interest.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A70",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Patients enrolled in the study could use a patient portal or mobile app, for example, to report medication adherence, and this information in turn could be used for validation. We suggest FDA update this passage to incorporate this additional example.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0017-A06",
+  "comment_id": "FDA-2020-D-2307-0017",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Additionally, we suggest providing clarity in the guidance related to how\nvalidation studies should be conducted, including whether manual abstraction of a portion of\npatient records is needed to validate the study elements/variables under consideration.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0017-A10",
+  "comment_id": "FDA-2020-D-2307-0017",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "we recommend that pre-specified analytic plans incorporate methods\nto account for how differential adherence patterns will be handled across patient cohorts being\ncompared",
+  "draft_section": "V.C",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0050-A25",
+  "comment_id": "FDA-2020-D-2307-0050",
+  "theme_id": "T03",
+  "stance": "supports as written",
+  "source_span": "we agree with the FDA\u2019s recommendation that\nsponsors assess the performance of operational definitions in a large sample of the study population as\npart of the proposed study using justified sampling methods",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0050-A31",
+  "comment_id": "FDA-2020-D-2307-0050",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "For example, since\nhistology is not captured in ICD10 codes, would it be expected that histology is inferred from treatment?",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0050-A32",
+  "comment_id": "FDA-2020-D-2307-0050",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We suggest adding to the Selection of Study\nPopulation section, specifically line 545, that selection of the study population may rely on multiple\nvariables in addition to ICD9/10 codes",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0050-A33",
+  "comment_id": "FDA-2020-D-2307-0050",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "We suggest the guidance include considerations of healthcare systems\nthat may automate and prepopulate order sets or regimens.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0050-A34",
+  "comment_id": "FDA-2020-D-2307-0050",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "However, we believe more explicit guidance will be needed,\ngiven that this is a major issue with EHR data.",
+  "draft_section": "V.C.3",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0050-A35",
+  "comment_id": "FDA-2020-D-2307-0050",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We strongly recommend the descriptions and ascertainment of concomitant medication use be limited\nto concomitant medications \u201cthat are relevant\u201d and not all concomitant medications.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A13",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA asks the FDA to consider providing\nexamples of acceptable approaches including the use of analytic techniques, such as\ncomponent analyses or quantitative bias analysis,",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A46",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA suggests that FDA state in the final guidance that medication dosing and supply\nimputation approaches are important considerations in the design of a RWD study.",
+  "draft_section": "V.C.3",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A47",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "FDA states that the current draft guidance does not address issues related to medication adherence.26 PhRMA recommends that this should be considered when FDA addresses study design and statistical methods in future guidance.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A67",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Line 441\u2010453 \u201cBecause operational definitions PhRMA requests that FDA expand are usually imperfect and cannot the current discussion to include accurately classify the variable of more general comments on how interest for every subject, a measurement error and the resulting misclassification can performance of operational lead to false positives and false definitions can be assessed for negatives\u2026\u201c variables that are not binary ,such as time\u2010to\u2010event and continuous variables.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A68",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Line 444 \u201cAlthough complete verification FDA seems to be interchangeably PhRMA recommends that FDA use of a variable of interest minimizes using \u201ccomplete verification\u201d and \u201cvalidation\u201d consistently throughout the misclassification and maximizes \u201cvalidation\u201d in this draft draft guidance.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A69",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "It is not clear what is meant by interest might require validation \u201cstudy internal validity\u201d in the and to what extent.\u201d context of variable verification.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A70",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Line 458 \u201c(2) differential versus non\u2010 The word \u201cexposure\u201d may mean \u201c(2) differential versus non\u2010differential differential misclassification (e.g., much more than \u201ctreatment misclassification (e.g., differential differential misclassification of groups,\u201d e.g., dose, frequency, or misclassification of outcome by exposure) outcome by exposure); \u2026\u201d route, here \u201cexposure\u201d may be misclassification of outcome by treatment better replaced by \u201ctreatment group\u2026\u201d group.\u201d",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A72",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "PhRMA suggests deleting\n\u201cplacebo\u201d or clarifying how this\nwould be defined in a database\nstudy.",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A73",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA recommends that FDA the drug (if applicable) in that add \u201cover time\u201d at the end of the data source.\u201d sentence (Lines 597\u2010599).",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A74",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Lines 599 \u2010 602 \u201cFor example, in the United Sometimes the Healthcare FDA may want to consider this application States, the operational definition Common Procedure Coding and modify the sentence in Lines 600 \u2010 601 should include the appropriate System (HCPCS) use non\u2010J codes. to read: \u201c(NDC or Healthcare Common pharmacy codes (NDC or Procedure Coding System)\u201d to \u201c(NDC or Healthcare Common Procedure Healthcare Common Procedure Coding Coding System) to capture the System or other applicable codes).\u201d",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0037-A02",
+  "comment_id": "FDA-2020-D-2307-0037",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "The AUA also suggests that the Draft Guidance provide additional clarity on the need for validation studies, particularly for studies utilizing data from EHRs.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0037-A03",
+  "comment_id": "FDA-2020-D-2307-0037",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "As such, additional guidance on the use of manual abstraction for validation of study elements would be helpful to urological research utilizing real world evidence.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0037-A04",
+  "comment_id": "FDA-2020-D-2307-0037",
+  "theme_id": "T02",
+  "stance": "supports as written",
+  "source_span": "In addition, the AUA agrees with the Draft Guidance\u2019s statements regarding medical claims data not necessarily capturing the totality of dispensed prescriptions or drugs, noting that patients may pay for low-cost drugs or supplements without utilizing their insurance.",
+  "draft_section": "V.C.2",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A12",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "479-480: In addition to sensitivity and specificity, FDA should make clear that \u201cpredictive values\u201d explicitly refer to the PPV and NPV.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A13",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "479-480: In addition to sensitivity and specificity, FDA should make clear that \u201cpredictive values\u201d explicitly refer to the PPV and NPV. Additionally, the accuracy should be evaluated.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A15",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T03",
+  "stance": "supports as written",
+  "source_span": "545-550: We agree with FDA that key variables should be validated. ICD-9, ICD-10, and CPT codes represent valuable sources of data but there are various factors that affect coding and they may not be reflective of the intended conceptual definition.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A16",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T02",
+  "stance": "supports as written",
+  "source_span": "617-624: We agree with FDA about the importance of uncaptured prescriptions, which occur commonly such as through generic drug discount programs or other out-of-pocket purchases.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A17",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Although FDA notes (superscript 13) that this guidance does not address issues related to medication adherence, we think that this should at least be mentioned.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A18",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Reasons for non-adherence, including side effects, should also be ascertained in RWD-based studies and added to this Guidance.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0016-A19",
+  "comment_id": "FDA-2020-D-2307-0016",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "709: One important additional consideration that should be included is the use of falsification endpoints / negative controls.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0018-A07",
+  "comment_id": "FDA-2020-D-2307-0018",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "For instance, how can we best ascertain drug exposure or dosing, and how does that vary between methods of administration (infusion, oral, subcutaneous, etc.) and settings of care (doctor\u2019s office, infusion centers, at home)?",
+  "draft_section": "V.C",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A05",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "In addition, given the time and resource necessary to conduct validation studies for exposures, outcomes, and covariates in a given study, it would be useful to establish ways to enable and 2 | P age encourage sharing of validation study results across study sponsors to allow for more efficient study execution.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A38",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "While this best practice is laudable, FDA should recognize that this (1) is not always feasible depending on the data access and governance model, and (2) may have the unintended consequence of limiting the scope of RWE generation to data sources with certain access, data governance, and staff resource models.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A39",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Further clarity on the FDA\u2019s expectations for validation and use of novel or small datasets is requested as these may be the only sources of RWD available when seeking approval under the Orphan Drug Act of 1983 for rare diseases.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A40",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Would the FDA to consider more practical approaches to validation, such as example situations in which use of previously published validation work using the same or comparable data source would be acceptable?",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A41",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We do propose that a sponsor start with more general data characterization before prioritizing more in- depth validation of key variables (as possible for a given data source) with elements from the analysis plans.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A42",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "l. 444. Complete verification: Suggest that FDA acknowledge that chart review studies based on electronic health records and EHR databases that use chart review (rather than relying on structured fields) would meet the definition of complete verification.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A49",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Line 547. Minor comment \u2013 the document makes reference to International Classification of Diseases, Ninth Revision, Clinical 547 Modification (ICD-9-CM) diagnosis codes. This could be updated to ICD-10 to reflect more recent coding practices.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A50",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Line 560. Current guidance focuses on the definition and validation of \u2018exposure\u2019 but provides little insights on the choice of comparators (section 7 is insufficient).",
+  "draft_section": "V.C",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A51",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "It should also mention medications administered in outpatient settings other than hospital or infusion centers (examples of products administered in such outpatient settings include corticosteroid injections and vaccines).",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A52",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Lines 720-725. Relevant concomitant medications should be elaborated on a bit here\u2014most relevant are those that can affect either the likelihood of the study outcome or exposure to the drug being studied",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0059-A07",
+  "comment_id": "FDA-2020-D-2307-0059",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Page 12, lines 471-490: We support the use of validation for various study design elements, though having to incorporate these activities into all or even most studies will be costly and time consuming. FDA should promote the publication and sharing of prior assessments.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0059-A08",
+  "comment_id": "FDA-2020-D-2307-0059",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "In addition, FDA should encourage sponsors and study teams to publish their negative findings \u2013proposed validations that were rejected by FDA in reviewing a protocol, as well as those that did not result in the expected performance characteristics.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A05",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "One possible strategy to address this difficulty is for the FDA to engage with sponsors and data curators to develop a publicly available list or database of prior successful validation methods and approaches that can be referenced for a variety of unique data sources.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A08",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "We also suggest that in the final text of the guidance that FDA provide additional delineation between and clarity around the concepts of validation and verification.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A10",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We therefore suggest FDA consider a risk-based approach that prioritizes the assessment of key variables or clinical concepts as part of its validation and verification processes.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A15",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Absent a certification process, it should still be possible for sponsors to leverage prior validation and verification work on a given data source (supplementing with new work as necessary).",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A32",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "473 \u201cFDA recommends assessing Define \u201cadequately large\u201d the performance of operational definitions in an adequately large sample of the study population\u2026\u201d",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0008-A01",
+  "comment_id": "FDA-2020-D-2307-0008",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "I encourage the authors to consider also including overall Sen and Spe.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A03",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "The guidance could more clearly outline ways to seek agreement with the Agency on key variables that require validation.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A07",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We also suggest that circumstances when validation cannot be performed or where there is an acceptable alternative be discussed in the guidance.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A23",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "The final guidance should parameter: the association between the acknowledge that different confounder and the exposure, and the magnitudes of confounding may confounder and the outcome. If either necessitate different levels of association is small, then validation may rigor with respect to validation.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A24",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "We recommend a \u201c... differential misclassification cross-reference or footnote be added to of outcome by exposure* the definition of exposure which starts on line 566 of the guidance.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A25",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Lines 464 - 466 The draft guidance states that validation We recommend that the final studies are needed. guidance provide suggestions that citations of valid algorithms or use of datasets where data are consistently abstracted may be sufficient instead of validation.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A28",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "We recommend deleting comparator is placebo. It is unclear how \u201cplacebo\u201d or clarifying how this placebo as a treatment group would be would be defined in a database",
+  "draft_section": "V.C.1",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A29",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "The final guidance should provide determining specificity of coding system guidelines for acceptable are not identified. reference standards to evaluate coding systems.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A30",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "The guidance indicates that the \u201crelevant We recommend qualifying the exposure duration\u201d should be captured in statement with the following the proposed data source, but this does wording: not allow for \u201cintention-to-treat\u201d",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A31",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T02",
+  "stance": "requests more flexibility",
+  "source_span": "The language regarding when EHR versus We recommend adding the claims data would more accurately following qualifiers: capture certain types of medications depending on the healthcare setting does",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A32",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We recommend revising to include that the evaluation of \u201cFDA recommends documenting the exposure(s) is necessary, but new methods used to calculate and validate validation studies are not",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A33",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "Lines 701 - 703 The example provided seems less relevant We recommend removing this to a non-interventional study where the example:",
+  "draft_section": "V.C.6",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A34",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Lines 721 - 725 In many clinical study settings, exposure We recommend that the final to investigational product, to standard of guidance address exposure care therapy",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0021-A02",
+  "comment_id": "FDA-2020-D-2307-0021",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "In the case where there is no gold standard (e.g., symptom extracted via natural language processing from unstructured data) or when the data being extracted is the gold standard (e.g., histological classification extracted from a pathology report), does the Agency have any insight on preferred validation metrics for these scenarios?",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0021-A03",
+  "comment_id": "FDA-2020-D-2307-0021",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "does the Agency recommend any particular general approach to the determination of what would constitute an \u201cadequately large\u201d validation sub sample?",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A15",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "However, we suggest that the need for validation studies should be risk-based.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A16",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "However, we suggest that FDA defines the term \u201coperational definition\u201d,",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A17",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "criteria to define when an \u201coperational definition\u201d is needed besides the conceptual definition reflecting medical/scientific thinking.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A18",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Finally, providing considerations to when to favor sensitivity over specificity would be helpful.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A19",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Furthermore, it is proposed that FDA clarifies if and in which regulatory context a data source cannot be used to support regulatory submissions in case of lack of validation studies.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A20",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "Since applicants frequently rely on external data, clarity should be provided regarding the need for validation studies at data vendor level.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A25",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "EMD Serono recommends removing \u201cother considerations\u201d from the subheading to highlight the relevance of the selection of the comparator and to help the reader to easily identify the information.",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A26",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Given the interdependency of guidances and the implications of such a statement in study design, it would be beneficial to state the position about multiple comparators in the current guidance.",
+  "draft_section": "V.C.7",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A06",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "For example, FDA could consider mechanisms that allow individual sponsors to use prior validation of the same or similar endpoints",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A07",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "as well as the potential to share across stakeholders collated information on validated endpoints.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A08",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Janssen also requests that FDA outline some of the challenges associated with determining negative predictive value (an exercise that would require extensive sampling and validation of \u2018non-cases\u2019) as well as potential solutions as the guidance is finalized.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A33",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "The section on \u201cSelection of Study Population\u201d is incomplete and Janssen requests the following edits: Section on could benefit from harmonization with content contained other Selection of sections for Exposures, Outcomes, and Covariates.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A34",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Janssen requests that FDA include discussion of potential study population should be validated,\u201d however, given that limitations with validating key variables used to select the study laboratory metrics may not be collected at the same time as population, including feasibility and bias.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A35",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Regarding exposure validation, footnote 14 states, \u2018In certain cases, For clarity, Janssen suggests moving footnote 14 to the main text. the RWD source may be the only reference.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0044-A04",
+  "comment_id": "FDA-2020-D-2307-0044",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We encourage FDA to engage with various stakeholders, including patients, to consider how this process can be supported by all types of entities, including smaller companies and non-profits, to create data resources that can be used by all stakeholders.",
+  "draft_section": "IV.D",
+  "section_inferred": true
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0045-A15",
+  "comment_id": "FDA-2020-D-2307-0045",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Recommendation: FDA work with stakeholders on improving propensity score matching by identifying key RWD covariates.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0045-A16",
+  "comment_id": "FDA-2020-D-2307-0045",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Data vendors should display full transparency by providing the entire patient cohort and describing how final patient cohorts were selected in an unbiased fashion.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0051-A05",
+  "comment_id": "FDA-2020-D-2307-0051",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Page 14, Lines 545-550, do key variables mean the sponsors will have to pre-define which codes they will be using for their study?",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0051-A06",
+  "comment_id": "FDA-2020-D-2307-0051",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Page 17, Lines 720-721, Page 18, Lines 722-725: What is the purpose of this description?",
+  "draft_section": "V.C.7",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A05",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We recommend demonstration projects to fully explore the use of this kind of data, determine standards, and evaluate the potential of unstructured data to support regulatory decision making.",
+  "draft_section": "V.C.2",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A06",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Switching is a topic of great debate and currently, there is no validated method for clearly identifying medication switches. Demonstration projects or additional research could lead to a stronger understanding of this aspect of pharmacoepidemiology.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A22",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "We suggest clarifying the last sentence to provide additional options in the instance where the variable definition performance (assessed via the measures described in Table 1) is deemed unacceptable;",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A23",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T03",
+  "stance": "objects",
+  "source_span": "In addition, we suggest removing the example in parentheses, which seems to describe complete verification as it refers to validation of \u201call positives\u201d rather than a sample.",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A24",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We suggest that the guidance acknowledge additional flexibility for situations in which there is a need for evidence, even with imperfections and other means to improve interpretability can",
+  "draft_section": "IV.D",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A25",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "We recommend the Agency clarify this section to state that protocols, statistical analysis plans, and other related documents should specify the assumptions and parameters of the measures, the data source(s) used to build these measures, and any validation and metrics associated with the measures.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A26",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T01",
+  "stance": "objects",
+  "source_span": "The Agency should consider omitting the clause \u201cthe methods health care providers use to generate the data (if known).\u201d This information is rarely, if ever, known.",
+  "draft_section": "V.B",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A27",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "We suggest FDA broaden this section to include not only product characteristics, but conditions of use and conditions of the underlying disease.",
+  "draft_section": "V.C.3",
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A28",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Additionally, we believe that there are some settings where EHR data can provide this information. Additionally, linking to an external data source, such as a patient registry, could provide this information. We ask that the Agency rephrase this section to capture this possibility.",
+  "draft_section": "V.C.5",
+  "section_inferred": false
+ }
+]

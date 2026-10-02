@@ -1,0 +1,1984 @@
+{
+ "concordance": [
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A28",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks that descriptions of source data, algorithm performance and training data be accepted in place of algorithm specifications; the final keeps the same specification list unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A30",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to reference other HHS/FDA projects (e.g., FHIR-to-CDISC mapping); this concerns external initiatives rather than the guidance's own recommendations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A32",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Data curation and transformation into a CDM, as well as general QA/QC procedures, are discussed in section VI, Data Quality During Data Accrual, Curation, and Transformation into the Final Study-Specific Dataset.",
+   "rationale": "Asks for the expected level of documentation when harmonization relies on a CDM; the final adds no such detail beyond a cross-reference to section VI.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A90",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks for accepted standards and methods for demonstrating completeness; the final only rewords 'each data source' to 'proposed data source(s)' and adds no methods.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A91",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks for a definition and examples of 'key covariates'; the final sentence is unchanged on this point and no definition was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A92",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks whether details apply to the study population or the whole data source population; the final does not clarify this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A93",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks that enrollment/disenrollment be tied to claims (insurance enrollment) data; the final now addresses continuity of coverage specifically for claims and continuity of care for EHRs.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A95",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks that continuity language be delineated separately for EHR and claims data; the final is concordant, splitting continuity of coverage (claims) from continuity of care (EHR).",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A96",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "The validity of findings from a study using these data depends in part on the documentation of the migration of patients into and out of health plans and health care systems. Such documentation allows for the identification of time periods during which data are and are not available on the patients of interest.",
+   "rationale": "Asks for a term like 'continuity of observable period'; the final introduces 'continuity of care' and refers to time periods when data are and are not available, but not the proposed term.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A97",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "Definitions of continuity of coverage and continuity of care should be developed and documented in the protocol. Of note, information on continuity of care may be difficult to accurately capture (e.g., data do not differentiate discontinuation of care and lack of encounters due to worsening or resolution of existing health conditions) and might need to be approximated in an EHR data source.",
+   "rationale": "Asks how to define eligibility/observation in EHRs lacking enrollment files; the final adds continuity-of-care definitions and notes it may need to be approximated, without detailed method.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A98",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to distinguish closed from open claims sources; searched IV.B.1 and the whole final, no such distinction appears.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A99",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "A second example is a study where an outcome is dependent on a specific frequency of laboratory tests, and clinicians do not typically order those tests at such a frequency.",
+   "rationale": "Asks to replace the lab-test-frequency example with one about outcomes absent from claims; the example is retained unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A100",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "Information should be provided about the distribution of length of follow-up for patients in the data sources because the length of follow-up may inform whether the selected data sources are adequate or whether additional supportive data are needed to ascertain long latency outcomes.",
+   "rationale": "Asks whether a feasibility assessment of follow-up across candidate sources is expected before selection; the final follow-up text is essentially unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A101",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "If these exposures are particularly relevant to the study question, the data source may not be suitable, or the protocol should describe how this information gap will be addressed (e.g., by building additional modules into the EHR system, linking, or collecting additional data).",
+   "rationale": "Proposes an e.g. on addressing information gaps (adding EHR modules or collecting data outside the EHR); the final adds a closely matching parenthetical.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A102",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks that linkage rate and sample-size trade-offs be recognized as a feasibility factor; the final adds 'acceptable sample size' to the multi-source integration sentence but does not discuss linkage rate.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A103",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks whether unpublished vendor statements on linkage quality suffice; searched IV.B.2 and VI.A, the final does not address vendor-supplied linkage evidence.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A104",
+   "section_id": "VI.A",
+   "call": "partially adopted",
+   "evidence_span": "De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Asks the guidance to describe tokenization as a linkage method; the final only mentions 'linkage tokens' as an example in the de-identification item, not as a described linkage method.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A105",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "Procedures for adjudicating discrepancies in linked data as well as plans for handling linkage discrepancies (e.g., adjusting risk estimates for the linkage error).",
+   "rationale": "Asks for guidance on resolving value disagreements across linked sources; the corresponding VI.A item on adjudicating discrepancies is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A106",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "Specific attention to data curation including individual level and population level linkages and understanding of many-to-one and 1:1 linkage is fundamental to assessing the appropriateness of a new data linkage.",
+   "rationale": "Asks whether steps to obtain 1:1 linkage are expected; the final retains the same general sentence on many-to-one and 1:1 linkage.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A107",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "Data linkages can be used to increase the amount of data available to capture the longitudinal patient journey, increase the amount of data available on individual patients, and provide additional data for validation purposes.",
+   "rationale": "Asks to clarify 'breadth and depth of data'; the final replaces the phrase with explicit wording about the longitudinal patient journey and amount of data per patient.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A108",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Asks for specific recommendations on reconciling patients appearing in multiple sources; the final keeps the general curation-documentation recommendation without reconciliation methods.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A109",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks whether sponsors should routinely evaluate source data changes after a data cut; searched IV.B.2 and VI, no such recommendation was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A110",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "If the study involves establishing new data linkages within the same data sources (e.g., mother-infant linkages) or across different data sources (e.g., vital records, disease and product registries, biobank data), the protocol should describe each data source, the information that will be obtained, linkage methods, and the accuracy and completeness of data linkages over time.",
+   "rationale": "Proposes rewording 'internal/external data sources' to linkages within the same source or across different sources; the final adopts that framing.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A111",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks what 'acceptable quality' means or for an example; the final adds 'sample size' but does not define or illustrate acceptable quality.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A112",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks that heterogeneity documentation be limited to characteristics relevant to the hypothesis; the final drops 'population characteristics' from the heterogeneity list, a narrowing but not the relevance-based limit requested.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A113",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks for a rationale of when combining data sources is applicable; the final adds none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A114",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "Even where multiple data sources are linked by a unique patient identifier or where the patient information is coming from only one data source, there still can be an issue with multiple records or duplicate records.",
+   "rationale": "Asks to replace the statement that duplicates are not an issue with a unique identifier, noting duplicates occur even within one source; the final makes exactly that change.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A115",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Asks for an example of curation to handle multiple records; the final sentence is unchanged and gives no example.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A116",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Asks that documentation may be provided jointly with third-party vendors; the final curation recommendation is unchanged and does not mention vendors.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A117",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks the section to reference FDA's separate Data Standards draft guidance; this concerns alignment with another guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A118",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to state a preferred CDM for receiving RWD; searched IV.B.3 and the whole final, no preferred CDM is named.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A119",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Nevertheless, combining many data sources, especially with the addition of data transformation into a CDM, adds a layer of complexity that should be considered. Because there are many different configurations of distributed health data networks, the configurations discussed in this guidance should not be considered comprehensive.",
+   "rationale": "Objects that the distributed data network material is excessive; the final retains the section with only editorial edits and adds a CDM definition.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A121",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to indicate acceptance of non-CDISC standards/CDMs (FHIR, OMOP); none are named in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A122",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "The computable phenotype definition, composed of standardized and mapped data elements and phenotype algorithm, if applicable, should be described in the protocol and study report and should also be available in a computer-processable format.",
+   "rationale": "Asks to define 'computer-processable format' and whether code must be available; the final keeps the phrase undefined.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A123",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks whether model and training code should be made available; searched IV.B.4 and IV.B.5, the final does not address this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A124",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "Clinical validation of the computable phenotype definition should be described in the protocol and study report. For additional information on validation, see section IV.D, Validation: General Considerations.",
+   "rationale": "Asks what should be described regarding clinical validation; the final sentence is unchanged apart from capitalization.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A125",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype identifies a clinical condition or characteristic using a computerized query to an EHR system or clinical data repository (including disease registries, claims data) using a defined set of data elements and logical expressions.",
+   "rationale": "Asks to replace 'computable phenotype' with 'operational definition for the target patient population'; the final keeps the term and adds a glossary-derived definition instead.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A126",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "Advances include natural language processing, machine learning, and particularly deep learning to: (1) extract data elements from unstructured text in EHRs; (2) develop computer algorithms that identify outcomes; or (3) evaluate images or laboratory results. FDA does not endorse any specific AI technology.",
+   "rationale": "Asks whether FDA would consider AI-extracted endpoints from text; the final text on AI uses (including identifying outcomes) is substantively unchanged and adds no explicit statement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A127",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "Relevant impacts on data quality from use of AI or other computerized extraction methods should be documented in the protocol and analysis plan.",
+   "rationale": "Proposes specifying that data-quality impacts are those from use of AI or other methods; the final adds 'from use of AI or other computerized extraction methods'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A128",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks to allow algorithm details in an appendix or via publications; the final specification sentence is unchanged with no such allowance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A129",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "Relevant impacts on data quality from use of AI or other computerized extraction methods should be documented in the protocol and analysis plan.",
+   "rationale": "Asks to clarify the requirement concerns AI/extraction methods rather than human abstraction; the final ties data-quality documentation to AI or other computerized extraction methods.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A130",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that algorithm performance in relevant subgroups be reported to detect measurement bias; searched IV.B.5 and validation sections, no subgroup performance requirement was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A08",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "The capture of patients’ health care information in a medical claim or EHR data source depends on continuity of coverage (i.e., enrollment and disenrollment from the health insurance plan) and continuity of care (i.e., continuous interaction with the health care system).",
+   "rationale": "Asks to clarify that coverage includes both medical and drug coverage; the final defines continuity of coverage as plan enrollment/disenrollment without distinguishing drug coverage.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A10",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to use 'continuity of care' for EHRs; the final introduces continuity of care for EHR data sources alongside continuity of coverage for claims.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A11",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks recommendations to be distinguished by data source type throughout; the final does so for continuity in IV.B.1 but not more broadly.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A12",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks for metrics indicating 'acceptable quality'; the final adds no metrics.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A13",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks for flexibility because sharing AI/ML algorithms and parameters may compromise IP; the final specification requirement is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A30",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks for accepted standards for demonstrating completeness; the final adds none.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A31",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks for a definition and examples of 'key covariates'; none was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A32",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "If these exposures are particularly relevant to the study question, the data source may not be suitable, or the protocol should describe how this information gap will be addressed (e.g., by building additional modules into the EHR system, linking, or collecting additional data).",
+   "rationale": "Asks for text on how information gaps may be addressed (e.g., additional EHR modules); the final adds that example along with linking and additional data collection.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A33",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "Data linkages can be used to increase the amount of data available to capture the longitudinal patient journey, increase the amount of data available on individual patients, and provide additional data for validation purposes.",
+   "rationale": "Asks to clarify 'breadth and depth' as the longitudinal patient journey; the final uses that wording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A34",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Asks for an example of issues not rectifiable by curation; the final sentence is unchanged with no example.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A35",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "Differences in terminology and coding systems used in different health care systems should also be considered.",
+   "rationale": "Asks that pooling across sources consider data element definitions and harmonization; the final adds in IV.A that terminology and coding differences across systems should be considered, but IV.B.3 is unchanged on harmonization.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A36",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "The computable phenotype definition, composed of standardized and mapped data elements and phenotype algorithm, if applicable, should be described in the protocol and study report and should also be available in a computer-processable format.",
+   "rationale": "Asks what 'computer-processable format' means; the final leaves it undefined.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0036-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes establishing neutral data linkage brokers, an infrastructure matter outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A06",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks FDA to reconsider algorithm disclosure given proprietary IP; the final specification requirement is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A12",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "Obtaining comprehensive drug coverage and medical care data on patients with certain types of privacy concerns (e.g., sexually transmitted infection, substance abuse, mental health conditions) can be challenging and failure to do so can result in incomplete or erroneous information.",
+   "rationale": "Asks to expand the privacy-concern list to vulnerable participants (children, adolescents, caregivers); the list is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A13",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "When a probabilistic approach is used, the analysis plan should include testing the impact of the degree of match and robustness of findings.",
+   "rationale": "Objects to requiring testing of degree of match for probabilistic linkage; the sentence is retained verbatim.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A14",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Proposes defining acceptable quality as no significant impact on data accuracy; the final does not adopt that wording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A15",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Asks for minimum metadata expectations (version, author, identifier, etc.); the metadata sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0041-A08",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for discussion of the disproportionate effect of coverage discontinuity on underserved populations; searched IV.B.1 and IV.A, no such discussion was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A17",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks for guidance distinguishing single versus multiple EHR system scenarios and how analyses across systems should be shown; the final adds no such analysis guidance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A18",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "In general, EHRs and medical claims data may not systematically capture the use of nonprescription drugs or drugs that are not reimbursed under health plans, episodes of medical tourism outside the U.S., or immunizations offered in the workplace, at pharmacies or public health clinics, or through government immunization programs.",
+   "rationale": "Asks how acceptable OTC/non-reimbursed exposure data are if validated by a clinician in the EHR; the final softens 'do not' to 'may not' but gives no acceptability guidance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A19",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to collaborate with ONC on FHIR; concerns FDA activity, not guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A20",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to collaborate with HL7 FHIR Accelerator projects; concerns FDA activity, not guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A21",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks sponsors to provide data enabling third-party validation through a CDM network such as Sentinel; no such recommendation appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A22",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "The computable phenotype definition, composed of standardized and mapped data elements and phenotype algorithm, if applicable, should be described in the protocol and study report and should also be available in a computer-processable format.",
+   "rationale": "Asks whether source-database code suffices or emerging standards (e.g., CQL) should be used; the final adds 'standardized and mapped' data elements but does not address representation standards.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A23",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to acknowledge the lack of consistent phenotype representation methods and suggest a roadmap; the final contains no such acknowledgement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A17",
+   "section_id": "IV",
+   "call": "partially adopted",
+   "evidence_span": "In addition, medical claims data can change during the run-off period and claims adjudication process, as initial submissions may be adjusted or corrected, leading to variations in reported diagnoses and procedures over time.",
+   "rationale": "Asks the guidance to note the need to check whether claims are final-adjudicated or unadjudicated; the final adds in section IV that claims can change during run-off and adjudication, without requiring sponsors to determine claim status.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A19",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to discuss enrollment for claims and observability for EHRs rather than coverage for EHRs; the final separates continuity of coverage (claims) from continuity of care (EHR).",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A20",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "A description of any available information on prescribing and utilization practices (e.g., stepped therapy, prior authorizations, formulary restrictions) that may impact feasibility of the study in the data source or interpretation of study findings.",
+   "rationale": "Asks that formulary be considered when discussing drug exposure availability; the final adds formulary restrictions to the IV.A list of prescribing practices affecting feasibility, not in IV.B.1.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A21",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "The probabilistic approach for data linkage uses less restrictive steps in which the linkage can be established by exact matching of fewer identifiers or matching part of the information on the identifiers (e.g., the first several letters of a name) (Carreras et al., 2018).",
+   "rationale": "Asks the section to refer readers to published linkage recommendations; the final keeps the same single citation and adds no further references.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A22",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "Quality of record linkage (i.e., linking records from multiple datasets) and deduplication (i.e., finding duplicate records in a dataset) process, which may vary depending on the accuracy of the data used to perform the matches and the accuracy of the linkage algorithm.",
+   "rationale": "Asks for direction on assessing linkage quality; the related VI.A items on linkage quality and errors are essentially unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A23",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Nevertheless, combining many data sources, especially with the addition of data transformation into a CDM, adds a layer of complexity that should be considered. Because there are many different configurations of distributed health data networks, the configurations discussed in this guidance should not be considered comprehensive.",
+   "rationale": "Asks for mention of site-specific variation in data quality across network sites; the final adds no such text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A24",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Asks which data elements are requested and whether requirements extend to other algorithms; the final does not clarify this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A25",
+   "section_id": "IV.B.4",
+   "call": "partially adopted",
+   "evidence_span": "A computable phenotype identifies a clinical condition or characteristic using a computerized query to an EHR system or clinical data repository (including disease registries, claims data) using a defined set of data elements and logical expressions.",
+   "rationale": "Asks for specific recommendations on computable phenotypes; the final adds a definition and 'standardized and mapped data elements' but little further specific guidance.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A26",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "Although medical claims data are typically in structured fields, large amounts of key clinical data are unstructured data within EHRs, either as free text data fields (such as physician notes) or as other non-standardized information in computer documents (such as PDF-based radiology reports).",
+   "rationale": "Asks to make explicit that the unstructured-data section is not relevant to claims; the final opens by noting claims data are typically structured.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A27",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "All these methods are computer-assisted to various levels but require a significant amount of human-aided curation and decision-making, injecting an additional level of data variability and quality considerations into the final study-specific dataset.",
+   "rationale": "Asks for additional cautionary language on unstructured EHR data; the final adds no new cautions beyond dropping 'currently'.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A28",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "AI is a branch of computer science, statistics, and engineering that uses algorithms or models to perform tasks and exhibit behaviors such as learning, making decisions, and making predictions.",
+   "rationale": "Objects to mentioning AI in this context; the final retains the AI discussion and adds an in-text AI definition.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A29",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to issue a future dedicated AI guidance; concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0010-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes creating an open-source linkage algorithm to replace proprietary vendor algorithms; this is an infrastructure proposal outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A06",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Asks what detailed information is required for linkage/tokenization methods; the final only mentions linkage tokens as an example and specifies no disclosure requirements.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A09",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks to clarify 'demonstrating' and limit it to study-critical elements; the final keeps 'demonstrating' without such clarification.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A48",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks to change 'demonstrate' to 'describe and justify'; the final keeps 'demonstrate'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A50",
+   "section_id": "IV.B.4",
+   "call": "adopted",
+   "evidence_span": "The computable phenotype definition, composed of standardized and mapped data elements and phenotype algorithm, if applicable, should be described in the protocol and study report and should also be available in a computer-processable format.",
+   "rationale": "Proposes inserting 'standardized and mapped' data elements and 'if applicable'; the final adopts this wording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A51",
+   "section_id": "V.D.2",
+   "call": "not adopted",
+   "evidence_span": "If the operational definition includes information abstracted from unstructured data in the EHRs or another data source (e.g., mention of spina bifida in birth certificate records for the identification of neural tube defects in infants), the protocol should provide a detailed description and rationale for the methods and tools used to process the unstructured data and the validation of those methods.",
+   "rationale": "Asks whether the extraction process for unstructured data should be justified for quality and validity when used for outcomes; the corresponding V.D.2 text is unchanged and no new clarification was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0028-A04",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks for expectations on coverage captured in EHR data; the final adds a continuity-of-care discussion specific to EHR data sources.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0028-A05",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for measures to mitigate AI bias that amplifies inequities; searched IV.B.5 and elsewhere, no such content added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A11",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks that patient attrition from low linkage rates be considered; the final adds 'acceptable sample size' to the integration sentence, partially reflecting this.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A12",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to note increased re-identification risk from linking datasets; searched IV.B.2 and VI.A, no such statement was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A20",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks for publications on accepted completeness standards; none were added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A25",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "The capture of patients’ health care information in a medical claim or EHR data source depends on continuity of coverage (i.e., enrollment and disenrollment from the health insurance plan) and continuity of care (i.e., continuous interaction with the health care system).",
+   "rationale": "Asks for distinct terms for time in a health system versus insurance coverage; the final introduces 'continuity of care' alongside 'continuity of coverage'.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A27",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "Definitions of continuity of coverage and continuity of care should be developed and documented in the protocol. Of note, information on continuity of care may be difficult to accurately capture (e.g., data do not differentiate discontinuation of care and lack of encounters due to worsening or resolution of existing health conditions) and might need to be approximated in an EHR data source.",
+   "rationale": "Asks to acknowledge proxy measures of continuity when enrollment records are absent; the final states continuity of care might need to be approximated in an EHR data source.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A28",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "The validity of findings from a study using these data depends in part on the documentation of the migration of patients into and out of health plans and health care systems. Such documentation allows for the identification of time periods during which data are and are not available on the patients of interest.",
+   "rationale": "Asks to incorporate observability and focus less on continuity; the final refers to time periods when data are or are not available but retains and expands the continuity framing.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A29",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "Probabilistic and deterministic approaches to data linkage may result in different linkage quality, albeit both approaches can have value depending on the scenario.",
+   "rationale": "Asks to underscore well-executed methodology as the key linkage principle; the final sentence on linkage approaches is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A30",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to rename the heading to 'Data Aggregation From Multiple Sources'; the final heading remains 'Data Linkage and Synthesis'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A31",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks to acknowledge benefits of heterogeneity; the final still frames heterogeneity only as a concern.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A32",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for recommendations on heterogeneous treatment effects (e.g., subgroup analyses); searched the whole final, none added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A33",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks for recommendations on handling heterogeneity in coding practices; the final names clinical and coding practices but gives no recommendations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A34",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks to clarify 'acceptable quality' or give an example; the final adds neither.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A35",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Asks for context and an example of the 'issues' not rectified by curation; the final adds neither.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A36",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Therefore, data in CDM-driven networks rarely contain all the source information present at the individual health care sites, and the data elements chosen for a given CDM network may not be sufficient for all research purposes or questions.",
+   "rationale": "Asks for guidance differentiating CDM types, strengths and limitations; the final only adds a one-sentence CDM definition.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A37",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks how these considerations apply when data must follow FDA's Data Standards Catalog; this concerns interplay with other FDA standards/guidances.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A54",
+   "section_id": "IV.B",
+   "call": "partially adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks to clarify the 'timing of exposure, timing of outcome' parenthetical; the final replaces it with 'time periods', aligning with section V.A, but does not answer which windows are meant.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A55",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to consider whether outcomes are recorded at the facility (care elsewhere not captured); the final adds that EHR continuity of care should address whether patients receive all care within the contributing network (also IV(2) on care in different facilities).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A56",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends addressing the comprehensiveness of the data sources in capturing aspects of care and outcomes that are relevant to the study question. This information will help evaluate the likelihood that all exposures and outcomes of interest will be captured for regulatory decision-making.",
+   "rationale": "Asks that comprehensiveness be informative rather than dispositive; the comprehensiveness paragraph is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A57",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "A second example is a study where an outcome is dependent on a specific frequency of laboratory tests, and clinicians do not typically order those tests at such a frequency.",
+   "rationale": "Objects to the lab-test-frequency example; the example is retained.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A58",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "If these exposures are particularly relevant to the study question, the data source may not be suitable, or the protocol should describe how this information gap will be addressed (e.g., by building additional modules into the EHR system, linking, or collecting additional data).",
+   "rationale": "Asks to clarify how information gaps may be addressed; the final adds examples (EHR modules, linking, additional data collection).",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A59",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "In general, EHRs and medical claims data may not systematically capture the use of nonprescription drugs or drugs that are not reimbursed under health plans, episodes of medical tourism outside the U.S., or immunizations offered in the workplace, at pharmacies or public health clinics, or through government immunization programs.",
+   "rationale": "Proposes expanding immunizations to those at pharmacies, public health clinics or government programs; the final adds that exact wording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A60",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "In addition, certain populations (e.g., patients with rare cancers) more often enroll in experimental clinical trials. In such cases, patients’ health data may not be fully captured in electronic health care data. If these issues are relevant to the study question of interest, the protocol should describe how the issues will be addressed.",
+   "rationale": "Proposes rewording the last sentence to require explicit description of limitations and impact; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A61",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "AI is a branch of computer science, statistics, and engineering that uses algorithms or models to perform tasks and exhibit behaviors such as learning, making decisions, and making predictions.",
+   "rationale": "Asks for expanded AI recommendations or separate guidance; the final only adds an AI definition and leaves recommendations essentially unchanged.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A62",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "Relevant impacts on data quality from use of AI or other computerized extraction methods should be documented in the protocol and analysis plan.",
+   "rationale": "Asks to clarify the recommendation addresses AI or other computerized extraction methods, not human abstraction; the final uses that exact phrase.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A03",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to reference Maelstrom harmonization guidelines; searched the final and references, not cited.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to convene stakeholders to standardize data elements; concerns FDA process.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A05",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Suggests FDA-sponsored demonstration projects; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A07",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidance on when to combine EHR sources (at transformation versus pooling results at analysis); searched IV.B.2, IV.B.3 and VI, not addressed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A01",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks when and how sponsors may explore data before the analysis used for a filing; searched IV.B and III, the final adds no such guidance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A02",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should demonstrate that the proposed data source(s) contain the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., time periods) that are relevant to the study question and design.",
+   "rationale": "Asks how to ensure datasets are appropriate prior to analysis; the final IV.B sentence is only editorially changed and gives no procedure.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0024-A02",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to require privacy-preserving linkage methods; searched IV.B.2 and VI.A, no such requirement.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0024-A04",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for privacy-preserving linkage throughout the trial life cycle; the final contains no such recommendation.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0030-A02",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for granular recommended common data elements by scenario; none were added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0030-A03",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "A third commonly used approach is seen in networks of data systems with multiple owners and database structures, with data structured and managed differently from location to location (e.g., the member sites of FDA’s Sentinel system).",
+   "rationale": "Asks for explicit benefits and drawbacks of the Sentinel approach; the final Sentinel discussion is only editorially revised.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0032-A02",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "Advances include natural language processing, machine learning, and particularly deep learning to: (1) extract data elements from unstructured text in EHRs; (2) develop computer algorithms that identify outcomes; or (3) evaluate images or laboratory results. FDA does not endorse any specific AI technology.",
+   "rationale": "Asks for NLP-derived endpoints to be considered where structured data are inadequate; the final AI text is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0032-A03",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks that NLP model development details and precision statistics be reported; the specification sentence is unchanged and adds no precision-statistics detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0038-A02",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to state claims data overcome EHR limits when combined with plan administrative data; searched IV and IV.B, no such statement.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A09",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to clarify how continuity of coverage applies to EHR data; the final applies coverage to claims and introduces continuity of care for EHRs.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A10",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to add relevance of provider type, institution or system to the condition as examples; the comprehensiveness examples are unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A11",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "In addition, certain populations (e.g., patients with rare cancers) more often enroll in experimental clinical trials. In such cases, patients’ health data may not be fully captured in electronic health care data. If these issues are relevant to the study question of interest, the protocol should describe how the issues will be addressed.",
+   "rationale": "Objects to listing pharmaceutical assistance program patients with experimental trial enrollees; the final removes that example (it is not relocated elsewhere).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A12",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "In addition, certain populations (e.g., patients with rare cancers) more often enroll in experimental clinical trials. In such cases, patients’ health data may not be fully captured in electronic health care data. If these issues are relevant to the study question of interest, the protocol should describe how the issues will be addressed.",
+   "rationale": "Asks to amend language implying trial patients' data are not captured; the final narrows it to 'e.g., patients with rare cancers' and drops 'most', but retains the core claim.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A13",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to clarify the difference between EHR and EDC data; searched the final, EDC is not discussed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A14",
+   "section_id": "IV.B.4",
+   "call": "adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Supports the metadata requirement for computable phenotypes; the sentence survives unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A15",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "Clinical validation of the computable phenotype definition should be described in the protocol and study report. For additional information on validation, see section IV.D, Validation: General Considerations.",
+   "rationale": "Asks that reliability and validity of the phenotype be described; the final still only asks for clinical validation.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A16",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Supports the flexible approach to AI/ML for unstructured data; the endorsed text survives.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A17",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "Relevant impacts on data quality from use of AI or other computerized extraction methods should be documented in the protocol and analysis plan.",
+   "rationale": "Supports rigorous evaluation of AI-derived variables and discussion of limitations; the requirements survive and are strengthened in wording.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A18",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "All these methods are computer-assisted to various levels but require a significant amount of human-aided curation and decision-making, injecting an additional level of data variability and quality considerations into the final study-specific dataset.",
+   "rationale": "Asks to discuss where AI is most reliable versus where human curation is still needed; no such discussion was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A19",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "Relevant impacts on data quality from use of AI or other computerized extraction methods should be documented in the protocol and analysis plan.",
+   "rationale": "Asks that equally detailed specifications apply to human curation; the final instead narrows the data-quality sentence to AI/computerized methods.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A20",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a cross-reference from IV.B.5 to V.D.2; the final IV.B.5 has no such cross-reference.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A40",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Suitability may also be improved with more flexible CDMs that are frequently expanded for new uses.",
+   "rationale": "Asks for flexibility in using different CDMs; the relevant CDM text is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A41",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for acceptable CDMs beyond the Data Standards Catalog (OMOP, FHIR); none named in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A59",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to distinguish closed and open claims sources; no such distinction in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A60",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "The capture of patients’ health care information in a medical claim or EHR data source depends on continuity of coverage (i.e., enrollment and disenrollment from the health insurance plan) and continuity of care (i.e., continuous interaction with the health care system).",
+   "rationale": "Asks to replace or qualify the term 'continuity of coverage'; the final keeps the term for claims and adds 'continuity of care', not the proposed wording.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A61",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "A second example is a study where an outcome is dependent on a specific frequency of laboratory tests, and clinicians do not typically order those tests at such a frequency.",
+   "rationale": "Asks for a more appropriate example (lab results absent from claims); the example is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A62",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype identifies a clinical condition or characteristic using a computerized query to an EHR system or clinical data repository (including disease registries, claims data) using a defined set of data elements and logical expressions.",
+   "rationale": "Asks to use 'operational definition for the target patient population' instead of 'computable phenotype'; the final keeps the term and defines it.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A63",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to publish a standardized library of computable phenotypes; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A64",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks to define 'supervised' and 'unsupervised'; the final keeps the same parenthetical and adds no definition.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A06",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "The data sources should contain adequate numbers of patients with adequate length of continuous follow-up to ascertain outcomes of interest based on the biologically plausible time frame when the outcome, if associated with the exposure, might be expected to occur.",
+   "rationale": "Asks to note EHR follow-up may be insufficient for outcome ascertainment; the final adds 'continuous' follow-up and continuity-of-care considerations but no explicit statement on visit detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A07",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "In general, EHRs and medical claims data may not systematically capture the use of nonprescription drugs or drugs that are not reimbursed under health plans, episodes of medical tourism outside the U.S., or immunizations offered in the workplace, at pharmacies or public health clinics, or through government immunization programs.",
+   "rationale": "Asks to note OTC drugs are often not updated in EHRs; no such statement was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A08",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to note EHRs do not accurately capture discontinued medications; searched IV.B.1 and V.C, not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A09",
+   "section_id": "IV.A",
+   "call": "partially adopted",
+   "evidence_span": "The reason for selecting the particular data sources, and the time frame of data that are available, to address the specific study question.",
+   "rationale": "Asks to investigate differing amounts of retrospective data across sites; the final adds the available time frame of data to IV.A, while IV.B.1 keeps its general note on varying data availability.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A10",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Supports making the AI specification items available; the text survives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0018-A01",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "Data linkages can be used to increase the amount of data available to capture the longitudinal patient journey, increase the amount of data available on individual patients, and provide additional data for validation purposes.",
+   "rationale": "Supports clinically deep, longitudinal data; the final retains the data capture expectations and adds the longitudinal patient journey to linkage purposes.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A18",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Nevertheless, combining many data sources, especially with the addition of data transformation into a CDM, adds a layer of complexity that should be considered. Because there are many different configurations of distributed health data networks, the configurations discussed in this guidance should not be considered comprehensive.",
+   "rationale": "Objects to extraneous distributed-network background; the material is retained.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A19",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to differentiate EHR and claims, noting enrollment rarely applies to EHRs; the final splits continuity of coverage (claims) and continuity of care (EHR).",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A20",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to distinguish completeness from comprehensiveness; no such distinction is drawn in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A21",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes FDA prequalification of linked datasets or linkage methods; concerns FDA process.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A22",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Before using a CDM-driven network, data elements collected by the CDM should be considered—including whether needed data elements exist in the model and, if so, whether they are required or optional elements—to determine suitability for the study and whether identified deficiencies can be addressed by supplementing with customized study-specific data elements, collecting additional data, or using other data elements present in the dataset that are reasonable proxies for the missing information.",
+   "rationale": "Asks for caution against applying a CDM in every situation and allowing data outside the CDM; the final text is unchanged on this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A23",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks what would qualify a source as fit-for-purpose; searched IV.B.1, no such criteria added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A24",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to state that claims databases must have enrollment records; the final asks that continuity of coverage be addressed but sets no requirement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A25",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends addressing the comprehensiveness of the data sources in capturing aspects of care and outcomes that are relevant to the study question. This information will help evaluate the likelihood that all exposures and outcomes of interest will be captured for regulatory decision-making.",
+   "rationale": "Asks to soften the expectation about capture of 'all' exposures and outcomes; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A26",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "The data sources should contain adequate numbers of patients with adequate length of continuous follow-up to ascertain outcomes of interest based on the biologically plausible time frame when the outcome, if associated with the exposure, might be expected to occur.",
+   "rationale": "Asks to define 'adequate' sample size and follow-up; the final adds 'continuous' but no definition.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A27",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "In general, EHRs and medical claims data may not systematically capture the use of nonprescription drugs or drugs that are not reimbursed under health plans, episodes of medical tourism outside the U.S., or immunizations offered in the workplace, at pharmacies or public health clinics, or through government immunization programs.",
+   "rationale": "Asks to note EHRs may capture OTC and non-reimbursed drugs while claims do not; the final softens 'do not' to 'may not systematically capture' without the EHR/claims contrast.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A28",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that the protocol describe handling for specific analysis aspects; no corresponding change in IV.B.2.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A29",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "Procedures for adjudicating discrepancies in linked data as well as plans for handling linkage discrepancies (e.g., adjusting risk estimates for the linkage error).",
+   "rationale": "Asks for guidance on justifying linkage decisions and assessing their impact; the VI.A discrepancy item is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A30",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "It is important to report details of the linkage algorithm and appropriate metrics (e.g., linkage error rates, match rates, comparison of characteristics of linked and unlinked data).",
+   "rationale": "Asks what minimum linkage details sponsors provide when aggregators withhold methods; the final linkage reporting text is unchanged and does not address aggregators.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A31",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks sponsors to evaluate whether linked data remain fit-for-purpose versus individual sources; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A32",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Asks FDA to acknowledge licensors may restrict deduplication; the curation recommendation is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A33",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to include federated networks; searched IV.B.3, not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A34",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks for guidance when NLP/AI is proprietary; the specification requirement is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A35",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "Unstructured and structured data processing (e.g., abstraction and conversion of unstructured data to structured data), including manual versus automated techniques.",
+   "rationale": "Asks for guidance on describing non-technology-assisted chart abstraction; the related VI.A item is unchanged and IV.B.5 adds nothing.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A36",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to request abstractor training materials; searched IV.B.5 and V.D.3, not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0042-A08",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "Even where multiple data sources are linked by a unique patient identifier or where the patient information is coming from only one data source, there still can be an issue with multiple records or duplicate records.",
+   "rationale": "Asks that patient matching across providers be addressed; the final adds that duplicate records can arise even with unique identifiers or a single source, but no further matching guidance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0047-A03",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "Data linkages can be used to increase the amount of data available to capture the longitudinal patient journey, increase the amount of data available on individual patients, and provide additional data for validation purposes.",
+   "rationale": "Supports emphasis on data linkages; the linkage discussion survives and is expanded.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0049-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for sharing of best practices on EHR data collection; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0049-A07",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to issue separate guidance or best practices on data connection; concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0049-A08",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "Definitions of continuity of coverage and continuity of care should be developed and documented in the protocol. Of note, information on continuity of care may be difficult to accurately capture (e.g., data do not differentiate discontinuation of care and lack of encounters due to worsening or resolution of existing health conditions) and might need to be approximated in an EHR data source.",
+   "rationale": "Asks for parameters or examples for defining continuity of coverage; the final adds definitions and the need to document them, but no parameters.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0049-A10",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks to specify 'must have' NLP/AI requirements; the requirement list is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A03",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "Definitions of continuity of coverage and continuity of care should be developed and documented in the protocol. Of note, information on continuity of care may be difficult to accurately capture (e.g., data do not differentiate discontinuation of care and lack of encounters due to worsening or resolution of existing health conditions) and might need to be approximated in an EHR data source.",
+   "rationale": "Asks to acknowledge no enrollment mechanism at the health system level; the final introduces continuity of care for EHRs and notes it may need to be approximated.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A04",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "If these exposures are particularly relevant to the study question, the data source may not be suitable, or the protocol should describe how this information gap will be addressed (e.g., by building additional modules into the EHR system, linking, or collecting additional data).",
+   "rationale": "Asks that direct participant follow-up be strongly encouraged; the final lists collecting additional data as one way to address gaps, without strong encouragement.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A05",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks to note linkage reduces patient numbers and to establish overlap first; the final adds 'acceptable sample size' only.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A06",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks how to demonstrate information is reliably documented in text; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A19",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Asks to recognize the tension between privacy and re-identification for validation; the final rewords the re-identification item but does not discuss this balance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A20",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Urges FDA to work with other agencies and stakeholders on linkage; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A21",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Suggests multistakeholder convenings; concerns FDA process.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A28",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Proposes adding 'relocate across health systems' to the reasons for disenrollment; the final does not add it.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A29",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Proposes 'significant heterogeneity in population characteristics, clinical practices, and coding practices across data sources or systems'; the final adds 'coding practices' and 'or systems' but not 'significant' and drops population characteristics.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A30",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to support development of a computable phenotype ontology; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A31",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks to clarify whether supervised/unsupervised refers to training or human oversight of execution; the parenthetical is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A19",
+   "section_id": "IV.B",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a statement on omics/genotyping data; searched the whole final, not added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A20",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to note specialty EHRs lack enrollment data; the final addresses EHR continuity of care separately from enrollment.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A21",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks to acknowledge sample-size trade-offs of linkage; the final adds 'acceptable sample size' to the integration sentence.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0021-A01",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "Definitions of continuity of coverage and continuity of care should be developed and documented in the protocol. Of note, information on continuity of care may be difficult to accurately capture (e.g., data do not differentiate discontinuation of care and lack of encounters due to worsening or resolution of existing health conditions) and might need to be approximated in an EHR data source.",
+   "rationale": "Asks whether operational definitions of observation periods with sensitivity analyses are expected for EHRs; the final requires documented continuity-of-care definitions, possibly approximated, but no sensitivity analyses.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A21",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Before using a CDM-driven network, data elements collected by the CDM should be considered—including whether needed data elements exist in the model and, if so, whether they are required or optional elements—to determine suitability for the study and whether identified deficiencies can be addressed by supplementing with customized study-specific data elements, collecting additional data, or using other data elements present in the dataset that are reasonable proxies for the missing information.",
+   "rationale": "Asks whether required versus optional elements matter beyond CDMs; the final keeps the distinction only for CDMs.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A03",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to acknowledge linkage may be infeasible due to privacy constraints; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A23",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "When using medical claims data sources, continuity of coverage should be addressed, given that patients often enroll and disenroll in different health plans when they experience changes in employment, or other life circumstances. When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks to clarify continuity of coverage applies only to closed network claims; the final limits it to claims (and adds continuity of care for EHRs) but does not distinguish closed networks.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A24",
+   "section_id": "IV.B.1",
+   "call": "partially adopted",
+   "evidence_span": "When using EHR data sources, continuity of care should be discussed, specifically, whether patients receive all types of health care services within the same health system or network of facilities that contribute to the same EHR data source.",
+   "rationale": "Asks for guidance on demonstrating continuity for EHR and open-network claims; the final addresses EHR continuity of care but not open claims.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A25",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "Definitions of continuity of coverage and continuity of care should be developed and documented in the protocol. Of note, information on continuity of care may be difficult to accurately capture (e.g., data do not differentiate discontinuation of care and lack of encounters due to worsening or resolution of existing health conditions) and might need to be approximated in an EHR data source.",
+   "rationale": "Asks to allow proxy-based continuity definitions; the final states continuity of care might need to be approximated in an EHR data source.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A26",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to reference proxies for lab values from physician notes; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A27",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering and documenting the type of curation performed to address duplication or fragmentation issues and documenting approaches taken to address issues that cannot be fully rectified by curation.",
+   "rationale": "Proposes recommending data partners who can evidence curation; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A28",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Therefore, data in CDM-driven networks rarely contain all the source information present at the individual health care sites, and the data elements chosen for a given CDM network may not be sufficient for all research purposes or questions.",
+   "rationale": "Asks to note not all data fit CDMs and conversion data loss; the final keeps the existing statement and adds nothing on conversion loss.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A29",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to develop a public computable phenotype library; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0044-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with agencies and stakeholders on barriers; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A05",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA for commentary on adding trial criteria to routine-care EHRs in community systems; outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A06",
+   "section_id": "IV.B.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to emphasize rural patient enrollment; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A07",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes FDA consider a results-based checksum tool; a tool proposal outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to require vendors to disclose single vs multiple network sources; concerns FDA requirements on vendors outside the text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A09",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks data vendors to involve engineering teams; concerns vendor practice.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A10",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "All these methods are computer-assisted to various levels but require a significant amount of human-aided curation and decision-making, injecting an additional level of data variability and quality considerations into the final study-specific dataset.",
+   "rationale": "Asks for human review of all curated datasets, especially automated ones; the final notes human curation is required but adds no review mandate.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A11",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks not to rely only on standard export formats lacking clinical metadata; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A12",
+   "section_id": "IV.B.5",
+   "call": "adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Restates the draft's algorithm-specification requirement; that text survives in the final.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A13",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for FDA-reviewable QA/QC validation reports from vendors using automated curation; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0056-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to facilitate data linkage across platforms; concerns FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A07",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "Probabilistic and deterministic approaches to data linkage may result in different linkage quality, albeit both approaches can have value depending on the scenario.",
+   "rationale": "Asks to emphasize well-executed methods regardless of linkage approach; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A08",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks to acknowledge benefits of heterogeneity and approaches to account for it; not added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A09",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Therefore, data in CDM-driven networks rarely contain all the source information present at the individual health care sites, and the data elements chosen for a given CDM network may not be sufficient for all research purposes or questions.",
+   "rationale": "Asks for guidance on differences between CDM types; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A10",
+   "section_id": "IV.B.3",
+   "call": "not adopted",
+   "evidence_span": "Therefore, data in CDM-driven networks rarely contain all the source information present at the individual health care sites, and the data elements chosen for a given CDM network may not be sufficient for all research purposes or questions.",
+   "rationale": "Asks to acknowledge mapping CDMs may lose underlying data; the final keeps the pre-existing statement without addressing mapping loss.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A17",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "The data sources should contain adequate numbers of patients with adequate length of continuous follow-up to ascertain outcomes of interest based on the biologically plausible time frame when the outcome, if associated with the exposure, might be expected to occur.",
+   "rationale": "Asks that continuity of follow-up be assessed; the final adds 'continuous' follow-up.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A18",
+   "section_id": "IV.B.2",
+   "call": "adopted",
+   "evidence_span": "If the study involves establishing new data linkages within the same data sources (e.g., mother-infant linkages) or across different data sources (e.g., vital records, disease and product registries, biobank data), the protocol should describe each data source, the information that will be obtained, linkage methods, and the accuracy and completeness of data linkages over time.",
+   "rationale": "Asks what 'internal data sources' means; the final rewords to linkages 'within the same data sources'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A19",
+   "section_id": "IV.B.2",
+   "call": "partially adopted",
+   "evidence_span": "In addition, if the study involves generating additional data (e.g., interviews, mail surveys, computerized or mobile-application questionnaires, measurements through digital health technologies), the protocol should describe the methods of data collection and the methods of integrating the collected data with the proposed EHRs or medical claims data.",
+   "rationale": "Asks to broaden integration of collected data beyond EHRs; the final broadens to 'EHRs or medical claims data'.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A20",
+   "section_id": "IV.B.4",
+   "call": "partially adopted",
+   "evidence_span": "A computable phenotype identifies a clinical condition or characteristic using a computerized query to an EHR system or clinical data repository (including disease registries, claims data) using a defined set of data elements and logical expressions.",
+   "rationale": "Asks how a computable phenotype differs from a typical algorithm; the final adds a definition but does not contrast it with other algorithms.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0064-A01",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for recommendations on selection bias in linked database studies; IV.B.2 adds nothing and VI.A linkage items are unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  }
+ ]
+}

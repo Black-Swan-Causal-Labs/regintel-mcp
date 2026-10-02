@@ -1,0 +1,1604 @@
+[
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A01",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "BIO requests that FDA incorporate an appropriate degree of regulatory flexibility into the draft guidance that is tailored to the specific context for the RWD, and how it can support a regulatory decision as part of a totality of evidence.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A03",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "BIO also recommends that the Agency consider highlighting the use of prospective observational studies within the draft guidance",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A05",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency offer considerations for determining whether the data are fit for purpose",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A06",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T02",
+  "stance": "requests more flexibility",
+  "source_span": "there may be limited data options which require more flexibility in the \u2018fit for purpose\u2019 scale.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A07",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "BIO proposes that the Agency work with sponsors to ensure that FDA-sponsor communications are streamlined and efficient to facilitate rapid evidence generation.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A08",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Specifically, it would be helpful to provide more clarity on the amount and types of information required to have a robust/productive scientific meeting with FDA.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A09",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "BIO also recommends that the Agency provide further clarity on how FDA RWE subject matter experts, including members of the RWE Subcommittee and the Office for Biostatistics and Epidemiology, will be included in sponsor discussions with therapeutic review divisions concerning use of RWD/E.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A10",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "BIO also recommends that the Agency consider mechanisms to include data curators, i.e., providers of RWD/E, to discuss topics on RWE platform development unrelated to a specific sponsor study or use case of RWE.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A11",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "To the extent possible, BIO recommends that FDA work with stakeholders to better understand and address the practical realities of data curation, processing, and governance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A12",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "BIO encourages FDA to work directly with health technology organizations that generate RWD and host workshops with all stakeholders to better understand these issues and help identify ways to meet Agency expectations.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A15",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "BIO also recommends that the Agency emphasize a fit-for-purpose approach to requirements that is commensurate with the intended use of the RWD and regulatory decision to be made.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A17",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "It would be helpful for the Agency to consider adding an appendix, or a Q&A companion document generated to specifically summarize/extract all of these recommendations",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A18",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency change the nomenclature of the guidance from \u201cMedical Claims Data\u201d to either \u201cMedical & Pharmacy Claims Data\u201d or just \u201cClaims data\u201d to reflect the full range of claims data used in research on biopharmaceuticals.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A19",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the draft guidance incorporate the key validity concepts and FDA definitions of \u2018fit for purpose\u2019 and \u2018context of use.\u2019",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A21",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "obtaining consent from subjects to use their data for this kind of investigation;",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A22",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "addressing evidence generation outside pharmacoepidemiology, such as work o on patient reported outcome data, indirect comparisons, and meta-analyses;",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A29",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "BIO also recommends that the Agency consider developing practical recommendations to ensure transparency of methods and analysis plans through proactive stakeholder engagement within the scientific community.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0055-A40",
+  "comment_id": "FDA-2020-D-2307-0055",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "it would be helpful to include some additional case studies of how EHRs and claims data were successfully and unsuccessfully used for efficacy studies",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0020-A01",
+  "comment_id": "FDA-2020-D-2307-0020",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Real world data could include patient status on socioeconomic status (SES), diet, smoking, body mass index (BMI), etc. Please consider using a broader term such as Healthcare data instead of Medical.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A02",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "We suggest that alignment on data requirements in the context of ONC\u2019s USCDI, which includes provenance, provides an opportunity to ensure consistency of approaches from initial capture through the various systems that data may flow before it is subsequently used for specific studies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A04",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "We suggest that appropriate guidance is provided on how to manage this consent process in the context of a clearly defined privacy framework.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A05",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Collaborate with ONC to utilize the USCDI process through the new USCDI+ extension approach to align alignment on the ePHI relevant to real-world, data-based research.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A06",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Align on the use of common data and data set definition expressions that certified HIT, such as EHRs, are already supporting and expanding (HL7 FHIR for APIs) or are actively developing with CMS (HL7 CQL).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A07",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "the EHRA suggests considering a corollary to the efforts of the SHIELD initiative to align vocabularies from diagnostic devices from LIS to EHRs to improve consistent data concept representations.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A08",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "We particularly suggest alignment on HL7 FHIR as it is emerging as a common approach beyond EHRs and as it is being progressed by the HL7 Vulcan initiative, including bulk data, supporting a variety of data sharing patterns. We suggest that guidance recommends these capabilities to study sponsors,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A09",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "and advocate for the creation of supplementary educational materials on the use of FHIR APIs in partnership with clinics and hospitals to retrieve clinical data to support studies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0034-A10",
+  "comment_id": "FDA-2020-D-2307-0034",
+  "theme_id": "T09",
+  "stance": "requests more flexibility",
+  "source_span": "Lastly we suggest that FDA focuses on its 3 systems as well to accept data submissions via FHIR APIs.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A01",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Flatiron respectfully requests that FDA consider establishing mechanisms for RWD/E providers to meet with the Agency to discuss topics on RWE platform development unrelated to a specific sponsor study or use case of RWE.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A02",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "Flatiron believes it would be valuable for FDA to acknowledge this in the Final Guidance, as data used for retrospective studies in the current state will nearly always have limitations, as described in the Draft Guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A05",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We therefore recommend that the Final Guidance include a discussion of how regulatory flexibility may enable the use of fit-for-purpose RWD/E.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A06",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "Some of these hurdles may be overcome by appropriately designing p rospective observational studies, and the Final Guidance may benefit from a brief discussion on this topic with reference to future guidance related to study designs.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0035-A08",
+  "comment_id": "FDA-2020-D-2307-0035",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "convene a series of workshops prior to issuance of the Final Guidance in order to help stakeholders define factors pertaining to data quality and to align expectations across the industry.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A01",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "a summary of how all subsequent guidance documents will interconnect would be beneficial for stakeholders to understand the overall context of the FDA\u2019s RWE program.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A02",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "It would be particularly helpful if the FDA would summarize what they consider to be the minimum requirements for various RWD sources to support alignment on what is most important.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A03",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We suggest that the FDA further augment the draft guidance by providing specific recommendations on the process for engagement and examples of how and when a meeting or correspondence should take place.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A04",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "it would be helpful if the Agency could explore and consider the possibility of a central repository on the FDA website for such documents, if possible.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A05",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Nonetheless, we urge the FDA to reconsider some of the feasibility and operational challenges presented by the recommendations throughout the document.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A07",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "it would be beneficial for the FDA to further clarify how sponsors should assess the relevance, strengths, and limitations of each data source.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0039-A08",
+  "comment_id": "FDA-2020-D-2307-0039",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "ACRO asks for the final guidance to clarify that the retention period for RWE data is no longer than that required for records and reports of conventional clinical trials conducted under IND authority.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A01",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "The FDA should strengthen its RWE Program by using patient experience data and patient engagement to support regulatory decisions.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A02",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "the NHC recommends the FDA co-create, with the patient community, educational materials on the RWD and RWE, sources and uses of RWE, and key issues they should be aware of regarding RWE.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A03",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "While HIPAA may allow for data sharing, privacy issues remain a concern for patients and standards of protection to ensure anonymity must be clarified.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A04",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "We encourage the FDA to continue to focus on establishing appropriate methods and procedures to protect patient information as well as ensure communication of these protective",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A05",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "The NHC looks forward to guidance the FDA plans to publish on the potential gaps, or shortcomings, in information in specific RWD sources and how best to address these issues, including through utilization of other RWD sources such as patient registries that can provide distinct advantages, and urges timely publication.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A06",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "The NHC also encourages the FDA to support the creation of patient-centered core impact sets (PC-CIS),",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A09",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "More specifically, we encourage the FDA to provide clarity on how sponsors can promote research that is inclusive to ensure appropriate representativeness in patient-focused drug development.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A10",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "The FDA should provide clarity around the type and level of detail necessary in demographic data to ensure all relevant subpopulations are represented in the RWD or that \u2013 at the very least \u2013 it is clear who is and who is not represented.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A11",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "We recommend that the FDA clarify the definition of patient-generated data when used in guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0041-A12",
+  "comment_id": "FDA-2020-D-2307-0041",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We highly encourage the collection of PRO data that is patient centered and fit for purpose, that takes into consideration the appropriate relevance of the data, level of burden, intended use, and appropriate interpretation. FDA clarity can help with these issues.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0043-A01",
+  "comment_id": "FDA-2020-D-2307-0043",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "As FDA refines this guidance, we advise it to separately evaluate data from the EHR and those from claims.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0060-A01",
+  "comment_id": "FDA-2020-D-2307-0060",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "However, as they become better understood, patients\u2019 concerns (e.g., around privacy, data access, and data commercialization) must be considered when developing and evaluating the use of RWD in future studies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A01",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "For example, we note that proper validation is important and necessary, yet the extent of recommendations in this regard might not be feasible due to data ownership and data use agreement issues.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A03",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We note that while this guidance is focused on EHR and claims data explicitly, it does not little to highlight the differences between EHR and claims and we also encourage further guidance on the use of registries as sources of RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A04",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "we also recommend referencing already published guidance documents on RWE by the Agency and key stakeholders like professional organizations.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0009-A05",
+  "comment_id": "FDA-2020-D-2307-0009",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "To clarify the specific content discussed in the guidance, and in accordance with the intended purpose of this document described by the Agency, we suggest modifying the title as follows:",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0012-A10",
+  "comment_id": "FDA-2020-D-2307-0012",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "it would be helpful if FDA could facilitate this process by establishing a coordinating center (i.e., a helpdesk or contact point that receives Med Claims/EHR queries) similar to medical device's National Evaluation System for Health Technology for pharmaceutical products.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0012-A11",
+  "comment_id": "FDA-2020-D-2307-0012",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "Otsuka recommends that the Agency provide guidance as to how this gap can be addressed so that sponsors can act as significant stakeholders in this context.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0012-A12",
+  "comment_id": "FDA-2020-D-2307-0012",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Otsuka recommends that the Agency consider creating a reference website dedicated to the details of these submissions and subsequent decisions (both approvals and denials).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A39",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "It would be extremely useful to have a template document which outlines how FDA would like to receive all of this documentation.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A40",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Clarify that the changes and corrections refer to the key study elements and not to the variables and coding not pertinent to study",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A45",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "Consider adding: \"Commercially insured claims data will often be lacking demographics and SES beyond age and gender, and may capture only specific age ranges in the U.S. (Medicare), only lower income (Medicaid) or only commercially insured (most licensed claims databases) through employees with potential of supplemental insurance to Medicare. The limitations of the data source on generalizability to the indicated population should be acknowledged in the protocol\".",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A49",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T02",
+  "stance": "requests more flexibility",
+  "source_span": "Clarify that this is average follow-up overall in data source, and not for the specific population being studied.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A58",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Suggest providing defintions of population, exposure, outcome, covariate, confounder, and effect modifier early in the guidance document.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0013-A60",
+  "comment_id": "FDA-2020-D-2307-0013",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Change 'same population' to 'comparable population and clarify if 'or published in the literature' is the correct terminology. Is the intent to mean whether or not published?",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0022-A01",
+  "comment_id": "FDA-2020-D-2307-0022",
+  "theme_id": "T12",
+  "stance": "requests more flexibility",
+  "source_span": "However, Invitae encourages CDER to consider alternate models of real world data collection and generation, such as situations in which a databank of real world data will be collected during the study conduct, rather than selected from an \u201coff the shelf\u201d data source.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0025-A02",
+  "comment_id": "FDA-2020-D-2307-0025",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "As such, this guidance document should make clear that this is a dynamic topic and highlight the Agency\u2019s flexibility and receptivity in engaging with Sponsor to advise on and explore other concerns, approaches, and considerations specific to individual drug development programs.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0028-A01",
+  "comment_id": "FDA-2020-D-2307-0028",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "The Agency is strongly encouraged to closely collaborate and engage with the Office of the National Coordinator (ONC) in the development and finalization of its guidance for electronic health records given ONC\u2019s strategic priority to \u201cbuild a secure, data-driven ecosystem to accelerate research and innovation\u201d",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A01",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We would appreciate clarification about if and how subsequent guidance documents will address other health-related data and how those types of data can be used in the overall context of the FDA\u2019s RWE program.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A02",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "Timelines and a summary of what to consider as minimum requirements for various data sources would be helpful in planning how to approach each data source.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A03",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "Each has inherent advantages and limitations that are mentioned in various places in the document, but a high-level summary as an appendix would help clarify their relative value in the context of assessing fit for purpose.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A04",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "It would be very helpful if the FDA would outline specific procedures about when to approach the agency using offline correspondence and in-person consultations/meetings.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0048-A05",
+  "comment_id": "FDA-2020-D-2307-0048",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Any additional resources such as case studies, examples, white papers, will be beneficial in providing further applicability of this guidance document.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A02",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We recommend that FDA incorporate, in the Draft Guidance or separate guidance, additional hypothetical examples of acceptable approaches to resolving issues discussed in the Draft Guidance, e.g., for validating a common outcome of interest and applying quality standards.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A03",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "More generally, we recommend that FDA continue to communicate with external stakeholders about examples in which RWE has been used by FDA in regulatory decision-making.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A04",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "In addition, we would welcome the Agency highlighting its ongoing work in the RWE Program\u2014e.g., pilot projects and other collaborative efforts in which the Agency has been involved\u2014in a public forum, such as on a centralized dashboard.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A05",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Whether in the final guidance or other publicly available materials, we would welcome insights into FDA\u2019s efforts to ensure Agency staff with key knowledge about RWD/E policies and expectations are able to share information and engage with staff who are newer to the area.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A06",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We encourage FDA to include specific recommendations on when and how an RWD/E organization should request a meeting with the Agency and the best process for doing so.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A07",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We suggest that FDA consider holding a public workshop so the Agency, sponsors, RWD/E organizations, and other relevant stakeholders can discuss key topics in greater detail.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A09",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "FDA may also wish to consider establishing a working group with key stakeholders to develop a detailed framework, informed by this guidance, that can be applied for data assessment.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A10",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We suggest the Agency consider enhancing the Draft Guidance\u2019s accessibility to stakeholders by outlining key, overarching principles at a high level in one section of the final guidance or in an appendix.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A11",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We suggest updating the Draft Guidance to state more clearly that 7 See Draft Guidance at Lines 637\u201339. 8 See id. at Lines 857\u201359. 4 different approaches can be appropriate in various cases, including when the Draft Guidance\u2019s recommendations may not be feasible, practical, and/or relevant under the circumstances of a specific study.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A12",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "We also encourage FDA to clarify that the focus in designing an RWE study should be on addressing the concerns and limitations identified in the Draft Guidance to the extent possible, as well as explaining why any residual issues do not undermine the study\u2019s overall validity.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A13",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We encourage FDA to discuss the broad range of potential data sources in the final guidance, as well as the Agency\u2019s current thinking on addressing regulatory challenges with RWE generated from more than one data source.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A14",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "The final guidance could highlight this example and others to explain how RWE can be derived from a well- curated, general-purpose dataset in a manner that mitigates risk of bias, confounding factors, and other potential issues.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A15",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "We recommend adding discussion to the guidance that outlines FDA\u2019s views on the general differences between EHR and medical claims data, including particular considerations associated with each as data sources.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A16",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "Many recommendations in the Draft Guidance refer to both EHR and medical claims data, so we also encourage FDA to differentiate the Draft Guidance\u2019s considerations and recommendations, to the extent any are more relevant for either EHR or medical claims data.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A17",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "These different potential interpretations could cause confusion about the applicability of the recommendations in the Draft Guidance. We recommend revising to clarify the use of this term.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A18",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We also suggest identifying any other data sources that FDA views as \u201celectronic health care data\u201d and to explain considerations for using those data.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A19",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We suggest that FDA consider referencing peer-reviewed publications or white papers outlining best practices to help sponsors meet the Draft Guidance\u2019s recommendations.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0054-A24",
+  "comment_id": "FDA-2020-D-2307-0054",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "More generally, where the Draft Guidance recommends documenting an assessment of a particular topic but does not specify which study materials should capture that information, we encourage the Agency to allow for flexibility in practice.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0058-A01",
+  "comment_id": "FDA-2020-D-2307-0058",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "RWE cannot always provide meaningful results that would help patients and physicians make informed treatment choices. For example, RWE will usually not explain why a patient changed a medication, which may be more important than the percentage of patients whose medication was changed.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0058-A02",
+  "comment_id": "FDA-2020-D-2307-0058",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "These shortcomings in evaluating and recording quality of life variables should be highlighted in the guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0058-A03",
+  "comment_id": "FDA-2020-D-2307-0058",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "We urge the FDA to focus more explicitly on potential biases in the draft guidance. For example, relying on RWD from certain types of devices, such as data recorded from wearable medical devices or fitness apps, may create a bias towards younger, more technology literate patients, who may be healthier than other population groups.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0058-A04",
+  "comment_id": "FDA-2020-D-2307-0058",
+  "theme_id": "T12",
+  "stance": "objects",
+  "source_span": "The final guidance should make it clear that RWE should not be used as primary evidence for regulatory decisions.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0017-A01",
+  "comment_id": "FDA-2020-D-2307-0017",
+  "theme_id": "T08",
+  "stance": "requests more specificity",
+  "source_span": "Verana suggests that FDA consider using the term data lineage instead - a term which is commonly used to describe the complete data transformation journey from raw source data at the point of entry by providers to mapping to common data models",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0023-A08",
+  "comment_id": "FDA-2020-D-2307-0023",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "FDA could provide additional considerations in this guidance document on what aspects might\nbe more flexible for rare disease settings, where data are limited",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0023-A09",
+  "comment_id": "FDA-2020-D-2307-0023",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "In general, guidance on when data can be used for the same purposes (e.g.,\nvalidation and analysis) would be a helpful addition to this guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0024-A01",
+  "comment_id": "FDA-2020-D-2307-0024",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "1. The FDA should make privacy of patient data a primary, overarching consideration for the use of real world data.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0024-A03",
+  "comment_id": "FDA-2020-D-2307-0024",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "2. Risks of re-identification when using de-identified data for clinical studies should be independently assured and certified.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0024-A05",
+  "comment_id": "FDA-2020-D-2307-0024",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "Each of these different use cases should use\nthe minimum necessary data quality that can support that use case, while protecting the privacy\nof the patient.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0024-A06",
+  "comment_id": "FDA-2020-D-2307-0024",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "4. FDA should use the minimum necessary RWD data for study design, execution and monitoring, to limit risks to patient privacy.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0030-A01",
+  "comment_id": "FDA-2020-D-2307-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "First, we encourage FDA to include more granular examples throughout the guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0030-A04",
+  "comment_id": "FDA-2020-D-2307-0030",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "Second, FDA should indicate how product sponsors can supplement data using synthetic\ninformation, such as from artificial intelligence (AI)-based tools, natural language processing\nservices, or digital twins",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0030-A05",
+  "comment_id": "FDA-2020-D-2307-0030",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "This discussion should include an assessment of potential risk\nand the level of sensitivity and specificity appropriate for different applications of these tools.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0030-A08",
+  "comment_id": "FDA-2020-D-2307-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "the\nguidance should also outline FDA\u2019s goals and commitments relating to scheduling a meeting\nfollowing the request and answering sponsor questions in a timely fashion.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0030-A09",
+  "comment_id": "FDA-2020-D-2307-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "FDA should commit to an expedited timeline for\nreviewing and providing feedback on these plans.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A02",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "and engage in appropriate\nknowledge sharing in this space, as sponsors work collaboratively with other partners to\nupdate their internal processes and practices",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A07",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA encourages the Agency to continue to consider public\ncomments on this and the other draft guidances after the close of their respective comment\nperiods",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A09",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Variables of importance\ncould be pre\u2010specified for validation and sponsors may submit these plans to FDA in the\nprotocol for discussion and to obtain feedback on before the study begins.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A12",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA understands that these points may be included in the planned draft guidance on study design and FDA\u20102020\u2010D\u20102307 Page 4 of 24 analytical methodologies. If so, PhRMA recommends that FDA ensure the relevant sections are cross\u2010referenced when the guidances are finalized.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A14",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA recommends\nincluding any particular considerations that may be unique in validating RWD that are being\nused in conjunction or in comparison to clinical trial data such as with a single arm trial and\nan external RWD control.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A15",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA suggests that FDA clarify that a sponsor may prespecify what aspects of validation\nmay be conducted before protocol finalization and also how the validation plan covers the\non\u2010going study.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A16",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA recommends a stepwise approach to a validation plan that starts\nwith more general data characterization, before developing a final validation plan for key\nvariables",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A17",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA encourages FDA to\nembrace innovative approaches and apply flexibility when evaluating the approach to\nvalidation and assessment of these datasets.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A18",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "The draft guidance includes numerous recommendations around the inclusion of certain information in the \u201cStudy Protocol\u201d, \u201cAnalysis Plan\u201d, \u201cStudy Report\u201d, and/or \u201cStudy Documents\u201d, as well as recommendations to \u201cdescribe,\u201d \u201cdocument,\u201d and/or \u201cassess\u201d information without a particular document referenced, but it is not clear as to where this information should be included. Accordingly, PhRMA requests the following clarifications: 1)Information FDA expects to be in materials that should be pre\u2010specified and submitted to the Agency prior to conducting the study (i.e., Protocol and Analysis Plan); 2) Information that could go into materials that would only be provided to FDA after study completion (i.e., Study Report); and 3) Information that only needs to be available upon request in case of an inspection or audit by the Agency (e.g., data quality reports).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A19",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "It would be helpful if the draft guidance included an appendix, or that a\nquestion\u2010and\u2010answer companion document be generated to specifically summarize/extract\nall these recommendations for what should go into a protocol, statistical analysis plan\n(SAP), study report, etc.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A20",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA recommends that the guidance acknowledge that sponsors may be working with\nvarious partners that own this information and that challenges/mitigations related to\ninformation access may exist and could be part of the sponsor's discussions with the review\ndivision.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A21",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA requests that FDA clarify the circumstances where patient\u2010level versus aggregated\nRWD may support regulatory decisions as part of the totality of evidence.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A22",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T06",
+  "stance": "supports as written",
+  "source_span": "Generally, PhRMA\nagrees that the FDA\u2019s recommendation for patient\u2010level data to be included in regulatory\nsubmissions is appropriate for interventional studies provided that these data are providing\npivotal evidence to the regulatory decision.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A23",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "Accordingly, we recommend that FDA recognize in\nthe draft guidance that, in certain circumstances, patient\u2010level data may not be accessible,\nand in such cases, sponsors should consult with the relevant review division on other\nacceptable approaches.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A30",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA acknowledges that FDA addresses how sponsors should engage with the Agency in early stages of designing a non\u2010interventional study intended to support a marketing application in the draft guidance, Considerations for the Use of Real\u2010World Data and Real\u2010 World Evidence to Support Regulatory Decision\u2010Making for Drug and Biological Products.16 PhRMA requests that FDA cross reference this information in the final guidance for clarity.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A31",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "A\nshared understanding of the details and expectations for sponsor interactions with the\nreview divisions including process, the minimum amount of information sponsors should be\nprepared to provide to support a robust discussion, type(s) of meeting, and suggested\ntiming/timelines will be helpful.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A32",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA believes that it would be helpful to identify streamlined and efficient FDA\u2010sponsor\ncommunication methods to facilitate rapid agreement about what a study program entails",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A34",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA strongly urges the Agency to\nensure participation from other relevant offices with RWE expertise (e.g., Office of Medical\nPolicy (OMP), Office of Surveillance and Epidemiology (OSE)), as needed, to support a\nrobust conversation.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A35",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "In addition, it would be helpful to understand the anticipated role of\nOMP\u2019s RWE Subcommittee in FDA\u2010Sponsor meetings on RWE proposals going forward.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A36",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA suggests that the OMP RWE\nSubcommittee act as an independent review resource that can bring appropriate expertise\nto all submissions involving RWD/E across review divisions.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A37",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "However, it would be helpful to include additional examples of how EHRs and\nmedical claims data were successfully and unsuccessfully used for efficacy/effectiveness\nstudies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0063-A39",
+  "comment_id": "FDA-2020-D-2307-0063",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Additionally, PhRMA recommends that FDA reference key scientific papers and\nauthoritative perspectives (e.g., ISPOR, ISPE, ENCePP, others19, 20, 21, 22, 23)",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0037-A01",
+  "comment_id": "FDA-2020-D-2307-0037",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Given this variability, the AUA suggests that the FDA develop a set of diagnostic and treatment pattern descriptive variables relevant to patient populations that FDA prefers, but does not require, to see with any real-world data submission.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A01",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "it would be useful if FDA could keep the comments period open for all the draft guidance until the final submission period for the fourth draft guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A02",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "We would also ask the FDA to recognize that implementation of these standards will necessarily change over time as the FDA gains experience with specific data sources and as data sources evolve.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A03",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "The gaps identified in this guidance validate the suggestion that the FDA form and organize working groups with industry, digital data technology, data vendor companies, life sciences researchers, bioinformatics, ethics, and data privacy stakeholders and experts to create focused guidance and provide tools that create a learning healthcare system necessary to transform healthcare using RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A04",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "Specifically, the information requested in sections IV, V, and VI is very extensive, and it is the data providers\u2014not the sponsors\u2014who can provide many of these details. It may be more feasible and efficient for data providers to prepare a summary document with these details that could be included in the appendix of study protocol/report.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A11",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "FDA should recognize that there will be a continuum of data quality across data sources and that trade-offs may be needed, especially where there may be limited data sources to study rare conditions or emerging endpoints within specific indications.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A12",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Accordingly, the guidance should incorporate the key validity concepts and FDA definitions of \u201cfit for purpose\u201d and \u201ccontext of use.\u201d",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A13",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T07",
+  "stance": "requests more specificity",
+  "source_span": "It would be helpful for FDA to provide a framework on different regulatory contexts of use for observational studies and how \u2018fit for purpose\u2019 validation of operational definitions would be considered within each context.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0040-A15",
+  "comment_id": "FDA-2020-D-2307-0040",
+  "theme_id": "T07",
+  "stance": "requests more specificity",
+  "source_span": "It would be helpful if the FDA would classify and summarize both the minimum requirements at a high level as well as potential enhancements that would strengthen the evidence quality.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0042-A02",
+  "comment_id": "FDA-2020-D-2307-0042",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "We echo the EHR Association\u2019s comments that alignment on a clear set of standards to ease the sharing of real-world data with the research environment would be helpful, with a focus on common vocabulary, structuredness, and relevant granularity in the source systems.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0042-A03",
+  "comment_id": "FDA-2020-D-2307-0042",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We suggest that targeted workshops would be the appropriate path to convene expert stakeholders to collaborate on key topics that enable such alignment",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0042-A09",
+  "comment_id": "FDA-2020-D-2307-0042",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "We therefore suggest that appropriate guidance must be provided on how to manage this consent process in the context of a clearly defined privacy framework.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0047-A01",
+  "comment_id": "FDA-2020-D-2307-0047",
+  "theme_id": "T12",
+  "stance": "supports as written",
+  "source_span": "Guardant Health appreciates that in this guidance FDA considers EHR and claims equally and \u201cdoes not seek to limit the possible sources of data that may be relevant to answering study questions,\u201d",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0047-A02",
+  "comment_id": "FDA-2020-D-2307-0047",
+  "theme_id": "T05",
+  "stance": "requests more specificity",
+  "source_span": "Given these benefits of claims data, in developing further guidance, Guardant Health urges FDA to continue to consider how claims data can be integrated with other data sources to support regulatory decision-making.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0049-A01",
+  "comment_id": "FDA-2020-D-2307-0049",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Convene regular RWD/E public workshops with industry to share emerging best practices and clarify thinking -- in areas that lack specificity -- as the information becomes available through applicants and data partners.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0049-A02",
+  "comment_id": "FDA-2020-D-2307-0049",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Consider platforms to create and share publicly available summaries based on lessons learned from previous RWD/E industry submissions, which could be done through publishing aggregate de-identified data on the number of submissions, context of use, study design, data type(s), therapeutic areas, etc.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0049-A03",
+  "comment_id": "FDA-2020-D-2307-0049",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "Proceed with issuing data-specific guidance for other data sources, such as clinical registries and digital health technologies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0049-A04",
+  "comment_id": "FDA-2020-D-2307-0049",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Move to establish data standards that further harmonize distributed data models that can be leveraged by the entire life sciences community and not just those contracts in various consortiums.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0049-A11",
+  "comment_id": "FDA-2020-D-2307-0049",
+  "theme_id": "T11",
+  "stance": "requests more flexibility",
+  "source_span": "FDA should explore avenues to improve data fluidity across the healthcare ecosystem to accelerate clinical trials and innovations, especially for underserved patient populations.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A03",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "We urge the FDA to consider the strengths and weaknesses of both types of data source, individually and combined,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A04",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "and provide additional guidance specific to other types of relevant or augmentative data sources.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A06",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "As part of the PDUFA VII pilot program, the FDA should also consider sponsoring convenings on the topic of data quality to promote alignment between FDA, sponsors, and data curators on appropriate data quality benchmarks and standards.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A09",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T01",
+  "stance": "supports as written",
+  "source_span": "We are supportive of the guidance document stressing the importance of variables being auditable and asking sponsors to be transparent about how data has been processed.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A12",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T02",
+  "stance": "requests more flexibility",
+  "source_span": "Further discussion from FDA on the concept of fit-for-purpose data with considerations for flexibility paired with transparent recording of trade-offs and limitations of data sources including documentation of standard operating procedures may also be useful, especially in areas where data options are limited.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A13",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T01",
+  "stance": "requests more flexibility",
+  "source_span": "the primary requirement for use of the resource should be such that the data used for decision-making mirrors the data found within the source system (e.g., ICD-10 diagnosis codes), data transformations are well",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0061-A14",
+  "comment_id": "FDA-2020-D-2307-0061",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "In addition, for data sources that might be used repeatedly, a special certification process that allows sponsors or data source owners to complete validation and verification processes for key data elements, followed by periodic reviews to ensure data standards are maintained, could be one approach to facilitate an efficient review process.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0019-A08",
+  "comment_id": "FDA-2020-D-2307-0019",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "It would be useful to have future guidance on types of regulatory and clinical settings that would justify an RWE study as part of the total evidence package (i.e., what are scenarios that RWE will be relevant to regulatory decision making).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0021-A05",
+  "comment_id": "FDA-2020-D-2307-0021",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "It would be helpful if the Agency would clarify whether they expect an investigator\u2019s review signature in the case where real-world data intended for submission are generated directly from electronic sources (e.g., EMR)?",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A01",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Since there are interdependencies between these four draft guidances in conducting a well- controlled RWE study program, we believe it is important to evaluate the series of guidances in their totality.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A02",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "EMD Serono believes that the FDA should consider how RWD can be standardized and used across similar databases etc. We encourage that FDA leverage prior knowledge and cross-reference familiar data sets, study designs, and analytical methods.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A03",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "We recommend that FDA considers endorsing the existing STaRT-RWE structured template for planning and reporting on the implementation of real world evidence (RWE) studies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A06",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Furthermore, we suggest that the FDA considers leveraging the estimand framework to articulate the guidance in reference to existing ICH guidance4.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0026-A12",
+  "comment_id": "FDA-2020-D-2307-0026",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "EMD Serono would find it helpful if FDA would provide more dedicated recommendations according to the regulatory context (eg. to the intended use of RWE as substantial or supportive evidence, or description of unmet need or population).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A01",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "we do request that FDA consider mechanisms for stakeholders to provide feedback to FDA on the RWD guidance series once all guidance documents have been made public to ensure completeness of the guidance series.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A02",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "The guidance would be significantly strengthened if FDA differentiated the various stakeholders and how the stakeholders may work together to support the considerations outlined in the guidance,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A10",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Janssen recommends that FDA allow for the use of other platforms (e.g., Structured Template and Reporting Tool for Real World Evidence (STaRT-RWE)) beyond ct.gov that were designed and more suitable for registration of RWD studies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A11",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "Janssen requests that FDA explicitly acknowledge this point in the guidance and discuss alternatives for providing such information to FDA, if the sponsor is not able to provide the RWD directly to FDA.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A12",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "To this end, we encourage FDA to adopt a flexible approach by developing and outlining in guidance \u201cbest practices\u201d that can be leveraged across various RWD analysis methods and that allow for flexibility in the future.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0033-A13",
+  "comment_id": "FDA-2020-D-2307-0033",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Janssen would also welcome FDA to make publicly available non-proprietary lessons learned for RWD study designs and methods to support shared learnings across industry.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0044-A03",
+  "comment_id": "FDA-2020-D-2307-0044",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "We strongly encourage ongoing cooperation and collaboration across government agencies and other stakeholders to support the one-time collection of data that can be used for multiple purposes,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0044-A05",
+  "comment_id": "FDA-2020-D-2307-0044",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Further, we encourage FDA to act as a convenor of various stakeholders who are evaluating similar questions in obtaining, curating, validating and linking data, to leverage a common effort and reduce continued fragmented approaches toward standardization.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0045-A01",
+  "comment_id": "FDA-2020-D-2307-0045",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "Future revisions to this guidance document should stress the dynamic nature of this topic and highlight FDA\u2019s flexibility and receptivity in engaging with data providers to creatively explore other concerns, approaches, and considerations specific to drug development programs.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0045-A02",
+  "comment_id": "FDA-2020-D-2307-0045",
+  "theme_id": "T11",
+  "stance": "requests more specificity",
+  "source_span": "Patient privacy must never be sacrificed at the expense of broader use of EHR data for regulatory decision making. Strong, HIPAA-compliant data security measures must always be in place to ensure the responsible use and disclosure of EHR data for all purposes.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0045-A03",
+  "comment_id": "FDA-2020-D-2307-0045",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "While acknowledging that the sponsor is ultimately accountable, we recommend FDA clarify the role of the data provider (e.g., EHR data curator/vendor) in support of regulatory decision making.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0056-A02",
+  "comment_id": "FDA-2020-D-2307-0056",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "it is unclear whether certification pursuant to any of these programs would be sufficient to justify the use of data from various laboratories to support a regulatory submission.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0056-A03",
+  "comment_id": "FDA-2020-D-2307-0056",
+  "theme_id": "T02",
+  "stance": "requests more specificity",
+  "source_span": "If FDA expects antimicrobial therapy sponsors to provide MIC data derived from the use of standard CLSI- approved broth micro-dilution procedures that can only be conducted in a centralized laboratory, then the ability for such sponsors to leverage EHR data in their regulatory submissions would be severely constrained.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0056-A06",
+  "comment_id": "FDA-2020-D-2307-0056",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "FDA\u2019s expectations surrounding the training and education of healthcare staff and the responsibility to perform quality checks of safety data reported in EHRs is needed.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A02",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "We therefore believe it would be helpful if FDA, when finalizing the Draft Guidance, could provide recommendations for how sponsors and analytics providers should evaluate the level of available information when deciding whether to use a commercially available dataset in a study.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A03",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "we encourage the Agency to further emphasize and describe its willingness to consider a clearly rationalized, tradeoff-based approach to the overall validity of a given study.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2020-D-2307-0062-A04",
+  "comment_id": "FDA-2020-D-2307-0062",
+  "theme_id": "T09",
+  "stance": "requests more flexibility",
+  "source_span": "To that end, we recommend the Agency align the language in the Draft Guidance to the approach in the draft guidance \u201cReal-World Data: Assessing Registries to Support Regulatory Decision-Making for Drug and Biological Products,\u201d",
+  "draft_section": null,
+  "section_inferred": false
+ }
+]

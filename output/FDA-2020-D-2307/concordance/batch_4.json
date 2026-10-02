@@ -1,0 +1,1723 @@
+{
+ "concordance": [
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A13",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Asks to expand scope to registries, wearables, pharmacy claims, DHTs and other data; the final still focuses only on EHRs and medical claims data.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A42",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposed edit targets the footnote defining 'clinical studies', which is not present in the available draft or final text, so the change cannot be located.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A43",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance does not provide recommendations on choice of study design or type of statistical analysis, and it does not endorse any type of data source or study methodology.",
+   "rationale": "Asks for clear, consistent definitions of study types; the final adds no definitions of study types in the body text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A44",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "Pursuant to this section, FDA created a framework for a program to evaluate the potential use of real-world evidence (RWE) to help support the approval of a new indication for a drug already approved under section 505(c) of the FD&C Act or help support or satisfy postapproval study requirements.",
+   "rationale": "Asks to clarify whether scope covers RWE supporting an NDA as pivotal evidence; the scope statement is substantively unchanged and does not address this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A45",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance is intended to provide sponsors and other interested parties with considerations when proposing to use electronic health records (EHRs) or medical claims data in clinical studies to support a regulatory decision on effectiveness or safety of a drug.",
+   "rationale": "Asks the guidance to name specific types of regulatory decisions; the final only adds 'of a drug' and does not enumerate decision types.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A46",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "RWD are data relating to patient health status or the delivery of health care routinely collected from a variety of sources.",
+   "rationale": "Asks to clarify whether 'routinely collected' in the RWD definition means secondary use; the definition is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A47",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "The RWE Program will cover clinical studies that use real-world data (RWD) sources, such as information from routine clinical practice, to derive RWE.",
+   "rationale": "Asks whether pragmatic trials and hybrid prospective designs are in scope; the final body text adds no such clarification (the scope footnote is not available to check).",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A48",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to add the role of estimands and the target trial framework; a search of the whole final finds no mention of estimands or target trials.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A50",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to clarify the range of study questions in scope (e.g., causal estimands only); the final adds no such clarification anywhere.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A51",
+   "section_id": "I",
+   "call": "partially adopted",
+   "evidence_span": "(3) Data traceability and quality during data accrual, data curation, and incorporation into the final study-specific dataset.",
+   "rationale": "Asks to reframe topic 3 around data reliability and traceability rather than 'provenance'; the final swaps 'provenance' for 'traceability' but does not otherwise restructure the topic or clarify its reach to the study report.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A52",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to clarify the term 'observational study'; the final adds no such definition.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A53",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks FDA to describe more clearly where reliability fits within the data quality recommendations; the final only shortens the reliability definition and adds no explanatory linkage.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A54",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks to add 'sufficient follow-up' to the relevance definition; the final relevance definition does not include follow-up.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A55",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for additional guidance directed at EHR/claims owners and vendors, which concerns other guidance documents rather than this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A56",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks what minimum level of traceability is acceptable; the final uses the term traceability but sets no threshold.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A236",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for more specific guidance so data quality assessments are consistent; the data quality reporting list is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A237",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks industry, data partners and FDA to collaborate on a data standards framework, which is a process request outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A238",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks FDA to clarify expectations for subject-level data submission; the final adds no such clarification.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A239",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks whether separate sponsor and vendor documents are acceptable for provenance information; the final does not address this option.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A240",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks whether data quality reports should be submitted with the protocol/SAP; the final text on automated data quality reports is unchanged and silent on submission timing.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A241",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to address its interpretations of Sentinel ICD-9 to ICD-10 trend analyses, which concerns FDA activities outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A242",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "The format and traceability of EHRs and medical claims data can vary significantly across health care entities (e.g., insurer, practice, provider, data vendor).",
+   "rationale": "Asks FDA to clarify the role of data vendors in data accrual; the final does not describe vendor roles.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A243",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks for explicit guidance on adequate provenance documentation; the final renames provenance as traceability but adds no documentation detail (generic rewording).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A244",
+   "section_id": "VI.A",
+   "call": "partially adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks to clarify whether QA testing obligations fall on sponsors or data providers; the final replaces 'researchers' with 'sponsors' as the party addressing data procedures, but item (2) on QA across sites is unchanged and data provider obligations are not addressed.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A245",
+   "section_id": "VI.A",
+   "call": "partially adopted",
+   "evidence_span": "(1) Methods for data retrieval and processes to minimize missing data extraction, implausible values, and data quality checks in data captured at the point of care (e.g., during clinical practice for manual or automated health care data collection processes) to ensure accuracy and completeness of data elements.",
+   "rationale": "Asks to define 'core data elements'; the final drops the qualifier 'core' (now 'data elements'), removing the undefined term, but adds no definition.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A246",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(7) Conformance to open, consensus-based data curation standards, when applicable.",
+   "rationale": "Asks to clarify the sponsor's role in determining curation standards; the item is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A247",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks whether intermediate data processing should be submitted for quality and traceability; the final adds no such clarification.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A248",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "It is important to report details of the linkage algorithm and appropriate metrics (e.g., linkage error rates, match rates, comparison of characteristics of linked and unlinked data).",
+   "rationale": "Asks for examples or best practices for data linkage; the linkage items in VI.A are unchanged apart from wording, and no best practices are added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A249",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "Quality control consists of the decisions and steps taken from data collection through compilation of the final analytic dataset to ensure it meets prespecified standards and to ensure the processes used are reproducible.",
+   "rationale": "Asks for discussion of code review versus double programming; the QA/QC section is unchanged and does not address this.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A250",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Proposes limiting submission and annotation to datasets, definition tables and code for key objectives; the final keeps 'all submitted programs' unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A251",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks to clarify the extent of annotation needed and when it is required; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A252",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks whether programs are submitted only on request; the final does not clarify this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A253",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks whether the annotation expectation applies to all submissions including postapproval safety studies; the final does not clarify this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A254",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "Processes used for managing and preparing the final study-specific analytic dataset should be described in the study protocol or analysis plan.",
+   "rationale": "Asks whether a specific data structure (e.g., ADaM) is recommended; the final names none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A255",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks what documentation is expected for analyses run within analytic platforms; the final does not address platforms.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A256",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "All manual and automated data retrieval and transformation processes should be thoroughly assessed from data collection through writing of the final study report to ensure integrity of the data.",
+   "rationale": "Asks the guidance to place responsibility on the data owner when sponsors lack source access; the final is unchanged on this point.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A257",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Information on potential confounders is collected in a nonrandomized study to support appropriate efforts to balance treatment and comparator groups in the analysis.",
+   "rationale": "Asks to refine the glossary definitions of confounders and effect modifiers; the final removed the glossary and does not provide a refined definition of confounder in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A258",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Asks to align the missing data definition with ICH E9(R1); the glossary definition was removed and the text on missing data contains no ICH E9(R1) alignment.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A01",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to note that estimand thinking and the target trial framework help formulate the study question; no mention of either appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A02",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "(1) Selection of data sources that appropriately address the study question and sufficiently characterize study populations, exposure(s), outcome(s) of interest, and key covariates.",
+   "rationale": "Asks to add intercurrent events to the topics list; the final list is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A18",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks FDA to clarify expectations on subject-level programs/data; the passage is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0034-A03",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should ensure that curation and transformation processes do not alter the meaning of data or cause the loss of important contextual information.",
+   "rationale": "Asks for transparency about data excluded during cleaning or harmonization; the final adds no such requirement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A55",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Asks to define 'metadata'; the final removed the glossary and uses 'metadata' without a definition.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A09",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "Pursuant to this section, FDA created a framework for a program to evaluate the potential use of real-world evidence (RWE) to help support the approval of a new indication for a drug already approved under section 505(c) of the FD&C Act or help support or satisfy postapproval study requirements.",
+   "rationale": "Asks to state that the guidance applies to products not yet approved; the scope statement is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0039-A10",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks whether further guidance on other RWD sources is planned, which concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A27",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks FDA to promote a standardized way of reporting dataset metadata; no such standard is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A28",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for evaluation standards for generalizability of RWE to other populations; no such content appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A29",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks for concrete use cases on reporting provenance; the final only renames provenance as traceability.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A30",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks for provenance guidance specific to EHR and claims data (e.g., wearable-originated data); none is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A31",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to collaborate with ONC on provenance standards, which is an agency process request.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A32",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks that data quality reports identify which EHR data sources sites draw from; the list is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A33",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for a template structuring how data quality assessments are reported; none is provided.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A34",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for criteria on how data quality dimensions will be scored; the final contains no scoring criteria.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0043-A35",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to build in a scheduled review process to share learnings, which is an agency process request.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0006-A01",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "The format and traceability of EHRs and medical claims data can vary significantly across health care entities (e.g., insurer, practice, provider, data vendor).",
+   "rationale": "Asks the guidance to discuss handling proprietary vendor systems for raw data collection; the final does not address this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A51",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) QA testing and data quality checks employed across sites, as well as the criteria used in determining whether data quality techniques are appropriate for the intended purpose of the data.",
+   "rationale": "Asks to address data accrual, curation and transformation by site; the final adds nothing beyond the unchanged reference to checks across sites.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A08",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(7) Any updates or changes in coding practices and versioning (e.g., ICD diagnosis codes, Healthcare Common Procedure Coding System codes) across the study period that are relevant to variables of interest.",
+   "rationale": "Asks for information on reliability/validity of ICD-10-CM versus ICD-9-CM codes and their transferability; the coding-change item is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0012-A09",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks to clarify the level of detail required about accrual, curation and transformation; the final does not specify it.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A05",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "Pursuant to this section, FDA created a framework for a program to evaluate the potential use of real-world evidence (RWE) to help support the approval of a new indication for a drug already approved under section 505(c) of the FD&C Act or help support or satisfy postapproval study requirements.",
+   "rationale": "Asks whether scope includes original approvals in addition to new indications and postapproval requirements; the scope statement is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A36",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks to acknowledge that the EHR database may be the only source; the final still recommends verifying data against its original source and even adds 'against its original source' in VI.A.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A37",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks to acknowledge that sponsors using licensed databases may lack access to vendor information; no such acknowledgment is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A38",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to request curation and QA/QC documentation directly from database vendors, which concerns agency behaviour.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A41",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Asks to acknowledge that de-identification is done by the data holder rather than the sponsor; the revised item does not attribute it to the data holder.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A42",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks to clarify whether analytic datasets must be submitted given license limits; the final does not address this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A43",
+   "section_id": "II",
+   "call": "not adopted",
+   "evidence_span": "This guidance also provides a broader overview of considerations relating to the use of EHRs and medical claims data in clinical studies more generally, including studies intended to inform FDA’s evaluation of product effectiveness.",
+   "rationale": "Asks to clarify the extent of coverage of pharmacoepidemiologic safety and postapproval studies; the background is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A44",
+   "section_id": "II",
+   "call": "not adopted",
+   "evidence_span": "This guidance also provides a broader overview of considerations relating to the use of EHRs and medical claims data in clinical studies more generally, including studies intended to inform FDA’s evaluation of product effectiveness.",
+   "rationale": "Asks to highlight situations where considerations differ across clinical studies; no such discussion is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to retire the 2013 guidance and fold its content in, which concerns another guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A04",
+   "section_id": "II",
+   "call": "not adopted",
+   "evidence_span": "This guidance complements the 2013 guidance by expanding on certain aspects of that guidance relating to the selection of data sources, and provides additional guidance for evaluating the relevance and reliability of both EHRs and medical claims data for use in a clinical study.",
+   "rationale": "Asks for examples clarifying when to consult this guidance versus the 2013 guidance; the background text is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A12",
+   "section_id": "VI.A",
+   "call": "adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Endorses standardizing processes for data accrual, curation and transformation; the recommendation for standardized data quality reports survives in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A13",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks to acknowledge that sponsors may not control procedures creating the dataset; the final instead assigns these procedures to sponsors.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0025-A14",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for best practices when accrual/curation/transformation information is unavailable; no such content appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A06",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance does not provide recommendations on choice of study design or type of statistical analysis, and it does not endorse any type of data source or study methodology.",
+   "rationale": "Asks for methodological considerations and case studies; the final keeps the statement that it does not address study design or statistical analysis.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A21",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks which data elements and formats are required for submission; the final does not specify them.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A22",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "A QA/QC plan for construction of analytical data, the planned approach for handling quality control issues during analysis, and contemplation of differing levels of data quality by data element (and the potential implications on study findings) should be described in the study protocol and analysis plan.",
+   "rationale": "Asks for minimum data quality checks/QA required for acceptance; the QA/QC section is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A26",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "The capture of patients’ health care information in a medical claim or EHR data source depends on continuity of coverage (i.e., enrollment and disenrollment from the health insurance plan) and continuity of care (i.e., continuous interaction with the health care system).",
+   "rationale": "Asks to define 'continuity of care'; the glossary was removed but the final text now defines continuity of care inline in IV.B.1.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A45",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks to map the listed topics to relevance and reliability; the final does not do so.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A46",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks to define reliability and relevance earlier; the definitions remain in the same position at the end of section I.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A80",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks to add change logs to support data quality during accrual; no mention of change logs is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A81",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks for illustrative examples of documentation of changes from extraction to analytic dataset; none are added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A82",
+   "section_id": "VI.A",
+   "call": "adopted",
+   "evidence_span": "(2) De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Proposes rewording the de-identification item to 'any process that could be used to re-identify... (e.g., use of linkage tokens)'; the final adopts this wording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A83",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "Choice of a reference standard may vary by study design and question, variable of interest, and the necessary level of certainty.",
+   "rationale": "Asks for considerations on ground truth/gold standard, cross-source discrepancies and adjudication; the final adds discussion of how reference standards are chosen, but not discrepancy handling or adjudication.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A84",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(4) Handling data discrepancies and duplicate records.",
+   "rationale": "Asks for a hierarchical algorithm of truth with FDA-identified gold-standard references for discrepant data; the final adds none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A85",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(4) Handling data discrepancies and duplicate records.",
+   "rationale": "Asks FDA to encourage assessing whether discrepancies are plausible; the discrepancy item is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A86",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Asks to define 'metadata' and 'data linkage'; the final removed the glossary and defines neither in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A87",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(5) Unstructured and structured data processing (e.g., abstraction and conversion of unstructured data to structured data), including manual versus automated techniques.",
+   "rationale": "Asks to add abstraction of unstructured data to the glossary 'data curation' definition; the definition was removed rather than expanded, and the curation list is unchanged.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A88",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "Table 1: Schematic Representation of the Calculation of Sensitivity, Specificity, Positive Predictive Value (PPV), and Negative Predictive Value (NPV) for a Binary Variable",
+   "rationale": "Asks to define sensitivity/specificity generally rather than in terms of disease; the final removed the disease-based glossary definitions and relies on the Table 1 schematic for a generic binary variable, but adds no new general definitions.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A89",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA also recommends using quantitative approaches, such as quantitative bias analyses, either a priori for feasibility assessment, or to facilitate interpretation of study results, or for both purposes, to demonstrate whether and how misclassification, if present, might impact study findings.",
+   "rationale": "Asks to incorporate quantitative bias analysis when validation against a reference standard is limited; the final adds a general recommendation for quantitative bias analyses alongside the moved validation definition.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A06",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "A QA/QC plan for construction of analytical data, the planned approach for handling quality control issues during analysis, and contemplation of differing levels of data quality by data element (and the potential implications on study findings) should be described in the study protocol and analysis plan.",
+   "rationale": "Asks that data quality dimensions relevant to the question and their assessment be included in the framework; the QA/QC section is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A07",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "Processes used for managing and preparing the final study-specific analytic dataset should be described in the study protocol or analysis plan.",
+   "rationale": "Calls for a detailed data management plan; the existing text on describing data management processes is unchanged and no plan requirement is added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A11",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(4) Assessment of completeness of data elements including trends over time.",
+   "rationale": "Asks to acknowledge that completeness may only be assessable after aggregation; no such flexibility is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A12",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks to change Figure 1 labels; the figure content is not reproduced in the available text, so the change cannot be located.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A14",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(3) Data checks implemented on the final analytic dataset for implausible values for data elements (e.g., height, weight, blood pressure), how such values are addressed, and the completeness of data for key analytic variables.",
+   "rationale": "Asks that all steps removing poor-quality data be described and justified; the final adds no such requirement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A15",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "A QA/QC plan for construction of analytical data, the planned approach for handling quality control issues during analysis, and contemplation of differing levels of data quality by data element (and the potential implications on study findings) should be described in the study protocol and analysis plan.",
+   "rationale": "Asks for practice- and patient-level descriptions of data quality; none is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0024-A07",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Asks to broaden beyond EHR and claims data; the final keeps the same focus.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0030-A06",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Asks how FDA would consider other RWD sources; the final adds nothing on this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0030-A07",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for detailed examples such as minimum data sets for emerging data sources; none appear in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0038-A05",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "A QA/QC plan for construction of analytical data, the planned approach for handling quality control issues during analysis, and contemplation of differing levels of data quality by data element (and the potential implications on study findings) should be described in the study protocol and analysis plan.",
+   "rationale": "Asks to build in product development lifecycle management concepts into QA/QC; the section is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A43",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks to clarify which elements are required instead of 'when applicable to the chosen data source'; the phrase is retained.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A45",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for separate data quality lists for EHR and claims data; the final keeps a single list.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A46",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(7) Conformance to open, consensus-based data curation standards, when applicable.",
+   "rationale": "Asks for references to specific consensus-based curation standards; none are named.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A47",
+   "section_id": "IV.B.2",
+   "call": "not adopted",
+   "evidence_span": "For studies that require combining data from multiple data sources or study sites, FDA recommends demonstrating whether and how data from different sources can be obtained and integrated with acceptable sample size and quality, given the potential for heterogeneity in clinical and coding practices across data sources or systems.",
+   "rationale": "Asks for explicit discussion of trade-offs between dataset size and data quality; the final only mentions acceptable sample size and quality together, without discussing trade-offs.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A48",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The process is not a onetime assessment; rather, it is an ongoing process in which data quality checks, cleansing, and monitoring occur at each phase in the cycle, and some checks may be repeated (i.e., occur in multiple phases of the cycle).",
+   "rationale": "Asks to define 'data cleansing' in the main body; the term is still used without definition.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A03",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for a framework of data quality metrics in an appendix; no appendix is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A04",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Asks to cover pharmacy/prescription claims data explicitly; the scope still refers to medical claims data.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A42",
+   "section_id": "VI",
+   "call": "adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Endorses the section VI data quality recommendations; they survive substantively in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A43",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks for specific documentation expectations for traceability/provenance; the final renames provenance but adds no documentation detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A44",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks how to specify provenance from source event to study report; no such guidance is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A45",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(3) Algorithms used to transform and cleanse the data, as well as availability of standard operating procedures, including procedures for verifying the data against its original source.",
+   "rationale": "Asks FDA to confirm sponsors should provide data provider SOPs, data management plans and programs; the final adds no such confirmation beyond the unchanged mention of SOP availability.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A48",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for consistent use of the term 'clinical studies' tied to footnote 7, which is not present in the available text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A49",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to clarify 'observational study'; no definition is added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A50",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "(2) Development and validation of definitions for study design elements (e.g., exposures, outcomes, covariates).",
+   "rationale": "Asks to add population to the study design elements example list; the final list still names exposures, outcomes and covariates only.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A51",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks to add 'sufficient follow-up time' to relevance; the final relevance definition omits it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A78",
+   "section_id": "VI.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) Data elements that are well-defined with consistent and known clinical meaning and understanding of data traceability, as well as documentation of clinical definitions used.",
+   "rationale": "Asks to define 'core data elements' and distinguish them from 'key data elements'; the final drops 'core' from these items rather than defining it.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A79",
+   "section_id": "VI.A",
+   "call": "partially adopted",
+   "evidence_span": "(3) Algorithms used to transform and cleanse the data, as well as availability of standard operating procedures, including procedures for verifying the data against its original source.",
+   "rationale": "Asks for a reconciliation step between source data and CDM-transferred data; the final now specifies verifying the data 'against its original source' in the transformation item, though no explicit reconciliation step is added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A80",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to define 'exposure' and 'discontinuation' in the glossary; the glossary was removed and neither definition appears in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A81",
+   "section_id": "IV.D.1",
+   "call": "not adopted",
+   "evidence_span": "A conceptual definition should reflect current medical and scientific thinking regarding the variable of interest, such as: (1) clinical criteria to define a condition for population selection or as an outcome of interest or a covariate; or (2) measurement of drug intake to define an exposure of interest.",
+   "rationale": "Asks for more comprehensive definitions with practical examples (e.g., conceptual/operational definitions); the glossary was removed and the text explanation of conceptual definitions is essentially unchanged, now under its own heading.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A82",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": "There are two broad scenarios in which information may be absent from data sources. The first scenario is when the information was intended to be collected (e.g., structured field present in EHRs), but is absent from the data sources.",
+   "rationale": "Asks to align the missing data definition with ICH E9(R1); the glossary definition was removed and no ICH E9(R1) alignment appears.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0005-A01",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "It is important to report details of the linkage algorithm and appropriate metrics (e.g., linkage error rates, match rates, comparison of characteristics of linked and unlinked data).",
+   "rationale": "Raises that proprietary probabilistic MPI linkage algorithms hinder characterization; the final adds nothing on this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0014-A01",
+   "section_id": "REFERENCES",
+   "call": "not adopted",
+   "evidence_span": "Porta, M, 2014, A Dictionary of Epidemiology, Sixth Edition, New York (NY): Oxford University Press.",
+   "rationale": "Asks to cite wound-care-specific articles; the final reference list does not include them.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A01",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance is intended to provide sponsors and other interested parties with considerations when proposing to use electronic health records (EHRs) or medical claims data in clinical studies to support a regulatory decision on effectiveness or safety of a drug.",
+   "rationale": "Asks to extend applicability to vaccines, gene therapies, regenerative medicines and devices; the final scope instead specifies 'of a drug'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A02",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to mandate registration and results reporting of RWD studies, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A03",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks to define 'representative patients' with demographic/comorbidity criteria; the term remains undefined.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A27",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks FDA to require dataset submission for independent analysis; no such requirement is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A28",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(3) Timeliness of data availability, data years spanned, and continuity of coverage (e.g., median duration of patient enrollment).",
+   "rationale": "Asks to require comparison of patients with and without continuous coverage; the item is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A29",
+   "section_id": "VI.A",
+   "call": "adopted",
+   "evidence_span": "(7) Any updates or changes in coding practices and versioning (e.g., ICD diagnosis codes, Healthcare Common Procedure Coding System codes) across the study period that are relevant to variables of interest.",
+   "rationale": "Supports including updates or changes in coding practices; the item survives in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A30",
+   "section_id": "VI.C",
+   "call": "adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Supports annotation of all submitted programs; the sentence survives unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0018-A02",
+   "section_id": "VI.B",
+   "call": "adopted",
+   "evidence_span": "A QA/QC plan for construction of analytical data, the planned approach for handling quality control issues during analysis, and contemplation of differing levels of data quality by data element (and the potential implications on study findings) should be described in the study protocol and analysis plan.",
+   "rationale": "Endorses the QA/QC and data management recommendations; they survive substantively in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A17",
+   "section_id": "REFERENCES",
+   "call": "not adopted",
+   "evidence_span": "Porta, M, 2014, A Dictionary of Epidemiology, Sixth Edition, New York (NY): Oxford University Press.",
+   "rationale": "Asks to reference ISPOR, ISPE, ENCePP and other key papers; the final reference list adds none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A64",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(10) Procedures for adjudicating discrepancies in linked data as well as plans for handling linkage discrepancies (e.g., adjusting risk estimates for the linkage error).",
+   "rationale": "Asks for flexible approaches to reconciliation outside formal linkages; none are added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A65",
+   "section_id": "V.A",
+   "call": "partially adopted",
+   "evidence_span": "For example, healthcare avoidance or limited access to healthcare during a pandemic may adversely impact the assessment of patients’ underlying conditions for studies using RWD during or after the pandemic.",
+   "rationale": "Asks for considerations for data spanning pandemic periods; the final adds a pandemic example in section V.A on temporal changes, but nothing specific in section VI.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A66",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "Advances include natural language processing, machine learning, and particularly deep learning to: (1) extract data elements from unstructured text in EHRs; (2) develop computer algorithms that identify outcomes; or (3) evaluate images or laboratory results.",
+   "rationale": "Asks to add further AI uses such as data quality evaluation; the list of AI uses is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A67",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks what consensus-based data standards means (e.g., CDISC/SDTM); the final does not specify.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A68",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks that evaluation be proportionate to the importance of specific data fields; the sentence is not made conditional on field importance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A69",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks that data aggregators provide curation documentation; no such expectation is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A70",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks to split responsibilities between sponsors and data aggregators (e.g., flow chart); the final only replaces 'researchers' with 'sponsors'.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A71",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks to specify the role of data aggregators instead of 'researchers'; the final replaces 'researchers' with 'sponsors', not aggregators.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A72",
+   "section_id": "VI.A",
+   "call": "adopted",
+   "evidence_span": "(9) Additional harmonization and mapping considerations, if applicable (if data spans multiple countries—e.g., U.K. data used in addition to U.S. data).",
+   "rationale": "Supports acknowledging foreign data used alongside U.S. data; the item survives in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A73",
+   "section_id": "VI.A",
+   "call": "partially adopted",
+   "evidence_span": "(2) De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Asks for clarification that re-identification may not be possible; the final softens 'ability to re-identify' to 'any process that could be used to re-identify', but does not address regulatory barriers.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A74",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks for flexibility for data not directly available from the data owner; the final adds none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A75",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks what sponsors should do when data origin or algorithm details are proprietary; the final does not address this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A76",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks for specifics on documentation for traceability/provenance and timing; the final adds none beyond renaming.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A77",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks whether analytic datasets must be handed over given licensing limits; the final does not clarify.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A78",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks whether expectations extend to analytic tools such as Aetion or Panalgo; the final does not address them.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A79",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "All manual and automated data retrieval and transformation processes should be thoroughly assessed from data collection through writing of the final study report to ensure integrity of the data.",
+   "rationale": "Asks for flexibility recognizing documentation varies across data sources; the final keeps 'thoroughly assessed' without added flexibility.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0042-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for a future companion guidance for data source providers, which concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0042-A04",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks to align with ONC's USCDI standard; no reference to USCDI is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0042-A05",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should ensure that curation and transformation processes do not alter the meaning of data or cause the loss of important contextual information.",
+   "rationale": "Asks for transparency about data excluded during cleaning or harmonization; no such requirement is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0047-A04",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks for allowances for alternative approaches when source data access is infeasible; the final keeps the recommendation to verify against original source without added alternatives.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0049-A05",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for a set of must-have data checks; none is specified.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A13",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for preferred report templates or examples; none are included.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A14",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(1) Methods for data retrieval and processes to minimize missing data extraction, implausible values, and data quality checks in data captured at the point of care (e.g., during clinical practice for manual or automated health care data collection processes) to ensure accuracy and completeness of data elements.",
+   "rationale": "Asks whether FDA prefers when data errors are cleaned; the final does not say.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A15",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(1) Methods for data retrieval and processes to minimize missing data extraction, implausible values, and data quality checks in data captured at the point of care (e.g., during clinical practice for manual or automated health care data collection processes) to ensure accuracy and completeness of data elements.",
+   "rationale": "Asks whether data holders must report statistics on non-transferred data; the final does not address this.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A16",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(4) Assessment of completeness of data elements including trends over time.",
+   "rationale": "Asks that completeness be considered at the clinical workflow level; the completeness item is reworded only.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A17",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(8) Any other changes in the data (e.g., collection, reporting, definitions) during the study period and their potential impact on the study results.",
+   "rationale": "Raises that provenance can change across multi-year extracts in prospective studies; no specific content is added beyond the unchanged item on changes in data.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A18",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to encourage public availability of data check definitions; no such encouragement appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A19",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to pre-clear certain transformations or data endpoints, which concerns agency process rather than guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A20",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks whether annotation applies only to the final analytic dataset or earlier stages; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A07",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks that data curators be transparent about curation procedures in submissions; no curator-specific expectation is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A11",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "A QA/QC plan for construction of analytical data, the planned approach for handling quality control issues during analysis, and contemplation of differing levels of data quality by data element (and the potential implications on study findings) should be described in the study protocol and analysis plan.",
+   "rationale": "Suggests requesting data management plans anchored in QA/QC; the QA/QC plan text is unchanged and no data management plan request is added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A22",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "(1) Selection of data sources that appropriately address the study question and sufficiently characterize study populations, exposure(s), outcome(s) of interest, and key covariates.",
+   "rationale": "Proposes editing topic 1 to sources with greatest potential and limited bias/confounding; the topic is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A23",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to reference the target trial framework and estimand thinking for assessing data source suitability; neither appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A02",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "In general, sponsors should address the procedures used to ensure completeness and accuracy of study data, as well as processes for data accrual, curation, and transformation over the data life cycle. The FDA recommends automated data quality reports that include the following characteristics and processes in a standardized way, when applicable to the chosen data source:",
+   "rationale": "Asks for a data quality framework in an appendix; no appendix is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A09",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Notes content could apply to broader RWD (registries, chart review, prospective studies); the final scope is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A12",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes editing footnote 7's definition of clinical studies, which is not present in the available text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A46",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to address its interpretations of Sentinel ICD-9 to ICD-10 analyses, which concerns agency activities outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A47",
+   "section_id": "VI.C",
+   "call": "not adopted",
+   "evidence_span": "To facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).",
+   "rationale": "Asks to clarify the extent of annotation needed and when required; the sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A04",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "Pursuant to this section, FDA created a framework for a program to evaluate the potential use of real-world evidence (RWE) to help support the approval of a new indication for a drug already approved under section 505(c) of the FD&C Act or help support or satisfy postapproval study requirements.",
+   "rationale": "Asks to expand scope beyond approved drugs; the scope statement is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A05",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Asks to state that the content applies to registries; the final still focuses on EHRs and claims.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A07",
+   "section_id": "III",
+   "call": "partially adopted",
+   "evidence_span": "The use of certain study design features or specific analyses to address misclassified or missing information, as well as methods to achieve covariate balance are out of scope of this guidance.",
+   "rationale": "Asks for clarity on elements out of scope; the final now states explicitly that certain design features, analyses and covariate balance methods are out of scope, though section I adds no out-of-scope list.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A14",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(4) The extent, percentage, and pattern of missingness and implausible data. Depending on the analysis plan’s proposed method for handling missing data, imputations may be performed and included in the final analytic dataset and the type of imputation described.",
+   "rationale": "Asks to expand the missingness item with feasibility, imputation methods and proxy variables; the item is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A24",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks for glossary definitions of key study periods; the glossary was removed and time periods are still only listed as examples to define in the protocol.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A27",
+   "section_id": "VI",
+   "call": "partially adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks to clarify the data provider's role while acknowledging sponsor accountability; the final makes sponsors the responsible party (replacing 'researchers') but does not describe the data provider's role.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A28",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks that evidence of completeness, accuracy and plausibility be obtained from the data provider at feasibility; the final does not add this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A09",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks to state that RWD can serve as external control arms; the relevant text (the scope footnote) is not present in the available text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A14",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance is intended to provide sponsors and other interested parties with considerations when proposing to use electronic health records (EHRs) or medical claims data in clinical studies to support a regulatory decision on effectiveness or safety of a drug.",
+   "rationale": "Asks to add data providers to the intended audience; the final instead narrows the audience to 'sponsors and other interested parties'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A15",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "Pursuant to this section, FDA created a framework for a program to evaluate the potential use of real-world evidence (RWE) to help support the approval of a new indication for a drug already approved under section 505(c) of the FD&C Act or help support or satisfy postapproval study requirements.",
+   "rationale": "Asks whether effectiveness evaluation pertains to original or supplemental approvals; no clarification is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A16",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks in which guidance FDA will address pharmacy claims and patient-mediated data, which concerns other guidances.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A17",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "This guidance focuses on health-related data recorded by providers that can be extracted from two sources: EHRs and medical claims data.",
+   "rationale": "Asks about applicability to patient-mediated data; the final does not address it.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0044-A01",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks to recognize sponsors may need to work with the data technology provider; no such recognition is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A04",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "Although FDA does not endorse any particular set of guidelines or checklists, sponsors should evaluate the completeness, accuracy, and plausibility of the data, including verifying data against its original source (e.g., discharge notes, pathology reports, registry records) and conforming to consensus- based data standards, where applicable.",
+   "rationale": "Asks that sponsors obtain evidence of data quality from the data provider during feasibility; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A17",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(3) Data checks implemented on the final analytic dataset for implausible values for data elements (e.g., height, weight, blood pressure), how such values are addressed, and the completeness of data for key analytic variables.",
+   "rationale": "Asks to flag rather than delete improbable values; the final adds no such recommendation.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A18",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to require HIPAA BAAs/DUAs for parties using identifiable EHR data; no such content appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A19",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) De-identification of patient records and any process that could be used to re-identify unique patients in original source data without losing traceability (e.g., use of linkage tokens).",
+   "rationale": "Asks that data providers establish de-identification policies and validation reports; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A20",
+   "section_id": "VI.B",
+   "call": "not adopted",
+   "evidence_span": "A multidisciplinary approach that includes clinical input is necessary to ensure adequate capture and handling of data, particularly for electronic health care systems, which inherently incorporate nuances and intricacies of health care delivery.",
+   "rationale": "Asks for a dedicated HIPAA-compliant clinical operations group for QA/QC; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A21",
+   "section_id": "VI.C",
+   "call": "adopted",
+   "evidence_span": "All manual and automated data retrieval and transformation processes should be thoroughly assessed from data collection through writing of the final study report to ensure integrity of the data.",
+   "rationale": "Supports thorough assessment of data retrieval and transformation processes; the sentence survives substantively.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0046-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to consider the role of clearinghouses in its RWE Program, which concerns agency programs rather than guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A11",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Information on potential confounders is collected in a nonrandomized study to support appropriate efforts to balance treatment and comparator groups in the analysis.",
+   "rationale": "Asks to restructure the glossary confounder definition; the glossary was removed and no confounder definition appears in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A12",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to flesh out the 'data curation' definition; the glossary definition was removed and no expanded definition appears in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A13",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "in general, the life cycle involves multiple phases: data accrual from the original source data; curation of data to the clinical data repository; transformation and de-identification of data where necessary, creation of a data warehouse; and production of a study-specific dataset for analysis (see Figure 1).",
+   "rationale": "Asks to distinguish 'data repository' from 'data warehouse'; the glossary was removed and the text still uses both terms without distinguishing them.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A14",
+   "section_id": "VI",
+   "call": "partially adopted",
+   "evidence_span": "in general, the life cycle involves multiple phases: data accrual from the original source data; curation of data to the clinical data repository; transformation and de-identification of data where necessary, creation of a data warehouse; and production of a study-specific dataset for analysis (see Figure 1).",
+   "rationale": "Objects to the glossary statement that a data warehouse contains de-identified data; the definition was removed and the text describes de-identification only 'where necessary', though that text was already in the draft.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A11",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks to add 'any necessary lookback period' to the study period definition; the glossary definition was removed and no lookback period is added.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  }
+ ]
+}

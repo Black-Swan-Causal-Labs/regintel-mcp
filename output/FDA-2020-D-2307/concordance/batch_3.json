@@ -1,0 +1,1742 @@
+{
+ "caveat": "Concordance, not impact. These calls record whether the final guidance text moved in the direction a commenter asked for. Changes between draft and final also reflect FDA's internal review, ICH M14, other guidances, and evolving science. A matching change does not show that a comment caused it.",
+ "concordance": [
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A49",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for estimand discussion in future draft guidances; concerns other guidance documents, outside this text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A157",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": "The ascertainment and validation of study design elements are discussed in detail below. The study questions of interest should be established first, and then the data source and study design most appropriate for addressing these questions should be determined.",
+   "rationale": "Asks to retitle section V (e.g., 'Defining Study Variables'); the final keeps the heading 'STUDY DESIGN ELEMENTS'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A158",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": "The ascertainment and validation of study design elements are discussed in detail below. The study questions of interest should be established first, and then the data source and study design most appropriate for addressing these questions should be determined.",
+   "rationale": "Asks for a reference to ICH E9(R1); the final contains no E9(R1) or estimand reference.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A71",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": "The ascertainment and validation of study design elements are discussed in detail below. The study questions of interest should be established first, and then the data source and study design most appropriate for addressing these questions should be determined.",
+   "rationale": "Asks to retitle section V; the final keeps the heading 'STUDY DESIGN ELEMENTS'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A26",
+   "section_id": "V",
+   "call": "adopted",
+   "evidence_span": "The ascertainment and validation of study design elements are discussed in detail below. The study questions of interest should be established first, and then the data source and study design most appropriate for addressing these questions should be determined.",
+   "rationale": "Supports establishing the study question before choosing data source and design; the final retains this text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A43",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": "The study should not be designed to fit a specific data source, because the limitations of a specific data source may restrict the options for study design and limit the inferences that can be drawn.",
+   "rationale": "Asks for acknowledgment that not all design pitfalls can be addressed (flexibility); the final section V intro adds no such tradeoff language.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A44",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for clarification of how RCTs for the product could inform RWE design; searched sections V-V.E and found no such content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A45",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to mention the target trial approach; 'target trial' does not appear anywhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A47",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": "The study should not be designed to fit a specific data source, because the limitations of a specific data source may restrict the options for study design and limit the inferences that can be drawn.",
+   "rationale": "Asks for flexibility that a study design may be shaped by the data source; the final retains that the study should not be designed to fit a specific data source.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A48",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for content on matching/pseudo-randomization choices; the final adds none (and drops the pointer to other RWE design guidances).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A22",
+   "section_id": "V",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to invite sponsors to list variables of interest and include them in analysis (e.g., via DAGs); no such recommendation appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A159",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to address immortal time bias; 'immortal' appears nowhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A26",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to address immortal time during follow-up; 'immortal' appears nowhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A35",
+   "section_id": "V.A",
+   "call": "partially adopted",
+   "evidence_span": "The protocol should demonstrate the data availability, accuracy, and completeness for the proposed time periods and the potential impact on study validity.",
+   "rationale": "Asks that time-period guidance be centered on data availability and design topics like time-varying covariates be dropped; the final reframes V.A around data availability, accuracy and completeness but still discusses time-varying covariates.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A57",
+   "section_id": "V.A",
+   "call": "adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks to add a 'washout' period to the examples; the final adds '“washout” time period if applicable'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A67",
+   "section_id": "V.A",
+   "call": "adopted",
+   "evidence_span": "For example, healthcare avoidance or limited access to healthcare during a pandemic may adversely impact the assessment of patients’ underlying conditions for studies using RWD during or after the pandemic.",
+   "rationale": "Asks for FDA thinking on periods with limited access to care such as a pandemic; the final adds a pandemic healthcare-avoidance example.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A09",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks to require a description of the beginning and end of data acquisition; the final V.A list of time periods does not include it.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A27",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks for explicit index-date and peri-index assessment windows; 'index date' does not appear in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A28",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidance on assigning patients to time periods in time-series estimates; no such content is in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A29",
+   "section_id": "V.A",
+   "call": "adopted",
+   "evidence_span": "Other relevant factors may include payer or provider policies (if known), such as formulary changes, step therapy, and laboratory assay changes.",
+   "rationale": "Asks to broaden 'insurance formulary changes' to payer/insurer policies including formulary changes, step therapy and assay changes; the final adopts near-identical wording ('payer or provider policies').",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A30",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to add post-approval time-period considerations (product availability, administration restrictions, guideline uptake); the final contains none of these.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A14",
+   "section_id": "V.A",
+   "call": "adopted",
+   "evidence_span": "The protocol should also address potential temporal changes in the standard of care, the availability of other treatments, diagnosis criteria, and any other relevant factors that are pertinent to the accuracy and completeness of data for study variables.",
+   "rationale": "Supports the requirement to address temporal changes in standard of care, treatments and diagnosis criteria; the final retains it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A46",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to address alignment of eligibility, baseline and treatment initiation (time zero); no such content in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A04",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "The protocol should also address potential temporal changes in the standard of care, the availability of other treatments, diagnosis criteria, and any other relevant factors that are pertinent to the accuracy and completeness of data for study variables.",
+   "rationale": "Questions the relevance/burden of addressing temporal changes (flexibility); the final keeps and expands the requirement.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A38",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": "A crucial step in selecting a data source is determining whether it captures the clinical outcome of interest.",
+   "rationale": "Asks for guidance on using routine-practice outcomes valued by patients and HCPs; the final V.D adds no such guidance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A193",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to cover continuous and time-to-event outcomes and censoring; 'censor' appears nowhere in the final and no such outcomes discussion was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A55",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to cover continuous and time-to-event outcomes and censoring; no such content was added to the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0020-A05",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": "A crucial step in selecting a data source is determining whether it captures the clinical outcome of interest.",
+   "rationale": "Asks to rephrase 'outcomes' as 'key measures/key variables of interest'; the final V.D still refers to outcomes.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A20",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for clarification of how the point applies to prospective observational EHR studies; no such clarification appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A21",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": "A crucial step in selecting a data source is determining whether it captures the clinical outcome of interest.",
+   "rationale": "Asks the section to open by noting sponsors may extrapolate existing knowledge to a new study; the V.D opening is not changed in that direction.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0036-A02",
+   "section_id": "V.D",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks that manufacturers bring the patient voice in early; concerns sponsor process rather than guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A71",
+   "section_id": "V.D",
+   "call": "adopted",
+   "evidence_span": "In general, the likelihood of capturing outcomes may vary by disease type and the extent to which the patient has ongoing encounters with health care professionals that could lead to additional information being documented in medical records.",
+   "rationale": "Asks to note that outcome capture varies by disease type and the extent of ongoing encounters with health care professionals; the final adds near-verbatim text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A08",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": "When patient- or physician-generated data (e.g., data required for subjective end points) are proposed to assess the outcome of interest or to complement operational definitions, the protocol should specify how the outcome measure (e.g., sign score, severity index) will be defined and constructed and validated, if applicable, and how the data will be collected.",
+   "rationale": "Asks for recognition of PROMs captured in registries and EHRs; the final's patient-generated data text is unchanged from the draft.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A09",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": "When patient- or physician-generated data (e.g., data required for subjective end points) are proposed to assess the outcome of interest or to complement operational definitions, the protocol should specify how the outcome measure (e.g., sign score, severity index) will be defined and constructed and validated, if applicable, and how the data will be collected.",
+   "rationale": "Asks to state PROM selection criteria (validity, reliability, responsiveness, feasibility, relevance); the final does not add them.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A36",
+   "section_id": "V.D",
+   "call": "not adopted",
+   "evidence_span": "If the operational definition includes information abstracted from unstructured data in the EHRs or another data source (e.g., mention of spina bifida in birth certificate records for the identification of neural tube defects in infants), the protocol should provide a detailed description and rationale for the methods and tools used to process the unstructured data and the validation of those methods.",
+   "rationale": "Asks for consideration of structured vs unstructured outcome derivation and ascertainment differences; the final's unstructured-data text is unchanged in substance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A54",
+   "section_id": "V.D",
+   "call": "partially adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks for acceptable approaches to validate real-world endpoints; the final now lists validation options and ties extent to certainty, but gives no endpoint-specific approaches or supportive-data criteria.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A195",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "Since achievement of an objective response (tumor shrinkage), or the date of tumor progression based on standardized clinical trial criteria (e.g., RECIST 1.1) is not typically captured in RWD sources, proxy measures or multi-component definitions may need to be explored and their use justified.",
+   "rationale": "Asks how RECIST data measured in a fraction of patients could be leveraged; the final RECIST passage is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A196",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should discuss the proposed outcomes definitions and the appropriateness of proxy measures with the FDA review division.",
+   "rationale": "Asks for clarity on validation needed for surrogate RWD tumor endpoints; the final only adds discussing proxy appropriateness with the division, no validation detail.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A45",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "Since achievement of an objective response (tumor shrinkage), or the date of tumor progression based on standardized clinical trial criteria (e.g., RECIST 1.1) is not typically captured in RWD sources, proxy measures or multi-component definitions may need to be explored and their use justified.",
+   "rationale": "Asks for additional guidance on implementing tumor-based outcomes in RWD; the final passage is substantively unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A46",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for validation requirements for outcomes ascertained differently in clinical settings vs RCTs; no such content was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A63",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should discuss the proposed outcomes definitions and the appropriateness of proxy measures with the FDA review division.",
+   "rationale": "Asks what information justifies a proxy measure and what multi-component definitions are; the final only adds discussing proxy appropriateness with FDA, without defining either.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A72",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends defining an outcome of interest based on the clinical, biological, psychological, and functional concepts of the condition, as appropriate.",
+   "rationale": "Asks to add timeframe as a concept for defining outcomes; the final list of concepts is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A20",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should discuss the proposed outcomes definitions and the appropriateness of proxy measures with the FDA review division.",
+   "rationale": "Asks FDA to define acceptable validated proxy measures; the final defers to discussion with the review division without defining them.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A09",
+   "section_id": "V.D.1",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to publish a list of acceptable RWD outcomes; concerns FDA publication activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A10",
+   "section_id": "V.D.1",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with health systems and plans to capture patient-centered outcomes; concerns FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A07",
+   "section_id": "V.D.1",
+   "call": "not adopted",
+   "evidence_span": "The protocol should include a detailed description of the conceptual definition, including the signs, symptoms, and laboratory and radiology results that would confirm the outcome status.",
+   "rationale": "Asks whether diagnosis codes and criteria must be specified; the final passage only changes 'outcome' to 'outcome status', adding no clarification.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A197",
+   "section_id": "V.D.2",
+   "call": "not adopted",
+   "evidence_span": "When patient- or physician-generated data (e.g., data required for subjective end points) are proposed to assess the outcome of interest or to complement operational definitions, the protocol should specify how the outcome measure (e.g., sign score, severity index) will be defined and constructed and validated, if applicable, and how the data will be collected.",
+   "rationale": "Asks for a reference to the COA guidance on validating patient/physician-generated data; the final adds no such reference.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A56",
+   "section_id": "V.D.2",
+   "call": "not adopted",
+   "evidence_span": "When patient- or physician-generated data (e.g., data required for subjective end points) are proposed to assess the outcome of interest or to complement operational definitions, the protocol should specify how the outcome measure (e.g., sign score, severity index) will be defined and constructed and validated, if applicable, and how the data will be collected.",
+   "rationale": "Asks for a reference to the COA guidance; the final adds no such reference.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A43",
+   "section_id": "V.D.2",
+   "call": "partially adopted",
+   "evidence_span": "the study is designed to estimate a risk ratio, selecting an operational definition with high specificity may be more important than high sensitivity, because imperfect sensitivity (some false negatives) may not bias the risk ratio, provided the outcome misclassification is non-differential and specificity is very high (almost no false positives), regardless of outcome prevalence.",
+   "rationale": "Asks which performance measures should be optimized and when; the final adds one scenario (risk ratio: prioritize specificity) but no general rule.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A44",
+   "section_id": "V.D.2",
+   "call": "partially adopted",
+   "evidence_span": "the study is designed to estimate a risk ratio, selecting an operational definition with high specificity may be more important than high sensitivity, because imperfect sensitivity (some false negatives) may not bias the risk ratio, provided the outcome misclassification is non-differential and specificity is very high (almost no false positives), regardless of outcome prevalence.",
+   "rationale": "Asks that the discussion address the effect measure (relative vs absolute); the final adds a risk-ratio-specific example but nothing on absolute measures.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A37",
+   "section_id": "V.D.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for emphasis on interval censoring; 'censor' does not appear in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A21",
+   "section_id": "V.D.2",
+   "call": "not adopted",
+   "evidence_span": "When patient- or physician-generated data (e.g., data required for subjective end points) are proposed to assess the outcome of interest or to complement operational definitions, the protocol should specify how the outcome measure (e.g., sign score, severity index) will be defined and constructed and validated, if applicable, and how the data will be collected.",
+   "rationale": "Asks for more detail on pre-specifying PRO collection; the final text is unchanged from the draft.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0056-A05",
+   "section_id": "V.D.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidance on documenting and interpreting safety records in EHRs; no such content added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A29",
+   "section_id": "V.D.2",
+   "call": "adopted",
+   "evidence_span": "the study is designed to estimate a risk ratio, selecting an operational definition with high specificity may be more important than high sensitivity, because imperfect sensitivity (some false negatives) may not bias the risk ratio, provided the outcome misclassification is non-differential and specificity is very high (almost no false positives), regardless of outcome prevalence.",
+   "rationale": "Asks that sensitivity/specificity be described with the idea that inexact data can be fit for purpose (e.g., specificity matters more for risk ratios); the final adds that risk-ratio specificity point nearly verbatim.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A26",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks for acceptable approaches to validate real-world endpoints; the final enumerates validation options and ties extent to certainty but gives no endpoint-specific approaches.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A198",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks whether there are more than two outcome validation options; the final names three (complete verification, verification of all potential cases or non-cases, performance assessment).",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A199",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Outcome validation involves using a clinically appropriate conceptual outcome definition to determine whether a patient’s status, classified by an operational definition, truly represents the outcome of interest, typically by reviewing clinical details recorded in the patient’s medical records in either electronic or paper format.",
+   "rationale": "Asks to address EHRs where the EHR is the de facto source record; the final still describes validation via medical record review without addressing that case.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A200",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "Other examples may include broadly accepted external reference data sources, such as national or state vital statistics data sources, if appropriate.",
+   "rationale": "Asks to highlight externally accepted gold-standard sources such as NDI; the final adds national or state vital statistics data sources as reference standards.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A201",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Reporting of comparison metrics (e.g., kappa statistic) is useful to ensure replicability.",
+   "rationale": "Asks for a reference to Cohen's kappa; the final text is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A202",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "An estimated medical record retrieval rate (e.g., when requesting medical records from health facilities for a study using claims-based databases) should be justified in the protocol, and the implications for internal and external validity should be discussed.",
+   "rationale": "Asks what the medical record retrieval rate is and what it is used for; the final adds an example of the context (requesting records for claims-based studies) but not its use.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A203",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "In addition, because knowledge of a patient’s exposure status may influence the observer and result in differential misclassification, blinding of the abstractor and adjudicator to exposure status should be considered by masking the study question or redacting the exposure information, especially when the abstractor or adjudicator may associate the exposure with the outcome of interest.",
+   "rationale": "Asks for alternatives to blinding abstractors; the final keeps the blinding recommendation without alternatives.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A204",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "The protocol should provide a description of how observer bias will be handled.",
+   "rationale": "Asks for background narrative on observer bias; the final sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A205",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "Ideally, through complete verification of the outcome variable, the outcome status is accurately classified for each subject to minimize outcome misclassification and improve study internal validity.",
+   "rationale": "Asks what 'assigned an accurate value' means; the final rewords it to 'outcome status is accurately classified for each subject', a clarification without further detail.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A206",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "or (3) assessing the performance of an operational definition (e.g., internally in a sample of the study population for the proposed study, or externally in a prior study). The extent of effort required for validation depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks whether validation studies are within the study or standalone; the final notes performance can be assessed internally in a study sample or externally in a prior study, without fuller guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A207",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "When the concern with false negative cases is negligible (e.g., when the sensitivity is deemed sufficiently high so that the number of false-negative cases is minimal), a high PPV might be adequate to provide confidence in the validity of the outcome variable, whereas a moderate-to-low PPV might warrant verification of the outcome variable for all potential cases.",
+   "rationale": "Asks for acceptable ranges for performance measures; the final still gives no thresholds.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A208",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Performance measures, such as sensitivity, specificity, and predictive values, do not accurately classify cases and non-cases; rather, they inform the degree of outcome misclassification and facilitate the interpretation of results in the presence of misclassification.",
+   "rationale": "Asks to mention predictive algorithms developed from validation data to classify cases; the final does not.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A210",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Overall, the required extent of validation should be determined by the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks how the necessary level of certainty is determined, with an example; the final repeats the phrase more often but gives no method or example.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A211",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "one approach is to select an operational definition of high sensitivity and perform verification of the outcome variable for all potential cases identified by the sensitive operational definition to maximize the likelihood that the true cases are all identified and that the false-positive cases are minimized through validation.",
+   "rationale": "Asks to soften 'complete verification ... for all potential cases' toward the precision needed; the final drops 'complete' but keeps verification of all potential cases.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A212",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to extend verification to the concept of reliability; the final adds no reliability framing.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A213",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Without complete patient information and complete verification of the outcome variable, outcome misclassification remains a threat to the study internal validity, and the impact on the measure of association between exposure and outcome varies depending on whether the degree of misclassification differs between the exposure groups.",
+   "rationale": "Asks to change 'complete patient information' to 'adequate'; the final keeps 'complete'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A214",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "For example, the physician who observed, diagnosed, and documented whether or not an outcome occurred could have been the same physician who made a decision as to which patients received the treatment meant to prevent that outcome, or the physician could have monitored disease progression or treatment side effects differently, given the knowledge as to which treatment they received.",
+   "rationale": "Asks to remove the physician example; the final retains it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A215",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to stress investigators being blinded to treatment assignment when designing database studies; no such text in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A216",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for an appendix of validation examples and sensitivity/specificity thresholds; the final has no appendix or thresholds.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A16",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "An estimated medical record retrieval rate (e.g., when requesting medical records from health facilities for a study using claims-based databases) should be justified in the protocol, and the implications for internal and external validity should be discussed.",
+   "rationale": "Asks to state that medical record review is infeasible for claims; the final instead treats record requests for claims-based studies as a normal case.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A17",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "or (3) assessing the performance of an operational definition (e.g., internally in a sample of the study population for the proposed study, or externally in a prior study). The extent of effort required for validation depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks whether the study data itself can be used for validation; the final lists internal assessment in a study sample as an option, without addressing the question directly.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A23",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks that the validation approach be tailored to the precision needed; the final makes the extent of validation depend on the necessary level of certainty.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A24",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "In addition, because knowledge of a patient’s exposure status may influence the observer and result in differential misclassification, blinding of the abstractor and adjudicator to exposure status should be considered by masking the study question or redacting the exposure information, especially when the abstractor or adjudicator may associate the exposure with the outcome of interest.",
+   "rationale": "Asks for alternatives to blinding such as duplicate abstraction; the final keeps only blinding.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A25",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Reporting of comparison metrics (e.g., kappa statistic) is useful to ensure replicability.",
+   "rationale": "Asks that comparison metrics be risk-based with sampling; the final sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A26",
+   "section_id": "V.D.3",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Concerns data-provider adjudication and source-record access on FDA inspection, an FDA process matter outside the text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A47",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "In scenarios where complete verification of the outcome variable for each study subject is infeasible, the performance of an operational outcome definition should be assessed in the proposed study population using a justified sampling strategy.",
+   "rationale": "Asks for expectations for de-identified commercial datasets and feasible validation approaches; the final does not address de-identified data.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A48",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "Other examples may include broadly accepted external reference data sources, such as national or state vital statistics data sources, if appropriate.",
+   "rationale": "Asks to add externally accepted gold-standard data sources as a validation option; the final adds broadly accepted external reference data sources such as vital statistics.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A50",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "An estimated medical record retrieval rate (e.g., when requesting medical records from health facilities for a study using claims-based databases) should be justified in the protocol, and the implications for internal and external validity should be discussed.",
+   "rationale": "Asks what the medical record retrieval rate refers to; the final adds a parenthetical example clarifying the context.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A51",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Performance measures, such as sensitivity, specificity, and predictive values, do not accurately classify cases and non-cases; rather, they inform the degree of outcome misclassification and facilitate the interpretation of results in the presence of misclassification.",
+   "rationale": "Asks which metric is recommended in a given case; the final names no recommended metric.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A45",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to condense repeated V.D.2/V.D.3 content; the final keeps both sections at similar length (QBA is expanded but content not condensed).",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A46",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to consider misclassification differences by subgroups (sex, age); no such content in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A47",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Unlike differential misclassification, non- differential misclassification tends to bias the association toward the null; as a result, a true risk might be missed in safety studies, whereas a larger study population might be needed to demonstrate the drug effect in effectiveness studies.",
+   "rationale": "Asks to remove the statement that non-differential misclassification biases toward the null; the final retains it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A20",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification.",
+   "rationale": "Objects that validation does not itself minimize misclassification; the final changes 'minimize' to 'address' but does not adopt the proposed wording.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A21",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "Validation refers to the process of determining if a study variable (e.g., exposure, outcome, covariate) is correctly measured, usually according to a reference standard (Porta, 2014).",
+   "rationale": "Asks to clarify 'verification' vs 'validation'; the final defines validation in the text and lists verification as one approach, but does not harmonize usage throughout.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A22",
+   "section_id": "IV.D.2",
+   "call": "partially adopted",
+   "evidence_span": "Understanding the implications of potential misclassification for study internal validity and study inference is the key step in determining what variables of interest might require validation and to what extent, based on the necessary level of certainty.",
+   "rationale": "Asks for a risk-based approach prioritizing high-impact variables; the final ties which variables need validation and to what extent to the necessary level of certainty.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A23",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA recommends assessing the performance of operational definitions in an adequately large and representative sample of the study population as part of the proposed study, using justified sampling methods (e.g., random sampling, stratified sampling).",
+   "rationale": "Asks whether a random sample of cases and non-cases suffices; the final allows performance assessment in an adequately large and representative sample, without answering directly.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A25",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA recommends assessing the performance of operational definitions in an adequately large and representative sample of the study population as part of the proposed study, using justified sampling methods (e.g., random sampling, stratified sampling).",
+   "rationale": "Asks FDA to elaborate on sampling expectations; the final adds only that the sample be representative.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A26",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Differential outcome misclassification might be minimized in studies in which the exposure status is blinded.",
+   "rationale": "Asks to clarify blinding is only possible with central adjudication; the final sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A27",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Differential outcome misclassification might be minimized in studies in which the exposure status is blinded.",
+   "rationale": "Asks to distinguish subjective vs objective variables for blinding; not reflected in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A28",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA recommends including in the protocol quantitative approaches, such as quantitative bias analyses, to demonstrate whether and how outcome misclassification, if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks what kind of QBA FDA seeks; the final specifies purposes (a priori feasibility, interpretation) but names no methods.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0028-A06",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Quantitative approaches, such as quantitative bias analyses, are encouraged to demonstrate whether and how misclassification of key covariate(s), if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks for emphasis on empirical bias assessment throughout; the final extends QBA beyond outcomes to general validation and covariates, though not throughout design and analysis.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A19",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends including in the protocol quantitative approaches, such as quantitative bias analyses, to demonstrate whether and how outcome misclassification, if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks whether FDA recommends specific QBA approaches (e.g., e-value); the final names none.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A20",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA recommends including in the protocol quantitative approaches, such as quantitative bias analyses, to demonstrate whether and how outcome misclassification, if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks for use cases and when QBA must be considered; the final states when it can be applied (a priori, interpretation, or both) but not per-approach applicability.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A08",
+   "section_id": "V.D.3",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Proposes topics for a public workshop; concerns FDA process outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A73",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "In scenarios where complete verification of the outcome variable for each study subject is infeasible, the performance of an operational outcome definition should be assessed in the proposed study population using a justified sampling strategy.",
+   "rationale": "Asks for expectations for de-identified commercial datasets; the final does not address them.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A74",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks the section to open by noting validation level depends on regulatory use case and prior experience; the final now opens with extent depending on the necessary level of certainty, without naming use case or prior experience.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A75",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "Other examples may include broadly accepted external reference data sources, such as national or state vital statistics data sources, if appropriate.",
+   "rationale": "Asks to add externally accepted gold-standard sources as a validation option; the final adds broadly accepted external reference data sources such as vital statistics.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A76",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "An estimated medical record retrieval rate (e.g., when requesting medical records from health facilities for a study using claims-based databases) should be justified in the protocol, and the implications for internal and external validity should be discussed.",
+   "rationale": "Asks whether the retrieval rate is at cohort or individual level; the final adds a contextual example implying record requests across the study, without stating the level.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A03",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks when validated operational definitions suffice vs complete verification; the final ties the choice to the necessary level of certainty but gives no concrete criteria.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A04",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks FDA to accept validated operational definitions in all circumstances; the final keeps the choice conditional on level of certainty.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A38",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "Although complete verification of the outcome variable is considered the most rigorous approach, there are scenarios where verifying outcome for every subject might not be feasible and assessing the performance of the operational definition of the outcome might suffice.",
+   "rationale": "Supports not expecting complete verification for every subject; the final retains this.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A39",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Reporting of comparison metrics (e.g., kappa statistic) is useful to ensure replicability.",
+   "rationale": "Asks for more explicit guidance on reliability assessment; the final text is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A40",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA recommends using standardized medical record review processes, including the use of standardized tools, documentation of process, and training of personnel.",
+   "rationale": "Supports standardized medical record review processes; the final retains them.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A41",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends using standardized medical record review processes, including the use of standardized tools, documentation of process, and training of personnel.",
+   "rationale": "Asks that curation specifications and training processes be provided in the protocol; the final does not add this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A08",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks for clear, consistent statements that the need and extent of validation depend on the question at hand; the final states this in IV.D.2, IV.D.3, V.D.3 and V.E.3.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A22",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that validation first be done in a non-analytic dataset; not reflected in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A23",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "The protocol should provide a description of how observer bias will be handled.",
+   "rationale": "Asks that observers not be involved in patient care; the final does not add this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A24",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "The protocol should pre-specify the indices (e.g., sensitivity, specificity) that will be used for quantifying bias and describe how the selected indices will be measured in outcome validation.",
+   "rationale": "Asks that NPV always be assessed; the final drops PPV/NPV from the example indices, the opposite direction.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A25",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "The protocol should pre-specify the indices (e.g., sensitivity, specificity) that will be used for quantifying bias and describe how the selected indices will be measured in outcome validation.",
+   "rationale": "Asks to add 'accuracy' to the QBA indices; the final lists only sensitivity and specificity as examples.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A57",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "An estimated medical record retrieval rate (e.g., when requesting medical records from health facilities for a study using claims-based databases) should be justified in the protocol, and the implications for internal and external validity should be discussed.",
+   "rationale": "Asks what the retrieval rate is used for; the final adds a contextual example but the purpose statement is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A58",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Overall, the required extent of validation should be determined by the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks how the necessary level of certainty is determined, with an example; the final gives neither.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A11",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "or (3) assessing the performance of an operational definition (e.g., internally in a sample of the study population for the proposed study, or externally in a prior study). The extent of effort required for validation depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks whether each study must chart-validate or may cite prior validation; the final lists external assessment in a prior study as a validation option, without saying when it suffices.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A12",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Objects to the chart-review burden; the final makes extent of validation conditional on necessary certainty, though record review remains the typical approach.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A06",
+   "section_id": "V.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA expects validation of the outcome variable to address outcome misclassification. The extent of validation, such as complete verification of the outcome variable for all subjects, verification of all potential cases (or non-cases) identified by an operational definition, or assessing the performance of an operational definition depends on the necessary level of certainty and the implication of potential misclassification on study inference.",
+   "rationale": "Asks for consistent statements that need and extent of validation depend on context; the final states this in several sections.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A36",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "When the concern with false negative cases is negligible (e.g., when the sensitivity is deemed sufficiently high so that the number of false-negative cases is minimal), a high PPV might be adequate to provide confidence in the validity of the outcome variable, whereas a moderate-to-low PPV might warrant verification of the outcome variable for all potential cases.",
+   "rationale": "Asks for acceptable ranges for performance measures; the final gives none.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A37",
+   "section_id": "V.D.3",
+   "call": "partially adopted",
+   "evidence_span": "one approach is to select an operational definition of high sensitivity and perform verification of the outcome variable for all potential cases identified by the sensitive operational definition to maximize the likelihood that the true cases are all identified and that the false-positive cases are minimized through validation.",
+   "rationale": "Objects to 'all potential cases' as beyond needed precision; the final drops 'complete' but keeps verification of all potential cases.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A38",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "For example, the physician who observed, diagnosed, and documented whether or not an outcome occurred could have been the same physician who made a decision as to which patients received the treatment meant to prevent that outcome, or the physician could have monitored disease progression or treatment side effects differently, given the knowledge as to which treatment they received.",
+   "rationale": "Asks to remove the physician example; the final retains it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A39",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to stress investigator blinding to treatment when designing database studies; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A36",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "Regarding outcome validation, sponsors should justify the proposed validation approach, such as verifying the outcome variable for all potential cases or non-cases, versus assessing the performance of the proposed operational definition; if the latter will be done, justify what performance measures will be assessed.",
+   "rationale": "Asks to allow a single validation-approach description rather than per outcome variable; the final text is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A08",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends using standardized medical record review processes, including the use of standardized tools, documentation of process, and training of personnel.",
+   "rationale": "Objects that record review is overburdensome; the final retains standardized record review recommendations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A30",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": "PPV is often assessed in validation studies. PPV is the proportion of potential cases identified by an operational definition that are true positive cases.",
+   "rationale": "Asks to move the PPV text and Table 1 together or to an appendix; the final keeps Table 1 in IV.D.3 and the PPV text in V.D.3.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A75",
+   "section_id": "V.D.3",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for an appendix with validation examples and thresholds; the final has none.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A217",
+   "section_id": "V.D.4",
+   "call": "partially adopted",
+   "evidence_span": "Searches of vital statistics systems may be considered to see whether their absence (disenrollment) from the system is because of death.",
+   "rationale": "Asks to acknowledge vital-statistics linkage may be infeasible; the final softens searches to 'may be considered' but does not mention privacy barriers.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A41",
+   "section_id": "V.D.4",
+   "call": "partially adopted",
+   "evidence_span": "Searches of vital statistics systems may be considered to see whether their absence (disenrollment) from the system is because of death.",
+   "rationale": "Asks to acknowledge linkage to vital statistics may be infeasible; the final softens 'should be included' to 'may be considered' without explaining why.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A218",
+   "section_id": "V.D.4",
+   "call": "partially adopted",
+   "evidence_span": "For studies in which the outcome or outcomes of interest (e.g., myocardial infarction or stroke) include fatal outcomes, either excluding patients who appear to be lost to follow-up at any time following their exposure to the study drug or classifying patients who are lost to follow-up as deceased in the absence of data to the contrary, is likely to create bias.",
+   "rationale": "Asks whether censoring or assigning death depends on circumstances; the final now says classifying lost-to-follow-up patients as deceased is likely biased, but gives no circumstance-based guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A42",
+   "section_id": "V.D.4",
+   "call": "partially adopted",
+   "evidence_span": "For studies in which the outcome or outcomes of interest (e.g., myocardial infarction or stroke) include fatal outcomes, either excluding patients who appear to be lost to follow-up at any time following their exposure to the study drug or classifying patients who are lost to follow-up as deceased in the absence of data to the contrary, is likely to create bias.",
+   "rationale": "Asks whether censoring or assigning death depends on circumstances; the final drops the suggestion to classify them as deaths and flags it as biased, without fuller guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A219",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for estimand and intercurrent-event background; neither term appears in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A48",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": "In the United States, death and cause of death are generally not included in electronic health care data, with exceptions being made for death occurring while a patient is under medical care.",
+   "rationale": "Objects to a dedicated mortality section; the final retains it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A29",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": "Ascertainment of death (fact of death and cause of death) can be accomplished through linkage with public or commercial vital statistics data sources, to increase the completeness and recency of the death variables.",
+   "rationale": "Asks to note medical claims as another death data source; the final mentions only vital statistics linkage.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A30",
+   "section_id": "V.D.4",
+   "call": "partially adopted",
+   "evidence_span": "For studies in which the outcome or outcomes of interest (e.g., myocardial infarction or stroke) include fatal outcomes, either excluding patients who appear to be lost to follow-up at any time following their exposure to the study drug or classifying patients who are lost to follow-up as deceased in the absence of data to the contrary, is likely to create bias.",
+   "rationale": "Asks whether patients should be treated as deaths if not verified alive; the final clarifies that classifying them as deceased is likely biased.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A31",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks whether any outcome possibly resulting in death needs vital status evaluation; not addressed in the final.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A32",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to acknowledge that RCTs do not verify death this way; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A05",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to acknowledge loss-to-follow-up bias for non-mortality outcomes; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A06",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to mention sensitivity/tipping-point analyses for loss-to-follow-up bias; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0023-A07",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to mention methods such as inverse probability of censoring weights; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0038-A03",
+   "section_id": "V.D.4",
+   "call": "adopted",
+   "evidence_span": "Ascertainment of death (fact of death and cause of death) can be accomplished through linkage with public or commercial vital statistics data sources, to increase the completeness and recency of the death variables.",
+   "rationale": "Supports linking to external datasets for mortality; the final retains it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0038-A04",
+   "section_id": "V.D.4",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks CDER to support interoperability standards under the Cures Act; concerns FDA policy outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0049-A09",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": "Careful documentation of mortality data quality and its implications should be included in the protocol.",
+   "rationale": "Asks for a standardized definition of mortality data quality; the final sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A40",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for cross-references between V.D.4 and the data linkage section; searched IV.B.2 and V.D.4 and found none.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A09",
+   "section_id": "V.D.4",
+   "call": "partially adopted",
+   "evidence_span": "For studies in which the outcome or outcomes of interest (e.g., myocardial infarction or stroke) include fatal outcomes, either excluding patients who appear to be lost to follow-up at any time following their exposure to the study drug or classifying patients who are lost to follow-up as deceased in the absence of data to the contrary, is likely to create bias.",
+   "rationale": "Asks not to assume death (patients may move) and to check the death index instead; the final flags classifying lost patients as deceased as biased and retains vital statistics searches.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A10",
+   "section_id": "V.D.4",
+   "call": "not adopted",
+   "evidence_span": "For studies in which the outcome or outcomes of interest (e.g., myocardial infarction or stroke) include fatal outcomes, either excluding patients who appear to be lost to follow-up at any time following their exposure to the study drug or classifying patients who are lost to follow-up as deceased in the absence of data to the contrary, is likely to create bias.",
+   "rationale": "Objects that 'lost to follow-up' does not apply to RWD; the final keeps the concept.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A221",
+   "section_id": "V.E",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, covariates in a particular study can include two types of elements: confounders and effect modifiers.",
+   "rationale": "Asks to mention instrumental variables; 'instrument' appears nowhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A222",
+   "section_id": "V.E",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, covariates in a particular study can include two types of elements: confounders and effect modifiers.",
+   "rationale": "Asks to recommend DAGs; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A23",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to recommend DAGs; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A223",
+   "section_id": "V.E",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, covariates in a particular study can include two types of elements: confounders and effect modifiers.",
+   "rationale": "Asks to define confounders in V.E.1 and the glossary; the final removed the glossary and added no confounder definition to the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A224",
+   "section_id": "V.E",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, covariates in a particular study can include two types of elements: confounders and effect modifiers.",
+   "rationale": "Asks for guidance on collective covariate-level ascertainment and validation; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A59",
+   "section_id": "V.E",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, covariates in a particular study can include two types of elements: confounders and effect modifiers.",
+   "rationale": "Asks for guidance on collective covariate-level ascertainment and validation; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A49",
+   "section_id": "V.E",
+   "call": "not adopted",
+   "evidence_span": "After identifying the potential confounders in a study, the proposed data source should be evaluated to determine whether it is adequate to capture information on important factors which may contribute to confounding.",
+   "rationale": "Asks to mention capture of competing-risk covariates; not in the final.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A10",
+   "section_id": "V.E.3",
+   "call": "adopted",
+   "evidence_span": "Quantitative approaches, such as quantitative bias analyses, are encouraged to demonstrate whether and how misclassification of key covariate(s), if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks for early bias analysis during the early data phase; the final encourages QBA applied a priori for feasibility assessment.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A225",
+   "section_id": "V.E.1",
+   "call": "adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured confounders in the proposed data source(s), as well as approach(es) to supplement information on unmeasured confounders and justify the appropriateness of any proxy measure(s) for specific unmeasured confounder(s).",
+   "rationale": "Asks that, where linkage is not possible, the appropriateness of proxy variables for unmeasured confounders be addressed; the final requires justifying proxy measures for unmeasured confounders.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A77",
+   "section_id": "V.E.1",
+   "call": "adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured confounders in the proposed data source(s), as well as approach(es) to supplement information on unmeasured confounders and justify the appropriateness of any proxy measure(s) for specific unmeasured confounder(s).",
+   "rationale": "Asks that, where linkage is not possible, proxy variables for unmeasured confounders be discussed; the final requires justifying proxy measures for them.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A226",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering potential linkages with other data sources or additional data collection to expand the capture of important confounders that are unmeasured or imperfectly measured in the original data source.",
+   "rationale": "Asks whether quantitative methods are acceptable for unmeasured confounding; the final's new QBA text addresses covariate misclassification only.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A227",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering potential linkages with other data sources or additional data collection to expand the capture of important confounders that are unmeasured or imperfectly measured in the original data source.",
+   "rationale": "Asks to broaden advice to sensitivity analyses quantifying confounding impact; not added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A60",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering potential linkages with other data sources or additional data collection to expand the capture of important confounders that are unmeasured or imperfectly measured in the original data source.",
+   "rationale": "Asks to broaden advice to sensitivity analyses quantifying confounding impact; not added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A33",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends considering potential linkages with other data sources or additional data collection to expand the capture of important confounders that are unmeasured or imperfectly measured in the original data source.",
+   "rationale": "Asks whether QBA can address unmeasured confounding; the final's QBA text covers covariate misclassification only.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A228",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Information on potential confounders is collected in a nonrandomized study to support appropriate efforts to balance treatment and comparator groups in the analysis.",
+   "rationale": "Asks to describe comparator time periods (no treatment, interruptions); not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A76",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Information on potential confounders is collected in a nonrandomized study to support appropriate efforts to balance treatment and comparator groups in the analysis.",
+   "rationale": "Asks to describe comparator time periods; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A01",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "If the measured covariates can change during a patient’s follow-up period (time-varying covariates) and are important to the analysis, the protocol should describe whether and how frequently the information on time- varying covariates can be captured, particularly since capture of time-varying covariates in RWD can be differential by severity of illness (e.g., more testing in more seriously ill patients).",
+   "rationale": "Asks to address time-varying confounding and marginal structural models; the final adds neither.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A42",
+   "section_id": "V.E.1",
+   "call": "partially adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured confounders in the proposed data source(s), as well as approach(es) to supplement information on unmeasured confounders and justify the appropriateness of any proxy measure(s) for specific unmeasured confounder(s).",
+   "rationale": "Asks for more detail on additional data collection given missingness; the final adds disclosure of unmeasured confounders and supplementation approaches, without detail on missingness.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A26",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Examples of confounders that can be unmeasured or imperfectly measured in electronic health care data, especially in claims data, include race/ethnicity, family history of disease, lifestyle factors (e.g., smoking, alcohol use, nutrition intake, physical activity), certain physical measurements (e.g., body mass index), drugs obtained without insurance, and indication for drug use.",
+   "rationale": "Asks to note that codes such as alcohol use disorder are not comprehensive; the final examples are unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A61",
+   "section_id": "V.E.1",
+   "call": "adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured confounders in the proposed data source(s), as well as approach(es) to supplement information on unmeasured confounders and justify the appropriateness of any proxy measure(s) for specific unmeasured confounder(s).",
+   "rationale": "Asks that unmeasured or imperfectly measured confounders be disclosed; the final requires disclosing all known unmeasured confounders.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A37",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "After identifying the potential confounders in a study, the proposed data source should be evaluated to determine whether it is adequate to capture information on important factors which may contribute to confounding.",
+   "rationale": "Notes there is no text on confounder ascertainment; the final adds disclosure language but no ascertainment guidance.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A38",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a subsection on phenotypes/definitions for important confounders; not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A229",
+   "section_id": "V.E.2",
+   "call": "partially adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured effect modifiers, when relevant, in the proposed data source(s), as well as approach(es) to supplement information on unmeasured effect modifiers and justify the appropriateness of any proxy measure(s) for specific unmeasured effect modifier(s).",
+   "rationale": "Asks that effect modifiers 'ideally' be available with mitigation where not; the final adds disclosure and supplementation/proxy approaches but keeps 'should be available'.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A230",
+   "section_id": "V.E.2",
+   "call": "not adopted",
+   "evidence_span": "The potential for effect modification by demographic variables (e.g., age, sex, race, ethnicity) or pertinent comorbidities should be examined in the study, and relevant effect modifiers should be available in the chosen data source.",
+   "rationale": "Asks to name biomarkers and genetic mutations as effect modifiers; the effect-modifier examples are unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A63",
+   "section_id": "V.E.2",
+   "call": "not adopted",
+   "evidence_span": "The potential for effect modification by demographic variables (e.g., age, sex, race, ethnicity) or pertinent comorbidities should be examined in the study, and relevant effect modifiers should be available in the chosen data source.",
+   "rationale": "Asks to name biomarkers and genetic mutations as effect modifiers; the examples are unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A231",
+   "section_id": "V.E.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for content on effect modification on statistical and biological scales; not added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0041-A07",
+   "section_id": "V.E.2",
+   "call": "not adopted",
+   "evidence_span": "The potential for effect modification by demographic variables (e.g., age, sex, race, ethnicity) or pertinent comorbidities should be examined in the study, and relevant effect modifiers should be available in the chosen data source.",
+   "rationale": "Asks for more specific guidance on identifying comorbid conditions in RWD; not added.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A50",
+   "section_id": "V.E.2",
+   "call": "not adopted",
+   "evidence_span": "The potential for effect modification by demographic variables (e.g., age, sex, race, ethnicity) or pertinent comorbidities should be examined in the study, and relevant effect modifiers should be available in the chosen data source.",
+   "rationale": "Asks to retitle the section 'effect measure modifiers'; the final keeps 'Effect Modifiers'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A34",
+   "section_id": "V.E.2",
+   "call": "partially adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured effect modifiers, when relevant, in the proposed data source(s), as well as approach(es) to supplement information on unmeasured effect modifiers and justify the appropriateness of any proxy measure(s) for specific unmeasured effect modifier(s).",
+   "rationale": "Asks whether sensitivity analyses apply when effect modifiers like race are unavailable; the final adds disclosure and supplementation/proxy approaches, not sensitivity analyses.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A77",
+   "section_id": "V.E.2",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks whether ZIP-level geocoding is useful for SDOH subgroups; not addressed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0015-A02",
+   "section_id": "V.E.2",
+   "call": "adopted",
+   "evidence_span": "The potential for effect modification by demographic variables (e.g., age, sex, race, ethnicity) or pertinent comorbidities should be examined in the study, and relevant effect modifiers should be available in the chosen data source.",
+   "rationale": "Supports examining effect modification; the final retains the recommendation.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A62",
+   "section_id": "V.E.2",
+   "call": "adopted",
+   "evidence_span": "The protocol should clearly disclose all known unmeasured effect modifiers, when relevant, in the proposed data source(s), as well as approach(es) to supplement information on unmeasured effect modifiers and justify the appropriateness of any proxy measure(s) for specific unmeasured effect modifier(s).",
+   "rationale": "Asks that researchers disclose effect modifiers that are unmeasured or imperfectly measured; the final requires disclosing known unmeasured effect modifiers.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A232",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks for guidance on why/when covariates need validation; the final adds that selection depends on study question, design and impact of misclassification, with one example.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A43",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks for guidance on why/when covariates need validation; the final adds selection criteria and one example.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A233",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks that important, error-prone covariates be prioritized for validation; the final ties selection to impact of misclassification but does not mention error-proneness.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A44",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks that important, error-prone covariates be prioritized; the final ties selection to misclassification impact without mentioning error-proneness.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A10",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks to prioritize covariates with complex definitions in validation; the final ties selection to question, design and misclassification impact, not definitional complexity.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A11",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks for a risk-based approach to covariate validation; the final makes covariate selection depend on misclassification impact, though 'all key covariates' language remains.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A52",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks that sponsors identify the most critical covariates to validate rather than all; the final ties selection to study question, design and misclassification impact.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A35",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks to clarify that validation targets critical confounders/effect modifiers; the final adds selection criteria based on impact of misclassification.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0021-A04",
+   "section_id": "V.E.3",
+   "call": "partially adopted",
+   "evidence_span": "Selection of such covariates depends on the study question, study design, and the impact of misclassification on study internal validity and study inference.",
+   "rationale": "Asks for guidance on the validity-efficiency tradeoff in validating many confounders; the final adds selection criteria but no tradeoff guidance.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A234",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "Sometimes the reference standard of choice itself may have important limitations and not be entirely valid, in which case caution should be used when interpreting validation results.",
+   "rationale": "Asks what to do when no suitable reference exists for covariate validation; the final notes reference standards may be imperfect and urges caution, without alternative approaches.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A54",
+   "section_id": "IV.D.3",
+   "call": "partially adopted",
+   "evidence_span": "Sometimes the reference standard of choice itself may have important limitations and not be entirely valid, in which case caution should be used when interpreting validation results.",
+   "rationale": "Asks how to proceed with no gold standard for covariate validation; the final only acknowledges imperfect reference standards and urges caution.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A53",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "Validation refers to the process of determining if a study variable (e.g., exposure, outcome, covariate) is correctly measured, usually according to a reference standard (Porta, 2014).",
+   "rationale": "Asks to clarify what 'validation' means; the final defines validation in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A235",
+   "section_id": "V.E.3",
+   "call": "not adopted",
+   "evidence_span": "When supplemental information is needed to capture important covariates or is used for covariate validation, FDA recommends describing the likelihood of obtaining the supplemental information for the overall study population.",
+   "rationale": "Asks to qualify supplemental information needs by what is needed for reliable estimates; the final sentence is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A45",
+   "section_id": "V.E.3",
+   "call": "not adopted",
+   "evidence_span": "When supplemental information is needed to capture important covariates or is used for covariate validation, FDA recommends describing the likelihood of obtaining the supplemental information for the overall study population.",
+   "rationale": "Objects to a default that supplemental information covers the whole population; the final text is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A78",
+   "section_id": "V.E.3",
+   "call": "adopted",
+   "evidence_span": "Quantitative approaches, such as quantitative bias analyses, are encouraged to demonstrate whether and how misclassification of key covariate(s), if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks to add QBA for bias from inaccurate or missing key confounder data; the final adds QBA for misclassification of key covariates.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A79",
+   "section_id": "V.E.3",
+   "call": "not adopted",
+   "evidence_span": "Quantitative approaches, such as quantitative bias analyses, are encouraged to demonstrate whether and how misclassification of key covariate(s), if present, might impact study findings. The approach can be applied a priori for feasibility assessment, to facilitate interpretation of study results, or for both purposes.",
+   "rationale": "Asks whether FDA recommends a specific QBA approach (e.g., e-value); the final names none.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  }
+ ]
+}
