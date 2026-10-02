@@ -30,6 +30,13 @@
       "final_ref": "https://www.fda.gov/media/152503/download",
       "draft_ref": "FDA-2020-D-2307-0002",
       "reason": "Use the current fda.gov copy as the final. It matches the Jul 2024 docket copy (FDA-2020-D-2307-0067) except one post-publication edit in V.E.2: 'age, gender, race' -> 'age, sex, race'. Note this in outputs."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": 2,
+      "decision": "submitter_table_approved",
+      "notes": "All 7 low-confidence calls accepted as proposed: Wound Care Alliance=Professional society; MS Trials Committee=Academic; Invitae=Data & tech vendor; Guardant=Data & tech vendor; Anthem/HealthCore=Other (payer); AHA=Patient advocacy; National Health Council=Patient advocacy. Medium calls accepted."
     }
   ]
 }

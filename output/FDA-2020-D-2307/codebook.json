@@ -1,0 +1,183 @@
+{
+  "docket_id": "FDA-2020-D-2307",
+  "version": "v1-draft",
+  "status": "awaiting checkpoint 3",
+  "stances": [
+    "requests more specificity",
+    "requests more flexibility",
+    "supports as written",
+    "objects"
+  ],
+  "fallback": {
+    "theme_id": "T99",
+    "label": "Unclassified \u2014 propose new theme"
+  },
+  "changes_from_starter": [
+    "T01 widened to include data-quality assurance (QA/QC plans, quality metrics).",
+    "T02 widened to include EHR-vs-claims differences and representativeness/health equity.",
+    "T06 widened to cover the roles of data vendors vs sponsors and proprietary algorithms/IP.",
+    "T07 relabelled to lead with proportionality (risk-based approaches).",
+    "T09 relabelled: EMA/international alignment was rare; ICH E9(R1), other FDA guidance and data standards (FHIR, OMOP, USCDI) dominate.",
+    "T10 widened to implementation support (examples, templates, workshops, phenotype libraries).",
+    "T12 widened to data types (unstructured/NLP, registries, genomics, PROs, non-US data).",
+    "T13 NEW: study design, prespecification and analytic methods (~20+ asks; no starter home)."
+  ],
+  "themes": [
+    {
+      "theme_id": "T01",
+      "label": "Data provenance, traceability & quality assurance",
+      "definition": "Documenting where data came from and how they were transformed (lineage, ETL, curation), and the QA/QC plans, data-quality checks and metrics that demonstrate reliability.",
+      "notes": "Includes: provenance, traceability, audit trails of transformations, data-quality metrics/thresholds, QA/QC templates. Excludes: who holds/gives access to data (T06); validation of specific study variables (T03).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0063",
+        "span": "the guidance does not provide specific recommendations on documentation needed for"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T02",
+      "label": "Data relevance, fitness for purpose & representativeness",
+      "definition": "Whether a data source suits the study question: capture of the population, exposures and outcomes; health-system context; EHR-vs-claims differences; representativeness of populations, including health-equity and SDOH concerns.",
+      "notes": "Includes: health-system background/formulary information requests, continuity/observability, EHR vs claims specific considerations, diversity/representativeness. Excludes: missing-data methods (T04).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0040",
+        "span": "FDA should provide guidance on what would be considered acceptable in a possible RWD source qualifying it as fit-for-purpose rather than focusing only on what disqualifies it."
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T03",
+      "label": "Validation of exposures, outcomes & covariates",
+      "definition": "How study variables are defined and validated: algorithms, PPV/sensitivity/specificity, chart review, reference standards, reuse of prior validation.",
+      "notes": "Includes: performance thresholds, validation sample size, reference standards/no gold standard, conceptual vs operational definitions. Excludes: complaints that validation is too burdensome in general (T07) unless the ask is about the validation method itself.",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0059",
+        "span": "FDA should clarify whether it expects all or most studies to have to validate their outcomes through chart review"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T04",
+      "label": "Missing data & data completeness",
+      "definition": "Definition, characterisation and handling of missing, absent or unavailable data, including mortality capture and loss to follow-up.",
+      "notes": "Includes: missing vs absent framing, imputation, proxies, death data/NDI access. Excludes: alignment of the missing-data definition with ICH E9(R1) when the ask is purely about alignment (T09).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0061",
+        "span": "Perhaps a better framing for missing data might be unsystematic absence of data vs. systematic absence of data vs. unavailable data."
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T05",
+      "label": "Linkage & tokenization",
+      "definition": "Methods and documentation for linking data sources: deterministic vs probabilistic linkage, tokenization, linkage quality, and selection bias in linked cohorts.",
+      "notes": "Includes: linkage error, hashing/MPI transparency. Excludes: privacy as such (T11) unless the ask is about the linkage method.",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0039",
+        "span": "The more stringent approach to probabilistic approach may discourage use"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T06",
+      "label": "Data access, roles of data holders, retention & auditability",
+      "definition": "What sponsors can obtain from data vendors/holders, the split of responsibilities between sponsors and data providers, proprietary algorithms/IP, FDA access to patient-level data, retention and inspection.",
+      "notes": "Includes: licence limits, vendor vs sponsor accountability, submission of datasets/programs, retention periods. Excludes: provenance documentation content (T01).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0033",
+        "span": "In many circumstances sponsors do not own the data and/or have license to provide FDA access to the RWD."
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T07",
+      "label": "Proportionality, sponsor burden & feasibility",
+      "definition": "Asks that recommendations be risk-based, tiered by regulatory use, or relaxed because they are infeasible or exceed what is required of RCTs.",
+      "notes": "Includes: risk-based validation, 'unprecedented hurdles', infeasible documentation. Excludes: asks that only want more detail on a requirement (code to its topic).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0035",
+        "span": "Flatiron respectfully requests that FDA adopt a risk-based approach to study-specific verification and validation."
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T08",
+      "label": "Terminology & definitional clarity",
+      "definition": "Requests to define, rename or clarify terms and concepts used in the guidance.",
+      "notes": "Includes: continuity of care vs coverage, data lineage, verification vs validation as terms, glossary edits. Excludes: substantive requests that happen to use a term.",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0035",
+        "span": "we propose that FDA consider using the term"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T09",
+      "label": "Alignment with other guidance & data standards",
+      "definition": "Consistency with ICH (esp. E9(R1)), other FDA RWE guidances, HHS/ONC policy and data standards (USCDI, FHIR, CDISC, OMOP), and international bodies.",
+      "notes": "Includes: harmonise definitions with ICH E9(R1), retire/merge the 2013 guidance, STaRT-RWE, adopt FHIR/common data models. EMA/international alignment was rarely raised.",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0063",
+        "span": "PhRMA recommends that FDA reference approaches such as the target trial framework"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T10",
+      "label": "FDA engagement & implementation support",
+      "definition": "How sponsors and data providers interact with FDA (meetings, protocol review, timelines) and tools FDA could provide: examples, case studies, templates, checklists, workshops, phenotype libraries.",
+      "notes": "Includes: meeting pathways, publication of precedents, regulatory-grade phenotype library. Excludes: study registration (T13).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0054",
+        "span": "it would be helpful to see examples of approaches that meet, and fail to meet, FDA"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T11",
+      "label": "Privacy & data governance",
+      "definition": "Patient privacy, consent, de-identification and re-identification risk, HIPAA and governance frameworks.",
+      "notes": "Includes: privacy-preserving linkage when the ask is privacy-motivated, consent processes. Excludes: data access licences (T06).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0024",
+        "span": "FDA should require the use of privacy-preserving methods to link datasets whenever possible and minimize the risk of compromising patient privacy or re-identification."
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T12",
+      "label": "Scope & data types",
+      "definition": "What the guidance covers or should cover: product types, data types (pharmacy claims, registries, unstructured data/NLP, genomics, PROs, non-US data, clearinghouses), uses (external controls) and the overall role of RWE.",
+      "notes": "Includes: expand/limit scope, acceptability of NLP/AI-derived variables as a data type, statements that RWE should only be supplementary. Excludes: validation of an NLP variable (T03).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0063",
+        "span": "PhRMA recommends that FDA revise the draft guidance to also cover"
+      },
+      "emergent": false,
+      "starter": true
+    },
+    {
+      "theme_id": "T13",
+      "label": "Study design, prespecification & analytic methods",
+      "definition": "Design and analysis issues: time periods/index dates, comparators, estimands and target-trial framing, prespecification and registration, feasibility exploration before analysis, confounding and quantitative bias analysis.",
+      "notes": "Includes: QBA, immortal time, negative controls, protocol/SAP timing, blinding to outcome data. Excludes: validation of the confounder variables themselves (T03).",
+      "example": {
+        "comment_id": "FDA-2020-D-2307-0048",
+        "span": "It would be useful to know if the FDA recommends any specific approaches to quantitative bias analysis"
+      },
+      "emergent": true,
+      "starter": false
+    }
+  ]
+}

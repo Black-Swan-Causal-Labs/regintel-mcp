@@ -37,7 +37,7 @@ You may *propose* merges, splits or new themes, with a reason. Do not add them y
 An **ask** is a single request, concern or recommendation directed at FDA about the guidance.
 
 - **One ask = one thing FDA could do or change.** Split compound sentences such as "clarify X and add an example of Y" into two asks.
-- **`source_span` must be copied verbatim** from the comment or attachment: one to three sentences, exact characters, no paraphrase. If the text is in a table (e.g. a comment matrix), copy the cell text.
+- **`source_span` must be copied verbatim from the extracted text** in `corpus.jsonl` (body or `attachments[].text`): one to three sentences, exact characters, no paraphrase, no repairs. Comments laid out as tables (line number | comment | proposed change) come out with the columns interleaved, so copy a contiguous run *as extracted*, even if it reads awkwardly. Don't reconstruct the sentence as it looked in the PDF. Only whitespace differences are tolerated by validation.
 - **`draft_section`.** Use the draft section the commenter names, either by line number or heading. Map line numbers to section ids using the draft's sectioning from `get_guidance_text`. If the commenter names no section, infer one only if the target is unambiguous and set `section_inferred: true`. Otherwise use `null`.
 - Skip praise that contains no request, procedural boilerplate, and restatements of the same ask within one comment.
 - Comments that `decisions/<docket>.json` marks `zero_asks` or `exclude_*` get no asks.

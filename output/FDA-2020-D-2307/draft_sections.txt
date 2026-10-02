@@ -1,0 +1,40 @@
+front: Front matter
+I: INTRODUCTION AND SCOPE
+II: BACKGROUND
+III: GENERAL CONSIDERATIONS
+IV: DATA SOURCES
+IV.A: Relevance of the Data Source
+IV.B: Data Capture: General Discussion
+IV.B.1: Enrollment and Comprehensive Capture of Care
+IV.B.2: Data Linkage and Synthesis
+IV.B.3: Distributed Data Networks
+IV.B.4: Computable Phenotypes
+IV.B.5: Unstructured Data
+IV.C: Missing Data: General Considerations
+IV.D: Validation: General Considerations
+V: STUDY DESIGN ELEMENTS
+V.A: Definition of Time Periods
+V.B: Selection of Study Population
+V.C: Exposure Ascertainment and Validation
+V.C.1: Definition of Exposure
+V.C.2: Ascertainment of Exposure: Data Source
+V.C.3: Ascertainment of Exposure: Duration
+V.C.4: Ascertainment of Exposure: Dose
+V.C.5: Validation of Exposure
+V.C.6: Dosing in Special Populations
+V.C.7: Other Considerations
+V.D: Outcome Ascertainment and Validation
+V.D.1: Definition of Outcomes of Interest
+V.D.2: Ascertainment of Outcomes
+V.D.3: Validation of Outcomes
+V.D.4: Mortality as an Outcome
+V.E: Covariate Ascertainment and Validation
+V.E.1: Confounders
+V.E.2: Effect Modifiers
+V.E.3: Validation of Confounders and Effect Modifiers
+VI: DATA QUALITY DURING DATA ACCRUAL, CURATION, AND TRANSFORMATION INTO THE FINAL STUDY-SPECIFIC DATASET
+VI.A: Characterizing Data
+VI.B: Documentation of the QA/QC Plan
+VI.C: Documentation of Data Management Process
+VII: GLOSSARY
+VIII: REFERENCES
