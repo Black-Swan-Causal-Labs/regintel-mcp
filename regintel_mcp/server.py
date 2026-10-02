@@ -15,7 +15,7 @@ from .client import ApiError
 from .config import MissingKeyError
 from .service import Service
 
-mcp = FastMCP("reg-intel-mcp")
+mcp = FastMCP("regintel-mcp")
 _svc: Service | None = None
 
 

@@ -1,4 +1,4 @@
-# reg-intel-mcp
+# regintel-mcp
 
 **Regulatory intelligence from FDA regulations.gov dockets:** who commented, what they asked for, and what changed between the draft and final guidance.
 
@@ -8,7 +8,7 @@ Black Swan Causal Labs · [blackswancausallabs.com](https://blackswancausallabs.
 
 | Layer | Component | Status |
 |---|---|---|
-| Data | `reg-intel-mcp` server (this repo, MIT) | **Phase 1 built.** Fetch, cache, extract, diff. No interpretation. |
+| Data | `regintel-mcp` server (this repo, MIT) | **Phase 1 built.** Fetch, cache, extract, diff. No interpretation. |
 | Method | skills: `submitter-taxonomy`, `comment-theming`, `draft-final-concordance` | Phase 2 |
 | Orchestration | `/docket-analysis <docketId>` with 4 human checkpoints | Phase 3 |
 | Output | Explorer (reads one `analysis.json`; PolyForm Noncommercial) | Phase 4 |
@@ -29,7 +29,7 @@ cp .env.example .env    # then paste your key into .env
 **Register with Claude Code** (from the repo directory):
 
 ```bash
-claude mcp add reg-intel-mcp -- "$(pwd)/.venv/bin/python" -m regintel_mcp
+claude mcp add regintel-mcp -- "$(pwd)/.venv/bin/python" -m regintel_mcp
 ```
 
 When installed as a Claude plugin, `.mcp.json` starts the server from the plugin root.
