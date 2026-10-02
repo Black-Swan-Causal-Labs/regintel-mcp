@@ -37,6 +37,14 @@
       "checkpoint": 2,
       "decision": "submitter_table_approved",
       "notes": "All 7 low-confidence calls accepted as proposed: Wound Care Alliance=Professional society; MS Trials Committee=Academic; Invitae=Data & tech vendor; Guardant=Data & tech vendor; Anthem/HealthCore=Other (payer); AHA=Patient advocacy; National Health Council=Patient advocacy. Medium calls accepted."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "codebook_approved",
+      "codebook_version": "v1",
+      "notes": "12 themes. Edits: T02 'fit for purpose' wording; draft T13 (study design & analytic methods) folded into T03 as 'Methodology'. Non-constructive comments (sales pitch, general support, praise + citations) will carry zero or few asks, as intended."
     }
   ]
 }

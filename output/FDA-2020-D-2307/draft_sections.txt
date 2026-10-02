@@ -1,40 +1,40 @@
-front: Front matter
-I: INTRODUCTION AND SCOPE
-II: BACKGROUND
-III: GENERAL CONSIDERATIONS
-IV: DATA SOURCES
-IV.A: Relevance of the Data Source
-IV.B: Data Capture: General Discussion
-IV.B.1: Enrollment and Comprehensive Capture of Care
-IV.B.2: Data Linkage and Synthesis
-IV.B.3: Distributed Data Networks
-IV.B.4: Computable Phenotypes
-IV.B.5: Unstructured Data
-IV.C: Missing Data: General Considerations
-IV.D: Validation: General Considerations
-V: STUDY DESIGN ELEMENTS
-V.A: Definition of Time Periods
-V.B: Selection of Study Population
-V.C: Exposure Ascertainment and Validation
-V.C.1: Definition of Exposure
-V.C.2: Ascertainment of Exposure: Data Source
-V.C.3: Ascertainment of Exposure: Duration
-V.C.4: Ascertainment of Exposure: Dose
-V.C.5: Validation of Exposure
-V.C.6: Dosing in Special Populations
-V.C.7: Other Considerations
-V.D: Outcome Ascertainment and Validation
-V.D.1: Definition of Outcomes of Interest
-V.D.2: Ascertainment of Outcomes
-V.D.3: Validation of Outcomes
-V.D.4: Mortality as an Outcome
-V.E: Covariate Ascertainment and Validation
-V.E.1: Confounders
-V.E.2: Effect Modifiers
-V.E.3: Validation of Confounders and Effect Modifiers
-VI: DATA QUALITY DURING DATA ACCRUAL, CURATION, AND TRANSFORMATION INTO THE FINAL STUDY-SPECIFIC DATASET
-VI.A: Characterizing Data
-VI.B: Documentation of the QA/QC Plan
-VI.C: Documentation of Data Management Process
-VII: GLOSSARY
-VIII: REFERENCES
+section_id	draft lines	page	heading
+I	lines 15-78	p5	INTRODUCTION AND SCOPE
+II	lines 79-94	p7	BACKGROUND
+III	lines 95-127	p7	GENERAL CONSIDERATIONS
+IV	lines 128-162	p8	DATA SOURCES
+IV.A	lines 163-189	p9	Relevance of the Data Source
+IV.B	lines 190-200	p9	Data Capture: General Discussion
+IV.B.1	lines 201-247	p10	Enrollment and Comprehensive Capture of Care
+IV.B.2	lines 248-289	p11	Data Linkage and Synthesis
+IV.B.3	lines 290-355	p11	Distributed Data Networks
+IV.B.4	lines 356-368	p13	Computable Phenotypes
+IV.B.5	lines 369-394	p13	Unstructured Data
+IV.C	lines 395-423	p14	Missing Data: General Considerations
+IV.D	lines 424-499	p14	Validation: General Considerations
+V	lines 500-509	p17	STUDY DESIGN ELEMENTS
+V.A	lines 510-537	p17	Definition of Time Periods
+V.B	lines 538-559	p17	Selection of Study Population
+V.C	lines 560-565	p18	Exposure Ascertainment and Validation
+V.C.1	lines 566-585	p18	Definition of Exposure
+V.C.2	lines 586-626	p18	Ascertainment of Exposure: Data Source
+V.C.3	lines 627-653	p19	Ascertainment of Exposure: Duration
+V.C.4	lines 654-665	p20	Ascertainment of Exposure: Dose
+V.C.5	lines 666-695	p20	Validation of Exposure
+V.C.6	lines 696-708	p21	Dosing in Special Populations
+V.C.7	lines 709-726	p21	Other Considerations
+V.D	lines 727-744	p22	Outcome Ascertainment and Validation
+V.D.1	lines 745-772	p22	Definition of Outcomes of Interest
+V.D.2	lines 773-817	p23	Ascertainment of Outcomes
+V.D.3	lines 818-959	p24	Validation of Outcomes
+V.D.4	lines 960-980	p27	Mortality as an Outcome
+V.E	lines 981-985	p27	Covariate Ascertainment and Validation
+V.E.1	lines 986-1004	p27	Confounders
+V.E.2	lines 1005-1015	p28	Effect Modifiers
+V.E.3	lines 1016-1042	p28	Validation of Confounders and Effect Modifiers
+VI	lines 1043-1080	p29	DATA QUALITY DURING DATA ACCRUAL, CURATION, AND TRANSFORMATION INTO THE FINAL STUDY-SPECIFIC DATASET
+VI.A	lines 1081-1217	p30	Characterizing Data
+VI.B	lines 1218-1231	p33	Documentation of the QA/QC Plan
+VI.C	lines 1232-1250	p33	Documentation of Data Management Process
+VII	lines 1251-1381	p34	GLOSSARY
+VIII	lines 1382-1461	p37	REFERENCES

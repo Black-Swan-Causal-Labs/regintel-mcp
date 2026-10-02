@@ -1,7 +1,7 @@
 {
   "docket_id": "FDA-2020-D-2307",
-  "version": "v1-draft",
-  "status": "awaiting checkpoint 3",
+  "version": "v1",
+  "status": "approved at checkpoint 3 (JDD, 2026-10-01)",
   "stances": [
     "requests more specificity",
     "requests more flexibility",
@@ -20,7 +20,8 @@
     "T09 relabelled: EMA/international alignment was rare; ICH E9(R1), other FDA guidance and data standards (FHIR, OMOP, USCDI) dominate.",
     "T10 widened to implementation support (examples, templates, workshops, phenotype libraries).",
     "T12 widened to data types (unstructured/NLP, registries, genomics, PROs, non-US data).",
-    "T13 NEW: study design, prespecification and analytic methods (~20+ asks; no starter home)."
+    "T02 label uses 'fit for purpose' (commenters' term: 43 uses vs 3 for 'fitness').",
+    "T03 widened to Methodology: validation plus study design & analytic methods (draft T13 folded in at checkpoint 3)."
   ],
   "themes": [
     {
@@ -37,7 +38,7 @@
     },
     {
       "theme_id": "T02",
-      "label": "Data relevance, fitness for purpose & representativeness",
+      "label": "Data relevance, fit for purpose & representativeness",
       "definition": "Whether a data source suits the study question: capture of the population, exposures and outcomes; health-system context; EHR-vs-claims differences; representativeness of populations, including health-equity and SDOH concerns.",
       "notes": "Includes: health-system background/formulary information requests, continuity/observability, EHR vs claims specific considerations, diversity/representativeness. Excludes: missing-data methods (T04).",
       "example": {
@@ -49,15 +50,19 @@
     },
     {
       "theme_id": "T03",
-      "label": "Validation of exposures, outcomes & covariates",
-      "definition": "How study variables are defined and validated: algorithms, PPV/sensitivity/specificity, chart review, reference standards, reuse of prior validation.",
-      "notes": "Includes: performance thresholds, validation sample size, reference standards/no gold standard, conceptual vs operational definitions. Excludes: complaints that validation is too burdensome in general (T07) unless the ask is about the validation method itself.",
+      "label": "Methodology: validation, study design & analytic methods",
+      "definition": "How study variables are defined and validated (algorithms, PPV/sensitivity/specificity, chart review, reference standards, reuse of prior validation) and how studies are designed and analysed (time periods/index dates, comparators, estimands and target-trial framing, prespecification and registration, feasibility exploration before analysis, confounding, quantitative bias analysis).",
+      "notes": "Includes: performance thresholds, validation sample size, no gold standard, QBA, immortal time, negative controls, protocol/SAP timing. Excludes: complaints that validation is too burdensome in general (T07) unless the ask is about the method itself.",
       "example": {
         "comment_id": "FDA-2020-D-2307-0059",
         "span": "FDA should clarify whether it expects all or most studies to have to validate their outcomes through chart review"
       },
       "emergent": false,
-      "starter": true
+      "starter": true,
+      "merged_from": [
+        "T03 starter (validation)",
+        "T13 v1-draft (study design & analytic methods)"
+      ]
     },
     {
       "theme_id": "T04",
@@ -166,18 +171,6 @@
       },
       "emergent": false,
       "starter": true
-    },
-    {
-      "theme_id": "T13",
-      "label": "Study design, prespecification & analytic methods",
-      "definition": "Design and analysis issues: time periods/index dates, comparators, estimands and target-trial framing, prespecification and registration, feasibility exploration before analysis, confounding and quantitative bias analysis.",
-      "notes": "Includes: QBA, immortal time, negative controls, protocol/SAP timing, blinding to outcome data. Excludes: validation of the confounder variables themselves (T03).",
-      "example": {
-        "comment_id": "FDA-2020-D-2307-0048",
-        "span": "It would be useful to know if the FDA recommends any specific approaches to quantitative bias analysis"
-      },
-      "emergent": true,
-      "starter": false
     }
   ]
 }
