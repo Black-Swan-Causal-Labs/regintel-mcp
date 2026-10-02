@@ -1,0 +1,5652 @@
+[
+ {
+  "score": 1.0,
+  "a": "FDA-2020-D-2307-0055-A73",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "IV",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider defining EMR in the",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 1.0,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 1.0,
+  "a": "FDA-2020-D-2307-0055-A208",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider mentioning the",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.95,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.94,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A87",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency clarify whether evaluation of"
+ },
+ {
+  "score": 0.94,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.92,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A52",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "I",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency clarify the term"
+ },
+ {
+  "score": 0.91,
+  "a": "FDA-2020-D-2307-0055-A238",
+  "b": "FDA-2020-D-2307-0055-A246",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify what the expectations",
+  "b_span": "BIO recommends that the Agency clarify their expectation of"
+ },
+ {
+  "score": 0.91,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.91,
+  "a": "FDA-2020-D-2307-0055-A220",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.4",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider including",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.9,
+  "a": "FDA-2020-D-2307-0055-A157",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "V",
+  "b_sec": "VII",
+  "a_span": "BIO recommends the Agency consider an alternative",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.9,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.89,
+  "a": "FDA-2020-D-2307-0055-A76",
+  "b": "FDA-2020-D-2307-0055-A115",
+  "theme": "T10",
+  "a_sec": "IV",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency provide examples of",
+  "b_span": "BIO recommends that the Agency provide an example to clarify"
+ },
+ {
+  "score": 0.89,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A156",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency provides more clarity on if"
+ },
+ {
+  "score": 0.89,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.89,
+  "a": "FDA-2020-D-2307-0035-A13",
+  "b": "FDA-2020-D-2307-0035-A37",
+  "theme": "T06",
+  "a_sec": "IV.B.5",
+  "b_sec": "IV.B.4",
+  "a_span": "However, a requirement by FDA to share the AI/ML algorithms and parameters with drug sponsors may compromise what is considered a data provider\u2019s intellectual property.",
+  "b_span": "A requirement by FDA to share algorithms with drug sponsors may compromise what is considered a data provider\u2019s intellectual property."
+ },
+ {
+  "score": 0.89,
+  "a": "FDA-2020-D-2307-0019-A27",
+  "b": "FDA-2020-D-2307-0019-A35",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "Line 545 The draft guidance states that validation We recommend that the final studies are needed. guidance provide suggestions that citations of valid algorithms",
+  "b_span": "Line 820 The draft guidance describes that We recommend that the final validation studies are needed. guidance provide suggestions that citations of valid algorithms"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A107",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency clarify the meaning of"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A107",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify the meaning of",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.88,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.87,
+  "a": "FDA-2020-D-2307-0055-A54",
+  "b": "FDA-2020-D-2307-0055-A70",
+  "theme": "T02",
+  "a_sec": "I",
+  "b_sec": "IV",
+  "a_span": "BIO recommends the following edits: \u201cFor the purposes of this",
+  "b_span": "BIO recommends the following edits: The purpose of medical"
+ },
+ {
+  "score": 0.87,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.87,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A71",
+  "b": "FDA-2020-D-2307-0055-A94",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency considering noting that that",
+  "b_span": "BIO recommends that the Agency consider mentioning that"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A96",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "IV.B.1",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency consider using the term",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A169",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.2",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that the final draft guidance should provide"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0055-A240",
+  "b": "FDA-2020-D-2307-0055-A247",
+  "theme": "T01",
+  "a_sec": "VI.A",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if they recommend",
+  "b_span": "BIO recommends that the Agency clarify if they want the"
+ },
+ {
+  "score": 0.86,
+  "a": "FDA-2020-D-2307-0009-A39",
+  "b": "FDA-2020-D-2307-0009-A42",
+  "theme": "T12",
+  "a_sec": "V.C.3",
+  "b_sec": "V.C.7",
+  "a_span": "The discussion on duration of exposure seems to be a better fit for the future RWE guidance addressing specific issues with study design and analysis. We recommend that any guidance pertaining to ascertainment of exposure in the current document is centered on the availability of data for the study question of interest.",
+  "b_span": "The discussion on selection of a comparator seems to be a better fit for the future RWE guidance addressing specific issues with study design and analysis. We recommend that any guidance pertaining to appropriate comparators in the current document is centered on the availability of data for the study question of interest."
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A184",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency clarify if they are requesting"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A96",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency consider using the term"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A206",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify whether these",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A208",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency consider mentioning the",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A102",
+  "b": "FDA-2020-D-2307-0055-A103",
+  "theme": "T05",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify that the linkage rate is",
+  "b_span": "BIO recommends that the Agency clarify that if the Sponsor is"
+ },
+ {
+  "score": 0.85,
+  "a": "FDA-2020-D-2307-0055-A111",
+  "b": "FDA-2020-D-2307-0055-A243",
+  "theme": "T01",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency provide more clarity on what",
+  "b_span": "BIO recommends that the Agency provide more explicit draft"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A128",
+  "b": "FDA-2020-D-2307-0055-A212",
+  "theme": "T07",
+  "a_sec": "IV.B.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider adding a statement",
+  "b_span": "BIO recommends that the Agency consider expanding"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A94",
+  "b": "FDA-2020-D-2307-0055-A97",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency consider mentioning that",
+  "b_span": "BIO recommends that the Agency consider adding draft"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A246",
+  "b": "FDA-2020-D-2307-0055-A251",
+  "theme": "T06",
+  "a_sec": "VI.A",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify their expectation of",
+  "b_span": "We recommend that the Agency clarify the extent of"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A96",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider using the term",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A146",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify if this means that"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A190",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that the final draft guidance address"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A186",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify that if no appropriate",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.84,
+  "a": "FDA-2020-D-2307-0055-A51",
+  "b": "FDA-2020-D-2307-0055-A65",
+  "theme": "T01",
+  "a_sec": "I",
+  "b_sec": "III",
+  "a_span": "BIO recommends the following edit: Data provenance and",
+  "b_span": "BIO recommends the following edits: \u201cQuality assurance and"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A197",
+  "b": "FDA-2020-D-2307-0055-A219",
+  "theme": "T09",
+  "a_sec": "V.D.2",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency consider referencing current",
+  "b_span": "BIO recommends that the Agency consider including some"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A87",
+  "b": "FDA-2020-D-2307-0055-A92",
+  "theme": "T02",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B",
+  "a_span": "BIO recommends that the Agency clarify whether evaluation of",
+  "b_span": "BIO recommends that the Agency clarify whether these details"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A143",
+  "b": "FDA-2020-D-2307-0055-A239",
+  "theme": "T06",
+  "a_sec": "IV.D",
+  "b_sec": "VI",
+  "a_span": "BIO recommends that the Agency clarify if data providers",
+  "b_span": "BIO recommends that the Agency clarify if separate documents"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A73",
+  "b": "FDA-2020-D-2307-0055-A96",
+  "theme": "T08",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency consider defining EMR in the",
+  "b_span": "BIO recommends that the Agency consider using the term"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A169",
+  "b": "FDA-2020-D-2307-0055-A190",
+  "theme": "T03",
+  "a_sec": "V.C.2",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the final draft guidance should provide",
+  "b_span": "BIO recommends that the final draft guidance address"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A196",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.1",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO also recommends that the Agency consider providing more"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.D.4",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A206",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether these",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.83,
+  "a": "FDA-2020-D-2307-0055-A226",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.E.1",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency expands upon the draft",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A121",
+  "b": "FDA-2020-D-2307-0055-A164",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify they endorse, for",
+  "b_span": "BIO recommends that the Agency clarify that they would"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A223",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "V.E",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency consider defining",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.82,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A87",
+  "b": "FDA-2020-D-2307-0055-A184",
+  "theme": "T02",
+  "a_sec": "IV.A",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify whether evaluation of",
+  "b_span": "BIO recommends that the Agency clarify if they are requesting"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A96",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency consider using the term"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A107",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency clarify the meaning of"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A146",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify if this means that"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.E",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A210",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify how the necessary",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.81,
+  "a": "FDA-2020-D-2307-0055-A215",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency consider that the final draft",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A47",
+  "b": "FDA-2020-D-2307-0055-A83",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO also recommends that the Agency clarify if pragmatic",
+  "b_span": "BIO recommends that the Agency clarify if this draft guidance"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A74",
+  "b": "FDA-2020-D-2307-0055-A83",
+  "theme": "T12",
+  "a_sec": "IV",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify if this description of",
+  "b_span": "BIO recommends that the Agency clarify if this draft guidance"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A117",
+  "b": "FDA-2020-D-2307-0055-A158",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "V",
+  "a_span": "BIO recommends that the Agency reference the recent draft",
+  "b_span": "BIO recommends that the Agency make reference to"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A158",
+  "b": "FDA-2020-D-2307-0055-A197",
+  "theme": "T09",
+  "a_sec": "V",
+  "b_sec": "V.D.2",
+  "a_span": "BIO recommends that the Agency make reference to",
+  "b_span": "BIO recommends that the Agency consider referencing current"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A87",
+  "b": "FDA-2020-D-2307-0055-A99",
+  "theme": "T02",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify whether evaluation of",
+  "b_span": "BIO recommends that the Agency clarify the current example"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A238",
+  "b": "FDA-2020-D-2307-0055-A251",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify what the expectations",
+  "b_span": "We recommend that the Agency clarify the extent of"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A239",
+  "b": "FDA-2020-D-2307-0055-A252",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify if separate documents",
+  "b_span": "BIO recommends that the Agency clarify if the submitted"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A84",
+  "b": "FDA-2020-D-2307-0055-A107",
+  "theme": "T08",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify what validation means",
+  "b_span": "BIO recommends that the Agency clarify the meaning of"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A221",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.E",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider mentioning",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A108",
+  "b": "FDA-2020-D-2307-0055-A248",
+  "theme": "T05",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the agency provide specific",
+  "b_span": "BIO recommends that the Agency provide examples or best"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A109",
+  "b": "FDA-2020-D-2307-0055-A240",
+  "theme": "T01",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if Sponsors should",
+  "b_span": "BIO recommends that the Agency clarify if they recommend"
+ },
+ {
+  "score": 0.8,
+  "a": "FDA-2020-D-2307-0055-A109",
+  "b": "FDA-2020-D-2307-0055-A247",
+  "theme": "T01",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if Sponsors should",
+  "b_span": "BIO recommends that the Agency clarify if they want the"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A50",
+  "b": "FDA-2020-D-2307-0055-A74",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV",
+  "a_span": "BIO recommends that the Agency clarify the range of \u2018study",
+  "b_span": "BIO recommends that the Agency clarify if this description of"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A50",
+  "b": "FDA-2020-D-2307-0055-A88",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify the range of \u2018study",
+  "b_span": "BIO recommends that the Agency clarify to what extent would"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A83",
+  "b": "FDA-2020-D-2307-0055-A126",
+  "theme": "T12",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO recommends that the Agency clarify if this draft guidance",
+  "b_span": "BIO recommends that the Agency clarify as to whether FDA"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A134",
+  "b": "FDA-2020-D-2307-0055-A164",
+  "theme": "T09",
+  "a_sec": "IV.C",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency emphasize that the estimand",
+  "b_span": "BIO recommends that the Agency clarify that they would"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A92",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency clarify whether these details"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A99",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency clarify the current example"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A113",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency include a rationale of"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A71",
+  "b": "FDA-2020-D-2307-0055-A97",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency considering noting that that",
+  "b_span": "BIO recommends that the Agency consider adding draft"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A92",
+  "b": "FDA-2020-D-2307-0055-A184",
+  "theme": "T02",
+  "a_sec": "IV.B",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify whether these details",
+  "b_span": "BIO recommends that the Agency clarify if they are requesting"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A239",
+  "b": "FDA-2020-D-2307-0055-A246",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if separate documents",
+  "b_span": "BIO recommends that the Agency clarify their expectation of"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A84",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "IV.A",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify what validation means",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A196",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.1",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO also recommends that the Agency consider providing more"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A186",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify that if no appropriate",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A208",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider mentioning the",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A102",
+  "b": "FDA-2020-D-2307-0055-A106",
+  "theme": "T05",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify that the linkage rate is",
+  "b_span": "BIO recommends that the Agency clarify whether steps should"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A51",
+  "b": "FDA-2020-D-2307-0055-A114",
+  "theme": "T01",
+  "a_sec": "I",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends the following edit: Data provenance and",
+  "b_span": "BIO recommends the following edit: This scenario is not an"
+ },
+ {
+  "score": 0.79,
+  "a": "FDA-2020-D-2307-0055-A135",
+  "b": "FDA-2020-D-2307-0055-A137",
+  "theme": "T04",
+  "a_sec": "IV.C",
+  "b_sec": "IV.C",
+  "a_span": "BIO recommends that the Agency clarify if they further",
+  "b_span": "BIO recommends that the Agency clearly state their preferred"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A88",
+  "b": "FDA-2020-D-2307-0055-A126",
+  "theme": "T12",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO recommends that the Agency clarify to what extent would",
+  "b_span": "BIO recommends that the Agency clarify as to whether FDA"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A92",
+  "b": "FDA-2020-D-2307-0055-A99",
+  "theme": "T02",
+  "a_sec": "IV.B",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify whether these details",
+  "b_span": "BIO recommends that the Agency clarify the current example"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A101",
+  "b": "FDA-2020-D-2307-0055-A183",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.C.5",
+  "a_span": "BIO suggests the following edits: \u201cIn general, EHR and",
+  "b_span": "BIO suggests the following edit: \u201cIn some instances, for"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A143",
+  "b": "FDA-2020-D-2307-0055-A246",
+  "theme": "T06",
+  "a_sec": "IV.D",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if data providers",
+  "b_span": "BIO recommends that the Agency clarify their expectation of"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A238",
+  "b": "FDA-2020-D-2307-0055-A252",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify what the expectations",
+  "b_span": "BIO recommends that the Agency clarify if the submitted"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A242",
+  "b": "FDA-2020-D-2307-0055-A252",
+  "theme": "T06",
+  "a_sec": "VI.A",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify its thinking on the role",
+  "b_span": "BIO recommends that the Agency clarify if the submitted"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A251",
+  "b": "FDA-2020-D-2307-0055-A252",
+  "theme": "T06",
+  "a_sec": "VI.C",
+  "b_sec": "VI.C",
+  "a_span": "We recommend that the Agency clarify the extent of",
+  "b_span": "BIO recommends that the Agency clarify if the submitted"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A96",
+  "b": "FDA-2020-D-2307-0055-A157",
+  "theme": "T08",
+  "a_sec": "IV.B.1",
+  "b_sec": "V",
+  "a_span": "BIO recommends that the Agency consider using the term",
+  "b_span": "BIO recommends the Agency consider an alternative"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A124",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.4",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify what they expect"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A170",
+  "b": "FDA-2020-D-2307-0055-A225",
+  "theme": "T03",
+  "a_sec": "V.C.2",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends the following edit: \u201cWhen relying on coded",
+  "b_span": "BIO recommends the following edits: \u201cFDA recommends"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A186",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify that if no appropriate",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A215",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency consider that the final draft",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A228",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.E.1",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency expand the definition to",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.78,
+  "a": "FDA-2020-D-2307-0055-A103",
+  "b": "FDA-2020-D-2307-0055-A106",
+  "theme": "T05",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify that if the Sponsor is",
+  "b_span": "BIO recommends that the Agency clarify whether steps should"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A112",
+  "b": "FDA-2020-D-2307-0055-A212",
+  "theme": "T07",
+  "a_sec": "IV.B.2",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether any",
+  "b_span": "BIO recommends that the Agency consider expanding"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A47",
+  "b": "FDA-2020-D-2307-0055-A74",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV",
+  "a_span": "BIO also recommends that the Agency clarify if pragmatic",
+  "b_span": "BIO recommends that the Agency clarify if this description of"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A50",
+  "b": "FDA-2020-D-2307-0055-A83",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify the range of \u2018study",
+  "b_span": "BIO recommends that the Agency clarify if this draft guidance"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A50",
+  "b": "FDA-2020-D-2307-0055-A126",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO recommends that the Agency clarify the range of \u2018study",
+  "b_span": "BIO recommends that the Agency clarify as to whether FDA"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A83",
+  "b": "FDA-2020-D-2307-0055-A88",
+  "theme": "T12",
+  "a_sec": "IV.A",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify if this draft guidance",
+  "b_span": "BIO recommends that the Agency clarify to what extent would"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A78",
+  "b": "FDA-2020-D-2307-0055-A179",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "V.C.5",
+  "a_span": "BIO suggests the following edits: The historical experience",
+  "b_span": "BIO suggests the following edits: Other than for medications"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A99",
+  "b": "FDA-2020-D-2307-0055-A184",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify the current example",
+  "b_span": "BIO recommends that the Agency clarify if they are requesting"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A143",
+  "b": "FDA-2020-D-2307-0055-A242",
+  "theme": "T06",
+  "a_sec": "IV.D",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if data providers",
+  "b_span": "BIO recommends that the Agency clarify its thinking on the role"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A143",
+  "b": "FDA-2020-D-2307-0055-A252",
+  "theme": "T06",
+  "a_sec": "IV.D",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify if data providers",
+  "b_span": "BIO recommends that the Agency clarify if the submitted"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A238",
+  "b": "FDA-2020-D-2307-0055-A239",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI",
+  "a_span": "BIO recommends that the Agency clarify what the expectations",
+  "b_span": "BIO recommends that the Agency clarify if separate documents"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A242",
+  "b": "FDA-2020-D-2307-0055-A246",
+  "theme": "T06",
+  "a_sec": "VI.A",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify its thinking on the role",
+  "b_span": "BIO recommends that the Agency clarify their expectation of"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A246",
+  "b": "FDA-2020-D-2307-0055-A252",
+  "theme": "T06",
+  "a_sec": "VI.A",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify their expectation of",
+  "b_span": "BIO recommends that the Agency clarify if the submitted"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A84",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency clarify what validation means"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A223",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "V.E",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency consider defining",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A124",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.B.4",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify what they expect"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A150",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency provide clarity on what"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A186",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify that if no appropriate",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.77,
+  "a": "FDA-2020-D-2307-0055-A208",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider mentioning the",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A117",
+  "b": "FDA-2020-D-2307-0055-A197",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "V.D.2",
+  "a_span": "BIO recommends that the Agency reference the recent draft",
+  "b_span": "BIO recommends that the Agency consider referencing current"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A87",
+  "b": "FDA-2020-D-2307-0055-A113",
+  "theme": "T02",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify whether evaluation of",
+  "b_span": "BIO recommends that the Agency include a rationale of"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A66",
+  "b": "FDA-2020-D-2307-0055-A76",
+  "theme": "T10",
+  "a_sec": "IV",
+  "b_sec": "IV",
+  "a_span": "BIO recommends that the Agency consider developing a",
+  "b_span": "BIO recommends that the Agency provide examples of"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A143",
+  "b": "FDA-2020-D-2307-0055-A238",
+  "theme": "T06",
+  "a_sec": "IV.D",
+  "b_sec": "VI",
+  "a_span": "BIO recommends that the Agency clarify if data providers",
+  "b_span": "BIO recommends that the Agency clarify what the expectations"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A81",
+  "b": "FDA-2020-D-2307-0055-A140",
+  "theme": "T08",
+  "a_sec": "IV.A",
+  "b_sec": "IV.D",
+  "a_span": "BIO suggests the following edit: Patients in different types of",
+  "b_span": "BIO suggests the following edit: \u201c... differential"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A107",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "IV.B.2",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency clarify the meaning of",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A157",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "V",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends the Agency consider an alternative",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A150",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency provide clarity on what"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A150",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency provide clarity on what"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A177",
+  "b": "FDA-2020-D-2307-0055-A225",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends the following edit: Data about exposure",
+  "b_span": "BIO recommends the following edits: \u201cFDA recommends"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A186",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify that if no appropriate",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0055-A215",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency consider that the final draft",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.76,
+  "a": "FDA-2020-D-2307-0019-A33",
+  "b": "FDA-2020-D-2307-0019-A38",
+  "theme": "T03",
+  "a_sec": "V.C.6",
+  "b_sec": "V.D.3",
+  "a_span": "Lines 701 - 703 The example provided seems less relevant We recommend removing this to a non-interventional study where the example:",
+  "b_span": "Lines 925 \u2013 929 The example provided seems less relevant We recommend removing this to EHR or claims database studies and example:"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A47",
+  "b": "FDA-2020-D-2307-0055-A89",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO also recommends that the Agency clarify if pragmatic",
+  "b_span": "BIO also recommends that the Agency highlight specific"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A74",
+  "b": "FDA-2020-D-2307-0055-A126",
+  "theme": "T12",
+  "a_sec": "IV",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO recommends that the Agency clarify if this description of",
+  "b_span": "BIO recommends that the Agency clarify as to whether FDA"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A113",
+  "b": "FDA-2020-D-2307-0055-A172",
+  "theme": "T02",
+  "a_sec": "IV.B.2",
+  "b_sec": "V.C.2",
+  "a_span": "BIO recommends that the Agency include a rationale of",
+  "b_span": "BIO recommends that the Agency provide a reference for this"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A238",
+  "b": "FDA-2020-D-2307-0055-A242",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify what the expectations",
+  "b_span": "BIO recommends that the Agency clarify its thinking on the role"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A239",
+  "b": "FDA-2020-D-2307-0055-A242",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency clarify if separate documents",
+  "b_span": "BIO recommends that the Agency clarify its thinking on the role"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A239",
+  "b": "FDA-2020-D-2307-0055-A251",
+  "theme": "T06",
+  "a_sec": "VI",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify if separate documents",
+  "b_span": "We recommend that the Agency clarify the extent of"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A43",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency is consistent and provides",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A122",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.4",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency define what a computer-"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A73",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "IV",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency consider defining EMR in the",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A73",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "IV",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency consider defining EMR in the",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A107",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "IV.B.2",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify the meaning of",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.E.1",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A150",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency provide clarity on what"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A144",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency expand the current"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A146",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency clarify if this means that"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A151",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify the intention of"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A166",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency refer to types of Bias in"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A171",
+  "b": "FDA-2020-D-2307-0055-A189",
+  "theme": "T03",
+  "a_sec": "V.C.2",
+  "b_sec": "V.C.6",
+  "a_span": "BIO recommends the following edit: For example, in the United",
+  "b_span": "BIO suggests the following edit: \u201cFor example, in assessing"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A190",
+  "b": "FDA-2020-D-2307-0055-A232",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the final draft guidance address",
+  "b_span": "BIO recommends that FDA provide draft guidance for"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A208",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency consider mentioning the",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0055-A215",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency consider that the final draft",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0009-A35",
+  "b": "FDA-2020-D-2307-0009-A39",
+  "theme": "T12",
+  "a_sec": "V.A",
+  "b_sec": "V.C.3",
+  "a_span": "The discussion on definition of time periods seems to be a better fit for the future RWE guidance addressing specific issues with study design and analysis. We recommend that any guidance pertaining to time periods in the current document is centered on the availability of enough data for the study question of interest. Any further discussion (e.g. mentioning time-dependent covariates) should be addressed elsewhere.",
+  "b_span": "The discussion on duration of exposure seems to be a better fit for the future RWE guidance addressing specific issues with study design and analysis. We recommend that any guidance pertaining to ascertainment of exposure in the current document is centered on the availability of data for the study question of interest."
+ },
+ {
+  "score": 0.75,
+  "a": "FDA-2020-D-2307-0009-A35",
+  "b": "FDA-2020-D-2307-0009-A42",
+  "theme": "T12",
+  "a_sec": "V.A",
+  "b_sec": "V.C.7",
+  "a_span": "The discussion on definition of time periods seems to be a better fit for the future RWE guidance addressing specific issues with study design and analysis. We recommend that any guidance pertaining to time periods in the current document is centered on the availability of enough data for the study question of interest. Any further discussion (e.g. mentioning time-dependent covariates) should be addressed elsewhere.",
+  "b_span": "The discussion on selection of a comparator seems to be a better fit for the future RWE guidance addressing specific issues with study design and analysis. We recommend that any guidance pertaining to appropriate comparators in the current document is centered on the availability of data for the study question of interest."
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A112",
+  "b": "FDA-2020-D-2307-0055-A191",
+  "theme": "T07",
+  "a_sec": "IV.B.2",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency clarify whether any",
+  "b_span": "BIO also recommends that the Agency provide clarification and"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A47",
+  "b": "FDA-2020-D-2307-0055-A50",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "I",
+  "a_span": "BIO also recommends that the Agency clarify if pragmatic",
+  "b_span": "BIO recommends that the Agency clarify the range of \u2018study"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A117",
+  "b": "FDA-2020-D-2307-0055-A121",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "IV.B.3",
+  "a_span": "BIO recommends that the Agency reference the recent draft",
+  "b_span": "BIO recommends that the Agency clarify they endorse, for"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A78",
+  "b": "FDA-2020-D-2307-0055-A101",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO suggests the following edits: The historical experience",
+  "b_span": "BIO suggests the following edits: \u201cIn general, EHR and"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A94",
+  "b": "FDA-2020-D-2307-0055-A113",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency consider mentioning that",
+  "b_span": "BIO recommends that the Agency include a rationale of"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A94",
+  "b": "FDA-2020-D-2307-0055-A172",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.C.2",
+  "a_span": "BIO recommends that the Agency consider mentioning that",
+  "b_span": "BIO recommends that the Agency provide a reference for this"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A43",
+  "b": "FDA-2020-D-2307-0055-A157",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "V",
+  "a_span": "BIO recommends that the Agency is consistent and provides",
+  "b_span": "BIO recommends the Agency consider an alternative"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A245",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "VI.A",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency clarify the definition of core",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A146",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify if this means that"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A100",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.B.1",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify if a feasibility"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A175",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency consider adding a sentence"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A156",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency provides more clarity on if"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A161",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the expectations/considerations for the",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A206",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether these",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A221",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.E",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency consider mentioning",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A230",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.E.2",
+  "b_sec": "V.E.2",
+  "a_span": "BIO also recommends that the Agency include biomarkers and",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A65",
+  "b": "FDA-2020-D-2307-0055-A114",
+  "theme": "T01",
+  "a_sec": "III",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends the following edits: \u201cQuality assurance and",
+  "b_span": "BIO recommends the following edit: This scenario is not an"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0055-A90",
+  "b": "FDA-2020-D-2307-0055-A135",
+  "theme": "T04",
+  "a_sec": "IV.B",
+  "b_sec": "IV.C",
+  "a_span": "BIO recommends that the Agency provide clarity on readily",
+  "b_span": "BIO recommends that the Agency clarify if they further"
+ },
+ {
+  "score": 0.74,
+  "a": "FDA-2020-D-2307-0019-A25",
+  "b": "FDA-2020-D-2307-0019-A27",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "Lines 464 - 466 The draft guidance states that validation We recommend that the final studies are needed. guidance provide suggestions that citations of valid algorithms or use of datasets where data are consistently abstracted may be sufficient instead of validation.",
+  "b_span": "Line 545 The draft guidance states that validation We recommend that the final studies are needed. guidance provide suggestions that citations of valid algorithms"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A47",
+  "b": "FDA-2020-D-2307-0055-A88",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO also recommends that the Agency clarify if pragmatic",
+  "b_span": "BIO recommends that the Agency clarify to what extent would"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A47",
+  "b": "FDA-2020-D-2307-0055-A126",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO also recommends that the Agency clarify if pragmatic",
+  "b_span": "BIO recommends that the Agency clarify as to whether FDA"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A158",
+  "b": "FDA-2020-D-2307-0055-A164",
+  "theme": "T09",
+  "a_sec": "V",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency make reference to",
+  "b_span": "BIO recommends that the Agency clarify that they would"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A78",
+  "b": "FDA-2020-D-2307-0055-A183",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "V.C.5",
+  "a_span": "BIO suggests the following edits: The historical experience",
+  "b_span": "BIO suggests the following edit: \u201cIn some instances, for"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A87",
+  "b": "FDA-2020-D-2307-0055-A94",
+  "theme": "T02",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify whether evaluation of",
+  "b_span": "BIO recommends that the Agency consider mentioning that"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A93",
+  "b": "FDA-2020-D-2307-0055-A101",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO suggests the following edit: Continuity of coverage",
+  "b_span": "BIO suggests the following edits: \u201cIn general, EHR and"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A115",
+  "b": "FDA-2020-D-2307-0055-A216",
+  "theme": "T10",
+  "a_sec": "IV.B.2",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide an example to clarify",
+  "b_span": "BIO recommends that the Agency include an Appendix with"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A43",
+  "b": "FDA-2020-D-2307-0055-A107",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency is consistent and provides",
+  "b_span": "BIO recommends that the Agency clarify the meaning of"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A84",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency clarify what validation means"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A122",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.4",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency define what a computer-"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A73",
+  "b": "FDA-2020-D-2307-0055-A107",
+  "theme": "T08",
+  "a_sec": "IV",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency consider defining EMR in the",
+  "b_span": "BIO recommends that the Agency clarify the meaning of"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A84",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "IV.A",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency clarify what validation means",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A96",
+  "b": "FDA-2020-D-2307-0055-A107",
+  "theme": "T08",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency consider using the term",
+  "b_span": "BIO recommends that the Agency clarify the meaning of"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.E.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A168",
+  "b": "FDA-2020-D-2307-0055-A177",
+  "theme": "T03",
+  "a_sec": "V.C.1",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends the following edit: \u201cThis will usually require",
+  "b_span": "BIO recommends the following edit: Data about exposure"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A168",
+  "b": "FDA-2020-D-2307-0055-A225",
+  "theme": "T03",
+  "a_sec": "V.C.1",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends the following edit: \u201cThis will usually require",
+  "b_span": "BIO recommends the following edits: \u201cFDA recommends"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A199",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends the Agency consider EHRs where there is no",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A206",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify whether these",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A210",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify how the necessary",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A215",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency consider that the final draft",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A220",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.D.4",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider including",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A220",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.D.4",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider including",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.73,
+  "a": "FDA-2020-D-2307-0055-A131",
+  "b": "FDA-2020-D-2307-0055-A137",
+  "theme": "T04",
+  "a_sec": "IV.C",
+  "b_sec": "IV.C",
+  "a_span": "BIO suggests that FDA should clearly state their preferred",
+  "b_span": "BIO recommends that the Agency clearly state their preferred"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A74",
+  "b": "FDA-2020-D-2307-0055-A88",
+  "theme": "T12",
+  "a_sec": "IV",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency clarify if this description of",
+  "b_span": "BIO recommends that the Agency clarify to what extent would"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A121",
+  "b": "FDA-2020-D-2307-0055-A134",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "IV.C",
+  "a_span": "BIO recommends that the Agency clarify they endorse, for",
+  "b_span": "BIO recommends that the Agency emphasize that the estimand"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A54",
+  "b": "FDA-2020-D-2307-0055-A72",
+  "theme": "T02",
+  "a_sec": "I",
+  "b_sec": "IV",
+  "a_span": "BIO recommends the following edits: \u201cFor the purposes of this",
+  "b_span": "BIO recommends the following edits: EHR data are generated"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A70",
+  "b": "FDA-2020-D-2307-0055-A72",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV",
+  "a_span": "BIO recommends the following edits: The purpose of medical",
+  "b_span": "BIO recommends the following edits: EHR data are generated"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A93",
+  "b": "FDA-2020-D-2307-0055-A183",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.C.5",
+  "a_span": "BIO suggests the following edit: Continuity of coverage",
+  "b_span": "BIO suggests the following edit: \u201cIn some instances, for"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A99",
+  "b": "FDA-2020-D-2307-0055-A113",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify the current example",
+  "b_span": "BIO recommends that the Agency include a rationale of"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A76",
+  "b": "FDA-2020-D-2307-0055-A216",
+  "theme": "T10",
+  "a_sec": "IV",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide examples of",
+  "b_span": "BIO recommends that the Agency include an Appendix with"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A43",
+  "b": "FDA-2020-D-2307-0055-A96",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency is consistent and provides",
+  "b_span": "BIO recommends that the Agency consider using the term"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A43",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency is consistent and provides",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A46",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify whether the term",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A52",
+  "b": "FDA-2020-D-2307-0055-A73",
+  "theme": "T08",
+  "a_sec": "I",
+  "b_sec": "IV",
+  "a_span": "BIO recommends that the Agency clarify the term",
+  "b_span": "BIO recommends that the Agency consider defining EMR in the"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A73",
+  "b": "FDA-2020-D-2307-0055-A157",
+  "theme": "T08",
+  "a_sec": "IV",
+  "b_sec": "V",
+  "a_span": "BIO recommends that the Agency consider defining EMR in the",
+  "b_span": "BIO recommends the Agency consider an alternative"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A84",
+  "b": "FDA-2020-D-2307-0055-A122",
+  "theme": "T08",
+  "a_sec": "IV.A",
+  "b_sec": "IV.B.4",
+  "a_span": "BIO recommends that the Agency clarify what validation means",
+  "b_span": "BIO recommends that the Agency define what a computer-"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A122",
+  "b": "FDA-2020-D-2307-0055-A257",
+  "theme": "T08",
+  "a_sec": "IV.B.4",
+  "b_sec": "VII",
+  "a_span": "BIO recommends that the Agency define what a computer-",
+  "b_span": "BIO recommends that the Agency consider the alternative"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A124",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.B.4",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify what they expect"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A163",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.B",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify the context and scope"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.C.5",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A146",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify if this means that"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A152",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify what the design of a"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A198",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify whether there are"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A150",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that the Agency provide clarity on what"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A196",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.1",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO also recommends that the Agency consider providing more"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A175",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency consider adding a sentence"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A169",
+  "b": "FDA-2020-D-2307-0055-A232",
+  "theme": "T03",
+  "a_sec": "V.C.2",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the final draft guidance should provide",
+  "b_span": "BIO recommends that FDA provide draft guidance for"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A176",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends the Agency provide the example of defining a",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A186",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify that if no appropriate",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.E.2",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A199",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends the Agency consider EHRs where there is no",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A232",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that FDA provide draft guidance for"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A109",
+  "b": "FDA-2020-D-2307-0055-A111",
+  "theme": "T01",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify if Sponsors should",
+  "b_span": "BIO recommends that the Agency provide more clarity on what"
+ },
+ {
+  "score": 0.72,
+  "a": "FDA-2020-D-2307-0055-A111",
+  "b": "FDA-2020-D-2307-0055-A247",
+  "theme": "T01",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency provide more clarity on what",
+  "b_span": "BIO recommends that the Agency clarify if they want the"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A191",
+  "b": "FDA-2020-D-2307-0055-A212",
+  "theme": "T07",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO also recommends that the Agency provide clarification and",
+  "b_span": "BIO recommends that the Agency consider expanding"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A45",
+  "b": "FDA-2020-D-2307-0055-A74",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV",
+  "a_span": "BIO recommends that the Agency reference specific types of",
+  "b_span": "BIO recommends that the Agency clarify if this description of"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A45",
+  "b": "FDA-2020-D-2307-0055-A89",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.A",
+  "a_span": "BIO recommends that the Agency reference specific types of",
+  "b_span": "BIO also recommends that the Agency highlight specific"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A117",
+  "b": "FDA-2020-D-2307-0055-A134",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "IV.C",
+  "a_span": "BIO recommends that the Agency reference the recent draft",
+  "b_span": "BIO recommends that the Agency emphasize that the estimand"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A158",
+  "b": "FDA-2020-D-2307-0055-A219",
+  "theme": "T09",
+  "a_sec": "V",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency make reference to",
+  "b_span": "BIO recommends that the Agency consider including some"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A71",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency considering noting that that"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A71",
+  "b": "FDA-2020-D-2307-0055-A172",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "V.C.2",
+  "a_span": "BIO recommends that the Agency considering noting that that",
+  "b_span": "BIO recommends that the Agency provide a reference for this"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A94",
+  "b": "FDA-2020-D-2307-0055-A99",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency consider mentioning that",
+  "b_span": "BIO recommends that the Agency clarify the current example"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A179",
+  "b": "FDA-2020-D-2307-0055-A183",
+  "theme": "T02",
+  "a_sec": "V.C.5",
+  "b_sec": "V.C.5",
+  "a_span": "BIO suggests the following edits: Other than for medications",
+  "b_span": "BIO suggests the following edit: \u201cIn some instances, for"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A242",
+  "b": "FDA-2020-D-2307-0055-A251",
+  "theme": "T06",
+  "a_sec": "VI.A",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that the Agency clarify its thinking on the role",
+  "b_span": "We recommend that the Agency clarify the extent of"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A122",
+  "b": "FDA-2020-D-2307-0055-A223",
+  "theme": "T08",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency define what a computer-",
+  "b_span": "BIO recommends that the Agency consider defining"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A122",
+  "b": "FDA-2020-D-2307-0055-A245",
+  "theme": "T08",
+  "a_sec": "IV.B.4",
+  "b_sec": "VI.A",
+  "a_span": "BIO recommends that the Agency define what a computer-",
+  "b_span": "BIO recommends that the Agency clarify the definition of core"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A100",
+  "b": "FDA-2020-D-2307-0055-A156",
+  "theme": "T03",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify if a feasibility",
+  "b_span": "BIO recommends that the Agency provides more clarity on if"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A124",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "IV.B.4",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify what they expect",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A156",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency provides more clarity on if"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A178",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency include the concept of"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A232",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that FDA provide draft guidance for"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A166",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency refer to types of Bias in"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A176",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends the Agency provide the example of defining a"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A175",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency consider adding a sentence"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A206",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency clarify whether these"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A163",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify the context and scope",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A168",
+  "b": "FDA-2020-D-2307-0055-A170",
+  "theme": "T03",
+  "a_sec": "V.C.1",
+  "b_sec": "V.C.2",
+  "a_span": "BIO recommends the following edit: \u201cThis will usually require",
+  "b_span": "BIO recommends the following edit: \u201cWhen relying on coded"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A171",
+  "b": "FDA-2020-D-2307-0055-A177",
+  "theme": "T03",
+  "a_sec": "V.C.2",
+  "b_sec": "V.C.4",
+  "a_span": "BIO recommends the following edit: For example, in the United",
+  "b_span": "BIO recommends the following edit: Data about exposure"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A171",
+  "b": "FDA-2020-D-2307-0055-A225",
+  "theme": "T03",
+  "a_sec": "V.C.2",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends the following edit: For example, in the United",
+  "b_span": "BIO recommends the following edits: \u201cFDA recommends"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A187",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider including in",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A201",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO recommends that the Agency provide a reference to"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A196",
+  "b": "FDA-2020-D-2307-0055-A205",
+  "theme": "T03",
+  "a_sec": "V.D.1",
+  "b_sec": "V.D.3",
+  "a_span": "BIO also recommends that the Agency consider providing more",
+  "b_span": "BIO recommends that the Agency provide clarity on how an"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A199",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends the Agency consider EHRs where there is no"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A198",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify whether there are",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A206",
+  "b": "FDA-2020-D-2307-0055-A220",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency clarify whether these",
+  "b_span": "BIO recommends that the Agency consider including"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A210",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify how the necessary",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A104",
+  "b": "FDA-2020-D-2307-0055-A108",
+  "theme": "T05",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency describe data tokenization",
+  "b_span": "BIO recommends that the agency provide specific"
+ },
+ {
+  "score": 0.71,
+  "a": "FDA-2020-D-2307-0055-A111",
+  "b": "FDA-2020-D-2307-0055-A249",
+  "theme": "T01",
+  "a_sec": "IV.B.2",
+  "b_sec": "VI.B",
+  "a_span": "BIO recommends that the Agency provide more clarity on what",
+  "b_span": "BIO recommends that the Agency discuss considerations"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A112",
+  "b": "FDA-2020-D-2307-0055-A128",
+  "theme": "T07",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO recommends that the Agency clarify whether any",
+  "b_span": "BIO recommends that the Agency consider adding a statement"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A44",
+  "b": "FDA-2020-D-2307-0055-A50",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "I",
+  "a_span": "BIO recommends that FDA clarify whether the scope of the",
+  "b_span": "BIO recommends that the Agency clarify the range of \u2018study"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A44",
+  "b": "FDA-2020-D-2307-0055-A126",
+  "theme": "T12",
+  "a_sec": "I",
+  "b_sec": "IV.B.5",
+  "a_span": "BIO recommends that FDA clarify whether the scope of the",
+  "b_span": "BIO recommends that the Agency clarify as to whether FDA"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A117",
+  "b": "FDA-2020-D-2307-0055-A164",
+  "theme": "T09",
+  "a_sec": "IV.B.3",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency reference the recent draft",
+  "b_span": "BIO recommends that the Agency clarify that they would"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A69",
+  "b": "FDA-2020-D-2307-0055-A94",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends that the Agency clarify if the evaluation of",
+  "b_span": "BIO recommends that the Agency consider mentioning that"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A78",
+  "b": "FDA-2020-D-2307-0055-A93",
+  "theme": "T02",
+  "a_sec": "IV",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO suggests the following edits: The historical experience",
+  "b_span": "BIO suggests the following edit: Continuity of coverage"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A97",
+  "b": "FDA-2020-D-2307-0055-A113",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency consider adding draft",
+  "b_span": "BIO recommends that the Agency include a rationale of"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A101",
+  "b": "FDA-2020-D-2307-0055-A179",
+  "theme": "T02",
+  "a_sec": "IV.B.1",
+  "b_sec": "V.C.5",
+  "a_span": "BIO suggests the following edits: \u201cIn general, EHR and",
+  "b_span": "BIO suggests the following edits: Other than for medications"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A100",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.B.1",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify if a feasibility"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A58",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends the Agency clarify the meaning of \u201cbefore",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A144",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "IV.D",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency expand the current"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.D.3",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A142",
+  "b": "FDA-2020-D-2307-0055-A228",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends the Agency develop an algorithm to define",
+  "b_span": "BIO recommends that the Agency expand the definition to"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A144",
+  "b": "FDA-2020-D-2307-0055-A166",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency expand the current",
+  "b_span": "BIO recommends that the Agency refer to types of Bias in"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A146",
+  "b": "FDA-2020-D-2307-0055-A208",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency clarify if this means that",
+  "b_span": "BIO recommends that the Agency consider mentioning the"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A148",
+  "b": "FDA-2020-D-2307-0055-A156",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the final draft guidance provide citations",
+  "b_span": "BIO recommends that the Agency provides more clarity on if"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A150",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarity on what",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A166",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency refer to types of Bias in"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A151",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify the intention of",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A156",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "IV.D",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency provides more clarity on if"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A152",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends that the Agency clarify what the design of a",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A166",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency refer to types of Bias in"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A176",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends the Agency provide the example of defining a"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A156",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency provides more clarity on if",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A180",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency provide clarification on"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A186",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.5",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency clarify that if no appropriate"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A187",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.C.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency consider including in"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A166",
+  "b": "FDA-2020-D-2307-0055-A202",
+  "theme": "T03",
+  "a_sec": "V.B",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency refer to types of Bias in",
+  "b_span": "BIO recommends that the Agency clarify what the medical"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A175",
+  "b": "FDA-2020-D-2307-0055-A204",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency consider adding a sentence",
+  "b_span": "BIO recommends that the Agency provide some background"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A176",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "V.C.3",
+  "b_sec": "V.C.7",
+  "a_span": "BIO recommends the Agency provide the example of defining a",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A178",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.C.4",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency include the concept of",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A180",
+  "b": "FDA-2020-D-2307-0055-A210",
+  "theme": "T03",
+  "a_sec": "V.C.5",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide clarification on",
+  "b_span": "BIO recommends that the Agency clarify how the necessary"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A199",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends the Agency consider EHRs where there is no",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A201",
+  "b": "FDA-2020-D-2307-0055-A234",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency provide a reference to",
+  "b_span": "BIO recommends that the Agency clarify what approaches are"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A202",
+  "b": "FDA-2020-D-2307-0055-A221",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E",
+  "a_span": "BIO recommends that the Agency clarify what the medical",
+  "b_span": "BIO recommends that the Agency consider mentioning"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A204",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the Agency provide some background",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A205",
+  "b": "FDA-2020-D-2307-0055-A231",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency provide clarity on how an",
+  "b_span": "BIO recommends that the Agency include some information on"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A206",
+  "b": "FDA-2020-D-2307-0055-A226",
+  "theme": "T03",
+  "a_sec": "V.D.3",
+  "b_sec": "V.E.1",
+  "a_span": "BIO recommends that the Agency clarify whether these",
+  "b_span": "BIO recommends that the Agency expands upon the draft"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A221",
+  "b": "FDA-2020-D-2307-0055-A230",
+  "theme": "T03",
+  "a_sec": "V.E",
+  "b_sec": "V.E.2",
+  "a_span": "BIO recommends that the Agency consider mentioning",
+  "b_span": "BIO also recommends that the Agency include biomarkers and"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A103",
+  "b": "FDA-2020-D-2307-0055-A108",
+  "theme": "T05",
+  "a_sec": "IV.B.2",
+  "b_sec": "IV.B.2",
+  "a_span": "BIO recommends that the Agency clarify that if the Sponsor is",
+  "b_span": "BIO recommends that the agency provide specific"
+ },
+ {
+  "score": 0.7,
+  "a": "FDA-2020-D-2307-0055-A137",
+  "b": "FDA-2020-D-2307-0055-A217",
+  "theme": "T04",
+  "a_sec": "IV.C",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency clearly state their preferred",
+  "b_span": "BIO recommends that the Agency acknowledge and provide"
+ },
+ {
+  "score": 0.68,
+  "a": "FDA-2020-D-2307-0055-A90",
+  "b": "FDA-2020-D-2307-0055-A217",
+  "theme": "T04",
+  "a_sec": "IV.B",
+  "b_sec": "V.D.4",
+  "a_span": "BIO recommends that the Agency provide clarity on readily",
+  "b_span": "BIO recommends that the Agency acknowledge and provide"
+ },
+ {
+  "score": 0.67,
+  "a": "FDA-2020-D-2307-0055-A192",
+  "b": "FDA-2020-D-2307-0055-A232",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.E.3",
+  "a_span": "BIO recommends that the Agency provide additional draft",
+  "b_span": "BIO recommends that FDA provide draft guidance for"
+ },
+ {
+  "score": 0.67,
+  "a": "FDA-2020-D-2307-0019-A25",
+  "b": "FDA-2020-D-2307-0019-A35",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.D.3",
+  "a_span": "Lines 464 - 466 The draft guidance states that validation We recommend that the final studies are needed. guidance provide suggestions that citations of valid algorithms or use of datasets where data are consistently abstracted may be sufficient instead of validation.",
+  "b_span": "Line 820 The draft guidance describes that We recommend that the final validation studies are needed. guidance provide suggestions that citations of valid algorithms"
+ },
+ {
+  "score": 0.65,
+  "a": "FDA-2020-D-2307-0055-A60",
+  "b": "FDA-2020-D-2307-0055-A192",
+  "theme": "T03",
+  "a_sec": "III",
+  "b_sec": "V.C.7",
+  "a_span": "Similarly, BIO recommends that the Agency clarify if the draft",
+  "b_span": "BIO recommends that the Agency provide additional draft"
+ },
+ {
+  "score": 0.64,
+  "a": "FDA-2020-D-2307-0055-A55",
+  "b": "FDA-2020-D-2307-0055-A256",
+  "theme": "T06",
+  "a_sec": "I",
+  "b_sec": "VI.C",
+  "a_span": "BIO recommends that FDA provide additional draft guidance to",
+  "b_span": "BIO recommends that the draft guidance indicate that in the"
+ },
+ {
+  "score": 0.62,
+  "a": "FDA-2020-D-2307-0055-A190",
+  "b": "FDA-2020-D-2307-0055-A215",
+  "theme": "T03",
+  "a_sec": "V.C.7",
+  "b_sec": "V.D.3",
+  "a_span": "BIO recommends that the final draft guidance address",
+  "b_span": "BIO recommends that the Agency consider that the final draft"
+ },
+ {
+  "score": 0.61,
+  "a": "FDA-2020-D-2307-0055-A149",
+  "b": "FDA-2020-D-2307-0055-A161",
+  "theme": "T03",
+  "a_sec": "IV.D",
+  "b_sec": "V.B",
+  "a_span": "BIO recommends including any particular considerations that",
+  "b_span": "BIO recommends that the expectations/considerations for the"
+ }
+]

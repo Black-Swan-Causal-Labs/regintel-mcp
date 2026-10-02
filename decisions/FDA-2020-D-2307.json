@@ -45,6 +45,30 @@
       "decision": "codebook_approved",
       "codebook_version": "v1",
       "notes": "12 themes. Edits: T02 'fit for purpose' wording; draft T13 (study design & analytic methods) folded into T03 as 'Methodology'. Non-constructive comments (sales pitch, general support, praise + citations) will carry zero or few asks, as intended."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "recode_t99",
+      "comment_ids": [
+        "FDA-2020-D-2307-0041"
+      ],
+      "notes": "NHC 'patient engagement & public communication' T99 proposals (A02, A06) folded into T10; no new theme."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "repeat_rule",
+      "notes": "Within a comment, a reiterated point counts once unless a later instance makes a genuinely section-specific point. Applied to all 57 coded comments."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "null_draft_section_means_general",
+      "notes": "Asks with no draft_section are treated as general comments on the guidance as a whole."
     }
   ]
 }

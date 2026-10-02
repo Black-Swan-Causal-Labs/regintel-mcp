@@ -4024,13 +4024,14 @@
   {
    "ask_id": "FDA-2020-D-2307-0041-A02",
    "comment_id": "FDA-2020-D-2307-0041",
-   "theme_id": "T99",
+   "theme_id": "T10",
    "stance": "requests more specificity",
    "source_span": "the NHC recommends the FDA co-create, with the patient community, educational materials on the RWD and RWE, sources and uses of RWE, and key issues they should be aware of regarding RWE.",
    "draft_section": null,
    "section_inferred": false,
    "confidence": "medium",
-   "emergent_theme_proposal": "Patient engagement & public communication about RWD/RWE"
+   "emergent_theme_proposal": null,
+   "recoded_note": "T99 proposal 'Patient engagement & public communication' folded into T10 (JDD, checkpoint 3 follow-up)"
   },
   {
    "ask_id": "FDA-2020-D-2307-0041-A03",
@@ -4068,13 +4069,14 @@
   {
    "ask_id": "FDA-2020-D-2307-0041-A06",
    "comment_id": "FDA-2020-D-2307-0041",
-   "theme_id": "T99",
+   "theme_id": "T10",
    "stance": "requests more specificity",
    "source_span": "The NHC also encourages the FDA to support the creation of patient-centered core impact sets (PC-CIS),",
    "draft_section": null,
    "section_inferred": false,
    "confidence": "medium",
-   "emergent_theme_proposal": "Patient engagement & public communication about RWD/RWE"
+   "emergent_theme_proposal": null,
+   "recoded_note": "T99 proposal 'Patient engagement & public communication' folded into T10 (JDD, checkpoint 3 follow-up)"
   },
   {
    "ask_id": "FDA-2020-D-2307-0041-A07",
