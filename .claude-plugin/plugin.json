@@ -1,5 +1,5 @@
 {
-  "name": "regintel-mcp",
+  "name": "reg-intel-mcp",
   "version": "0.1.0",
   "description": "Regulatory intelligence from FDA regulations.gov dockets: who commented, what they asked for, and what changed between draft and final guidance.",
   "author": { "name": "Black Swan Causal Labs", "url": "https://blackswancausallabs.com" },

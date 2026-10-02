@@ -1,5 +1,5 @@
 [project]
-name = "regintel-mcp"
+name = "reg-intel-mcp"
 version = "0.1.0"
 description = "MCP server that turns FDA regulations.gov dockets into structured regulatory intelligence (Black Swan Causal Labs)"
 requires-python = ">=3.11"
@@ -10,7 +10,7 @@ dependencies = ["mcp>=1.2,<2", "httpx>=0.27", "pdfplumber>=0.11"]
 dev = ["pytest"]
 
 [project.scripts]
-regintel-mcp = "regintel_mcp.server:main"
+reg-intel-mcp = "regintel_mcp.server:main"
 
 [build-system]
 requires = ["hatchling"]

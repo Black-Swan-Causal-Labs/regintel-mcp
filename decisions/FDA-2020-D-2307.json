@@ -6,16 +6,30 @@
       "by": "JDD",
       "checkpoint": "Phase 1 hard stop",
       "decision": "exclude_from_draft_final_analysis",
-      "comment_ids": ["FDA-2020-D-2307-0068", "FDA-2020-D-2307-0069"],
+      "comment_ids": [
+        "FDA-2020-D-2307-0068",
+        "FDA-2020-D-2307-0069"
+      ],
       "reason": "Posted 11 Jun 2026 against the final guidance, about two years after it was issued; cannot bear on draft-to-final changes. Near-identical text from the same individual."
     },
     {
       "date": "2026-10-01",
       "by": "JDD",
       "checkpoint": "Phase 1 hard stop",
-      "decision": "pending_review",
-      "comment_ids": ["FDA-2020-D-2307-0003"],
-      "reason": "Body is only 'See attached file(s)'; the 3 attachments are third-party reference documents (21 CFR 10.115 good guidance practices, CDER MAPP 4100.2, AHRQ Future Research Needs Paper No. 13), not a written comment. JDD to check the docket page."
+      "decision": "keep_in_submitter_counts_zero_asks",
+      "comment_ids": [
+        "FDA-2020-D-2307-0003"
+      ],
+      "reason": "Body is only 'See attached file(s)'; the 3 attachments are third-party reference documents (21 CFR 10.115, CDER MAPP 4100.2, AHRQ Future Research Needs Paper No. 13) that do not address the draft guidance. Counted under 'who commented'; contributes zero asks to theming. FDA lists the record as 3 identical submissions."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": "Phase 1 hard stop",
+      "decision": "final_guidance_source",
+      "final_ref": "https://www.fda.gov/media/152503/download",
+      "draft_ref": "FDA-2020-D-2307-0002",
+      "reason": "Use the current fda.gov copy as the final. It matches the Jul 2024 docket copy (FDA-2020-D-2307-0067) except one post-publication edit in V.E.2: 'age, gender, race' -> 'age, sex, race'. Note this in outputs."
     }
   ]
 }

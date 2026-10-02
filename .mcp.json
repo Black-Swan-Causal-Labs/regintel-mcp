@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "regintel-mcp": {
+    "reg-intel-mcp": {
       "command": "${CLAUDE_PLUGIN_ROOT}/.venv/bin/python",
       "args": ["-m", "regintel_mcp"],
       "env": { "REGINTEL_HOME": "${CLAUDE_PLUGIN_ROOT}" }
