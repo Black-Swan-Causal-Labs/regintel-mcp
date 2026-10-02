@@ -30,3 +30,10 @@ def test_xlsx_comment_matrix():
 def test_unsupported_is_flagged_not_silent():
     ex, _ = extract(b"\x00\x01garbage", "bin")
     assert not ex.ok and ex.error
+
+
+def test_glyph_id_decoding():
+    from regintel_mcp.extract import _looks_like_english, decode_cids
+    enc = "".join(f"(cid:{ord(c) - 29})" for c in "Holmusk") + "(cid:3)(cid:179)RWD(cid:180)"
+    assert decode_cids(enc) == "Holmusk “RWD”"
+    assert not _looks_like_english("xq zv " * 40)

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "regintel analysis.json",
+  "type": "object",
+  "required": ["docket", "run", "caveat", "submitters", "comments", "themes", "asks", "sections", "concordance"],
+  "properties": {
+    "docket": {"type": "object", "required": ["id", "title", "draft_date", "final_date", "n_comments"],
+      "properties": {"id": {"type": "string"}, "title": {"type": "string"}, "draft_date": {"type": "string"},
+        "final_date": {"type": "string"}, "n_comments": {"type": "integer", "minimum": 0}}},
+    "run": {"type": "object", "required": ["date", "codebook_version", "checkpoints", "spot_check_agreement"],
+      "properties": {"date": {"type": "string"}, "codebook_version": {"type": "string"},
+        "checkpoints": {"type": "array", "items": {"type": "object", "required": ["n", "approved_by"],
+          "properties": {"n": {"type": "integer", "minimum": 1, "maximum": 4}, "approved_by": {"type": "string"}, "notes": {"type": "string"}}}},
+        "spot_check_agreement": {"type": ["number", "null"], "minimum": 0, "maximum": 1}}},
+    "caveat": {"type": "string", "pattern": "^Concordance, not impact"},
+    "submitters": {"type": "array", "items": {"type": "object", "required": ["submitter_id", "name", "bucket", "basis", "confidence"],
+      "properties": {"bucket": {"enum": ["Pharma / biotech", "Trade association", "CRO / data & tech vendor", "Academic / independent",
+        "Professional society", "Patient advocacy", "Other / anonymous"]}, "confidence": {"enum": ["high", "medium", "low"]}}}},
+    "comments": {"type": "array", "items": {"type": "object", "required": ["comment_id", "submitter_id", "posted", "url", "is_stub"],
+      "properties": {"url": {"type": "string", "pattern": "^https://www\\.regulations\\.gov/comment/"}, "is_stub": {"type": "boolean"}}}},
+    "themes": {"type": "array", "items": {"type": "object", "required": ["theme_id", "label", "definition", "emergent"],
+      "properties": {"emergent": {"type": "boolean"}}}},
+    "asks": {"type": "array", "items": {"type": "object", "required": ["ask_id", "comment_id", "theme_id", "stance", "source_span", "draft_section"],
+      "properties": {"stance": {"enum": ["requests more specificity", "requests more flexibility", "supports as written", "objects"]},
+        "source_span": {"type": "string", "minLength": 1}, "draft_section": {"type": ["string", "null"]}}}},
+    "sections": {"type": "array", "items": {"type": "object", "required": ["section_id", "heading", "status", "draft_text", "final_text"],
+      "properties": {"status": {"enum": ["added", "removed", "modified", "unchanged"]}}}},
+    "concordance": {"type": "array", "items": {"type": "object", "required": ["ask_id", "section_id", "call", "evidence_span", "rationale"],
+      "properties": {"call": {"enum": ["adopted", "partially adopted", "not adopted", "not assessable"]}, "section_id": {"type": ["string", "null"]},
+        "evidence_span": {"type": ["string", "null"]}}}}
+  }
+}

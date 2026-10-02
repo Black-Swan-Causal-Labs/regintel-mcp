@@ -1,0 +1,715 @@
+{
+  "docket_id": "FDA-2020-D-2307",
+  "status": "awaiting checkpoint 2",
+  "submitters": [
+    {
+      "submitter_id": "S01",
+      "name": "Nancy Janitz",
+      "bucket": "Other / anonymous",
+      "basis": "title; attachments are third-party reference documents",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0003"
+      ],
+      "notes": "Zero asks (JDD decision)."
+    },
+    {
+      "submitter_id": "S02",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0004"
+      ],
+      "notes": "General complaint about FDA and COVID vaccines."
+    },
+    {
+      "submitter_id": "S03",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0005"
+      ],
+      "notes": "Technical (linkage/MPI); category field says Academia (weak)."
+    },
+    {
+      "submitter_id": "S04",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0006"
+      ],
+      "notes": "Technical (ETL documentation); category field says Academia (weak)."
+    },
+    {
+      "submitter_id": "S05",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0008"
+      ],
+      "notes": "Technical (sensitivity/specificity); category says Health Professional."
+    },
+    {
+      "submitter_id": "S06",
+      "name": "Pharmacoepidemiology program at UNC-Chapel Hill",
+      "bucket": "Academic / independent",
+      "basis": "title + letter (UNC faculty)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0009"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S07",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0010"
+      ],
+      "notes": "Technical (hashing for linkage)."
+    },
+    {
+      "submitter_id": "S08",
+      "name": "Otsuka Pharmaceutical Development & Commercialization",
+      "bucket": "Pharma / biotech",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0012"
+      ],
+      "notes": "Scanned letter with OCR text layer (minor OCR errors)."
+    },
+    {
+      "submitter_id": "S09",
+      "name": "International Society for Pharmacoepidemiology (ISPE)",
+      "bucket": "Professional society",
+      "basis": "title",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0013"
+      ],
+      "notes": "Comment matrix (XLSX)."
+    },
+    {
+      "submitter_id": "S10",
+      "name": "Alliance of Wound Care Stakeholders",
+      "bucket": "Professional society",
+      "basis": "letter: 'multidisciplinary trade association of physician medical specialty societies and clinical associations'",
+      "confidence": "low",
+      "alternative": "Trade association",
+      "comment_ids": [
+        "FDA-2020-D-2307-0014"
+      ],
+      "notes": "Calls itself a trade association, but its members are professional societies."
+    },
+    {
+      "submitter_id": "S11",
+      "name": "International Advisory Committee on Clinical Trials in Multiple Sclerosis",
+      "bucket": "Academic / independent",
+      "basis": "letter: expert committee chaired by academics (Manitoba, Vall d'Hebron, UCL)",
+      "confidence": "low",
+      "alternative": "Professional society",
+      "comment_ids": [
+        "FDA-2020-D-2307-0015"
+      ],
+      "notes": "Sponsored by the National MS Society (patient advocacy) and ECTRIMS (professional society)."
+    },
+    {
+      "submitter_id": "S12",
+      "name": "Sanket Dhruva, Reshma Ramachandran, Joseph Ross",
+      "bucket": "Academic / independent",
+      "basis": "signature block (UCSF, Yale)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0016"
+      ],
+      "notes": "Category field says Government (wrong)."
+    },
+    {
+      "submitter_id": "S13",
+      "name": "Verana Health",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0017"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S14",
+      "name": "COTA, Inc.",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter (oncology RWD)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0018"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S15",
+      "name": "Amgen",
+      "bucket": "Pharma / biotech",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0019"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S16",
+      "name": "Organon & Co.",
+      "bucket": "Pharma / biotech",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0020"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S17",
+      "name": "OM1, Inc.",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letterhead (RWD company)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0021"
+      ],
+      "notes": "FDA lists this record as 5 identical submissions."
+    },
+    {
+      "submitter_id": "S18",
+      "name": "Invitae Corporation",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "signature: Lead, Data Stewardship & Data Sharing, Ciitizen Platform",
+      "confidence": "low",
+      "alternative": "Pharma / biotech",
+      "comment_ids": [
+        "FDA-2020-D-2307-0022"
+      ],
+      "notes": "Genetic testing company commenting about its patient-data platform."
+    },
+    {
+      "submitter_id": "S19",
+      "name": "Denali Therapeutics",
+      "bucket": "Pharma / biotech",
+      "basis": "title",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0023"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S20",
+      "name": "Datavant",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter (data linkage/tokenization)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0024"
+      ],
+      "notes": "Category field says Drug Industry (wrong)."
+    },
+    {
+      "submitter_id": "S21",
+      "name": "Regeneron Pharmaceuticals",
+      "bucket": "Pharma / biotech",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0025"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S22",
+      "name": "EMD Serono",
+      "bucket": "Pharma / biotech",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0026"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S23",
+      "name": "Estimands in Oncology Working Group (ASA Biopharm SWG / EFSPI SIG)",
+      "bucket": "Professional society",
+      "basis": "title + letter (working group of statistical societies)",
+      "confidence": "medium",
+      "alternative": "Academic / independent",
+      "comment_ids": [
+        "FDA-2020-D-2307-0027"
+      ],
+      "notes": "Members are mostly industry statisticians; category says Drug Industry."
+    },
+    {
+      "submitter_id": "S24",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0028"
+      ],
+      "notes": "Substantive formal letter but unsigned."
+    },
+    {
+      "submitter_id": "S25",
+      "name": "Amazon Web Services",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0030"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S26",
+      "name": "American Heart Association",
+      "bucket": "Patient advocacy",
+      "basis": "letter: AHA/ASA and 40 million volunteers and supporters",
+      "confidence": "low",
+      "alternative": "Professional society",
+      "comment_ids": [
+        "FDA-2020-D-2307-0031"
+      ],
+      "notes": "Voluntary health organisation, which also has a scientific and professional side."
+    },
+    {
+      "submitter_id": "S27",
+      "name": "Holmusk Technologies",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letterhead (data science / RWE company)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0032"
+      ],
+      "notes": "PDF text decoded from glyph IDs."
+    },
+    {
+      "submitter_id": "S28",
+      "name": "Janssen Research & Development",
+      "bucket": "Pharma / biotech",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0033"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S29",
+      "name": "HIMSS Electronic Health Record Association",
+      "bucket": "Trade association",
+      "basis": "letter: association of EHR vendor member companies",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0034"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S30",
+      "name": "Flatiron Health",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0035"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S31",
+      "name": "Crohn's & Colitis Foundation",
+      "bucket": "Patient advocacy",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0036"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S32",
+      "name": "American Urological Association",
+      "bucket": "Professional society",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0037"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S33",
+      "name": "Anthem, Inc. / HealthCore",
+      "bucket": "Other / anonymous",
+      "basis": "letter: 'Anthem and HealthCore Response'",
+      "confidence": "low",
+      "alternative": "CRO / data & tech vendor",
+      "comment_ids": [
+        "FDA-2020-D-2307-0038"
+      ],
+      "notes": "Payer, writing jointly with its RWE research subsidiary HealthCore."
+    },
+    {
+      "submitter_id": "S34",
+      "name": "Association of Clinical Research Organizations (ACRO)",
+      "bucket": "Trade association",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0039"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S35",
+      "name": "ISPOR",
+      "bucket": "Professional society",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0040"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S36",
+      "name": "National Health Council",
+      "bucket": "Patient advocacy",
+      "basis": "letter: core membership is patient organizations; members also include industry",
+      "confidence": "low",
+      "alternative": "Trade association",
+      "comment_ids": [
+        "FDA-2020-D-2307-0041"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S37",
+      "name": "Allscripts",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter (health IT)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0042"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S38",
+      "name": "American Medical Informatics Association (AMIA)",
+      "bucket": "Professional society",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0043"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S39",
+      "name": "Cerner Enviza",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letterhead",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0044"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S40",
+      "name": "Guardian Research Network",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter (non-profit research network)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0045"
+      ],
+      "notes": "Bucket given as an example in the build spec; category says Drug Industry."
+    },
+    {
+      "submitter_id": "S41",
+      "name": "The SSI Group",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter (claims/revenue-cycle technology)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0046"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S42",
+      "name": "Guardant Health",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "letter: comments 'from our perspective' as GuardantINFORM clinical-genomic database",
+      "confidence": "low",
+      "alternative": "Pharma / biotech",
+      "comment_ids": [
+        "FDA-2020-D-2307-0047"
+      ],
+      "notes": "Diagnostics company that also runs an RWD platform."
+    },
+    {
+      "submitter_id": "S43",
+      "name": "IQVIA",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0048"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S44",
+      "name": "McKesson Corporation (Ontada)",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "letter: Ontada oncology RWD/E business",
+      "confidence": "medium",
+      "alternative": "Other / anonymous",
+      "comment_ids": [
+        "FDA-2020-D-2307-0049"
+      ],
+      "notes": "Drug distributor; the comment is about its RWD business."
+    },
+    {
+      "submitter_id": "S45",
+      "name": "American Society of Clinical Oncology (ASCO)",
+      "bucket": "Professional society",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0050"
+      ],
+      "notes": "Category says Health Care Association."
+    },
+    {
+      "submitter_id": "S46",
+      "name": "Rebecca Baker",
+      "bucket": "Academic / independent",
+      "basis": "signature: Health Informatics Associate; no employer stated; substantive line-by-line comments",
+      "confidence": "medium",
+      "alternative": "Other / anonymous",
+      "comment_ids": [
+        "FDA-2020-D-2307-0051"
+      ],
+      "notes": "FDA lists this record as 15 identical submissions."
+    },
+    {
+      "submitter_id": "S47",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0053"
+      ],
+      "notes": "General complaint."
+    },
+    {
+      "submitter_id": "S48",
+      "name": "RWE Alliance",
+      "bucket": "Trade association",
+      "basis": "title + letter (coalition of RWD companies)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0054"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S49",
+      "name": "Biotechnology Innovation Organization (BIO)",
+      "bucket": "Trade association",
+      "basis": "title",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0055"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S50",
+      "name": "Antimicrobials Working Group",
+      "bucket": "Trade association",
+      "basis": "letter: 'industry-led 501(c)(6) organization'",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0056"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S51",
+      "name": "Nicole De Nardis",
+      "bucket": "Other / anonymous",
+      "basis": "title; short general opinion",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0057"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S52",
+      "name": "National Center for Health Research (NCHR)",
+      "bucket": "Patient advocacy",
+      "basis": "title + letter (nonprofit patient/consumer advocacy)",
+      "confidence": "medium",
+      "alternative": "Academic / independent",
+      "comment_ids": [
+        "FDA-2020-D-2307-0058"
+      ],
+      "notes": "Also does policy research."
+    },
+    {
+      "submitter_id": "S53",
+      "name": "Keith Marsolo, Lesley Curtis et al. (Duke Clinical Research Institute)",
+      "bucket": "Academic / independent",
+      "basis": "signature block (DCRI / Duke School of Medicine)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0059"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S54",
+      "name": "LUNGevity Foundation",
+      "bucket": "Patient advocacy",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0060"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S55",
+      "name": "Duke-Margolis Center for Health Policy",
+      "bucket": "Academic / independent",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0061"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S56",
+      "name": "Aetion",
+      "bucket": "CRO / data & tech vendor",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0062"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S57",
+      "name": "PhRMA",
+      "bucket": "Trade association",
+      "basis": "title + letter",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0063"
+      ],
+      "notes": ""
+    },
+    {
+      "submitter_id": "S58",
+      "name": "Anonymous",
+      "bucket": "Other / anonymous",
+      "basis": "title (anonymous)",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0064"
+      ],
+      "notes": "Substantive (selection bias in linked data), unsigned."
+    },
+    {
+      "submitter_id": "S59",
+      "name": "Aisha Hassan-Davis",
+      "bucket": "Other / anonymous",
+      "basis": "title; individual health-care provider",
+      "confidence": "high",
+      "alternative": null,
+      "comment_ids": [
+        "FDA-2020-D-2307-0068",
+        "FDA-2020-D-2307-0069"
+      ],
+      "notes": "Posted 2026 on the final guidance; excluded from draft-final analysis (JDD decision)."
+    }
+  ]
+}

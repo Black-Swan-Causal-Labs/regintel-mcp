@@ -21,6 +21,24 @@ MAGIC = [
     (b"{\\rtf", "rtf"),
 ]
 
+RE_CID = re.compile(r"\(cid:(\d+)\)")
+# Apple standard glyph order: ids 3..97 are ASCII 32..126; a few common punctuation ids beyond.
+MAC_GLYPHS = {177: "–", 178: "—", 179: "“", 180: "”", 181: "‘", 182: "’"}
+
+
+def decode_cids(text: str) -> str:
+    def one(m):
+        n = int(m.group(1))
+        return chr(n + 29) if 3 <= n <= 97 else MAC_GLYPHS.get(n, "")
+    return RE_CID.sub(one, text)
+
+
+def _looks_like_english(text: str) -> bool:
+    words = re.findall(r"[a-z]+", text.lower())
+    common = sum(w in {"the", "and", "of", "to", "in", "for", "data"} for w in words)
+    return len(words) > 50 and common / len(words) > 0.08
+
+
 # Fewer extracted characters per page than this means "probably scanned".
 OCR_CHARS_PER_PAGE = 100
 
@@ -85,7 +103,13 @@ def _pdf(data: bytes, keep_lines: bool) -> Extraction:
                                       "italic": round(italic, 2)})
                         prev_bottom = ln["bottom"]
                 pages.append(page.extract_text() or "")
-            out.text = re.sub(r"\(cid:\d+\)", "", "\n\n".join(p.strip() for p in pages)).strip()
+            out.text = "\n\n".join(p.strip() for p in pages).strip()
+            if len(RE_CID.findall(out.text)) > 0.2 * max(1, len(out.text.split())):
+                # Embedded TrueType font with no Unicode map: pdfminer emits glyph ids.
+                out.text, out.method = decode_cids(out.text), "pdf_text_cid_decoded"
+                if not _looks_like_english(out.text):
+                    out.needs_ocr, out.error = True, "glyph-id text could not be decoded"
+            out.text = RE_CID.sub("", out.text)
             out.lines = lines
     except Exception as e:  # corrupt or encrypted PDF
         out.method, out.error = "failed", f"{type(e).__name__}: {e}"
@@ -96,7 +120,7 @@ def _pdf(data: bytes, keep_lines: bool) -> Extraction:
         out.ok = False
         out.error = f"text layer near-empty ({n} chars over {out.page_count} pages)"
     else:
-        out.ok = n > 0
+        out.ok = n > 0 and not out.needs_ocr
     return out
 
 

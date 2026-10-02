@@ -19,3 +19,6 @@ uv.lock
 
 # macOS
 .DS_Store
+
+# Regenerable corpus export (full comment text)
+output/*/corpus.jsonl
