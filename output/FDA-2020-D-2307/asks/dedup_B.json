@@ -1,0 +1,210 @@
+{
+ "duplicates": [
+  {
+   "keep": "FDA-2020-D-2307-0063-A20",
+   "drop": [
+    "FDA-2020-D-2307-0063-A01"
+   ],
+   "reason": "Request to acknowledge sponsors' data-access challenges (data owned by partners, pre-guidance studies) and exercise flexibility is made in General Comments and restated in II.C Data Access; keep the Data Access instance."
+  },
+  {
+   "keep": "FDA-2020-D-2307-0063-A37",
+   "drop": [
+    "FDA-2020-D-2307-0063-A38"
+   ],
+   "reason": "Same Case Examples request: add examples of how EHR/claims data have been (successfully/unsuccessfully) used in FDA decision-making; A38 restates the gap."
+  },
+  {
+   "keep": "FDA-2020-D-2307-0040-A15",
+   "drop": [
+    "FDA-2020-D-2307-0040-A16"
+   ],
+   "reason": "Summary/checklist paragraph: summarize minimum requirements at a high level; the checklist sentence restates the same request."
+  },
+  {
+   "keep": "FDA-2020-D-2307-0040-A42",
+   "drop": [
+    "FDA-2020-D-2307-0040-A53"
+   ],
+   "reason": "Same request to confirm that medical-record/chart-review abstraction in EHR databases counts as complete verification, made at l.444 (IV.D) and repeated at Line 727."
+  }
+ ],
+ "span_extensions": [
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A43",
+   "span_extended": "We also welcome the addition of other approaches, such as AI-driven 24 Draft Guidance at Lines 464–65. 10 validation in which human validation of a subset of cases is used to train an algorithm that completes the validation."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A22",
+   "span_extended": "For example, sponsors could submit a detailed protocol and appendix or a detailed protocol and implementation document (e.g., the STaRT-RWE template12). We encourage FDA to adopt a flexible approach in these recommendations to account for the different circumstances of specific RWE studies."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A23",
+   "span_extended": "Information on the completeness of data for implementing inclusion/exclusion criteria may not always be available when the protocol is finalized, so the recommendation as written may not be feasible when unstructured EHR data are used for evaluating these criteria, though the information could be noted in the SAP. We recommend revising this text to say, “protocol and/or statistical analysis plan.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A69",
+   "span_extended": "In particular, we recommend acknowledging that variables do not carry the same weight. A minor confounder will not have the same importance as the study exposure in question or the outcome(s) of interest."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A54",
+   "span_extended": "We recommend clarifying the parenthetical “(e.g., timing of exposure, timing of outcomes).” It would be helpful to understand, for example, if this refers to the exposure and outcome assessment windows or instead to the hypothesized “time at risk” (including when a beneficial effect could be expected)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A57",
+   "span_extended": "We believe the examples discussed here reflect a study design consideration rather than a data capture consideration. If clinicians do not typically order a test at a particular frequency, that is a reflection of care practices rather than data comprehensiveness. We suggest omitting this example or replacing it with an alternative example that better reflects considerations specific to data capture."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A63",
+   "span_extended": "We recommend further characterizing the two types of missing data to enhance reader comprehension. The case of “traditional missing data” could be identified as “data missing at the patient level.” The second case, of data not intended to be collected, could be described as “data missing at the source level” or “unrecorded data.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A12",
+   "span_extended": "PhRMA understands that these points may be included in the planned draft guidance on study design and FDA‐2020‐D‐2307 Page 4 of 24 analytical methodologies. If so, PhRMA recommends that FDA ensure the relevant sections are cross‐referenced when the guidances are finalized."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A18",
+   "span_extended": "The draft guidance includes numerous recommendations around the inclusion of certain information in the “Study Protocol”, “Analysis Plan”, “Study Report”, and/or “Study Documents”, as well as recommendations to “describe,” “document,” and/or “assess” information without a particular document referenced, but it is not clear as to where this information should be included. Accordingly, PhRMA requests the following clarifications: 1)Information FDA expects to be in materials that should be pre‐specified and submitted to the Agency prior to conducting the study (i.e., Protocol and Analysis Plan); 2) Information that could go into materials that would only be provided to FDA after study completion (i.e., Study Report); and 3) Information that only needs to be available upon request in case of an inspection or audit by the Agency (e.g., data quality reports)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A30",
+   "span_extended": "PhRMA acknowledges that FDA addresses how sponsors should engage with the Agency in early stages of designing a non‐interventional study intended to support a marketing application in the draft guidance, Considerations for the Use of Real‐World Data and Real‐ World Evidence to Support Regulatory Decision‐Making for Drug and Biological Products.16 PhRMA requests that FDA cross reference this information in the final guidance for clarity."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A47",
+   "span_extended": "FDA states that the current draft guidance does not address issues related to medication adherence.26 PhRMA recommends that this should be considered when FDA addresses study design and statistical methods in future guidance."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A50",
+   "span_extended": "Line 57 “Development and validation of Population is an important study Development and validation of definitions definitions for study design design element. for study design elements (e.g., exposure, elements (e.g., exposure, outcomes, covariates, population)"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A51",
+   "span_extended": "PhRMA suggests the following “The term relevance includes availability of guidance, the term reliability language be added to the key data elements (exposure, outcomes, includes data accuracy, definition of relevance: \"…and covariates) and sufficient numbers of completeness, provenance, and sufficient follow‐up time.\""
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A53",
+   "span_extended": "PhRMA notes that the terms EHR PhRMA proposes defining EMR in the in clinical care and may also serve and electronic medical record glossary to differentiate between an EHR as a basis for billing and for (EMR) are often used and EMR databases and stating that the auditing of practice quality interchangeably. However, it may guidance focuses on EHR data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A54",
+   "span_extended": "PhRMA suggests adding the following patient care and the clinical purposes of this discussion. This sentence to Line 150: “Similar to claims, practices of its providers. In distinction can help to describe EHR data may not accurately reflect addition, data collection is the data gaps in EHR databases presence, specificity, or severity of a limited to the data captured that result from care received particular disease.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A56",
+   "span_extended": "Line 161 “… how the data can be validated PhRMA notes that not all data PhRMA offers the suggested language: “and for a particular research activity.“ needs to be validated. Because how the data can be validated suitable for a the term ‘validated’ has specific particular research activity.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A57",
+   "span_extended": "PhRMA suggests use of the term “Patients in different types of commercial or commercial or government “covariates” rather than government health care payment programs health care payment programs “confounders.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A58",
+   "span_extended": "Line 169‐170 “Various factors in health care PhRMA notes that “medication Edit to avoid confusion. systems and insurance programs, tiering (e.g., first‐line, second‐ such as medication tiering (e.g., line)” is confusing."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A59",
+   "span_extended": "Line 201 “Enrollment and Comprehensive PhRMA suggests that FDA Capture of Care” distinguish between closed claims sources and open claims sources in the guidance."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A61",
+   "span_extended": "Lines 217 ‐ 219 ”A second example is a study The example provided in the PhRMA recommends that the Agency where an outcome is dependent documentation does not reflect include a more appropriate example of an on a specific frequency of the issue of comprehensiveness outcome that is not captured in the medical laboratory tests, and clinicians do of the data sources in capturing claims data source such as laboratory not typically order those tests at aspects of care and outcomes results."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A62",
+   "span_extended": "Lines 356‐366 “Computable Phenotypes PhRMA notes that the term PhRMA recommends using the phrase Standardized computable “computable phenotype” is not “operational definition for the target patient phenotypes can facilitate compatible with other population” instead of “computable"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A63",
+   "span_extended": "PhRMA recommends that FDA clinical rationale or research publish or acknowledge a FDA‐2020‐D‐2307 Page 16 of 24 Line No. Existing Text Comment Proposed change (if applicable) justification for the definition, standardized list of computable and data assessing validation in phenotypes and code lists that various health care settings…” will form a library of approved lists within particular conditions of interest."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A64",
+   "span_extended": "Lines 386‐393 “All of these methods are PhRMA requests that FDA clarify FDA should define these terms in the computer‐assisted to various the intent of this section and glossary. levels but currently require a provide more specificity significant amount of human‐ regarding the use of the terms aided curation and decision‐ ‘supervised’ and ‘unsupervised.’"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A65",
+   "span_extended": "Line 395; “Missing Data: General PhRMA notes that “missing data” PhRMA recommends changing the title of Section III. C. Considerations” is an often‐misunderstood issue this section to “Unavailable Data” or “Gaps and using it as a title for the in Data.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A66",
+   "span_extended": "Although FDA may address missing data on a case‐by‐case basis, this is such a critical issue for sponsors that FDA should address it directly in the guidance."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A67",
+   "span_extended": "Line 441‐453 “Because operational definitions PhRMA requests that FDA expand are usually imperfect and cannot the current discussion to include accurately classify the variable of more general comments on how interest for every subject, a measurement error and the resulting misclassification can performance of operational lead to false positives and false definitions can be assessed for negatives…“ variables that are not binary ,such as time‐to‐event and continuous variables."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A68",
+   "span_extended": "Line 444 “Although complete verification FDA seems to be interchangeably PhRMA recommends that FDA use of a variable of interest minimizes using “complete verification” and “validation” consistently throughout the misclassification and maximizes “validation” in this draft draft guidance."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A69",
+   "span_extended": "It is not clear what is meant by interest might require validation “study internal validity” in the and to what extent.” context of variable verification."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A70",
+   "span_extended": "Line 458 “(2) differential versus non‐ The word “exposure” may mean “(2) differential versus non‐differential differential misclassification (e.g., much more than “treatment misclassification (e.g., differential differential misclassification of groups,” e.g., dose, frequency, or misclassification of outcome by exposure) outcome by exposure); …” route, here “exposure” may be misclassification of outcome by treatment better replaced by “treatment group…” group.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A71",
+   "span_extended": "Line 500, “Study Design Elements” The title of this section, “Study PhRMA suggests an alternative Section V. Design Elements”, may be title/nomenclature, such as “Defining Study confusing to researchers about Variables” or something similar."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A73",
+   "span_extended": "PhRMA recommends that FDA the drug (if applicable) in that add “over time” at the end of the data source.” sentence (Lines 597‐599)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A74",
+   "span_extended": "Lines 599 ‐ 602 “For example, in the United Sometimes the Healthcare FDA may want to consider this application States, the operational definition Common Procedure Coding and modify the sentence in Lines 600 ‐ 601 should include the appropriate System (HCPCS) use non‐J codes. to read: “(NDC or Healthcare Common pharmacy codes (NDC or Procedure Coding System)” to “(NDC or Healthcare Common Procedure Healthcare Common Procedure Coding Coding System) to capture the System or other applicable codes).”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A75",
+   "span_extended": "Lines 943 ‐ 946 “Regarding outcome validation, PhRMA recommends that the sponsors should justify the FDA include an Appendix with proposed validation approach, specific examples of validation such as validating the outcome approaches, thresholds of variable for all potential cases or sensitivity/specificity, etc."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A76",
+   "span_extended": "Lines 988‐1003 “Information on potential PhRMA notes that the PhRMA requests the definition of exposure confounders is collected in a description of exposure should be expanded to periods with no treatment, nonrandomized study to support also comprise the description of treatment interruptions, previous appropriate efforts to balance the comparator time period in treatments, etc."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A77",
+   "span_extended": "“If linkages with other data sources are not of important confounders that possible, the sponsor should discuss with are unmeasured or imperfectly the specific review division the measured in the original data appropriateness of using proxy variables to source.” the specific unmeasured confounders in their study.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A78",
+   "span_extended": "Lines 1095, “Core data elements” The draft guidance lacks clarity PhRMA requests “core data elements” be 1097, 1133 about the definition of “core data defined and differentiated from “key data elements.” element.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A79",
+   "span_extended": "Lines 1154‐ “Data transformation” PhRMA requests that FDA add a 1187, Data reconciliation step between Transformation source data and CDM transferred data in the draft guidance."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A82",
+   "span_extended": "Line 1343 “Missing Data: Data that would To the extent that the term PhRMA requests the definition of missing have been used in the study “missing data” is used in the data be aligned with that given in the ICH guidance, the current definition E9(R1) Addendum."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A05",
+   "span_extended": "In addition, given the time and resource necessary to conduct validation studies for exposures, outcomes, and covariates in a given study, it would be useful to establish ways to enable and 2 | P age encourage sharing of validation study results across study sponsors to allow for more efficient study execution."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A43",
+   "span_extended": "In an ideal scenario, all of these pitfalls would be addressed-- but given that all research designs involve tradeoffs, it is likely that some but not all can be addressed. This point is important since raising the bar too high may leave few studies suitable for meeting the criteria used in regulatory decision making."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A47",
+   "span_extended": "We agree that the research questions shall be defined in advance and addressed independently from the data sources. However, this does not need to happen though a single study. The design of a single study can therefore be affected by the data sources, and indeed, it is often the case."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A49",
+   "span_extended": "Line 547. Minor comment – the document makes reference to International Classification of Diseases, Ninth Revision, Clinical 547 Modification (ICD-9-CM) diagnosis codes. This could be updated to ICD-10 to reflect more recent coding practices."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A66",
+   "span_extended": "Data sciences and artificial intelligence advances rapidly, and their use may not be restricted to “(1) extract data elements from unstructured text in addition to structured fields in EHRs; (2) develop computer algorithms that identify outcomes; or (3) evaluate images or laboratory results”, e.g., they can be used to evaluate data quality and identify variable patterns. These additional uses should be added."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A37",
+   "span_extended": "Data linkage may identify significant additional missing data apart from item missingness. In particular, linkage of claims and EHR data will generally identify substantial portions of the patients with enrollment and healthcare utilization in the claims data with no accompanying EHR records or the reverse. It may also identify services missing from the EHR record but included in the claims data for overlapping periods. This is also a good check for how complete an EHR might be for evaluation and generation of evidence for a specific disease or population under study."
+  }
+ ]
+}

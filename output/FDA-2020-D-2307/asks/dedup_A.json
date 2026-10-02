@@ -1,0 +1,871 @@
+{
+ "duplicates": [
+  {
+   "keep": "FDA-2020-D-2307-0055-A26",
+   "drop": [
+    "FDA-2020-D-2307-0055-A23"
+   ],
+   "reason": "Cover-letter list item asking for guidance on validating real-world effectiveness endpoints restates the fuller endpoint-validation request"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A104",
+   "drop": [
+    "FDA-2020-D-2307-0055-A24"
+   ],
+   "reason": "Cover-letter mention of tokenization/linked datasets restated as the IV.B.2 request to describe tokenization as a linkage method"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A13",
+   "drop": [
+    "FDA-2020-D-2307-0055-A25"
+   ],
+   "reason": "Request for considerations for other RWD types repeats the Scope request to expand guidance to other data types"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A146",
+   "drop": [
+    "FDA-2020-D-2307-0055-A39"
+   ],
+   "reason": "Both ask whether medical record abstraction counts as complete verification (cover letter vs footnote 10 row)"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A216",
+   "drop": [
+    "FDA-2020-D-2307-0055-A41"
+   ],
+   "reason": "Database/library of validation examples in the cover letter restated as an Appendix of validation-approach examples"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A158",
+   "drop": [
+    "FDA-2020-D-2307-0055-A04",
+    "FDA-2020-D-2307-0055-A77"
+   ],
+   "reason": "Same request to cross-reference the ICH E9(R1) estimand guidance, repeated in cover letter, Section IV and Section V"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A187",
+   "drop": [
+    "FDA-2020-D-2307-0055-A188"
+   ],
+   "reason": "Second sentence of the same row restates the request for guidance on start/end of exposure (index date, censoring)"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A193",
+   "drop": [
+    "FDA-2020-D-2307-0055-A220"
+   ],
+   "reason": "Request to address other time-to-event outcomes and censoring repeated in the Mortality subsection"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A207",
+   "drop": [
+    "FDA-2020-D-2307-0055-A209",
+    "FDA-2020-D-2307-0055-A155"
+   ],
+   "reason": "Request for acceptable ranges/what good looks like for performance measures (PPV etc.) repeated across IV.D and V.D.3 rows"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A154",
+   "drop": [
+    "FDA-2020-D-2307-0055-A152"
+   ],
+   "reason": "Both ask FDA to clarify how a validation study of an operational definition should be designed (same row)"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A131",
+   "drop": [
+    "FDA-2020-D-2307-0055-A137"
+   ],
+   "reason": "Same request for FDA to state its preferred approach to missing data, repeated within Section IV.C"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A97",
+   "drop": [
+    "FDA-2020-D-2307-0055-A94"
+   ],
+   "reason": "Both ask for an approach for EHRs (e.g., oncology EHRs) lacking enrollment data/files"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A78",
+   "drop": [
+    "FDA-2020-D-2307-0055-A79",
+    "FDA-2020-D-2307-0055-A80"
+   ],
+   "reason": "Rationale lines restate parts of the proposed edit (replace validated with suitable; capture intercurrent events)"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A50",
+   "drop": [
+    "FDA-2020-D-2307-0055-A83"
+   ],
+   "reason": "Both ask whether the scope is limited to causal/hypothesis-driven questions or includes descriptive studies"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A210",
+   "drop": [
+    "FDA-2020-D-2307-0055-A20"
+   ],
+   "reason": "Cover-letter request for a context-of-use framework for validation restated as how required certainty varies by context of use"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A233",
+   "drop": [
+    "FDA-2020-D-2307-0055-A02"
+   ],
+   "reason": "Cover-letter call to prioritize validation of key variables rather than all covariates restated in V.E.3"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A151",
+   "drop": [
+    "FDA-2020-D-2307-0055-A182"
+   ],
+   "reason": "Both ask which variables (all vs selected key exposure/outcome/covariates) must be validated"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A121",
+   "drop": [
+    "FDA-2020-D-2307-0055-A31",
+    "FDA-2020-D-2307-0055-A33"
+   ],
+   "reason": "Cover-letter requests for details on OMOP/FHIR and other acceptable CDMs restated in the IV.B.3 CDM row"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0055-A144",
+   "drop": [
+    "FDA-2020-D-2307-0055-A194"
+   ],
+   "reason": "Request for how to assess measurement error/validation for time-to-event (non-binary) variables repeated in Section V.D"
+  }
+ ],
+ "span_extensions": [
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A22",
+   "span_extended": "addressing evidence generation outside pharmacoepidemiology, such as work o on patient reported outcome data, indirect comparisons, and meta-analyses;"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A42",
+   "span_extended": "BIO suggests the following edit: For the purposes of this draft 7 guidance, the term clinical studies refers to all study guidance, the term clinical studies refers to all study designs, designs, including, but not limited to, interventional including, but not limited to, interventional studies where the studies where the treatment is assigned by a protocol treatment is assigned by a protocol (e.g., randomized or single- (e.g., randomized or single-arm trials, including those arm trials, including those that use RWD as an external control that use RWD as an external control arm) and arm, randomized pragmatic trials, hybrid trials and noninterventional studies where treatment is decentralized trials)"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A43",
+   "span_extended": "BIO recommends that the Agency is consistent and provides Interventional studies may use EHR or medical claims clear definitions study types, including RWE studies with data in different settings other than external control clinical trials, to limit confusion."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A44",
+   "span_extended": "BIO recommends that FDA clarify whether the scope of the Lines 30-32 FDA created a framework for a program to evaluate the draft guidance includes clinical studies using EHRs or medical potential use of real-world evidence (RWE) to help claims data to support new drug applications (NDA) and also support the approval of a new indication for a drug address the scenario of RWE supporting an NDA as pivotal"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A45",
+   "span_extended": "BIO recommends that the Agency reference specific types of 97-98 a regulatory decision on effectiveness or safety.” regulatory decisions this draft guidance would apply to."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A46",
+   "span_extended": "BIO recommends that the Agency clarify whether the term patient health status or the delivery of health care ‘routinely collected’ in the definition of RWD means secondary routinely collected from a variety of sources.” use of claims and EHR"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A47",
+   "span_extended": "BIO also recommends that the Agency clarify if pragmatic collection, although such studies are in scope (footnote trials, non-interventional observational studies with 7). The prospectively planned data collection will prospectively planned data collection and other innovative include many routine data but may extend beyond hybrid designs that augment prospective data collection with routine depending on the question to be answered. data collection from electronic healthcare data would fall in the scope of the draft guidance"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A50",
+   "span_extended": "BIO recommends that the Agency clarify the range of ‘study (page 2) as well as repeated use of “study hypothesis”, questions’ in scope of this draft guidance. Specifically, BIO “study question”, “confounder”, validation of exposure recommends the Agency clarify if only questions targeting and outcome throughout the document implies that the causal estimands in scope"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A51",
+   "span_extended": "BIO recommends the following edit: Data provenance and quality during data accrual, data curation, and into the quality during data accrual, data curation, and into the final study specific dataset” final study specific dataset Evaluation of data reliability (data accrual, completeness traceability) from provenance It is unclear if this topic is restricted to documentation of to final study report."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A52",
+   "span_extended": "BIO recommends that the Agency clarify the term guidance, the term clinical studies… “Observational study”."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A53",
+   "span_extended": "BIO recommends that FDA consider more clearly describing 397-402 draft guidance, the term reliability includes data where “reliability” fits into the body of the document and FDA’s accuracy, completeness, provenance, and recommendations around data quality."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A54",
+   "span_extended": "BIO recommends the following edits: “For the purposes of this covariates) and sufficient numbers of representative draft guidance, the term reliability includes data accuracy, patients for the study.” completeness, provenance, and traceability. The term relevance includes the availability of key data elements The terms “reliability” and “relevance”, which were (exposure, outcomes, covariates) and sufficient numbers of discussed in the FDA’s Framework for RWE, are representative patients for the study and sufficient follow-up"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A55",
+   "span_extended": "BIO recommends that FDA provide additional draft guidance to EHR/medical claims owners and vendors that broker data to EHR accuracy, completeness, provenance, and ensure accuracy and completeness."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A57",
+   "span_extended": "BIO suggests the following edits: “For all studies using EHRs or medical claims data that will be submitted to FDA to or medical claims data that will be submitted to FDA to support support a regulatory decision, sponsors should submit a regulatory decision for adequate and well controlled protocols and statistical analysis plans before (A&WC) evidence"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A58",
+   "span_extended": "BIO recommends the Agency clarify the meaning of “before conducting the study”."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A59",
+   "span_extended": "It would be helpful for FDA to elaborate The last statement makes it seem like seeking FDA on the appropriate mechanism to gain timely and efficient input before conducting the study is optional, but in feedback from appropriate FDA review staff, such as a Type C later sections, there are comments that sponsors meeting and/or considering the new RWE pilot program under should discuss definitions before study conduct. This PDUFA VII and Type D meeting option."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A60",
+   "span_extended": "Similarly, BIO recommends that the Agency clarify if the draft proceeds in multiple iterative stages with refinement of guidance recommends interactions with the Agency prior to the design and questions during a fitness-for-purpose any analysis or prior to finalizing the analyses to address the and feasibility period followed by finalizing the SAP and primary hypotheses or both."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A61",
+   "span_extended": "primary hypotheses or both. BIO also recommends that the analytical period. The earlier period sometimes includes essential pre-defined elements of study design, analysis, a few analytical results to assess cohort size and study conduct and reporting be part of the scope of the FDA power. It is unclear if Sponsors should interact with the interaction to ensure that it is clear that FDA input should be Agency prior to any analysis or prior to finalizing the sought on these specific points."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A65",
+   "span_extended": "BIO recommends the following edits: “Quality assurance and quality control (QA/QC) procedures for data accrual, quality control (QA/QC) procedures for data accrual, curation, curation, and transformation into the final study-specific data integration/linking and data transfer/movement"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A66",
+   "span_extended": "BIO recommends that the Agency consider developing a suggest that FDA put together a checklist for assessing checklist for assessing each data source that would be each data source that would be included as part of the included as part of the protocol."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A67",
+   "span_extended": "BIO also suggests that the protocol. Agency consider describing the information that is available from EHRs and claims data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A68",
+   "span_extended": "BIO suggests the following edit: An analysis of each data evaluated to determine whether the available source should be conducted to evaluate evaluated to information is appropriate for addressing a specific determine whether the available information is appropriate for study hypothesis.” addressing a specific study hypothesis, and should be made available to the FDA upon request."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A69",
+   "span_extended": "BIO recommends that the Agency clarify if the evaluation of data sources that were rejected for delineated reasons. each data source should highlight how the selected fit-for- purpose data source was selected vs. other data sources that were rejected for delineated reasons."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A70",
+   "span_extended": "BIO recommends the following edits: The purpose of medical medical claims data is to support payment for care; claims data is to support payment for care; Claims may not claims may not accurately reflect a particular disease, accurately reflect a particular disease and the comprehensive or a patient may have a particular disease or condition management/treatment (e.g., care not reimbursed by that is not reflected in claims data.” insurance), or a patient may have a particular disease or condition that is not reflected or well reflected (e.g., not As presented, this description regarding claims might unique codes) in claims data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A71",
+   "span_extended": "BIO recommends that the Agency considering noting that that the claim for the treatment with a drug may not reflect the actual use of the drug."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A72",
+   "span_extended": "BIO recommends the following edits: EHR data are generated use in clinical care and may also serve as a basis for for use in clinical care and may also serve as a basis for billing billing and for auditing of practice quality measures. and for auditing of practice quality measures. Data recorded in Data recorded in an EHR system depend on each an EHR system depend on each health care system’s practices health care system’s practices for patient care and the for patient care and the clinical practices of its providers as clinical practices of its providers. In addition, data well as the providers’ documentation habits"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A73",
+   "span_extended": "BIO recommends that the Agency consider defining EMR in the Because there is sometimes confusion between the glossary to differentiate between an EHR and EMR database terms EHR and EMR and they tend to be used and state that the draft guidance focuses on EHR data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A74",
+   "span_extended": "BIO recommends that the Agency clarify if this description of EHR includes abstracted data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A75",
+   "span_extended": "BIO recommends the following edit: “For prospective clinical studies proposing to use EHRs, it may be possible to studies proposing to use EHRs, it may be possible to modify modify the EHR system for the purpose of collecting the EHR system for the purpose of collecting additional patient additional patient data during routine care through an data during routine care through an add-on module to the EHR add-on module to the EHR system. However, given the system. However, given the limited ability to add modules to limited ability to add modules to collect extensive collect extensive additional information, EHR-based data additional information, EHR-based data collection may collection may still not be comprehensive. While extensive still not be comprehensive.” data capture via EHR may be limited, the use of digital technology may provide additional data needed for Extensive data capture via EHR might be limited, but prospective clinical studies.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A76",
+   "span_extended": "BIO recommends that the Agency provide examples of module to the EHR system. acceptable add-on modules to EHR systems."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A78",
+   "span_extended": "BIO suggests the following edits: The historical experience with and use of the selected data source for research with, including relevant experience in the specific purposes should be described in the protocol. This therapeutic area proposed, and use of the selected data description should include how well the selected data source for research purposes should be described in the source has been shown to capture study elements protocol. This description should include how well the selected (e.g., inclusion and exclusion criteria, exposures, data source has been shown to capture study elements (e.g., outcomes, key covariates) and how the data can be inclusion and exclusion criteria, exposures, outcomes, key validated for a particular research activity.” covariates and intercurrent events) and how the data can be validated suitable for a particular research activity."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A81",
+   "span_extended": "BIO suggests the following edit: Patients in different types of commercial or government health care payment commercial or government health care payment programs can programs can differ in a range of characteristics, such differ in a range of characteristics, such as age, socioeconomic as age, socioeconomic status, health conditions, risk status, health conditions, risk factors, and other potential factors, and other potential confounders.” covariates confounders.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A82",
+   "span_extended": "BIO suggest the following edit: Various factors in health care care systems and insurance programs, such as systems and insurance program, such as patient out-of- medication tiering (e.g., first-line, second-line), pocket payment medication tiering (e.g., first-line, second- formulary decisions…” line), formulary decisions…”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A84",
+   "span_extended": "BIO recommends that the Agency clarify what validation means about the health care system, including (if available) in this statement."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A87",
+   "span_extended": "BIO recommends that the Agency clarify whether evaluation of FDA recommends providing an explanation of how all generalizability applies to all data sources, including cohorts of these factors might affect the generalizability of the derived from RWD, regardless of whether they are US based study results to the U.S. population.” with additional considerations to non-US based databases."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A88",
+   "span_extended": "BIO recommends that the Agency clarify to what extent would Some US databases include a fraction of the US factors impacting generalizability to a US population influence population. Thus, their generalizability to the whole US the FDA’s acceptance of non-US RWD"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A89",
+   "span_extended": "BIO also recommends that the Agency highlight specific results. circumstances in which they may not accept a non-US data source (e.g., when race may be an important factor for a disease)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A90",
+   "span_extended": "BIO recommends that the Agency provide clarity on readily demonstrate that each data source contains the detail accepted standards/methods of what completeness is needed and completeness needed to capture the study and ways in which to “demonstrate” completeness."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A92",
+   "span_extended": "BIO recommends that the Agency clarify whether these details information that should be shared. The section are requested for the study population of interest or for the describes the need for submitting information such as overall population included in the data source."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A93",
+   "span_extended": "BIO suggests the following edit: Continuity of coverage (enrollment and disenrollment) should be addressed (enrollment and disenrollment) should be addressed when when using EHR and medical claims data sources, using EHR and medical claims data sources, given that given that patients often enroll and disenroll in different patients often enroll and disenroll in different health plans when health plans when they experience changes in they experience changes in employment or other life employment or other life circumstances. The validity of circumstances. For claims data, enrollment/disenrollment findings from a study using these data depends in part can be assessed based on insurance enrollment and on the documentation of the migration of patients into disenrollment information."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A95",
+   "span_extended": "BIO recommends that language characterizing continuity of capture is an important element when working with care should be delineated (where relevant) to the use of EHR RWD. It should be highlighted in the draft guidance that and medical claims data separately, as well as jointly, if many oncology EHRs do not have enrollment applicable."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A96",
+   "span_extended": "BIO recommends that the Agency consider using the term be the introduction of immortal time as well as missing “Continuity of observable period” to indicate the period that exposure data. patients remain in the healthcare system."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A97",
+   "span_extended": "BIO recommends that the Agency consider adding draft a study using these data depends in part on the guidance on how to define patient eligibility in those data documentation of the migration of patients into and out sources, such as EHR systems that do not contain an of health plans and health care delivery organizations.” enrollment file."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A98",
+   "span_extended": "BIO recommends that FDA distinguish between closed claims want sponsors to report. sources and open claims sources in the draft guidance."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A99",
+   "span_extended": "BIO recommends that the Agency clarify the current example study where an outcome is dependent on a specific and consider including the more appropriate example of an frequency of laboratory tests, and clinicians do not outcome that is not captured in the medical claims data source typically order those tests at such a frequency.” such as laboratory results."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A100",
+   "span_extended": "BIO recommends that the Agency clarify if a feasibility should contain adequate numbers of patients with assessment be undertaken from various data sources to adequate length of follow-up…” address the length of follow up available, before selecting the final data source(s)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A101",
+   "span_extended": "BIO suggests the following edits: “In general, EHR and medical claims data do not systematically capture the medical claims data do not systematically capture the use of use of nonprescription drugs or drugs that are not nonprescription drugs or drugs that are not reimbursed under reimbursed under health plans, or immunizations health plans, or immunizations offered in the workplace. If offered in the workplace. If these exposures are these exposures are particularly relevant to the study particularly relevant to the study questions, the data questions, the data source may not be suitable, or the protocol source may not be suitable, or the protocol should should describe how this information gap will be addressed describe how this information gap will be addressed.” (e.g., adding additional modules to the EHR system to address the information gap or collecting the data outside It is unclear how information gaps should be the EHR system).”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A102",
+   "span_extended": "BIO recommends that the Agency clarify that the linkage rate is offs with decreased sample size should be an important factor for feasibility consideration, since, if it is too acknowledged. low, it may lead to a sample size that is too small and not meaningful. This clarity will allow Sponsors to explore both While draft guidance for analysis methods is not deterministic and probabilistic options."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A103",
+   "span_extended": "BIO recommends that the Agency clarify that if the Sponsor is design stage (e.g. assessing the noninformative linkage working with a data vendor to collect RWD, for which a data assumption, which states that the linkage process is linkage already exists, whether unpublished statements from conditionally independent from the outcome and the data vendor on linkage quality can be provided to the covariate distributions in the analysis given the Agency or must the data vendor have published works identifying information used to perform the linkage). addressing the linkage quality."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A104",
+   "span_extended": "BIO recommends that the Agency describe data tokenization that exist in both data sources may not agree in value. as a method for linking data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A105",
+   "span_extended": "Draft guidance on how to resolve disagreements would be helpful (e.g., sponsor should provide justification for"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A106",
+   "span_extended": "BIO recommends that the Agency clarify whether steps should selecting a particular set of values from one data be performed on linked data sets to obtain a 1:1 linkage (e.g., source over another; assessing degree of agreement; linear programming methods are commonly implemented after conducting sensitivity analyses) probabilistic linkage as a greedy method to obtain 1:1 linkage)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A107",
+   "span_extended": "BIO recommends that the Agency clarify the meaning of 1125-1198 to increase the breadth and depth of data on individual breadth and depth of data by adding this terminology to patients…” glossary or adding a reference"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A108",
+   "span_extended": "BIO recommends that the agency provide specific to the size of the cohort and number of covariates on recommendations on reconciliation of such cases where each subject or more specifically refers to patients may or may not be included in multiple health care site longitudinality sources (i.e., to ensure accuracy, completeness, and non- duplication)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A109",
+   "span_extended": "BIO recommends that the Agency clarify if Sponsors should in a multi-source aggregate. routinely evaluate data changes at the source to address situations where, for example, a patient could update their list EHR/medical claims data sources are also in a of medications after an initial cut of study data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A110",
+   "span_extended": "BIO recommends the following edit: “If the study involved establishing new data linkages between internal data establishing new data linkages between data elements within sources (e.g., mother-infant linkages) or external data the same internal data sources (e.g., mother-infant linkages) sources…” or data elements across different external data sources"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A111",
+   "span_extended": "BIO recommends that the Agency provide more clarity on what combining data from multiple data sources or study “acceptable quality” would be in this context or at least an sites, FDA recommends demonstrating whether and example on approach."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A112",
+   "span_extended": "BIO recommends that the Agency clarify whether any for heterogeneity in population characteristics, clinical heterogeneity should be documented on only those practices, and coding across data sources.” characteristics that are relevant for the main study hypothesis."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A113",
+   "span_extended": "BIO recommends that the Agency include a rationale of circumstances where it is applicable to combine data sources."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A114",
+   "span_extended": "BIO recommends the following edit: This scenario is not an issue with data sources that share a unique patient issue with data sources that share a unique patient identifier across all sites (e.g., a multi-site hospital identifier across all sites (e.g., a multi-site hospital network) and only occurs if the patient seeks care network) and only occurs if the patient seeks care outside outside the network. FDA recommends considering the network. The presence of multiple records or and documenting the type of curation performed to duplicate records is an issue even within one single data"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A115",
+   "span_extended": "BIO recommends that the Agency provide an example to clarify curation performed to handle the issue of multiple this point."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A117",
+   "span_extended": "BIO recommends that the Agency reference the recent draft database structures into a common health network with guidance on Data Standards for Drug and Biological Product a CDM allows research across health care sties that Submissions Containing Real-World Data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A119",
+   "span_extended": "The amount of information on distributed data networks (DDN) is excessive. The data sources and integrated data used from a DDN should be assessed in the same manner as any other data, and data transformation is already covered elsewhere."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A121",
+   "span_extended": "BIO recommends that the Agency clarify they endorse, for The research community would benefit from further example, the use of non-CDISC data standards (e.g., HL7 details on common data models (CDMs) that are FHIR or OHDSI OMOP CDM). Any input on what other CDMs already well developed, such as OMOP/ODHSI and that are acceptable not already described as part of the FDA HL7/FHIR, and an indication if FDA prefers these Data Standards Catalog"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A122",
+   "span_extended": "BIO recommends that the Agency define what a computer- definition, composed of data elements and phenotype processable format is and clarify if this means that the code algorithm, should be described in the protocol and used to compute the phenotypes should be available and study report and should also be available in a reproducible."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A124",
+   "span_extended": "BIO recommends that the Agency clarify what they expect computable phenotype definition should be described in sponsors to ‘describe in the protocol and study report’ with the protocol and study report.” respect to clinical validation."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A125",
+   "span_extended": "BIO recommends using “operational definition for the target context of this draft guidance. A computable phenotype patient population” for consistency [with later sections of the is essentially an operational definition for the target draft guidance that address operational definitions for patient population (i.e., a code-based electronic exposures, outcomes, and covariates]."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A126",
+   "span_extended": "BIO recommends that the Agency clarify as to whether FDA any specific AI technology.” would consider AI extracted endpoints from text data sources."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A127",
+   "span_extended": "BIO suggests the following edit: “If the protocol proposes to use use AI or other derivation methods…” AI or other derivation methods…Relevant impacts on data quality from use of AI or other derivation methods should be It is important that researchers transparently present documented in the protocol and analysis plan.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A128",
+   "span_extended": "BIO recommends that the Agency consider adding a statement and highly complex on its own. that the details may be provided as an appendix/supplement to the protocol or may refer to publication(s) as reference"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A131",
+   "span_extended": "BIO suggests that FDA should clearly state their preferred data presents, if FDA’s preference is for sponsors to approach to address complete or partial missing data in the collect additional information on the missing data, or EMR/claim database within Section C of this draft guidance assess the impact of missing data on study results via document analytical approaches."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A132",
+   "span_extended": "BIO recommends changing the title of this section for the Considerations” reasons stated in the text. Missing data is an often- misunderstood issue and using it as a title may perpetuate the The title is inconsistent with what is in the Table of confusion. Suggested alternatives: “Unavailable Data” or “Gaps Contents (C. Information Content and Missing Data: in Data”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A133",
+   "span_extended": "BIO recommends that the final draft guidance discuss missing between these two cases and understand the reasons data that result from differences that relate to variations in why information in present or absent in EHRs and assessment that may exist between routinely collected data medical claims.” (e.g., EHRs) and clinical trials (related to the second category described in the draft guidance)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A134",
+   "span_extended": "BIO recommends that the Agency emphasize that the estimand statistical analysis plan should be developed…” must be defined before missing data can be discussed and an analysis plan specified."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A135",
+   "span_extended": "BIO recommends that the Agency clarify if they further commissioned NRC report “The Prevention and recommend application of missing data statistical methods Treatment of Missing Data in Clinical Trials” emphasize once descriptions of the reasons for missing data and missing that first the estimand has to be defined before missing data mechanisms have been addressed in the statistical data can be discussed. The current draft guidance analysis plan and protocol; Or, will description of the problem of should be aligned with the text of these two references. missing data suffice."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A139",
+   "span_extended": "BIO recommends that the final draft guidance should potential misclassification of a variable of interest (e.g., acknowledge that different magnitudes of confounding may exposure, outcome, covariate) might impact the necessitate different levels of rigor with respect to validation."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A140",
+   "span_extended": "BIO suggests the following edit: “... differential misclassification; (2) differential versus non-differential misclassification of outcome by exposure treatment group"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A141",
+   "span_extended": "BIO recommends including a reference to the later section independent misclassification (e.g., correlated (V.D.3) where these are described in more detail."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A142",
+   "span_extended": "BIO recommends the Agency develop an algorithm to define definition should reflect current medical and scientific the specific condition or drug exposure."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A143",
+   "span_extended": "BIO recommends that the Agency clarify if data providers should be developed based on the conceptual definition would need to provide the code to sponsors and/or FDA and if to extract the most complete and accurate data from written descriptions would be adequate."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A144",
+   "span_extended": "BIO recommends that the Agency expand the current definitions are usually imperfect and cannot accurately discussion to include more general comments on how classify the variable of interest for every subject, a measurement error (and the performance of operational resulting misclassification can lead to false positives definitions) can be assessed for variables which are not binary and false negatives (Table 1) and may bias the (such as time-to-event and continuous variables)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A145",
+   "span_extended": "FDA seems to be proposing metrics for misclassification. Attempting to mitigate all potential for outcome misclassification by suggesting sponsors conduct a quantitative bias analysis as a sensitivity analysis to show how outcome misclassification may impact study results. Determining misclassification has limited feasibility."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A146",
+   "span_extended": "BIO recommends that the Agency clarify if this means that draft guidance, complete verification involves assigning abstraction (medical record review) is equivalent to “complete an accurate value to the variable of interest for each verification”."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A147",
+   "span_extended": "General Comment: Complete verification alone does BIO recommends the following edits: not create high quality data. Trial data monitoring has shifted away from 100% Source Data Verification to “Although risk-based approaches to source data more risk-based approaches because 100% SDV isn’t verification complete verification of a variable of interest Line 463 particularly effective. Suggest removing the statement minimizes misclassification and maximizes study internal about complete verification being the most rigorous or validity,....” adding content on risk-based approaches."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A148",
+   "span_extended": "BIO recommends that the final draft guidance provide citations measures described in Table 1, sponsors should of valid algorithms or use of datasets where data are consider whether validating the variable to a greater consistently abstracted may be sufficient."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A149",
+   "span_extended": "BIO recommends including any particular considerations that validation. However, considerations are not discussed may be different in validating RWD that are being used in for situations where a hybrid clinical/RWD approach is conjunction or in comparison to clinical trial data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A150",
+   "span_extended": "BIO recommends that the Agency provide clarity on what used to establish sensitivity, specificity, and criteria sponsors should use to assess quality."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A151",
+   "span_extended": "BIO recommends that the Agency clarify the intention of a detailed description of the planned validation….” with “planned validation” and whether it applies to all variables subsequent lines referring to “….justification for the (exposure/outcome/all covariates), or to selected key variables choice of a reference standard, validation approach, only (exposure/outcome/selected key covariates)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A153",
+   "span_extended": "And, that draft guidance might be “planned validation”. added that it is advisable to validate the operational definitions of key outcome, exposure and confounder variables before conducting the study."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A154",
+   "span_extended": "BIO recommends that the Agency provides more clarity analysis plan is filed (as done in the RCT Duplicate (including references to relevant to literature) on how to design project). validation study including: criteria for setting the sample size; what performance metrics can be used if the outcome, exposure or covariate is not a binary variable;"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A156",
+   "span_extended": "BIO recommends that the Agency provides more clarity on if ‘success’ thresholds for these performance metrics would depend on the type of study question that is to be addressed using the RWD (i.e. better performance required for comparative effectiveness studies vs exploratory studies)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A157",
+   "span_extended": "BIO recommends the Agency consider an alternative potentially be confusing to researchers about its intent, title/nomenclature, such as “Defining Study Variables” or when considering forthcoming draft guidances that will something similar."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A158",
+   "span_extended": "BIO recommends that the Agency make reference to interest should be established first, and then the data the estimand draft guidance E9 (R1)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A159",
+   "span_extended": "BIO suggests adding that sponsors should consider presence sponsors should address. of immortal time during follow-up and describe how they dealt with this potential bias, potential implications on effect measures, etc."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A160",
+   "span_extended": "BIO suggests the following changes: Key variables used to the study population should be validated. For select the study population should be validated. For example, example, to assess the drug effect in patients with to assess the drug effect in patients with immune BIO Comments on Real-World Data: Assessing Electronic Health Records and Medical Claims Data to Support Regulatory Decision-Making for Drug and Biological Products FDA Docket: FDA–2020-D-2307, January 24, 2022 Page 35 of 59 SECTION ISSUE PROPOSED CHANGE immune thrombocytopenic purpora, the disorder thrombocytopenic purpora, the disorder ascertained by ascertained by operational definition International operational definition International Classification of Diseases, Classification of Diseases, Ninth Revision, Clinical Ninth Revision, Clinical Modification (ICD-9-CM) (ICD-10-CM)"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A161",
+   "span_extended": "BIO recommends that the expectations/considerations for the population should be validated.” However, unlike validation of inclusion/exclusion criteria be described and/or exposure, outcomes, and covariates, there is no cross-referenced to the corresponding principles already discussion in the draft guidance around the Agency’s covered for exposure, outcomes, or covariates that would apply expectations/considerations for the validation of to inclusion/exclusion criteria as well."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A162",
+   "span_extended": "BIO recommends that in this paragraph, FDA might consider The draft draft guidance states that validation studies adding 1-2 sentences emphasizing the need for researchers to are needed. describe in detail how they are going to not only define their cohort based on an indication of interest, but how they are Information is missing here about how to link a certain going to link said indication to their exposure drug of interest"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A163",
+   "span_extended": "BIO recommends that the Agency clarify the context and scope in detail in their study proposal how they will link their of the statement “Key variables used to select the study indication to their exposure drug. For example, a population should be validated”."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A164",
+   "span_extended": "BIO recommends that the Agency clarify that they would a detailed description of methods for determining how accept terminology not represented in the FDA Data Standards inclusion and exclusion criteria…” Catalog (e.g., ICD-10, RxNorm, etc.)"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A165",
+   "span_extended": "BIO suggests the following edit: “The protocol and/or analysis address the completeness and accuracy of the plan should address the completeness and accuracy of the"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A166",
+   "span_extended": "BIO recommends that the Agency refer to types of Bias in to sources of bias as used commonly used in the sections of the document e.g. if the RWD was intended as an literature could aid understanding.. e.g. Table 1 in the external control to data from a clinical trial.. refer to Selection paper The use of external controls: To what extent can bias"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A167",
+   "span_extended": "BIO suggests deleting “placebo” or clarify how this would be referred to as the treatment, and may be compared to defined in a database study"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A168",
+   "span_extended": "BIO recommends the following edit: “This will usually require understanding of the pharmacological properties of the an understanding of the pharmacological properties (e.g. half- drug…” life) and MoA of the drug"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A169",
+   "span_extended": "BIO recommends that the final draft guidance should provide describe the coding system used, the level of guidelines for acceptable reference standards to evaluate granularity represented (e.g., using RxNorm mapping to coding systems."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A170",
+   "span_extended": "BIO recommends the following edit: “When relying on coded data, the operational exposure definitions should be data, the operational exposure definitions should be based on based on the coding system of the selected data the coding system of the selected data source and reflect an source and reflect an understanding of the prescription, understanding of the prescription, delivery, and reimbursement delivery, and reimbursement characteristics of the drug characteristics of the drug (if applicable) in that data source (if applicable) in that data source.” over time”."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A171",
+   "span_extended": "BIO recommends the following edit: For example, in the United States, the operational definition should include the States, the operational definition should include the appropriate appropriate pharmacy codes (NDC or Healthcare pharmacy codes (NDC or Healthcare Common Procedure Common Procedure Coding System) to capture the use Coding System NDC or Healthcare Common Procedure of the drug in various settings.” Coding System or other applicable codes)"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A172",
+   "span_extended": "BIO recommends that the Agency provide a reference for this might include low-cost generic drugs, drugs obtained statement."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A173",
+   "span_extended": "BIO recommends the following edits: capture the relevant exposure duration (anticipated use “The data source should capture the relevant exposure of a product over time).” duration (anticipated use of a product over time), when relevant to the treatment and scientific question of The draft guidance indicates that the “relevant interest.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A174",
+   "span_extended": "BIO suggests that this topic could be raised in a workshop describing the duration of exposure as well as the where regulators and data and analytics organizations work to period during which the exposure is having its effect address this topic."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A175",
+   "span_extended": "BIO recommends that the Agency consider adding a sentence refill their prescriptions exactly on time or, alternatively , after “…if there are early refills,” which recommends describing may refill their prescriptions early, gaps or stockpiling in and justifying in the study protocol any action being taken by therapy may exist and may be reflected in the data. researchers to address medication non-adherence, if possible."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A176",
+   "span_extended": "BIO recommends the Agency provide the example of defining a potential gaps in therapy in the data source, and handle maximum allowable gap between consecutive prescriptions to refill stockpiling if there are early refills.” use to define continuous exposure vs. a new treatment episode."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A177",
+   "span_extended": "BIO recommends the following edit: Data about exposure include information about dose” should include information about dose dosing regimen (dose level and frequency)."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A178",
+   "span_extended": "BIO recommends that the Agency include the concept of chronically, can lead to misclassifications. minimum effective dose since ascertainment by using single dose exposure, especially for drugs used chronically, can lead to misclassifications."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A179",
+   "span_extended": "BIO suggests the following edits: Other than for medications medications administered in hospital settings or administered in hospital settings or infusion settings, infusion settings, electronic health care data capture electronic health care claims data capture prescriptions of prescriptions of drugs and the dispensing of drugs to drugs and the dispensing of drugs to patients while electronic patients, but generally do not capture actual patient health records may not capture drug dispensing."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A180",
+   "span_extended": "BIO recommends that the Agency provide clarification on comparison of the exposure classification in the whether patient surveys can be conducted to validate exposure proposed data source with a reference data source.” if appropriate reference data sources are not available."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A183",
+   "span_extended": "BIO suggests the following edit: “In some instances, for medications used in outpatient settings, dispensing or prescribed medications used in outpatient settings, dispensing billing data would tend to be more accurate than most or billing data would tend to may be more accurate…”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A184",
+   "span_extended": "BIO recommends that the Agency clarify if they are requesting that RWE studies be conducted in multiple databases to The language regarding when EHR versus claims data ensure robust insights are derived."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A185",
+   "span_extended": "BIO suggests revising to include the evaluation of exposure(s) documenting the methods used to calculate and is necessary, but new validation studies are not expected if validate duration, dose, switching, and other these studies have already been previously performed and characteristics of exposure. Validation and published."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A186",
+   "span_extended": "BIO recommends that the Agency clarify that if no appropriate comparison of the exposure classification in the reference data are available if sponsors should used previous proposed data source with a reference data source ...” relevant publication or are there other options that the Agency recommends."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A187",
+   "span_extended": "BIO recommends that the Agency consider including in patients after they are filled in the pharmacy setting (i.e. Subsection 3 discussions around ascertainment of the start adherence). and end of exposure therapy. BIO notes that deficiencies in defining the index date or the censoring criteria related to end of therapy were noted in recent reviews by the oncology divisions of applications containing EHR data. It would be useful for the agency to clarify their draft guidance relative to these important design elements."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A189",
+   "span_extended": "BIO suggests the following edit: “For example, in assessing dosing in patients taking drugs with substantial renal dosing in patients taking drugs with substantial renal clearance, it may be necessary to have access to clearance, it may be necessary to have access to measurements of serum creatinine, creatinine measurements of serum creatinine, creatinine clearance, clearance, or estimated glomerular filtration rate to or estimated glomerular filtration rate to assess assess appropriateness of dosing.” appropriateness of dosing.” The example provided seems less relevant to a non- interventional study where the goal is to measure real- world treatment effect based on how the medication is being used in routine clinical practice."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A190",
+   "span_extended": "BIO recommends that the final draft guidance address concomitant medication use should be described in exposure collection other than those for the investigational detail. Definitions of concomitant medication use might product of interest, such as combination therapy components,"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A191",
+   "span_extended": "BIO also recommends that the Agency provide clarification and ascertainment of concomitant drugs (e.g., examples of when concomitant medication use needs to be nonprescription drugs) should also be described.” described as this may not be necessary for studies where causal effect of treatment is not the main study aim."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A192",
+   "span_extended": "BIO recommends that the Agency provide additional draft comparator group is not concurrent with the treatment guidance on the length of the time period that can be group).” extrapolated back to, when no concurrent comparator group is available."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A193",
+   "span_extended": "BIO recommends that for completeness, this section may need events as outcomes and mentions Mortality as an to add continuous variables as outcomes as well as other time- outcome. to-event variables as outcomes. For time-to-event outcomes, censoring should be addressed."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A195",
+   "span_extended": "BIO recommends that the Agency expand the current objective response (tumor shrinkage), …” discussion to comment on how data on clinical trial endpoints such as RECIST 1.1 can be leveraged if these are measured in We may be able to measure clinical trial endpoints in a a fraction of patients in the real-world dataset."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A196",
+   "span_extended": "BIO also recommends that the Agency consider providing more More consideration should be given to how these data clarity around the validation needed for surrogate RWD endpoints, i.e., tumor assessment measures."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A197",
+   "span_extended": "BIO recommends that the Agency consider referencing current generated data (e.g., data required for subjective end COA draft guidance on validation of patient- or physician- points) are proposed to assess the outcome of generated data to assess outcomes."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A198",
+   "span_extended": "BIO recommends that the Agency clarify whether there are using a clinically appropriate conceptual outcome more than two options for validation of outcomes."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A199",
+   "span_extended": "BIO recommends the Agency consider EHRs where there is no the outcome of interest, typically by reviewing clinical original medical record (i.e., the individual heath record is the details recorded in the patient’s medical records in de-facto source data)"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A201",
+   "span_extended": "BIO recommends that the Agency provide a reference to metrics (e.g., kappa statistic)…” Cohen’s kappa statistic."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A202",
+   "span_extended": "BIO recommends that the Agency clarify what the medical record retrieval rate should be justified in the protocol, record retrieval rate is and what it would be used for."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A203",
+   "span_extended": "BIO requests that FDA consider alternative approaches to the use of blinding abstractors due to the operational difficulty and Eliminating the potential for observer bias when using limited feasibility of the approach."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A204",
+   "span_extended": "BIO recommends that the Agency provide some background a description of how observer bias will be handled”. narrative to further illustrate the key considerations around observer bias related to this recommendation in the draft"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A205",
+   "span_extended": "BIO recommends that the Agency provide clarity on how an of the outcome variable, each subject is assigned an accurate value is assigned to each subject and if this refers to accurate value of the outcome variable…” a specific type of statistical or sensitivity analysis."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A206",
+   "span_extended": "BIO recommends that the Agency clarify whether these commonly used approach is to assess the performance validation studies should be planned within the same study or of an operational definition in validation studies.” in a separate standalone study."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A207",
+   "span_extended": "BIO recommends that the final draft guidance should provide such as sensitivity, specificity, and predictive values, do acceptable ranges for performance measures."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A208",
+   "span_extended": "BIO recommends that the Agency consider mentioning the facilitate the interpretation of results in the presence of approach where predictive algorithms can be developed based misclassification.” on validation analyses and can be used to classify cases and non-cases."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A210",
+   "span_extended": "BIO recommends that the Agency clarify how the necessary of validation should be determined by necessary level level of certainty is determined for different contexts of use and of certainty and the implication of potential provide an example to help sponsors understand the Agency’s misclassification on study inference.” thinking."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A211",
+   "span_extended": "BIO recommends the following edit: “Because missing true is particularly a concern for infrequently reported cases is particularly a concern for infrequently reported outcomes, one approach is to select an operational outcomes, one approach is to select an operational definition of definition of high sensitivity and perform complete high sensitivity and perform complete verification of the verification of the outcome variable for all potential outcome variable for all potential cases to the level of cases to maximize the likelihood that the true cases are precision needed to provide a reliable and clinically- meaningful estimate of treatment effects"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A212",
+   "span_extended": "BIO recommends that the Agency consider expanding stated intent of other sections (e.g., line 447 – verification to the concept of reliability."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A213",
+   "span_extended": "“Without complete adequate patient information and complete verification of the outcome variable…”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A214",
+   "span_extended": "BIO suggests removing this example: who observed, diagnosed, and documented whether or not an outcome occurred could have been the same “For example, the physician who observed, diagnosed,"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A215",
+   "span_extended": "BIO recommends that the Agency consider that the final draft guidance could highlight the importance of study investigators BIO Comments on Real-World Data: Assessing Electronic Health Records and Medical Claims Data to Support Regulatory Decision-Making for Drug and Biological Products FDA Docket: FDA–2020-D-2307, January 24, 2022 Page 49 of 59 SECTION ISSUE PROPOSED CHANGE being blinded to treatment assignment when designing a database study"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A216",
+   "span_extended": "BIO recommends that the Agency include an Appendix with validation, sponsors should justify the proposed specific examples of validation approaches, thresholds of validation approach, such as validating the outcome sensitivity/specificity, etc."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A217",
+   "span_extended": "BIO recommends that the Agency acknowledge and provide included in searches of vital statistics systems to see draft guidance on the fact that it may be infeasible for sponsors whether their absence (disenrollment) from the system to link EHR data to vital statistics given data privacy issues that is because of death, and it may be necessary to commercial RWD data vendors need to adhere to."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A218",
+   "span_extended": "BIO recommends that the Agency provide additional draft only be accessed through a formal application to the guidance on whether censoring or assigning death to patients NCHS, this challenge should be acknowledged given who are lost to follow up depends on the circumstances of the"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A219",
+   "span_extended": "BIO recommends that the Agency consider including some in the electronic health care data systems, patients who background on Estimands, and how intercurrent events may be die after having been exposed to the study drug might handled in this section."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A221",
+   "span_extended": "BIO recommends that the Agency consider mentioning exposure only, or instruments. These variables are instruments along with confounders and effect modifiers and important to consider and identify in a study protocol, the importance of identifying instrumental variables."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A222",
+   "span_extended": "Inclusion especially when deciding what variables to control for of a direct acyclic graph (DAG) in study protocols might be or what variables to include in a propensity score. This useful for researchers as they decide which variables to control"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A223",
+   "span_extended": "BIO recommends that the Agency consider defining not clearly distinguished from e.g., covariates. confounders in Section E1 as well, and to add these definitions to the glossary."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A225",
+   "span_extended": "BIO recommends the following edits: “FDA recommends considering potential linkages with other data sources considering potential linkages with other data sources or or additional data collection to expand the capture of additional data collection to expand the capture of important important confounders that are unmeasured or confounders that are unmeasured or imperfectly measured in imperfectly measured in the original data source.” Other the original data source. If linkages with other data sources than potential linkage or additional data collection, it is are not possible, the sponsor should discuss with the"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A226",
+   "span_extended": "BIO recommends that the Agency expands upon the draft always feasible. guidance to clearly state whether quantitative analysis methods are an acceptable approach in which to address the possible"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A227",
+   "span_extended": "BIO recommends broadening this advice to include other availability of information. sensitivity analysis methods (e.g. Zhang & Mather, 2020) that help to quantify potential impact of confounding and reduce the uncertainty to levels allowing for confident decision-making."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A228",
+   "span_extended": "BIO recommends that the Agency expand the definition to description of the comparator time period in case of a periods with no treatment, treatment interruptions, previous comparison with “no treatment” or with placebo. treatments etc."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A229",
+   "span_extended": "should ideally be available in the chosen data source, and mitigation strategies presented where this is not possible.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A230",
+   "span_extended": "BIO also recommends that the Agency include biomarkers and genetic mutations as important effect modifiers in the draft"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A231",
+   "span_extended": "BIO recommends that the Agency include some information on modifiers in both statistical and biological scales. assessing effect modifiers in both statistical and biological scales."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A232",
+   "span_extended": "BIO recommends that FDA provide draft guidance for covariate why/when covariates necessitate validation."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A233",
+   "span_extended": "BIO suggests including language that recognizes that important including confounders and effect modifiers, FDA covariates which are also more prone to errors receive the recommends providing and justifying the validity of highest priority with respect to validations."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A234",
+   "span_extended": "BIO recommends that the Agency clarify what approaches are of covariate…” possible to validate covariate operational definitions when no suitable reference exists."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A235",
+   "span_extended": "BIO recommends the following edits: “When supplemental information is needed to capture important covariates information is needed to capture important covariates or is or is used for covariate validation, FDA recommends used for covariate validation, FDA recommends describing the describing the likelihood of obtaining the supplemental likelihood of obtaining the supplemental information for the information for the overall study population.” overall study population needed to provide a reliable of treatment effects.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A236",
+   "span_extended": "More specific draft guidance would be helpful so that sponsors that industry would benefit from more specific draft and data providers can provide consistent data quality guidance in this area. assessments that satisfy FDA’s requirements."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A237",
+   "span_extended": "BIO believes that it would be useful for industry, data partners, and FDA to Data vendors of claims and EHR do not typically share collaborate on developing a framework for data standards."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A238",
+   "span_extended": "BIO recommends that the Agency clarify what the expectations around documentation and data submission. relative to subject-level data submission of RWE are."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A239",
+   "span_extended": "BIO recommends that the Agency clarify if separate documents analysis plan should specify the data provenance…” from the sponsor and vendor to capture such information would be an option."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A240",
+   "span_extended": "BIO recommends that the Agency clarify if they recommend automated data quality reports that include the Sponsors submitting the data quality report(s) to the FDA as following characteristics and processes in a part of the protocol and statistical analysis plan review meeting."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A241",
+   "span_extended": "BIO recommends that it would be helpful for FDA to address in coding practices and versioning (e.g., International the Agency’s interpretations of the coding trend (ICD-9 to ICD- Classification of Diseases [ICD] diagnosis codes, 10) analyses that are publicly available in Sentinel."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A242",
+   "span_extended": "BIO recommends that the Agency clarify its thinking on the role typically conducted by data vendors. Parts of the data of data vendors in the data accrual process."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A243",
+   "span_extended": "BIO recommends that the Agency provide more explicit draft allow tracking of these elements back to their 1097 guidance on what would constitute adequate provenance respective points of origin…” documentation."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A244",
+   "span_extended": "BIO recommends that FDA provide clarification as to intent of quality checks employed across sites….” the QA testing and data quality checks and the use of QA/QC standards such that the obligations of sponsors and data It is unclear if this means that the study sponsor or data providers are clear."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A245",
+   "span_extended": "BIO recommends that the Agency clarify the definition of core 1133 the document. There’s a reference of “key data data elements."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A246",
+   "span_extended": "BIO recommends that the Agency clarify their expectation of consensus-based data curation standards, when the sponsors role in determining curation standards."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A247",
+   "span_extended": "BIO recommends that the Agency clarify if they want the traceability may be lost in this intermediary activity intermediate processing of the data to be submitted with (refer to Figure 1). For example, if there are mappings regards to quality and traceability."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A248",
+   "span_extended": "BIO recommends that the Agency provide examples or best linking records from multiple datasets) and practices for data linkage."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A249",
+   "span_extended": "BIO recommends that the Agency discuss considerations double-programming, which is independent code around code review alone vs. double programming."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A250",
+   "span_extended": "BIO suggests the following edit to clarify: “To facilitate FDA submitted programs (e.g., those written by analysts) review, analysis datasets, data definition tables, and should be thoroughly annotated with comments that programming codes (e.g., those written by analysts) for describe the intent or purpose of each data data derivation and data analysis related to the key management and analysis step written in the program objectives of the study (e.g., primary and key secondary (e.g., annotate each data step in a statistical analysis endpoints) should be all submitted and thoroughly annotated"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A251",
+   "span_extended": "We recommend that the Agency clarify the extent of annotate each data step in statistical analysis programming annotation needed and in what circumstances this will codes). “ be required for submissions."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A252",
+   "span_extended": "BIO recommends that the Agency clarify if the submitted studies, as they are not typically provided. programs are provided for FDA review if they are specifically requested by FDA or is this a general suggestion that all analysis programs written by analysts are to be included in the SAP."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A256",
+   "span_extended": "BIO recommends that the draft guidance indicate that in the data retrieval and transformation processes should be case of 3rd party vendors when the sponsor does not have thoroughly assessed from data collection through access to the source data, the data owner would have a writing of the final study report to ensure data integrity.” responsibility to provide the details of the transformation process."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A257",
+   "span_extended": "BIO recommends that the Agency consider the alternative Lines 1323 is inconsistent in the scientific communities and there is definitions of confounder and refine the current definitions of no consensus up to date. However, there is a confounders/effect modifiers in the glossary"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A258",
+   "span_extended": "BIO recommends that FDA align the definition of missing data Glossary is inconsistent with the definition given in ICH with that given in the ICH E9(R1) Addendum"
+  }
+ ]
+}

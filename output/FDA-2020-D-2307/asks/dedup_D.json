@@ -1,0 +1,118 @@
+{
+ "duplicates": [
+  {
+   "keep": "FDA-2020-D-2307-0016-A02",
+   "drop": [
+    "FDA-2020-D-2307-0016-A04"
+   ],
+   "reason": "A04 (lines 98-99, 'as noted above re: lines 66-67') restates the earlier call for prespecified protocols/SAPs before the study; no new recommendation"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0017-A12",
+   "drop": [
+    "FDA-2020-D-2307-0017-A13"
+   ],
+   "reason": "A13 is the justification sentence restating A12's request that Figure 1 acknowledge ML/NLP curation with validation"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0034-A07",
+   "drop": [
+    "FDA-2020-D-2307-0034-A01"
+   ],
+   "reason": "A07 ('As previously noted') repeats the SHIELD-style stakeholder alignment on standards/vocabulary proposed in A01; A07 is the more specific instance"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0043-A17",
+   "drop": [
+    "FDA-2020-D-2307-0043-A16"
+   ],
+   "reason": "Both ask for guidance distinguishing continuity of coverage from continuity of care; A17 restates it and adds multi-EHR analysis"
+  }
+ ],
+ "span_extensions": [
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A11",
+   "span_extended": "399: We agree with FDA that missing data is critical to address – including the fact that tests or treatments may not have been ordered, ordered but not conducted/received, may have been conducted/received but not captured in the data source, or the data were unavailable."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A13",
+   "span_extended": "479-480: In addition to sensitivity and specificity, FDA should make clear that “predictive values” explicitly refer to the PPV and NPV. Additionally, the accuracy should be evaluated."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A15",
+   "span_extended": "545-550: We agree with FDA that key variables should be validated. ICD-9, ICD-10, and CPT codes represent valuable sources of data but there are various factors that affect coding and they may not be reflective of the intended conceptual definition."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0016-A23",
+   "span_extended": "838-843: We agree with FDA about the importance of addressing observer bias. Observers should not be individuals involved in the care of the patient."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A01",
+   "span_extended": "Verana suggests that FDA consider using the term data lineage instead - a term which is commonly used to describe the complete data transformation journey from raw source data at the point of entry by providers to mapping to common data models"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0020-A01",
+   "span_extended": "Real world data could include patient status on socioeconomic status (SES), diet, smoking, body mass index (BMI), etc. Please consider using a broader term such as Healthcare data instead of Medical."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A02",
+   "span_extended": "Line 55: Suggest to add intercurrent events to “ are sufficient to address the study question. Suggest study populations, exposure(s), outcome(s) of interest ... to expand the current guidance to highlight the role of “ as availability of data on intercurrent eventsis key to estimands and the target trial framework"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A07",
+   "span_extended": "Suggest to expand the list of study elements to include discontinuation, etc). For pragmatic reasons, one ‘intercurrent events’."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0027-A10",
+   "span_extended": "Lines 482 –490 Please clarify what the design of a study intended to It would help the reader if more detail (including assess the performance of an operational definition references to relevant literature) could be provided on And Lines 820-952 should look like. how to design validation study including: criteria for setting the sample size;"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0045-A06",
+   "span_extended": "If concerns over continuity of coverage would likely affect clinical readouts, FDA may want to consider emphasizing Docket No. FDA–2020–D–2307 2 rural patient enrollment."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0048-A10",
+   "span_extended": "Although this is plausible, in practice, it is rarely possible to identify preferred prescribing practices if you do not directly work for the health system (and assuming that specific health systems are even identifiable with the RWD selected). Formulary decisions and tiering levels change frequently over time and are considered proprietary. Outcomes of interest may also be located elsewhere and not seen/recorded at one specific facility (e.g., mental health issues may be referred elsewhere and not noted or noted into separate mental health insurance “carve- outs”). We request that FDA acknowledge these limitations and clarify this statement."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A12",
+   "span_extended": "Page 31, Lines 1300-1302: The definition of “data curation” needs fleshing out. Data curation encompasses additional responsibilities."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0056-A05",
+   "span_extended": "Even if recorded in the EHR, this data would be challenging to identify, extract, and interpret. Additional guidance regarding the documentation and interpretation of safety records"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0059-A07",
+   "span_extended": "Page 12, lines 471-490: We support the use of validation for various study design elements, though having to incorporate these activities into all or even most studies will be costly and time consuming. FDA should promote the publication and sharing of prior assessments."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A22",
+   "span_extended": "54-55 “Selection of data sources “Selection of data sources that have the greatest that appropriately address potential to appropriately address the study or the study question and research question and sufficiently characterize study sufficiently characterize populations, exposure(s), outcome(s) of interest, and study populations, key covariates with limited or controlled bias and confounding.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A24",
+   "span_extended": "99-100 “…sponsors should submit Clarify what processes should be used to submit and protocols and statistical discuss plans with the FDA. Consider developing a"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A26",
+   "span_extended": "184-185 “A description of prescribing Clarify the intent and purpose of providing such a and use practices in the description. This description is likely to vary even"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A28",
+   "span_extended": "204-205 “… given that patients often “… given that patients often enroll and disenroll in enroll and disenroll in different health plans when they experience changes different health plans when in employment, relocate across health systems, or they experience changes in other life circumstances.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A29",
+   "span_extended": "270-271 “…whether and how data “…whether and how data from different sources can from different sources can be be obtained and integrated with acceptable quality, obtained and integrated with given the potential for significant heterogeneity in acceptable quality, given the population characteristics, clinical practices, and potential for heterogeneity in coding practices across data sources or systems.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0061-A32",
+   "span_extended": "473 “FDA recommends assessing Define “adequately large” the performance of operational definitions in an adequately large sample of the study population…”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A28",
+   "span_extended": "Additionally, we believe that there are some settings where EHR data can provide this information. Additionally, linking to an external data source, such as a patient registry, could provide this information. We ask that the Agency rephrase this section to capture this possibility."
+  }
+ ]
+}

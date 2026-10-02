@@ -1,0 +1,245 @@
+{
+ "duplicates": [
+  {
+   "keep": "FDA-2020-D-2307-0013-A02",
+   "drop": [
+    "FDA-2020-D-2307-0013-A01"
+   ],
+   "reason": "Cover-summary complaint about validation hurdles not required for RCTs restated as the Major III covariate-validation comment"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0013-A04",
+   "drop": [
+    "FDA-2020-D-2307-0013-A19"
+   ],
+   "reason": "Same request to clarify the process/timing for seeking review-division input; A04 says it applies to many sections"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0013-A21",
+   "drop": [
+    "FDA-2020-D-2307-0013-A24",
+    "FDA-2020-D-2307-0013-A65"
+   ],
+   "reason": "Same verification-vs-validation terminology fix repeated at lines 103 and 944; A21 asks for it everywhere"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0013-A60",
+   "drop": [
+    "FDA-2020-D-2307-0013-A59"
+   ],
+   "reason": "Same line-85 comment extracted twice; A60 is the fuller span"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0013-A63",
+   "drop": [
+    "FDA-2020-D-2307-0013-A64"
+   ],
+   "reason": "Identical span extracted twice (proxy measure / multi-component definitions)"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0035-A08",
+   "drop": [
+    "FDA-2020-D-2307-0035-A07"
+   ],
+   "reason": "One sentence (data-quality guidelines or workshops) split by a page footnote"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0035-A11",
+   "drop": [
+    "FDA-2020-D-2307-0035-A09"
+   ],
+   "reason": "Same paragraph asks twice for distinguishing EHR vs claims data sources; A11 is the fuller restatement"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0035-A15",
+   "drop": [
+    "FDA-2020-D-2307-0035-A14"
+   ],
+   "reason": "Same IV.C request to clarify how 'absent' data are identified; A15 is the concrete recommendation"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0035-A21",
+   "drop": [
+    "FDA-2020-D-2307-0035-A18",
+    "FDA-2020-D-2307-0035-A22"
+   ],
+   "reason": "Same request to note up front that existing performance knowledge may suffice, repeated for IV.D, V.D and V.D.3"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0035-A04",
+   "drop": [
+    "FDA-2020-D-2307-0035-A49"
+   ],
+   "reason": "Same request that extent of validation depend on the study/question, restated in V.D.3"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0035-A13",
+   "drop": [
+    "FDA-2020-D-2307-0035-A37"
+   ],
+   "reason": "Same IP concern about sharing algorithms with sponsors (available on FDA inspection instead), restated in the line table"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0009-A07",
+   "drop": [
+    "FDA-2020-D-2307-0009-A02",
+    "FDA-2020-D-2307-0009-A18",
+    "FDA-2020-D-2307-0009-A52"
+   ],
+   "reason": "Same request to distinguish when guidance applies to EHR vs claims, restated in cover letter, IV.B.1 and VI.A without a new section-specific point"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0009-A35",
+   "drop": [
+    "FDA-2020-D-2307-0009-A36",
+    "FDA-2020-D-2307-0009-A39",
+    "FDA-2020-D-2307-0009-A42"
+   ],
+   "reason": "Same request to defer study-design content to future guidance and limit to data availability, repeated for V.B, V.C.3 and V.C.7"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0050-A41",
+   "drop": [
+    "FDA-2020-D-2307-0050-A05"
+   ],
+   "reason": "Same request that curation specifications be included in the protocol"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0050-A45",
+   "drop": [
+    "FDA-2020-D-2307-0050-A44"
+   ],
+   "reason": "Same request to specify which data-quality items apply to which data source; A45 is the concrete version (separate EHR/claims lists)"
+  },
+  {
+   "keep": "FDA-2020-D-2307-0019-A25",
+   "drop": [
+    "FDA-2020-D-2307-0019-A27",
+    "FDA-2020-D-2307-0019-A35"
+   ],
+   "reason": "Identical 'citations of valid algorithms may suffice instead of validation' recommendation repeated at lines 545 and 820"
+  }
+ ],
+ "span_extensions": [
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A12",
+   "span_extended": "FDA recommends assessing the performance of operational definitions in an adequately large sample of the study population as part of the proposed study, using justified sampling methods (e.g., random sampling, stratified sampling) Clarify what performance characteristics are acceptable; define adequately large;"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A21",
+   "span_extended": "This seems more like data verification and auditing, not so much 'validation' by looking at the performance properties of an operational defintion of outcome. Suggest clarifying the terms verification and validation everywhere used."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A56",
+   "span_extended": "If an operational definition from a prior study is being used, the operational definitions should be assessed in the same data source and in a similar study population Suggest changing 'same data source' to 'similar data source'."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A41",
+   "span_extended": "De-identification of patient records and ability to re-identify unique patients in original data source without losing traceability Acknowledge that this is done not by the Sponsor but by the data holder/owner/vendor"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0013-A47",
+   "span_extended": "For ex-US data sources in the 'explanation of how all of these factors might affect generalizability to the US' Please clarify that this is a qualitative explanation about how the generalizability may apply"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A27",
+   "span_extended": "General Comment: In certain cases, would citations to peer-reviewed literature be appropriate to address issues regarding “(1) the appropriateness and potential limitations of the data source for the study questions and to support key study elements”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A34",
+   "span_extended": "Line 286 “ ...address issues that cannot be fully Please provide an example for rectified by curation.” clarity"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A35",
+   "span_extended": "Data may be distributed across multiple should b e c onsidered c arefully. different EHRs and pooling of data that should be considered. across sources should also be Because there are many considered carefully with respect to different configurations of definitions of data elements and distributed health data harmonization to a common data networks, the configurations model."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A36",
+   "span_extended": "We are not clear on what the phenotype definition, composed of Agency means by a data elements and phenotype computer-processable format. algorithm, should be described in the Does this mean that the code protocol and study report and should used to compute the also be available in a phenotypes should be computer-processable format.” available?"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A39",
+   "span_extended": "As noted in our maximizes study internal general comments (section IV.D), we validity,....” respectfully request that FDA consider removing text noting that complete “Although risk-based complete verification is the most rigorous and verification of a study variable adding content on risk-based is considered the most rigorous approaches."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A52",
+   "span_extended": "Flatiron notes that it seems infeasible Flatiron recommends that FDA Validation of to validate every covariate modify this section to propose Confounders and that sponsors work to Effect Modifiers determine if there are particular covariates of interest that FDA considers more critical to validate"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A54",
+   "span_extended": "Flatiron recommends that the evaluating the validity of covariate…” Agency clarify what approaches are possible to It is not clear how to proceed if no gold validate covariate operational standard is available for validation. definitions when no suitable For example, would additional efforts reference exists."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A16",
+   "span_extended": "We note that even when limited to EHR data sources, “prescribing and use practices” is not specific 1 Huang C, Koppel R, McGreevey JD 3rd, et al. Transitions from One Electronic Health Record to Another: Challenges, Pitfalls, and Recommendations. Appl Clin Inform. 2020 Oct;11(5):742-754. enough to determine fit-for-purpose. The Agency should clarify the extent of information that is recommended."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0009-A45",
+   "span_extended": "Sections V(D)(2) and this section V(D)(3) contain repeated information. We suggest condensing this content and address our previous suggestion regarding the need to recommend comprehensive bias analyses."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A07",
+   "span_extended": "However, we agree it is important to characterize the clinical practice settings represented in the RWD and characteristics of the population seen within that practice setting. Therefore, we recommend the finalized guidance provide more specific examples of information expected"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A08",
+   "span_extended": "Therefore, we recommend the finalized guidance provide more specific examples of information expected and encourage pre-submission discussions with the Agency."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A43",
+   "span_extended": "ASCO agrees that these are important considerations but is concerned that the draft guidance includes the phrase “when applicable to the chosen data source” (line 1087). We suggest the guidance provide clarity on what elements will be required"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A41",
+   "span_extended": "Lines 976 - 979 Original text: We recommend acknowledging that it may be infeasible for 12 LINE # (or Page/ COMMENT w/RATIONALE PROPOSED CHANGE Paragraph) “These patients should be included in sponsors to link EHR data to vital searches of vital statistics systems to see statistics given data privacy issues"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A16",
+   "span_extended": "Janssen requests that FDA indicate in which guidance FDA will guidance, but it is unclear in which guidance data captured from discuss considerations for pharmacy claims data, other pharmacy claims and other administrative and billing sources will administrative and billing data, and patient-mediated health data"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A18",
+   "span_extended": "To reduce burden, we recommend that “study elements” be protocol and final study report should describe how that element presented at a higher level, addressing definitions of time periods, was ascertained from the selected RWD source, including selection of study population, and exposure ascertainment rather applicable validation studies.” than at data element level."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A19",
+   "span_extended": "Janssen also requests the following edit: “All essential elements of study design, analysis, conduct, and reporting should be predefined, and, for each study element, the protocol and final study report should describe how that element was ascertained from the selected RWD source, including applicable outcome validation studies.”"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A22",
+   "span_extended": "Janssen request that FDA add a sentence noting the generalizability recommends providing an explanation of how all of these factors of U.S. data sources to the broader US population."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A27",
+   "span_extended": "Given that much of curating and deduplicating data is done by the type of curation performed to address duplication or fragmentation data partners, Janssen requests the following edit: issues and documenting approaches taken to address issues that cannot be fully rectified by curation.” “FDA recommends working with data partners who can provide evidence of curation"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A28",
+   "span_extended": "Janssen requests that FDA recognize that not all data can fit CDMs Models (CDMs) to execute an identical query on multiple datasets. and reference the potential for data loss when converting data"
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A30",
+   "span_extended": "Janssen request that FDA provide detail regarding how FDA will which information may be absent from the data sources. The first evaluate the intent of data collection when it comes to missing case is when the information was intended to be collected (e.g., variables."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A32",
+   "span_extended": "Janssen requests that FDA include reference to the ability to use of analysis plan should be developed and based on an understanding of proxies for certain elements of missing data."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A33",
+   "span_extended": "The section on “Selection of Study Population” is incomplete and Janssen requests the following edits: Section on could benefit from harmonization with content contained other Selection of sections for Exposures, Outcomes, and Covariates."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A34",
+   "span_extended": "Janssen requests that FDA include discussion of potential study population should be validated,” however, given that limitations with validating key variables used to select the study laboratory metrics may not be collected at the same time as population, including feasibility and bias."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A35",
+   "span_extended": "Regarding exposure validation, footnote 14 states, ‘In certain cases, For clarity, Janssen suggests moving footnote 14 to the main text. the RWD source may be the only reference."
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A36",
+   "span_extended": "Janssen recommends that FDA accept a single description of the sponsors should justify the proposed validation approach, such as validation approach to be used rather than providing a description validating the outcome variable for all potential cases or non-cases, per outcome variable."
+  }
+ ]
+}
