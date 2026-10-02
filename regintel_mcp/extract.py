@@ -85,7 +85,7 @@ def _pdf(data: bytes, keep_lines: bool) -> Extraction:
                                       "italic": round(italic, 2)})
                         prev_bottom = ln["bottom"]
                 pages.append(page.extract_text() or "")
-            out.text = "\n\n".join(p.strip() for p in pages).strip()
+            out.text = re.sub(r"\(cid:\d+\)", "", "\n\n".join(p.strip() for p in pages)).strip()
             out.lines = lines
     except Exception as e:  # corrupt or encrypted PDF
         out.method, out.error = "failed", f"{type(e).__name__}: {e}"

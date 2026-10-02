@@ -29,7 +29,7 @@ cp .env.example .env    # then paste your key into .env
 **Register with Claude Code** (from the repo directory):
 
 ```bash
-claude mcp add regintel -- "$(pwd)/.venv/bin/python" -m regintel_mcp
+claude mcp add regintel-mcp -- "$(pwd)/.venv/bin/python" -m regintel_mcp
 ```
 
 When installed as a Claude plugin, `.mcp.json` starts the server from the plugin root.

@@ -1,0 +1,21 @@
+{
+  "docket_id": "FDA-2020-D-2307",
+  "decisions": [
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": "Phase 1 hard stop",
+      "decision": "exclude_from_draft_final_analysis",
+      "comment_ids": ["FDA-2020-D-2307-0068", "FDA-2020-D-2307-0069"],
+      "reason": "Posted 11 Jun 2026 against the final guidance, about two years after it was issued; cannot bear on draft-to-final changes. Near-identical text from the same individual."
+    },
+    {
+      "date": "2026-10-01",
+      "by": "JDD",
+      "checkpoint": "Phase 1 hard stop",
+      "decision": "pending_review",
+      "comment_ids": ["FDA-2020-D-2307-0003"],
+      "reason": "Body is only 'See attached file(s)'; the 3 attachments are third-party reference documents (21 CFR 10.115 good guidance practices, CDER MAPP 4100.2, AHRQ Future Research Needs Paper No. 13), not a written comment. JDD to check the docket page."
+    }
+  ]
+}
