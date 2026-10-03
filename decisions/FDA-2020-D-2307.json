@@ -78,6 +78,17 @@
       "notes": "Reviewed items 1-55 of the seeded random-order sample (n=55 of 1,211 calls, 4.5%); stopping point set by reviewer time, not by results. Agreement 50/55 = 90.9% (Wilson 95% CI 80.4-96.1%). Disagreements in both directions (2 calls judged too generous, 2 too strict, 1 adopted->not assessable). 3 corrections applied; 2 (0027-A14, 0040-A30) pending a definitional decision: the cited final text is unchanged from the draft.",
       "spot_check_agreement": 0.909,
       "n_reviewed": 55
+    },
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 4,
+      "decision": "unchanged_text_is_not_adopted",
+      "comment_ids": [
+        "FDA-2020-D-2307-0027",
+        "FDA-2020-D-2307-0040"
+      ],
+      "notes": "Asks already satisfied by text present in both draft and final stay 'not adopted' (no change occurred), flagged already_addressed_in_draft. Applied to 0027-A14 and 0040-A30. Spot-check agreement reported as recorded at review time: 50/55."
     }
   ]
 }

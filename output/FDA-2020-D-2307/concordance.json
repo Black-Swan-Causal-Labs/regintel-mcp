@@ -1849,7 +1849,7 @@
    "section_id": "VI.A",
    "call": "not adopted",
    "evidence_span": "It is important to report details of the linkage algorithm and appropriate metrics (e.g., linkage error rates, match rates, comparison of characteristics of linked and unlinked data).",
-   "rationale": "Asks what minimum linkage details sponsors provide when aggregators withhold methods; the final linkage reporting text is unchanged and does not address aggregators.",
+   "rationale": "Asks what minimum linkage details sponsors provide when aggregators withhold methods; the final linkage reporting text is unchanged and does not address aggregators. [Checkpoint 4: JDD judged the ask already satisfied by text present in both draft and final; kept as not adopted because nothing changed (JDD decision 2026-10-03).]",
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 1,
@@ -1860,7 +1860,8 @@
     "corrected_call": "adopted",
     "note": null,
     "date": "2026-10-03"
-   }
+   },
+   "already_addressed_in_draft": true
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A31",
@@ -9496,7 +9497,7 @@
    "section_id": "V.C.1",
    "call": "not adopted",
    "evidence_span": "It may also be necessary to describe the specific manufacturer of a product (e.g., when a proper name for a vaccine is used by different manufacturers).",
-   "rationale": "Asks that exposure definitions include brand name; the final retains only the existing manufacturer sentence and adds no brand-name requirement.",
+   "rationale": "Asks that exposure definitions include brand name; the final retains only the existing manufacturer sentence and adds no brand-name requirement. [Checkpoint 4: JDD judged the ask already satisfied by text present in both draft and final; kept as not adopted because nothing changed (JDD decision 2026-10-03).]",
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 5,
@@ -9507,7 +9508,8 @@
     "corrected_call": "adopted",
     "note": null,
     "date": "2026-10-03"
-   }
+   },
+   "already_addressed_in_draft": true
   },
   {
    "ask_id": "FDA-2020-D-2307-0027-A15",
