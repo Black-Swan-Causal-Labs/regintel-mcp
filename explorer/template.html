@@ -545,9 +545,9 @@ function openMethod() {
     ["export_corpus", "Write the whole corpus to one file for the analysis steps"],
   ];
   openDrawer({ kicker: "Method", title: "How this was made", html: `
-    <p class="note" style="margin:0"><b>Concordance, not impact.</b> ${esc(D.caveat.replace(/^Concordance, not impact\.\s*/, ""))}</p>
+    <h4 style="margin-top:0">A Claude plugin</h4>
+    <p>This explorer was produced by <b>regintel</b>, a Claude plugin built by Black Swan Causal Labs. The plugin bundles an MCP server that retrieves and compares documents, three skills that hold the analysis rules, and one command that runs the whole pipeline. Retrieval is done by deterministic code, judgment by Claude following the skills' written rules, and a person approves each stage before the next one runs.</p>
     <h4>The approach</h4>
-    <p>Retrieval is done by deterministic code, judgment by Claude following written rules, and a person approves each stage before the next one runs.</p>
     <ol class="steps">
       <li><b>Retrieve.</b> An MCP server, <b>regintel-mcp</b>, pulls the docket from the regulations.gov API, extracts the text of every comment and attachment, and compares the draft with the final guidance. It contains no AI.</li>
       <li><b>Classify submitters.</b> Claude assigns each commenter to one of seven types from the letterhead and signature. <i>Checkpoint: a person reviews the table.</i></li>
@@ -563,6 +563,8 @@ function openMethod() {
       <tr><td>draft-final-concordance</td><td>Rules for judging adopted, partially adopted, not adopted or not assessable, with the final text as evidence</td></tr>
       <tr><td>/docket-analysis</td><td>One command that runs the whole pipeline on any docket and pauses at the four checkpoints</td></tr>
     </tbody></table>
+    <h4>Reusable on any docket</h4>
+    <p>Nothing in the plugin is specific to this guidance. Pointed at another regulations.gov docket, it retrieves the comments and both guidance versions, compares them, and walks the same four checkpoints. What changes from docket to docket is the human input: the theme codebook and the decisions taken at each checkpoint.</p>
     <h4>Checks</h4>
     <p>Every request and every evidence passage is quoted word for word, and a script verifies each quote against the source text. A person re-checked ${D.run.spot_check_n} calls from a seeded random sample and agreed with ${pct(D.run.spot_check_agreement)}. Every decision taken at a checkpoint is logged with its date.</p>
     <h4>Source</h4>
