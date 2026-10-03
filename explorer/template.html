@@ -66,16 +66,16 @@ h1.state { font: 600 clamp(1.8rem, 3.6vw, 2.6rem)/1.15 var(--f-display); color: 
 .seg button[aria-pressed="true"] { background: var(--bg); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.1) }
 
 /* who: unit chart */
-.urow { display: grid; grid-template-columns: 200px minmax(0, 1fr) 64px; gap: 16px; align-items: center; padding-block: 16px; border-top: 1px solid var(--line) }
+.urow { display: grid; grid-template-columns: 210px 52px minmax(0, 1fr); gap: 16px; align-items: center; padding-block: 16px; border-top: 1px solid var(--line) }
 .urow:last-child { border-bottom: 1px solid var(--line) }
 .urow .name { font-weight: 500; color: var(--ink); font-size: .92rem }
 .urow .name small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem }
-.urow .n { text-align: right; font: 600 1.3rem var(--f-display); color: var(--ink) }
+.urow .n { text-align: right; font: 600 1.3rem var(--f-display); color: var(--ink); padding-right: 12px; border-right: 1px solid var(--line) }
 .dots { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0 }
 .dot { all: unset; cursor: pointer; display: block; flex: none; border-radius: 50%; background: var(--accent); opacity: .9; transition: transform .2s var(--ease), opacity .2s }
 .dot:hover, .dot:focus-visible { transform: scale(1.25); opacity: 1 }
 .dot.anon { background: transparent; box-shadow: inset 0 0 0 1.5px var(--muted) }
-@media (max-width: 720px) { .urow { grid-template-columns: minmax(0, 1fr) 48px } .urow .dots { grid-column: 1 / -1; order: 3 } }
+@media (max-width: 720px) { .urow { grid-template-columns: minmax(0, 1fr) 48px } .urow .n { border-right: 0; padding-right: 0 } .urow .dots { grid-column: 1 / -1 } }
 .legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-top: 14px; font-size: .8rem; color: var(--muted) }
 .legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 6px }
 .legend .d { display: inline-block; border-radius: 50%; background: var(--accent); vertical-align: middle; margin-right: 6px }
@@ -370,8 +370,8 @@ function drawWho(v) {
       <div class="block-head"><div><div class="label">Every commenter, by type</div><h2>Each dot is one submitter</h2><p>Larger dots made more distinct requests. Hover for a name; click to read what they asked.</p></div></div>
       <div class="units">${rows.map(({ b, list }) => `
         <div class="urow"><div class="name">${esc(b)}<small>${fmt(list.reduce((t, s) => t + nReq(s), 0))} requests</small></div>
-          <div class="dots">${list.map((s) => { const n = nReq(s), d = size(n); return `<button class="dot ${isAnon(s) ? "anon" : ""}" data-sub="${s.submitter_id}" style="width:${d}px;height:${d}px" aria-label="${esc(s.name)}, ${n} requests"></button>`; }).join("")}</div>
-          <div class="n num">${list.length}</div></div>`).join("")}</div>
+          <div class="n num" title="submitters">${list.length}</div>
+          <div class="dots">${list.map((s) => { const n = nReq(s), d = size(n); return `<button class="dot ${isAnon(s) ? "anon" : ""}" data-sub="${s.submitter_id}" style="width:${d}px;height:${d}px" aria-label="${esc(s.name)}, ${n} requests"></button>`; }).join("")}</div></div>`).join("")}</div>
       <div class="legend"><span><i class="d" style="width:10px;height:10px"></i>few requests</span><span><i class="d" style="width:36px;height:36px"></i>many requests</span><span><i class="d" style="width:12px;height:12px;background:transparent;box-shadow:inset 0 0 0 1.5px var(--muted)"></i>anonymous</span></div>
     </section>`;
   countUp(v); reveal(v); settle();
