@@ -50,7 +50,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A91",
@@ -138,7 +145,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A100",
@@ -424,7 +438,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A127",
@@ -952,7 +973,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0028-A04",
@@ -1463,13 +1491,21 @@
   {
    "ask_id": "FDA-2020-D-2307-0050-A16",
    "section_id": "IV.B.5",
-   "call": "adopted",
+   "call": "not assessable",
    "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
-   "rationale": "Supports the flexible approach to AI/ML for unstructured data; the endorsed text survives.",
+   "rationale": "Supports the flexible approach to AI/ML for unstructured data; the endorsed text survives. [Corrected at checkpoint 4 by JDD: adopted -> not assessable.]",
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "disagree",
+    "corrected_call": "not assessable",
+    "note": "ASCO was just providing a general comment... not assessable I think.",
+    "date": "2026-10-03"
+   },
+   "call_original": "adopted"
   },
   {
    "ask_id": "FDA-2020-D-2307-0050-A17",
@@ -1766,7 +1802,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A27",
@@ -1810,7 +1853,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "disagree",
+    "corrected_call": "adopted",
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A31",
@@ -2008,7 +2058,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0061-A21",
@@ -2206,7 +2263,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0044-A06",
@@ -2261,7 +2325,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 1,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0045-A09",
@@ -2778,7 +2849,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0039-A01",
@@ -3009,7 +3087,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0009-A04",
@@ -3251,7 +3336,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0054-A05",
@@ -3515,7 +3607,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0024-A05",
@@ -3845,7 +3944,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A01",
@@ -3900,7 +4006,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A12",
@@ -4153,7 +4266,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0026-A02",
@@ -4241,7 +4361,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0033-A12",
@@ -4263,7 +4390,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 2,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0044-A03",
@@ -4450,7 +4584,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A44",
@@ -4483,7 +4624,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0040-A48",
@@ -4604,7 +4752,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0050-A30",
@@ -4659,7 +4814,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A193",
@@ -4714,7 +4876,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0036-A02",
@@ -4928,13 +5097,21 @@
   {
    "ask_id": "FDA-2020-D-2307-0009-A44",
    "section_id": "V.D.2",
-   "call": "partially adopted",
+   "call": "not adopted",
    "evidence_span": "the study is designed to estimate a risk ratio, selecting an operational definition with high specificity may be more important than high sensitivity, because imperfect sensitivity (some false negatives) may not bias the risk ratio, provided the outcome misclassification is non-differential and specificity is very high (almost no false positives), regardless of outcome prevalence.",
-   "rationale": "Asks that the discussion address the effect measure (relative vs absolute); the final adds a risk-ratio-specific example but nothing on absolute measures.",
+   "rationale": "Asks that the discussion address the effect measure (relative vs absolute); the final adds a risk-ratio-specific example but nothing on absolute measures. [Corrected at checkpoint 4 by JDD: partially adopted -> not adopted.]",
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "disagree",
+    "corrected_call": "not adopted",
+    "note": null,
+    "date": "2026-10-03"
+   },
+   "call_original": "partially adopted"
   },
   {
    "ask_id": "FDA-2020-D-2307-0050-A37",
@@ -4989,7 +5166,14 @@
    "fr_listed_change": true,
    "confidence": "medium",
    "batch": 3,
-   "fr_listed_change_raw": true
+   "fr_listed_change_raw": true,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A198",
@@ -6177,7 +6361,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0016-A26",
@@ -6210,7 +6401,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 3,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0033-A38",
@@ -6452,7 +6650,14 @@
    "fr_listed_change": true,
    "confidence": "low",
    "batch": 3,
-   "fr_listed_change_raw": true
+   "fr_listed_change_raw": true,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0035-A53",
@@ -6518,7 +6723,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 4,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A42",
@@ -6793,7 +7005,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 4,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A247",
@@ -7783,7 +8002,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 4,
-   "fr_listed_change_raw": true
+   "fr_listed_change_raw": true,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0063-A82",
@@ -8146,7 +8372,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 4,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0059-A13",
@@ -8289,7 +8522,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 4,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0019-A09",
@@ -8454,7 +8694,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 4,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0033-A17",
@@ -8707,7 +8954,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A144",
@@ -8740,7 +8994,14 @@
    "fr_listed_change": true,
    "confidence": "medium",
    "batch": 5,
-   "fr_listed_change_raw": true
+   "fr_listed_change_raw": true,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A147",
@@ -8877,13 +9138,21 @@
   {
    "ask_id": "FDA-2020-D-2307-0055-A164",
    "section_id": "V.B",
-   "call": "partially adopted",
+   "call": "not adopted",
    "evidence_span": "The identification of the study population may rely on information recorded in multiple data fields such as diagnosis and procedure codes (e.g., International Classification of Diseases (ICD)-9-CM, ICD-10), laboratory tests (e.g., Logical Observation Identifier Names and Codes (LOINC)) and values, or unstructured data (e.g., physician\u2019s encounter notes, radiology and pathology reports).",
-   "rationale": "Asks FDA to accept terminologies outside its Data Standards Catalog (e.g., ICD-10, RxNorm); the final V.B cites ICD-10 and LOINC as examples of data fields but does not address acceptance relative to the catalog.",
+   "rationale": "Asks FDA to accept terminologies outside its Data Standards Catalog (e.g., ICD-10, RxNorm); the final V.B cites ICD-10 and LOINC as examples of data fields but does not address acceptance relative to the catalog. [Corrected at checkpoint 4 by JDD: partially adopted -> not adopted.]",
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "disagree",
+    "corrected_call": "not adopted",
+    "note": null,
+    "date": "2026-10-03"
+   },
+   "call_original": "partially adopted"
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A165",
@@ -9026,7 +9295,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0055-A178",
@@ -9224,7 +9500,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "disagree",
+    "corrected_call": "adopted",
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0027-A15",
@@ -9323,7 +9606,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0035-A44",
@@ -9356,7 +9646,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0043-A25",
@@ -9642,7 +9939,14 @@
    "fr_listed_change": true,
    "confidence": "medium",
    "batch": 5,
-   "fr_listed_change_raw": true
+   "fr_listed_change_raw": true,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0025-A10",
@@ -9741,7 +10045,14 @@
    "fr_listed_change": true,
    "confidence": "high",
    "batch": 5,
-   "fr_listed_change_raw": true
+   "fr_listed_change_raw": true,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0054-A39",
@@ -10742,7 +11053,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 5,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0062-A22",
@@ -11402,7 +11720,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0039-A11",
@@ -11490,7 +11815,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0043-A08",
@@ -11501,7 +11833,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0043-A09",
@@ -11512,7 +11851,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0043-A10",
@@ -12502,7 +12848,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0063-A33",
@@ -12810,7 +13163,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0061-A02",
@@ -12887,7 +13247,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0061-A27",
@@ -12964,7 +13331,14 @@
    "fr_listed_change": false,
    "confidence": "medium",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0019-A15",
@@ -13052,7 +13426,14 @@
    "fr_listed_change": false,
    "confidence": "high",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0026-A11",
@@ -13173,7 +13554,14 @@
    "fr_listed_change": false,
    "confidence": "low",
    "batch": 6,
-   "fr_listed_change_raw": false
+   "fr_listed_change_raw": false,
+   "human_review": {
+    "by": "JDD",
+    "verdict": "agree",
+    "corrected_call": null,
+    "note": null,
+    "date": "2026-10-03"
+   }
   },
   {
    "ask_id": "FDA-2020-D-2307-0033-A32",
