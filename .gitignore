@@ -22,3 +22,6 @@ uv.lock
 
 # Regenerable corpus export (full comment text)
 output/*/corpus.jsonl
+
+# Local tool config
+.claude/

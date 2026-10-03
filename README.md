@@ -9,9 +9,9 @@ Black Swan Causal Labs · [blackswancausallabs.com](https://blackswancausallabs.
 | Layer | Component | Status |
 |---|---|---|
 | Data | `regintel-mcp` server (this repo, MIT) | **Phase 1 built.** Fetch, cache, extract, diff. No interpretation. |
-| Method | skills: `submitter-taxonomy`, `comment-theming`, `draft-final-concordance` | Phase 2 |
-| Orchestration | `/docket-analysis <docketId>` with 4 human checkpoints | Phase 3 |
-| Output | Explorer (reads one `analysis.json`; PolyForm Noncommercial) | Phase 4 |
+| Method | skills: `submitter-taxonomy`, `comment-theming`, `draft-final-concordance` | Built |
+| Orchestration | `/docket-analysis <docketId>` with 4 human checkpoints | Built; first run on FDA-2020-D-2307 |
+| Output | Explorer (reads one `analysis.json`; PolyForm Noncommercial) | **Built** for FDA-2020-D-2307 |
 
 ## Install
 
@@ -55,6 +55,17 @@ For long pulls outside a chat: `.venv/bin/python -m regintel_mcp build-corpus FD
 **How the diff works:** the text layer is extracted with pdfplumber. Running headers, draft line numbers, footnotes and the table of contents are removed. Sections are split on the guidance's own Roman, letter and number headings, then matched draft→final by heading (parent-qualified first) and then by heading plus text similarity. Paragraphs are diffed within each matched section, and paragraphs that moved to a different section are labelled. Everything is deterministic: there are no model calls in the server.
 
 API behaviour verified against the live service is recorded in [`docs/api-notes.md`](docs/api-notes.md).
+
+## Explorer
+
+`explorer/template.html` is a single page that reads one `analysis.json` and shows three linked views: who spoke, what they asked for (a themes × submitter-type heatmap that opens the verbatim requests), and what changed (draft vs final by section, with each request's call). Build a docket's copy with:
+
+```bash
+.venv/bin/python scripts/build_analysis.py FDA-2020-D-2307
+.venv/bin/python scripts/build_explorer.py FDA-2020-D-2307
+```
+
+Then open `explorer/FDA-2020-D-2307/index.html` through any static server, e.g. `python3 -m http.server --directory explorer/FDA-2020-D-2307`. The explorer is licensed separately under PolyForm Noncommercial 1.0.0 (`explorer/LICENSE`, `explorer/NOTICE`).
 
 ## The concordance caveat
 

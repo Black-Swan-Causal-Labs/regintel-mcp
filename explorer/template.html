@@ -1,0 +1,452 @@
+<title>Regulatory Intelligence Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;500&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: docket dossier. Dark masthead, then three linked chapters (Who spoke · What they said · What changed) sharing one filter bar; persistent caveat bar. */
+:root {
+  --bg: #ffffff; --bg-alt: #f0f1f4; --panel: #ffffff; --panel-alt: #f7f8fa;
+  --ink: #1a1d24; --body: #3a3f4a; --muted: #6b7180; --line: #dfe2e8; --grid: #eceef2;
+  --brand: #2a6363; --brand-ink: #ffffff; --brand-soft: #e6f0f0;
+  --mast: #090c10; --mast-ink: #eef0f3; --mast-muted: #c8cdd4; --mast-accent: #8bbfbf;
+  --c-adopted: #007a70; --c-partial: #2fb3a1; --c-not: #d9662b; --c-na: #8c93ad;
+  --heat-0: #f2f7f7; --heat-1: #cfe4e2; --heat-2: #9ccbc6; --heat-3: #5fa9a3; --heat-4: #2a7f79; --heat-5: #11524f;
+  --heat-on: #ffffff; --mark: #fff1c9; --del: #fbe3dc; --ins: #dff1ee;
+  --f-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --f-caps: "Cinzel", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0d1117; --bg-alt: #111620; --panel: #111620; --panel-alt: #151b26;
+  --ink: #eef0f3; --body: #c8cdd4; --muted: #8a93a0; --line: #263040; --grid: #1a2029;
+  --brand: #5aadad; --brand-ink: #050608; --brand-soft: #16282b;
+  --mast: #050608; --mast-ink: #eef0f3; --mast-muted: #c8cdd4; --mast-accent: #8bbfbf;
+  --c-adopted: #0c8a7d; --c-partial: #52c3b0; --c-not: #d96a30; --c-na: #7f89a8;
+  --heat-0: #131b22; --heat-1: #173236; --heat-2: #1d4b4c; --heat-3: #276966; --heat-4: #3a8f88; --heat-5: #69c2b7;
+  --heat-on: #050608; --mark: #3d3418; --del: #3a221c; --ins: #15322e; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0d1117; --bg-alt: #111620; --panel: #111620; --panel-alt: #151b26;
+  --ink: #eef0f3; --body: #c8cdd4; --muted: #8a93a0; --line: #263040; --grid: #1a2029;
+  --brand: #5aadad; --brand-ink: #050608; --brand-soft: #16282b;
+  --mast: #050608; --mast-ink: #eef0f3; --mast-muted: #c8cdd4; --mast-accent: #8bbfbf;
+  --c-adopted: #0c8a7d; --c-partial: #52c3b0; --c-not: #d96a30; --c-na: #7f89a8;
+  --heat-0: #131b22; --heat-1: #173236; --heat-2: #1d4b4c; --heat-3: #276966; --heat-4: #3a8f88; --heat-5: #69c2b7;
+  --heat-on: #050608; --mark: #3d3418; --del: #3a221c; --ins: #15322e; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--body); font: 15px/1.55 var(--f-sans); padding-bottom: 46px }
+a { color: var(--brand) }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px }
+h1, h2, h3 { color: var(--ink); text-wrap: balance; margin: 0 }
+.eyebrow { font: 500 .74rem var(--f-caps); letter-spacing: .14em; text-transform: uppercase; color: var(--muted) }
+.num { font-variant-numeric: tabular-nums }
+
+/* masthead */
+.mast { background: var(--mast); color: var(--mast-ink); padding-block: 26px 30px }
+.mast .brandrow { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; flex-wrap: wrap }
+.mast .brandrow img { width: 46px; height: auto; background: #eef0f3; border-radius: 5px; padding: 3px 4px }
+.mast .brandrow a { color: var(--mast-ink); text-decoration: none; font-weight: 600; letter-spacing: .01em }
+.mast .eyebrow { color: var(--mast-accent) }
+.mast h1 { color: var(--mast-ink); font: 600 clamp(1.7rem, 3.4vw, 2.6rem)/1.1 var(--f-serif); margin: 6px 0 8px; max-width: 30ch }
+.mast .lede { color: var(--mast-muted); max-width: 72ch; font-size: .98rem }
+.mast .lede b { color: var(--mast-ink); font-weight: 600 }
+.kpis { display: flex; flex-wrap: wrap; gap: 14px 34px; margin-top: 22px }
+.kpi b { display: block; font: 600 1.9rem/1 var(--f-serif); color: var(--mast-ink) }
+.kpi span { font-size: .76rem; color: var(--mast-muted); letter-spacing: .02em }
+
+/* nav + filter bar */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line) }
+.bar .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; padding-block: 10px }
+.bar nav { display: flex; gap: 4px; flex-wrap: wrap }
+.bar nav a { font: 600 .82rem var(--f-sans); color: var(--muted); text-decoration: none; padding: 5px 10px; border-radius: 4px }
+.bar nav a:hover { color: var(--ink); background: var(--bg-alt) }
+.filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-left: auto; font-size: .82rem }
+select { font: 500 .82rem var(--f-sans); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px; max-width: 100% }
+.filters select { flex: 1 1 150px; min-width: 0; max-width: 260px }
+@media (max-width: 640px) { .filters { margin-left: 0; width: 100% } .filters select { max-width: none; width: 100% } .filters label { flex: 0 0 100% } }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--brand-soft); color: var(--ink); border-radius: 999px; padding: 3px 4px 3px 10px; font-size: .78rem; font-weight: 600 }
+.chip button { all: unset; cursor: pointer; width: 18px; height: 18px; display: grid; place-items: center; border-radius: 50%; color: var(--muted) }
+.chip button:hover { background: var(--line); color: var(--ink) }
+
+/* chapters */
+section.ch { padding-block: 40px 12px }
+section.ch + section.ch { border-top: 1px solid var(--line) }
+.ch-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 10px 24px; margin-bottom: 18px }
+.ch-head h2 { font: 600 1.85rem/1.15 var(--f-serif) }
+.ch-head p { margin: 4px 0 0; max-width: 68ch }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden }
+.seg button { all: unset; cursor: pointer; font: 600 .78rem var(--f-sans); padding: 6px 11px; color: var(--muted) }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"] { background: var(--brand); color: var(--brand-ink) }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; min-width: 0 }
+.two { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 20px; align-items: start }
+@media (max-width: 900px) { .two { grid-template-columns: minmax(0, 1fr) } }
+.small { font-size: .82rem; color: var(--muted) }
+
+/* bars (who spoke) */
+.hbar { display: grid; grid-template-columns: minmax(110px, 38%) minmax(0, 1fr) 3.2em; gap: 6px 10px; align-items: center }
+.hbar button.lab { all: unset; cursor: pointer; font-size: .86rem; color: var(--ink); padding: 3px 0; border-radius: 3px }
+.hbar button.lab:hover { text-decoration: underline }
+.hbar button.lab[aria-pressed="true"] { font-weight: 700; color: var(--brand) }
+.track { height: 18px; position: relative; border-left: 1px solid var(--line) }
+.fill { position: absolute; left: 0; top: 2px; bottom: 2px; background: var(--brand); border-radius: 0 4px 4px 0; min-width: 2px }
+.fill.dim { opacity: .3 }
+.hbar .v { font-size: .84rem; text-align: right; color: var(--ink) }
+
+/* tables */
+.tablewrap { overflow-x: auto; max-height: 460px; overflow-y: auto; border: 1px solid var(--line); border-radius: 6px }
+table { border-collapse: collapse; width: 100%; font-size: .84rem }
+th, td { padding: 7px 10px; text-align: left; border-bottom: 1px solid var(--grid); vertical-align: top }
+thead th { position: sticky; top: 0; background: var(--panel-alt); color: var(--muted); font-weight: 600; font-size: .74rem; letter-spacing: .03em; text-transform: uppercase; z-index: 1 }
+td.r, th.r { text-align: right }
+tbody tr:hover { background: var(--panel-alt) }
+input[type="search"] { font: .84rem var(--f-sans); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 6px 9px; width: 100%; margin-bottom: 10px }
+
+/* heatmap */
+.heatwrap { overflow-x: auto }
+table.heat { border-collapse: separate; border-spacing: 2px; min-width: 640px }
+table.heat th { position: static; background: none; text-transform: none; letter-spacing: 0; font-size: .74rem; color: var(--muted); font-weight: 600; border: 0; padding: 4px; vertical-align: bottom }
+table.heat th.row { text-align: left; color: var(--ink); font-size: .82rem; font-weight: 500; white-space: nowrap; max-width: 280px; overflow: hidden; text-overflow: ellipsis; vertical-align: middle }
+table.heat td { padding: 0; border: 0 }
+table.heat td button { all: unset; box-sizing: border-box; cursor: pointer; display: block; width: 100%; min-width: 58px; height: 36px; text-align: center; font: 600 .8rem/36px var(--f-sans); font-variant-numeric: tabular-nums; border-radius: 3px }
+table.heat td button:hover, table.heat td button[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--ink) }
+table.heat td.tot { font-size: .8rem; color: var(--muted); text-align: right; padding: 0 6px; font-variant-numeric: tabular-nums; vertical-align: middle }
+.legend { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: .76rem; color: var(--muted); margin-top: 10px }
+.ramp { display: inline-flex } .ramp i { width: 22px; height: 10px }
+.sw { display: inline-block; width: 11px; height: 11px; border-radius: 2px; vertical-align: -1px; margin-right: 4px }
+
+/* ask cards */
+.asks { display: grid; gap: 10px; margin-top: 4px }
+.ask { border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; background: var(--panel); min-width: 0 }
+.ask .who { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .78rem; color: var(--muted); margin-bottom: 6px }
+.ask .who b { color: var(--ink); font-weight: 600 }
+.ask q { display: block; font: 1.04rem/1.5 var(--f-serif); color: var(--ink); quotes: none; overflow-wrap: anywhere }
+.ask .ev { margin-top: 8px; font-size: .82rem; color: var(--body) }
+.ask .ev em { font: italic 1rem/1.45 var(--f-serif); color: var(--ink) }
+.pill { display: inline-block; font: 600 .72rem var(--f-sans); padding: 2px 8px; border-radius: 999px; color: #fff; white-space: nowrap }
+.p-adopted { background: var(--c-adopted) } .p-partially-adopted { background: var(--c-partial); color: #06231f }
+.p-not-adopted { background: var(--c-not) } .p-not-assessable { background: var(--c-na) }
+.more { all: unset; cursor: pointer; font: 600 .82rem var(--f-sans); color: var(--brand); padding: 8px 0 }
+
+/* what changed */
+.sec { border: 1px solid var(--line); border-radius: 6px; background: var(--panel); margin-bottom: 8px }
+.sec > button { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 4.6em minmax(0, 1fr) minmax(120px, 34%) 1.2em; gap: 10px; align-items: center; padding: 10px 12px }
+.sec > button:hover { background: var(--panel-alt) }
+.sec .sid { font: 600 .8rem var(--f-sans); color: var(--muted) }
+.sec .sh { color: var(--ink); font-weight: 500; font-size: .9rem; min-width: 0 }
+.sec .sh small { display: block; color: var(--muted); font-weight: 400; font-size: .75rem }
+.stack { display: flex; height: 14px; gap: 2px; align-items: stretch }
+.stack i { display: block; min-width: 3px; border-radius: 2px }
+.stack.empty { border: 1px dashed var(--line); border-radius: 2px }
+.st { display: inline-block; font: 600 .66rem var(--f-sans); text-transform: uppercase; letter-spacing: .05em; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--line); color: var(--muted); margin-right: 6px }
+.st.added { border-color: var(--c-adopted); color: var(--c-adopted) } .st.removed { border-color: var(--c-not); color: var(--c-not) }
+.caret { color: var(--muted); transition: transform .15s } .sec[open] .caret { transform: rotate(90deg) }
+.secbody { border-top: 1px solid var(--line); padding: 14px; display: grid; gap: 14px }
+.sbs { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px }
+@media (max-width: 760px) { .sbs { grid-template-columns: minmax(0, 1fr) } .sec > button { grid-template-columns: 3.6em minmax(0, 1fr) 1.2em } .sec > button .stack { grid-column: 2 / 3 } }
+.doc { font: 1rem/1.55 var(--f-serif); color: var(--ink); max-height: 420px; overflow: auto; padding: 10px 12px; border: 1px solid var(--grid); border-radius: 4px; background: var(--panel-alt); overflow-wrap: anywhere }
+.doc p { margin: 0 0 .7em }
+.doc .del { background: var(--del); text-decoration: line-through; text-decoration-color: var(--c-not) }
+.doc .ins { background: var(--ins) }
+.doc mark { background: var(--mark); color: inherit; box-shadow: 0 0 0 1px var(--c-adopted) }
+.keyrow { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .76rem; color: var(--muted) }
+
+/* footer + caveat bar */
+footer { margin-top: 36px; background: var(--mast); color: var(--mast-muted); padding-block: 28px 34px; font-size: .86rem }
+footer h3 { color: var(--mast-ink); font: 600 1.15rem var(--f-serif); margin-bottom: 6px }
+footer a { color: var(--mast-accent) }
+footer .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px }
+footer p { margin: 0 0 8px }
+.caveat { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--mast); color: var(--mast-ink); font-size: .8rem; padding: 8px 16px calc(8px + env(safe-area-inset-bottom, 0px)); text-align: center; border-top: 1px solid #1f2631 }
+.caveat b { color: var(--mast-accent) }
+.caveat a { color: var(--mast-ink) }
+.loading { padding: 40px 0; color: var(--muted) }
+@media (prefers-reduced-motion: reduce) { .caret { transition: none } }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brandrow"><img alt="" src="__FEATHER__"><a href="https://blackswancausallabs.com" target="_blank" rel="noopener">Black Swan Causal Labs</a></div>
+    <div class="eyebrow">Open Regulatory Intelligence · FDA docket <span id="dk">FDA-2020-D-2307</span></div>
+    <h1 id="title">Who commented, what they asked for, and what changed</h1>
+    <p class="lede" id="lede">Public comments on FDA's draft guidance <b>Real-World Data: Assessing Electronic Health Records and Medical Claims Data to Support Regulatory Decision-Making</b> (Sep 2021), compared with the final guidance (Jul 2024).</p>
+    <div class="kpis num" id="kpis"></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <nav aria-label="Chapters"><a href="#who">1 · Who spoke</a><a href="#what">2 · What they said</a><a href="#changed">3 · What changed</a></nav>
+    <div class="filters" id="filters">
+      <label for="fBucket" class="small">Submitter type</label>
+      <select id="fBucket"><option value="">All</option></select>
+      <label for="fTheme" class="small">Theme</label>
+      <select id="fTheme"><option value="">All</option></select>
+      <span id="chips"></span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap" id="main">
+  <p class="loading">Loading the analysis…</p>
+</main>
+
+<footer>
+  <div class="wrap cols">
+    <div>
+      <h3>Concordance, not impact</h3>
+      <p id="caveatText">These calls record whether the final guidance text moved in the direction a commenter asked for. Changes between draft and final also reflect FDA's internal review, ICH M14, other guidances and evolving science. A matching change does not show that a comment caused it.</p>
+    </div>
+    <div>
+      <h3>Method</h3>
+      <p id="method">Comments, attachments and both guidance versions were retrieved from regulations.gov by the open-source regintel-mcp server and compared section by section with deterministic code. Claude then classified submitters, split comments into discrete requests and judged each draft-to-final call, following written rules and four human checkpoints. Every request and every evidence passage is quoted verbatim and checked by script.</p>
+      <p id="spot"></p>
+    </div>
+    <div>
+      <h3>Black Swan Causal Labs</h3>
+      <p>© 2026 Black Swan Causal Labs · <a href="https://blackswancausallabs.com" target="_blank" rel="noopener">blackswancausallabs.com</a></p>
+      <p>Explorer licensed under PolyForm Noncommercial 1.0.0. Data: public comments on regulations.gov.</p>
+    </div>
+  </div>
+</footer>
+<div class="caveat" role="note"><b>Concordance, not impact.</b> A change that matches a request does not show the request caused it. <a href="#caveatText">More</a></div>
+
+<script>
+const CALLS = ["adopted", "partially adopted", "not adopted", "not assessable"];
+const CALL_VAR = { "adopted": "--c-adopted", "partially adopted": "--c-partial", "not adopted": "--c-not", "not assessable": "--c-na" };
+const BUCKETS = ["Pharma / biotech", "Trade association", "CRO / data & tech vendor", "Academic / independent", "Professional society", "Patient advocacy", "Other / anonymous"];
+const SHORT = { "Pharma / biotech": "Pharma", "Trade association": "Trade assn", "CRO / data & tech vendor": "Data & tech", "Academic / independent": "Academic", "Professional society": "Prof. society", "Patient advocacy": "Patient", "Other / anonymous": "Other" };
+const $ = (s, r = document) => r.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = (n) => n.toLocaleString("en-US");
+const pct = (x) => Math.round(100 * x) + "%";
+const pillCls = (c) => "pill p-" + c.replace(/ /g, "-");
+
+const S = { bucket: "", theme: "", cell: null, whoMetric: "submitters", heatMetric: "asks", openSec: new Set(), shown: 30 };
+let D, idx;
+
+function build(A) {
+  const sub = Object.fromEntries(A.submitters.map((s) => [s.submitter_id, s]));
+  const com = Object.fromEntries(A.comments.map((c) => [c.comment_id, c]));
+  const theme = Object.fromEntries(A.themes.map((t) => [t.theme_id, t]));
+  const call = Object.fromEntries(A.concordance.map((c) => [c.ask_id, c]));
+  const asks = A.asks.map((a) => {
+    const s = sub[com[a.comment_id].submitter_id];
+    return { ...a, sub: s, bucket: s.bucket, c: call[a.ask_id], text: a.display_span || a.source_span };
+  });
+  return { sub, com, theme, call, asks };
+}
+
+function filtered() {
+  return idx.asks.filter((a) => (!S.bucket || a.bucket === S.bucket) && (!S.theme || a.theme_id === S.theme));
+}
+function rate(list) {
+  const n = list.filter((a) => a.c.call !== "not assessable");
+  const y = n.filter((a) => a.c.call === "adopted" || a.c.call === "partially adopted").length;
+  return { y, n: n.length, r: n.length ? y / n.length : null };
+}
+
+function kpis() {
+  const r = rate(idx.asks);
+  const subs = D.submitters.length;
+  $("#kpis").innerHTML = [
+    [fmt(D.docket.n_comments), `comments (${fmt(D.docket.n_submissions_represented)} submissions)`],
+    [fmt(subs), "submitters"],
+    [fmt(D.asks.length), "discrete requests, quoted verbatim"],
+    [pct(r.r), "of checkable requests adopted or partly adopted"],
+    [pct(D.run.spot_check_agreement), `human agreement on ${D.run.spot_check_n} spot-checked calls`],
+  ].map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join("");
+}
+
+function chips() {
+  const c = [];
+  if (S.bucket) c.push(`<span class="chip">${esc(S.bucket)}<button aria-label="Clear submitter type" data-clear="bucket">×</button></span>`);
+  if (S.theme) c.push(`<span class="chip">${esc(idx.theme[S.theme].label)}<button aria-label="Clear theme" data-clear="theme">×</button></span>`);
+  $("#chips").innerHTML = c.join(" ");
+  $("#fBucket").value = S.bucket; $("#fTheme").value = S.theme;
+}
+
+function setFilter(k, v) { S[k] = S[k] === v ? "" : v; S.cell = null; S.shown = 30; renderAll(); }
+
+/* ---------- 1. Who spoke ---------- */
+function renderWho() {
+  const list = idx.asks.filter((a) => !S.theme || a.theme_id === S.theme);
+  const val = (b) => S.whoMetric === "submitters" ? D.submitters.filter((s) => s.bucket === b).length : list.filter((a) => a.bucket === b).length;
+  const rows = BUCKETS.map((b) => ({ b, v: val(b) })).sort((x, y) => y.v - x.v);
+  const max = Math.max(1, ...rows.map((r) => r.v));
+  const bars = rows.map(({ b, v }) => `
+    <button class="lab" data-bucket="${esc(b)}" aria-pressed="${S.bucket === b}">${esc(b)}</button>
+    <div class="track" title="${esc(b)}: ${v}"><div class="fill ${S.bucket && S.bucket !== b ? "dim" : ""}" style="width:${(100 * v) / max}%"></div></div>
+    <div class="v num">${fmt(v)}</div>`).join("");
+
+  const subRows = D.submitters.filter((s) => !S.bucket || s.bucket === S.bucket).map((s) => {
+    const a = list.filter((x) => x.sub.submitter_id === s.submitter_id); const r = rate(a);
+    const cs = s.comment_ids.map((id) => `<a href="https://www.regulations.gov/comment/${id}" target="_blank" rel="noopener">${id.slice(-4)}</a>`).join(" ");
+    return { s, n: a.length, r, cs };
+  }).sort((x, y) => y.n - x.n || x.s.name.localeCompare(y.s.name));
+
+  $("#who").innerHTML = `
+    <div class="ch-head"><div><div class="eyebrow">Chapter 1</div><h2>Who spoke</h2>
+      <p>${D.submitters.length} submitters filed ${D.docket.n_comments} comments. Click a type to filter every view on this page.</p></div>
+      <div class="seg" role="group" aria-label="Count"><button data-who="submitters" aria-pressed="${S.whoMetric === "submitters"}">Submitters</button><button data-who="asks" aria-pressed="${S.whoMetric === "asks"}">Requests</button></div></div>
+    <div class="two">
+      <div class="card"><div class="small" style="margin-bottom:10px">${S.whoMetric === "submitters" ? "Number of submitters" : "Number of requests"} by type${S.theme ? " · theme: " + esc(idx.theme[S.theme].label) : ""}</div><div class="hbar">${bars}</div>
+        ${S.whoMetric === "asks" ? `<p class="small" style="margin:12px 0 0">Request counts follow letter length: BIO's line-by-line letter alone holds ${fmt(idx.asks.filter((a) => a.comment_id.endsWith("-0055")).length)}.</p>` : ""}</div>
+      <div class="card"><input type="search" id="subq" placeholder="Search submitters" aria-label="Search submitters" value="${esc(S.q || "")}">
+        <div class="tablewrap"><table><thead><tr><th>Submitter</th><th>Type</th><th class="r">Requests</th><th class="r">Adopted or partial</th><th>Comment</th></tr></thead>
+        <tbody id="subtbody">${subRows.map(({ s, n, r, cs }) => `<tr data-name="${esc(s.name.toLowerCase())}"><td>${esc(s.name)}</td><td>${esc(SHORT[s.bucket])}</td><td class="r num">${n}</td><td class="r num">${r.r == null ? "–" : pct(r.r) + ` <span class="small">(${r.y}/${r.n})</span>`}</td><td>${cs}</td></tr>`).join("")}</tbody></table></div></div>
+    </div>`;
+  $("#subq").oninput = (e) => { S.q = e.target.value; const q = S.q.toLowerCase(); $("#subtbody").querySelectorAll("tr").forEach((tr) => { tr.hidden = q && !tr.dataset.name.includes(q); }); };
+  if (S.q) $("#subq").dispatchEvent(new Event("input"));
+}
+
+/* ---------- 2. What they said ---------- */
+function heatColor(v, max) {
+  if (!v) return "var(--heat-0)";
+  const k = Math.min(5, 1 + Math.floor((4.999 * v) / max));
+  return `var(--heat-${k})`;
+}
+function renderWhat() {
+  const themes = D.themes;
+  const cellAsks = (t, b) => idx.asks.filter((a) => a.theme_id === t && a.bucket === b);
+  const metric = S.heatMetric;
+  const val = (list) => metric === "asks" ? list.length : metric === "subs" ? new Set(list.map((a) => a.sub.submitter_id)).size : rate(list).r;
+  let max = 0;
+  const grid = themes.map((t) => BUCKETS.map((b) => { const l = cellAsks(t.theme_id, b); const v = val(l); if (metric !== "rate" && v > max) max = v; return { l, v }; }));
+  if (metric === "rate") max = 1;
+  const cellTxt = (v, l) => metric === "rate" ? (v == null ? "–" : pct(v)) : (v || "");
+  const head = `<tr><th></th>${BUCKETS.map((b) => `<th scope="col" title="${esc(b)}">${esc(SHORT[b])}</th>`).join("")}<th class="r">All</th></tr>`;
+  const body = themes.map((t, i) => {
+    const all = idx.asks.filter((a) => a.theme_id === t.theme_id);
+    return `<tr><th scope="row" class="row" title="${esc(t.label)}">${esc(t.label)}</th>${grid[i].map(({ l, v }, j) => {
+      const on = S.cell && S.cell[0] === t.theme_id && S.cell[1] === BUCKETS[j];
+      const dim = (S.bucket && S.bucket !== BUCKETS[j]) || (S.theme && S.theme !== t.theme_id);
+      const n = rate(l).n;
+      const show = metric === "rate" && n < 5 ? null : v;
+      const bg = show == null ? "var(--heat-0)" : heatColor(show, max);
+      const dark = show != null && (metric === "rate" ? show >= .6 : show / max >= .6);
+      return `<td><button data-cell="${t.theme_id}|${esc(BUCKETS[j])}" aria-pressed="${!!on}" style="background:${bg};color:${dark ? "var(--heat-on)" : "var(--ink)"};opacity:${dim ? .35 : 1}" title="${esc(t.label)} × ${esc(BUCKETS[j])}: ${l.length} requests from ${new Set(l.map((a) => a.sub.submitter_id)).size} submitters; adopted or partial ${rate(l).r == null ? "n/a" : pct(rate(l).r)}">${metric === "rate" && n < 5 ? (l.length ? "·" : "") : cellTxt(v, l)}</button></td>`;
+    }).join("")}<td class="tot">${metric === "rate" ? (rate(all).r == null ? "–" : pct(rate(all).r)) : val(all)}</td></tr>`;
+  }).join("");
+
+  const sel = S.cell ? idx.asks.filter((a) => a.theme_id === S.cell[0] && a.bucket === S.cell[1]) : filtered();
+  const title = S.cell ? `${esc(idx.theme[S.cell[0]].label)} × ${esc(S.cell[1])}` : (S.bucket || S.theme ? "Requests matching the filter" : "All requests");
+  const shown = sel.slice(0, S.shown);
+  const metricNote = { asks: "Number of requests", subs: "Number of distinct submitters", rate: "Share of checkable requests adopted or partly adopted (cells with fewer than 5 shown as ·)" }[metric];
+
+  $("#what").innerHTML = `
+    <div class="ch-head"><div><div class="eyebrow">Chapter 2</div><h2>What they said</h2>
+      <p>${fmt(D.asks.length)} requests coded to ${themes.length} themes approved before coding began. Click a cell to read the requests behind it.</p></div>
+      <div class="seg" role="group" aria-label="Measure"><button data-heat="asks" aria-pressed="${metric === "asks"}">Requests</button><button data-heat="subs" aria-pressed="${metric === "subs"}">Submitters</button><button data-heat="rate" aria-pressed="${metric === "rate"}">Adopted %</button></div></div>
+    <div class="card"><div class="heatwrap"><table class="heat"><thead>${head}</thead><tbody>${body}</tbody></table></div>
+      <div class="legend"><span>${metricNote}</span><span class="ramp" aria-hidden="true">${[0, 1, 2, 3, 4, 5].map((k) => `<i style="background:var(--heat-${k})"></i>`).join("")}</span><span>${metric === "rate" ? "0% → 100%" : "fewer → more"}</span></div></div>
+    <div style="margin-top:18px"><div class="ch-head" style="margin-bottom:8px"><h3 style="font:600 1.25rem var(--f-serif)">${title} <span class="small num">· ${fmt(sel.length)}</span></h3>
+      ${S.cell ? `<button class="more" data-clearcell="1">Show all requests</button>` : ""}</div>
+      <div class="asks">${shown.map(askCard).join("") || `<p class="small">No requests here.</p>`}</div>
+      ${sel.length > S.shown ? `<button class="more" data-more="1">Show ${Math.min(30, sel.length - S.shown)} more of ${fmt(sel.length - S.shown)}</button>` : ""}</div>`;
+}
+function askCard(a) {
+  const c = a.c;
+  return `<article class="ask"><div class="who"><b>${esc(a.sub.name)}</b><span>${esc(a.bucket)}</span><span>${esc(idx.theme[a.theme_id].label)}</span><span>${esc(a.stance)}</span>
+    <span>${a.draft_section ? "Draft §" + esc(a.draft_section) : "General"}</span><a href="https://www.regulations.gov/comment/${a.comment_id}" target="_blank" rel="noopener">Comment ${a.comment_id.slice(-4)} ↗</a></div>
+    <q>${esc(a.text)}</q>
+    <div class="ev"><span class="${pillCls(c.call)}">${esc(c.call)}</span> ${esc(c.rationale.replace(/\s*\[(Corrected|Checkpoint 4)[^\]]*\]/g, ""))}
+      ${c.evidence_span ? `<div style="margin-top:6px">Final${c.section_id ? " §" + esc(c.section_id) : ""}: <em>“${esc(c.evidence_span)}”</em></div>` : ""}</div></article>`;
+}
+
+/* ---------- 3. What changed ---------- */
+function sentences(t) { return (t || "").split(/\n{2,}/).map((p) => p.split(/(?<=[.;:])\s+(?=[A-Z(“"])/)); }
+const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+function markDoc(text, other, cls, evidence) {
+  if (!text) return `<p class="small">Not in this version.</p>`;
+  const have = new Set(sentences(other).flat().map(norm));
+  let html = sentences(text).map((ps) => "<p>" + ps.map((s) => have.has(norm(s)) ? esc(s) : `<span class="${cls}">${esc(s)}</span>`).join(" ") + "</p>").join("");
+  for (const ev of evidence) {
+    const words = ev.trim().split(/\s+/).slice(0, 14).map((w) => esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (words.length < 4) continue;
+    try { html = html.replace(new RegExp(words.join("(?:\\s|<[^>]+>)+")), (m) => `<mark>${m}</mark>`); } catch {}
+  }
+  return html;
+}
+function stack(list) {
+  if (!list.length) return `<div class="stack empty" title="No requests target this section"></div>`;
+  const n = list.length;
+  return `<div class="stack" role="img" aria-label="${CALLS.map((c) => `${list.filter((a) => a.c.call === c).length} ${c}`).join(", ")}">${CALLS.map((c) => {
+    const k = list.filter((a) => a.c.call === c).length;
+    return k ? `<i style="flex:${k};background:var(${CALL_VAR[c]})" title="${k} ${c}"></i>` : "";
+  }).join("")}</div>`;
+}
+function renderChanged() {
+  const list = filtered();
+  // A request sits in the FINAL section its call was matched to; failing that, the row of its
+  // draft section; failing that (no section named), under "General".
+  const secs = D.sections.filter((s) => s.section_id !== "front");
+  const byFinal = Object.fromEntries(secs.filter((s) => s.final_section_id).map((s) => [s.final_section_id, s.section_id]));
+  const byDraft = Object.fromEntries(secs.filter((s) => s.draft_section_id).map((s) => [s.draft_section_id, s.section_id]));
+  const bySec = {};
+  for (const a of list) {
+    const k = byFinal[a.c.section_id] || byDraft[a.draft_section] || "__general";
+    (bySec[k] ||= []).push(a);
+  }
+  const rows = secs.map((s) => ({ s, l: bySec[s.section_id] || [] }));
+  rows.push({ s: { section_id: "General", heading: "Requests about the guidance as a whole", status: "general" }, l: bySec.__general || [] });
+  const tot = (k) => list.filter((a) => a.c.call === k).length;
+  const legend = CALLS.map((c) => `<span><i class="sw" style="background:var(${CALL_VAR[c]})"></i>${c} <b class="num">${fmt(tot(c))}</b></span>`).join("");
+
+  $("#changed").innerHTML = `
+    <div class="ch-head"><div><div class="eyebrow">Chapter 3</div><h2>What changed</h2>
+      <p>Each section of the draft, matched to the final. The bar shows how the requests about that section fared: each request sits in the final section its call was matched to, or else in the draft section it targeted. Open a section to compare the text side by side.</p></div></div>
+    <div class="keyrow" style="margin-bottom:12px">${legend}</div>
+    ${rows.map(({ s, l }) => secRow(s, l)).join("")}`;
+}
+function secRow(s, l) {
+  const open = S.openSec.has(s.section_id);
+  const st = s.status === "general" ? "" : `<span class="st ${s.status}">${s.status}</span>`;
+  const sim = s.change_summary_stats ? `${s.change_summary_stats.words_added} words added · ${s.change_summary_stats.words_removed} removed` : "";
+  const renamed = s.heading_changed ? ` · was “${esc(s.draft_heading)}”` : "";
+  const ids = s.draft_section_id && s.final_section_id && s.draft_section_id !== s.final_section_id ? `${esc(s.draft_section_id)}→${esc(s.final_section_id)}` : esc(s.section_id === "General" ? "—" : s.section_id);
+  let body = "";
+  if (open) {
+    const ev = l.filter((a) => a.c.evidence_span && (a.c.call === "adopted" || a.c.call === "partially adopted")).map((a) => a.c.evidence_span);
+    body = `<div class="secbody">
+      ${s.status !== "general" ? `<div class="keyrow"><span><span class="sw" style="background:var(--del)"></span>sentence not in the final</span><span><span class="sw" style="background:var(--ins)"></span>sentence new or reworded in the final</span><span><span class="sw" style="background:var(--mark)"></span>evidence for an adopted or partial call</span></div>
+      <div class="sbs"><div><div class="eyebrow" style="margin-bottom:6px">Draft · Sep 2021${s.draft_section_id ? " · §" + esc(s.draft_section_id) : ""}</div><div class="doc">${markDoc(s.draft_text, s.final_text, "del", [])}</div></div>
+      <div><div class="eyebrow" style="margin-bottom:6px">Final · Jul 2024${s.final_section_id ? " · §" + esc(s.final_section_id) : ""}</div><div class="doc">${markDoc(s.final_text, s.draft_text, "ins", ev)}</div></div></div>` : ""}
+      <div><div class="eyebrow" style="margin-bottom:8px">${fmt(l.length)} requests about this section</div><div class="asks">${l.slice(0, 40).map(askCard).join("") || `<p class="small">None${S.bucket || S.theme ? " under the current filter" : ""}.</p>`}</div>
+      ${l.length > 40 ? `<p class="small">Showing 40 of ${l.length}. Narrow with the filters above.</p>` : ""}</div></div>`;
+  }
+  return `<div class="sec" ${open ? "open" : ""}><button data-sec="${esc(s.section_id)}" aria-expanded="${open}">
+    <span class="sid num">${ids}</span><span class="sh">${st}${esc(s.heading)}<small>${sim}${renamed}${l.length ? ` · ${l.length} requests` : ""}</small></span>${stack(l)}<span class="caret" aria-hidden="true">›</span></button>${body}</div>`;
+}
+
+function renderAll() { chips(); renderWho(); renderWhat(); renderChanged(); }
+
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("button, [data-clear]"); if (!t) return;
+  if (t.dataset.bucket) setFilter("bucket", t.dataset.bucket);
+  else if (t.dataset.clear) { S[t.dataset.clear] = ""; S.cell = null; renderAll(); }
+  else if (t.dataset.who) { S.whoMetric = t.dataset.who; renderWho(); }
+  else if (t.dataset.heat) { S.heatMetric = t.dataset.heat; renderWhat(); }
+  else if (t.dataset.cell) { const [th, b] = t.dataset.cell.split("|"); S.cell = S.cell && S.cell[0] === th && S.cell[1] === b ? null : [th, b]; S.shown = 30; renderWhat(); }
+  else if (t.dataset.clearcell) { S.cell = null; renderWhat(); }
+  else if (t.dataset.more) { S.shown += 30; renderWhat(); }
+  else if (t.dataset.sec) { const id = t.dataset.sec; S.openSec.has(id) ? S.openSec.delete(id) : S.openSec.add(id); renderChanged(); }
+});
+$("#fBucket").onchange = (e) => { S.bucket = e.target.value; S.cell = null; renderAll(); };
+$("#fTheme").onchange = (e) => { S.theme = e.target.value; S.cell = null; renderAll(); };
+
+(async function start() {
+  try { D = await (await fetch("analysis.json")).json(); }
+  catch { $("#main").innerHTML = `<p class="loading">The analysis file did not load. Reload the page to try again.</p>`; return; }
+  idx = build(D);
+  $("#dk").textContent = D.docket.id;
+  if (D.caveat) $("#caveatText").textContent = D.caveat;
+  $("#spot").textContent = `Human spot check: ${D.run.spot_check_n} calls from a seeded random sample, ${pct(D.run.spot_check_agreement)} agreement. Final of record: ${D.docket.final_ref_note}`;
+  $("#fBucket").insertAdjacentHTML("beforeend", BUCKETS.map((b) => `<option>${esc(b)}</option>`).join(""));
+  $("#fTheme").insertAdjacentHTML("beforeend", D.themes.map((t) => `<option value="${t.theme_id}">${esc(t.label)}</option>`).join(""));
+  $("#main").innerHTML = `<section class="ch" id="who" aria-label="Who spoke"></section><section class="ch" id="what" aria-label="What they said"></section><section class="ch" id="changed" aria-label="What changed"></section>`;
+  kpis(); renderAll();
+  if (location.hash) document.querySelector(location.hash)?.scrollIntoView();
+})();
+</script>
