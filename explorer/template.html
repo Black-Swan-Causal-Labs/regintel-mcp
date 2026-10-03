@@ -23,7 +23,7 @@
 :root { color-scheme: light }
 
 * { box-sizing: border-box }
-body { background: var(--bg); color: var(--body); font: 15px/1.6 var(--f-sans); -webkit-font-smoothing: antialiased; padding-bottom: 56px }
+body { background: var(--bg); color: var(--body); font: 15px/1.6 var(--f-sans); -webkit-font-smoothing: antialiased }
 a { color: var(--accent); text-underline-offset: 3px }
 button { font: inherit; color: inherit }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px }
@@ -187,6 +187,15 @@ ul.plain li::before { content: ""; position: absolute; left: 8px; top: 21px; wid
 .gl span { font-size: .86rem; color: var(--body) }
 .gl em { font-style: normal; font-size: .8rem; color: var(--accent); font-weight: 500 }
 
+.note { max-width: 68ch; margin: 14px 0 0; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--accent-soft); font-size: .88rem; color: var(--ink); border-radius: 0 6px 6px 0 }
+.mtable { width: 100%; border-collapse: collapse; font-size: .86rem }
+.mtable td { padding: 8px 0; border-top: 1px solid var(--line); vertical-align: top }
+.mtable td:first-child { font: 500 .8rem var(--f-mono); color: var(--accent); white-space: nowrap; padding-right: 14px }
+.steps { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; counter-reset: st }
+.steps li { position: relative; padding-left: 34px; font-size: .9rem }
+.steps li::before { counter-increment: st; content: counter(st); position: absolute; left: 0; top: 1px; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font: 600 .74rem/22px var(--f-mono); text-align: center }
+.drawer .body h4 { margin: 14px 0 0; font: 600 1rem var(--f-sans); color: var(--ink) }
+
 /* footer */
 .caveat { position: fixed; z-index: 15; left: 0; right: 0; bottom: 0; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); padding: 10px 20px calc(10px + env(safe-area-inset-bottom, 0px)); text-align: center }
 .caveat b { color: var(--ink); font-weight: 600 }
@@ -217,7 +226,6 @@ footer.foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-betwe
   <button class="more" data-method="1" style="padding:0">How this was made</button>
 </div></footer>
 
-<div class="caveat" role="note"><b>Concordance, not impact.</b> A change that matches a request does not show the request caused it.<button data-method="1">Method</button></div>
 <div class="tip" id="tip" role="tooltip"></div>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dTitle" hidden>
@@ -417,6 +425,7 @@ function drawChanged(v) {
     <div class="kicker label">What changed</div>
     <h1 class="state">What changed between the draft and the final guidance</h1>
     <p class="sub">For each request we checked whether the July 2024 final changed in the direction asked, quoting the final text word for word. Requests about process, meetings or other guidances can't be checked against the text.</p>
+    <p class="note"><b>Concordance, not impact.</b> A change that matches a request does not show the request caused it: the final also reflects FDA's internal review, ICH M14 and other guidances.</p>
     <div class="stats">
       <div class="stat"><b class="num" data-count="${Math.round(100 * r.r)}" data-suffix="%">0</b><span>of checkable requests adopted or partly adopted</span></div>
       <div class="stat"><b class="num" data-count="${st.modified || 0}">0</b><span>sections rewritten, ${st.added || 0} added, ${st.removed || 0} removed</span></div>
@@ -523,12 +532,42 @@ function openSection(id) {
     html: diff + `<div class="label" style="margin-top:12px">Requests about this section</div>` + (askCards(l) || "<p>None.</p>") });
 }
 function openMethod() {
+  const REPO = "https://github.com/Black-Swan-Causal-Labs/regintel-mcp";
+  const tools = [
+    ["search_dockets", "Find regulations.gov dockets by keyword and agency"],
+    ["get_docket", "Docket metadata and the official comment count"],
+    ["list_documents", "Every document in the docket: notices, draft and final guidance, meeting material"],
+    ["list_comments", "All comments, with flags for stubs and likely duplicates"],
+    ["get_comment", "One comment in full, including the text extracted from its PDF, Word or Excel attachments"],
+    ["build_corpus", "Pull every comment and attachment into a local cache; resumable"],
+    ["get_guidance_text", "A guidance document split into its numbered sections"],
+    ["diff_guidance", "Section-by-section, word-by-word comparison of draft and final"],
+    ["export_corpus", "Write the whole corpus to one file for the analysis steps"],
+  ];
   openDrawer({ kicker: "Method", title: "How this was made", html: `
-    <p><b>Concordance, not impact.</b> ${esc(D.caveat.replace(/^Concordance, not impact\.\s*/, ""))}</p>
-    <p><b>Retrieval.</b> Comments, attachments and both guidance versions were pulled from regulations.gov by the open-source regintel-mcp server, and the draft was compared with the final section by section and word by word, in deterministic code.</p>
-    <p><b>Judgment.</b> Claude classified submitters, split each comment into discrete requests, coded themes from a codebook approved before coding began, and judged each draft-to-final call, following written rules and four human checkpoints.</p>
-    <p><b>Checks.</b> Every request and every evidence passage is quoted verbatim and verified by script. A human reviewed ${D.run.spot_check_n} calls from a seeded random sample and agreed with ${pct(D.run.spot_check_agreement)}.</p>
-    <p><b>Final of record.</b> ${esc(D.docket.final_ref_note)}</p>
+    <p class="note" style="margin:0"><b>Concordance, not impact.</b> ${esc(D.caveat.replace(/^Concordance, not impact\.\s*/, ""))}</p>
+    <h4>The approach</h4>
+    <p>Retrieval is done by deterministic code, judgment by Claude following written rules, and a person approves each stage before the next one runs.</p>
+    <ol class="steps">
+      <li><b>Retrieve.</b> An MCP server, <b>regintel-mcp</b>, pulls the docket from the regulations.gov API, extracts the text of every comment and attachment, and compares the draft with the final guidance. It contains no AI.</li>
+      <li><b>Classify submitters.</b> Claude assigns each commenter to one of seven types from the letterhead and signature. <i>Checkpoint: a person reviews the table.</i></li>
+      <li><b>Code requests.</b> A theme codebook is approved before any coding. Claude then splits each comment into discrete requests and codes each one's theme and stance, working in parallel batches. <i>Checkpoint: codebook approval.</i></li>
+      <li><b>Judge draft to final.</b> For each request, Claude decides whether the final text moved in the direction asked and quotes the final as evidence. <i>Checkpoint: a person spot-checks a random sample.</i></li>
+    </ol>
+    <h4>The MCP server's tools</h4>
+    <table class="mtable"><tbody>${tools.map(([n, d]) => `<tr><td>${n}</td><td>${d}</td></tr>`).join("")}</tbody></table>
+    <h4>The analysis skills</h4>
+    <table class="mtable"><tbody>
+      <tr><td>submitter-taxonomy</td><td>Rules for classifying commenters into seven types, with the evidence and a confidence level for each call</td></tr>
+      <tr><td>comment-theming</td><td>Rules for splitting comments into requests, quoting them word for word, and coding theme and stance against an approved codebook</td></tr>
+      <tr><td>draft-final-concordance</td><td>Rules for judging adopted, partially adopted, not adopted or not assessable, with the final text as evidence</td></tr>
+      <tr><td>/docket-analysis</td><td>One command that runs the whole pipeline on any docket and pauses at the four checkpoints</td></tr>
+    </tbody></table>
+    <h4>Checks</h4>
+    <p>Every request and every evidence passage is quoted word for word, and a script verifies each quote against the source text. A person re-checked ${D.run.spot_check_n} calls from a seeded random sample and agreed with ${pct(D.run.spot_check_agreement)}. Every decision taken at a checkpoint is logged with its date.</p>
+    <h4>Source</h4>
+    <p>Final of record: ${esc(D.docket.final_ref_note)}</p>
+    <p>Code: <a href="${REPO}" target="_blank" rel="noopener">github.com/Black-Swan-Causal-Labs/regintel-mcp ↗</a>. The server is MIT-licensed; this explorer is PolyForm Noncommercial.</p>
     <p class="label">${esc(D.docket.id)} · run ${esc(D.run.date)} · codebook ${esc(D.run.codebook_version)}</p>` });
 }
 
