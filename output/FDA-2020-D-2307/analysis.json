@@ -31106,5 +31106,55 @@
    "confidence": "high"
   }
  ],
- "fr_listed_changes": "Changes from the draft to the final guidance include: (1) clarifying that the selection of study variables for validation and the extent of effort required for validation depends on the necessary level of certainty and the implication of potential misclassification on study inference; (2) noting that choice of a reference standard for validation may vary by the study design and question, variable of interest, and the necessary level of certainty; (3) recommending the use of quantitative approaches, such as quantitative bias analyses, either a priori for feasibility assessment, or to facilitate interpretation of study results, or for both purposes, to demonstrate whether and how misclassification, if present, might impact study findings; and (4) removing defined terms that are generally understood and transferring other relevant definitions from a glossary to the text. In addition, editorial changes were made to improve clarity."
+ "fr_listed_changes": "Changes from the draft to the final guidance include: (1) clarifying that the selection of study variables for validation and the extent of effort required for validation depends on the necessary level of certainty and the implication of potential misclassification on study inference; (2) noting that choice of a reference standard for validation may vary by the study design and question, variable of interest, and the necessary level of certainty; (3) recommending the use of quantitative approaches, such as quantitative bias analyses, either a priori for feasibility assessment, or to facilitate interpretation of study results, or for both purposes, to demonstrate whether and how misclassification, if present, might impact study findings; and (4) removing defined terms that are generally understood and transferring other relevant definitions from a glossary to the text. In addition, editorial changes were made to improve clarity.",
+ "guidance": {
+  "summary": "This guidance is intended to provide sponsors and other interested parties with considerations when proposing to use electronic health records (EHRs) or medical claims data in clinical studies to support a regulatory decision for effectiveness or safety.",
+  "summary_source": "FDA-2020-D-2307-0066",
+  "topics": [
+   "selection of data sources that appropriately address the study question and sufficiently capture study populations, exposure, outcomes of interest, and key covariates",
+   "development and validation of definitions for study design elements (e.g., exposure, outcomes, covariates)",
+   "data traceability and quality during data accrual, data curation, and incorporation into the final study-specific dataset"
+  ],
+  "topics_source": "FDA-2020-D-2307-0066",
+  "timeline": [
+   {
+    "date": "2021-09-30",
+    "event": "Draft guidance published for comment",
+    "doc_id": "FDA-2020-D-2307-0001",
+    "fr": "2021-21315"
+   },
+   {
+    "date": "2021-11-29",
+    "event": "Original comment deadline",
+    "doc_id": "FDA-2020-D-2307-0001"
+   },
+   {
+    "date": "2021-12-10",
+    "event": "Comment period reopened",
+    "doc_id": "FDA-2020-D-2307-0052",
+    "fr": "2021-26699"
+   },
+   {
+    "date": "2022-01-24",
+    "event": "Comment period closed",
+    "doc_id": "FDA-2020-D-2307-0052"
+   },
+   {
+    "date": "2024-07-25",
+    "event": "Final guidance published",
+    "doc_id": "FDA-2020-D-2307-0066",
+    "fr": "2024-16338"
+   }
+  ],
+  "fda_listed_changes": [
+   "clarifying that the selection of study variables for validation and the extent of effort required for validation depends on the necessary level of certainty and the implication of potential misclassification on study inference",
+   "noting that choice of a reference standard for validation may vary by the study design and question, variable of interest, and the necessary level of certainty",
+   "recommending the use of quantitative approaches, such as quantitative bias analyses, either a priori for feasibility assessment, or to facilitate interpretation of study results, or for both purposes, to demonstrate whether and how misclassification, if present, might impact study findings",
+   "removing defined terms that are generally understood and transferring other relevant definitions from a glossary to the text"
+  ],
+  "fda_listed_changes_source": "FDA-2020-D-2307-0066",
+  "editorial_note": "In addition, editorial changes were made to improve clarity.",
+  "draft_url": "https://www.regulations.gov/document/FDA-2020-D-2307-0002",
+  "final_url": "https://www.fda.gov/media/152503/download"
+ }
 }

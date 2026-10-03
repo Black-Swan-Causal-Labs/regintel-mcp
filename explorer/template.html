@@ -1,10 +1,10 @@
 <title>Regulatory Intelligence Explorer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Geist+Mono:wght@400;500&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <style>
-/* Layout: one quiet white page per question (three tabs). Each opens with a single serif statement,
+/* Layout: a plain, government-style white page per question (four tabs). Each opens with a plain heading,
    one primary visual, and detail on demand in a slide-in panel. One teal accent; outcome colors only for calls. */
 :root {
   --bg: #ffffff; --soft: #f6f7f7; --line: #e7e9ea; --line-strong: #d3d7d9;
@@ -14,7 +14,7 @@
   --heat-0: #f5f7f7; --heat-1: #dcecea; --heat-2: #b4d8d3; --heat-3: #7cbab3; --heat-4: #3f928a; --heat-5: #0f6b66; --heat-on: #ffffff;
   --del: #fde4dc; --del-line: #c4552a; --ins: #dcf1ec; --mark: #fff0bf;
   --shadow: 0 18px 50px rgba(17, 20, 20, .14);
-  --f-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --f-display: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --ease: cubic-bezier(.2, .7, .2, 1);
@@ -34,32 +34,31 @@ button { font: inherit; color: inherit }
 /* top bar */
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line) }
 .top .wrap { display: flex; align-items: center; gap: 16px; padding-block: 12px; flex-wrap: wrap }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: .9rem; margin-right: auto; min-width: 0 }
-.brand img { width: 34px; height: auto; border-radius: 4px; background: #eef0f3; padding: 2px 3px }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 1.12rem; letter-spacing: -.01em; margin-right: auto; min-width: 0 }
+.brand img { width: 40px; height: auto; border-radius: 4px; background: #eef0f3; padding: 2px 3px }
 .brand span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
 .brand small { color: var(--muted); font: 400 .78rem var(--f-mono); margin-left: 8px }
 .tabs { position: relative; display: flex; gap: 2px; background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 4px }
 .tabs a { position: relative; z-index: 1; padding: 7px 16px; border-radius: 999px; text-decoration: none; color: var(--muted); font-weight: 500; font-size: .88rem; white-space: nowrap; transition: color .25s var(--ease) }
 .tabs a[aria-current="page"] { color: var(--accent-ink) }
 .tabs .pill-bg { position: absolute; z-index: 0; top: 4px; bottom: 4px; left: 4px; width: 0; border-radius: 999px; background: var(--accent); transition: left .35s var(--ease), width .35s var(--ease) }
-@media (max-width: 640px) { .tabs { width: 100% } .tabs a { padding: 7px 6px; font-size: .8rem; flex: 1; text-align: center } }
+@media (max-width: 760px) { .tabs { width: 100%; overflow-x: auto; scrollbar-width: none } .tabs a { padding: 7px 10px; font-size: .78rem; flex: 1 0 auto; text-align: center } }
 
 /* views */
 .view { padding-block: 56px 24px }
 .view[hidden] { display: none }
 .kicker { margin-bottom: 14px }
-h1.state { font: 400 clamp(2.1rem, 5vw, 3.6rem)/1.08 var(--f-display); color: var(--ink); letter-spacing: -.01em; margin: 0 0 14px; max-width: 22ch; text-wrap: balance }
-h1.state em { font-style: italic; color: var(--accent) }
+h1.state { font: 600 clamp(1.8rem, 3.6vw, 2.6rem)/1.15 var(--f-display); color: var(--ink); letter-spacing: -.02em; margin: 0 0 14px; max-width: 34ch; text-wrap: balance }
 .sub { max-width: 62ch; font-size: 1.02rem; margin: 0 }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-block: 40px 8px; border-top: 1px solid var(--line) }
 .stat { padding: 18px 18px 18px 0 }
 .stat + .stat { padding-left: 18px; border-left: 1px solid var(--line) }
 @media (max-width: 700px) { .stat + .stat { border-left: 0; padding-left: 0 } .stat { border-bottom: 1px solid var(--line) } }
-.stat b { display: block; font: 400 2.6rem/1 var(--f-display); color: var(--ink) }
+.stat b { display: block; font: 600 2.1rem/1.05 var(--f-display); letter-spacing: -.02em; color: var(--ink) }
 .stat span { display: block; margin-top: 6px; font-size: .82rem; color: var(--muted); max-width: 24ch }
 .block { margin-top: 56px }
 .block-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 18px }
-.block-head h2 { font: 400 1.7rem/1.15 var(--f-display); color: var(--ink); margin: 4px 0 0 }
+.block-head h2 { font: 600 1.3rem/1.25 var(--f-display); letter-spacing: -.01em; color: var(--ink); margin: 4px 0 0 }
 .block-head p { margin: 4px 0 0; color: var(--muted); font-size: .9rem; max-width: 60ch }
 .seg { display: inline-flex; background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 3px }
 .seg button { all: unset; cursor: pointer; padding: 5px 13px; border-radius: 999px; font-size: .8rem; font-weight: 500; color: var(--muted); transition: background .2s, color .2s }
@@ -70,7 +69,7 @@ h1.state em { font-style: italic; color: var(--accent) }
 .urow:last-child { border-bottom: 1px solid var(--line) }
 .urow .name { font-weight: 500; color: var(--ink); font-size: .92rem }
 .urow .name small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem }
-.urow .n { text-align: right; font: 400 1.6rem var(--f-display); color: var(--ink) }
+.urow .n { text-align: right; font: 600 1.3rem var(--f-display); color: var(--ink) }
 .dots { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0 }
 .dot { all: unset; cursor: pointer; display: block; flex: none; border-radius: 50%; background: var(--accent); opacity: .9; transition: transform .2s var(--ease), opacity .2s }
 .dot:hover, .dot:focus-visible { transform: scale(1.25); opacity: 1 }
@@ -98,7 +97,7 @@ table.heat td.tot, table.heat th.tot { font: 400 .82rem var(--f-mono); color: va
 /* changed */
 .overall { display: flex; height: 58px; border-radius: 10px; overflow: hidden; gap: 3px }
 .overall > div { display: flex; align-items: end; padding: 8px 10px; color: #fff; font-size: .78rem; font-weight: 500; min-width: 0; overflow: hidden; white-space: nowrap; transform-origin: left center }
-.overall > div b { font: 400 1.35rem var(--f-display); margin-right: 6px }
+.overall > div b { font: 600 1.15rem var(--f-display); margin-right: 6px }
 .overall .p-partially-adopted { color: var(--c-on-partial) }
 .tbars { display: grid; gap: 2px }
 .tbar { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr) 54px; gap: 14px; align-items: center; padding: 9px 10px; border-radius: 8px; transition: background .2s }
@@ -107,7 +106,7 @@ table.heat td.tot, table.heat th.tot { font: 400 .82rem var(--f-mono); color: va
 .tbar .track { height: 10px; background: var(--soft); border-radius: 99px; overflow: hidden; display: flex }
 .tbar:hover .track { background: var(--line) }
 .tbar .track i { display: block; height: 100%; transform-origin: left center }
-.tbar .v { text-align: right; font: 400 1.15rem var(--f-display); color: var(--ink) }
+.tbar .v { text-align: right; font: 600 1rem var(--f-display); color: var(--ink) }
 @media (max-width: 640px) { .tbar { grid-template-columns: minmax(0, 1fr) 46px } .tbar .track { grid-column: 1 / -1; order: 3 } }
 .secs { border-top: 1px solid var(--line) }
 .sec { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 70px minmax(0, 1fr) minmax(90px, 220px) 20px; gap: 14px; align-items: center; padding: 14px 6px; border-bottom: 1px solid var(--line); transition: background .2s }
@@ -131,7 +130,7 @@ table.heat td.tot, table.heat th.tot { font: 400 .82rem var(--f-mono); color: va
 .drawer.wide { width: min(1080px, 100%) }
 .drawer.on { transform: none }
 .drawer header { display: flex; gap: 16px; align-items: start; justify-content: space-between; padding: 22px 24px 16px; border-bottom: 1px solid var(--line) }
-.drawer header h3 { font: 400 1.6rem/1.15 var(--f-display); color: var(--ink); margin: 4px 0 0 }
+.drawer header h3 { font: 600 1.3rem/1.25 var(--f-display); letter-spacing: -.01em; color: var(--ink); margin: 4px 0 0 }
 .drawer header p { margin: 6px 0 0; color: var(--muted); font-size: .86rem }
 .close { all: unset; cursor: pointer; width: 34px; height: 34px; flex: none; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); color: var(--muted); font-size: 1rem }
 .close:hover { color: var(--ink); border-color: var(--line-strong) }
@@ -140,21 +139,53 @@ table.heat td.tot, table.heat th.tot { font: 400 .82rem var(--f-mono); color: va
 .ask { border: 1px solid var(--line); border-radius: 10px; padding: 16px; min-width: 0 }
 .ask .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .76rem; color: var(--muted); margin-bottom: 8px }
 .ask .meta b { color: var(--ink); font-weight: 600 }
-.ask blockquote { margin: 0; font: 400 1.12rem/1.45 var(--f-display); color: var(--ink); overflow-wrap: anywhere }
+.ask blockquote { margin: 0; font: 400 1rem/1.55 var(--f-sans); color: var(--ink); overflow-wrap: anywhere }
 .ask .verdict { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); font-size: .84rem }
-.ask .verdict q { display: block; margin-top: 6px; font: italic 1rem/1.45 var(--f-display); color: var(--body); quotes: "“" "”" }
+.ask .verdict q { display: block; margin-top: 6px; font: italic .92rem/1.5 var(--f-sans); color: var(--body); quotes: "“" "”" }
 .callpill { display: inline-block; font: 500 .68rem var(--f-mono); letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; color: #fff; margin-right: 6px }
 .p-adopted { background: var(--c-adopted) } .p-partially-adopted { background: var(--c-partial); color: var(--c-on-partial) } .p-not-adopted { background: var(--c-not) } .p-not-assessable { background: var(--c-na) }
 .more { all: unset; cursor: pointer; justify-self: start; color: var(--accent); font-weight: 500; font-size: .86rem; padding: 6px 0 }
 .sbs { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px }
 @media (max-width: 760px) { .sbs { grid-template-columns: minmax(0, 1fr) } }
-.doc { font: 400 1.08rem/1.6 var(--f-display); color: var(--ink); padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; max-height: 52vh; overflow: auto; overflow-wrap: anywhere }
+.doc { font: 400 .95rem/1.7 var(--f-sans); color: var(--ink); padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; max-height: 52vh; overflow: auto; overflow-wrap: anywhere }
 .doc p { margin: 0 0 .8em }
 .doc .del { background: var(--del); text-decoration: line-through; text-decoration-color: var(--del-line); text-decoration-thickness: 1.5px }
 .doc .ins { background: var(--ins) }
 .doc mark { background: var(--mark); color: inherit; box-shadow: 0 0 0 1px var(--c-adopted); border-radius: 2px }
 .keyrow { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .78rem; color: var(--muted) }
 .keyrow .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 6px }
+
+
+/* overview */
+.lead { font-size: 1.12rem; line-height: 1.6; color: var(--ink); max-width: 68ch; margin: 0 }
+.lead cite { display: block; margin-top: 8px; font: 400 .78rem var(--f-mono); font-style: normal; color: var(--muted) }
+.docs { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px }
+.docbtn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border: 1px solid var(--line-strong); border-radius: 8px; text-decoration: none; color: var(--ink); font-weight: 500; font-size: .88rem; transition: border-color .2s, background .2s }
+.docbtn:hover { border-color: var(--accent); background: var(--accent-soft) }
+.docbtn small { color: var(--muted); font: 400 .74rem var(--f-mono) }
+.cols2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px }
+@media (max-width: 860px) { .cols2 { grid-template-columns: minmax(0, 1fr) } }
+ol.plain, ul.plain { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; counter-reset: n }
+ol.plain li, ul.plain li { position: relative; padding: 12px 0 12px 38px; border-top: 1px solid var(--line); color: var(--ink); font-size: .95rem }
+ol.plain li:last-child, ul.plain li:last-child { border-bottom: 1px solid var(--line) }
+ol.plain li::before { counter-increment: n; content: counter(n); position: absolute; left: 0; top: 12px; width: 24px; height: 24px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font: 600 .78rem/24px var(--f-mono); text-align: center }
+ul.plain li::before { content: ""; position: absolute; left: 8px; top: 21px; width: 8px; height: 8px; border-radius: 2px; background: var(--accent) }
+.source { margin-top: 10px; font: 400 .76rem var(--f-mono); color: var(--muted) }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 12px; padding-top: 26px }
+.timeline::before { content: ""; position: absolute; left: 6px; right: 6px; top: 31px; height: 2px; background: var(--line); transform-origin: left center }
+.timeline .ev { position: relative; padding-top: 22px; min-width: 0 }
+.timeline .ev::before { content: ""; position: absolute; top: 0; left: 0; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); box-shadow: inset 0 0 0 3px var(--accent) }
+.timeline .ev.key::before { background: var(--accent) }
+.timeline .ev b { display: block; color: var(--ink); font-weight: 600; font-size: .92rem }
+.timeline .ev span { display: block; font-size: .84rem; color: var(--body) }
+.timeline .ev small { display: block; font: 400 .72rem var(--f-mono); color: var(--muted); margin-top: 2px }
+@media (max-width: 760px) { .timeline { grid-template-columns: minmax(0, 1fr); padding-top: 0; padding-left: 4px } .timeline::before { left: 9px; right: auto; top: 6px; bottom: 6px; width: 2px; height: auto } .timeline .ev { padding: 0 0 4px 28px } .timeline .ev::before { top: 4px } }
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px }
+.gl { all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 6px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; transition: border-color .2s, transform .2s var(--ease), box-shadow .2s }
+.gl:hover, .gl:focus-visible { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(17,20,20,.08) }
+.gl b { font: 600 2rem/1 var(--f-display); letter-spacing: -.02em; color: var(--ink) }
+.gl span { font-size: .86rem; color: var(--body) }
+.gl em { font-style: normal; font-size: .8rem; color: var(--accent); font-weight: 500 }
 
 /* footer */
 .caveat { position: fixed; z-index: 15; left: 0; right: 0; bottom: 0; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); padding: 10px 20px calc(10px + env(safe-area-inset-bottom, 0px)); text-align: center }
@@ -168,11 +199,12 @@ footer.foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-betwe
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="https://blackswancausallabs.com" target="_blank" rel="noopener"><img alt="" src="__FEATHER__"><span>Regulatory Intelligence<small id="dk">FDA-2020-D-2307</small></span></a>
+    <a class="brand" href="https://blackswancausallabs.com" target="_blank" rel="noopener"><img alt="" src="__FEATHER__"><span>Regulatory Intelligence</span></a>
     <nav class="tabs" aria-label="Views">
       <span class="pill-bg" aria-hidden="true"></span>
-      <a href="#who" data-tab="who">Who spoke</a>
-      <a href="#said" data-tab="said">What they said</a>
+      <a href="#overview" data-tab="overview">Overview</a>
+      <a href="#who" data-tab="who">Who commented</a>
+      <a href="#said" data-tab="said">What they asked</a>
       <a href="#changed" data-tab="changed">What changed</a>
     </nav>
   </div>
@@ -250,7 +282,7 @@ function countUp(root) {
 }
 function reveal(root) {
   if (!G) return;
-  G.from($$(".kicker, h1.state, .sub", root), { y: 18, opacity: 0, duration: .7, stagger: .07, ease: "power3.out" });
+  G.from($$(".kicker, h1.state, .sub, .lead, .docs", root), { y: 18, opacity: 0, duration: .7, stagger: .07, ease: "power3.out" });
   G.from($$(".stat", root), { y: 14, opacity: 0, duration: .6, stagger: .06, delay: .15, ease: "power3.out" });
 }
 
@@ -262,11 +294,51 @@ function movePill() {
   $$(".tabs a").forEach((x) => (x === a ? x.setAttribute("aria-current", "page") : x.removeAttribute("aria-current")));
 }
 function show(tab) {
-  S.tab = ["who", "said", "changed"].includes(tab) ? tab : "who";
+  S.tab = ["overview", "who", "said", "changed"].includes(tab) ? tab : "overview";
   $$(".view").forEach((v) => (v.hidden = v.id !== "v-" + S.tab));
   movePill();
-  ({ who: drawWho, said: drawSaid, changed: drawChanged })[S.tab]($("#v-" + S.tab));
+  ({ overview: drawOverview, who: drawWho, said: drawSaid, changed: drawChanged })[S.tab]($("#v-" + S.tab));
   window.scrollTo({ top: 0, behavior: "auto" });
+}
+
+
+/* ---------- 0. Overview ---------- */
+const longDate = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+function drawOverview(v) {
+  const g = D.guidance, r = rate(X.asks);
+  const ucfirst = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+  v.innerHTML = `
+    <div class="kicker label">FDA guidance for industry · Docket ${esc(D.docket.id)}</div>
+    <h1 class="state">${esc(D.docket.title)}</h1>
+    <p class="lead">${esc(g.summary)}<cite>FDA, Federal Register notice of availability of the final guidance (${esc(g.summary_source)})</cite></p>
+    <div class="docs">
+      <a class="docbtn" href="${esc(g.draft_url)}" target="_blank" rel="noopener">Draft guidance <small>Sep 2021 ↗</small></a>
+      <a class="docbtn" href="${esc(g.final_url)}" target="_blank" rel="noopener">Final guidance <small>Jul 2024 ↗</small></a>
+      <a class="docbtn" href="${esc(D.docket.docket_url)}" target="_blank" rel="noopener">Docket on regulations.gov <small>↗</small></a>
+    </div>
+    <section class="block">
+      <div class="block-head"><div><div class="label">Timeline</div><h2>From draft to final</h2></div></div>
+      <div class="timeline" style="--n:${g.timeline.length}">${g.timeline.map((e, i) => `<div class="ev ${i === 0 || i === g.timeline.length - 1 ? "key" : ""}"><b>${esc(longDate(e.date))}</b><span>${esc(e.event)}</span>${e.fr ? `<small>FR Doc. ${esc(e.fr)}</small>` : ""}</div>`).join("")}</div>
+    </section>
+    <section class="block cols2">
+      <div><div class="block-head"><div><div class="label">Scope</div><h2>What the guidance covers</h2></div></div>
+        <ul class="plain">${g.topics.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ul>
+        <div class="source">Source: FDA final notice of availability (${esc(g.topics_source)})</div></div>
+      <div><div class="block-head"><div><div class="label">Draft to final</div><h2>What FDA says it changed</h2></div></div>
+        <ol class="plain">${g.fda_listed_changes.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ol>
+        <div class="source">${esc(g.editorial_note || "")} Source: FDA final notice of availability (${esc(g.fda_listed_changes_source)})</div></div>
+    </section>
+    <section class="block">
+      <div class="block-head"><div><div class="label">At a glance</div><h2>The public comments and what came of them</h2></div></div>
+      <div class="glance">
+        <button class="gl" data-go="who"><b class="num" data-count="${D.docket.n_comments}">0</b><span>comments from ${fmt(D.submitters.length)} organisations and individuals</span><em>Who commented →</em></button>
+        <button class="gl" data-go="said"><b class="num" data-count="${X.asks.length}">0</b><span>specific requests made to FDA, each quoted word for word</span><em>What they asked →</em></button>
+        <button class="gl" data-go="changed"><b class="num" data-count="${Math.round(100 * r.r)}" data-suffix="%">0</b><span>of checkable requests reflected, fully or partly, in the final</span><em>What changed →</em></button>
+        <button class="gl" data-method="1"><b class="num" data-count="${Math.round(100 * D.run.spot_check_agreement)}" data-suffix="%">0</b><span>agreement when a human expert re-checked ${D.run.spot_check_n} calls</span><em>How this was made →</em></button>
+      </div>
+    </section>`;
+  countUp(v); reveal(v); settle();
+  if (G) { G.from($$(".timeline .ev", v), { y: 10, opacity: 0, duration: .5, stagger: .1, delay: .3, ease: "power2.out" }); G.from($$(".gl", v), { y: 14, opacity: 0, duration: .5, stagger: .07, delay: .4, ease: "power2.out" }); }
 }
 
 /* ---------- 1. Who spoke ---------- */
@@ -276,9 +348,9 @@ function drawWho(v) {
   const maxReq = Math.max(...subs.map(nReq)), size = (n) => Math.round(8 + 36 * Math.sqrt(n / maxReq));
   const nAnon = subs.filter(isAnon).length;
   v.innerHTML = `
-    <div class="kicker label">Who spoke</div>
-    <h1 class="state">${fmt(subs.length)} voices answered FDA. <em>Data companies</em> were the largest group.</h1>
-    <p class="sub">Public comments on FDA's draft guidance on assessing electronic health records and medical claims data (September 2021), compared with the final guidance (July 2024).</p>
+    <div class="kicker label">Who commented</div>
+    <h1 class="state">Who commented on the draft guidance</h1>
+    <p class="sub">${fmt(D.docket.n_comments)} comments were posted to docket ${esc(D.docket.id)} from ${fmt(subs.length)} organisations and individuals. Each submitter is classified into one of seven types, using the letterhead and signature of the comment.</p>
     <div class="stats">
       <div class="stat"><b class="num" data-count="${D.docket.n_comments}">0</b><span>comments on the docket</span></div>
       <div class="stat"><b class="num" data-count="${D.docket.n_submissions_represented}">0</b><span>submissions, counting duplicates FDA merged</span></div>
@@ -302,8 +374,8 @@ function drawSaid(v) {
   const asks = X.asks, share = (st) => Math.round(100 * asks.filter((a) => a.stance === st).length / asks.length);
   const top = D.themes.map((t) => ({ t, n: asks.filter((a) => a.theme_id === t.theme_id).length })).sort((a, b) => b.n - a.n)[0];
   v.innerHTML = `
-    <div class="kicker label">What they said</div>
-    <h1 class="state">${fmt(asks.length)} requests. Most asked FDA to be <em>more specific</em>.</h1>
+    <div class="kicker label">What they asked</div>
+    <h1 class="state">What commenters asked FDA to change</h1>
     <p class="sub">Each comment was split into discrete requests, quoted word for word, and coded to one of ${D.themes.length} themes agreed before coding began.</p>
     <div class="stats">
       <div class="stat"><b class="num" data-count="${asks.length}">0</b><span>discrete requests</span></div>
@@ -343,7 +415,7 @@ function drawChanged(v) {
   const themes = D.themes.map((t) => { const l = asks.filter((a) => a.theme_id === t.theme_id); return { t, l, r: rate(l) }; }).sort((a, b) => (b.r.r ?? -1) - (a.r.r ?? -1));
   v.innerHTML = `
     <div class="kicker label">What changed</div>
-    <h1 class="state">The final moved toward about <em>one in three</em> requests.</h1>
+    <h1 class="state">What changed between the draft and the final guidance</h1>
     <p class="sub">For each request we checked whether the July 2024 final changed in the direction asked, quoting the final text word for word. Requests about process, meetings or other guidances can't be checked against the text.</p>
     <div class="stats">
       <div class="stat"><b class="num" data-count="${Math.round(100 * r.r)}" data-suffix="%">0</b><span>of checkable requests adopted or partly adopted</span></div>
@@ -465,6 +537,7 @@ const tip = $("#tip");
 document.addEventListener("click", (e) => {
   const t = e.target.closest("button, a[data-tab]"); if (!t) return;
   if (t.dataset.tab) { e.preventDefault(); if (location.hash !== "#" + t.dataset.tab) history.pushState(null, "", "#" + t.dataset.tab); show(t.dataset.tab); }
+  else if (t.dataset.go) { history.pushState(null, "", "#" + t.dataset.go); show(t.dataset.go); }
   else if (t.dataset.sub) { const s = X.sub[t.dataset.sub]; openAsks(s.bucket, s.name, X.bySub[s.submitter_id] || []); }
   else if (t.dataset.heat) { S.heat = t.dataset.heat; $$("[data-heat]").forEach((b) => b.setAttribute("aria-pressed", b === t)); drawHeat(); }
   else if (t.dataset.cell) { const [th, b] = t.dataset.cell.split("|"); openAsks(b, X.theme[th].label, X.asks.filter((a) => a.theme_id === th && a.bucket === b)); }
@@ -489,16 +562,15 @@ document.addEventListener("pointermove", (e) => {
 });
 document.addEventListener("pointerout", (e) => { if (e.target.closest("[data-tipname], .dot")) tip.classList.remove("on"); });
 addEventListener("resize", movePill);
-addEventListener("popstate", () => { if (X) show((location.hash || "#who").slice(1)); });
+addEventListener("popstate", () => { if (X) show((location.hash || "#overview").slice(1)); });
 addEventListener("hashchange", () => { if (X) show(location.hash.slice(1)); });
 
 (async function start() {
   try { D = await (await fetch("analysis.json")).json(); }
   catch { $("#main").innerHTML = `<p class="loading">The analysis file did not load. Reload the page to try again.</p>`; return; }
   X = index(D);
-  $("#dk").textContent = D.docket.id;
-  $("#main").innerHTML = `<section class="view" id="v-who" aria-label="Who spoke"></section><section class="view" id="v-said" aria-label="What they said" hidden></section><section class="view" id="v-changed" aria-label="What changed" hidden></section>`;
+  $("#main").innerHTML = `<section class="view" id="v-overview" aria-label="Overview"></section><section class="view" id="v-who" aria-label="Who commented" hidden></section><section class="view" id="v-said" aria-label="What they said" hidden></section><section class="view" id="v-changed" aria-label="What changed" hidden></section>`;
   if (document.fonts) document.fonts.ready.then(movePill);
-  show((location.hash || "#who").slice(1));
+  show((location.hash || "#overview").slice(1));
 })();
 </script>
