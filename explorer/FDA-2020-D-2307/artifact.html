@@ -546,7 +546,7 @@ function openMethod() {
   ];
   openDrawer({ kicker: "Method", title: "How this was made", html: `
     <h4 style="margin-top:0">A Claude plugin</h4>
-    <p>This explorer was produced by <b>regintel</b>, a Claude plugin built by Black Swan Causal Labs. The plugin bundles an MCP server that retrieves and compares documents, three skills that hold the analysis rules, and one command that runs the whole pipeline. Retrieval is done by deterministic code, judgment by Claude following the skills' written rules, and a person approves each stage before the next one runs.</p>
+    <p>This explorer was produced by <b>regintel-mcp</b>, a Claude plugin built by Black Swan Causal Labs. The plugin bundles an MCP server that retrieves and compares documents, three skills that hold the analysis rules, and one command that runs the whole pipeline. Retrieval is done by deterministic code, judgment by Claude following the skills' written rules, and a person approves each stage before the next one runs.</p>
     <h4>The approach</h4>
     <ol class="steps">
       <li><b>Retrieve.</b> An MCP server, <b>regintel-mcp</b>, pulls the docket from the regulations.gov API, extracts the text of every comment and attachment, and compares the draft with the final guidance. It contains no AI.</li>
