@@ -11,7 +11,7 @@ Black Swan Causal Labs · [blackswancausallabs.com](https://blackswancausallabs.
 | Data | `regintel-mcp` server (this repo, MIT) | **Phase 1 built.** Fetch, cache, extract, diff. No interpretation. |
 | Method | skills: `submitter-taxonomy`, `comment-theming`, `draft-final-concordance` | Built |
 | Orchestration | `/docket-analysis <docketId>` with 4 human checkpoints | Built; first run on FDA-2020-D-2307 |
-| Output | Explorer (reads one `analysis.json`; PolyForm Noncommercial) | **Built** for FDA-2020-D-2307 |
+| Output | Docket Lens explorer (reads one `analysis.json`; PolyForm Noncommercial) | **Built** for FDA-2020-D-2307 |
 
 ## Install
 
@@ -26,7 +26,7 @@ cp .env.example .env    # then paste your key into .env
 
 **API key:** get a free key at <https://open.gsa.gov/api/regulationsgov/> and put it in `.env` as `REGULATIONS_GOV_API_KEY=...`. `.env` is gitignored. The key is sent only as the `X-Api-Key` header and never appears in logs, the cache or any output. `DEMO_KEY` is fine for single lookups but too rate-limited for a full corpus pull. Personal keys allow 1,000 requests/hour.
 
-**Register with Claude Code** (from the repo directory):
+**Register with an MCP client.** MCP is an open standard, so the server works with any compatible assistant (Claude, OpenAI Codex, others). For Claude Code, from the repo directory:
 
 ```bash
 claude mcp add regintel-mcp -- "$(pwd)/.venv/bin/python" -m regintel_mcp
@@ -56,9 +56,9 @@ For long pulls outside a chat: `.venv/bin/python -m regintel_mcp build-corpus FD
 
 API behaviour verified against the live service is recorded in [`docs/api-notes.md`](docs/api-notes.md).
 
-## Explorer
+## Docket Lens (the explorer)
 
-`explorer/template.html` is a single page that reads one `analysis.json` and shows three linked views: who spoke, what they asked for (a themes × submitter-type heatmap that opens the verbatim requests), and what changed (draft vs final by section, with each request's call). Build a docket's copy with:
+**Docket Lens** (`explorer/template.html`) is a single page that reads one `analysis.json` and shows three linked views: who spoke, what they asked for (a themes × submitter-type heatmap that opens the verbatim requests), and what changed (draft vs final by section, with each request's call). Build a docket's copy with:
 
 ```bash
 .venv/bin/python scripts/build_analysis.py FDA-2020-D-2307

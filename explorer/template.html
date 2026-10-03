@@ -1,4 +1,4 @@
-<title>Regulatory Intelligence Explorer</title>
+<title>Docket Lens</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Geist+Mono:wght@400;500&display=swap">
@@ -35,7 +35,8 @@ button { font: inherit; color: inherit }
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line) }
 .top .wrap { display: flex; align-items: center; gap: 16px; padding-block: 12px; flex-wrap: wrap }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 1.12rem; letter-spacing: -.01em; margin-right: auto; min-width: 0 }
-.brand img { width: 40px; height: auto; border-radius: 4px; background: #eef0f3; padding: 2px 3px }
+.brand .lens { width: 26px; height: 26px; flex: none; fill: none; stroke: var(--accent); stroke-width: 2.4; stroke-linecap: round; transition: transform .3s var(--ease) }
+.brand:hover .lens { transform: rotate(-12deg) scale(1.08) }
 .brand span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
 .brand small { color: var(--muted); font: 400 .78rem var(--f-mono); margin-left: 8px }
 .tabs { position: relative; display: flex; gap: 2px; background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 4px }
@@ -208,7 +209,7 @@ footer.foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-betwe
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="https://blackswancausallabs.com" target="_blank" rel="noopener"><img alt="" src="__FEATHER__"><span>Regulatory Intelligence</span></a>
+    <a class="brand" href="#overview" data-tab="overview"><svg class="lens" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.4 15.4 21 21"/></svg><span>Docket Lens</span></a>
     <nav class="tabs" aria-label="Views">
       <span class="pill-bg" aria-hidden="true"></span>
       <a href="#overview" data-tab="overview">Overview</a>
@@ -545,8 +546,8 @@ function openMethod() {
     ["export_corpus", "Write the whole corpus to one file for the analysis steps"],
   ];
   openDrawer({ kicker: "Method", title: "How this was made", html: `
-    <h4 style="margin-top:0">A Claude plugin</h4>
-    <p>This explorer was produced by <b>regintel-mcp</b>, a Claude plugin built by Black Swan Causal Labs. The plugin bundles an MCP server that retrieves and compares documents, three skills that hold the analysis rules, and one command that runs the whole pipeline. Retrieval is done by deterministic code, judgment by Claude following the skills' written rules, and a person approves each stage before the next one runs.</p>
+    <h4 style="margin-top:0">An open plugin</h4>
+    <p>Docket Lens was produced by <b>regintel-mcp</b>, an open-source plugin built by Black Swan Causal Labs. The plugin bundles an MCP server that retrieves and compares documents, three skills that hold the analysis rules, and one command that runs the whole pipeline. MCP is an open standard, so the server works with any compatible AI assistant, such as Claude or OpenAI Codex, and the skills are plain-text instructions any assistant can follow. Retrieval is done by deterministic code, judgment by Claude following the skills' written rules, and a person approves each stage before the next one runs.</p>
     <h4>The approach</h4>
     <ol class="steps">
       <li><b>Retrieve.</b> An MCP server, <b>regintel-mcp</b>, pulls the docket from the regulations.gov API, extracts the text of every comment and attachment, and compares the draft with the final guidance. It contains no AI.</li>
