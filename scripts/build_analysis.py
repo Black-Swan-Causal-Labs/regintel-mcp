@@ -23,42 +23,62 @@ def _sentence_after(text, start):
     return text[i:text.find(". ", i) + 1] if i >= 0 else None
 
 
-def guidance_overview(docket, draft_ref, fr_changes):
-    """What the guidance is about, in FDA's own words, from the cached Federal Register notices."""
+def _iso(d):
+    return d if re.match(r"\d{4}-", d) else datetime.strptime(d, "%B %d, %Y").date().isoformat()
+
+
+def guidance_overview(docket, draft_ref, final_ref_url):
+    """What the guidance is about, in FDA's own words, parsed from the docket's Federal Register notices.
+
+    Works on any FDA guidance docket: the SUMMARY paragraph and DATES line are standard Federal Register
+    sections; the topic list and the numbered list of changes are used when present and omitted when not.
+    """
     from regintel_mcp.service import Service
     svc = Service()
-    docs = {d["documentId"]: d for d in svc.list_documents(docket)["documents"]}
-    noas = sorted((d for d in docs.values() if d["subtype"] == "Notice of Availability"), key=lambda d: d["postedDate"])
+    docs = svc.list_documents(docket)["documents"]
+    notices = sorted((d for d in docs if d["documentType"] == "Notice"), key=lambda d: d["postedDate"])
+    noas = [d for d in notices if d["subtype"] == "Notice of Availability"]
     draft_noa, final_noa = noas[0], noas[-1]
-    reopen = [d for d in noas[1:-1]]
     t_draft, t_final = _fr_text(svc, draft_noa["documentId"]), _fr_text(svc, final_noa["documentId"])
-    summary = _sentence_after(t_final, "This guidance is intended to provide")
+
+    m = re.search(r"SUMMARY:\s*(.+?)\s*DATES:", t_final)
+    summary = m.group(1).strip() if m else None
+    if summary:  # the opening "FDA is announcing the availability of ..." sentence repeats the title
+        summary = re.sub(r"^The Food and Drug Administration \(FDA[^)]*\) is announcing the availability of .*?(?:''\.|\.'')\s*", "", summary)
+        summary = summary.replace("``", "\u201c").replace("''", "\u201d")
     topics = _sentence_after(t_final, "This guidance discusses the following topics")
     topic_list = [x.strip().rstrip(".") for x in re.split(r";\s*(?:and\s+)?", topics.split(": ", 1)[1])] if topics else []
-    first_deadline = re.search(r"DATES: Submit either electronic or written comments on the draft guidance by ([A-Z][a-z]+ \d{1,2}, \d{4})", t_draft)
+
     timeline = [{"date": draft_noa["postedDate"][:10], "event": "Draft guidance published for comment", "doc_id": draft_noa["documentId"], "fr": draft_noa.get("frDocNum")}]
-    if first_deadline:
-        timeline.append({"date": first_deadline.group(1), "event": "Original comment deadline", "doc_id": draft_noa["documentId"]})
-    for d in reopen:
+    m = re.search(r"DATES: Submit either electronic or written comments on the draft guidance by ([A-Z][a-z]+ \d{1,2}, \d{4})", t_draft)
+    if m:
+        timeline.append({"date": _iso(m.group(1)), "event": "Original comment deadline", "doc_id": draft_noa["documentId"]})
+    for d in notices:
+        if d["documentId"] in (draft_noa["documentId"], final_noa["documentId"]):
+            continue
         t = _fr_text(svc, d["documentId"])
-        m = re.search(r"comments by ([A-Z][a-z]+ \d{1,2}, \d{4})", t)
-        timeline.append({"date": d["postedDate"][:10], "event": "Comment period reopened", "doc_id": d["documentId"], "fr": d.get("frDocNum")})
+        verb = "reopened" if "reopen" in t.lower() else "extended"
+        timeline.append({"date": d["postedDate"][:10], "event": f"Comment period {verb}", "doc_id": d["documentId"], "fr": d.get("frDocNum")})
+        m = re.search(r"comments (?:by|on or before) ([A-Z][a-z]+ \d{1,2}, \d{4})", t)
         if m:
-            timeline.append({"date": m.group(1), "event": "Comment period closed", "doc_id": d["documentId"]})
+            timeline.append({"date": _iso(m.group(1)), "event": "Comment period closed", "doc_id": d["documentId"]})
     timeline.append({"date": final_noa["postedDate"][:10], "event": "Final guidance published", "doc_id": final_noa["documentId"], "fr": final_noa.get("frDocNum")})
-    for e in timeline:  # normalise "November 29, 2021" to ISO
-        if not re.match(r"\d{4}-", e["date"]):
-            e["date"] = datetime.strptime(e["date"], "%B %d, %Y").date().isoformat()
     timeline.sort(key=lambda e: e["date"])
-    items = re.split(r"\(\d\)\s*", fr_changes.split("include:", 1)[-1])
-    changes = [re.sub(r"[;,]?\s*(and)?\s*$", "", x.strip()).rstrip(".") for x in items if x.strip()]
-    tail = re.search(r"In addition, editorial changes[^.]*\.", fr_changes)
-    if changes and tail:
-        changes[-1] = changes[-1].split(". In addition")[0]
+
+    i = t_final.find("Changes from the draft")
+    block = t_final[i:t_final.find("This guidance is being issued", i)] if i >= 0 else ""
+    editorial = re.search(r"In addition, editorial changes[^.]*\.", block)
+    core = block.split("In addition, editorial changes")[0].strip()
+    core = re.sub(r"^Changes from the draft to the final guidance include:?\s*", "", core)
+    if re.search(r"\(\d\)", core):
+        changes = [re.sub(r"[;,]?\s*(and)?\s*$", "", x.strip()).rstrip(".") for x in re.split(r"\(\d\)\s*", core) if x.strip()]
+    else:
+        changes = [core.rstrip(".")] if core else []
+    changes = [c[0].upper() + c[1:] for c in changes if c]
     return {"summary": summary, "summary_source": final_noa["documentId"], "topics": topic_list, "topics_source": final_noa["documentId"],
             "timeline": timeline, "fda_listed_changes": changes, "fda_listed_changes_source": final_noa["documentId"],
-            "editorial_note": tail.group(0) if tail else None,
-            "draft_url": f"https://www.regulations.gov/document/{draft_ref}", "final_url": "https://www.fda.gov/media/152503/download"}
+            "fda_listed_changes_text": block.strip(), "editorial_note": editorial.group(0) if editorial else None,
+            "draft_url": f"https://www.regulations.gov/document/{draft_ref}", "final_url": final_ref_url}
 
 
 def main(docket):
@@ -132,8 +152,8 @@ def main(docket):
         "asks": [{k: a[k] for k in keep_a if k in a} for a in asks["asks"]],
         "sections": [{k: s[k] for k in keep_s if k in s} for s in diff["sections"]],
         "concordance": [{k: c[k] for k in keep_c if k in c} for c in conc["concordance"]],
-        "fr_listed_changes": (D / "concordance" / "fr_listed_changes.txt").read_text().strip(),
-        "guidance": guidance_overview(docket, conc["draft_ref"], (D / "concordance" / "fr_listed_changes.txt").read_text()),
+        "guidance": guidance_overview(docket, conc["draft_ref"], conc["final_ref"] if conc["final_ref"].startswith("http")
+                                      else f"https://www.regulations.gov/document/{conc['final_ref']}"),
     }
     (D / "analysis.json").write_text(json.dumps(out, indent=1))
     print(f"wrote {D / 'analysis.json'}: {len(out['asks'])} asks, {len(out['concordance'])} calls, "

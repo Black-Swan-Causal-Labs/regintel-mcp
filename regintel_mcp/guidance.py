@@ -21,7 +21,7 @@ import difflib
 import re
 from collections import Counter
 
-PARSER_VERSION = "1"
+PARSER_VERSION = "2"
 PARA = "\u00b6"  # paragraph-break token in word diffs
 
 ROMAN = r"(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3})"
@@ -106,7 +106,8 @@ def _heading(ln: dict, from_pdf: bool):
     # Unnumbered all-caps bold heading (e.g. a final guidance's "REFERENCES").
     m = RE_CAPS.match(t)
     if m and from_pdf and bold >= 0.9:
-        return 1, re.sub(r"[^A-Z0-9]+", "_", t).strip("_"), m.group("title")
+        # Short id from the first word (APPENDIX, REFERENCES, GLOSSARY); sectionize() de-duplicates.
+        return 1, re.sub(r"[^A-Z0-9]+", "_", t).strip("_").split("_")[0], m.group("title")
     return None
 
 

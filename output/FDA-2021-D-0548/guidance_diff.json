@@ -1,0 +1,1763 @@
+{
+  "draft": {
+    "ref": "FDA-2021-D-0548-0002",
+    "source_url": "https://downloads.regulations.gov/FDA-2021-D-0548-0002/attachment_1.pdf",
+    "n_sections": 11
+  },
+  "final": {
+    "ref": "FDA-2021-D-0548-0037",
+    "source_url": "https://downloads.regulations.gov/FDA-2021-D-0548-0037/attachment_1.pdf",
+    "n_sections": 10
+  },
+  "method": "Sections split on Roman/lettered/numbered bold headings; aligned by parent-qualified heading match, then heading+text similarity; paragraph diff within aligned sections; paragraphs found in another section are labelled moved_in/moved_out. Footnotes are excluded (font-size filter). Deterministic; no model calls.",
+  "status_counts": {
+    "modified": 9,
+    "unchanged": 1,
+    "removed": 1
+  },
+  "sections": [
+    {
+      "section_id": "front",
+      "draft_section_id": "front",
+      "final_section_id": "front",
+      "heading": "Front matter",
+      "draft_heading": "Front matter",
+      "level": 0,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 243,
+        "words_final": 129,
+        "words_added": 7,
+        "words_removed": 121,
+        "similarity": 0.656,
+        "paragraphs_modified": 4,
+        "paragraphs_removed": 5,
+        "paragraphs_unchanged": 7,
+        "paragraphs_added": 2
+      },
+      "draft_text": "Data Standards for Drug and Biological Product Submissions Containing Real-World Data Guidance for Industry\n\nDRAFT GUIDANCE\n\nThis guidance document is being distributed for comment purposes only.\n\nComments and suggestions regarding this draft document should be submitted within 60 days of publication in the Federal Register of the notice announcing the availability of the draft guidance. Submit electronic comments to https://www.regulations.gov. Submit written comments to the Dockets Management Staff (HFA-305), Food and Drug Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852. All comments should be identified with the docket number listed in the notice of availability that publishes in the Federal Register.\n\nFor questions regarding this draft document or the Real-World Evidence Program, please email CDERMedicalPolicy-RealWorldEvidence@fda.hhs.gov.\n\nU.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER)\n\nOctober 2021 Real-World Data/Real-World Evidence (RWD/RWE) Data Standards for Drug and Biological Product Submissions Containing Real-World Data Guidance for Industry\n\nU.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER)\n\nOctober 2021 Real-World Data/Real-World Evidence (RWD/RWE)\n\nTABLE OF CONTENTS\n\nI. INTRODUCTION AND SCOPE .................................................................................... 1\n\nII. REGULATORY BACKGROUND.................................................................................. 2\n\nIII. APPLYING CURRENTLY SUPPORTED DATA STANDARDS TO STUDY DATA DERIVED FROM REAL-WORLD DATA SOURCES ................................................ 3\n\nIV. GLOSSARY....................................................................................................................... 5\n\nAPPENDIX: EXAMPLES OF MAPPING HEALTH CARE DATA TO CDISC SDTM .... 8\n\nData Standards for Drug and Biological Product Submissions Containing Real-World Data Guidance for Industry",
+      "final_text": "Data Standards for Drug and Biological Product Submissions Containing Real-World Data\n\nU.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER)\n\nDecember 2023\n\nReal-World Data/Real-World Evidence (RWD/RWE) Data Standards for Drug and Biological Product Submissions Containing Real-World Data\n\nU.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER)\n\nDecember 2023\n\nReal-World Data/Real-World Evidence (RWD/RWE)\n\nTABLE OF CONTENTS\n\nI. INTRODUCTION AND SCOPE ..................................................................................... 1\n\nII. REGULATORY BACKGROUND.................................................................................. 2\n\nIII. APPLYING CURRENTLY SUPPORTED DATA STANDARDS TO STUDY DATA DERIVED FROM REAL-WORLD DATA SOURCES ............................................................ 3\n\nAPPENDIX: EXAMPLES OF MAPPING HEALTH CARE DATA TO CDISC SDTM .... 8\n\nData Standards for Drug and Biological Product Submissions Containing Real-World Data",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "Data Standards for Drug and Biological Product Submissions Containing Real-World Data Guidance for Industry",
+          "final": "Data Standards for Drug and Biological Product Submissions Containing Real-World Data",
+          "similarity": 0.889
+        },
+        {
+          "op": "removed",
+          "draft": "DRAFT GUIDANCE",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "This guidance document is being distributed for comment purposes only.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Comments and suggestions regarding this draft document should be submitted within 60 days of publication in the Federal Register of the notice announcing the availability of the draft guidance. Submit electronic comments to https://www.regulations.gov. Submit written comments to the Dockets Management Staff (HFA-305), Food and Drug Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852. All comments should be identified with the docket number listed in the notice of availability that publishes in the Federal Register.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "For questions regarding this draft document or the Real-World Evidence Program, please email CDERMedicalPolicy-RealWorldEvidence@fda.hhs.gov.",
+          "final": null
+        },
+        {
+          "op": "modified",
+          "draft": "October 2021 Real-World Data/Real-World Evidence (RWD/RWE) Data Standards for Drug and Biological Product Submissions Containing Real-World Data Guidance for Industry",
+          "final": "December 2023",
+          "similarity": 0.0
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "Real-World Data/Real-World Evidence (RWD/RWE) Data Standards for Drug and Biological Product Submissions Containing Real-World Data"
+        },
+        {
+          "op": "modified",
+          "draft": "October 2021 Real-World Data/Real-World Evidence (RWD/RWE)",
+          "final": "December 2023",
+          "similarity": 0.0
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "Real-World Data/Real-World Evidence (RWD/RWE)"
+        },
+        {
+          "op": "removed",
+          "draft": "IV. GLOSSARY....................................................................................................................... 5",
+          "final": null
+        },
+        {
+          "op": "modified",
+          "draft": "Data Standards for Drug and Biological Product Submissions Containing Real-World Data Guidance for Industry",
+          "final": "Data Standards for Drug and Biological Product Submissions Containing Real-World Data",
+          "similarity": 0.889
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "Data Standards for Drug and Biological Product Submissions Containing Real-World Data"
+        ],
+        [
+          "-",
+          "Guidance for Industry \u00b6 DRAFT GUIDANCE \u00b6 This guidance document is being distributed for comment purposes only. \u00b6 Comments and suggestions regarding this draft document should be submitted within 60 days of publication in the Federal Register of the notice announcing the availability of the draft guidance. Submit electronic comments to https://www.regulations.gov. Submit written comments to the Dockets Management Staff (HFA-305), Food and Drug Administration, 5630 Fishers Lane, Rm. 1061, Rockville, MD 20852. All comments should be identified with the docket number listed in the notice of availability that publishes in the Federal Register. \u00b6 For questions regarding this draft document or the Real-World Evidence Program, please email CDERMedicalPolicy-RealWorldEvidence@fda.hhs.gov."
+        ],
+        [
+          "=",
+          "\u00b6 U.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER) \u00b6"
+        ],
+        [
+          "-",
+          "October 2021"
+        ],
+        [
+          "+",
+          "December 2023 \u00b6"
+        ],
+        [
+          "=",
+          "Real-World Data/Real-World Evidence (RWD/RWE) Data Standards for Drug and Biological Product Submissions Containing Real-World Data"
+        ],
+        [
+          "-",
+          "Guidance for Industry"
+        ],
+        [
+          "=",
+          "\u00b6 U.S. Department of Health and Human Services Food and Drug Administration Center for Drug Evaluation and Research (CDER) Center for Biologics Evaluation and Research (CBER) \u00b6"
+        ],
+        [
+          "-",
+          "October 2021"
+        ],
+        [
+          "+",
+          "December 2023 \u00b6"
+        ],
+        [
+          "=",
+          "Real-World Data/Real-World Evidence (RWD/RWE) \u00b6 TABLE OF CONTENTS \u00b6 I. INTRODUCTION AND SCOPE"
+        ],
+        [
+          "-",
+          "...................................................................................."
+        ],
+        [
+          "+",
+          "....................................................................................."
+        ],
+        [
+          "=",
+          "1 \u00b6 II. REGULATORY BACKGROUND.................................................................................. 2 \u00b6 III. APPLYING CURRENTLY SUPPORTED DATA STANDARDS TO STUDY DATA DERIVED FROM REAL-WORLD DATA SOURCES"
+        ],
+        [
+          "-",
+          "................................................"
+        ],
+        [
+          "+",
+          "............................................................"
+        ],
+        [
+          "=",
+          "3"
+        ],
+        [
+          "-",
+          "\u00b6 IV. GLOSSARY....................................................................................................................... 5"
+        ],
+        [
+          "=",
+          "\u00b6 APPENDIX: EXAMPLES OF MAPPING HEALTH CARE DATA TO CDISC SDTM .... 8 \u00b6 Data Standards for Drug and Biological Product Submissions Containing Real-World Data"
+        ],
+        [
+          "-",
+          "Guidance for Industry"
+        ]
+      ]
+    },
+    {
+      "section_id": "I",
+      "draft_section_id": "I",
+      "final_section_id": "I",
+      "heading": "INTRODUCTION AND SCOPE",
+      "draft_heading": "INTRODUCTION AND SCOPE",
+      "level": 1,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 393,
+        "words_final": 360,
+        "words_added": 19,
+        "words_removed": 52,
+        "similarity": 0.906,
+        "paragraphs_unchanged": 3,
+        "paragraphs_modified": 2
+      },
+      "draft_text": "21st Century Cures Act and Real-World Data\n\nThe 21 Century Cures Act, signed into law on December 13, 2016, is intended to accelerate medical product development and bring innovations faster and more efficiently to the patients who need them. Among other provisions, the 21 Century Cures Act added section 505F to the Federal Food, Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 355g). Pursuant to this action, calling for FDA to issue guidance on the use of real-world evidence (RWE) in regulatory decision-making, FDA has created a framework for a program to evaluate the potential use of real-world data (RWD) to generate RWE to help support the approval of new indication(s) for drugs already approved under section 505(c) of the FD&C Act (21 U.S.C. 355(c)) or to help support or satisfy post-approval study requirements (RWE Program).\n\nThis guidance provides recommendations to sponsors for complying with section 745A(a) of the FD&C Act (21 U.S.C. 379k-1(a)) when submitting RWD as study data in applicable drug submissions. FDA is issuing this guidance as part of its RWE Program and to satisfy, in part, the mandate under section 505F of the FD&C Act (21 U.S.C. 355g) to issue guidance on the use of RWE in regulatory decision-making.\n\nThis guidance addresses considerations for the use of data standards currently supported by FDA in applicable drug submissions containing study data derived from RWD sources. For the purposes of this guidance, FDA defines RWD as data relating to individual patient health status or the delivery of health care routinely collected from a variety of sources. Examples of RWD include data from electronic health records (EHRs); medical claims data, data from product and disease registries; patient-generated data (including data from in-home-use settings); and data gathered from other sources that can inform on health status, such as mobile devices.\n\nThe contents of this document do not have the force and effect of law and are not meant to bind the public in any way, unless specifically incorporated into a contract. This document is intended only to provide clarity to the public regarding existing requirements under the law. FDA guidance documents, including this guidance, should be viewed only as recommendations, unless specific regulatory or statutory requirements are cited. The use of the word should in FDA guidance means that something is suggested or recommended, but not required.",
+      "final_text": "21st Century Cures Act and Real-World Data\n\nThe 21 Century Cures Act, signed into law on December 13, 2016, is intended to accelerate medical product development and bring innovations faster and more efficiently to the patients who need them. Among other provisions, the 21 Century Cures Act added section 505F to the Federal Food, Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 355g). Pursuant to this action, calling for FDA to issue guidance on the use of real-world evidence (RWE) in regulatory decision-making, FDA has created a framework for a program to evaluate the potential use of real-world data (RWD) to generate RWE to help support the approval of new indication(s) for drugs already approved under section 505(c) of the FD&C Act (21 U.S.C. 355(c)) or to help support or satisfy post-approval study requirements (RWE Program).\n\nThis guidance provides recommendations to sponsors for complying with section 745A(a) of the FD&C Act (21 U.S.C. 379k-1(a)) when submitting RWD as study data in applicable drug submissions. FDA is issuing this guidance as part of its RWE Program and to satisfy, in part, the mandate under section 505F of the FD&C Act (21 U.S.C. 355g) to issue guidance on the use of RWE in regulatory decision-making.\n\nThis guidance addresses considerations for the use of data standards currently supported by FDA in applicable drug submissions containing study data derived from RWD sources. For the purposes of this guidance, FDA defines RWD as data relating to patient health status and/or the delivery of health care routinely collected from a variety of sources. Examples of RWD include data from electronic health records (EHRs); medical claims data; data from product and disease registries; patient-generated data (including data from in-home-use settings); and data gathered from other sources that can inform on health status, such as mobile devices.\n\nIn general, FDA\u2019s guidance documents do not establish legally enforceable responsibilities. Instead, guidances describe the Agency\u2019s current thinking on a topic and should be viewed only as recommendations, unless specific regulatory or statutory requirements are cited. The use of the word should in FDA guidance means that something is suggested or recommended, but not required.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "This guidance addresses considerations for the use of data standards currently supported by FDA in applicable drug submissions containing study data derived from RWD sources. For the purposes of this guidance, FDA defines RWD as data relating to individual patient health status or the delivery of health care routinely collected from a variety of sources. Examples of RWD include data from electronic health records (EHRs); medical claims data, data from product and disease registries; patient-generated data (including data from in-home-use settings); and data gathered from other sources that can inform on health status, such as mobile devices.",
+          "final": "This guidance addresses considerations for the use of data standards currently supported by FDA in applicable drug submissions containing study data derived from RWD sources. For the purposes of this guidance, FDA defines RWD as data relating to patient health status and/or the delivery of health care routinely collected from a variety of sources. Examples of RWD include data from electronic health records (EHRs); medical claims data; data from product and disease registries; patient-generated data (including data from in-home-use settings); and data gathered from other sources that can inform on health status, such as mobile devices.",
+          "similarity": 0.985
+        },
+        {
+          "op": "modified",
+          "draft": "The contents of this document do not have the force and effect of law and are not meant to bind the public in any way, unless specifically incorporated into a contract. This document is intended only to provide clarity to the public regarding existing requirements under the law. FDA guidance documents, including this guidance, should be viewed only as recommendations, unless specific regulatory or statutory requirements are cited. The use of the word should in FDA guidance means that something is suggested or recommended, but not required.",
+          "final": "In general, FDA\u2019s guidance documents do not establish legally enforceable responsibilities. Instead, guidances describe the Agency\u2019s current thinking on a topic and should be viewed only as recommendations, unless specific regulatory or statutory requirements are cited. The use of the word should in FDA guidance means that something is suggested or recommended, but not required.",
+          "similarity": 0.521
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "21st Century Cures Act and Real-World Data \u00b6 The 21 Century Cures Act, signed into law on December 13, 2016, is intended to accelerate medical product development and bring innovations faster and more efficiently to the patients who need them. Among other provisions, the 21 Century Cures Act added section 505F to the Federal Food, Drug, and Cosmetic Act (FD&C Act) (21 U.S.C. 355g). Pursuant to this action, calling for FDA to issue guidance on the use of real-world evidence (RWE) in regulatory decision-making, FDA has created a framework for a program to evaluate the potential use of real-world data (RWD) to generate RWE to help support the approval of new indication(s) for drugs already approved under section 505(c) of the FD&C Act (21 U.S.C. 355(c)) or to help support or satisfy post-approval study requirements (RWE Program). \u00b6 This guidance provides recommendations to sponsors for complying with section 745A(a) of the FD&C Act (21 U.S.C. 379k-1(a)) when submitting RWD as study data in applicable drug submissions. FDA is issuing this guidance as part of its RWE Program and to satisfy, in part, the mandate under section 505F of the FD&C Act (21 U.S.C. 355g) to issue guidance on the use of RWE in regulatory decision-making. \u00b6 This guidance addresses considerations for the use of data standards currently supported by FDA in applicable drug submissions containing study data derived from RWD sources. For the purposes of this guidance, FDA defines RWD as data relating to"
+        ],
+        [
+          "-",
+          "individual"
+        ],
+        [
+          "=",
+          "patient health status"
+        ],
+        [
+          "-",
+          "or"
+        ],
+        [
+          "+",
+          "and/or"
+        ],
+        [
+          "=",
+          "the delivery of health care routinely collected from a variety of sources. Examples of RWD include data from electronic health records (EHRs); medical claims"
+        ],
+        [
+          "-",
+          "data,"
+        ],
+        [
+          "+",
+          "data;"
+        ],
+        [
+          "=",
+          "data from product and disease registries; patient-generated data (including data from in-home-use settings); and data gathered from other sources that can inform on health status, such as mobile devices. \u00b6"
+        ],
+        [
+          "-",
+          "The contents of this document"
+        ],
+        [
+          "+",
+          "In general, FDA\u2019s guidance documents"
+        ],
+        [
+          "=",
+          "do not"
+        ],
+        [
+          "-",
+          "have"
+        ],
+        [
+          "+",
+          "establish legally enforceable responsibilities. Instead, guidances describe"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "force"
+        ],
+        [
+          "+",
+          "Agency\u2019s current thinking on a topic"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "effect of law and are not meant to bind the public in any way, unless specifically incorporated into a contract. This document is intended only to provide clarity to the public regarding existing requirements under the law. FDA guidance documents, including this guidance,"
+        ],
+        [
+          "=",
+          "should be viewed only as recommendations, unless specific regulatory or statutory requirements are cited. The use of the word should in FDA guidance means that something is suggested or recommended, but not required."
+        ]
+      ]
+    },
+    {
+      "section_id": "II",
+      "draft_section_id": "II",
+      "final_section_id": "II",
+      "heading": "REGULATORY BACKGROUND",
+      "draft_heading": "REGULATORY BACKGROUND",
+      "level": 1,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 353,
+        "words_final": 340,
+        "words_added": 6,
+        "words_removed": 19,
+        "similarity": 0.964,
+        "paragraphs_modified": 2,
+        "paragraphs_added": 1
+      },
+      "draft_text": "Under section 745A(a) of the FD&C Act, at least 24 months after the issuance of a final guidance document in which FDA has specified the electronic format for submitting certain submission types to the Agency, such content must be submitted electronically and in the format specified by FDA. The guidance for industry, Providing Regulatory Submissions In Electronic Format \u2014 Standardized Study Data (Study Data Guidance), and the technical specifications referenced therein describe electronic submission requirements under section 745A(a) of the FD&C Act for clinical and nonclinical study data contained in new drug applications (NDAs), abbreviated new drug applications (ANDAs), certain biologics license applications (BLAs), and certain investigational new drug applications (INDs) submitted to the Center for Drug Evaluation and Research or the Center for Biologics Evaluation and Research. Given that these electronic submission requirements apply to study data submitted in the covered application types, they apply to RWD that is submitted as study data in such applications. That is, RWD submitted as study data to NDAs, ANDAs, certain BLAs, and certain INDs, as further described in section II.A of the Study Data Guidance, must be in an electronic format that the Agency can process, review, and archive, unless such submission is exempt from the electronic submission requirements or if FDA has granted a waiver. Currently, as stated in the Study Data Guidance,\n\nthe Agency can process, review, and archive electronic submissions of clinical and nonclinical study data (including those derived from RWD sources) that use the standards specified in the Data Standards Catalog (Catalog). As that guidance explains, the Catalog provides a listing of currently supported and/or required standards, their uses, the date FDA will begin (or has begun) to support a particular standard, the date such support ends (or will end), the date the requirement to use a particular standard will begin (or has begun), the date such requirement ends (or will end), and other pertinent information. FDA is issuing this guidance to provide recommendations to sponsors for complying with section 745A(a) of the FD&C Act using standards specified in the Catalog when submitting study data derived from RWD sources in applicable drug submissions.",
+      "final_text": "Under section 745A(a) of the FD&C Act, at least 24 months after the issuance of a final guidance document in which FDA has specified the electronic format for submitting certain submission types to the Agency, such content must be submitted electronically and in the format specified by FDA. The guidance for industry Providing Regulatory Submissions in Electronic Format\u2014Standardized Study Data (Study Data Guidance) and the technical specifications referenced therein describe electronic submission requirements under section 745A(a) of the FD&C Act for clinical and nonclinical study data contained in new drug applications (NDAs), abbreviated new drug applications (ANDAs), certain biologics license applications (BLAs), and certain investigational new drug applications (INDs) submitted to CDER or CBER. Given that these electronic submission requirements apply to study data submitted in the covered application types, they apply to RWD that is submitted as study data in such applications. That is, RWD submitted as study data to NDAs, ANDAs, certain BLAs, and certain INDs, as further described in section II.A of the Study Data Guidance, must be in an electronic format that the\n\nAgency can process, review, and archive, unless such submission is exempt from the electronic submission requirements or if FDA has granted a waiver. Currently, as stated in the Study Data Guidance, the Agency can process, review, and archive electronic submissions of clinical and nonclinical study data (including those derived from RWD sources) that use the standards specified in the Data Standards Catalog (Catalog). As that guidance explains, the Catalog provides a listing of currently supported and/or required standards, their uses, the date FDA will begin (or has begun) to support a particular standard, the date such support ends (or will end), the date the requirement to use a particular standard will begin (or has begun), the date such requirement ends (or will end), and other pertinent information.\n\nFDA is issuing this guidance to provide recommendations to sponsors for complying with section 745A(a) of the FD&C Act using standards specified in the Catalog when submitting study data derived from RWD sources in applicable drug submissions.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "Under section 745A(a) of the FD&C Act, at least 24 months after the issuance of a final guidance document in which FDA has specified the electronic format for submitting certain submission types to the Agency, such content must be submitted electronically and in the format specified by FDA. The guidance for industry, Providing Regulatory Submissions In Electronic Format \u2014 Standardized Study Data (Study Data Guidance), and the technical specifications referenced therein describe electronic submission requirements under section 745A(a) of the FD&C Act for clinical and nonclinical study data contained in new drug applications (NDAs), abbreviated new drug applications (ANDAs), certain biologics license applications (BLAs), and certain investigational new drug applications (INDs) submitted to the Center for Drug Evaluation and Research or the Center for Biologics Evaluation and Research. Given that these electronic submission requirements apply to study data submitted in the covered application types, they apply to RWD that is submitted as study data in such applications. That is, RWD submitted as study data to NDAs, ANDAs, certain BLAs, and certain INDs, as further described in section II.A of the Study Data Guidance, must be in an electronic format that the Agency can process, review, and archive, unless such submission is exempt from the electronic submission requirements or if FDA has granted a waiver. Currently, as stated in the Study Data Guidance,",
+          "final": "Under section 745A(a) of the FD&C Act, at least 24 months after the issuance of a final guidance document in which FDA has specified the electronic format for submitting certain submission types to the Agency, such content must be submitted electronically and in the format specified by FDA. The guidance for industry Providing Regulatory Submissions in Electronic Format\u2014Standardized Study Data (Study Data Guidance) and the technical specifications referenced therein describe electronic submission requirements under section 745A(a) of the FD&C Act for clinical and nonclinical study data contained in new drug applications (NDAs), abbreviated new drug applications (ANDAs), certain biologics license applications (BLAs), and certain investigational new drug applications (INDs) submitted to CDER or CBER. Given that these electronic submission requirements apply to study data submitted in the covered application types, they apply to RWD that is submitted as study data in such applications. That is, RWD submitted as study data to NDAs, ANDAs, certain BLAs, and certain INDs, as further described in section II.A of the Study Data Guidance, must be in an electronic format that the",
+          "similarity": 0.882
+        },
+        {
+          "op": "modified",
+          "draft": "the Agency can process, review, and archive electronic submissions of clinical and nonclinical study data (including those derived from RWD sources) that use the standards specified in the Data Standards Catalog (Catalog). As that guidance explains, the Catalog provides a listing of currently supported and/or required standards, their uses, the date FDA will begin (or has begun) to support a particular standard, the date such support ends (or will end), the date the requirement to use a particular standard will begin (or has begun), the date such requirement ends (or will end), and other pertinent information. FDA is issuing this guidance to provide recommendations to sponsors for complying with section 745A(a) of the FD&C Act using standards specified in the Catalog when submitting study data derived from RWD sources in applicable drug submissions.",
+          "final": "Agency can process, review, and archive, unless such submission is exempt from the electronic submission requirements or if FDA has granted a waiver. Currently, as stated in the Study Data Guidance, the Agency can process, review, and archive electronic submissions of clinical and nonclinical study data (including those derived from RWD sources) that use the standards specified in the Data Standards Catalog (Catalog). As that guidance explains, the Catalog provides a listing of currently supported and/or required standards, their uses, the date FDA will begin (or has begun) to support a particular standard, the date such support ends (or will end), the date the requirement to use a particular standard will begin (or has begun), the date such requirement ends (or will end), and other pertinent information.",
+          "similarity": 0.738
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "FDA is issuing this guidance to provide recommendations to sponsors for complying with section 745A(a) of the FD&C Act using standards specified in the Catalog when submitting study data derived from RWD sources in applicable drug submissions."
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "Under section 745A(a) of the FD&C Act, at least 24 months after the issuance of a final guidance document in which FDA has specified the electronic format for submitting certain submission types to the Agency, such content must be submitted electronically and in the format specified by FDA. The guidance for"
+        ],
+        [
+          "-",
+          "industry,"
+        ],
+        [
+          "+",
+          "industry"
+        ],
+        [
+          "=",
+          "Providing Regulatory Submissions"
+        ],
+        [
+          "-",
+          "In"
+        ],
+        [
+          "+",
+          "in"
+        ],
+        [
+          "=",
+          "Electronic"
+        ],
+        [
+          "-",
+          "Format \u2014 Standardized"
+        ],
+        [
+          "+",
+          "Format\u2014Standardized"
+        ],
+        [
+          "=",
+          "Study Data (Study Data"
+        ],
+        [
+          "-",
+          "Guidance),"
+        ],
+        [
+          "+",
+          "Guidance)"
+        ],
+        [
+          "=",
+          "and the technical specifications referenced therein describe electronic submission requirements under section 745A(a) of the FD&C Act for clinical and nonclinical study data contained in new drug applications (NDAs), abbreviated new drug applications (ANDAs), certain biologics license applications (BLAs), and certain investigational new drug applications (INDs) submitted to"
+        ],
+        [
+          "-",
+          "the Center for Drug Evaluation and Research"
+        ],
+        [
+          "+",
+          "CDER"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "the Center for Biologics Evaluation and Research."
+        ],
+        [
+          "+",
+          "CBER."
+        ],
+        [
+          "=",
+          "Given that these electronic submission requirements apply to study data submitted in the covered application types, they apply to RWD that is submitted as study data in such applications. That is, RWD submitted as study data to NDAs, ANDAs, certain BLAs, and certain INDs, as further described in section II.A of the Study Data Guidance, must be in an electronic format that the"
+        ],
+        [
+          "+",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "Agency can process, review, and archive, unless such submission is exempt from the electronic submission requirements or if FDA has granted a waiver. Currently, as stated in the Study Data Guidance,"
+        ],
+        [
+          "-",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "the Agency can process, review, and archive electronic submissions of clinical and nonclinical study data (including those derived from RWD sources) that use the standards specified in the Data Standards Catalog (Catalog). As that guidance explains, the Catalog provides a listing of currently supported and/or required standards, their uses, the date FDA will begin (or has begun) to support a particular standard, the date such support ends (or will end), the date the requirement to use a particular standard will begin (or has begun), the date such requirement ends (or will end), and other pertinent information."
+        ],
+        [
+          "+",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "FDA is issuing this guidance to provide recommendations to sponsors for complying with section 745A(a) of the FD&C Act using standards specified in the Catalog when submitting study data derived from RWD sources in applicable drug submissions."
+        ]
+      ]
+    },
+    {
+      "section_id": "III",
+      "draft_section_id": "III",
+      "final_section_id": "III",
+      "heading": "APPLYING CURRENTLY SUPPORTED DATA STANDARDS TO STUDY DATA DERIVED FROM REAL-WORLD DATA SOURCES",
+      "draft_heading": "APPLYING CURRENTLY SUPPORTED DATA STANDARDS TO STUDY DATA DERIVED FROM REAL-WORLD DATA SOURCES",
+      "level": 1,
+      "status": "unchanged",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 0,
+        "words_final": 0,
+        "words_added": 0,
+        "words_removed": 0,
+        "similarity": 1.0
+      },
+      "draft_text": "",
+      "final_text": "",
+      "paragraph_changes": [],
+      "word_diff": []
+    },
+    {
+      "section_id": "III.A",
+      "draft_section_id": "III.A",
+      "final_section_id": "III.A",
+      "heading": "Challenges in Real-World Data Standardization",
+      "draft_heading": "Challenges in Real-World Data Standardization",
+      "level": 2,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 123,
+        "words_final": 213,
+        "words_added": 95,
+        "words_removed": 5,
+        "similarity": 0.702,
+        "paragraphs_modified": 1,
+        "paragraphs_added": 8
+      },
+      "draft_text": "FDA recognizes the challenges involved in standardizing study data derived from RWD sources for inclusion in applicable drug submissions. These challenges include but are not limited to: (1) the variety of RWD sources and their inconsistent formats (e.g., EHR, registry); (2) the differences in source data captured regionally and globally using different standards, terminologies, and exchange formats for the representation of the same or similar data elements (3) a wide range of methods and algorithms used to create datasets intended to aggregate data; and (4) the many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when shared.",
+      "final_text": "FDA recognizes the challenges involved in standardizing study data derived from RWD sources for inclusion in applicable drug submissions. These challenges include but are not limited to:\n\n\u2022 The variety of RWD sources and their inconsistent formats (e.g., EHR, registry)\n\n\u2022 The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)\n\n\u2022 The differences in source data captured regionally and globally using different standards, terminologies, and exchange formats for the representation of the same or similar data elements\n\n\u2022 Certain information only existing in non-structured documentation (such as text in physician notes)\n\n\u2022 A wide range of methods and algorithms which could be used to create datasets intended to aggregate data\n\n\u2022 The many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when shared\n\n\u2022 The various levels of access a sponsor has to any data sources used in the study\n\nApproaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "FDA recognizes the challenges involved in standardizing study data derived from RWD sources for inclusion in applicable drug submissions. These challenges include but are not limited to: (1) the variety of RWD sources and their inconsistent formats (e.g., EHR, registry); (2) the differences in source data captured regionally and globally using different standards, terminologies, and exchange formats for the representation of the same or similar data elements (3) a wide range of methods and algorithms used to create datasets intended to aggregate data; and (4) the many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when shared.",
+          "final": "FDA recognizes the challenges involved in standardizing study data derived from RWD sources for inclusion in applicable drug submissions. These challenges include but are not limited to:",
+          "similarity": 0.36
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 The variety of RWD sources and their inconsistent formats (e.g., EHR, registry)"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 The differences in source data captured regionally and globally using different standards, terminologies, and exchange formats for the representation of the same or similar data elements"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 Certain information only existing in non-structured documentation (such as text in physician notes)"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 A wide range of methods and algorithms which could be used to create datasets intended to aggregate data"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 The many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when shared"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "\u2022 The various levels of access a sponsor has to any data sources used in the study"
+        },
+        {
+          "op": "added",
+          "draft": null,
+          "final": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study."
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "FDA recognizes the challenges involved in standardizing study data derived from RWD sources for inclusion in applicable drug submissions. These challenges include but are not limited to:"
+        ],
+        [
+          "-",
+          "(1) the"
+        ],
+        [
+          "+",
+          "\u00b6 \u2022 The"
+        ],
+        [
+          "=",
+          "variety of RWD sources and their inconsistent formats (e.g., EHR,"
+        ],
+        [
+          "-",
+          "registry); (2) the"
+        ],
+        [
+          "+",
+          "registry) \u00b6 \u2022 The potential use of more than one type of RWD source in a study (such as combining EHR and claims data) \u00b6 \u2022 The"
+        ],
+        [
+          "=",
+          "differences in source data captured regionally and globally using different standards, terminologies, and exchange formats for the representation of the same or similar data elements"
+        ],
+        [
+          "-",
+          "(3) a"
+        ],
+        [
+          "+",
+          "\u00b6 \u2022 Certain information only existing in non-structured documentation (such as text in physician notes) \u00b6 \u2022 A"
+        ],
+        [
+          "=",
+          "wide range of methods and algorithms"
+        ],
+        [
+          "+",
+          "which could be"
+        ],
+        [
+          "=",
+          "used to create datasets intended to aggregate"
+        ],
+        [
+          "-",
+          "data; and (4) the"
+        ],
+        [
+          "+",
+          "data \u00b6 \u2022 The"
+        ],
+        [
+          "=",
+          "many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when"
+        ],
+        [
+          "-",
+          "shared."
+        ],
+        [
+          "+",
+          "shared \u00b6 \u2022 The various levels of access a sponsor has to any data sources used in the study \u00b6 Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study."
+        ]
+      ]
+    },
+    {
+      "section_id": "III.B",
+      "draft_section_id": "III.B",
+      "final_section_id": "III.B",
+      "heading": "Documentation of Processes for Managing Real-World Data",
+      "draft_heading": "Documentation of Processes for Managing Real-World Data",
+      "level": 2,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 87,
+        "words_final": 133,
+        "words_added": 51,
+        "words_removed": 5,
+        "similarity": 0.745,
+        "paragraphs_modified": 1
+      },
+      "draft_text": "During data curation and data transformation, adequate processes should be in place to increase confidence in the resultant data. Documentation of these processes may include but are not limited to electronic documentation (i.e., metadata-driven audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s). Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes.",
+      "final_text": "During data curation and data transformation, adequate processes should be in place to ensure confidence in the resultant data. Documentation of these processes may include but is not limited to electronic documentation (e.g., audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s). Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes. For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "During data curation and data transformation, adequate processes should be in place to increase confidence in the resultant data. Documentation of these processes may include but are not limited to electronic documentation (i.e., metadata-driven audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s). Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes.",
+          "final": "During data curation and data transformation, adequate processes should be in place to ensure confidence in the resultant data. Documentation of these processes may include but is not limited to electronic documentation (e.g., audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s). Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes. For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+          "similarity": 0.745
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "During data curation and data transformation, adequate processes should be in place to"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "ensure"
+        ],
+        [
+          "=",
+          "confidence in the resultant data. Documentation of these processes may include but"
+        ],
+        [
+          "-",
+          "are"
+        ],
+        [
+          "+",
+          "is"
+        ],
+        [
+          "=",
+          "not limited to electronic documentation"
+        ],
+        [
+          "-",
+          "(i.e., metadata-driven"
+        ],
+        [
+          "+",
+          "(e.g.,"
+        ],
+        [
+          "=",
+          "audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s). Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes."
+        ],
+        [
+          "+",
+          "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog."
+        ]
+      ]
+    },
+    {
+      "section_id": "III.C",
+      "draft_section_id": "III.C",
+      "final_section_id": "III.C",
+      "heading": "Considerations for Conforming Real-World Data to Currently Supported",
+      "draft_heading": "Considerations for Conforming Real-World Data to Currently Supported",
+      "level": 2,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 261,
+        "words_final": 350,
+        "words_added": 115,
+        "words_removed": 26,
+        "similarity": 0.769,
+        "paragraphs_unchanged": 1,
+        "paragraphs_modified": 4,
+        "paragraphs_removed": 1
+      },
+      "draft_text": "FDA Study Data Standards\n\nFDA plans to issue further guidance and/or to update the Catalog with standards for study data that are derived from RWD sources. Currently, and absent a waiver, sponsors submitting clinical\n\nand nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog. Sponsors should refer to the specifications, recommendations, and general considerations provided in the Study Data Technical Conformance Guide when submitting study data in an applicable drug submission to FDA. When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions, or mappings that may be needed to produce study datasets in the required format in an applicable drug submission.\n\nSponsors should discuss early, with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable drug submission and their approaches for transforming the data to the current FDA-supported data standards. Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.\n\nFDA recognizes that a range of approaches may be used to apply currently supported data standards (e.g., Clinical Data Interchange Standards Consortium\u2019s (CDISC\u2019s) Study Data Tabulation Model (SDTM)) to RWD sources such as EHR or claims data.\n\nWith adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed to SDTM datasets and submitted to FDA in an applicable drug submission.",
+      "final_text": "FDA Study Data Standards\n\nThe FDA Data Standards Catalog is updated periodically to reflect changes to the supported and required data standards, exchange formats, and terminologies that FDA can process, review, and archive. FDA plans to update the Catalog, and/or issue other guidance documents, to reflect standards for study data that are derived from RWD sources as they are developed and evaluated. Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog. Sponsors should refer to the specifications, recommendations, and general considerations provided in the TCG when submitting study data\n\nin an applicable submission to FDA. When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions, or mappings that may be needed to produce study datasets in required formats in an applicable drug submission.\n\nSponsors should discuss, as early as possible, with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable submission and their approaches to mapping and transformation of data. Such discussions should include approaches for taking data from its original RWD format to intermediary format(s), including those used for analysis, and ultimately to the study data set prepared for submission to FDA (using the applicable FDA-supported data standards as listed in the Catalog). Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.\n\nFDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium\u2019s (CDISC\u2019s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA. With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed into SDTM and ADaM datasets and submitted to FDA in an applicable submission.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "FDA plans to issue further guidance and/or to update the Catalog with standards for study data that are derived from RWD sources. Currently, and absent a waiver, sponsors submitting clinical",
+          "final": "The FDA Data Standards Catalog is updated periodically to reflect changes to the supported and required data standards, exchange formats, and terminologies that FDA can process, review, and archive. FDA plans to update the Catalog, and/or issue other guidance documents, to reflect standards for study data that are derived from RWD sources as they are developed and evaluated. Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog. Sponsors should refer to the specifications, recommendations, and general considerations provided in the TCG when submitting study data",
+          "similarity": 0.308
+        },
+        {
+          "op": "modified",
+          "draft": "and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog. Sponsors should refer to the specifications, recommendations, and general considerations provided in the Study Data Technical Conformance Guide when submitting study data in an applicable drug submission to FDA. When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions, or mappings that may be needed to produce study datasets in the required format in an applicable drug submission.",
+          "final": "in an applicable submission to FDA. When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions, or mappings that may be needed to produce study datasets in required formats in an applicable drug submission.",
+          "similarity": 0.553
+        },
+        {
+          "op": "modified",
+          "draft": "Sponsors should discuss early, with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable drug submission and their approaches for transforming the data to the current FDA-supported data standards. Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.",
+          "final": "Sponsors should discuss, as early as possible, with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable submission and their approaches to mapping and transformation of data. Such discussions should include approaches for taking data from its original RWD format to intermediary format(s), including those used for analysis, and ultimately to the study data set prepared for submission to FDA (using the applicable FDA-supported data standards as listed in the Catalog). Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.",
+          "similarity": 0.671
+        },
+        {
+          "op": "modified",
+          "draft": "FDA recognizes that a range of approaches may be used to apply currently supported data standards (e.g., Clinical Data Interchange Standards Consortium\u2019s (CDISC\u2019s) Study Data Tabulation Model (SDTM)) to RWD sources such as EHR or claims data.",
+          "final": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium\u2019s (CDISC\u2019s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA. With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed into SDTM and ADaM datasets and submitted to FDA in an applicable submission.",
+          "similarity": 0.595
+        },
+        {
+          "op": "removed",
+          "draft": "With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed to SDTM datasets and submitted to FDA in an applicable drug submission.",
+          "final": null
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "FDA Study Data Standards \u00b6"
+        ],
+        [
+          "+",
+          "The FDA Data Standards Catalog is updated periodically to reflect changes to the supported and required data standards, exchange formats, and terminologies that FDA can process, review, and archive."
+        ],
+        [
+          "=",
+          "FDA plans to"
+        ],
+        [
+          "-",
+          "issue further guidance and/or to"
+        ],
+        [
+          "=",
+          "update the"
+        ],
+        [
+          "-",
+          "Catalog with"
+        ],
+        [
+          "+",
+          "Catalog, and/or issue other guidance documents, to reflect"
+        ],
+        [
+          "=",
+          "standards for study data that are derived from RWD"
+        ],
+        [
+          "-",
+          "sources."
+        ],
+        [
+          "+",
+          "sources as they are developed and evaluated."
+        ],
+        [
+          "=",
+          "Currently, and absent a waiver, sponsors submitting clinical"
+        ],
+        [
+          "-",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog. Sponsors should refer to the specifications, recommendations, and general considerations provided in the"
+        ],
+        [
+          "-",
+          "Study Data Technical Conformance Guide"
+        ],
+        [
+          "+",
+          "TCG"
+        ],
+        [
+          "=",
+          "when submitting study data"
+        ],
+        [
+          "+",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "in an applicable"
+        ],
+        [
+          "-",
+          "drug"
+        ],
+        [
+          "=",
+          "submission to FDA. When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions, or mappings that may be needed to produce study datasets in"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "=",
+          "required"
+        ],
+        [
+          "-",
+          "format"
+        ],
+        [
+          "+",
+          "formats"
+        ],
+        [
+          "=",
+          "in an applicable drug submission. \u00b6 Sponsors should"
+        ],
+        [
+          "-",
+          "discuss early,"
+        ],
+        [
+          "+",
+          "discuss, as early as possible,"
+        ],
+        [
+          "=",
+          "with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable"
+        ],
+        [
+          "-",
+          "drug"
+        ],
+        [
+          "=",
+          "submission and their approaches"
+        ],
+        [
+          "+",
+          "to mapping and transformation of data. Such discussions should include approaches"
+        ],
+        [
+          "=",
+          "for"
+        ],
+        [
+          "-",
+          "transforming the"
+        ],
+        [
+          "+",
+          "taking"
+        ],
+        [
+          "=",
+          "data"
+        ],
+        [
+          "+",
+          "from its original RWD format to intermediary format(s), including those used for analysis, and ultimately"
+        ],
+        [
+          "=",
+          "to the"
+        ],
+        [
+          "-",
+          "current"
+        ],
+        [
+          "+",
+          "study data set prepared for submission to FDA (using the applicable"
+        ],
+        [
+          "=",
+          "FDA-supported data"
+        ],
+        [
+          "-",
+          "standards."
+        ],
+        [
+          "+",
+          "standards as listed in the Catalog)."
+        ],
+        [
+          "=",
+          "Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports. \u00b6 FDA recognizes that a range of approaches may be used to apply"
+        ],
+        [
+          "-",
+          "currently"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "supported"
+        ],
+        [
+          "+",
+          "study"
+        ],
+        [
+          "=",
+          "data standards (e.g., Clinical Data Interchange Standards Consortium\u2019s (CDISC\u2019s) Study Data Tabulation Model"
+        ],
+        [
+          "-",
+          "(SDTM))"
+        ],
+        [
+          "+",
+          "(SDTM) or Analysis Data Model (ADaM))"
+        ],
+        [
+          "=",
+          "to RWD sources such as EHR or claims data."
+        ],
+        [
+          "-",
+          "\u00b6"
+        ],
+        [
+          "+",
+          "FDA encourages sponsors to discuss such approaches with FDA."
+        ],
+        [
+          "=",
+          "With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed"
+        ],
+        [
+          "-",
+          "to"
+        ],
+        [
+          "+",
+          "into"
+        ],
+        [
+          "=",
+          "SDTM"
+        ],
+        [
+          "+",
+          "and ADaM"
+        ],
+        [
+          "=",
+          "datasets and submitted to FDA in an applicable"
+        ],
+        [
+          "-",
+          "drug"
+        ],
+        [
+          "=",
+          "submission."
+        ]
+      ]
+    },
+    {
+      "section_id": "III.D",
+      "draft_section_id": "III.D",
+      "final_section_id": "III.D",
+      "heading": "Considerations for Mapping Real-World Data To Study Data Submission",
+      "draft_heading": "Considerations for Mapping Real-World Data to Study Data Submission",
+      "level": 2,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 254,
+        "words_final": 345,
+        "words_added": 130,
+        "words_removed": 39,
+        "similarity": 0.718,
+        "paragraphs_unchanged": 1,
+        "paragraphs_modified": 3
+      },
+      "draft_text": "Standards\n\nFDA is aware that, for nearly every data domain, there is wide divergence in the terminologies used and their precise meaning between RWD sources and FDA-supported data standards. Examples range from the meaning and specific terms used for race/ethnicity, terminology systems for medications, and interpretation of health care records for vital measurements. Even for seemingly identically recorded variables (e.g., male/female), there can be differences in the way these variables are defined between RWD sources and FDA-supported data standards. For example, sex as a variable may be codified in CDISC\u2019s terminology as a concept based on physical characteristics, whereas EHRs may use gender identity. In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC\u2019s terminology on the study findings.\n\nDocumentation of the sponsor\u2019s rationale for choosing particular CDISC data elements for RWD and documentation of the differences between the two is critical. The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of or in an appendix to the Study Data Reviewer\u2019s Guide to highlight the domains involved. Furthermore, the sponsor should include a data dictionary that documents the definition of every data element used and all relevant information about the element, such as its relationships to other data, origin, usage, and format. The technical details, best not included in the Study Data Reviewer\u2019s Guide,\n\ncan be referenced by guiding the reviewers to the detailed mappings in the Define-XML file (see the Appendix) and relevant dataset/domains.",
+      "final_text": "Standards\n\nFDA is aware that, for nearly every data domain, there is wide divergence in the terminologies used and their precise meaning between RWD sources and FDA-supported/required data standards. Examples range from the meaning and specific terms used for race/ethnicity, terminology systems for medications, and interpretation of the measurements of vital signs from health care records. Even for seemingly similar variables, there can be differences in the way these variables are defined between RWD sources and FDA-supported data standards. For example, sex as a variable may be codified in CDISC\u2019s terminology as a concept based on physical characteristics, whereas EHRs may, in some cases, use gender identity. In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC\u2019s terminology on the study findings.\n\nThe sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method\n\nin the Study Data Reviewer\u2019s Guide. Additionally, documentation of the sponsor\u2019s rationale for choosing particular data elements from currently supported study data standards to represent study data derived from RWD sources is critical. The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of to the Study Data Reviewer\u2019s Guide to highlight the domains involved. Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format. The Study Data Reviewer\u2019s Guide can also be used to guide reviewers to detailed mappings which can be placed in the Define- XML file and data domain files (see the Appendix for illustrative examples of possible ways to use Define-XML for this purpose). At any time, sponsors can consult the most recent version of the TCG to see FDA\u2019s current thinking on the use of Define-XML and the Study Data Reviewer\u2019s Guide.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "FDA is aware that, for nearly every data domain, there is wide divergence in the terminologies used and their precise meaning between RWD sources and FDA-supported data standards. Examples range from the meaning and specific terms used for race/ethnicity, terminology systems for medications, and interpretation of health care records for vital measurements. Even for seemingly identically recorded variables (e.g., male/female), there can be differences in the way these variables are defined between RWD sources and FDA-supported data standards. For example, sex as a variable may be codified in CDISC\u2019s terminology as a concept based on physical characteristics, whereas EHRs may use gender identity. In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC\u2019s terminology on the study findings.",
+          "final": "FDA is aware that, for nearly every data domain, there is wide divergence in the terminologies used and their precise meaning between RWD sources and FDA-supported/required data standards. Examples range from the meaning and specific terms used for race/ethnicity, terminology systems for medications, and interpretation of the measurements of vital signs from health care records. Even for seemingly similar variables, there can be differences in the way these variables are defined between RWD sources and FDA-supported data standards. For example, sex as a variable may be codified in CDISC\u2019s terminology as a concept based on physical characteristics, whereas EHRs may, in some cases, use gender identity. In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC\u2019s terminology on the study findings.",
+          "similarity": 0.927
+        },
+        {
+          "op": "modified",
+          "draft": "Documentation of the sponsor\u2019s rationale for choosing particular CDISC data elements for RWD and documentation of the differences between the two is critical. The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of or in an appendix to the Study Data Reviewer\u2019s Guide to highlight the domains involved. Furthermore, the sponsor should include a data dictionary that documents the definition of every data element used and all relevant information about the element, such as its relationships to other data, origin, usage, and format. The technical details, best not included in the Study Data Reviewer\u2019s Guide,",
+          "final": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method",
+          "similarity": 0.162
+        },
+        {
+          "op": "modified",
+          "draft": "can be referenced by guiding the reviewers to the detailed mappings in the Define-XML file (see the Appendix) and relevant dataset/domains.",
+          "final": "in the Study Data Reviewer\u2019s Guide. Additionally, documentation of the sponsor\u2019s rationale for choosing particular data elements from currently supported study data standards to represent study data derived from RWD sources is critical. The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of to the Study Data Reviewer\u2019s Guide to highlight the domains involved. Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format. The Study Data Reviewer\u2019s Guide can also be used to guide reviewers to detailed mappings which can be placed in the Define- XML file and data domain files (see the Appendix for illustrative examples of possible ways to use Define-XML for this purpose). At any time, sponsors can consult the most recent version of the TCG to see FDA\u2019s current thinking on the use of Define-XML and the Study Data Reviewer\u2019s Guide.",
+          "similarity": 0.107
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "Standards \u00b6 FDA is aware that, for nearly every data domain, there is wide divergence in the terminologies used and their precise meaning between RWD sources and"
+        ],
+        [
+          "-",
+          "FDA-supported"
+        ],
+        [
+          "+",
+          "FDA-supported/required"
+        ],
+        [
+          "=",
+          "data standards. Examples range from the meaning and specific terms used for race/ethnicity, terminology systems for medications, and interpretation of"
+        ],
+        [
+          "+",
+          "the measurements of vital signs from"
+        ],
+        [
+          "=",
+          "health care"
+        ],
+        [
+          "-",
+          "records for vital measurements."
+        ],
+        [
+          "+",
+          "records."
+        ],
+        [
+          "=",
+          "Even for seemingly"
+        ],
+        [
+          "-",
+          "identically recorded variables (e.g., male/female),"
+        ],
+        [
+          "+",
+          "similar variables,"
+        ],
+        [
+          "=",
+          "there can be differences in the way these variables are defined between RWD sources and FDA-supported data standards. For example, sex as a variable may be codified in CDISC\u2019s terminology as a concept based on physical characteristics, whereas EHRs"
+        ],
+        [
+          "-",
+          "may"
+        ],
+        [
+          "+",
+          "may, in some cases,"
+        ],
+        [
+          "=",
+          "use gender identity. In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC\u2019s terminology on the study findings. \u00b6"
+        ],
+        [
+          "-",
+          "Documentation"
+        ],
+        [
+          "+",
+          "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method \u00b6 in the Study Data Reviewer\u2019s Guide. Additionally, documentation"
+        ],
+        [
+          "=",
+          "of the sponsor\u2019s rationale for choosing particular"
+        ],
+        [
+          "-",
+          "CDISC"
+        ],
+        [
+          "=",
+          "data elements"
+        ],
+        [
+          "-",
+          "for"
+        ],
+        [
+          "+",
+          "from currently supported study data standards to represent study data derived from"
+        ],
+        [
+          "=",
+          "RWD"
+        ],
+        [
+          "-",
+          "and documentation of the differences between the two"
+        ],
+        [
+          "+",
+          "sources"
+        ],
+        [
+          "=",
+          "is critical. The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of"
+        ],
+        [
+          "-",
+          "or in an appendix"
+        ],
+        [
+          "=",
+          "to the Study Data Reviewer\u2019s Guide to highlight the domains involved. Furthermore, the sponsor should include a data dictionary that documents the definition of every data element"
+        ],
+        [
+          "-",
+          "used"
+        ],
+        [
+          "+",
+          "derived from RWD sources that were mapped to the study data standard"
+        ],
+        [
+          "=",
+          "and all relevant information about the element, such as its relationships to other data, origin, usage, and format. The"
+        ],
+        [
+          "-",
+          "technical details, best not included"
+        ],
+        [
+          "+",
+          "Study Data Reviewer\u2019s Guide can also be used to guide reviewers to detailed mappings which can be placed"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "+",
+          "the Define- XML file and data domain files (see the Appendix for illustrative examples of possible ways to use Define-XML for this purpose). At any time, sponsors can consult the most recent version of the TCG to see FDA\u2019s current thinking on the use of Define-XML and"
+        ],
+        [
+          "=",
+          "the Study Data Reviewer\u2019s"
+        ],
+        [
+          "-",
+          "Guide, \u00b6 can be referenced by guiding the reviewers to the detailed mappings in the Define-XML file (see the Appendix) and relevant dataset/domains."
+        ],
+        [
+          "+",
+          "Guide."
+        ]
+      ]
+    },
+    {
+      "section_id": "III.E",
+      "draft_section_id": "III.E",
+      "final_section_id": "III.E",
+      "heading": "Considerations for Data Transformations",
+      "draft_heading": "Considerations for Data Transformations",
+      "level": 2,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 209,
+        "words_final": 203,
+        "words_added": 19,
+        "words_removed": 25,
+        "similarity": 0.893,
+        "paragraphs_unchanged": 1,
+        "paragraphs_modified": 1
+      },
+      "draft_text": "Sponsors may encounter challenges when transforming RWD into data that are consistent with FDA-supported data standards. Examples of these challenges include (but are not limited to) management of semantic concepts (terms) that are present at multiple locations in a health record (such as medication information), inconsistent coding or miscoding of concepts (e.g., drugs or diagnoses), changes in data collection or coding practices (e.g., International Classification of Diseases-9 (ICD-9) and ICD-10 codes) that occurred during the study, or missing information (either because information is not typically recorded in health care settings or due to inconsistent data entry).\n\nSponsors should document data challenges encountered during transformation to an FDA- supported data standard and a justification of their approach to enable the application of an FDA- supported data standard. Mapping of standards and terminologies can be handled using the Define-XML (see the Appendix) and domain data files. Given that describing the rationale and justification for approaches used to reconcile any challenges in the source data arelikely to require free-text description, in addition, a narrative should be presented in the Study Data Reviewer\u2019s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed.",
+      "final_text": "Sponsors may encounter challenges when transforming RWD into data that are consistent with FDA-supported data standards. Examples of these challenges include (but are not limited to) management of semantic concepts (terms) that are present at multiple locations in a health record (such as medication information), inconsistent coding or miscoding of concepts (e.g., drugs or diagnoses), changes in data collection or coding practices (e.g., International Classification of Diseases-9 (ICD-9) and ICD-10 codes) that occurred during the study, or missing information (either because information is not typically recorded in health care settings or due to inconsistent data entry).\n\nSponsors should document data challenges encountered during transformation to an FDA- supported data standard and a justification of their approach to enable the application of an FDA- supported data standard. Detailed representation of the mapping of standards and terminologies used when transforming data to current study data standards can be handled using the Define- XML (see the Appendix) and domain data files. In addition, for more complex discussions, narrative descriptions should also be presented in the Study Data Reviewer\u2019s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "Sponsors should document data challenges encountered during transformation to an FDA- supported data standard and a justification of their approach to enable the application of an FDA- supported data standard. Mapping of standards and terminologies can be handled using the Define-XML (see the Appendix) and domain data files. Given that describing the rationale and justification for approaches used to reconcile any challenges in the source data arelikely to require free-text description, in addition, a narrative should be presented in the Study Data Reviewer\u2019s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed.",
+          "final": "Sponsors should document data challenges encountered during transformation to an FDA- supported data standard and a justification of their approach to enable the application of an FDA- supported data standard. Detailed representation of the mapping of standards and terminologies used when transforming data to current study data standards can be handled using the Define- XML (see the Appendix) and domain data files. In addition, for more complex discussions, narrative descriptions should also be presented in the Study Data Reviewer\u2019s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed.",
+          "similarity": 0.794
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "Sponsors may encounter challenges when transforming RWD into data that are consistent with FDA-supported data standards. Examples of these challenges include (but are not limited to) management of semantic concepts (terms) that are present at multiple locations in a health record (such as medication information), inconsistent coding or miscoding of concepts (e.g., drugs or diagnoses), changes in data collection or coding practices (e.g., International Classification of Diseases-9 (ICD-9) and ICD-10 codes) that occurred during the study, or missing information (either because information is not typically recorded in health care settings or due to inconsistent data entry). \u00b6 Sponsors should document data challenges encountered during transformation to an FDA- supported data standard and a justification of their approach to enable the application of an FDA- supported data standard."
+        ],
+        [
+          "-",
+          "Mapping"
+        ],
+        [
+          "+",
+          "Detailed representation of the mapping"
+        ],
+        [
+          "=",
+          "of standards and terminologies"
+        ],
+        [
+          "+",
+          "used when transforming data to current study data standards"
+        ],
+        [
+          "=",
+          "can be handled using the"
+        ],
+        [
+          "-",
+          "Define-XML"
+        ],
+        [
+          "+",
+          "Define- XML"
+        ],
+        [
+          "=",
+          "(see the Appendix) and domain data files."
+        ],
+        [
+          "-",
+          "Given that describing the rationale and justification"
+        ],
+        [
+          "+",
+          "In addition,"
+        ],
+        [
+          "=",
+          "for"
+        ],
+        [
+          "-",
+          "approaches used to reconcile any challenges in the source data arelikely to require free-text description, in addition, a"
+        ],
+        [
+          "+",
+          "more complex discussions,"
+        ],
+        [
+          "=",
+          "narrative"
+        ],
+        [
+          "+",
+          "descriptions"
+        ],
+        [
+          "=",
+          "should"
+        ],
+        [
+          "+",
+          "also"
+        ],
+        [
+          "=",
+          "be presented in the Study Data Reviewer\u2019s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed."
+        ]
+      ]
+    },
+    {
+      "section_id": "IV",
+      "draft_section_id": "IV",
+      "final_section_id": null,
+      "heading": "GLOSSARY",
+      "draft_heading": "GLOSSARY",
+      "level": 1,
+      "status": "removed",
+      "alignment_score": null,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 672,
+        "words_final": 0,
+        "words_added": 0,
+        "words_removed": 672,
+        "similarity": 0.0,
+        "paragraphs_removed": 19
+      },
+      "draft_text": "Controlled Terminology: a finite set of values (e.g., codes, text, numeric) that represent the only allowed values for a data item. Generally, controlled terminology standards specify the key concepts that are represented as definitions, preferred terms, synonyms, codes, and code systems.\n\nData Curation: application of standards (e.g., Clinical Data Interchange Standards Consortium (CDISC), Health Level 7, International Classification of Diseases-10 Clinical Modification (ICD-10-CM)) to source data, for example, the application of codes to adverse events, disease staging, the progression of disease, and other medical and clinical concepts.\n\nData Domain: a collection of logically related observations (with a common, specific topic) that are normally collected for all subjects in a clinical investigation. NOTE: The logic of the relationship may pertain to the scientific subject matter of the data or to its role in the trial/study. Example domains include laboratory test results, adverse events, concomitant medications.\n\nData Standards: a set of rules about how a particular type of data should be structured, defined, formatted, or exchanged between computer systems. Data standards make submissions\n\npredictable, consistent, and have a form that an information technology system or a scientific tool can use.\n\nData Transformation: includes data extraction, cleansing, and integration (e.g., into a Common Data Model (CDM)).\n\nDefine-XML: transmits metadata that describes any tabular dataset structure. When used with the CDISC content standards, it provides the metadata for human and animal model datasets using the SDTM and/or Standard for Exchange of Nonclinical Data (SEND) standards and analysis datasets using Analysis Data Model (ADaM).\n\nElectronic Health Record (EHR): an individual patient record contained within the EHR system. A typical individual EHR may include a patient\u2019s medical history, diagnoses, treatment plans, immunization dates, allergies, radiology images, pharmacy records, and laboratory and test results.\n\nExchange Format: a data format for converting from one file or database structure to another. For example, XML is commonly used as a data exchange format.\n\nMapping: the process of creating data element linkages between two distinct data models.\n\nMedical Claims Data: the compilation of information from medical claims that health care providers submit to insurers to receive payment for treatments and other interventions. Medical claims data use standardized medical codes, such as the World Health Organization\u2019s International Classification of Diseases Coding (ICD-CM) diagnosis codes, to identify diagnoses and treatments.\n\nNational Drug Code (NDC): a universal product identifier for drugs in the United States that applies a unique 10-digit or 11-digit, 3-segment number (the first segment identifies the labeler; the second segment is the product code that identifies the specific strength, dosage form and formulation of a drug; and the third segment identifies package sizes and types) to pharmaceuticals.\n\nNon-interventional (observational) study: a type of study in which patients are not assigned to a study arm according to a protocol, but instead receive the drug of interest during routine clinical care.\n\nRegistries: organized systems that collect uniform data (clinical and other) to evaluate specified outcomes for a population defined by a particular disease, condition, or exposure, and that serve one or more scientific, clinical, or policy purposes.\n\nRxNorm: provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, and Gold Standard Drug Database.\n\nSource Data: all information in original records and certified copies of original records of clinical findings, observations, or other activities in a clinical study necessary for the reconstruction and evaluation of the study. Source data are contained in source documents (original records or certified copies).\n\nStudy Data Reviewer\u2019s Guide: a study data reviewer\u2019s guide should describe any special considerations or directions or conformance issues that may facilitate an FDA reviewer's use of the submitted data and may help the reviewer understand the relationships between the study report and the data.\n\nTerminologies: the body of terms used for particular technical application to standardize a medical term for the submission of nonclinical and clinical study data.\n\nTraceability: permits an understanding of the relationships between the analysis results (tables, listings, and figures in the study report), analysis datasets, tabulation datasets, and source data.",
+      "final_text": null,
+      "paragraph_changes": [
+        {
+          "op": "removed",
+          "draft": "Controlled Terminology: a finite set of values (e.g., codes, text, numeric) that represent the only allowed values for a data item. Generally, controlled terminology standards specify the key concepts that are represented as definitions, preferred terms, synonyms, codes, and code systems.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Data Curation: application of standards (e.g., Clinical Data Interchange Standards Consortium (CDISC), Health Level 7, International Classification of Diseases-10 Clinical Modification (ICD-10-CM)) to source data, for example, the application of codes to adverse events, disease staging, the progression of disease, and other medical and clinical concepts.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Data Domain: a collection of logically related observations (with a common, specific topic) that are normally collected for all subjects in a clinical investigation. NOTE: The logic of the relationship may pertain to the scientific subject matter of the data or to its role in the trial/study. Example domains include laboratory test results, adverse events, concomitant medications.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Data Standards: a set of rules about how a particular type of data should be structured, defined, formatted, or exchanged between computer systems. Data standards make submissions",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "predictable, consistent, and have a form that an information technology system or a scientific tool can use.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Data Transformation: includes data extraction, cleansing, and integration (e.g., into a Common Data Model (CDM)).",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Define-XML: transmits metadata that describes any tabular dataset structure. When used with the CDISC content standards, it provides the metadata for human and animal model datasets using the SDTM and/or Standard for Exchange of Nonclinical Data (SEND) standards and analysis datasets using Analysis Data Model (ADaM).",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Electronic Health Record (EHR): an individual patient record contained within the EHR system. A typical individual EHR may include a patient\u2019s medical history, diagnoses, treatment plans, immunization dates, allergies, radiology images, pharmacy records, and laboratory and test results.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Exchange Format: a data format for converting from one file or database structure to another. For example, XML is commonly used as a data exchange format.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Mapping: the process of creating data element linkages between two distinct data models.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Medical Claims Data: the compilation of information from medical claims that health care providers submit to insurers to receive payment for treatments and other interventions. Medical claims data use standardized medical codes, such as the World Health Organization\u2019s International Classification of Diseases Coding (ICD-CM) diagnosis codes, to identify diagnoses and treatments.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "National Drug Code (NDC): a universal product identifier for drugs in the United States that applies a unique 10-digit or 11-digit, 3-segment number (the first segment identifies the labeler; the second segment is the product code that identifies the specific strength, dosage form and formulation of a drug; and the third segment identifies package sizes and types) to pharmaceuticals.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Non-interventional (observational) study: a type of study in which patients are not assigned to a study arm according to a protocol, but instead receive the drug of interest during routine clinical care.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Registries: organized systems that collect uniform data (clinical and other) to evaluate specified outcomes for a population defined by a particular disease, condition, or exposure, and that serve one or more scientific, clinical, or policy purposes.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "RxNorm: provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, and Gold Standard Drug Database.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Source Data: all information in original records and certified copies of original records of clinical findings, observations, or other activities in a clinical study necessary for the reconstruction and evaluation of the study. Source data are contained in source documents (original records or certified copies).",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Study Data Reviewer\u2019s Guide: a study data reviewer\u2019s guide should describe any special considerations or directions or conformance issues that may facilitate an FDA reviewer's use of the submitted data and may help the reviewer understand the relationships between the study report and the data.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Terminologies: the body of terms used for particular technical application to standardize a medical term for the submission of nonclinical and clinical study data.",
+          "final": null
+        },
+        {
+          "op": "removed",
+          "draft": "Traceability: permits an understanding of the relationships between the analysis results (tables, listings, and figures in the study report), analysis datasets, tabulation datasets, and source data.",
+          "final": null
+        }
+      ],
+      "word_diff": [
+        [
+          "-",
+          "Controlled Terminology: a finite set of values (e.g., codes, text, numeric) that represent the only allowed values for a data item. Generally, controlled terminology standards specify the key concepts that are represented as definitions, preferred terms, synonyms, codes, and code systems. \u00b6 Data Curation: application of standards (e.g., Clinical Data Interchange Standards Consortium (CDISC), Health Level 7, International Classification of Diseases-10 Clinical Modification (ICD-10-CM)) to source data, for example, the application of codes to adverse events, disease staging, the progression of disease, and other medical and clinical concepts. \u00b6 Data Domain: a collection of logically related observations (with a common, specific topic) that are normally collected for all subjects in a clinical investigation. NOTE: The logic of the relationship may pertain to the scientific subject matter of the data or to its role in the trial/study. Example domains include laboratory test results, adverse events, concomitant medications. \u00b6 Data Standards: a set of rules about how a particular type of data should be structured, defined, formatted, or exchanged between computer systems. Data standards make submissions \u00b6 predictable, consistent, and have a form that an information technology system or a scientific tool can use. \u00b6 Data Transformation: includes data extraction, cleansing, and integration (e.g., into a Common Data Model (CDM)). \u00b6 Define-XML: transmits metadata that describes any tabular dataset structure. When used with the CDISC content standards, it provides the metadata for human and animal model datasets using the SDTM and/or Standard for Exchange of Nonclinical Data (SEND) standards and analysis datasets using Analysis Data Model (ADaM). \u00b6 Electronic Health Record (EHR): an individual patient record contained within the EHR system. A typical individual EHR may include a patient\u2019s medical history, diagnoses, treatment plans, immunization dates, allergies, radiology images, pharmacy records, and laboratory and test results. \u00b6 Exchange Format: a data format for converting from one file or database structure to another. For example, XML is commonly used as a data exchange format. \u00b6 Mapping: the process of creating data element linkages between two distinct data models. \u00b6 Medical Claims Data: the compilation of information from medical claims that health care providers submit to insurers to receive payment for treatments and other interventions. Medical claims data use standardized medical codes, such as the World Health Organization\u2019s International Classification of Diseases Coding (ICD-CM) diagnosis codes, to identify diagnoses and treatments. \u00b6 National Drug Code (NDC): a universal product identifier for drugs in the United States that applies a unique 10-digit or 11-digit, 3-segment number (the first segment identifies the labeler; the second segment is the product code that identifies the specific strength, dosage form and formulation of a drug; and the third segment identifies package sizes and types) to pharmaceuticals. \u00b6 Non-interventional (observational) study: a type of study in which patients are not assigned to a study arm according to a protocol, but instead receive the drug of interest during routine clinical care. \u00b6 Registries: organized systems that collect uniform data (clinical and other) to evaluate specified outcomes for a population defined by a particular disease, condition, or exposure, and that serve one or more scientific, clinical, or policy purposes. \u00b6 RxNorm: provides normalized names for clinical drugs and links its names to many of the drug vocabularies commonly used in pharmacy management and drug interaction software, including those of First Databank, Micromedex, and Gold Standard Drug Database. \u00b6 Source Data: all information in original records and certified copies of original records of clinical findings, observations, or other activities in a clinical study necessary for the reconstruction and evaluation of the study. Source data are contained in source documents (original records or certified copies). \u00b6 Study Data Reviewer\u2019s Guide: a study data reviewer\u2019s guide should describe any special considerations or directions or conformance issues that may facilitate an FDA reviewer's use of the submitted data and may help the reviewer understand the relationships between the study report and the data. \u00b6 Terminologies: the body of terms used for particular technical application to standardize a medical term for the submission of nonclinical and clinical study data. \u00b6 Traceability: permits an understanding of the relationships between the analysis results (tables, listings, and figures in the study report), analysis datasets, tabulation datasets, and source data."
+        ]
+      ]
+    },
+    {
+      "section_id": "APPENDIX",
+      "draft_section_id": "APPENDIX",
+      "final_section_id": "APPENDIX",
+      "heading": "APPENDIX: EXAMPLES OF MAPPING HEALTH CARE DATA TO CDISC SDTM",
+      "draft_heading": "APPENDIX: EXAMPLES OF MAPPING HEALTH CARE DATA TO CDISC SDTM",
+      "level": 1,
+      "status": "modified",
+      "alignment_score": 1.0,
+      "heading_changed": false,
+      "change_summary_stats": {
+        "words_draft": 797,
+        "words_final": 802,
+        "words_added": 28,
+        "words_removed": 23,
+        "similarity": 0.968,
+        "paragraphs_modified": 8,
+        "paragraphs_unchanged": 7
+      },
+      "draft_text": "Differences in the coding systems used between real-world data (RWD) and traditional clinical trial data can usually be addressed using the Define-XML file, which is included in all standard Study Data Tabulation Model (SDTM) submissions. The Define-XML file, along with the appropriate use of Decode or Alias data elements, provides a mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.\n\nAn example of this approach involves race/ethnicity data, where the Food and Drug administration (FDA) anticipates both heterogeneity among electronic health records (EHRs) as well as between EHR and Clinical Data Interchange Standards Consortium (CDISC) terminologies. In the guidance for industry Collection of Race and Ethnicity Data in Clinical Trials (October 2016), FDA recommends that a minimum of five specific categories be used to define race:\n\n(1) American Indian or Alaska Native (2) Asian (3) Black or African American (4) Native Hawaiian or Other Pacific Islander (5) White\n\nRWD sources, however, may not follow the same system of coding. Given that FDA recommends using the race and ethnicity categorization outlined in the October 2016 guidance mentioned above, a sponsor should map the RWD terminology system to the relevant SDTM terminology. To achieve this objective, the Decode or Alias elements in Define-XML file can be used to document the conversions to a single nomenclature while ensuring traceability.\n\nTable 1 illustrates how race can be transformed from non-standardized to standardized data using FDA-supported data standards. In Table 1, the Decode column shows the original codes present in an EHR system and the Code column shows the relevant mapped term in the current FDA- supported controlled terminology:\n\nTable 1: Approach to Using Define-XML to Indicate Decision Involved in Transforming Non- Standardized Data (Race Data) to Standardized Data (i.e., SDTM and ADaM)\n\nDifferences in controlled terminology between RWD systems and FDA submission data standards may make mapping terminology challenging. Furthermore, FDA is aware that in non- interventional studies, a sponsor may use data aggregated from multiple RWD systems. Such situations can complicate the use of terminologies further, since different RWD sources, such as EHRs, might use different coding systems for the same concept or might use the same coding system but use different default codes for the same item.\n\nVarious approaches can be applied to permit the use of RWD in applicable drug submissions. Examples of potential approaches are: 1) translating the codes to their mapped structured definitions with subsequent mapping to appropriate CDISC controlled terminologies, which provides the most detail but is labor-intensive; or, alternatively 2) mapping all original codes to the least granular analogous codes, and then mapping those to CDISC controlled terminologies, which is less labor-intensive yet necessitates that detail of a more specific categorization will not be represented in the submitted, standardized dataset. It is up to the sponsors to determine the best approach to mediating data transformation, as well as to document and justify their approach accordingly. However, if details that are essential to the consideration of the safety and effectiveness of a drug are absent, the latter approach may not be appropriate. Whatever approach is used, the application of Decode to achieve CDISC standard controlled terminology is one mechanism to document the normalization of nomenclature into a format developed by CDISC.\n\nAn example where concepts and terminology do not map precisely and directly is the SDTM intervention domain capturing drugs prescribed. Domains containing drugs prescribed data may be mapped to a template SDTM intervention domain. (FDA anticipates that an EHR system may use prescription coding from RxNorm, NDC, or other such systems.) Additionally, and unless a sponsor uses EHR data where the prescription dispensing information is retained or opts to link EHR information with medical claims data, uncertainty will persist regarding the actual prescription (e.g., whether a generic pharmaceutical agent was substituted). In such cases,\n\nsponsors should apply the Decode and/or Alias elements within Define-XML to normalize the coding systems (as illustrated in Table 2), where the final dataset (see Table 3) will have prescription dosing information uniformly reflecting the less specific prescription coding system.\n\nThe standard modeling would be accompanied by the Define-XML code list as follows:\n\nTable 2: Approach to Using Define-XML to Indicate Decision Involved in Transforming Non- Standardized Data (Dugs Prescribed) to Standardized Data (i.e., SDTM and ADaM)\n\nThe standard modeling of prescription data in the domain file would appear as shown below (Table 3):\n\nTable 3: Example of the Drugs Prescribed Data in the Respective Domain Upon Mapping\n\nAlthough only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology. As in the examples shown above, the technical details of all transformations are best placed in the data files.",
+      "final_text": "Differences in the coding systems used between real-world data (RWD) and traditional clinical trial data can usually be addressed using the Define-XML file, which is included in all standard Study Data Tabulation Model (SDTM) submissions. The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.\n\nAn example of this approach involves race/ethnicity data, where the Food and Drug administration (FDA) anticipates both heterogeneity among electronic health records (EHRs) as well as between EHR and Clinical Data Interchange Standards Consortium (CDISC) terminologies. In the guidance for industry Collection of Race and Ethnicity Data in Clinical Trials (October 2016), FDA recommends that at least five specific categories be used to define race:\n\n(1) American Indian or Alaska Native (2) Asian (3) Black or African American (4) Native Hawaiian or Other Pacific Islander (5) White\n\nRWD sources, however, may not follow the same system of coding. Given that FDA recommends using the race and ethnicity categorization outlined in the Collection of Race and Ethnicity Data in Clinical Trials guidance mentioned above, a sponsor should map the RWD terminology system to the relevant SDTM terminology. To achieve this objective, the Alias element in Define-XML file can be used to document the conversions to a single nomenclature while ensuring traceability.\n\nTable 1 illustrates how race can be transformed from non-standardized to standardized data using FDA-supported data standards. In Table 1, the Alias column shows the original codes present in an EHR system and the Code column shows the relevant mapped term in the current FDA- supported CDISC controlled terminology:\n\nTable 1: Approach To Using Define-XML To Indicate Decision Involved in Transforming Non- Standardized Data (Race Data) To Standardized Data (i.e., SDTM and ADaM)\n\nDifferences in controlled terminology between RWD systems and FDA submission data standards may make mapping terminology challenging. Furthermore, FDA is aware that in non- interventional studies, a sponsor may use data aggregated from multiple RWD systems. Such situations can complicate the use of terminologies further, since different RWD sources, such as EHRs, might use different coding systems for the same concept or might use the same coding system but use different default codes for the same item.\n\nVarious approaches can be applied to permit the use of RWD in applicable drug submissions. Examples of potential approaches are: (1) translating the codes to their mapped structured definitions with subsequent mapping to appropriate CDISC controlled terminologies, which provides the most detail but is labor-intensive; or (2) alternatively mapping all original codes to the least granular analogous codes, and then mapping those to CDISC controlled terminologies, which is less labor-intensive yet necessitates that detail of a more specific categorization will not be represented in the submitted, standardized dataset. It is up to the sponsors to determine the best approach to mediating data transformation, as well as to document and justify their approach accordingly. However, if details that are essential to the consideration of the safety and effectiveness of a drug are absent, the latter approach may not be appropriate. Whatever approach is used, the application of Alias to achieve CDISC standard controlled terminology is one mechanism to document the normalization of nomenclature into a format developed by CDISC.\n\nAn example where concepts and terminology do not map precisely and directly is the SDTM intervention domain capturing drugs prescribed. Domains containing drugs prescribed data may be mapped to a template SDTM intervention domain. (FDA anticipates that an EHR system may\n\nuse prescription coding from RxNorm, FDA\u2019s National Drug Code (NDC), or other such systems.) Additionally, and unless a sponsor uses EHR data where the prescription dispensing information is retained or opts to link EHR information with medical claims data, uncertainty will persist regarding the actual prescription (e.g., whether a generic pharmaceutical agent was substituted). In such cases, sponsors may apply the Alias element within Define-XML to normalize the coding systems (as illustrated in Table 2), where the final dataset (see Table 3) will have prescription dosing information uniformly reflecting the less specific prescription coding system.\n\nThe standard modeling would be accompanied by the Define-XML code list as follows:\n\nTable 2: Approach To Using Define-XML To Indicate Decision Involved in Transforming Non- Standardized Data (Drugs Prescribed) to Standardized Data (i.e., SDTM and ADaM)\n\nThe standard modeling of prescription data in the domain file would appear as shown below (Table 3):\n\nTable 3: Example of the Drugs Prescribed Data in the Respective Domain Upon Mapping\n\nAlthough only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology. As in the examples shown above, the technical details of all transformations are best placed in the data files.",
+      "paragraph_changes": [
+        {
+          "op": "modified",
+          "draft": "Differences in the coding systems used between real-world data (RWD) and traditional clinical trial data can usually be addressed using the Define-XML file, which is included in all standard Study Data Tabulation Model (SDTM) submissions. The Define-XML file, along with the appropriate use of Decode or Alias data elements, provides a mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+          "final": "Differences in the coding systems used between real-world data (RWD) and traditional clinical trial data can usually be addressed using the Define-XML file, which is included in all standard Study Data Tabulation Model (SDTM) submissions. The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+          "similarity": 0.956
+        },
+        {
+          "op": "modified",
+          "draft": "An example of this approach involves race/ethnicity data, where the Food and Drug administration (FDA) anticipates both heterogeneity among electronic health records (EHRs) as well as between EHR and Clinical Data Interchange Standards Consortium (CDISC) terminologies. In the guidance for industry Collection of Race and Ethnicity Data in Clinical Trials (October 2016), FDA recommends that a minimum of five specific categories be used to define race:",
+          "final": "An example of this approach involves race/ethnicity data, where the Food and Drug administration (FDA) anticipates both heterogeneity among electronic health records (EHRs) as well as between EHR and Clinical Data Interchange Standards Consortium (CDISC) terminologies. In the guidance for industry Collection of Race and Ethnicity Data in Clinical Trials (October 2016), FDA recommends that at least five specific categories be used to define race:",
+          "similarity": 0.962
+        },
+        {
+          "op": "modified",
+          "draft": "RWD sources, however, may not follow the same system of coding. Given that FDA recommends using the race and ethnicity categorization outlined in the October 2016 guidance mentioned above, a sponsor should map the RWD terminology system to the relevant SDTM terminology. To achieve this objective, the Decode or Alias elements in Define-XML file can be used to document the conversions to a single nomenclature while ensuring traceability.",
+          "final": "RWD sources, however, may not follow the same system of coding. Given that FDA recommends using the race and ethnicity categorization outlined in the Collection of Race and Ethnicity Data in Clinical Trials guidance mentioned above, a sponsor should map the RWD terminology system to the relevant SDTM terminology. To achieve this objective, the Alias element in Define-XML file can be used to document the conversions to a single nomenclature while ensuring traceability.",
+          "similarity": 0.895
+        },
+        {
+          "op": "modified",
+          "draft": "Table 1 illustrates how race can be transformed from non-standardized to standardized data using FDA-supported data standards. In Table 1, the Decode column shows the original codes present in an EHR system and the Code column shows the relevant mapped term in the current FDA- supported controlled terminology:",
+          "final": "Table 1 illustrates how race can be transformed from non-standardized to standardized data using FDA-supported data standards. In Table 1, the Alias column shows the original codes present in an EHR system and the Code column shows the relevant mapped term in the current FDA- supported CDISC controlled terminology:",
+          "similarity": 0.97
+        },
+        {
+          "op": "modified",
+          "draft": "Various approaches can be applied to permit the use of RWD in applicable drug submissions. Examples of potential approaches are: 1) translating the codes to their mapped structured definitions with subsequent mapping to appropriate CDISC controlled terminologies, which provides the most detail but is labor-intensive; or, alternatively 2) mapping all original codes to the least granular analogous codes, and then mapping those to CDISC controlled terminologies, which is less labor-intensive yet necessitates that detail of a more specific categorization will not be represented in the submitted, standardized dataset. It is up to the sponsors to determine the best approach to mediating data transformation, as well as to document and justify their approach accordingly. However, if details that are essential to the consideration of the safety and effectiveness of a drug are absent, the latter approach may not be appropriate. Whatever approach is used, the application of Decode to achieve CDISC standard controlled terminology is one mechanism to document the normalization of nomenclature into a format developed by CDISC.",
+          "final": "Various approaches can be applied to permit the use of RWD in applicable drug submissions. Examples of potential approaches are: (1) translating the codes to their mapped structured definitions with subsequent mapping to appropriate CDISC controlled terminologies, which provides the most detail but is labor-intensive; or (2) alternatively mapping all original codes to the least granular analogous codes, and then mapping those to CDISC controlled terminologies, which is less labor-intensive yet necessitates that detail of a more specific categorization will not be represented in the submitted, standardized dataset. It is up to the sponsors to determine the best approach to mediating data transformation, as well as to document and justify their approach accordingly. However, if details that are essential to the consideration of the safety and effectiveness of a drug are absent, the latter approach may not be appropriate. Whatever approach is used, the application of Alias to achieve CDISC standard controlled terminology is one mechanism to document the normalization of nomenclature into a format developed by CDISC.",
+          "similarity": 0.988
+        },
+        {
+          "op": "modified",
+          "draft": "An example where concepts and terminology do not map precisely and directly is the SDTM intervention domain capturing drugs prescribed. Domains containing drugs prescribed data may be mapped to a template SDTM intervention domain. (FDA anticipates that an EHR system may use prescription coding from RxNorm, NDC, or other such systems.) Additionally, and unless a sponsor uses EHR data where the prescription dispensing information is retained or opts to link EHR information with medical claims data, uncertainty will persist regarding the actual prescription (e.g., whether a generic pharmaceutical agent was substituted). In such cases,",
+          "final": "An example where concepts and terminology do not map precisely and directly is the SDTM intervention domain capturing drugs prescribed. Domains containing drugs prescribed data may be mapped to a template SDTM intervention domain. (FDA anticipates that an EHR system may",
+          "similarity": 0.607
+        },
+        {
+          "op": "modified",
+          "draft": "sponsors should apply the Decode and/or Alias elements within Define-XML to normalize the coding systems (as illustrated in Table 2), where the final dataset (see Table 3) will have prescription dosing information uniformly reflecting the less specific prescription coding system.",
+          "final": "use prescription coding from RxNorm, FDA\u2019s National Drug Code (NDC), or other such systems.) Additionally, and unless a sponsor uses EHR data where the prescription dispensing information is retained or opts to link EHR information with medical claims data, uncertainty will persist regarding the actual prescription (e.g., whether a generic pharmaceutical agent was substituted). In such cases, sponsors may apply the Alias element within Define-XML to normalize the coding systems (as illustrated in Table 2), where the final dataset (see Table 3) will have prescription dosing information uniformly reflecting the less specific prescription coding system.",
+          "similarity": 0.54
+        },
+        {
+          "op": "modified",
+          "draft": "Table 2: Approach to Using Define-XML to Indicate Decision Involved in Transforming Non- Standardized Data (Dugs Prescribed) to Standardized Data (i.e., SDTM and ADaM)",
+          "final": "Table 2: Approach To Using Define-XML To Indicate Decision Involved in Transforming Non- Standardized Data (Drugs Prescribed) to Standardized Data (i.e., SDTM and ADaM)",
+          "similarity": 0.96
+        }
+      ],
+      "word_diff": [
+        [
+          "=",
+          "Differences in the coding systems used between real-world data (RWD) and traditional clinical trial data can usually be addressed using the Define-XML file, which is included in all standard Study Data Tabulation Model (SDTM) submissions. The Define-XML file, along with the appropriate use of"
+        ],
+        [
+          "-",
+          "Decode or"
+        ],
+        [
+          "=",
+          "Alias data"
+        ],
+        [
+          "-",
+          "elements,"
+        ],
+        [
+          "+",
+          "element,"
+        ],
+        [
+          "=",
+          "provides"
+        ],
+        [
+          "-",
+          "a"
+        ],
+        [
+          "+",
+          "one"
+        ],
+        [
+          "=",
+          "mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology. \u00b6 An example of this approach involves race/ethnicity data, where the Food and Drug administration (FDA) anticipates both heterogeneity among electronic health records (EHRs) as well as between EHR and Clinical Data Interchange Standards Consortium (CDISC) terminologies. In the guidance for industry Collection of Race and Ethnicity Data in Clinical Trials (October 2016), FDA recommends that"
+        ],
+        [
+          "-",
+          "a minimum of"
+        ],
+        [
+          "+",
+          "at least"
+        ],
+        [
+          "=",
+          "five specific categories be used to define race: \u00b6 (1) American Indian or Alaska Native (2) Asian (3) Black or African American (4) Native Hawaiian or Other Pacific Islander (5) White \u00b6 RWD sources, however, may not follow the same system of coding. Given that FDA recommends using the race and ethnicity categorization outlined in the"
+        ],
+        [
+          "-",
+          "October 2016"
+        ],
+        [
+          "+",
+          "Collection of Race and Ethnicity Data in Clinical Trials"
+        ],
+        [
+          "=",
+          "guidance mentioned above, a sponsor should map the RWD terminology system to the relevant SDTM terminology. To achieve this objective, the"
+        ],
+        [
+          "-",
+          "Decode or"
+        ],
+        [
+          "=",
+          "Alias"
+        ],
+        [
+          "-",
+          "elements"
+        ],
+        [
+          "+",
+          "element"
+        ],
+        [
+          "=",
+          "in Define-XML file can be used to document the conversions to a single nomenclature while ensuring traceability. \u00b6 Table 1 illustrates how race can be transformed from non-standardized to standardized data using FDA-supported data standards. In Table 1, the"
+        ],
+        [
+          "-",
+          "Decode"
+        ],
+        [
+          "+",
+          "Alias"
+        ],
+        [
+          "=",
+          "column shows the original codes present in an EHR system and the Code column shows the relevant mapped term in the current FDA- supported"
+        ],
+        [
+          "+",
+          "CDISC"
+        ],
+        [
+          "=",
+          "controlled terminology: \u00b6 Table 1: Approach"
+        ],
+        [
+          "-",
+          "to"
+        ],
+        [
+          "+",
+          "To"
+        ],
+        [
+          "=",
+          "Using Define-XML"
+        ],
+        [
+          "-",
+          "to"
+        ],
+        [
+          "+",
+          "To"
+        ],
+        [
+          "=",
+          "Indicate Decision Involved in Transforming Non- Standardized Data (Race Data)"
+        ],
+        [
+          "-",
+          "to"
+        ],
+        [
+          "+",
+          "To"
+        ],
+        [
+          "=",
+          "Standardized Data (i.e., SDTM and ADaM) \u00b6 Differences in controlled terminology between RWD systems and FDA submission data standards may make mapping terminology challenging. Furthermore, FDA is aware that in non- interventional studies, a sponsor may use data aggregated from multiple RWD systems. Such situations can complicate the use of terminologies further, since different RWD sources, such as EHRs, might use different coding systems for the same concept or might use the same coding system but use different default codes for the same item. \u00b6 Various approaches can be applied to permit the use of RWD in applicable drug submissions. Examples of potential approaches are:"
+        ],
+        [
+          "-",
+          "1)"
+        ],
+        [
+          "+",
+          "(1)"
+        ],
+        [
+          "=",
+          "translating the codes to their mapped structured definitions with subsequent mapping to appropriate CDISC controlled terminologies, which provides the most detail but is labor-intensive;"
+        ],
+        [
+          "-",
+          "or,"
+        ],
+        [
+          "+",
+          "or (2)"
+        ],
+        [
+          "=",
+          "alternatively"
+        ],
+        [
+          "-",
+          "2)"
+        ],
+        [
+          "=",
+          "mapping all original codes to the least granular analogous codes, and then mapping those to CDISC controlled terminologies, which is less labor-intensive yet necessitates that detail of a more specific categorization will not be represented in the submitted, standardized dataset. It is up to the sponsors to determine the best approach to mediating data transformation, as well as to document and justify their approach accordingly. However, if details that are essential to the consideration of the safety and effectiveness of a drug are absent, the latter approach may not be appropriate. Whatever approach is used, the application of"
+        ],
+        [
+          "-",
+          "Decode"
+        ],
+        [
+          "+",
+          "Alias"
+        ],
+        [
+          "=",
+          "to achieve CDISC standard controlled terminology is one mechanism to document the normalization of nomenclature into a format developed by CDISC. \u00b6 An example where concepts and terminology do not map precisely and directly is the SDTM intervention domain capturing drugs prescribed. Domains containing drugs prescribed data may be mapped to a template SDTM intervention domain. (FDA anticipates that an EHR system may"
+        ],
+        [
+          "+",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "use prescription coding from RxNorm,"
+        ],
+        [
+          "-",
+          "NDC,"
+        ],
+        [
+          "+",
+          "FDA\u2019s National Drug Code (NDC),"
+        ],
+        [
+          "=",
+          "or other such systems.) Additionally, and unless a sponsor uses EHR data where the prescription dispensing information is retained or opts to link EHR information with medical claims data, uncertainty will persist regarding the actual prescription (e.g., whether a generic pharmaceutical agent was substituted). In such cases,"
+        ],
+        [
+          "-",
+          "\u00b6"
+        ],
+        [
+          "=",
+          "sponsors"
+        ],
+        [
+          "-",
+          "should"
+        ],
+        [
+          "+",
+          "may"
+        ],
+        [
+          "=",
+          "apply the"
+        ],
+        [
+          "-",
+          "Decode and/or"
+        ],
+        [
+          "=",
+          "Alias"
+        ],
+        [
+          "-",
+          "elements"
+        ],
+        [
+          "+",
+          "element"
+        ],
+        [
+          "=",
+          "within Define-XML to normalize the coding systems (as illustrated in Table 2), where the final dataset (see Table 3) will have prescription dosing information uniformly reflecting the less specific prescription coding system. \u00b6 The standard modeling would be accompanied by the Define-XML code list as follows: \u00b6 Table 2: Approach"
+        ],
+        [
+          "-",
+          "to"
+        ],
+        [
+          "+",
+          "To"
+        ],
+        [
+          "=",
+          "Using Define-XML"
+        ],
+        [
+          "-",
+          "to"
+        ],
+        [
+          "+",
+          "To"
+        ],
+        [
+          "=",
+          "Indicate Decision Involved in Transforming Non- Standardized Data"
+        ],
+        [
+          "-",
+          "(Dugs"
+        ],
+        [
+          "+",
+          "(Drugs"
+        ],
+        [
+          "=",
+          "Prescribed) to Standardized Data (i.e., SDTM and ADaM) \u00b6 The standard modeling of prescription data in the domain file would appear as shown below (Table 3): \u00b6 Table 3: Example of the Drugs Prescribed Data in the Respective Domain Upon Mapping \u00b6 Although only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology. As in the examples shown above, the technical details of all transformations are best placed in the data files."
+        ]
+      ]
+    }
+  ]
+}

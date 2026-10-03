@@ -319,7 +319,7 @@ function drawOverview(v) {
   v.innerHTML = `
     <div class="kicker label">FDA guidance for industry · Docket ${esc(D.docket.id)}</div>
     <h1 class="state">${esc(D.docket.title)}</h1>
-    <p class="lead">${esc(g.summary)}<cite>FDA, Federal Register notice of availability of the final guidance (${esc(g.summary_source)})</cite></p>
+    ${g.summary ? `<p class="lead">${esc(g.summary)}<cite>FDA, Federal Register notice of availability of the final guidance (${esc(g.summary_source)})</cite></p>` : ""}
     <div class="docs">
       <a class="docbtn" href="${esc(g.draft_url)}" target="_blank" rel="noopener">Draft guidance <small>Sep 2021 ↗</small></a>
       <a class="docbtn" href="${esc(g.final_url)}" target="_blank" rel="noopener">Final guidance <small>Jul 2024 ↗</small></a>
@@ -329,12 +329,12 @@ function drawOverview(v) {
       <div class="block-head"><div><div class="label">Timeline</div><h2>From draft to final</h2></div></div>
       <div class="timeline" style="--n:${g.timeline.length}">${g.timeline.map((e, i) => `<div class="ev ${i === 0 || i === g.timeline.length - 1 ? "key" : ""}"><b>${esc(longDate(e.date))}</b><span>${esc(e.event)}</span>${e.fr ? `<small>FR Doc. ${esc(e.fr)}</small>` : ""}</div>`).join("")}</div>
     </section>
-    <section class="block cols2">
-      <div><div class="block-head"><div><div class="label">Scope</div><h2>What the guidance covers</h2></div></div>
+    <section class="block ${g.topics.length ? "cols2" : ""}">
+      ${g.topics.length ? `<div><div class="block-head"><div><div class="label">Scope</div><h2>What the guidance covers</h2></div></div>
         <ul class="plain">${g.topics.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ul>
-        <div class="source">Source: FDA final notice of availability (${esc(g.topics_source)})</div></div>
+        <div class="source">Source: FDA final notice of availability (${esc(g.topics_source)})</div></div>` : ""}
       <div><div class="block-head"><div><div class="label">Draft to final</div><h2>What FDA says it changed</h2></div></div>
-        <ol class="plain">${g.fda_listed_changes.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ol>
+        ${g.fda_listed_changes.length ? `<ol class="plain">${g.fda_listed_changes.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ol>` : `<p>FDA's notice does not list specific changes.</p>`}
         <div class="source">${esc(g.editorial_note || "")} Source: FDA final notice of availability (${esc(g.fda_listed_changes_source)})</div></div>
     </section>
     <section class="block">
