@@ -356,18 +356,26 @@ function askCard(a) {
 }
 
 /* ---------- 3. What changed ---------- */
-function sentences(t) { return (t || "").split(/\n{2,}/).map((p) => p.split(/(?<=[.;:])\s+(?=[A-Z(“"])/)); }
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-function markDoc(text, other, cls, evidence) {
-  if (!text) return `<p class="small">Not in this version.</p>`;
-  const have = new Set(sentences(other).flat().map(norm));
-  let html = sentences(text).map((ps) => "<p>" + ps.map((s) => have.has(norm(s)) ? esc(s) : `<span class="${cls}">${esc(s)}</span>`).join(" ") + "</p>").join("");
+const PARA = "\u00b6";
+// Render one side of the server's word-level diff. Draft shows kept + deleted words (struck);
+// final shows kept + inserted words (tinted). Evidence for adopted/partial calls is highlighted.
+function renderSide(runs, side, evidence) {
+  if (!runs || !runs.length) return `<p class="small">Not in this version.</p>`;
+  const skip = side === "draft" ? "+" : "-", cls = side === "draft" ? "del" : "ins";
+  let html = "";
+  for (const [op, text] of runs) {
+    if (op === skip) continue;
+    const parts = text.split(PARA).map((t) => esc(t.trim()));
+    const wrap = (t) => (op === "=" || !t ? t : `<span class="${cls}">${t}</span>`);
+    html += (html ? " " : "") + parts.map(wrap).join("</p><p>");
+  }
+  html = "<p>" + html + "</p>";
   for (const ev of evidence) {
     const words = ev.trim().split(/\s+/).slice(0, 14).map((w) => esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
     if (words.length < 4) continue;
     try { html = html.replace(new RegExp(words.join("(?:\\s|<[^>]+>)+")), (m) => `<mark>${m}</mark>`); } catch {}
   }
-  return html;
+  return html.replace(/<p>\s*<\/p>/g, "");
 }
 function stack(list) {
   if (!list.length) return `<div class="stack empty" title="No requests target this section"></div>`;
@@ -410,9 +418,9 @@ function secRow(s, l) {
   if (open) {
     const ev = l.filter((a) => a.c.evidence_span && (a.c.call === "adopted" || a.c.call === "partially adopted")).map((a) => a.c.evidence_span);
     body = `<div class="secbody">
-      ${s.status !== "general" ? `<div class="keyrow"><span><span class="sw" style="background:var(--del)"></span>sentence not in the final</span><span><span class="sw" style="background:var(--ins)"></span>sentence new or reworded in the final</span><span><span class="sw" style="background:var(--mark)"></span>evidence for an adopted or partial call</span></div>
-      <div class="sbs"><div><div class="eyebrow" style="margin-bottom:6px">Draft · Sep 2021${s.draft_section_id ? " · §" + esc(s.draft_section_id) : ""}</div><div class="doc">${markDoc(s.draft_text, s.final_text, "del", [])}</div></div>
-      <div><div class="eyebrow" style="margin-bottom:6px">Final · Jul 2024${s.final_section_id ? " · §" + esc(s.final_section_id) : ""}</div><div class="doc">${markDoc(s.final_text, s.draft_text, "ins", ev)}</div></div></div>` : ""}
+      ${s.status !== "general" ? `<div class="keyrow"><span><span class="sw" style="background:var(--del)"></span><s>words removed</s> from the draft</span><span><span class="sw" style="background:var(--ins)"></span>words added in the final</span><span><span class="sw" style="background:var(--mark)"></span>evidence for an adopted or partial call</span></div>
+      <div class="sbs"><div><div class="eyebrow" style="margin-bottom:6px">Draft · Sep 2021${s.draft_section_id ? " · §" + esc(s.draft_section_id) : ""}</div><div class="doc">${s.draft_section_id ? renderSide(s.word_diff, "draft", []) : `<p class="small">Not in the draft.</p>`}</div></div>
+      <div><div class="eyebrow" style="margin-bottom:6px">Final · Jul 2024${s.final_section_id ? " · §" + esc(s.final_section_id) : ""}</div><div class="doc">${s.final_section_id ? renderSide(s.word_diff, "final", ev) : `<p class="small">Removed from the final.</p>`}</div></div></div>` : ""}
       <div><div class="eyebrow" style="margin-bottom:8px">${fmt(l.length)} requests about this section</div><div class="asks">${l.slice(0, 40).map(askCard).join("") || `<p class="small">None${S.bucket || S.theme ? " under the current filter" : ""}.</p>`}</div>
       ${l.length > 40 ? `<p class="small">Showing 40 of ${l.length}. Narrow with the filters above.</p>` : ""}</div></div>`;
   }

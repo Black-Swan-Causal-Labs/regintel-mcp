@@ -71,3 +71,10 @@ def test_diff_is_deterministic():
     a = g.sectionize(doc(["x y z validation text here"]))
     b = g.sectionize(doc(["x y z validation text changed here"], extra_section=False))
     assert g.diff_sections(a, b) == g.diff_sections(a, b)
+
+
+def test_word_diff_marks_only_changed_words():
+    runs = g.word_diff("There are two broad cases in the EHR.\n\nNext para.", "There are two broad scenarios in EHRs.\n\nNext para.")
+    assert ["-", "cases"] in runs and ["+", "scenarios"] in runs
+    assert runs[0] == ["=", "There are two broad"]
+    assert any(op == "=" and g.PARA in t for op, t in runs)

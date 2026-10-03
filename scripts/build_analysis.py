@@ -55,7 +55,7 @@ def main(docket):
     keep_c = ("ask_id", "section_id", "call", "evidence_span", "rationale", "fr_listed_change", "confidence",
               "already_addressed_in_draft", "call_original", "human_review")
     keep_s = ("section_id", "draft_section_id", "final_section_id", "heading", "draft_heading", "level", "status",
-              "heading_changed", "draft_text", "final_text", "change_summary_stats")
+              "heading_changed", "draft_text", "final_text", "change_summary_stats", "word_diff")
     out = {
         "docket": {"id": docket,
                    "title": "Real-World Data: Assessing Electronic Health Records and Medical Claims Data To Support "

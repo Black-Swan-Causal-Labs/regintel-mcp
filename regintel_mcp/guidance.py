@@ -22,6 +22,7 @@ import re
 from collections import Counter
 
 PARSER_VERSION = "1"
+PARA = "\u00b6"  # paragraph-break token in word diffs
 
 ROMAN = r"(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3})"
 RE_ROMAN = re.compile(rf"^(?P<num>{ROMAN})\.\s+(?P<title>[A-Z][A-Z0-9 ,;:&/()'’\-–—]+)$")
@@ -324,6 +325,34 @@ def _mark_moves(rows: list[dict], draft: list[dict], final: list[dict]) -> None:
             row["change_summary_stats"]["paragraphs_moved"] = len(moves)
 
 
+def word_diff(a: str, b: str) -> list[list[str]]:
+    """Word-level diff as runs: [["=", "kept words"], ["-", "deleted"], ["+", "inserted"], ...].
+
+    Paragraph breaks are kept as the token PARA so a viewer can rebuild paragraphs. Words are
+    compared case-sensitively with punctuation attached, so "cases"->"scenarios" or
+    "the EHR"->"EHRs" show as small replacements rather than whole-sentence changes.
+    """
+    tok = lambda t: [w for p in re.split(r"\n{2,}", t or "") for w in (p.split() + [PARA])][:-1] if t else []
+    ta, tb = tok(a), tok(b)
+    runs: list[list[str]] = []
+
+    def add(op, words):
+        if not words:
+            return
+        if runs and runs[-1][0] == op:
+            runs[-1][1] += " " + " ".join(words)
+        else:
+            runs.append([op, " ".join(words)])
+
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, ta, tb, autojunk=False).get_opcodes():
+        if tag == "equal":
+            add("=", ta[i1:i2])
+        else:
+            add("-", ta[i1:i2])
+            add("+", tb[j1:j2])
+    return runs
+
+
 def diff_sections(draft: list[dict], final: list[dict], include_text: bool = True) -> list[dict]:
     rows = []
     for i, j, score in align(draft, final):
@@ -351,10 +380,11 @@ def diff_sections(draft: list[dict], final: list[dict], include_text: bool = Tru
         row["draft_text"] = dt if d else None
         row["final_text"] = ft if f else None
         row["paragraph_changes"] = ops
+        row["word_diff"] = word_diff(dt, ft)
         rows.append(row)
     _mark_moves(rows, draft, final)
     if not include_text:
         for row in rows:
-            for k in ("draft_text", "final_text", "paragraph_changes"):
+            for k in ("draft_text", "final_text", "paragraph_changes", "word_diff"):
                 row.pop(k)
     return rows
