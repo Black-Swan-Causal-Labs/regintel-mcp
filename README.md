@@ -67,6 +67,20 @@ API behaviour verified against the live service is recorded in [`docs/api-notes.
 
 Then open `explorer/FDA-2020-D-2307/index.html` through any static server, e.g. `python3 -m http.server --directory explorer/FDA-2020-D-2307`. The explorer is licensed separately under PolyForm Noncommercial 1.0.0 (`explorer/LICENSE`, `explorer/NOTICE`).
 
+### Hosting a Docket Lens demo (Cloudflare Pages, password-protected)
+
+```bash
+sh scripts/build_site.sh FDA-2020-D-2307
+cd site && npx wrangler pages deploy public --project-name docket-lens
+```
+
+`site/functions/_middleware.js` puts HTTP Basic Auth in front of every request, including `analysis.json`. Credentials are Pages secrets, never files: `npx wrangler pages secret put DEMO_USER --project-name docket-lens`, and the same for `DEMO_PASS`. If either secret is missing, the site serves nothing (it fails closed). It is a demo gate, not access control for sensitive data.
+
+## Status (3 Oct 2026)
+
+- First full run: FDA-2020-D-2307 (60 comments, 1,211 requests, 4 checkpoints, human spot-check agreement 91% on 55 calls). Outputs in `output/FDA-2020-D-2307/`, decisions in `decisions/`.
+- Second-docket smoke test: FDA-2021-D-0548. Retrieval and the draft/final comparison passed without changes; see `docs/smoke-test-FDA-2021-D-0548.md`.
+
 ## The concordance caveat
 
 This tool measures **concordance, not impact.** Changes between draft and final guidance also come from FDA's internal review, ICH M14, other guidances and the evolving science. When the final text moves in the direction a commenter asked for, that does **not** show the comment caused the change. Every output from this project carries that caveat.

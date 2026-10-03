@@ -25,3 +25,6 @@ output/*/corpus.jsonl
 
 # Local tool config
 .claude/
+
+# Built Cloudflare Pages output
+site/public/
