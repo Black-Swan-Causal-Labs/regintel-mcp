@@ -22,7 +22,8 @@
    "rationale": "Asks FDA to accept terminologies outside its Data Standards Catalog (e.g., ICD-10, RxNorm); the final V.B cites ICD-10 and LOINC as examples of data fields but does not address acceptance relative to the catalog.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cThe protocol should include a detailed description of methods for determining how inclusion and exclusion criteria\u2026\u201d Outside of traditional clinical research protocols, EHRs/medical claims data use terminology that may not be identified by the agency. \u2026 BIO recommends that the Agency clarify that they would accept terminology not represented in the FDA Data Standards Catalog (e.g., ICD-10, RxNorm, etc.)"
   },
   {
    "n": 2,
@@ -43,7 +44,8 @@
    "rationale": "Asks FDA to hold workshops before finalizing, a process request.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 3,
@@ -64,7 +66,8 @@
    "rationale": "Asks to change 'dose' to 'dosing regimen (dose level and frequency)'; the final refers to dosing regimen with strength, frequency and route, concordant with the ask.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 4,
@@ -85,7 +88,8 @@
    "rationale": "Asks whether the extraction process for unstructured data should be justified for quality and validity when used for outcomes; the corresponding V.D.2 text is unchanged and no new clarification was added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 5,
@@ -106,7 +110,8 @@
    "rationale": "Asks to state that validation approaches are examples and study-dependent; the final presents 'examples of validation approaches' and ties extent to needed certainty.",
    "confidence": "high",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 6,
@@ -127,7 +132,8 @@
    "rationale": "Asks for accepted standards and methods for demonstrating completeness; the final only rewords 'each data source' to 'proposed data source(s)' and adds no methods.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cSponsors should demonstrate that each data source contains the detail and completeness needed to capture the study populations, exposures, key covariates, outcomes of interest, and other important parameters (e.g., timing of exposure, timing of outcome) that are relevant to the study question and design.\u201d If the sponsor is working with a data vendor to collect RWD on a specific population of interest, access to data completeness outside of the selected population may not be easily obtained. The draft guidance needs to provide a definition and some examples for \u201ckey covariates\u201d. \u2026 BIO recommends that the Agency provide clarity on readily accepted standards/methods of what completeness is needed and ways in which to \u201cdemonstrate\u201d completeness. BIO also recommends that the Agency provide a definition and some examples for \u201ckey covariates\u201d."
   },
   {
    "n": 7,
@@ -148,7 +154,8 @@
    "rationale": "Supports the flexible approach to AI/ML for unstructured data; the endorsed text survives.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 8,
@@ -169,7 +176,8 @@
    "rationale": "Asks FDA to clarify the purpose of the prescribing/use description; the final states it is for information that may impact feasibility or interpretation, concordant with the ask.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": "\u201cA description of prescribing and use practices in the health care system (if available), including for approved indications, formulations, and doses.\u201d \u2026 Clarify the intent and purpose of providing such a description. This description is likely to vary even within a single health system for factors related to time, geographic location, insurer policies, health care provider protocols and procedures, and other contextual factors. Most notably, health system prescribing/dispensing patterns may vary by provider and may even conflict with insurer coverage policies, authorizations, and other restrictions. A more meaningful alternative would be to focus on whether the research question and corresponding methods are appropriate or reasonable for a given cohort based on prescribing/dispensing patterns across data sources."
   },
   {
    "n": 9,
@@ -190,7 +198,8 @@
    "rationale": "Concerns how RWD is provided to FDA when sponsors cannot share it, a data-submission matter outside this guidance's text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 10,
@@ -211,7 +220,8 @@
    "rationale": "Asks for wording that appropriate references may suffice instead of new studies; the final allows published literature as an example of prior use, partly concordant.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 11,
@@ -232,7 +242,8 @@
    "rationale": "Asks FDA to evaluate the guidance series in totality, which is a process matter.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026",
+   "display_span": null
   },
   {
    "n": 12,
@@ -253,7 +264,8 @@
    "rationale": "Asks FDA to require vendors to disclose single vs multiple network sources; concerns FDA requirements on vendors outside the text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045",
+   "display_span": null
   },
   {
    "n": 13,
@@ -274,7 +286,8 @@
    "rationale": "Asks for acknowledgment that not all design pitfalls can be addressed (flexibility); the final section V intro adds no such tradeoff language.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 14,
@@ -295,7 +308,8 @@
    "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026",
+   "display_span": null
   },
   {
    "n": 15,
@@ -316,7 +330,8 @@
    "rationale": "Asks for a public dashboard of RWE Program work.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 16,
@@ -337,7 +352,8 @@
    "rationale": "Asks FDA to work with NLM and other agencies on claims terminology standards, which is outside the guidance text.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 17,
@@ -358,7 +374,8 @@
    "rationale": "Asks for examples of factors affecting generalizability to the U.S.; the final adds brief examples, partly concordant.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": null
   },
   {
    "n": 18,
@@ -379,7 +396,8 @@
    "rationale": "Asks which study types are fit for claims data; no such guidance was added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 19,
@@ -400,7 +418,8 @@
    "rationale": "Asks for flexibility that a study design may be shaped by the data source; the final retains that the study should not be designed to fit a specific data source.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 20,
@@ -421,7 +440,8 @@
    "rationale": "Asks to broaden 'insurance formulary changes' to payer/insurer policies including formulary changes, step therapy and assay changes; the final adopts near-identical wording ('payer or provider policies').",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 21,
@@ -442,7 +462,8 @@
    "rationale": "Asks FDA to set out preferred descriptive diagnostic and treatment-pattern variables. The final contains no such list.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0037"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0037",
+   "display_span": null
   },
   {
    "n": 22,
@@ -463,7 +484,8 @@
    "rationale": "Asks whether medical record abstraction equals complete verification; the final names expert medical record review as a possible preferred reference standard but does not state that abstraction constitutes complete verification.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201c10. For the purposes of this draft guidance, complete verification involves assigning an accurate value to the variable of interest for each study subject based on a reference standard of choice. For example, medical record review can be used in conjunction with a conceptual definition to determine whether a subject meets a critical inclusion criterion or has experienced the outcome event. (To a variable extent, adjudication may be involved in this process.)\u201d \u2026 BIO recommends that the Agency clarify if this means that abstraction (medical record review) is equivalent to \u201ccomplete verification\u201d. Other language in the draft guidance seemed to indicate that medical record review may need additional verification by data linkage to other sources."
   },
   {
    "n": 23,
@@ -484,7 +506,8 @@
    "rationale": "Asks whether FDA would consider AI-extracted endpoints from text; the final text on AI uses (including identifying outcomes) is substantively unchanged and adds no explicit statement.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance notes that \u201cFDA does not endorse any specific AI technology.\u201d \u2026 BIO recommends that the Agency clarify as to whether FDA would consider AI extracted endpoints from text data sources."
   },
   {
    "n": 24,
@@ -505,7 +528,8 @@
    "rationale": "Asks for a set of must-have data checks; none is specified.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0049"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0049",
+   "display_span": null
   },
   {
    "n": 25,
@@ -526,7 +550,8 @@
    "rationale": "Asks for more comprehensive definitions with practical examples (e.g., conceptual/operational definitions); the glossary was removed and the text explanation of conceptual definitions is essentially unchanged, now under its own heading.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": "The guidance helpfully includes a glossary section but it does not include all the key terms so it would be beneficial if it was more comprehensive. PhRMA suggests that FDA include all key terms in the glossary for completeness. It is useful that the terms in italics are included in many instances, however, we provide some line\u2010by\u2010line specific terms as additional definition examples that FDA should include in the Glossary and offer some revisions to improve the definitions in the Glossary. \u2026 Additional examples to add: \uf0b7 Line 566 on page 14, consider including a definition for \u201cExposure\u201d and defining what is a \u201cdiscontinuation\u201d in the Glossary. \uf0b7 For Line 1271 and Line 1350 from the Glossary, FDA introduce the definitions \u201cConceptual definition\u201d at Line 760 and \u201cOperational definition\u201d at Lines 799 to 816 in this draft guidance. FDA should explain why these definitions are being used and offer practical examples to help explain the distinctions. It would be helpful if FDA expanded on why these are being used and use examples to better explain these terms in the Glossary as well as include references."
   },
   {
    "n": 26,
@@ -547,7 +572,8 @@
    "rationale": "Asks for guidance on using routine-practice outcomes valued by patients and HCPs; the final V.D adds no such guidance.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 27,
@@ -568,7 +594,8 @@
    "rationale": "Asks for more detail on additional data collection given missingness; the final adds disclosure of unmeasured confounders and supplementation approaches, without detail on missingness.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 28,
@@ -589,7 +616,8 @@
    "rationale": "Asks to recognize a continuum of data quality and trade-offs for rare conditions. No such discussion was added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 29,
@@ -610,7 +638,8 @@
    "rationale": "Asks to acknowledge incomplete exposure data and case-by-case appropriateness; the final keeps the same list qualified only by '(if relevant)' as in the draft.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 30,
@@ -631,7 +660,8 @@
    "rationale": "Notes there is no text on confounder ascertainment; the final adds disclosure language but no ascertainment guidance.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 31,
@@ -652,7 +682,8 @@
    "rationale": "Asks for acceptable approaches to validate real-world endpoints; the final enumerates validation options and ties extent to certainty but gives no endpoint-specific approaches.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 32,
@@ -673,7 +704,8 @@
    "rationale": "Asks to replace the lab-test-frequency example with one about outcomes absent from claims; the example is retained unchanged.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cA second example is a study where an outcome is dependent on a specific frequency of laboratory tests, and clinicians do not typically order those tests at such a frequency.\u201d It might be helpful to clarify this example. Real-world testing practices have much greater variability than what would be seen in a clinical trial, and that\u2019s to be expected. It\u2019s unclear why an outcome that is dependent on a specific frequency of laboratory tests would be chosen for a study that depends on real-world testing practices. The second example provided in the documentation does not reflect the issue of comprehensiveness of the data sources in capturing aspects of care and \u2026 BIO recommends that the Agency clarify the current example and consider including the more appropriate example of an outcome that is not captured in the medical claims data source such as laboratory results."
   },
   {
    "n": 33,
@@ -694,7 +726,8 @@
    "rationale": "Asks to allow commonly used off-label comparators; the final adds comparability characteristics but nothing on off-label comparators.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0039"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0039",
+   "display_span": null
   },
   {
    "n": 34,
@@ -715,7 +748,8 @@
    "rationale": "Asks for independent certification of re-identification risk. The final only lists de-identification and re-identification processes for documentation.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0024"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0024",
+   "display_span": null
   },
   {
    "n": 35,
@@ -736,7 +770,8 @@
    "rationale": "Asks for guidance on operationalizing EHRs without add-on modules; the add-on module paragraph is unchanged.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 36,
@@ -757,7 +792,8 @@
    "rationale": "Asks to acknowledge not all variables can or should be validated; the final new section on selecting variables for validation is concordant.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0025"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0025",
+   "display_span": null
   },
   {
    "n": 37,
@@ -778,7 +814,8 @@
    "rationale": "Asks how to proceed with no gold standard for covariate validation; the final only acknowledges imperfect reference standards and urges caution.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 38,
@@ -799,7 +836,8 @@
    "rationale": "Asks that the discussion address the effect measure (relative vs absolute); the final adds a risk-ratio-specific example but nothing on absolute measures.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 39,
@@ -820,7 +858,8 @@
    "rationale": "Asks to clarify the sponsor's role in determining curation standards; the item is unchanged.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cConformance to open, consensus-based data curation standards, when applicable.\u201d Data vendors determine curation standards. Sponsors likely will not have much influence over curation standards. \u2026 BIO recommends that the Agency clarify their expectation of the sponsors role in determining curation standards."
   },
   {
    "n": 40,
@@ -841,7 +880,8 @@
    "rationale": "Asks in which guidance FDA will address pharmacy claims and patient-mediated data, which concerns other guidances.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": "This section outlines data sources that will be covered in this draft guidance, but it is unclear in which guidance data captured from pharmacy claims and other administrative and billing sources will be covered. Additionally, while patient-generated data are mentioned as examples of RWD, we notice patient-mediated health data is not specifically covered in this guidance. With the increasing access of patients to their health data (often sourced from EHR) and their ability to obtain and share this data, it would be helpful to receive clarity on applicability of the draft guidance or elements of it to patient-mediated data. \u2026 Janssen requests that FDA indicate in which guidance FDA will discuss considerations for pharmacy claims data, other administrative and billing data, and patient-mediated health data (e.g., wearables, sensors). In order to ensure that any gaps in the guidance series are addressed, we also request that FDA allow stakeholders to provide feedback to FDA on the RWD guidance series once all guidance documents have been made public."
   },
   {
    "n": 41,
@@ -862,7 +902,8 @@
    "rationale": "Urges FDA to work with other agencies and stakeholders on linkage; concerns FDA activity.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": null
   },
   {
    "n": 42,
@@ -883,7 +924,8 @@
    "rationale": "Asks for demonstration projects on medication switching; outside the guidance text.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0062"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0062",
+   "display_span": null
   },
   {
    "n": 43,
@@ -904,7 +946,8 @@
    "rationale": "Asks to highlight posting studies on clinicaltrials.gov, which concerns registries outside the guidance text.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019",
+   "display_span": "Practical recommendations to ensure transparency of methods and analysis plans are needed within the scientific community and should be highlighted in the guidance. \u2026 Accepted good practices for transparency in RWD/RWE study design and execution are important and could be mentioned, such as posting the study on clinicaltrials.gov or other available forums (e.g., ENCePP)."
   },
   {
    "n": 44,
@@ -925,7 +968,8 @@
    "rationale": "Asks whether data providers must share operational-definition code with sponsors/FDA or whether written descriptions suffice; the final operational-definition text is unchanged and does not address this.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cAn operational definition should be developed based on the conceptual definition to extract the most complete and accurate data from the data source. In many studies using EHR or medical claims data, the operational definition will be a code- based electronic algorithm using structured data elements.\u201d It is unclear who would develop the operational \u2026 BIO recommends that the Agency clarify if data providers would need to provide the code to sponsors and/or FDA and if written descriptions would be adequate."
   },
   {
    "n": 45,
@@ -946,7 +990,8 @@
    "rationale": "Asks FDA to accept expert testimony to classify data as absent, which concerns FDA review behaviour.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 46,
@@ -967,7 +1012,8 @@
    "rationale": "Asks the guidance to highlight EHR versus claims differences (and for registry guidance). The final adds several source-specific distinctions; the registry part is outside this guidance.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 47,
@@ -988,7 +1034,8 @@
    "rationale": "Asks to expand scope to registries, wearables, pharmacy claims, DHTs and other data; the final still focuses only on EHRs and medical claims data.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 48,
@@ -1009,7 +1056,8 @@
    "rationale": "Asks FDA to develop a public computable phenotype library; concerns FDA activity.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 49,
@@ -1030,7 +1078,8 @@
    "rationale": "Asks that exposure definitions include brand name; the final retains only the existing manufacturer sentence and adds no brand-name requirement.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0027"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0027",
+   "display_span": null
   },
   {
    "n": 50,
@@ -1051,7 +1100,8 @@
    "rationale": "Asks FDA to publish lessons learned.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 51,
@@ -1072,7 +1122,8 @@
    "rationale": "Asks what minimum linkage details sponsors provide when aggregators withhold methods; the final linkage reporting text is unchanged and does not address aggregators.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 52,
@@ -1093,7 +1144,8 @@
    "rationale": "Supports prespecifying protocols and analysis plans; the text survives.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": null
   },
   {
    "n": 53,
@@ -1114,7 +1166,8 @@
    "rationale": "Asks the section to open by noting sponsors may extrapolate existing knowledge to a new study; the V.D opening is not changed in that direction.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 54,
@@ -1135,7 +1188,8 @@
    "rationale": "Asks for a data quality framework in an appendix; no appendix is added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019",
+   "display_span": null
   },
   {
    "n": 55,
@@ -1156,7 +1210,8 @@
    "rationale": "Asks to define 'adequate' sample size and follow-up; the final adds 'continuous' but no definition.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 56,
@@ -1177,7 +1232,8 @@
    "rationale": "Asks what 'good' sensitivity/specificity/PPV/NPV values are; the final gives no thresholds and still refers sponsors to discuss with the review division.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0027"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0027",
+   "display_span": null
   },
   {
    "n": 57,
@@ -1198,7 +1254,8 @@
    "rationale": "Asks for content on effect modification on statistical and biological scales; not added.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 58,
@@ -1219,7 +1276,8 @@
    "rationale": "Proposes reframing missingness as systematic, unsystematic and unavailable; the final keeps two scenarios.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": null
   },
   {
    "n": 59,
@@ -1240,7 +1298,8 @@
    "rationale": "Asks for use cases and when QBA must be considered; the final states when it can be applied (a priori, interpretation, or both) but not per-approach applicability.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0048"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0048",
+   "display_span": null
   },
   {
    "n": 60,
@@ -1261,7 +1320,8 @@
    "rationale": "Asks for discussion of non-binary variables; the final still covers only binary variables.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": "\u201cBecause operational definitions are usually imperfect and cannot accurately classify the variable of interest for every subject, a resulting misclassification can lead to false positives and false negatives\u2026\u201c \u2026 PhRMA requests that FDA expand the current discussion to include more general comments on how measurement error and the performance of operational definitions can be assessed for variables that are not binary ,such as time\u2010to\u2010event and continuous variables. The discussion of the consequences of measurement"
   },
   {
    "n": 61,
@@ -1282,7 +1342,8 @@
    "rationale": "Asks to amend language implying trial patients' data are not captured; the final narrows it to 'e.g., patients with rare cancers' and drops 'most', but retains the core claim.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 62,
@@ -1303,7 +1364,8 @@
    "rationale": "Raises that provenance can change across multi-year extracts in prospective studies; no specific content is added beyond the unchanged item on changes in data.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059",
+   "display_span": null
   },
   {
    "n": 63,
@@ -1324,7 +1386,8 @@
    "rationale": "Asks FDA to emphasize a rationalized trade-off approach to overall study validity. The final's trade-off language is limited to outcome definitions and carries over from the draft.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0062"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0062",
+   "display_span": null
   },
   {
    "n": 64,
@@ -1345,7 +1408,8 @@
    "rationale": "Asks to discuss when validation cannot be performed and acceptable alternatives; the final adds alternative approaches but not the infeasibility scenarios.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019",
+   "display_span": null
   },
   {
    "n": 65,
@@ -1366,7 +1430,8 @@
    "rationale": "Asks that validation rigor reflect the magnitude of confounding; the final ties covariate selection for validation to misclassification impact, without discussing confounding strength.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019",
+   "display_span": "This section seems to be missing a key parameter: the association between the confounder and the exposure, and the confounder and the outcome. If either association is small, then validation may not be as critical. \u2026 The final guidance should acknowledge that different magnitudes of confounding may necessitate different levels of rigor with respect to validation."
   },
   {
    "n": 66,
@@ -1387,7 +1452,8 @@
    "rationale": "Asks when a data source cannot be used for lack of validation; no such statement was found in the final.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026",
+   "display_span": null
   },
   {
    "n": 67,
@@ -1408,7 +1474,8 @@
    "rationale": "Asks that validation rigor scale with the magnitude of confounding; the final ties covariate selection for validation to the impact of misclassification on inference, but does not mention confounding strength explicitly.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cTo understand how potential misclassification of a variable of interest (e.g., exposure, outcome, covariate) might impact the measure of association and the interpretation of results, sponsors should consider: (1) the degree of misclassification; (2) differential versus non-differential misclassification (e.g., differential misclassification of outcome by exposure); (3) dependent versus independent misclassification (e.g., correlated misclassifications of exposure and outcome when both \u2026 BIO recommends that the final draft guidance should acknowledge that different magnitudes of confounding may necessitate different levels of rigor with respect to validation. BIO suggests the following edit: \u201c... differential misclassification of outcome by exposure treatment group \u2026\" BIO recommends including a reference to the later section (V.D.3) where these are described in more detail."
   },
   {
    "n": 68,
@@ -1429,7 +1496,8 @@
    "rationale": "Asks FDA to accept exploratory protocols whose analyses evolve; the final keeps the expectation that all essential elements be predefined.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0022"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0022",
+   "display_span": null
   },
   {
    "n": 69,
@@ -1450,7 +1518,8 @@
    "rationale": "Asks to add jurisdiction as a factor; the final factor list does not include jurisdiction.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 70,
@@ -1471,7 +1540,8 @@
    "rationale": "Asks to define 'adequately large'; the final gives no definition.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": "\u201cFDA recommends assessing the performance of operational definitions in an adequately large sample of the study population\u2026\u201d"
   },
   {
    "n": 71,
@@ -1492,7 +1562,8 @@
    "rationale": "Objects that the distributed data network material is excessive; the final retains the section with only editorial edits and adds a CDM definition.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 72,
@@ -1513,7 +1584,8 @@
    "rationale": "Asks that documentation may be provided jointly with third-party vendors; the final curation recommendation is unchanged and does not mention vendors.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 73,
@@ -1534,7 +1606,8 @@
    "rationale": "Asks FDA to address its interpretations of Sentinel ICD-9 to ICD-10 trend analyses, which concerns FDA activities outside the guidance text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201c7. Any updates or changes in coding practices and versioning (e.g., International Classification of Diseases [ICD] diagnosis codes, Healthcare Common Procedure Coding System codes) across the study period that are relevant to variables of interest.\u201d Time-varying trends due to coding changes are mentioned a few times in the document. \u2026 BIO recommends that it would be helpful for FDA to address the Agency\u2019s interpretations of the coding trend (ICD-9 to ICD- 10) analyses that are publicly available in Sentinel."
   },
   {
    "n": 74,
@@ -1555,7 +1628,8 @@
    "rationale": "Asks to drop the clause on methods providers use to generate data; the final keeps it.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0062"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0062",
+   "display_span": null
   },
   {
    "n": 75,
@@ -1576,7 +1650,8 @@
    "rationale": "Asks to clarify that the change and correction items apply only to key study elements. The data-accrual items (5)-(6) are unchanged apart from numbering.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 76,
@@ -1597,7 +1672,8 @@
    "rationale": "Asks to state claims data overcome EHR limits when combined with plan administrative data; searched IV and IV.B, no such statement.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0038"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0038",
+   "display_span": null
   },
   {
    "n": 77,
@@ -1618,7 +1694,8 @@
    "rationale": "Restates the draft's algorithm-specification requirement; that text survives in the final.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045",
+   "display_span": null
   },
   {
    "n": 78,
@@ -1639,7 +1716,8 @@
    "rationale": "Asks FDA to address its interpretations of Sentinel ICD-9 to ICD-10 analyses, which concerns agency activities outside the guidance text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019",
+   "display_span": "Time-varying trends due to coding changes are mentioned a few times in the document. \u2026 It would be helpful for FDA to address the Agency\u2019s interpretations of the coding trend (ICD-9 to ICD-10) analyses that are publicly available in Sentinel."
   },
   {
    "n": 79,
@@ -1660,7 +1738,8 @@
    "rationale": "Asks which metric is recommended in a given case; the final names no recommended metric.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 80,
@@ -1681,7 +1760,8 @@
    "rationale": "Asks what data aspects are expected in the protocol submission; the final reframes the IV.A list as items to include in the protocol and adds the time frame of data, a modest step in that direction.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 81,
@@ -1702,7 +1782,8 @@
    "rationale": "Asks to broaden advice to sensitivity analyses quantifying confounding impact; not added.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "specific review division the appropriateness of using proxy variables to the specific unmeasured confounders in their study.\u201d\u201d BIO recommends that the Agency expands upon the draft guidance to clearly state whether quantitative analysis methods are an acceptable approach in which to address the possible existence of unmeasured or imperfectly measured confounders. BIO recommends broadening this advice to include other sensitivity analysis methods (e.g. Zhang & Mather, 2020) that help to quantify potential impact of confounding and reduce the uncertainty to levels allowing for confident decision-making."
   },
   {
    "n": 82,
@@ -1723,7 +1804,8 @@
    "rationale": "Asks that data aggregators provide curation documentation; no such expectation is added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 83,
@@ -1744,7 +1826,8 @@
    "rationale": "Asks for a process of agreeing key validation variables with FDA before the study; this concerns sponsor-FDA interaction rather than guidance text (the final, like the draft, only says to discuss options with the review division).",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 84,
@@ -1765,7 +1848,8 @@
    "rationale": "Asks to state that completeness of exposure fields depends on the study question; the final list is unchanged apart from minor wording.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 85,
@@ -1786,7 +1870,8 @@
    "rationale": "Asks for guidance on why/when covariates need validation; the final adds that selection depends on study question, design and impact of misclassification, with one example.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "BIO recommends that FDA provide draft guidance for why/when covariates necessitate validation."
   },
   {
    "n": 86,
@@ -1807,7 +1892,8 @@
    "rationale": "Asks what 'study internal validity' means here; the final still uses the term without definition.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": "determining what variables of interest might require validation and to what extent.\u201d \u2026 It is not clear what is meant by \u201cstudy internal validity\u201d in the context of variable verification."
   },
   {
    "n": 87,
@@ -1828,7 +1914,8 @@
    "rationale": "Asks for a reference to the COA guidance on validating patient/physician-generated data; the final adds no such reference.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cWhen patient- or physician- generated data (e.g., data required for subjective end points) are proposed to assess the outcome of interest\u2026\u201d \u2026 BIO recommends that the Agency consider referencing current COA draft guidance on validation of patient- or physician- generated data to assess outcomes."
   },
   {
    "n": 88,
@@ -1849,7 +1936,8 @@
    "rationale": "Asks whether the study data itself can be used for validation; the final lists internal assessment in a study sample as an option, without addressing the question directly.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0027"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0027",
+   "display_span": null
   },
   {
    "n": 89,
@@ -1870,7 +1958,8 @@
    "rationale": "Asks that formulary be considered when discussing drug exposure availability; the final adds formulary restrictions to the IV.A list of prescribing practices affecting feasibility, not in IV.B.1.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 90,
@@ -1891,7 +1980,8 @@
    "rationale": "Asks for recognition of PROMs captured in registries and EHRs; the final's patient-generated data text is unchanged from the draft.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0015"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0015",
+   "display_span": null
   },
   {
    "n": 91,
@@ -1912,7 +2002,8 @@
    "rationale": "Asks not to rely only on standard export formats lacking clinical metadata; not added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045",
+   "display_span": null
   },
   {
    "n": 92,
@@ -1933,7 +2024,8 @@
    "rationale": "Asks to define 'core data elements' and distinguish them from 'key data elements'; the final drops 'core' from these items rather than defining it.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": null
   },
   {
    "n": 93,
@@ -1954,7 +2046,8 @@
    "rationale": "Asks for expanded AI recommendations or separate guidance; the final only adds an AI definition and leaves recommendations essentially unchanged.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 94,
@@ -1975,7 +2068,8 @@
    "rationale": "Asks sponsors to consider biases from incomplete data and explain how they will be handled; the final adds that implications be considered in design and analysis and that sensitivity analysis be conducted, concordant with the ask.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0060"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0060",
+   "display_span": null
   },
   {
    "n": 95,
@@ -1996,7 +2090,8 @@
    "rationale": "Asks to clarify the 'timing of exposure, timing of outcome' parenthetical; the final replaces it with 'time periods', aligning with section V.A, but does not answer which windows are meant.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 96,
@@ -2017,7 +2112,8 @@
    "rationale": "Asks what detailed information is required for linkage/tokenization methods; the final only mentions linkage tokens as an example and specifies no disclosure requirements.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0012"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0012",
+   "display_span": null
   },
   {
    "n": 97,
@@ -2038,7 +2134,8 @@
    "rationale": "Asks to add patient-reported (portal/app) adherence data as a validation source; the final adds drug intake diaries as a reference standard, but not portals or apps.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 98,
@@ -2059,7 +2156,8 @@
    "rationale": "Asks to replace 'confounders' with 'covariates'; the final keeps 'other potential confounders'.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 99,
@@ -2080,7 +2178,8 @@
    "rationale": "Asks to address EHRs where the EHR is the de facto source record; the final still describes validation via medical record review without addressing that case.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "classified by an operational definition, truly represents the outcome of interest, typically by reviewing clinical details recorded in the patient\u2019s medical records in either electronic or paper format.\u201d Two options are highlighted: complete verification of the outcome variable, and assessment of the operational definition in validation studies (which would presumably require access to a reference data source). If complete verification is infeasible and no suitable reference data source exists, it is unclear how to proceed. \u2026 BIO recommends the Agency consider EHRs where there is no original medical record (i.e., the individual heath record is the de-facto source data)"
   },
   {
    "n": 100,
@@ -2101,7 +2200,8 @@
    "rationale": "Asks that patient matching across providers be addressed; the final adds that duplicate records can arise even with unique identifiers or a single source, but no further matching guidance.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0042"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0042",
+   "display_span": null
   },
   {
    "n": 101,
@@ -2122,7 +2222,8 @@
    "rationale": "Asks for discussion of feasibility and bias limits in validating population-selection variables; the final adds quantitative bias analysis including a priori feasibility assessment, but no discussion of selection bias from restricting to validated patients.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": "In this section FDA indicates that \u201cKey variables used to select the study population should be validated,\u201d however, given that laboratory metrics may not be collected at the same time as recorded diagnoses, it might not be feasible to validate all key diagnostic variables across all patients. Additionally, if the study is restricted to the cohort of individuals with validated variables, we may bias the study. For example, patients with frequently collected laboratory values might be sicker and may not be necessarily the population we aim to address. \u2026 Janssen requests that FDA include discussion of potential limitations with validating key variables used to select the study population, including feasibility and bias. ."
   },
   {
    "n": 102,
@@ -2143,7 +2244,8 @@
    "rationale": "Proposes creating an open-source linkage algorithm to replace proprietary vendor algorithms; this is an infrastructure proposal outside the guidance text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0010"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0010",
+   "display_span": null
   },
   {
    "n": 103,
@@ -2164,7 +2266,8 @@
    "rationale": "Objects that 'lost to follow-up' does not apply to RWD; the final keeps the concept.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0051"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0051",
+   "display_span": null
   },
   {
    "n": 104,
@@ -2185,7 +2288,8 @@
    "rationale": "Asks for alternatives to blinding abstractors; the final keeps the blinding recommendation without alternatives.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "Blinding of abstractors Eliminating the potential for observer bias when using unstructured data by blinding abstractors is operationally difficult and has limited feasibility. \u2026 BIO requests that FDA consider alternative approaches to the use of blinding abstractors due to the operational difficulty and limited feasibility of the approach."
   },
   {
    "n": 105,
@@ -2206,7 +2310,8 @@
    "rationale": "Asks to change 'same data source' to 'similar data source'; the final keeps 'same data source'.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 106,
@@ -2227,7 +2332,8 @@
    "rationale": "Asks to specify that 'predictive values' means PPV and NPV; the final sentence is unchanged.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0016"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0016",
+   "display_span": null
   },
   {
    "n": 107,
@@ -2248,7 +2354,8 @@
    "rationale": "Asks to note EHRs do not accurately capture discontinued medications; searched IV.B.1 and V.C, not added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0016"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0016",
+   "display_span": null
   },
   {
    "n": 108,
@@ -2269,7 +2376,8 @@
    "rationale": "Asks whether expectations extend to analytic tools such as Aetion or Panalgo; the final does not address them.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 109,
@@ -2290,7 +2398,8 @@
    "rationale": "Asks the guidance to note the need to check whether claims are final-adjudicated or unadjudicated; the final adds in section IV that claims can change during run-off and adjudication, without requiring sponsors to determine claim status.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 110,
@@ -2311,7 +2420,8 @@
    "rationale": "Asks FDA to support development of a computable phenotype ontology; concerns FDA activity.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": "FDA should support or encourage the development of an ontology for computable phenotypes, which can be publicly available and complementary to existing initiatives like the eMERGE Network.12 The ontology could include information around the intended use of the phenotype (outcome, cohort definition, exclusion criteria), intended sensitivity or specificity, the appropriate data source for implementation, and links to prior implementation. This approach could address heterogeneity, for example, in the use of terms used to describe a single diagnosis for a variety of purposes (e.g., setting exclusion criteria, conducting safety assessments, examining outcomes, etc.)."
   },
   {
    "n": 111,
@@ -2332,7 +2442,8 @@
    "rationale": "Asks for clear, consistent statements that the need and extent of validation depend on the question at hand; the final states this in IV.D.2, IV.D.3, V.D.3 and V.E.3.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": null
   },
   {
    "n": 112,
@@ -2353,7 +2464,8 @@
    "rationale": "Asks whether generalizability evaluation applies to all data sources, not only non-U.S.; the final item (4) applies the generalizability discussion to all selected sources with additional explanation for non-U.S. sources, concordant with the ask.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cFor non-U.S. data sources, FDA recommends providing an explanation of how all of these factors might affect the generalizability of the study results to the U.S. population.\u201d \u2026 BIO recommends that the Agency clarify whether evaluation of generalizability applies to all data sources, including cohorts derived from RWD, regardless of whether they are US based with additional considerations to non-US based databases."
   },
   {
    "n": 113,
@@ -2374,7 +2486,8 @@
    "rationale": "Asks for sharing of best practices on EHR data collection; concerns FDA activity.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0049"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0049",
+   "display_span": null
   },
   {
    "n": 114,
@@ -2395,7 +2508,8 @@
    "rationale": "Asks for regular public workshops.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0049"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0049",
+   "display_span": null
   },
   {
    "n": 115,
@@ -2416,7 +2530,8 @@
    "rationale": "Asks to note linkage reduces patient numbers and to establish overlap first; the final adds 'acceptable sample size' only.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059",
+   "display_span": null
   },
   {
    "n": 116,
@@ -2437,7 +2552,8 @@
    "rationale": "Asks to remove the statement that non-differential misclassification biases toward the null; the final retains it.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 117,
@@ -2458,7 +2574,8 @@
    "rationale": "Asks to incorporate observability and focus less on continuity; the final refers to time periods when data are or are not available but retains and expands the continuity framing.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 118,
@@ -2479,7 +2596,8 @@
    "rationale": "Asks for specific recommendations on computable phenotypes; the final adds a definition and 'standardized and mapped data elements' but little further specific guidance.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 119,
@@ -2500,7 +2618,8 @@
    "rationale": "Asks for flexibility so that not all covariates must be validated; the final states that which variables require validation and to what extent depends on the necessary level of certainty, partly concordant though III still references applicable validation studies.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 120,
@@ -2521,7 +2640,8 @@
    "rationale": "Asks what information justifies a proxy measure and what multi-component definitions are; the final only adds discussing proxy appropriateness with FDA, without defining either.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 121,
@@ -2542,7 +2662,8 @@
    "rationale": "Objects to the differential/non-differential distinction; the final retains it with a reworded example.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 122,
@@ -2563,7 +2684,8 @@
    "rationale": "Asks to clarify continuity of coverage applies only to closed network claims; the final limits it to claims (and adds continuity of care for EHRs) but does not distinguish closed networks.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 123,
@@ -2584,7 +2706,8 @@
    "rationale": "Objects to the chart-review burden; the final makes extent of validation conditional on necessary certainty, though record review remains the typical approach.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059",
+   "display_span": null
   },
   {
    "n": 124,
@@ -2605,7 +2728,8 @@
    "rationale": "Asks to update the ICD-9-CM example to ICD-10; the final example now includes ICD-10 code D69.3, concordant with the ask.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 125,
@@ -2626,7 +2750,8 @@
    "rationale": "Asks for an approach to sizing the validation subsample; the final adds no sizing guidance.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0021"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0021",
+   "display_span": null
   },
   {
    "n": 126,
@@ -2647,7 +2772,8 @@
    "rationale": "Asks for transparent processes for EHR extraction and mapping to common data models in the missing data section; IV.C adds nothing of this kind.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0017"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0017",
+   "display_span": null
   },
   {
    "n": 127,
@@ -2668,7 +2794,8 @@
    "rationale": "Asks for a separate template document for submitting documentation, which is outside the guidance text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 128,
@@ -2689,7 +2816,8 @@
    "rationale": "Asks FDA to clarify what 'validated' means for health system background information; the final keeps 'collected and validated' without explanation.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201c2. Background information about the health care system, including (if available) any specified method of diagnosis and preferred treatments for the disease of interest, and the degree to which such information is collected and validated in the proposed data sources. 3. A description of prescribing and use practices in the health care system (if available), including for approved indications, formulations, and doses.\u201d EHR and Claims data usually cover many health care systems. It is not practical and may not even be possible to provide the requested background information about prescribing practices and preferred treatments. \u2026 BIO recommends that the Agency clarify what validation means in this statement."
   },
   {
    "n": 129,
@@ -2710,7 +2838,8 @@
    "rationale": "Asks to state that RWD can serve as external control arms; the relevant text (the scope footnote) is not present in the available text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0033",
+   "display_span": null
   },
   {
    "n": 130,
@@ -2731,7 +2860,8 @@
    "rationale": "Asks for privacy-preserving linkage throughout the trial life cycle; the final contains no such recommendation.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0024"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0024",
+   "display_span": null
   },
   {
    "n": 131,
@@ -2752,7 +2882,8 @@
    "rationale": "Supports making the AI specification items available; the text survives.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0016"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0016",
+   "display_span": null
   },
   {
    "n": 132,
@@ -2773,7 +2904,8 @@
    "rationale": "Asks for discussion of defining start and end of exposure (index date, censoring); no such content was added to V.C.3.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states \u201cValidation ideally involves a comparison of the exposure classification in the proposed data source with a reference data source ...\u201d One aspect of drug exposure that is worth consideration is how drugs are actually taken by patients after they are filled in the pharmacy setting (i.e. adherence). BIO notes that deficiencies in defining the index date or the censoring criteria related to end of therapy were noted in recent reviews by the oncology divisions of applications containing EHR data. It would be useful for the agency to clarify their draft guidance relative to these important design elements. \u2026 BIO recommends that the Agency clarify that if no appropriate reference data are available if sponsors should used previous relevant publication or are there other options that the Agency recommends. BIO recommends that the Agency consider including in Subsection 3 discussions around ascertainment of the start and end of exposure therapy."
   },
   {
    "n": 133,
@@ -2794,7 +2926,8 @@
    "rationale": "Asks to add a 'washout' period to the examples; the final adds '\u201cwashout\u201d time period if applicable'.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 134,
@@ -2815,7 +2948,8 @@
    "rationale": "Objects that record review is overburdensome; the final retains standardized record review recommendations.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0051"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0051",
+   "display_span": null
   },
   {
    "n": 135,
@@ -2836,7 +2970,8 @@
    "rationale": "The ask concerns FDA process or interactions (meetings, submission mechanics, review procedures) rather than guidance text, so concordance cannot be assessed.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0012"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0012",
+   "display_span": null
   },
   {
    "n": 136,
@@ -2857,7 +2992,8 @@
    "rationale": "Asks FDA to describe the information available from EHRs and claims; the final expands the description of EHR and claims characteristics (structured/unstructured data, run-off) but does not systematically describe available information.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "Based on the information provided in this section, we suggest that FDA put together a checklist for assessing each data source that would be included as part of the protocol. It may be helpful here to describe the information that is available from EHRs and claims data. For example, EHRs may have information on inpatient medication, lab results, vital signs, behavioral risk factors, family history data, etc. that are not typically available in claims. Although actual information available in a specific EHR system will depend on health care \u2026 BIO recommends that the Agency consider developing a checklist for assessing each data source that would be included as part of the protocol. BIO also suggests that the Agency consider describing the information that is available from EHRs and claims data."
   },
   {
    "n": 137,
@@ -2878,7 +3014,8 @@
    "rationale": "Asks for a brief discussion of prospective observational designs. The final keeps only the draft's EHR add-on module point.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0035",
+   "display_span": null
   },
   {
    "n": 138,
@@ -2899,7 +3036,8 @@
    "rationale": "Asks to describe comparator time periods (no treatment, interruptions); not added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The description of exposure should also comprise the description of the comparator time period in case of a comparison with \u201cno treatment\u201d or with placebo. \u2026 BIO recommends that the Agency expand the definition to periods with no treatment, treatment interruptions, previous treatments etc."
   },
   {
    "n": 139,
@@ -2920,7 +3058,8 @@
    "rationale": "Supports the recommendation to provide health system background; the text survives.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0038"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0038",
+   "display_span": null
   },
   {
    "n": 140,
@@ -2941,7 +3080,8 @@
    "rationale": "Asks how much information on a new data source and validation to provide; the final does not specify the amount.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0012"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0012",
+   "display_span": null
   },
   {
    "n": 141,
@@ -2962,7 +3102,8 @@
    "rationale": "Asks for a stepwise validation plan starting from data characterization. The final does not describe a stepwise plan; a priori QBA for feasibility is a different mechanism.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": null
   },
   {
    "n": 142,
@@ -2983,7 +3124,8 @@
    "rationale": "Asks to clarify the extent of annotation needed and when required; the sentence is unchanged.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0019",
+   "display_span": "Original text: \u201cTo facilitate FDA review, all submitted programs (e.g., those written by analysts) should be thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in a statistical analysis program).\u201d We recommend that the Agency clarify the extent of annotation needed and in what circumstances this will be required for submissions. It would be helpful to know if these are also expected for post- approval safety studies, as they are not typically provided. \u2026 Amgen recommends a revision to clarify: \u201cTo facilitate FDA review, analysis datasets, data definition tables, and programming codes (e.g., those written by analysts) for data derivation and data analysis related to the key objectives of the study (e.g., primary and key secondary endpoints) should be all submitted and thoroughly annotated with comments that describe the intent or purpose of each data management and analysis step written in the program (e.g., annotate each data step in statistical analysis programming codes). \u201c"
   },
   {
    "n": 143,
@@ -3004,7 +3146,8 @@
    "rationale": "Asks what the retrieval rate is used for; the final adds a contextual example but the purpose statement is unchanged.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 144,
@@ -3025,7 +3168,8 @@
    "rationale": "Supports identifying data sources and providing health system background where feasible; the recommendation survives, still qualified by 'if available'.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0025"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0025",
+   "display_span": null
   },
   {
    "n": 145,
@@ -3046,7 +3190,8 @@
    "rationale": "Asks for clarity on when validation studies are needed, especially for EHRs; the final ties the extent of validation to needed certainty but says nothing EHR-specific.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0037"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0037",
+   "display_span": null
   },
   {
    "n": 146,
@@ -3067,7 +3212,8 @@
    "rationale": "Suggests requesting data management plans anchored in QA/QC; the QA/QC plan text is unchanged and no data management plan request is added.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0061",
+   "display_span": null
   },
   {
    "n": 147,
@@ -3088,7 +3234,8 @@
    "rationale": "Asks for specific recommendations on reconciling patients appearing in multiple sources; the final keeps the general curation-documentation recommendation without reconciliation methods.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cData linkages can be used to increase the breadth and depth of data on individual patients\u2026\u201d Unclear whether those terms (breadth and depth) refer to the size of the cohort and number of covariates on each subject or more specifically refers to longitudinality Patients may or may not be included in multiple health care site sources, which may be challenging to identify in a multi-source aggregate. EHR/medical claims data sources are also in a persistent state. \u2026 BIO recommends that the Agency clarify the meaning of breadth and depth of data by adding this terminology to glossary or adding a reference BIO recommends that the agency provide specific recommendations on reconciliation of such cases where patients may or may not be included in multiple health care site sources (i.e., to ensure accuracy, completeness, and non- duplication). BIO recommends that the Agency clarify if Sponsors should routinely evaluate data changes at the source to address situations where, for example, a patient could update their list of medications after an initial cut of study data."
   },
   {
    "n": 148,
@@ -3109,7 +3256,8 @@
    "rationale": "Asks that direct participant follow-up be strongly encouraged; the final lists collecting additional data as one way to address gaps, without strong encouragement.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0059",
+   "display_span": null
   },
   {
    "n": 149,
@@ -3130,7 +3278,8 @@
    "rationale": "Asks to add claims-specific demographic limits and to have the protocol acknowledge their effect on generalizability. The final adds a protocol discussion of generalizability for all selected data sources but not the claims-specific text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 150,
@@ -3151,7 +3300,8 @@
    "rationale": "Asks for guidance on manual abstraction for validation; the final names medical record review as a possible reference standard, without more detail on abstraction.",
    "confidence": "medium",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0037"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0037",
+   "display_span": null
   },
   {
    "n": 151,
@@ -3172,7 +3322,8 @@
    "rationale": "Asks for timelines and minimum-requirement summaries per data source. Neither appears in the final.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0048"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0048",
+   "display_span": null
   },
   {
    "n": 152,
@@ -3193,7 +3344,8 @@
    "rationale": "Asks FDA to evaluate EHR and claims data separately. The final adds some source-specific distinctions: continuity of coverage for claims versus continuity of care for EHRs, claims run-off, and EHR configuration. It still treats them jointly overall.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 153,
@@ -3214,7 +3366,8 @@
    "rationale": "Asks for explicit discussion of selection biases such as wearable-device data skewing younger. No such discussion was added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0058"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0058",
+   "display_span": null
   },
   {
    "n": 154,
@@ -3235,7 +3388,8 @@
    "rationale": "Asks for examples of ways to collect additional data during routine care; the final IV.B.1 lists building modules, linking or collecting additional data, a brief partial match.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 155,
@@ -3256,7 +3410,8 @@
    "rationale": "The ask refers to unspecified 'issues' and its target in the text cannot be located.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 156,
@@ -3277,7 +3432,8 @@
    "rationale": "Asks for recommendations on selection bias in linked database studies; IV.B.2 adds nothing and VI.A linkage items are unchanged.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0064"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0064",
+   "display_span": null
   },
   {
    "n": 157,
@@ -3298,7 +3454,8 @@
    "rationale": "Asks for detailed examples such as minimum data sets for emerging data sources; none appear in the final.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0030"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0030",
+   "display_span": null
   },
   {
    "n": 158,
@@ -3319,7 +3476,8 @@
    "rationale": "Concerns FDA meeting scheduling commitments.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0030"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0030",
+   "display_span": null
   },
   {
    "n": 159,
@@ -3340,7 +3498,8 @@
    "rationale": "Asks to state that population selection may rely on variables beyond ICD codes; the final adds this explicitly.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 160,
@@ -3361,7 +3520,8 @@
    "rationale": "Asks that data vendors disclose the full cohort and selection process; no such content was found in the final V.B.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045",
+   "display_span": null
   },
   {
    "n": 161,
@@ -3382,7 +3542,8 @@
    "rationale": "Asks whether pragmatic trials and hybrid prospective designs are in scope; the final body text adds no such clarification (the scope footnote is not available to check).",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states, \u201cRWD are data relating to patient health status or the delivery of health care routinely collected from a variety of sources.\u201d RWD is defined as data \u201croutinely collected\u201d. This does not seem to apply to e.g., non-interventional observational studies with prospectively planned data collection, although such studies are in scope (footnote 7). The prospectively planned data collection will include many routine data but may extend beyond routine depending on the question to be answered. \u2026 BIO recommends that the Agency clarify whether the term \u2018routinely collected\u2019 in the definition of RWD means secondary use of claims and EHR and excludes data collected from claims or EHR from set visits per a prospectively planned study. BIO also recommends that the Agency clarify if pragmatic trials, non-interventional observational studies with prospectively planned data collection and other innovative hybrid designs that augment prospective data collection with data collection from electronic healthcare data would fall in the scope of the draft guidance if the visits are prospectively planned and not considered \u201croutine\u201d."
   },
   {
    "n": 162,
@@ -3403,7 +3564,8 @@
    "rationale": "The ask seeks examples of study types paired with the suggested FDA interaction pathway, which concerns FDA interaction process rather than guidance text.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 163,
@@ -3424,7 +3586,8 @@
    "rationale": "Asks how histology not captured in ICD-10 should be identified; the final notes unstructured data such as pathology reports may be used, without addressing inference from treatment.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 164,
@@ -3445,7 +3608,8 @@
    "rationale": "Asks to clarify additional validation routes and limitations, e.g., for de-identified data; the final adds a typology of approaches and notes reference-standard limitations, without addressing de-identified data.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0048"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0048",
+   "display_span": null
   },
   {
    "n": 165,
@@ -3466,7 +3630,8 @@
    "rationale": "Asks to clarify the extent of background information requested; the final adds examples and the purpose for prescribing information but does not bound the overall extent.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0009",
+   "display_span": null
   },
   {
    "n": 166,
@@ -3487,7 +3652,8 @@
    "rationale": "Proposes inserting 'standardized and mapped' data elements and 'if applicable'; the final adopts this wording.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 167,
@@ -3508,7 +3674,8 @@
    "rationale": "Asks FDA to build in a scheduled review process to share learnings, which is an agency process request.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 168,
@@ -3529,7 +3696,8 @@
    "rationale": "Asks for guidance directing attention to outcomes data across health system and insurance factors; no such addition appears.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0043",
+   "display_span": null
   },
   {
    "n": 169,
@@ -3550,7 +3718,8 @@
    "rationale": "Asks what to do when no reference data exist (use prior publications or other options); the final adds external prior-study assessment and reference-standard examples, while the V.C.5 literature option is unchanged.",
    "confidence": "low",
    "fr_listed_change": true,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": "The draft guidance states \u201cValidation ideally involves a comparison of the exposure classification in the proposed data source with a reference data source ...\u201d One aspect of drug exposure that is worth consideration is how drugs are actually taken by patients after they are filled in the pharmacy setting (i.e. adherence). BIO notes that deficiencies in defining the index date or the censoring criteria related to end of therapy were noted in recent reviews by the oncology divisions of applications containing EHR data. It would be useful for the agency to clarify their draft guidance relative to these important design elements. \u2026 BIO recommends that the Agency clarify that if no appropriate reference data are available if sponsors should used previous relevant publication or are there other options that the Agency recommends. BIO recommends that the Agency consider including in Subsection 3 discussions around ascertainment of the start and end of exposure therapy."
   },
   {
    "n": 170,
@@ -3571,7 +3740,8 @@
    "rationale": "Asks whether any outcome possibly resulting in death needs vital status evaluation; not addressed in the final.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 171,
@@ -3592,7 +3762,8 @@
    "rationale": "Proposes FDA consider a results-based checksum tool; a tool proposal outside the guidance text.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0045",
+   "display_span": null
   },
   {
    "n": 172,
@@ -3613,7 +3784,8 @@
    "rationale": "Asks for a cross-reference from IV.C to IV.D; no such cross-reference appears.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0050",
+   "display_span": null
   },
   {
    "n": 173,
@@ -3634,7 +3806,8 @@
    "rationale": "Asks what consensus-based data standards means (e.g., CDISC/SDTM); the final does not specify.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 174,
@@ -3655,7 +3828,8 @@
    "rationale": "Asks whether diagnosis codes and criteria must be specified; the final passage only changes 'outcome' to 'outcome status', adding no clarification.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0051"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0051",
+   "display_span": null
   },
   {
    "n": 175,
@@ -3676,7 +3850,8 @@
    "rationale": "Asks to add the concept of minimum effective dose; no such content was found in the final V.C.4 or elsewhere.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0055",
+   "display_span": null
   },
   {
    "n": 176,
@@ -3697,7 +3872,8 @@
    "rationale": "Asks to acknowledge the two missingness categories cannot always be distinguished; the final keeps the distinction without this caveat.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 177,
@@ -3718,7 +3894,8 @@
    "rationale": "Asks to acknowledge that the EHR database may be the only source; the final still recommends verifying data against its original source and even adds 'against its original source' in VI.A.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0013",
+   "display_span": null
   },
   {
    "n": 178,
@@ -3739,7 +3916,8 @@
    "rationale": "Asks for more specific guidance on identifying comorbid conditions in RWD; not added.",
    "confidence": "low",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0041"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0041",
+   "display_span": null
   },
   {
    "n": 179,
@@ -3760,7 +3938,8 @@
    "rationale": "Asks to add further AI uses such as data quality evaluation; the list of AI uses is unchanged.",
    "confidence": "high",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0040",
+   "display_span": null
   },
   {
    "n": 180,
@@ -3781,7 +3960,8 @@
    "rationale": "Asks for illustrative examples of documentation of changes from extraction to analytic dataset; none are added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0054",
+   "display_span": null
   },
   {
    "n": 181,
@@ -3802,7 +3982,8 @@
    "rationale": "Asks how to specify provenance from source event to study report; no such guidance is added.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0063",
+   "display_span": null
   },
   {
    "n": 182,
@@ -3823,7 +4004,8 @@
    "rationale": "Asks FDA to endorse the STaRT-RWE template. The final explicitly declines to endorse any particular guideline or checklist.",
    "confidence": "medium",
    "fr_listed_change": false,
-   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026"
+   "url": "https://www.regulations.gov/comment/FDA-2020-D-2307-0026",
+   "display_span": null
   }
  ]
 }

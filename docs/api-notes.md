@@ -30,3 +30,7 @@ Each row records what the build spec assumed and what the live API actually did.
 * Body text is 12 pt Times. Footnotes are 10 pt, superscripts 6.5–8 pt, running headers 10–12 pt. Text below 95% of the dominant size is dropped, so **footnotes are excluded from the diff**.
 * Headings: Roman numerals in bold caps (level 1), letters in bold (level 2), numbers in bold-italic (level 3). Italic numbered lines that are *not* under a lettered heading are emphasised list items, not headings.
 * The final drops the Roman numeral on `REFERENCES`. Unnumbered bold all-caps lines count as level-1 headings.
+
+## Table-layout comments (found at checkpoint 4)
+
+Line-by-line comment tables (line | issue | recommendation) come out of the PDF text layer one printed line at a time *across* the columns, so the columns' words are interleaved. `source_span` stays verbatim against that extracted text, so it can be audited. `scripts/table_cells.py` re-reads each comment's tables cell by cell with pdfplumber and, where an ask's words appear in order (at least 90% coverage, in runs of 3 or more words) within one table row, stores `display_span`: that row's cells in column order (issue … recommendation). Explorers and slides show `display_span` when present. 194 asks across BIO, Amgen, PhRMA, Janssen, Duke-Margolis, the Estimands WG and Regeneron.
