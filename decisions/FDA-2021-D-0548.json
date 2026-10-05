@@ -1,0 +1,152 @@
+{
+  "docket_id": "FDA-2021-D-0548",
+  "decisions": [
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 1,
+      "decision": "final_guidance_source",
+      "final_ref": "https://www.fda.gov/media/153341/download",
+      "draft_ref": "FDA-2021-D-0548-0002",
+      "reason": "Same rule as FDA-2020-D-2307: use the current fda.gov copy as the final. It matches the Dec 2023 docket copy (FDA-2021-D-0548-0037) except one post-publication edit in III.D: 'use gender identity' -> 'use sex identity'.",
+      "note": "Current fda.gov copy (JDD decision, same rule as FDA-2020-D-2307). Identical to the Dec 2023 docket copy (FDA-2021-D-0548-0037) except a later edit in III.D: 'gender identity' -> 'sex identity'."
+    },
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 1,
+      "decision": "keep_in_submitter_counts_zero_asks",
+      "comment_ids": [
+        "FDA-2021-D-0548-0003"
+      ],
+      "reason": "Off-topic: COVID-19 vaccine adverse events; does not address the draft guidance. Counted under 'who commented'; zero asks (same treatment as FDA-2020-D-2307-0003)."
+    },
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 1,
+      "decision": "keep_in_submitter_counts_zero_asks",
+      "comment_ids": [
+        "FDA-2021-D-0548-0004"
+      ],
+      "reason": "Stub: body is only '2021-D0548-0001', no attachment. Counted; zero asks."
+    },
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 1,
+      "decision": "keep_in_submitter_counts_zero_asks",
+      "comment_ids": [
+        "FDA-2021-D-0548-0026"
+      ],
+      "reason": "Exact duplicate of CDISC FDA-2021-D-0548-0025 (identical body and attachment). Counted as a submission; asks coded once, on -0025. CDISC -0012 is a different letter and is coded separately."
+    },
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 1,
+      "decision": "submitter_affiliation_deferred",
+      "comment_ids": [
+        "FDA-2021-D-0548-0013",
+        "FDA-2021-D-0548-0014",
+        "FDA-2021-D-0548-0015",
+        "FDA-2021-D-0548-0016"
+      ],
+      "reason": "Rebecca Baker also signs CDISC's -0012 letter as CDISC standards staff; her own four comments state no affiliation. Classify under submitter-taxonomy rule 4 and resolve at checkpoint 2."
+    },
+    {
+      "date": "2026-10-03",
+      "by": "JDD",
+      "checkpoint": 2,
+      "decision": "submitter_table_approved",
+      "notes": "All 3 low-confidence calls accepted as proposed: CDISC=Other / anonymous (SDO; alternative Trade association); Rebecca Baker=Academic / independent (consistent with FDA-2020-D-2307; resolves the deferred affiliation question); XML4Pharma=CRO / data & tech vendor. Medium calls accepted (Critical Path Institute, Michael Einkauf, McKesson)."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "codebook_approved",
+      "codebook_version": "v1",
+      "notes": "14 themes. Template carried forward: starts from the approved FDA-2020-D-2307 codebook v1 (T01–T12 ids kept for cross-guidance comparison); T13 (choice of data standards & Data Standards Catalog) and T14 (mapping, transformation & controlled terminology) added from this docket's comments; T09 narrowed to guidance alignment & harmonization. Above the skill's 8–12 range by JDD choice, for comparability."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "method_description",
+      "notes": "Method described as codebook-based (directed) qualitative content analysis / template analysis, not reflexive thematic analysis. Single AI coder under a human-approved codebook."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "repeat_rule",
+      "notes": "Same rule as FDA-2020-D-2307: within a comment, a reiterated point counts once unless a later instance makes a genuinely section-specific point. Applied during coding."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "null_draft_section_means_general",
+      "notes": "Same as FDA-2020-D-2307."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "theme_spot_check_added",
+      "notes": "Add a human spot check of theme coding (seeded random 10-15% of asks: theme_id and stance), alongside the existing concordance spot check. Applies to this docket and retroactively to FDA-2020-D-2307."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "Claude (correction)",
+      "checkpoint": 3,
+      "decision": "codebook_examples_corrected",
+      "notes": "T07 and T09 example spans had been taken from the part of PhRMA's attachment (-0032) that is its appended FDA-2020-D-2307 letter. Replaced with spans from this docket's own letters (T07: -0032-A08; T09: -0030-A16). Definitions unchanged; codebook stays v1."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "exclude_asks_appended_other_docket_letter",
+      "comment_ids": [
+        "FDA-2021-D-0548-0032"
+      ],
+      "notes": "Exclude PhRMA -0032-A39..A108 (70 asks): they come from PhRMA's appended FDA-2020-D-2307 letter, already coded in that docket as 2307-0063. Rule: asks are coded against the guidance of the docket they were filed in, provided they address that guidance."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 3,
+      "decision": "second_coder_jev",
+      "notes": "Run TypeSafe Jev as an independent, blind second coder (theme and stance) on all asks in both dockets; report agreement, Cohen's kappa, confusion matrix and confidence-ranked disagreements. Human spot check remains the reference."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "Claude (method)",
+      "checkpoint": 4,
+      "decision": "footnotes_as_evidence",
+      "notes": "Final's footnotes extracted to concordance/final_footnotes.md and accepted as evidence (FDA moved glossary definitions into footnotes). Catalog-content asks treated as requests about a separate FDA resource (not assessable) unless they ask the guidance text to say something — the analogue of the existing 'other guidances' rule."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 4,
+      "decision": "theme_spot_check",
+      "notes": "Reviewed items 1-15 of the seeded random-order theme sample (n=15 of 324 asks); stopping point set by reviewer time. Theme 15/15 agree (0 unsure; Wilson 95% CI 79.6-100.0%). Stance 15/15 (0 unsure; 79.6-100.0%). Human vs Jev: theme 12/15, stance 12/15.",
+      "theme_spot_check_agreement": 1.0,
+      "stance_spot_check_agreement": 1.0,
+      "n_reviewed": 15,
+      "corrections": []
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 4,
+      "decision": "spot_check",
+      "notes": "Concordance spot check: items 2-20 of the seeded random-order sample saved (n=19 of 324 calls); item 1 (0028-A60) has no saved verdict. Agreement 19/19 = 100% (Wilson 95% CI 83.2-100%). No corrections.",
+      "spot_check_agreement": 1.0,
+      "n_reviewed": 19
+    }
+  ]
+}

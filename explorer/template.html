@@ -312,6 +312,7 @@ function show(tab) {
 
 
 /* ---------- 0. Overview ---------- */
+const monYear = (iso, month = "short") => new Date(String(iso).slice(0, 10) + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month, timeZone: "UTC" });
 const longDate = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 function drawOverview(v) {
   const g = D.guidance, r = rate(X.asks);
@@ -321,8 +322,8 @@ function drawOverview(v) {
     <h1 class="state">${esc(D.docket.title)}</h1>
     ${g.summary ? `<p class="lead">${esc(g.summary)}<cite>FDA, Federal Register notice of availability of the final guidance (${esc(g.summary_source)})</cite></p>` : ""}
     <div class="docs">
-      <a class="docbtn" href="${esc(g.draft_url)}" target="_blank" rel="noopener">Draft guidance <small>Sep 2021 ↗</small></a>
-      <a class="docbtn" href="${esc(g.final_url)}" target="_blank" rel="noopener">Final guidance <small>Jul 2024 ↗</small></a>
+      <a class="docbtn" href="${esc(g.draft_url)}" target="_blank" rel="noopener">Draft guidance <small>${monYear(D.docket.draft_date)} ↗</small></a>
+      <a class="docbtn" href="${esc(g.final_url)}" target="_blank" rel="noopener">Final guidance <small>${monYear(D.docket.final_date)} ↗</small></a>
       <a class="docbtn" href="${esc(D.docket.docket_url)}" target="_blank" rel="noopener">Docket on regulations.gov <small>↗</small></a>
     </div>
     <section class="block">
@@ -425,7 +426,7 @@ function drawChanged(v) {
   v.innerHTML = `
     <div class="kicker label">What changed</div>
     <h1 class="state">What changed between the draft and the final guidance</h1>
-    <p class="sub">For each request we checked whether the July 2024 final changed in the direction asked, quoting the final text word for word. Requests about process, meetings or other guidances can't be checked against the text.</p>
+    <p class="sub">For each request we checked whether the ${monYear(D.docket.final_date, "long")} final changed in the direction asked, quoting the final text word for word. Requests about process, meetings or other guidances can't be checked against the text.</p>
     <p class="note"><b>Concordance, not impact.</b> A change that matches a request does not show the request caused it: the final also reflects FDA's internal review, ICH M14 and other guidances.</p>
     <div class="stats">
       <div class="stat"><b class="num" data-count="${Math.round(100 * r.r)}" data-suffix="%">0</b><span>of checkable requests adopted or partly adopted</span></div>
@@ -526,8 +527,8 @@ function openSection(id) {
   const ev = l.filter((a) => a.c.evidence_span && (a.c.call === "adopted" || a.c.call === "partially adopted")).map((a) => a.c.evidence_span);
   const diff = s.status === "general" ? "" : `
     <div class="keyrow"><span><i class="sw" style="background:var(--del)"></i><s>words removed</s> from the draft</span><span><i class="sw" style="background:var(--ins)"></i>words added in the final</span><span><i class="sw" style="background:var(--mark)"></i>evidence for an adopted or partial call</span></div>
-    <div class="sbs"><div><div class="label" style="margin-bottom:8px">Draft · Sep 2021${s.draft_section_id ? " · §" + esc(s.draft_section_id) : ""}</div><div class="doc">${s.draft_section_id ? renderSide(s.word_diff, "draft", []) : "<p>Not in the draft.</p>"}</div></div>
-      <div><div class="label" style="margin-bottom:8px">Final · Jul 2024${s.final_section_id ? " · §" + esc(s.final_section_id) : ""}</div><div class="doc">${s.final_section_id ? renderSide(s.word_diff, "final", ev) : "<p>Removed from the final.</p>"}</div></div></div>`;
+    <div class="sbs"><div><div class="label" style="margin-bottom:8px">Draft · ${monYear(D.docket.draft_date)}${s.draft_section_id ? " · §" + esc(s.draft_section_id) : ""}</div><div class="doc">${s.draft_section_id ? renderSide(s.word_diff, "draft", []) : "<p>Not in the draft.</p>"}</div></div>
+      <div><div class="label" style="margin-bottom:8px">Final · ${monYear(D.docket.final_date)}${s.final_section_id ? " · §" + esc(s.final_section_id) : ""}</div><div class="doc">${s.final_section_id ? renderSide(s.word_diff, "final", ev) : "<p>Removed from the final.</p>"}</div></div></div>`;
   openDrawer({ wide: true, kicker: s.status === "general" ? "Whole guidance" : `Section ${s.final_section_id || s.draft_section_id}`, title: s.heading,
     sub: `${fmt(l.length)} requests${s.change_summary_stats ? ` · ${s.change_summary_stats.words_added} words added, ${s.change_summary_stats.words_removed} removed` : ""}`,
     html: diff + `<div class="label" style="margin-top:12px">Requests about this section</div>` + (askCards(l) || "<p>None.</p>") });

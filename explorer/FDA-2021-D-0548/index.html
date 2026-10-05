@@ -1,0 +1,620 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Docket Lens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Geist+Mono:wght@400;500&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+/* Layout: a plain, government-style white page per question (four tabs). Each opens with a plain heading,
+   one primary visual, and detail on demand in a slide-in panel. One teal accent; outcome colors only for calls. */
+:root {
+  --bg: #ffffff; --soft: #f6f7f7; --line: #e7e9ea; --line-strong: #d3d7d9;
+  --ink: #111414; --body: #3c4446; --muted: #7a8386;
+  --accent: #0f6b66; --accent-soft: #e7f2f1; --accent-ink: #ffffff;
+  --c-adopted: #007a70; --c-partial: #2fb3a1; --c-not: #d9662b; --c-na: #8c93ad; --c-on-partial: #06231f;
+  --heat-0: #f5f7f7; --heat-1: #dcecea; --heat-2: #b4d8d3; --heat-3: #7cbab3; --heat-4: #3f928a; --heat-5: #0f6b66; --heat-on: #ffffff;
+  --del: #fde4dc; --del-line: #c4552a; --ins: #dcf1ec; --mark: #fff0bf;
+  --shadow: 0 18px 50px rgba(17, 20, 20, .14);
+  --f-display: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+/* Deliberately single-theme: a white page in every viewer setting (JDD, 3 Oct 2026). */
+:root { color-scheme: light }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--body); font: 15px/1.6 var(--f-sans); -webkit-font-smoothing: antialiased }
+a { color: var(--accent); text-underline-offset: 3px }
+button { font: inherit; color: inherit }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px }
+.num { font-variant-numeric: tabular-nums }
+.label { font: 500 .72rem var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+
+/* top bar */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line) }
+.top .wrap { display: flex; align-items: center; gap: 16px; padding-block: 12px; flex-wrap: wrap }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); font-weight: 600; font-size: 1.12rem; letter-spacing: -.01em; margin-right: auto; min-width: 0 }
+.brand .lens { width: 26px; height: 26px; flex: none; fill: none; stroke: var(--accent); stroke-width: 2.4; stroke-linecap: round; transition: transform .3s var(--ease) }
+.brand:hover .lens { transform: rotate(-12deg) scale(1.08) }
+.brand span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.brand small { color: var(--muted); font: 400 .78rem var(--f-mono); margin-left: 8px }
+.tabs { position: relative; display: flex; gap: 2px; background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 4px }
+.tabs a { position: relative; z-index: 1; padding: 7px 16px; border-radius: 999px; text-decoration: none; color: var(--muted); font-weight: 500; font-size: .88rem; white-space: nowrap; transition: color .25s var(--ease) }
+.tabs a[aria-current="page"] { color: var(--accent-ink) }
+.tabs .pill-bg { position: absolute; z-index: 0; top: 4px; bottom: 4px; left: 4px; width: 0; border-radius: 999px; background: var(--accent); transition: left .35s var(--ease), width .35s var(--ease) }
+@media (max-width: 760px) { .tabs { width: 100%; overflow-x: auto; scrollbar-width: none } .tabs a { padding: 7px 10px; font-size: .78rem; flex: 1 0 auto; text-align: center } }
+
+/* views */
+.view { padding-block: 56px 24px }
+.view[hidden] { display: none }
+.kicker { margin-bottom: 14px }
+h1.state { font: 600 clamp(1.8rem, 3.6vw, 2.6rem)/1.15 var(--f-display); color: var(--ink); letter-spacing: -.02em; margin: 0 0 14px; max-width: 34ch; text-wrap: balance }
+.sub { max-width: 62ch; font-size: 1.02rem; margin: 0 }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-block: 40px 8px; border-top: 1px solid var(--line) }
+.stat { padding: 18px 18px 18px 0 }
+.stat + .stat { padding-left: 18px; border-left: 1px solid var(--line) }
+@media (max-width: 700px) { .stat + .stat { border-left: 0; padding-left: 0 } .stat { border-bottom: 1px solid var(--line) } }
+.stat b { display: block; font: 600 2.1rem/1.05 var(--f-display); letter-spacing: -.02em; color: var(--ink) }
+.stat span { display: block; margin-top: 6px; font-size: .82rem; color: var(--muted); max-width: 24ch }
+.block { margin-top: 56px }
+.block-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 18px }
+.block-head h2 { font: 600 1.3rem/1.25 var(--f-display); letter-spacing: -.01em; color: var(--ink); margin: 4px 0 0 }
+.block-head p { margin: 4px 0 0; color: var(--muted); font-size: .9rem; max-width: 60ch }
+.seg { display: inline-flex; background: var(--soft); border: 1px solid var(--line); border-radius: 999px; padding: 3px }
+.seg button { all: unset; cursor: pointer; padding: 5px 13px; border-radius: 999px; font-size: .8rem; font-weight: 500; color: var(--muted); transition: background .2s, color .2s }
+.seg button[aria-pressed="true"] { background: var(--bg); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.1) }
+
+/* who: unit chart */
+.urow { display: grid; grid-template-columns: 210px 52px minmax(0, 1fr); gap: 16px; align-items: center; padding-block: 16px; border-top: 1px solid var(--line) }
+.urow:last-child { border-bottom: 1px solid var(--line) }
+.urow .name { font-weight: 500; color: var(--ink); font-size: .92rem }
+.urow .name small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem }
+.urow .n { text-align: right; font: 600 1.3rem var(--f-display); color: var(--ink); padding-right: 12px; border-right: 1px solid var(--line) }
+.dots { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0 }
+.dot { all: unset; cursor: pointer; display: block; flex: none; border-radius: 50%; background: var(--accent); opacity: .9; transition: transform .2s var(--ease), opacity .2s }
+.dot:hover, .dot:focus-visible { transform: scale(1.25); opacity: 1 }
+.dot.anon { background: transparent; box-shadow: inset 0 0 0 1.5px var(--muted) }
+@media (max-width: 720px) { .urow { grid-template-columns: minmax(0, 1fr) 48px } .urow .n { border-right: 0; padding-right: 0 } .urow .dots { grid-column: 1 / -1 } }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-top: 14px; font-size: .8rem; color: var(--muted) }
+.legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 6px }
+.legend .d { display: inline-block; border-radius: 50%; background: var(--accent); vertical-align: middle; margin-right: 6px }
+
+/* tooltip */
+.tip { position: fixed; z-index: 40; left: 0; top: 0; pointer-events: none; background: var(--ink); color: var(--bg); font-size: .8rem; line-height: 1.4; padding: 8px 10px; border-radius: 6px; max-width: 260px; opacity: 0; transition: opacity .15s }
+.tip.on { opacity: 1 }
+
+/* heatmap */
+.heatwrap { overflow-x: auto; padding: 4px }
+table.heat { border-collapse: separate; border-spacing: 3px; width: 100%; min-width: 720px }
+table.heat th { font: 500 .76rem var(--f-sans); color: var(--muted); text-align: center; padding: 6px 2px; vertical-align: bottom }
+table.heat th.row { text-align: left; color: var(--ink); font-size: .86rem; font-weight: 400; white-space: nowrap; padding-right: 10px; vertical-align: middle }
+table.heat td { padding: 0 }
+table.heat td.tot, table.heat th.tot { font: 400 .82rem var(--f-mono); color: var(--muted); text-align: right; padding-left: 8px; vertical-align: middle }
+.cell { all: unset; box-sizing: border-box; cursor: pointer; display: grid; place-items: center; width: 100%; min-width: 64px; height: 42px; border-radius: 6px; font: 500 .82rem var(--f-mono); transition: transform .18s var(--ease), box-shadow .18s }
+.cell:hover, .cell:focus-visible { transform: scale(1.06); box-shadow: 0 6px 18px rgba(0,0,0,.14); position: relative; z-index: 1 }
+.ramp { display: inline-flex; border-radius: 3px; overflow: hidden } .ramp i { width: 20px; height: 10px }
+
+/* changed */
+.overall { display: flex; height: 58px; border-radius: 10px; overflow: hidden; gap: 3px }
+.overall > div { display: flex; align-items: end; padding: 8px 10px; color: #fff; font-size: .78rem; font-weight: 500; min-width: 0; overflow: hidden; white-space: nowrap; transform-origin: left center }
+.overall > div b { font: 600 1.15rem var(--f-display); margin-right: 6px }
+.overall .p-partially-adopted { color: var(--c-on-partial) }
+.tbars { display: grid; gap: 2px }
+.tbar { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr) 54px; gap: 14px; align-items: center; padding: 9px 10px; border-radius: 8px; transition: background .2s }
+.tbar:hover, .tbar:focus-visible { background: var(--soft) }
+.tbar .t { color: var(--ink); font-size: .9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.tbar .track { height: 10px; background: var(--soft); border-radius: 99px; overflow: hidden; display: flex }
+.tbar:hover .track { background: var(--line) }
+.tbar .track i { display: block; height: 100%; transform-origin: left center }
+.tbar .v { text-align: right; font: 600 1rem var(--f-display); color: var(--ink) }
+@media (max-width: 640px) { .tbar { grid-template-columns: minmax(0, 1fr) 46px } .tbar .track { grid-column: 1 / -1; order: 3 } }
+.secs { border-top: 1px solid var(--line) }
+.sec { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 70px minmax(0, 1fr) minmax(90px, 220px) 20px; gap: 14px; align-items: center; padding: 14px 6px; border-bottom: 1px solid var(--line); transition: background .2s }
+.sec:hover, .sec:focus-visible { background: var(--soft) }
+.sec .id { font: 400 .8rem var(--f-mono); color: var(--muted) }
+.sec .h { color: var(--ink); font-size: .94rem; min-width: 0 }
+.sec .h small { display: block; color: var(--muted); font-size: .78rem }
+.sec .arrow { color: var(--muted); transition: transform .2s var(--ease), color .2s }
+.sec:hover .arrow { transform: translateX(3px); color: var(--accent) }
+.tag { display: inline-block; font: 500 .66rem var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding: 1px 6px; border-radius: 4px; margin-right: 8px; vertical-align: 1px; background: var(--soft); color: var(--muted) }
+.tag.added { background: var(--accent-soft); color: var(--accent) } .tag.removed { background: var(--del); color: var(--del-line) }
+.stack { display: flex; height: 8px; gap: 2px; border-radius: 99px; overflow: hidden }
+.stack i { display: block; min-width: 3px }
+.stack.empty { background: var(--soft) }
+@media (max-width: 640px) { .sec { grid-template-columns: 50px minmax(0, 1fr) 16px } .sec .stack { grid-column: 2 / 3; order: 4 } }
+
+/* drawer */
+.scrim { position: fixed; inset: 0; z-index: 30; background: rgba(10, 14, 14, .28); opacity: 0; pointer-events: none; transition: opacity .3s }
+.scrim.on { opacity: 1; pointer-events: auto }
+.drawer { position: fixed; z-index: 31; top: 0; right: 0; bottom: 0; width: min(560px, 100%); background: var(--bg); box-shadow: var(--shadow); transform: translateX(104%); transition: transform .42s var(--ease); display: flex; flex-direction: column; padding-top: env(safe-area-inset-top, 0px) }
+.drawer.wide { width: min(1080px, 100%) }
+.drawer.on { transform: none }
+.drawer header { display: flex; gap: 16px; align-items: start; justify-content: space-between; padding: 22px 24px 16px; border-bottom: 1px solid var(--line) }
+.drawer header h3 { font: 600 1.3rem/1.25 var(--f-display); letter-spacing: -.01em; color: var(--ink); margin: 4px 0 0 }
+.drawer header p { margin: 6px 0 0; color: var(--muted); font-size: .86rem }
+.close { all: unset; cursor: pointer; width: 34px; height: 34px; flex: none; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); color: var(--muted); font-size: 1rem }
+.close:hover { color: var(--ink); border-color: var(--line-strong) }
+.drawer .body { overflow: auto; padding: 20px 24px calc(28px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 12px; align-content: start }
+.drawer .body > p { margin: 0 }
+.ask { border: 1px solid var(--line); border-radius: 10px; padding: 16px; min-width: 0 }
+.ask .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .76rem; color: var(--muted); margin-bottom: 8px }
+.ask .meta b { color: var(--ink); font-weight: 600 }
+.ask blockquote { margin: 0; font: 400 1rem/1.55 var(--f-sans); color: var(--ink); overflow-wrap: anywhere }
+.ask .verdict { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); font-size: .84rem }
+.ask .verdict q { display: block; margin-top: 6px; font: italic .92rem/1.5 var(--f-sans); color: var(--body); quotes: "“" "”" }
+.callpill { display: inline-block; font: 500 .68rem var(--f-mono); letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; color: #fff; margin-right: 6px }
+.p-adopted { background: var(--c-adopted) } .p-partially-adopted { background: var(--c-partial); color: var(--c-on-partial) } .p-not-adopted { background: var(--c-not) } .p-not-assessable { background: var(--c-na) }
+.more { all: unset; cursor: pointer; justify-self: start; color: var(--accent); font-weight: 500; font-size: .86rem; padding: 6px 0 }
+.sbs { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px }
+@media (max-width: 760px) { .sbs { grid-template-columns: minmax(0, 1fr) } }
+.doc { font: 400 .95rem/1.7 var(--f-sans); color: var(--ink); padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; max-height: 52vh; overflow: auto; overflow-wrap: anywhere }
+.doc p { margin: 0 0 .8em }
+.doc .del { background: var(--del); text-decoration: line-through; text-decoration-color: var(--del-line); text-decoration-thickness: 1.5px }
+.doc .ins { background: var(--ins) }
+.doc mark { background: var(--mark); color: inherit; box-shadow: 0 0 0 1px var(--c-adopted); border-radius: 2px }
+.keyrow { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .78rem; color: var(--muted) }
+.keyrow .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 6px }
+
+
+/* overview */
+.lead { font-size: 1.12rem; line-height: 1.6; color: var(--ink); max-width: 68ch; margin: 0 }
+.lead cite { display: block; margin-top: 8px; font: 400 .78rem var(--f-mono); font-style: normal; color: var(--muted) }
+.docs { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px }
+.docbtn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border: 1px solid var(--line-strong); border-radius: 8px; text-decoration: none; color: var(--ink); font-weight: 500; font-size: .88rem; transition: border-color .2s, background .2s }
+.docbtn:hover { border-color: var(--accent); background: var(--accent-soft) }
+.docbtn small { color: var(--muted); font: 400 .74rem var(--f-mono) }
+.cols2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px }
+@media (max-width: 860px) { .cols2 { grid-template-columns: minmax(0, 1fr) } }
+ol.plain, ul.plain { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; counter-reset: n }
+ol.plain li, ul.plain li { position: relative; padding: 12px 0 12px 38px; border-top: 1px solid var(--line); color: var(--ink); font-size: .95rem }
+ol.plain li:last-child, ul.plain li:last-child { border-bottom: 1px solid var(--line) }
+ol.plain li::before { counter-increment: n; content: counter(n); position: absolute; left: 0; top: 12px; width: 24px; height: 24px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font: 600 .78rem/24px var(--f-mono); text-align: center }
+ul.plain li::before { content: ""; position: absolute; left: 8px; top: 21px; width: 8px; height: 8px; border-radius: 2px; background: var(--accent) }
+.source { margin-top: 10px; font: 400 .76rem var(--f-mono); color: var(--muted) }
+.timeline { position: relative; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 12px; padding-top: 26px }
+.timeline::before { content: ""; position: absolute; left: 6px; right: 6px; top: 31px; height: 2px; background: var(--line); transform-origin: left center }
+.timeline .ev { position: relative; padding-top: 22px; min-width: 0 }
+.timeline .ev::before { content: ""; position: absolute; top: 0; left: 0; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); box-shadow: inset 0 0 0 3px var(--accent) }
+.timeline .ev.key::before { background: var(--accent) }
+.timeline .ev b { display: block; color: var(--ink); font-weight: 600; font-size: .92rem }
+.timeline .ev span { display: block; font-size: .84rem; color: var(--body) }
+.timeline .ev small { display: block; font: 400 .72rem var(--f-mono); color: var(--muted); margin-top: 2px }
+@media (max-width: 760px) { .timeline { grid-template-columns: minmax(0, 1fr); padding-top: 0; padding-left: 4px } .timeline::before { left: 9px; right: auto; top: 6px; bottom: 6px; width: 2px; height: auto } .timeline .ev { padding: 0 0 4px 28px } .timeline .ev::before { top: 4px } }
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px }
+.gl { all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 6px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; transition: border-color .2s, transform .2s var(--ease), box-shadow .2s }
+.gl:hover, .gl:focus-visible { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 10px 24px rgba(17,20,20,.08) }
+.gl b { font: 600 2rem/1 var(--f-display); letter-spacing: -.02em; color: var(--ink) }
+.gl span { font-size: .86rem; color: var(--body) }
+.gl em { font-style: normal; font-size: .8rem; color: var(--accent); font-weight: 500 }
+
+.note { max-width: 68ch; margin: 14px 0 0; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--accent-soft); font-size: .88rem; color: var(--ink); border-radius: 0 6px 6px 0 }
+.mtable { width: 100%; border-collapse: collapse; font-size: .86rem }
+.mtable td { padding: 8px 0; border-top: 1px solid var(--line); vertical-align: top }
+.mtable td:first-child { font: 500 .8rem var(--f-mono); color: var(--accent); white-space: nowrap; padding-right: 14px }
+.steps { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; counter-reset: st }
+.steps li { position: relative; padding-left: 34px; font-size: .9rem }
+.steps li::before { counter-increment: st; content: counter(st); position: absolute; left: 0; top: 1px; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font: 600 .74rem/22px var(--f-mono); text-align: center }
+.drawer .body h4 { margin: 14px 0 0; font: 600 1rem var(--f-sans); color: var(--ink) }
+
+/* footer */
+.caveat { position: fixed; z-index: 15; left: 0; right: 0; bottom: 0; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); padding: 10px 20px calc(10px + env(safe-area-inset-bottom, 0px)); text-align: center }
+.caveat b { color: var(--ink); font-weight: 600 }
+.caveat button { all: unset; cursor: pointer; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; margin-left: 6px }
+footer.foot { margin-top: 72px; padding-block: 28px; border-top: 1px solid var(--line); font-size: .82rem; color: var(--muted) }
+footer.foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px }
+.loading { padding: 80px 0; color: var(--muted) }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#overview" data-tab="overview"><svg class="lens" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.4 15.4 21 21"/></svg><span>Docket Lens</span></a>
+    <nav class="tabs" aria-label="Views">
+      <span class="pill-bg" aria-hidden="true"></span>
+      <a href="#overview" data-tab="overview">Overview</a>
+      <a href="#who" data-tab="who">Who commented</a>
+      <a href="#said" data-tab="said">What they asked</a>
+      <a href="#changed" data-tab="changed">What changed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="main"><p class="loading">Loading the analysis…</p></main>
+
+<footer class="foot"><div class="wrap">
+  <span>© 2026 <a href="https://blackswancausallabs.com" target="_blank" rel="noopener">Black Swan Causal Labs</a> · Explorer licensed PolyForm Noncommercial 1.0.0 · Data: public comments on regulations.gov</span>
+  <button class="more" data-method="1" style="padding:0">How this was made</button>
+</div></footer>
+
+<div class="tip" id="tip" role="tooltip"></div>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dTitle" hidden>
+  <header><div><div class="label" id="dKicker"></div><h3 id="dTitle"></h3><p id="dSub"></p></div><button class="close" id="dClose" aria-label="Close">✕</button></header>
+  <div class="body" id="dBody"></div>
+</aside>
+
+<script>
+const CALLS = ["adopted", "partially adopted", "not adopted", "not assessable"];
+const CVAR = { "adopted": "--c-adopted", "partially adopted": "--c-partial", "not adopted": "--c-not", "not assessable": "--c-na" };
+const BUCKETS = ["Pharma / biotech", "Trade association", "CRO / data & tech vendor", "Academic / independent", "Professional society", "Patient advocacy", "Other / anonymous"];
+const SHORT = { "Pharma / biotech": "Pharma", "Trade association": "Trade assn", "CRO / data & tech vendor": "Data & tech", "Academic / independent": "Academic", "Professional society": "Prof. society", "Patient advocacy": "Patient", "Other / anonymous": "Other" };
+const PARA = "¶";
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = (n) => Number(n).toLocaleString("en-US");
+const pct = (x) => x == null ? "–" : Math.round(100 * x) + "%";
+const cls = (c) => "p-" + c.replace(/ /g, "-");
+const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const G0 = !REDUCED && window.gsap ? window.gsap : null;
+if (G0) G0.ticker.lagSmoothing(0);   // follow the real clock even when frames are throttled
+// Every animation starts from a transient state and ends at the element's own CSS. Whatever the
+// frame rate, settle() clears the animated properties shortly after, so nothing stays half-drawn.
+const animated = new Set();
+const G = G0 && {
+  from: (t, v) => { [].concat(t).forEach((el) => animated.add(el)); return G0.from(t, v); },
+  to: (t, v) => G0.to(t, v),
+};
+function settle() {
+  if (!G0) return;
+  setTimeout(() => { const els = [...animated].filter((el) => el.isConnected); animated.clear(); if (els.length) G0.set(els, { clearProps: "transform,opacity,scale" }); }, 3000);
+}
+
+let D, X;
+const S = { tab: "who", heat: "asks" };
+
+function index(A) {
+  const sub = Object.fromEntries(A.submitters.map((s) => [s.submitter_id, s]));
+  const com = Object.fromEntries(A.comments.map((c) => [c.comment_id, c]));
+  const theme = Object.fromEntries(A.themes.map((t) => [t.theme_id, t]));
+  const call = Object.fromEntries(A.concordance.map((c) => [c.ask_id, c]));
+  const asks = A.asks.map((a) => { const s = sub[com[a.comment_id].submitter_id]; return { ...a, sub: s, bucket: s.bucket, c: call[a.ask_id], text: a.display_span || a.source_span }; });
+  const bySub = {}; for (const a of asks) (bySub[a.sub.submitter_id] ||= []).push(a);
+  return { sub, com, theme, asks, bySub };
+}
+function rate(list) {
+  const n = list.filter((a) => a.c.call !== "not assessable");
+  const y = n.filter((a) => a.c.call === "adopted" || a.c.call === "partially adopted").length;
+  return { y, n: n.length, r: n.length ? y / n.length : null };
+}
+const isAnon = (s) => /^anonymous$/i.test(s.name);
+
+/* ---------- motion ---------- */
+function countUp(root) {
+  $$("[data-count]", root).forEach((el) => {
+    const end = +el.dataset.count, suf = el.dataset.suffix || "";
+    if (!G) { el.textContent = fmt(end) + suf; return; }
+    const o = { v: 0 };
+    G.to(o, { v: end, duration: 1.2, ease: "power3.out", onUpdate: () => (el.textContent = fmt(Math.round(o.v)) + suf) });
+  });
+}
+function reveal(root) {
+  if (!G) return;
+  G.from($$(".kicker, h1.state, .sub, .lead, .docs", root), { y: 18, opacity: 0, duration: .7, stagger: .07, ease: "power3.out" });
+  G.from($$(".stat", root), { y: 14, opacity: 0, duration: .6, stagger: .06, delay: .15, ease: "power3.out" });
+}
+
+/* ---------- tabs ---------- */
+function movePill() {
+  const a = $(`.tabs a[data-tab="${S.tab}"]`), bg = $(".tabs .pill-bg");
+  if (!a) return;
+  bg.style.left = a.offsetLeft + "px"; bg.style.width = a.offsetWidth + "px";
+  $$(".tabs a").forEach((x) => (x === a ? x.setAttribute("aria-current", "page") : x.removeAttribute("aria-current")));
+}
+function show(tab) {
+  S.tab = ["overview", "who", "said", "changed"].includes(tab) ? tab : "overview";
+  $$(".view").forEach((v) => (v.hidden = v.id !== "v-" + S.tab));
+  movePill();
+  ({ overview: drawOverview, who: drawWho, said: drawSaid, changed: drawChanged })[S.tab]($("#v-" + S.tab));
+  window.scrollTo({ top: 0, behavior: "auto" });
+}
+
+
+/* ---------- 0. Overview ---------- */
+const monYear = (iso, month = "short") => new Date(String(iso).slice(0, 10) + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month, timeZone: "UTC" });
+const longDate = (iso) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
+function drawOverview(v) {
+  const g = D.guidance, r = rate(X.asks);
+  const ucfirst = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+  v.innerHTML = `
+    <div class="kicker label">FDA guidance for industry · Docket ${esc(D.docket.id)}</div>
+    <h1 class="state">${esc(D.docket.title)}</h1>
+    ${g.summary ? `<p class="lead">${esc(g.summary)}<cite>FDA, Federal Register notice of availability of the final guidance (${esc(g.summary_source)})</cite></p>` : ""}
+    <div class="docs">
+      <a class="docbtn" href="${esc(g.draft_url)}" target="_blank" rel="noopener">Draft guidance <small>${monYear(D.docket.draft_date)} ↗</small></a>
+      <a class="docbtn" href="${esc(g.final_url)}" target="_blank" rel="noopener">Final guidance <small>${monYear(D.docket.final_date)} ↗</small></a>
+      <a class="docbtn" href="${esc(D.docket.docket_url)}" target="_blank" rel="noopener">Docket on regulations.gov <small>↗</small></a>
+    </div>
+    <section class="block">
+      <div class="block-head"><div><div class="label">Timeline</div><h2>From draft to final</h2></div></div>
+      <div class="timeline" style="--n:${g.timeline.length}">${g.timeline.map((e, i) => `<div class="ev ${i === 0 || i === g.timeline.length - 1 ? "key" : ""}"><b>${esc(longDate(e.date))}</b><span>${esc(e.event)}</span>${e.fr ? `<small>FR Doc. ${esc(e.fr)}</small>` : ""}</div>`).join("")}</div>
+    </section>
+    <section class="block ${g.topics.length ? "cols2" : ""}">
+      ${g.topics.length ? `<div><div class="block-head"><div><div class="label">Scope</div><h2>What the guidance covers</h2></div></div>
+        <ul class="plain">${g.topics.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ul>
+        <div class="source">Source: FDA final notice of availability (${esc(g.topics_source)})</div></div>` : ""}
+      <div><div class="block-head"><div><div class="label">Draft to final</div><h2>What FDA says it changed</h2></div></div>
+        ${g.fda_listed_changes.length ? `<ol class="plain">${g.fda_listed_changes.map((t) => `<li>${esc(ucfirst(t))}</li>`).join("")}</ol>` : `<p>FDA's notice does not list specific changes.</p>`}
+        <div class="source">${esc(g.editorial_note || "")} Source: FDA final notice of availability (${esc(g.fda_listed_changes_source)})</div></div>
+    </section>
+    <section class="block">
+      <div class="block-head"><div><div class="label">At a glance</div><h2>The public comments and what came of them</h2></div></div>
+      <div class="glance">
+        <button class="gl" data-go="who"><b class="num" data-count="${D.docket.n_comments}">0</b><span>comments from ${fmt(D.submitters.length)} organisations and individuals</span><em>Who commented →</em></button>
+        <button class="gl" data-go="said"><b class="num" data-count="${X.asks.length}">0</b><span>specific requests made to FDA, each quoted word for word</span><em>What they asked →</em></button>
+        <button class="gl" data-go="changed"><b class="num" data-count="${Math.round(100 * r.r)}" data-suffix="%">0</b><span>of checkable requests reflected, fully or partly, in the final</span><em>What changed →</em></button>
+        <button class="gl" data-method="1"><b class="num" data-count="${Math.round(100 * D.run.spot_check_agreement)}" data-suffix="%">0</b><span>agreement when a human expert re-checked ${D.run.spot_check_n} calls</span><em>How this was made →</em></button>
+      </div>
+    </section>`;
+  countUp(v); reveal(v); settle();
+  if (G) { G.from($$(".timeline .ev", v), { y: 10, opacity: 0, duration: .5, stagger: .1, delay: .3, ease: "power2.out" }); G.from($$(".gl", v), { y: 14, opacity: 0, duration: .5, stagger: .07, delay: .4, ease: "power2.out" }); }
+}
+
+/* ---------- 1. Who spoke ---------- */
+function drawWho(v) {
+  const subs = D.submitters, nReq = (s) => (X.bySub[s.submitter_id] || []).length;
+  const rows = BUCKETS.map((b) => ({ b, list: subs.filter((s) => s.bucket === b).sort((x, y) => nReq(y) - nReq(x)) })).sort((x, y) => y.list.length - x.list.length);
+  const maxReq = Math.max(...subs.map(nReq)), size = (n) => Math.round(8 + 36 * Math.sqrt(n / maxReq));
+  const nAnon = subs.filter(isAnon).length;
+  v.innerHTML = `
+    <div class="kicker label">Who commented</div>
+    <h1 class="state">Who commented on the draft guidance</h1>
+    <p class="sub">${fmt(D.docket.n_comments)} comments were posted to docket ${esc(D.docket.id)} from ${fmt(subs.length)} organisations and individuals. Each submitter is classified into one of seven types, using the letterhead and signature of the comment.</p>
+    <div class="stats">
+      <div class="stat"><b class="num" data-count="${D.docket.n_comments}">0</b><span>comments on the docket</span></div>
+      <div class="stat"><b class="num" data-count="${D.docket.n_submissions_represented}">0</b><span>submissions, counting duplicates FDA merged</span></div>
+      <div class="stat"><b class="num" data-count="${subs.length - nAnon}">0</b><span>named organisations and people</span></div>
+      <div class="stat"><b class="num" data-count="${nAnon}">0</b><span>anonymous commenters</span></div>
+    </div>
+    <section class="block">
+      <div class="block-head"><div><div class="label">Every commenter, by type</div><h2>Each dot is one submitter</h2><p>Larger dots made more distinct requests. Hover for a name; click to read what they asked.</p></div></div>
+      <div class="units">${rows.map(({ b, list }) => `
+        <div class="urow"><div class="name">${esc(b)}<small>${fmt(list.reduce((t, s) => t + nReq(s), 0))} requests</small></div>
+          <div class="n num" title="submitters">${list.length}</div>
+          <div class="dots">${list.map((s) => { const n = nReq(s), d = size(n); return `<button class="dot ${isAnon(s) ? "anon" : ""}" data-sub="${s.submitter_id}" style="width:${d}px;height:${d}px" aria-label="${esc(s.name)}, ${n} requests"></button>`; }).join("")}</div></div>`).join("")}</div>
+      <div class="legend"><span><i class="d" style="width:10px;height:10px"></i>few requests</span><span><i class="d" style="width:36px;height:36px"></i>many requests</span><span><i class="d" style="width:12px;height:12px;background:transparent;box-shadow:inset 0 0 0 1.5px var(--muted)"></i>anonymous</span></div>
+    </section>`;
+  countUp(v); reveal(v); settle();
+  if (G) G.from($$(".dot", v), { scale: 0, opacity: 0, duration: .5, ease: "back.out(2)", stagger: .012, delay: .25 });
+}
+
+/* ---------- 2. What they said ---------- */
+function drawSaid(v) {
+  const asks = X.asks, share = (st) => Math.round(100 * asks.filter((a) => a.stance === st).length / asks.length);
+  const top = D.themes.map((t) => ({ t, n: asks.filter((a) => a.theme_id === t.theme_id).length })).sort((a, b) => b.n - a.n)[0];
+  v.innerHTML = `
+    <div class="kicker label">What they asked</div>
+    <h1 class="state">What commenters asked FDA to change</h1>
+    <p class="sub">Each comment was split into discrete requests, quoted word for word, and coded to one of ${D.themes.length} themes agreed before coding began.</p>
+    <div class="stats">
+      <div class="stat"><b class="num" data-count="${asks.length}">0</b><span>discrete requests</span></div>
+      <div class="stat"><b class="num" data-count="${share("requests more specificity")}" data-suffix="%">0</b><span>asked for more specificity</span></div>
+      <div class="stat"><b class="num" data-count="${share("requests more flexibility")}" data-suffix="%">0</b><span>asked for more flexibility</span></div>
+      <div class="stat"><b class="num" data-count="${top.n}">0</b><span>on methodology, the largest theme</span></div>
+    </div>
+    <section class="block">
+      <div class="block-head"><div><div class="label">Themes × submitter type</div><h2>Where the requests came from</h2><p>Click any cell to read the requests behind it.</p></div>
+        <div class="seg" role="group" aria-label="Measure"><button data-heat="asks" aria-pressed="${S.heat === "asks"}">Requests</button><button data-heat="subs" aria-pressed="${S.heat === "subs"}">Submitters</button><button data-heat="rate" aria-pressed="${S.heat === "rate"}">Adopted %</button></div></div>
+      <div class="heatwrap" id="heat"></div>
+      <div class="legend" id="heatLegend"></div>
+    </section>`;
+  countUp(v); reveal(v); drawHeat(); settle();
+}
+function drawHeat() {
+  const metric = S.heat;
+  const cell = (t, b) => X.asks.filter((a) => a.theme_id === t && a.bucket === b);
+  const val = (l) => metric === "asks" ? l.length : metric === "subs" ? new Set(l.map((a) => a.sub.submitter_id)).size : rate(l).r;
+  const grid = D.themes.map((t) => BUCKETS.map((b) => { const l = cell(t.theme_id, b); return { l, v: val(l), n: rate(l).n }; }));
+  const max = metric === "rate" ? 1 : Math.max(1, ...grid.flat().map((g) => g.v || 0));
+  const step = (x) => x == null || x === 0 ? 0 : Math.min(5, 1 + Math.floor((4.999 * x) / max));
+  $("#heat").innerHTML = `<table class="heat"><thead><tr><th></th>${BUCKETS.map((b) => `<th scope="col" title="${esc(b)}">${esc(SHORT[b])}</th>`).join("")}<th class="tot">All</th></tr></thead><tbody>
+    ${D.themes.map((t, i) => { const all = X.asks.filter((a) => a.theme_id === t.theme_id); return `<tr><th scope="row" class="row">${esc(t.label)}</th>${grid[i].map((g, j) => {
+      const hide = metric === "rate" && g.n < 5, k = hide ? 0 : step(g.v);
+      const txt = hide ? (g.l.length ? "·" : "") : metric === "rate" ? pct(g.v) : (g.v || "");
+      return `<td><button class="cell" data-cell="${t.theme_id}|${esc(BUCKETS[j])}" data-tipname="${esc(t.label)} × ${esc(BUCKETS[j])}" data-tipbody="${g.l.length} requests · ${new Set(g.l.map((a) => a.sub.submitter_id)).size} submitters · adopted or partial ${pct(rate(g.l).r)}" style="background:var(--heat-${k});color:${k >= 4 ? "var(--heat-on)" : "var(--ink)"}">${txt}</button></td>`;
+    }).join("")}<td class="tot">${metric === "rate" ? pct(rate(all).r) : val(all)}</td></tr>`; }).join("")}</tbody></table>`;
+  $("#heatLegend").innerHTML = `<span>${{ asks: "Number of requests", subs: "Distinct submitters", rate: "Share of checkable requests adopted or partly adopted; cells with fewer than 5 shown as ·" }[metric]}</span><span class="ramp">${[0, 1, 2, 3, 4, 5].map((k) => `<i style="background:var(--heat-${k})"></i>`).join("")}</span><span>${metric === "rate" ? "0 → 100%" : "fewer → more"}</span>`;
+  if (G) G.from($$(".cell", $("#heat")), { opacity: 0, scale: .6, duration: .45, ease: "power2.out", stagger: { amount: .7, grid: [D.themes.length, BUCKETS.length], from: "start" } });
+}
+
+/* ---------- 3. What changed ---------- */
+function drawChanged(v) {
+  const asks = X.asks, tot = (k) => asks.filter((a) => a.c.call === k).length, r = rate(asks);
+  const st = D.sections.reduce((m, s) => ((m[s.status] = (m[s.status] || 0) + 1), m), {});
+  const themes = D.themes.map((t) => { const l = asks.filter((a) => a.theme_id === t.theme_id); return { t, l, r: rate(l) }; }).sort((a, b) => (b.r.r ?? -1) - (a.r.r ?? -1));
+  v.innerHTML = `
+    <div class="kicker label">What changed</div>
+    <h1 class="state">What changed between the draft and the final guidance</h1>
+    <p class="sub">For each request we checked whether the ${monYear(D.docket.final_date, "long")} final changed in the direction asked, quoting the final text word for word. Requests about process, meetings or other guidances can't be checked against the text.</p>
+    <p class="note"><b>Concordance, not impact.</b> A change that matches a request does not show the request caused it: the final also reflects FDA's internal review, ICH M14 and other guidances.</p>
+    <div class="stats">
+      <div class="stat"><b class="num" data-count="${Math.round(100 * r.r)}" data-suffix="%">0</b><span>of checkable requests adopted or partly adopted</span></div>
+      <div class="stat"><b class="num" data-count="${st.modified || 0}">0</b><span>sections rewritten, ${st.added || 0} added, ${st.removed || 0} removed</span></div>
+      <div class="stat"><b class="num" data-count="${asks.filter((a) => a.c.fr_listed_change).length}">0</b><span>matches on changes FDA itself listed</span></div>
+      <div class="stat"><b class="num" data-count="${Math.round(100 * D.run.spot_check_agreement)}" data-suffix="%">0</b><span>human agreement on ${D.run.spot_check_n} spot-checked calls</span></div>
+    </div>
+    <section class="block">
+      <div class="block-head"><div><div class="label">All ${fmt(asks.length)} requests</div><h2>How the calls fell</h2></div></div>
+      <div class="overall" id="overall">${CALLS.map((c) => `<div class="${cls(c)}" style="flex:${tot(c)};background:var(${CVAR[c]})" data-tipname="${c}" data-tipbody="${fmt(tot(c))} requests"><b class="num">${fmt(tot(c))}</b>${tot(c) > 150 ? c : ""}</div>`).join("")}</div>
+      <div class="legend">${CALLS.map((c) => `<span><i class="sw" style="background:var(${CVAR[c]})"></i>${c}</span>`).join("")}</div>
+    </section>
+    <section class="block">
+      <div class="block-head"><div><div class="label">By theme</div><h2>What FDA moved on, and what it didn't</h2><p>Share of checkable requests adopted or partly adopted. Click a theme to read its requests.</p></div></div>
+      <div class="tbars">${themes.map(({ t, l, r }) => { const n = r.n || 1, a = l.filter((x) => x.c.call === "adopted").length, p = l.filter((x) => x.c.call === "partially adopted").length;
+        return `<button class="tbar" data-theme="${t.theme_id}"><span class="t">${esc(t.label)}</span><span class="track"><i style="width:${100 * a / n}%;background:var(--c-adopted)"></i><i style="width:${100 * p / n}%;background:var(--c-partial)"></i></span><span class="v num">${pct(r.r)}</span></button>`; }).join("")}</div>
+      <div class="legend"><span><i class="sw" style="background:var(--c-adopted)"></i>adopted</span><span><i class="sw" style="background:var(--c-partial)"></i>partially adopted</span><span>Bar length = share of checkable requests</span></div>
+    </section>
+    <section class="block">
+      <div class="block-head"><div><div class="label">Section by section</div><h2>Draft against final</h2><p>Open a section to read the draft and final side by side, with every word FDA removed or added marked.</p></div></div>
+      <div class="secs">${sectionRows().map(({ s, l }) => `
+        <button class="sec" data-sec="${esc(s.section_id)}">
+          <span class="id">${s.status === "general" ? "—" : esc(s.final_section_id || s.draft_section_id)}</span>
+          <span class="h">${s.status === "added" || s.status === "removed" ? `<span class="tag ${s.status}">${s.status}</span>` : ""}${esc(s.heading)}<small>${l.length ? fmt(l.length) + " requests" : "no requests"}${s.change_summary_stats ? ` · ${s.change_summary_stats.words_added} words added, ${s.change_summary_stats.words_removed} removed` : ""}</small></span>
+          ${stack(l)}<span class="arrow" aria-hidden="true">→</span></button>`).join("")}</div>
+    </section>`;
+  countUp(v); reveal(v); settle();
+  if (G) {
+    G.from($$("#overall > div", v), { scaleX: 0, duration: .9, ease: "power3.out", stagger: .08, delay: .2 });
+    G.from($$(".tbar .track i", v), { scaleX: 0, duration: .8, ease: "power3.out", stagger: .03, delay: .35 });
+  }
+}
+function sectionRows() {
+  const secs = D.sections.filter((s) => s.section_id !== "front");
+  const byFinal = Object.fromEntries(secs.filter((s) => s.final_section_id).map((s) => [s.final_section_id, s.section_id]));
+  const byDraft = Object.fromEntries(secs.filter((s) => s.draft_section_id).map((s) => [s.draft_section_id, s.section_id]));
+  const by = {};
+  for (const a of X.asks) (by[byFinal[a.c.section_id] || byDraft[a.draft_section] || "__g"] ||= []).push(a);
+  const rows = secs.map((s) => ({ s, l: by[s.section_id] || [] }));
+  rows.push({ s: { section_id: "General", heading: "Requests about the guidance as a whole", status: "general" }, l: by.__g || [] });
+  return rows;
+}
+function stack(l) {
+  if (!l.length) return `<span class="stack empty" aria-hidden="true"></span>`;
+  return `<span class="stack" role="img" aria-label="${CALLS.map((c) => l.filter((a) => a.c.call === c).length + " " + c).join(", ")}">${CALLS.map((c) => { const k = l.filter((a) => a.c.call === c).length; return k ? `<i style="flex:${k};background:var(${CVAR[c]})"></i>` : ""; }).join("")}</span>`;
+}
+
+/* ---------- drawer ---------- */
+let lastFocus = null, drawerList = [];
+function openDrawer({ kicker, title, sub, html, wide }) {
+  lastFocus = document.activeElement;
+  const d = $("#drawer");
+  $("#dKicker").textContent = kicker || ""; $("#dTitle").textContent = title; $("#dSub").textContent = sub || "";
+  $("#dBody").innerHTML = html; $("#dBody").scrollTop = 0;
+  d.classList.toggle("wide", !!wide); d.hidden = false; tip.classList.remove("on");
+  requestAnimationFrame(() => requestAnimationFrame(() => { d.classList.add("on"); $("#scrim").classList.add("on"); }));
+  settle();
+  if (G) G.from($$("#dBody > *").slice(0, 8), { y: 16, opacity: 0, duration: .45, stagger: .05, delay: .18, ease: "power2.out" });
+  setTimeout(() => $("#dClose").focus({ preventScroll: true }), 80);
+}
+function closeDrawer() {
+  const d = $("#drawer"); d.classList.remove("on"); $("#scrim").classList.remove("on");
+  setTimeout(() => { if (!d.classList.contains("on")) d.hidden = true; }, 430);
+  if (lastFocus) lastFocus.focus({ preventScroll: true });
+}
+function askCards(list, from = 0, n = 30) {
+  const cards = list.slice(from, from + n).map((a) => `<article class="ask">
+    <div class="meta"><b>${esc(a.sub.name)}</b><span>${esc(SHORT[a.bucket])}</span><span>${esc(X.theme[a.theme_id].label)}</span><span>${esc(a.stance)}</span><a href="https://www.regulations.gov/comment/${a.comment_id}" target="_blank" rel="noopener">Comment ${a.comment_id.slice(-4)} ↗</a></div>
+    <blockquote>${esc(a.text)}</blockquote>
+    <div class="verdict"><span class="callpill ${cls(a.c.call)}">${esc(a.c.call)}</span>${esc(a.c.rationale.replace(/\s*\[(Corrected|Checkpoint 4)[^\]]*\]/g, ""))}${a.c.evidence_span ? `<q>${esc(a.c.evidence_span)}</q>` : ""}</div></article>`).join("");
+  const left = list.length - from - n;
+  return cards + (left > 0 ? `<button class="more" data-more="${from + n}">Show ${Math.min(30, left)} more of ${fmt(left)}</button>` : "");
+}
+function openAsks(kicker, title, list) {
+  drawerList = list; const r = rate(list);
+  openDrawer({ kicker, title, sub: `${fmt(list.length)} requests · adopted or partly adopted: ${pct(r.r)} of ${r.n} checkable`, html: askCards(list) || "<p>No requests.</p>" });
+}
+function renderSide(runs, side, evidence) {
+  if (!runs || !runs.length) return "<p>Not in this version.</p>";
+  const skip = side === "draft" ? "+" : "-", c = side === "draft" ? "del" : "ins";
+  let html = "";
+  for (const [op, text] of runs) {
+    if (op === skip) continue;
+    const parts = text.split(PARA).map((t) => esc(t.trim()));
+    html += (html ? " " : "") + parts.map((t) => (op === "=" || !t ? t : `<span class="${c}">${t}</span>`)).join("</p><p>");
+  }
+  html = "<p>" + html + "</p>";
+  for (const ev of evidence) {
+    const w = ev.trim().split(/\s+/).slice(0, 14).map((x) => esc(x).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (w.length < 4) continue;
+    try { html = html.replace(new RegExp(w.join("(?:\\s|<[^>]+>)+")), (m) => `<mark>${m}</mark>`); } catch {}
+  }
+  return html.replace(/<p>\s*<\/p>/g, "");
+}
+function openSection(id) {
+  const row = sectionRows().find((r) => r.s.section_id === id); if (!row) return;
+  const { s, l } = row; drawerList = l;
+  const ev = l.filter((a) => a.c.evidence_span && (a.c.call === "adopted" || a.c.call === "partially adopted")).map((a) => a.c.evidence_span);
+  const diff = s.status === "general" ? "" : `
+    <div class="keyrow"><span><i class="sw" style="background:var(--del)"></i><s>words removed</s> from the draft</span><span><i class="sw" style="background:var(--ins)"></i>words added in the final</span><span><i class="sw" style="background:var(--mark)"></i>evidence for an adopted or partial call</span></div>
+    <div class="sbs"><div><div class="label" style="margin-bottom:8px">Draft · ${monYear(D.docket.draft_date)}${s.draft_section_id ? " · §" + esc(s.draft_section_id) : ""}</div><div class="doc">${s.draft_section_id ? renderSide(s.word_diff, "draft", []) : "<p>Not in the draft.</p>"}</div></div>
+      <div><div class="label" style="margin-bottom:8px">Final · ${monYear(D.docket.final_date)}${s.final_section_id ? " · §" + esc(s.final_section_id) : ""}</div><div class="doc">${s.final_section_id ? renderSide(s.word_diff, "final", ev) : "<p>Removed from the final.</p>"}</div></div></div>`;
+  openDrawer({ wide: true, kicker: s.status === "general" ? "Whole guidance" : `Section ${s.final_section_id || s.draft_section_id}`, title: s.heading,
+    sub: `${fmt(l.length)} requests${s.change_summary_stats ? ` · ${s.change_summary_stats.words_added} words added, ${s.change_summary_stats.words_removed} removed` : ""}`,
+    html: diff + `<div class="label" style="margin-top:12px">Requests about this section</div>` + (askCards(l) || "<p>None.</p>") });
+}
+function openMethod() {
+  const REPO = "https://github.com/Black-Swan-Causal-Labs/regintel-mcp";
+  const tools = [
+    ["search_dockets", "Find regulations.gov dockets by keyword and agency"],
+    ["get_docket", "Docket metadata and the official comment count"],
+    ["list_documents", "Every document in the docket: notices, draft and final guidance, meeting material"],
+    ["list_comments", "All comments, with flags for stubs and likely duplicates"],
+    ["get_comment", "One comment in full, including the text extracted from its PDF, Word or Excel attachments"],
+    ["build_corpus", "Pull every comment and attachment into a local cache; resumable"],
+    ["get_guidance_text", "A guidance document split into its numbered sections"],
+    ["diff_guidance", "Section-by-section, word-by-word comparison of draft and final"],
+    ["export_corpus", "Write the whole corpus to one file for the analysis steps"],
+  ];
+  openDrawer({ kicker: "Method", title: "How this was made", html: `
+    <h4 style="margin-top:0">An open plugin</h4>
+    <p>Docket Lens was produced by <b>regintel-mcp</b>, an open-source plugin built by Black Swan Causal Labs. The plugin bundles an MCP server that retrieves and compares documents, three skills that hold the analysis rules, and one command that runs the whole pipeline. MCP is an open standard, so the server works with any compatible AI assistant, such as Claude or OpenAI Codex, and the skills are plain-text instructions any assistant can follow. Retrieval is done by deterministic code, judgment by Claude following the skills' written rules, and a person approves each stage before the next one runs.</p>
+    <h4>The approach</h4>
+    <ol class="steps">
+      <li><b>Retrieve.</b> An MCP server, <b>regintel-mcp</b>, pulls the docket from the regulations.gov API, extracts the text of every comment and attachment, and compares the draft with the final guidance. It contains no AI.</li>
+      <li><b>Classify submitters.</b> Claude assigns each commenter to one of seven types from the letterhead and signature. <i>Checkpoint: a person reviews the table.</i></li>
+      <li><b>Code requests.</b> A theme codebook is approved before any coding. Claude then splits each comment into discrete requests and codes each one's theme and stance, working in parallel batches. <i>Checkpoint: codebook approval.</i></li>
+      <li><b>Judge draft to final.</b> For each request, Claude decides whether the final text moved in the direction asked and quotes the final as evidence. <i>Checkpoint: a person spot-checks a random sample.</i></li>
+    </ol>
+    <h4>The MCP server's tools</h4>
+    <table class="mtable"><tbody>${tools.map(([n, d]) => `<tr><td>${n}</td><td>${d}</td></tr>`).join("")}</tbody></table>
+    <h4>The analysis skills</h4>
+    <table class="mtable"><tbody>
+      <tr><td>submitter-taxonomy</td><td>Rules for classifying commenters into seven types, with the evidence and a confidence level for each call</td></tr>
+      <tr><td>comment-theming</td><td>Rules for splitting comments into requests, quoting them word for word, and coding theme and stance against an approved codebook</td></tr>
+      <tr><td>draft-final-concordance</td><td>Rules for judging adopted, partially adopted, not adopted or not assessable, with the final text as evidence</td></tr>
+      <tr><td>/docket-analysis</td><td>One command that runs the whole pipeline on any docket and pauses at the four checkpoints</td></tr>
+    </tbody></table>
+    <h4>Reusable on any docket</h4>
+    <p>Nothing in the plugin is specific to this guidance. Pointed at another regulations.gov docket, it retrieves the comments and both guidance versions, compares them, and walks the same four checkpoints. What changes from docket to docket is the human input: the theme codebook and the decisions taken at each checkpoint.</p>
+    <h4>Checks</h4>
+    <p>Every request and every evidence passage is quoted word for word, and a script verifies each quote against the source text. A person re-checked ${D.run.spot_check_n} calls from a seeded random sample and agreed with ${pct(D.run.spot_check_agreement)}. Every decision taken at a checkpoint is logged with its date.</p>
+    <h4>Source</h4>
+    <p>Final of record: ${esc(D.docket.final_ref_note)}</p>
+    <p>Code: <a href="${REPO}" target="_blank" rel="noopener">github.com/Black-Swan-Causal-Labs/regintel-mcp ↗</a>. The server is MIT-licensed; this explorer is PolyForm Noncommercial.</p>
+    <p class="label">${esc(D.docket.id)} · run ${esc(D.run.date)} · codebook ${esc(D.run.codebook_version)}</p>` });
+}
+
+/* ---------- events ---------- */
+const tip = $("#tip");
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("button, a[data-tab]"); if (!t) return;
+  if (t.dataset.tab) { e.preventDefault(); if (location.hash !== "#" + t.dataset.tab) history.pushState(null, "", "#" + t.dataset.tab); show(t.dataset.tab); }
+  else if (t.dataset.go) { history.pushState(null, "", "#" + t.dataset.go); show(t.dataset.go); }
+  else if (t.dataset.sub) { const s = X.sub[t.dataset.sub]; openAsks(s.bucket, s.name, X.bySub[s.submitter_id] || []); }
+  else if (t.dataset.heat) { S.heat = t.dataset.heat; $$("[data-heat]").forEach((b) => b.setAttribute("aria-pressed", b === t)); drawHeat(); }
+  else if (t.dataset.cell) { const [th, b] = t.dataset.cell.split("|"); openAsks(b, X.theme[th].label, X.asks.filter((a) => a.theme_id === th && a.bucket === b)); }
+  else if (t.dataset.theme) { const th = t.dataset.theme; openAsks("Theme", X.theme[th].label, X.asks.filter((a) => a.theme_id === th)); }
+  else if (t.dataset.sec) openSection(t.dataset.sec);
+  else if (t.dataset.more) { t.outerHTML = askCards(drawerList, +t.dataset.more); }
+  else if (t.dataset.method) openMethod();
+  else if (t.id === "dClose") closeDrawer();
+});
+$("#scrim").addEventListener("click", closeDrawer);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && $("#drawer").classList.contains("on")) closeDrawer(); });
+document.addEventListener("pointerover", (e) => {
+  const t = e.target.closest("[data-tipname], .dot"); if (!t || !X) return;
+  let name = t.dataset.tipname, body = t.dataset.tipbody;
+  if (t.dataset.sub) { const l = X.bySub[t.dataset.sub] || []; name = X.sub[t.dataset.sub].name; body = `${l.length} requests · adopted or partial ${pct(rate(l).r)}`; }
+  tip.innerHTML = `<b>${esc(name)}</b><br>${esc(body || "")}`; tip.classList.add("on");
+});
+document.addEventListener("pointermove", (e) => {
+  if (!tip.classList.contains("on")) return;
+  tip.style.left = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8) + "px";
+  tip.style.top = Math.min(e.clientY + 16, innerHeight - tip.offsetHeight - 8) + "px";
+});
+document.addEventListener("pointerout", (e) => { if (e.target.closest("[data-tipname], .dot")) tip.classList.remove("on"); });
+addEventListener("resize", movePill);
+addEventListener("popstate", () => { if (X) show((location.hash || "#overview").slice(1)); });
+addEventListener("hashchange", () => { if (X) show(location.hash.slice(1)); });
+
+(async function start() {
+  try { D = await (await fetch("analysis.json")).json(); }
+  catch { $("#main").innerHTML = `<p class="loading">The analysis file did not load. Reload the page to try again.</p>`; return; }
+  X = index(D);
+  $("#main").innerHTML = `<section class="view" id="v-overview" aria-label="Overview"></section><section class="view" id="v-who" aria-label="Who commented" hidden></section><section class="view" id="v-said" aria-label="What they said" hidden></section><section class="view" id="v-changed" aria-label="What changed" hidden></section>`;
+  if (document.fonts) document.fonts.ready.then(movePill);
+  show((location.hash || "#overview").slice(1));
+})();
+</script>
+</body></html>

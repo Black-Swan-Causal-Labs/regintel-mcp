@@ -1,0 +1,2925 @@
+{
+ "docket_id": "FDA-2021-D-0548",
+ "caveat": "Concordance, not impact. These calls record whether the final guidance text moved in the direction a commenter asked for. Changes between draft and final also reflect FDA's internal review, ICH M14, other guidances, and evolving science. A matching change does not show that a comment caused it.",
+ "draft_ref": "FDA-2021-D-0548-0002",
+ "final_ref": "https://www.fda.gov/media/153341/download",
+ "notes": "Evidence may come from final_footnotes.md (section_id 'footnote'). Footnotes 18 and 23 verified absent from the draft's footnotes.",
+ "concordance": [
+  {
+   "ask_id": "FDA-2021-D-0548-0008-A01",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends that at least five specific categories be used to define race:",
+   "rationale": "The ask seeks guidance on how multiracial individuals are labeled under the five race categories; the final only changes 'a minimum of' to 'at least' five categories and adds no guidance on multiracial classification, so it does not reflect the ask.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0016-A01",
+   "section_id": "APPENDIX",
+   "call": "adopted",
+   "evidence_span": "Table 2: Approach To Using Define-XML To Indicate Decision Involved in Transforming Non- Standardized Data (Drugs Prescribed) to Standardized Data (i.e., SDTM and ADaM)",
+   "rationale": "The ask requests correcting the typo 'Dugs Prescribed'; the final Table 2 title reads 'Drugs Prescribed', concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A01",
+   "section_id": "APPENDIX",
+   "call": "adopted",
+   "evidence_span": "The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+   "rationale": "The ask objects to using Decode to convey mapping to other coding systems; the final removes every Decode reference and names only the Alias element, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A02",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests that FDA recommend a value (naming convention) for the Context attribute on Alias; searched the final text and footnotes and found no mention of the Context attribute or a recommended value.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A03",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests use of Define-XML's derivation/derived-data mechanism for EHR-sourced data points; searched the final text and footnotes and found no reference to derived data or derivation methods in Define-XML.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A18",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests that CRFs allow selection of two or more race categories from a defined list; searched the final text and footnotes and found no such recommendation (the Appendix race example is otherwise unchanged).",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A19",
+   "section_id": "APPENDIX",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns optimizing EHR systems to capture medication information, which is about health IT infrastructure outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0025-A01",
+   "section_id": "APPENDIX",
+   "call": "adopted",
+   "evidence_span": "The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+   "rationale": "The ask recommends against using Decode to communicate transformation of external coding systems; the final drops Decode throughout the Appendix and relies on Alias, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0025-A02",
+   "section_id": "APPENDIX",
+   "call": "adopted",
+   "evidence_span": "The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+   "rationale": "The ask proposes Alias as the better mechanism for communicating mapping to SDTM controlled terminology; the final names Alias as the mechanism throughout the Appendix, concordant with the ask.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0025-A03",
+   "section_id": "APPENDIX",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is that the Define-XML specification (a CDISC standard) be amended to include more FDA-recommended Context values, which concerns an external specification rather than the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A65",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+   "rationale": "The ask objects to overloading Define-XML Alias/Decode elements and asks that terminology mapping be kept separate; the final still conveys mapping via the Define-XML Alias element, so the approach is retained rather than removed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A66",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests more guidance on how sponsors reassign coding from raw data into SDTM via Define-XML; the Appendix examples are substantively unchanged apart from Decode→Alias and no further how-to detail was found in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A67",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "(1) translating the codes to their mapped structured definitions with subsequent mapping to appropriate CDISC controlled terminologies, which provides the most detail but is labor-intensive",
+   "rationale": "The ask requests clarification of 'mapped structured definitions'; the final repeats the phrase unchanged without defining it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A68",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "An example where concepts and terminology do not map precisely and directly is the SDTM intervention domain capturing drugs prescribed.",
+   "rationale": "The ask requests case examples where there is no 1:1 terminology mapping; the final retains only the drugs-prescribed example already present in the draft and adds no new cases.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A34",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "(FDA anticipates that an EHR system may use prescription coding from RxNorm, FDA’s National Drug Code (NDC), or other such systems.)",
+   "rationale": "The ask requests adding SNOMED CT alongside RxNorm; the final lists RxNorm and NDC but not SNOMED CT.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A18",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests guidance on representing real-world variability such as multiple race values in SDTM categories; searched the final text and footnotes and found no such guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A20",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests an Appendix example on handling Required/Expected CDISC variables absent from the RWD source; no such example appears in the final Appendix or elsewhere.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A23",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests an EHR-to-SDTM mapping example (in context, alongside FHIR-to-CDISC remapping); the final Appendix keeps only the draft's race and drugs-prescribed illustrations and adds no new EHR-to-SDTM example.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A05",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "The ask seeks flexibility because SDTM lacks observability variables for RWD; the final still requires Catalog standards and adds no observability variables or alternative.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A07",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "The ask seeks flexibility to use near-native formats instead of labor-intensive SDTM/ADaM mapping; the final retains the requirement to use Catalog-supported standards.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A01",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "The ask requests an outline of how data standards depend on RWD context of use (hybrid trial, external control, observational study); the final adds only a generic statement that approaches depend on the data and research, without addressing those scenarios.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A12",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, FDA defines RWD as data relating to patient health status and/or the delivery of health care routinely collected from a variety of sources.",
+   "rationale": "The ask requests adding the RWD definition to the Glossary; the final removed the Glossary and the RWD definition remains in Section I, so the requested placement does not occur.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A02",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "FDA has created a framework for a program to evaluate the potential use of real-world data (RWD) to generate RWE to help support the approval of new indication(s) for drugs already approved under section 505(c) of the FD&C Act (21 U.S.C. 355(c)) or to help support or satisfy post-approval study requirements (RWE Program).",
+   "rationale": "The ask seeks clarification of the guidance's application to medical product decision-making beyond new indications/post-approval studies; the final scope language is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A03",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "FDA has created a framework for a program to evaluate the potential use of real-world data (RWD) to generate RWE to help support the approval of new indication(s) for drugs already approved under section 505(c) of the FD&C Act (21 U.S.C. 355(c)) or to help support or satisfy post-approval study requirements (RWE Program).",
+   "rationale": "The ask requests the guidance consider application to clinical investigations of new therapeutic agents; the final scope text is unchanged and adds no such discussion.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A15",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "The ask requests guidance on how distinct RWD scenarios factor into selecting a data standard; the final adds only a generic statement that approaches depend on the data and research and refers sponsors to the review division.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A16",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask asks whether data-standard considerations should differ for prospective vs retrospective RWD studies; searched the final text and footnotes and found no such clarification.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A17",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "FDA has created a framework for a program to evaluate the potential use of real-world data (RWD) to generate RWE to help support the approval of new indication(s) for drugs already approved under section 505(c) of the FD&C Act (21 U.S.C. 355(c)) or to help support or satisfy post-approval study requirements (RWE Program).",
+   "rationale": "The ask requests clarification whether the scope covers RWD/RWE used to support original NDAs; the final retains the draft's framework sentence without clarifying this point.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A18",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask asks whether FDA plans to standardize RWD so downstream analysis can be standardized, which concerns FDA's future standards development rather than the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A19",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "Examples of RWD include data from electronic health records (EHRs); medical claims data; data from product and disease registries; patient-generated data (including data from in-home-use settings); and data gathered from other sources that can inform on health status, such as mobile devices.",
+   "rationale": "The ask requests clarification whether eCOA, registry and mobile-device data are in scope; the final RWD examples are effectively unchanged from the draft and eCOA is not addressed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A13",
+   "section_id": "II",
+   "call": "not adopted",
+   "evidence_span": "the Agency can process, review, and archive electronic submissions of clinical and nonclinical study data (including those derived from RWD sources) that use the standards specified in the Data Standards Catalog (Catalog).",
+   "rationale": "The ask requests a clear distinction between 'nonclinical' data and RWD; the final retains 'clinical and nonclinical study data (including those derived from RWD sources)' without drawing that distinction.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A20",
+   "section_id": "II",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is for FDA to assess the RWD details of past RWE-based approvals and develop enhanced guidance, which concerns FDA activity rather than the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A21",
+   "section_id": "II",
+   "call": "not adopted",
+   "evidence_span": "Under section 745A(a) of the FD&C Act, at least 24 months after the issuance of a final guidance document in which FDA has specified the electronic format for submitting certain submission types to the Agency, such content must be submitted electronically and in the format specified by FDA.",
+   "rationale": "The ask requests clarification of when the 24-month implementation period starts; the final 745A(a) passage is unchanged and gives no such clarification.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A22",
+   "section_id": "II",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is to add RWD standards to the Data Standards Catalog, a separate FDA resource.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A01",
+   "section_id": "III.A",
+   "call": "adopted",
+   "evidence_span": "Certain information only existing in non-structured documentation (such as text in physician notes)",
+   "rationale": "The ask requests emphasis that data exist in structured and unstructured fields; the final adds a challenge for information existing only in non-structured documentation, concordant with the ask.",
+   "fr_listed_change": true,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A04",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests adding challenges on sporadic/longitudinal data collection and data not collected for research; the final adds other challenges (multiple sources, non-structured data, access levels) but not these.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A14",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "The many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when shared",
+   "rationale": "The ask requests adding 'lack of criteria or different versions used for disease/performance evaluation' to the data-quality challenge; the final bullet is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A15",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "The ask requests more detail on data standards for linkage across RWD sources; the final adds combining multiple RWD sources as a recognized challenge but gives no linkage standards detail.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A16",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests the guidance address standard consent-form language for data linkage; searched the final text and footnotes and found no discussion of consent.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A17",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests recommendations on privacy-preserving record linkage; searched the final text and footnotes and found none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A01",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "The ask seeks alternative standardization approaches by RWD source beyond a single CDISC format; the final notes approaches depend on the data and research but still requires Catalog standards and offers no alternative standards.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A23",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests adding '(5) RWD sources tend to have more sporadic data collection' to the challenges; the final list does not include sporadic data collection.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A24",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "The ask requests recommendations on acceptable methods to reconcile the challenges; the final defers to discussion with the review division and gives no methods.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A25",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests clarification of which RWD-study scenarios (pivotal vs minor supportive) require datasets in the required standards; searched the final text and footnotes and found no such scoping.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A26",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is that FDA issue additional guidance on RWD standardization first, which concerns future FDA guidance rather than this text.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A27",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "The ask requests guidance on expectations for different data source types; the final adds only a generic statement that approaches depend on the data, without source-specific expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A28",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "The many aspects of health care data that can affect the overall quality of the data, including business processes and database structure, inconsistent vocabularies and coding systems, and de-identification methodologies used to protect patient data when shared",
+   "rationale": "The ask requests a reference for acceptable de-identification methodologies; the final mentions de-identification only as a challenge, unchanged, with no reference.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A05",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "The ask requests best practices to remediate RWD standardization challenges; the final directs sponsors to discuss with the review division rather than providing best practices.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A05",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests a reference to the RWD EHR/claims guidance; the final III.B adds a reference to the Study Data Technical Conformance Guide, not the EHR/claims guidance, which is not cited anywhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A10",
+   "section_id": "III.B",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is for FDA to issue (separate) guidance on documenting quality-control processes and transformations, which concerns other guidance documents.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A18",
+   "section_id": "III.B",
+   "call": "adopted",
+   "evidence_span": "During data curation and data transformation, adequate processes should be in place to ensure confidence in the resultant data.",
+   "rationale": "The ask requests replacing 'increase confidence' with 'maintain or ensure confidence'; the final reads 'ensure confidence', concordant with the core of the ask (the 'capture' and 'maintain' additions are absent).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A19",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "Documentation of these processes may include but is not limited to electronic documentation (e.g., audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s).",
+   "rationale": "The ask requests a reference to the Data Integrity CGMP Q&A to clarify 'metadata-driven audit trails'; the final drops 'metadata-driven' (now 'e.g., audit trails'), removing the unclear term but adding no reference.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0022-A03",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The various levels of access a sponsor has to any data sources used in the study",
+   "rationale": "The ask requests consideration of situations where the sponsor does not control data curation and best practices when such information is unavailable; the final adds sponsor access levels as a recognized challenge but no best practices.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0022-A04",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests language encouraging data owners/processors to share process information with sponsors and FDA; searched the final text and footnotes and found none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A04",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests further instruction on documenting adequate processes; the final adds a pointer to the TCG for documentation specifications but gives no new instruction in the text itself.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A05",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "During data curation and data transformation, adequate processes should be in place to ensure confidence in the resultant data.",
+   "rationale": "The ask requests clarification of how 'confidence in data' is defined or demonstrated; the final changes 'increase' to 'ensure' but does not define or explain confidence.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A29",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests a reference to the RWD EHR/claims guidance; the final adds a TCG reference instead and does not cite the EHR/claims guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A30",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "Documentation of these processes may include but is not limited to electronic documentation (e.g., audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s).",
+   "rationale": "The ask requests instruction on which RWD-management processes are mandatory vs optional to document; the final keeps the open-ended 'may include but is not limited to' list.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A31",
+   "section_id": "III.B",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is for FDA to collaborate with ONC, which concerns FDA activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A32",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The various levels of access a sponsor has to any data sources used in the study",
+   "rationale": "The ask requests acknowledgment that sponsors work with data-provider partners; the final adds the sponsor's varying levels of access to data sources as a challenge, partly concordant without naming partner arrangements.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A33",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The various levels of access a sponsor has to any data sources used in the study",
+   "rationale": "The ask requests clarified expectations when data elements are derived by providers without sponsor access to source data; the final acknowledges varying sponsor access as a challenge but states no expectations.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A34",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "The ask requests clarification whether the data dictionary must be separate or can sit within Define.xml; the final data-dictionary sentence does not address this.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A35",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests clarification of what additional documentation is needed for curation and transformation; the final adds a TCG pointer for documentation specifications but no detail in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A36",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests clarification of where in the submission sponsors document changes to data; the final points to the TCG for how to submit documentation, a partial step without stating the location in the text.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A17",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests a reference to section VI of the EHR/Claims draft guidance; the final III.B references the TCG instead and does not cite the EHR/Claims guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A20",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes.",
+   "rationale": "The ask requests recommendations on assessments of the final analytic dataset's validity and the impact of mapping; the final keeps the draft's general documentation sentence and adds no assessment recommendations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A21",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests clarification whether the EHR/Claims guidance's validation and documentation recommendations apply; the final does not mention that guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A22",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "For example, sex as a variable may be codified in CDISC’s terminology as a concept based on physical characteristics, whereas EHRs may, in some cases, use sex identity.",
+   "rationale": "The ask requests an example where mapping to CDISC terminology harms analytic utility; the final retains only the draft's sex/gender example (with wording edits) and adds no new example.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A09",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests more detail on acceptable documentation of RWD-management processes; the final adds a pointer to the TCG for documentation specifications but no further detail in the text.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A30",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask notes limited documentation guidance for curation and transformation; the final adds a TCG pointer covering documentation, a partial step without further in-text detail.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A31",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "Documentation of these processes may include but is not limited to electronic documentation (e.g., audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s).",
+   "rationale": "The ask requests a definition of 'metadata-driven audit trail'; the final drops 'metadata-driven' (now 'e.g., audit trails') rather than defining the term, removing the ambiguity only indirectly.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A18",
+   "section_id": "III.B",
+   "call": "partially adopted",
+   "evidence_span": "For more information, see the Study Data Technical Conformance Guide (TCG), which supplements the Study Data Guidance and standards listed in the Catalog, to provide specifications, recommendations, and general considerations on how to submit standardized study data and documentation using FDA-supported data standards located in the Catalog.",
+   "rationale": "The ask requests guidance on what suffices as adequate documentation of conformance methods and mappings; the final adds a TCG pointer and encourages discussion with FDA, without in-text criteria.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A02",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is chiefly to update the Data Standards Catalog with RWD-applicable standards (a separate FDA resource) together with general guidance on selecting standards; the guidance-text element is too unspecific to judge separately.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A03",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Such discussions should include approaches for taking data from its original RWD format to intermediary format(s), including those used for analysis, and ultimately to the study data set prepared for submission to FDA (using the applicable FDA-supported data standards as listed in the Catalog).",
+   "rationale": "The ask seeks acceptance of other CDMs (Sentinel, OMOP) for observational RWD studies; the final allows intermediary formats in discussion but the submitted data must still use Catalog standards.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A06",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask is for FDA to seek industry feedback when updating the Catalog, a process outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A07",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "The ask requests a described process for contacting FDA with suggested Catalog additions; the final adds a footnote giving contact addresses for data-standards questions, but not a process for suggesting Catalog additions.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A08",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests the PHUSE EU paper be referenced and discussed; searched the final text and footnotes and found no reference to PHUSE.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A09",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "The ask requests FDA's views on the CDISC FHIR-to-CDISC Joint Mapping Implementation Guide; searched the final text and footnotes and found no reference to FHIR.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A02",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "The ask concerns FDA's timeline for issuing further guidance or updating the Catalog, which is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A20",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "FDA plans to update the Catalog, and/or issue other guidance documents, to reflect standards for study data that are derived from RWD sources as they are developed and evaluated.",
+   "rationale": "The ask requests FDA define which RWD standards it refers to; the final restates the plan to update the Catalog for RWD standards 'as they are developed and evaluated' without naming any.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A21",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Such discussions should include approaches for taking data from its original RWD format to intermediary format(s), including those used for analysis, and ultimately to the study data set prepared for submission to FDA (using the applicable FDA-supported data standards as listed in the Catalog).",
+   "rationale": "The ask requests examples of data standards and related transformations and mappings; the final adds a description of discussing data flow from original to intermediary to submission formats but no concrete examples.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A22",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions, or mappings that may be needed to produce study datasets in required formats in an applicable drug submission.",
+   "rationale": "The proposed edit appears to drop the serial comma and pluralize 'submissions' in the transformation sentence; the final keeps the sentence essentially as drafted (only 'format' became 'formats'), so the proposed wording is not reflected.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A23",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.",
+   "rationale": "Ask was to add the statistical analysis plan as a place to describe transformation approaches (only where analysis-relevant); the final keeps the draft list of protocol, data management plan and/or final study reports with no SAP mention.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A24",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Ask was to require standardized RWD submission only when the RWE is primary evidence; the final keeps the general requirement to use Catalog standards with no primary/supportive distinction.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0022-A05",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Ask was to name OMOP and FHIR as additional standards for RWD mapping; the final adds ADaM alongside SDTM but names neither OMOP nor FHIR anywhere.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A06",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for the guidance to require standardized drug-coding resources such as WHODrug Global; searched the final text and footnotes and found no such requirement (WHODrug appears only as a citation in an appendix table footnote).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A07",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for guidance on which medication types must be captured in FDA-approved coding resources for concomitant medications; searched the whole final and no such content was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A08",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns a C-Path/FDA workshop on medication terminology, an activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A09",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns development of consensus data-collection standards, a standards-development activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A10",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns funding and multistakeholder initiatives for DHT standards, which is resourcing outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A11",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns building metadata standards for DHTs, a standards-development activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A12",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns developing automated real-time quality-check standards, a standards-development activity rather than a change to the guidance text; the final's III.B quality-control wording is essentially unchanged.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A06",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns FDA holding workshops to craft the next Catalog, a process outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A07",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "Ask was for specific guidance on applying data standards to linked data from multiple RWD sources; the final adds combining RWD sources as a named challenge and routes such issues to early FDA discussion, but gives no guidance on how to apply standards to linked data.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A08",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to accept R/Python outputs, which concerns FDA submission-acceptance practice and Catalog/technical specifications rather than this guidance's text; the final is silent on programming languages.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A09",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for guidance on validating non-standard software packages or modules; searched the whole final and no such content appears.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A37",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns FDA seeking industry feedback when updating the Catalog, a process outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A38",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "Ask was for the guidance to describe how to contact FDA about a suggested Catalog addition and how long additions take; the final adds data-standards contact addresses but nothing specific to Catalog suggestions and no timelines.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A39",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns FDA collaborating with standards bodies, data providers and other regulators on harmonization, which is FDA behaviour outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A40",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask (garbled span) appears to seek clarification of how this guidance relates to future RWD standards and the Catalog; that concerns FDA's future guidance and Catalog plans rather than a locatable text change.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A41",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Certain information only existing in non-structured documentation (such as text in physician notes)",
+   "rationale": "Ask was for the guidance to reference and discuss work on challenges and solutions for programmers handling RWD from non-interventional studies; the final expands the list of RWD standardization challenges but cites no external work and offers no solutions.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A42",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to first evaluate how current standards apply to RWD, an internal FDA activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A43",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Ask was for guidance on standardization needs by fit-for-purpose RWE study type; the final only says approaches depend on the data and research and should be discussed with FDA, giving no study-type-specific guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A44",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Ask was to accept common data models such as Sentinel CDM or OMOP; the final names only CDISC SDTM/ADaM and does not mention either CDM.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A45",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for guidance drawing on FDA's Sentinel CDM experience and fit-for-purpose use cases; Sentinel does not appear anywhere in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A46",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to reference the CDISC FHIR-to-CDISC Joint Mapping Implementation Guide; neither FHIR nor that guide appears anywhere in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A47",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to clarify whether technical rejection criteria apply to RWD studies; searched the whole final and it does not address technical rejection criteria.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A48",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to clarify which trial-design domains beyond TS are needed for RWD; searched the whole final and no such domain-level guidance was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A49",
+   "section_id": "footnote",
+   "call": "adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "Ask was for guidance on the appropriate forum for discussing data standards with FDA; the final adds specific data-standards contact addresses for CDER and CBER, alongside repeated direction to discuss with the review division.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A50",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Ask was to clarify when discussions about planned RWD submissions should happen; the final changes 'early' to 'as early as possible, preferably before the sponsor conducts the study', which is more specific but not tied to development milestones.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A51",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for guidance on RWD used in analysis that is available only in aggregate form; searched the whole final and no such content was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A52",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.",
+   "rationale": "Ask was to clarify the level of detail expected in the protocol, data management plan and final study reports; the sentence is unchanged and no detail expectations were added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A53",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Ask was for information on preferred approaches to applying CDISC to RWD; the final adds ADaM and encourages discussion with FDA but states no preferred approach (the appendix footnote says its table does not recommend how to map).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A54",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Ask was for more detail clarifying expectations behind the requirement to use Catalog standards; the requirement sentence is substantively unchanged and the added Catalog-update and TCG references do not clarify those expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A55",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "Sponsors or applicants may apply for a waiver from the requirement to use specific versions of FDA-supported standards for the submission of study data using the waiver request process described in section II.D of the Study Data Guidance.",
+   "rationale": "Ask was to clarify the situations in which a waiver would be granted; the final only points to the waiver request process in the Study Data Guidance and describes no qualifying situations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A56",
+   "section_id": "III.C",
+   "call": "partially adopted",
+   "evidence_span": "With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed into SDTM and ADaM datasets and submitted to FDA in an applicable submission.",
+   "rationale": "Ask was to clarify whether ADaM analysis datasets from RWD may be submitted directly without SDTM mapping; the final now names ADaM as a supported standard for RWD but still refers to SDTM and ADaM together and does not say SDTM can be skipped.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A01",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Ask was to define what level of standardization is acceptable depending on the RWD source; the final says approaches depend on the data and research and should be discussed with FDA, giving no acceptability criteria.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A02",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to specify which SDTM datasets should be included or excluded; searched the whole final and no such specification was added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A03",
+   "section_id": "III.C",
+   "call": "partially adopted",
+   "evidence_span": "Such discussions should include approaches for taking data from its original RWD format to intermediary format(s), including those used for analysis, and ultimately to the study data set prepared for submission to FDA (using the applicable FDA-supported data standards as listed in the Catalog).",
+   "rationale": "Ask was for detail on the documents sponsors must prepare plus the communication process, timing and formats; the final elaborates the content and timing of discussions with FDA but keeps the same generic list of documents and names no SDSP or formats.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A04",
+   "section_id": "III.C",
+   "call": "partially adopted",
+   "evidence_span": "Sponsors should discuss, as early as possible, with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable submission and their approaches to mapping and transformation of data. Such discussions should include approaches for taking data from its original RWD format to intermediary format(s), including those used for analysis, and ultimately to the study data set prepared for submission to FDA (using the applicable FDA-supported data standards as listed in the Catalog).",
+   "rationale": "Ask was for more detail on documents, communication methods, timing and process for early discussion; the final specifies 'as early as possible', the scope of the discussions and adds contact addresses, but does not list documents to submit.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A05",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for templates of documents to be discussed with the review division; searched the whole final and no templates were added.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A06",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed into SDTM and ADaM datasets and submitted to FDA in an applicable submission.",
+   "rationale": "Ask was to list all documents that would be considered adequate documentation of conformance methods; the final keeps the generic 'adequate documentation' wording without listing documents.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A01",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Ask was for FDA to state it will apply flexibility in discussions about specific submissions; the final adds that approaches will depend on the specific data and research and encourages early case-by-case discussion, but makes no explicit statement of flexibility.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A06",
+   "section_id": "III.C",
+   "call": "adopted",
+   "evidence_span": "The FDA Data Standards Catalog is updated periodically to reflect changes to the supported and required data standards, exchange formats, and terminologies that FDA can process, review, and archive. FDA plans to update the Catalog, and/or issue other guidance documents, to reflect standards for study data that are derived from RWD sources as they are developed and evaluated.",
+   "rationale": "Ask endorsed the draft's plan to update the Catalog with standards for RWD; the final retains and slightly elaborates that plan.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A07",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns expediting Catalog updates before finalization, which is a timeline for a separate FDA resource outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A09",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns extending the Data Standards Catalog beyond SAS-based formats, a request about a separate FDA resource rather than the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A13",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "Ask was for guidance on applying supported data standards to linked data from multiple sources; the final adds combining RWD sources as a named challenge and directs early FDA discussion, but provides no guidance on how to apply standards to linked data.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A23",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for guidance on applying common data model recommendations, including customized study-specific elements; searched the whole final and CDMs are not discussed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A24",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for recommendations covering CDMs not in the Catalog, multi-CDM analytic datasets and variables created outside CDMs/CDISC; the final contains no such content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A25",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Ask was to identify CDMs as an option for standardizing submission data; the final names only CDISC SDTM and ADaM.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A26",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to allow standardization via the NIH BRIDG model; BRIDG does not appear anywhere in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A10",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to update the Catalog on a regular cadence, which concerns a separate FDA resource; the final's statement that the Catalog 'is updated periodically' describes that resource rather than committing to a cadence.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A11",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Ask was for clarity on the level of specificity needed to represent RWD; the final adds a general instruction to choose a fitting mapping approach but sets no specificity expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A12",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to say when further guidance will be issued, a timeline outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A04",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns FDA exercising flexibility in granting 745A(a) waivers for ongoing studies, which is FDA waiver practice outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A32",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Ask was to clarify waiver/exemption expectations for RWD formatting challenges with example use cases; the final keeps the 'absent a waiver' requirement and only cross-references the waiver process, with no examples.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A10",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns adding FHIR and other non-CDISC standards to the Data Standards Catalog, a request about a separate FDA resource.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A15",
+   "section_id": "III.C",
+   "call": "adopted",
+   "evidence_span": "Sponsors should discuss, as early as possible, with the appropriate FDA review division, any planned submission of study data derived from RWD sources in an applicable submission and their approaches to mapping and transformation of data.",
+   "rationale": "Ask endorsed the draft's advice for early engagement with FDA; the final retains it and strengthens it to 'as early as possible'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A16",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns who participates in FDA-sponsor meetings, which is FDA meeting practice; neither draft nor final text prescribes meeting participants.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A17",
+   "section_id": "III.C",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask concerns FDA communication with data aggregators outside sponsor meetings, which is FDA behaviour outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A03",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Ask objected to requiring RWD to be transformed into standardized formats; the final keeps the requirement to use Catalog standards.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A10",
+   "section_id": "III.D",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to provide or foster collaborative development of OMOP-to-SDTM crosswalks, an activity outside the guidance text (the companion request to put a mapping in the appendix is judged separately).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A11",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "Although only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology.",
+   "rationale": "Ask was to include an OMOP-to-SDTM style mapping as an appendix; the final appendix still covers only race and drugs-prescribed examples.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A25",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "The differences in source data captured regionally and globally using different standards, terminologies, and exchange formats for the representation of the same or similar data elements",
+   "rationale": "Ask was for discussion of the impact of regional variations on RWD mapping; the final only repeats the draft's mention of regional/global differences as a challenge and adds no discussion of impact.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A26",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Ask was for recommendations on possible RWD mapping strategies; the final adds only a general instruction to select an appropriate approach and explain it, and the appendix footnote stresses it does not recommend how to map.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A27",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of to the Study Data Reviewer’s Guide to highlight the domains involved.",
+   "rationale": "Ask was to define 'impact' and specify what the Study Data Reviewer's Guide should focus on; the final keeps the general 'anticipated impact' wording without definition.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A28",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The Study Data Reviewer’s Guide can also be used to guide reviewers to detailed mappings which can be placed in the Define- XML file and data domain files (see the Appendix for illustrative examples of possible ways to use Define-XML for this purpose). At any time, sponsors can consult the most recent version of the TCG to see FDA’s current thinking on the use of Define-XML and the Study Data Reviewer’s Guide.",
+   "rationale": "Ask was for a list of key elements or headings for the Study Data Reviewer's Guide; the final refers sponsors to the TCG but adds no list of elements to the guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A29",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "Ask was to scale data-dictionary detail to element criticality; the final narrows the dictionary from 'every data element used' to elements derived from RWD sources that were mapped, a reduction in scope but not a criticality-based tiering.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A10",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to reference therapeutic-area-specific study data submission guidelines; searched the final text and footnotes and found no such reference (only general TCG references).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A11",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for clarification on using variables from multiple CDMs or created outside CDMs/CDISC terminology; the final does not discuss CDMs.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A57",
+   "section_id": "III.D",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to provide or foster collaborative development of OMOP-to-SDTM crosswalks, an activity outside the guidance text (the appendix request is judged separately).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A58",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "Although only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology.",
+   "rationale": "Ask was to add an example of such CDM-to-SDTM mapping as an appendix; the final appendix still contains only the race and drugs-prescribed examples.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A59",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was for FDA to state its expectations on the level of SDTM compliance and flexibility for RWD datasets; searched the whole final and no statement on SDTM compliance levels was added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A60",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC’s terminology on the study findings.",
+   "rationale": "Ask was to clarify where in the submission the potential impact of mapping should be documented; that sentence is unchanged and the adjacent Study Data Reviewer's Guide placement was already in the draft.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A61",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "Although only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology.",
+   "rationale": "Ask was for a more detailed appendix on derivation; the final appendix is substantively the same examples with Decode references removed.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A62",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "Ask was for detail on data dictionary content, structure, format and eCTD placement; the final narrows which elements are covered but adds no structure, format or location guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A63",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Ask was to include raw collected values as SDTM supplemental qualifiers; supplemental qualifiers are not mentioned anywhere in the final.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A07",
+   "section_id": "III.E",
+   "call": "partially adopted",
+   "evidence_span": "Detailed representation of the mapping of standards and terminologies used when transforming data to current study data standards can be handled using the Define- XML (see the Appendix) and domain data files. In addition, for more complex discussions, narrative descriptions should also be presented in the Study Data Reviewer’s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed.",
+   "rationale": "Ask was to state whether all mapping situations should be explained in detail in the Reviewer's Guide; the final indicates that detailed mappings go in Define-XML/domain files and narratives in the Reviewer's Guide 'for more complex discussions', a partial delineation.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A08",
+   "section_id": "III.E",
+   "call": "partially adopted",
+   "evidence_span": "Detailed representation of the mapping of standards and terminologies used when transforming data to current study data standards can be handled using the Define- XML (see the Appendix) and domain data files. In addition, for more complex discussions, narrative descriptions should also be presented in the Study Data Reviewer’s Guide, either in the body or as an appendix, with appropriate directions for reviewers to the Define-XML and dataset/domains for more detail, if needed.",
+   "rationale": "Ask was to delineate what belongs in the Reviewer's Guide, data dictionary and Define-XML; the final somewhat sharpens the split (detailed mappings in Define-XML/domain files, complex narratives in the Reviewer's Guide) but gives no fuller content rules and similar guidance existed in the draft.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A27",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "Ask was to detail what a data dictionary should include and what 'relevant' information means; the final keeps 'all relevant information' with the same examples.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A28",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The Study Data Reviewer’s Guide can also be used to guide reviewers to detailed mappings which can be placed in the Define- XML file and data domain files (see the Appendix for illustrative examples of possible ways to use Define-XML for this purpose). At any time, sponsors can consult the most recent version of the TCG to see FDA’s current thinking on the use of Define-XML and the Study Data Reviewer’s Guide.",
+   "rationale": "Ask was to delineate where RWD source characteristics belong (data dictionary, CDISC comments, or Reviewer's Guide); the final does not address placement of source-characteristic information.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A01",
+   "section_id": "III.D",
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Ask is for FDA to work with other agencies to harmonize terminologies, which is FDA behaviour outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A07",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Ask was for a prescribed process for how mapping should be performed; the final goes the other way, leaving the choice of mapping approach to the sponsor (and the appendix footnote says it does not recommend how to map).",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A13",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "For example, sex as a variable may be codified in CDISC’s terminology as a concept based on physical characteristics, whereas EHRs may, in some cases, use sex identity. In such cases, sponsors should document the potential impact of mapping the sex variable or other variables to CDISC’s terminology on the study findings.",
+   "rationale": "Asks for fuller guidance on capturing sex-type data domains; the final keeps the same sex/CDISC example with only minor wording edits ('in some cases', 'sex identity') and adds no capture guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A14",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "Examples range from the meaning and specific terms used for race/ethnicity, terminology systems for medications, and interpretation of the measurements of vital signs from health care records.",
+   "rationale": "Asks for detail on unit/reference-range variation for routine measures (height, weight, BMI); the final only rewords the vital-signs example and adds no discussion of units or reference ranges.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A18",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to recommend including raw collected values as SDTM supplemental qualifiers; searched III.C-III.E, Appendix and footnotes and the final contains no such recommendation.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A19",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks for FDA's expectations when RWD cannot fully meet SDTM; the final adds only a general statement that approaches to standardization challenges depend on the data and should be discussed early with the review division, without stating expectations for non-conformant datasets.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A33",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "The sponsor should provide a description of the general approach and anticipated impact of data mapping as a part of to the Study Data Reviewer’s Guide to highlight the domains involved.",
+   "rationale": "Asks for an example of the expected mapping description in the SDRG; the final keeps the same sentence (dropping the appendix option) and adds only a pointer to the TCG, with no example.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A38",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "Asks for data dictionary structure, format and eCTD location (separate document vs Define.xml); the final narrows which elements the dictionary covers but says nothing about its format or location.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A04",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Asks FDA to encourage transparent mappings across differing vocabularies; the final adds that sponsors should explain the rationale for their chosen mapping method in the SDRG, a modest step in that direction beyond the draft's existing documentation expectations.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A12",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to develop further, separate guidance on how to map data standards; this concerns future FDA guidance rather than this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A13",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Continues the request for a separate future guidance on mapping impacts and acceptable discrepancy levels; this concerns other guidance rather than this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A02",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks the guidance to acknowledge that approaches to different kinds of missing information differ (e.g., data in unstructured notes); the final adds a challenge for information existing only in non-structured documentation and states that approaches depend on the data, but the III.E missing-information sentence is unchanged and no differing approaches are described.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A04",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should describe these approaches, including in the protocol, data management plan, and/or final study reports.",
+   "rationale": "Asks that curation specifications and curation/training processes be provided in the protocol; the final retains the draft's general statement about describing approaches in the protocol and adds nothing on curation specifications or training.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A30",
+   "section_id": "III.E",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should document data challenges encountered during transformation to an FDA- supported data standard and a justification of their approach to enable the application of an FDA- supported data standard.",
+   "rationale": "Asks for documentation of decision rules on which data to use and differing expectations for structured vs unstructured fields; the final retains the draft's general documentation/justification sentence and, apart from listing non-structured documentation as a challenge in III.A, sets no differing expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A02",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks FDA to acknowledge that sufficient mapping may not be possible and state its approach then; the final adds that approaches to standardization challenges depend on the data and should be discussed early with FDA, but does not explicitly address cases where mapping is infeasible.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A12",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "For the purposes of this document, traceability means documentation of curation and transformation procedures used throughout the data life cycle.",
+   "rationale": "Asks how traceability via Define-XML works when RWD variables/values change; the final redefines traceability as documentation of curation and transformation procedures across the data life cycle and points reviewers to Define-XML mappings, but gives no specific Define-XML traceability approach for changed values.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A64",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to collaborate with other standards entities; this concerns FDA activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A02",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the final to highlight differences in transformation between prospective and retrospective studies; searched III.A-III.E and footnotes and found no such distinction.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A05",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to reference missing-data methods; searched the whole final and footnotes and no missing-data methods are referenced.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A06",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for missing-data thresholds or acceptance criteria; the final contains no thresholds, reporting criteria or imputation guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A15",
+   "section_id": "III.E",
+   "call": "not adopted",
+   "evidence_span": "Examples of these challenges include (but are not limited to) management of semantic concepts (terms) that are present at multiple locations in a health record (such as medication information), inconsistent coding or miscoding of concepts (e.g., drugs or diagnoses), changes in data collection or coding practices (e.g., International Classification of Diseases-9 (ICD-9) and ICD-10 codes) that occurred during the study, or missing information (either because information is not typically recorded in health care settings or due to inconsistent data entry).",
+   "rationale": "Asks for more examples of when missingness arises (e.g., staging shifts, date shifting); the final's III.E examples are unchanged from the draft.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A28",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "Sponsors should also document in their applicable drug submission changes to data to conform to the current FDA-supported data standards, and the potential impacts of these changes.",
+   "rationale": "Asks for clarification on documenting the impact of mapping/transformation on source data; the final keeps the draft's general impact-documentation sentence and adds only a generic TCG pointer, without clarifying how impact on source data should be documented.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A02",
+   "section_id": "III.D",
+   "call": "adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Asks FDA not to prescribe specific transformation standards; the final prescribes none and moves further toward flexibility, telling sponsors to choose the mapping approach that best fits their data and study (and describing Appendix mechanisms as 'one' or 'possible' approaches).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A03",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "At any time, sponsors can consult the most recent version of the TCG to see FDA’s current thinking on the use of Define-XML and the Study Data Reviewer’s Guide.",
+   "rationale": "Asks for guidance on the format of transformation documentation; the final keeps the draft's Define-XML/data dictionary/SDRG framework and adds pointers to the TCG for FDA's current thinking on Define-XML and the SDRG, without itself specifying formats further.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A05",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "Asks that transformation documentation be parsimonious; the final narrows the data dictionary from every data element used to RWD-derived elements mapped to the standard and reserves SDRG narratives for more complex discussions, though other documentation expectations remain.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A06",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "Although only a few examples are presented here, sponsors should use elements of the Define- XML file and relevant domain data files to communicate how the health care terminology of all data domains were normalized to CDISC standard terminology.",
+   "rationale": "Asks for a detailed appendix example of RWD transformations and the documentation FDA might require; the final Appendix keeps essentially the same examples (switching Decode to Alias) and adds no documentation-focused example.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A07",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Asks for clarity on where documentation goes and its expected rigor; the final specifies that the mapping rationale goes in the SDRG, reserves SDRG narratives for complex cases and points to the TCG, but sets no rigor parameters or best practices.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A14",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidance on applying SDTM validation rules to RWD (possibly via the TCG); the final text does not discuss validation rules, and any TCG update would fall outside this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0013-A01",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data curation means processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks for a fuller data curation definition covering organizing, cleaning and managing metadata; the final's footnote definition is shorter and more generic and does not include those responsibilities.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0014-A01",
+   "section_id": "footnote",
+   "call": "adopted",
+   "evidence_span": "For the purposes of this document, the term data standards means defined rules, conventions, guidelines, characteristics, methods, formats, and terminologies that provide structure and consistency for exchange and utilization of data",
+   "rationale": "Asks for a fuller data standards definition along the lines of conventions, guidelines, characteristics or methods for consistent data handling and exchange; the final footnote definition now covers rules, conventions, guidelines, characteristics, methods, formats and terminologies for exchange and use of data (omitting only the governance clause).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0015-A01",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a fuller EHR definition; the final dropped the glossary EHR definition and no footnote or text defines EHR.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A03",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data curation means processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks that the data curation definition include extracting information from unstructured to structured fields; the final footnote definition does not include it (III.A only lists non-structured documentation as a challenge).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A31",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term mapping means the process of defining data element relationships between two distinct data models.",
+   "rationale": "Asks to replace the mapping definition with the CDISC 'connecting an item or symbol to a code or concept' wording; the final footnote keeps the draft concept with minor rewording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A32",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, a non-interventional study is a type of study in which patients are not assigned to a study arm according to a protocol, but instead receive the drug of interest during routine clinical care.",
+   "rationale": "Asks to replace the non-interventional study definition with the proposed marketing-authorization-based wording; the final footnote carries the draft definition unchanged.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A33",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, a non-interventional study is a type of study in which patients are not assigned to a study arm according to a protocol, but instead receive the drug of interest during routine clinical care.",
+   "rationale": "Asks to broaden the non-interventional study definition beyond a single 'drug of interest'; the final footnote still refers to 'the drug of interest'.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A34",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data curation means processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks to change 'data curation' to 'data capture' with a CDISC Glossary reference; the final keeps the term 'data curation' with its own definition.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A35",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data domain means “a collection of logically related observations (with a common, specific topic) that are normally collected for all subjects in a clinical investigation.",
+   "rationale": "Asks for a more generic data domain definition that also covers routine care; the final footnote retains the clinical-investigation wording.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A36",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data standards means defined rules, conventions, guidelines, characteristics, methods, formats, and terminologies that provide structure and consistency for exchange and utilization of data",
+   "rationale": "Asks for a specific edit to the sentence 'Data standards make submissions predictable...'; the final dropped that sentence and replaced the definition rather than making the requested edit.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A37",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data standards means defined rules, conventions, guidelines, characteristics, methods, formats, and terminologies that provide structure and consistency for exchange and utilization of data",
+   "rationale": "Asks for clarification of which 'scientific tools' are meant; the final removed the phrase rather than clarifying it, so the requested detail is not added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to consider ways to require consensus metadata concepts in future clinical studies; this concerns future FDA policy outside this guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A05",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for emphasis on common standards and complete concomitant-medication data entry at collection; searched the final and footnotes and no such content appears.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A13",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a definition of concomitant medications; the final mentions concomitant medications only as an example domain within the data domain footnote and gives no definition.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A14",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for a requirement that concomitant medications be defined in CRFs; the final contains no CRF-related content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A15",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for instructions to help study participants compile medication lists; the final contains no such content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A16",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to create incentives for industry to capture CRF data and transfer it to C-Path; this concerns FDA action outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A17",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidance on capturing non-prescription concomitant medications and screening for interactions; the final contains no such content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A13",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to add the term 'ontology'; searched the final text and footnotes and the term does not appear.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A29",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for consistent definitions across FDA guidances generally; this concerns cross-guidance harmonization beyond this text (specific definition edits are judged under the related asks).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A30",
+   "section_id": "footnote",
+   "call": "adopted",
+   "evidence_span": "For the purposes of this document, the term data curation means processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks to remove the CDISC reference from the data curation definition; the final footnote definition no longer names CDISC or any specific standard.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A31",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to add this guidance's mapping definition to the separate EHR/Claims guidance; this concerns another guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A32",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "See data elements at https://csrc.nist.gov/glossary/term/data_element.",
+   "rationale": "Asks to add definitions of 'data element' and 'Common Data Model'; the final adds a footnote pointing to an external data element definition but no Common Data Model definition (the draft's CDM mention was dropped).",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A33",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to add and explain 'ontology'; the term does not appear anywhere in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A35",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to define SNOMED CT; SNOMED CT does not appear anywhere in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A16",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document, the term data curation means processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks that the data curation definition address variation in interpreting standards retrospectively; the final footnote definition does not.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A17",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for revised guidance on retrospective EHR use (the separate EHR in clinical investigations guidance cited by the source data entry); this concerns another guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Suggests workshops to align standards; this concerns FDA activities outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A02",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Suggests aligning data requirements with ONC's USCDI; this concerns FDA/ONC coordination outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A03",
+   "section_id": "III.B",
+   "call": "not adopted",
+   "evidence_span": "Documentation of these processes may include but is not limited to electronic documentation (e.g., audit trails, quality control procedures, etc.) of data additions, deletions, or alterations from the source data system to the final study analytic data set(s).",
+   "rationale": "Asks for transparency about data excluded during cleaning/normalization/harmonization; the final's documentation-of-deletions passage is substantively unchanged from the draft and adds nothing specific on excluded data.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A04",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for guidance on managing consent within a privacy framework; the final contains no consent or privacy-framework content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A05",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to collaborate with ONC on USCDI+; this concerns FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for alignment on common data definition expressions (HL7 FHIR, CQL); this concerns FDA standards alignment outside the text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A07",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Suggests an FDA initiative analogous to SHIELD; this concerns FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to align on exchange standards used by source systems, especially HL7 FHIR; this concerns which standards FDA supports (a Catalog matter), not this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A09",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to recommend FHIR-based capabilities to sponsors; FHIR does not appear in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A10",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for supplementary educational materials on FHIR APIs; this concerns separate FDA materials.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A11",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA systems to accept submissions via FHIR APIs; this concerns FDA systems and supported standards outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0007-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks what FDA is doing on international harmonization; this concerns FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0007-A02",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to describe where its data standards are inconsistent with other regulators; the final contains no such comparison (III.A mentions only regional/global differences in source data).",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0009-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks about plans to require publication of all study data; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0010-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to adopt FHIR and USCDI as submission standards; this is a request about the Data Standards Catalog, not this text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0017-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to create a stakeholder workstream or pathway; this concerns FDA process outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0017-A02",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "Asks for more specific considerations for tokenized/linked data; the final adds combining more than one RWD source type as a listed challenge but gives no specific considerations for tokenization or linkage.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0017-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for recurring workshops or webinars; this concerns FDA activities outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0017-A04",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to discuss whether a limitations section is needed for RWD submissions; the final contains no such discussion.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0017-A05",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to discuss how the RWD/RWE guidance documents interconnect; the final adds Study Data/TCG cross-references but no discussion of the RWE guidance series.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A05",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to highlight vendors developing more meaningful structured EHR fields; the final contains no such content.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to accept Dataset-XML/Dataset-JSON instead of SAS XPT; which exchange formats FDA supports is a Data Standards Catalog matter, not this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A05",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to use APIs such as FHIR for retrieval; this concerns FDA systems outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks that future additional guidance address the challenges outlined; this concerns future guidance.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A03",
+   "section_id": "III.C",
+   "call": "adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Asks the guidance to state that other mapping approaches may be appropriate pending discussion with FDA; the final recognizes a range of approaches, explicitly encourages sponsors to discuss them with FDA, and labels the Appendix table as one possible approach among many.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A04",
+   "section_id": "III.C",
+   "call": "partially adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Asks the guidance to reference other data models (FHIR, Sentinel, OMOP, ADaM, PCORnet) as feasible; the final adds ADaM alongside SDTM but none of the other models.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A05",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "Sponsors or applicants may apply for a waiver from the requirement to use specific versions of FDA-supported standards for the submission of study data using the waiver request process described in section II.D of the Study Data Guidance.",
+   "rationale": "Asks which RWD submissions would or would not suit SDTM-conversion waivers; the final only points to the general waiver process and gives no such criteria.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A06",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to name alternative standards acceptable when a waiver is granted; the final names none.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A07",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to partner with industry to expand and validate novel data models and report learnings in future guidance; this concerns FDA activity and future documents, not this guidance's text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to outline learnings in future guidance and align with other health authorities; this is FDA process outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A09",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The various levels of access a sponsor has to any data sources used in the study",
+   "rationale": "Asks the guidance to differentiate stakeholders and say when an activity may fall to a data partner rather than the sponsor. The final adds a challenge bullet acknowledging that sponsors have varying levels of access to data sources, but still addresses all recommendations to sponsors without differentiating data partners, so it is only narrowly concordant.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A11",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks for detail on meeting opportunities: who to engage, meeting type, timelines and when. The final says to engage the appropriate review division(s) as early as possible, preferably before the study, and points to the Formal Meetings guidance and CDER/CBER-edata contacts in footnotes, but gives no meeting types or timelines in the text; partly concordant.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0022-A01",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "See the draft guidance for industry Formal Meetings Between the FDA and Sponsors or Applicants of PDUFA Products (December 2017) available at the FDA guidance web page.",
+   "rationale": "Asks the guidance or a referenced guidance to describe interaction types and timelines. The final cites the Formal Meetings guidance (which covers meeting types and timelines) and an edata contact for questions, but the guidance itself describes no interaction types or timelines; concordant in part.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0022-A02",
+   "section_id": "III.A",
+   "call": "adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks the guidance to signal that the topic is evolving and that FDA is open to program-specific discussion of approaches. The final says approaches depend on the specific data and research, urges early discussion with the review division, says FDA encourages sponsors to discuss a range of approaches, and says the Catalog is updated periodically; concordant with the ask.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A01",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "Asks for a process by which an RWD/E organization, outside a sponsor submission, can request a meeting with FDA. The final's consultation language is addressed to sponsors; the only general contact is the edata email for data-standards questions, which is not a meeting process for RWD/E organizations.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to accelerate expansion of the Data Standards Catalog, a separate FDA resource.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A04",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to take expedited steps and share a comprehensive strategy for RWD submissions; this concerns FDA planning outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A05",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks whether the same compliance (validation) checks apply to RWD submissions. The final, like the draft, says RWD study data must use the same required formats and Catalog standards and points to the TCG, but never addresses compliance checks explicitly.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A06",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with RWD/E organizations and sponsors to build compliance check tools; this is FDA activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A07",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this document a Study Data Reviewer’s Guide means a document provided by sponsors to FDA to describe any special considerations or directions or conformance issues that may facilitate an FDA reviewer’s use of the submitted data and may help the reviewer understand the relationships between the study report and the data.",
+   "rationale": "Asks for guidance on handling compliance-rule discrepancies. The final carries over the Study Data Reviewer's Guide definition mentioning conformance issues (moved from the glossary to a footnote) but adds no guidance on handling compliance discrepancies.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to hold a public workshop; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A02",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "Asks for procedures on when to use written correspondence versus meetings. The final gives an edata email for data-standards questions, cites the Formal Meetings guidance, and says to discuss with the review division as early as possible, but sets out no procedure for choosing between the two; partly concordant.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0027-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for additional resources such as case studies, examples and white papers; publishing such materials is outside the guidance text. The appendix examples were already in the draft.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A01",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to set out strengths and limitations of prospective versus retrospective RWD. The whole final, including the expanded III.A challenge list, was searched and has no prospective/retrospective discussion.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A02",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the guidance to set out the different challenges for primary versus secondary data. The final expands the III.A challenge list (multiple sources, unstructured data, access) but never distinguishes primary from secondary data.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A03",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Asks how to document the impact of mapping and transformation on source data. The draft already asked sponsors to document changes and potential impacts. The final adds that sponsors should explain the rationale for the chosen mapping method in the SDRG, and adds pointers to the TCG on Define-XML/SDRG use. This is somewhat more specific but gives no method for documenting impact.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A04",
+   "section_id": "APPENDIX",
+   "call": "not adopted",
+   "evidence_span": "However, if details that are essential to the consideration of the safety and effectiveness of a drug are absent, the latter approach may not be appropriate.",
+   "rationale": "Asks for an acceptable level of discrepancy between FDA standards and RWD terminologies. The final gives no threshold; the only related appendix caution is unchanged from the draft.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A05",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Certain information only existing in non-structured documentation (such as text in physician notes)",
+   "rationale": "Asks for detailed guidance on data elements generated from unstructured data (e.g., NLP). The final adds unstructured documentation as a recognized challenge and says to discuss such challenges with FDA, but gives no guidance on handling NLP-derived elements; narrowly concordant.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A06",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "Asks for acknowledgment of the challenges of multiple or linked RWD sources and for recommendations on divergences. The final adds the multi-source challenge to III.A and directs sponsors to discuss such issues with the review division early, but gives no specific recommendations for resolving divergences.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A07",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks whether RWD is held to the same pre-submission compliance (e.g., Pinnacle 21) checks. The final keeps the same required-standards language and does not address compliance checks.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A08",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for best practices for auto-populated EHR fields. The final, including the III.E transformation challenges, was searched and does not address auto-populated or carried-forward data.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A09",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to convene stakeholders; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A10",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "FDA plans to update the Catalog, and/or issue other guidance documents, to reflect standards for study data that are derived from RWD sources as they are developed and evaluated.",
+   "rationale": "Asks for a more far-reaching approach and a new RWD-tailored data standard. The final keeps the requirement to use current Catalog standards and repeats, in reworded form, the draft's plan to update the Catalog or issue guidance as RWD standards are developed; no new approach is set out.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A11",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to convene experts, hold workshops or run pilots; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A12",
+   "section_id": "III.C",
+   "call": "partially adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Asks for flexibility and guidance when RWD cannot feasibly be standardized into the supported formats. The final keeps the requirement (absent a waiver) but adds that approaches depend on the data and research, encourages discussing a range of approaches with FDA, and says early discussion with the review division should happen. This is modestly concordant, but it adds no infeasibility pathway.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A13",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for greater harmonization across the RWE guidance documents; this concerns the guidance series and other documents, not this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A14",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to fold this guidance's details into the data management plan described in a separate EHR/claims guidance; this concerns another guidance. This guidance's own DMP mention is unchanged.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A03",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks for review approaches that do not require standardizing analytic datasets. The final retains the requirement to use Catalog standards absent a waiver.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A04",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks for review of RWD on a single analytics platform instead of conversion to supported formats. The final retains the standardized-format requirement and mentions no platform-based review.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A05",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks to allow RWD submission with R or SAS scripts as an alternative. The final retains the standardized-format requirement and mentions no script-based alternative.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for further FDA public communications on standards efforts and review experience; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A10",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks whether RWD submissions undergo the same compliance checks. The final keeps the same required-standards language and does not address compliance checks.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A11",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with RWD/E organizations to develop tailored compliance checks; this is FDA activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A12",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "Asks for a process for RWD/E organizations to request meetings outside a sponsor's submission. The final's consultation language addresses sponsors only; the edata contact for data-standards questions is not an RWD/E-organization meeting process.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A14",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for periodic public workshops; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A15",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "The various levels of access a sponsor has to any data sources used in the study",
+   "rationale": "Asks the guidance to say that RWD/E organizations may hold the insight needed to meet the curation and transformation recommendations. The final only adds a bullet noting sponsors' varying access to data sources and still addresses all documentation duties to sponsors.",
+   "fr_listed_change": true,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A16",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to take steps to clarify how its various RWD/RWE guidances interrelate; this concerns the guidance series as a whole and FDA process.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A18",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for a public RWE Program dashboard on FDA's website; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A19",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks how the data standards apply to raw RWD such as DICOM images submitted at FDA request. The whole final was searched and does not address raw or imaging data.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A02",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for additional FDA guidance on RWD in prospective studies and EHR-leveraging prospective studies; this asks for other guidance rather than a change to this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to develop standards or a common data model for outcome measures; this concerns standards development and the Catalog, not this text.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A04",
+   "section_id": "III.D",
+   "call": "not adopted",
+   "evidence_span": "Furthermore, the sponsor should include a data dictionary that documents the definition of every data element derived from RWD sources that were mapped to the study data standard and all relevant information about the element, such as its relationships to other data, origin, usage, and format.",
+   "rationale": "Asks for more specificity on the common data elements of a data dictionary. The final narrows the data dictionary sentence to elements derived from RWD sources and mapped to the standard, but specifies no common data elements.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A08",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Certain information only existing in non-structured documentation (such as text in physician notes)",
+   "rationale": "Asks for more discussion of structured versus unstructured RWD. The final adds unstructured documentation (e.g., physician notes) to the recognized challenges but does not discuss the differences further; partly concordant.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with stakeholders while establishing standards; this is FDA activity outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A02",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the final to apply and reference the other recent RWD/E guidances consistently. The final's citations (Study Data Guidance, TCG, Framework, Formal Meetings, race/ethnicity guidance) were searched; none of the other RWD/E series guidances is referenced.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A03",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to consider comments across the RWD/E guidances together when finalizing; this concerns FDA process.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A06",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks for flexibility for studies started before the guidance was published. The final contains no transition or grandfathering language and keeps the requirement absent a waiver.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A07",
+   "section_id": "III.A",
+   "call": "adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks the guidance to acknowledge that sponsors work with data partners producing RWD in different formats, that access and standardization challenges may exist, and that these can be discussed with FDA. The final lists inconsistent formats, adds sponsors' varying levels of access to data sources, and says such challenges should be discussed with the review division early; concordant, though data partners are not named.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A08",
+   "section_id": "II",
+   "call": "not adopted",
+   "evidence_span": "As that guidance explains, the Catalog provides a listing of currently supported and/or required standards, their uses, the date FDA will begin (or has begun) to support a particular standard, the date such support ends (or will end), the date the requirement to use a particular standard will begin (or has begun), the date such requirement ends (or will end), and other pertinent information.",
+   "rationale": "Asks FDA to recognize that implementing newly identified standards takes time. The final's only timing language is the Catalog date listing, unchanged from the draft; no implementation-time acknowledgment is added.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A09",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to update the Catalog to support ICD-10, RxNorm and similar terminologies; this is a separate FDA resource.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A10",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to evaluate standards against various RWD study types when updating the Catalog; this concerns the Catalog and FDA activity.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A11",
+   "section_id": "III.C",
+   "call": "partially adopted",
+   "evidence_span": "FDA recognizes that a range of approaches may be used to apply the supported study data standards (e.g., Clinical Data Interchange Standards Consortium’s (CDISC’s) Study Data Tabulation Model (SDTM) or Analysis Data Model (ADaM)) to RWD sources such as EHR or claims data. FDA encourages sponsors to discuss such approaches with FDA.",
+   "rationale": "Suggests applying and adapting ADaM-like principles to RWD. The final now names ADaM alongside SDTM as a standard that can be applied to RWD sources and says RWD can be transformed into SDTM and ADaM datasets, but it does not discuss modifying ADaM for RWD; partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A12",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to seek stakeholder feedback when updating the Catalog and to consider other common data models; this concerns the Catalog and FDA process.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A13",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to consider Sentinel CDM and OMOP and leverage existing standards, in the context of Catalog updates; this is a separate FDA resource. The final mentions neither.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A14",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to reference ISO 11615 for consistent drug terminology. The whole final and its footnotes were searched; ISO 11615 is not referenced.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A15",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to collaborate with other standards bodies and share lessons learned publicly; this is FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A16",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with other regulators on harmonized RWD standards; this is FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A17",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "Questions regarding data standards for electronic study data can be submitted to CDER-edata@fda.hhs.gov or CBER-edata@fda.hhs.gov for submissions to CDER or CBER, respectively.",
+   "rationale": "Asks the guidance to describe how to contact FDA to suggest a Catalog addition. The final gives CDER/CBER edata email addresses for data-standards questions, a usable contact that does not specifically address Catalog addition requests; partly concordant.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A21",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks the final to reference the CDISC FHIR-to-CDISC Joint Mapping Implementation Guide. The whole final and its footnotes were searched; it is not referenced.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A22",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to run user acceptance or pilot testing with sponsors; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A24",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to encourage collaborative development of common data models acceptable for submission; this concerns standards development and the Catalog.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A25",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "Asks for guidance on the challenges of multiple or linked RWD sources and on resolving divergences from FDA standards. The final adds the multi-source challenge and directs early discussion with the review division but gives no specific recommendations on divergences.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A26",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Asks for detailed guidance on mapping standards and terminologies, including NLP-derived elements. The final adds that sponsors should choose a mapping approach that fits the data and study and justify it in the SDRG, discusses intermediary formats in III.C, and flags unstructured data as a challenge. It is more specific than the draft but not detailed, and has nothing on NLP.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A27",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks for best practices on auto-populated EHR data. The whole final was searched and does not address it.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A29",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to work with stakeholder groups to advance harmonized standards; this is FDA activity outside the text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A34",
+   "section_id": "III.D",
+   "call": "partially adopted",
+   "evidence_span": "The sponsor should select an appropriate mapping approach that best fits the characteristics of the data and the nature of the study. Sponsors should explain the rationale for the chosen method in the Study Data Reviewer’s Guide.",
+   "rationale": "Asks FDA to be explicit about where information belongs in submissions. The final adds that the mapping rationale goes in the SDRG and that the SDRG can point reviewers to detailed mappings in Define-XML and domain files, on top of the draft's protocol/DMP/study report and SDRG placements; somewhat more explicit, but it does not cover eCTD location.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A35",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that RWD datasets be placed in eCTD Module 5 (m5-3-5-4) with the study report. The whole final was searched; eCTD module placement is not addressed.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A36",
+   "section_id": null,
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks FDA to align its recommendations with USCDI v2. The whole final was searched; USCDI is not mentioned.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A37",
+   "section_id": "APPENDIX",
+   "call": "partially adopted",
+   "evidence_span": "The Define-XML file, along with the appropriate use of Alias data element, provides one mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology.",
+   "rationale": "Notes that Alias is not suitable in all cases and asks for further guidance on format, content and eCTD placement. The final drops Decode, calls Alias 'one mechanism', changes 'should apply' to 'may apply' Alias, and points to the TCG for Define-XML/SDRG use. It gives no eCTD placement guidance, so it is only partly concordant.",
+   "fr_listed_change": false,
+   "confidence": "low"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A01",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for convenings and pilot collaborations to develop standards; this is outside the guidance text.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A08",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks FDA to consider future additional guidance on data aggregators' and curators' activities as experience accumulates; this concerns future guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A09",
+   "section_id": "III.A",
+   "call": "partially adopted",
+   "evidence_span": "Approaches to these challenges will depend on the specific data being used and the research being conducted. For this reason, sponsors should discuss such issues with the appropriate FDA review division(s) as early as possible, preferably before the sponsor conducts the study.",
+   "rationale": "Asks FDA to weigh how its supported standards misalign with RWD and complicate mapping. The final expands the recognized challenges (multiple sources, unstructured data, access), says approaches depend on the data, and asks sponsors to pick a mapping approach suited to the data. The requirement to use supported standards is unchanged, so this is partial.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A11",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks for public comment and due process on Catalog changes; this concerns the Catalog and FDA process.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A01",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks for flexibility so formatting requirements do not drive data-source selection. The final retains the standardized-format requirement for RWD study data absent a waiver.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A02",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Raises the concern that required conversion undermines transparency and traceability, seeking flexibility. The final retains the conversion requirement and relies on documentation (e.g., Define-XML Alias) for traceability.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A04",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "With adequate documentation of the conformance methods used and their rationale, study data derived from RWD can be transformed into SDTM and ADaM datasets and submitted to FDA in an applicable submission.",
+   "rationale": "Argues that RWD usually lacks the information to map to SDTM/ADaM, seeking flexibility. The final instead states that, with adequate documentation, RWD can be transformed into SDTM and ADaM datasets, which is the opposite direction.",
+   "fr_listed_change": false,
+   "confidence": "high"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A06",
+   "section_id": "III.A",
+   "call": "not adopted",
+   "evidence_span": "The potential use of more than one type of RWD source in a study (such as combining EHR and claims data)",
+   "rationale": "Asks how the EHR/claims guidance's linkage considerations apply given the conversion requirement. The final adds multi-source use as a recognized challenge but does not cross-reference that guidance or explain how linkage interacts with conversion.",
+   "fr_listed_change": true,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A08",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks for alternatives such as platform-based analytics without conversion to a single standard. The final retains the standardized-format requirement and mentions no such alternative.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A09",
+   "section_id": "III.C",
+   "call": "not adopted",
+   "evidence_span": "Currently, and absent a waiver, sponsors submitting clinical and nonclinical study data (including those derived from RWD sources) in submissions subject to section 745A(a) of the FD&C Act are required to use the formats described in the Study Data Guidance and the supported study data standards listed in the Catalog.",
+   "rationale": "Asks to allow RWD submission with R scripts as a flexible alternative. The final retains the standardized-format requirement and mentions no script-based alternative.",
+   "fr_listed_change": false,
+   "confidence": "medium"
+  }
+ ]
+}

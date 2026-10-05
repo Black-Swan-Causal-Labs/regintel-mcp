@@ -1,0 +1,51 @@
+### [p2] Footnotes, page 2
+
+Additional copies are available from: Office of Communications, Division of Drug Information Center for Drug Evaluation and Research Food and Drug Administration 10001 New Hampshire Ave., Hillandale Bldg., 4th Floor Silver Spring, MD 20993-0002 Phone: 855-543-3784 or 301-796-3400; Fax: 301-431-6353 Email: druginfo@fda.hhs.gov https://www.fda.gov/drugs/guidance-compliance-regulatory-information/guidances-drugs and/or Office of Communication, Outreach and Development Center for Biologics Evaluation and Research Food and Drug Administration 10903 New Hampshire Ave., Bldg. 71, Room 3128 Silver Spring, MD 20993-0002 Phone: 800-835-4709 or 240-402-8010 Email: ocod@fda.hhs.gov https://www.fda.gov/vaccines-blood-biologics/guidance-compliance-regulatory-information-biologics/biologics-guidances
+
+### [p3] Footnotes, page 3
+
+A. Definition of Time Periods .......................................................................................................... 13 B. Selection of Study Population ..................................................................................................... 13 C. Exposure Ascertainment and Validation ................................................................................... 14 1. Definition of Exposure ................................................................................................................... 14 2. Ascertainment of Exposure: Data Source ...................................................................................... 14 3. Ascertainment of Exposure: Duration ........................................................................................... 15 4. Ascertainment of Exposure: Dose .................................................................................................. 16 5. Validation of Exposure .................................................................................................................. 16 6. Dosing in Special Populations ....................................................................................................... 17 7. Other Considerations ..................................................................................................................... 17 D. Outcome Ascertainment and Validation.................................................................................... 18 1. Definition of Outcomes of Interest ................................................................................................. 18 2. Ascertainment of Outcomes ........................................................................................................... 19 3. Validation of Outcomes.................................................................................................................. 20 4. Mortality as an Outcome ............................................................................................................... 23 E. Covariate Ascertainment and Validation .................................................................................. 23 1. Confounders ................................................................................................................................... 23 2. Effect Modifiers .............................................................................................................................. 24 3. Validation of Confounders and Effect Modifiers ........................................................................... 24 A. Characterizing Data..................................................................................................................... 26
+
+### [p5] Footnotes, page 5
+
+3 4 5 1 This guidance has been prepared by the Center for Drug Evaluation and Research (CDER) in cooperation with the Center for Biologics Evaluation and Research (CBER) and Oncology Center for Excellence (OCE) at the Food and Drug Administration. 2 Public Law 114-255 3 For the purposes of this guidance, all references to drugs include both human drugs and biological products. This guidance does not apply to medical devices. For information on medical devices, see guidance titled “Use of Real- World Evidence to Support Regulatory Decision-Making for Medical Devices” available at https://www.fda.gov/regulatory-information/search-fda-guidance-documents/use-real-world-evidence-support- regulatory-decision-making-medical-devices. 4 See Framework for FDA’s Real-World Evidence Program, available at https://www.fda.gov/media/120060/download. The framework and RWE Program also cover biological products licensed under the Public Health Service Act. 5 See section 505F(e) of the FD&C Act. 1
+
+### [p6] Footnotes, page 6
+
+6 See the Glossary (section VII) for definitions of words and phrases that are in bold italics at first mention throughout this guidance. 7 For the purposes of this guidance, the term clinical studies refers to all study designs, including, but not limited to, interventional studies where the treatment is assigned by a protocol (e.g., randomized or single-arm trials, including those that use RWD as an external control arm) and noninterventional studies where treatment is determined in the course of routine clinical care—i.e., observational studies (e.g., case-control or cohort studies). Throughout the guidance, FDA uses the terms clinical studies, studies, and study interchangeably. 8 See Framework for FDA’s Real-World Evidence Program, available at https://www.fda.gov/media/120060/download. 2
+
+### [p7] Footnotes, page 7
+
+9 We update guidances periodically. For the most recent version of the guidance, check the FDA guidance web page at https://www.fda.gov/regulatory-information/search-fda-guidance-documents. 3
+
+### [p15] Footnotes, page 15
+
+11 10For the purposes of this guidance, complete verification involves assigning an accurate value to the variable of interest for each study subject based on a reference standard of choice. For example, medical record review can be used in conjunction with a conceptual definition to determine whether a subject meets a critical inclusion criterion or has experienced the outcome event. (To a variable extent, adjudication may be involved in this process.) 11 For purposes of this guidance, reference standard is the best available benchmark, also referred to as “gold standard.” 11
+
+### [p19] Footnotes, page 19
+
+12 A drug’sJ code is a Healthcare Common Procedure Coding System Level II code used in medical claims to report injectable drugs that ordinarily cannot be self-administered; chemotherapy, immunosuppressive drugs, and inhalation solutions; and some orally administered drugs. 15
+
+### [p20] Footnotes, page 20
+
+14 13 This guidance does not address issues related to medication adherence. 14 In certain cases, the RWD source may be the only reference. For example, if exposure is defined by whether the patient paid for the prescription, medical claims data may be used, and this information will be the reference source. 16
+
+### [p29] Footnotes, page 29
+
+15 Data cleansing (sometimes referred to as data scrubbing) is the process of correcting or removing inaccurate data (or improperly formatted, duplicate data or records) from a database. The data requiring correction/removal is sometimes referred to as "dirty data." Data cleansing is an essential task for preserving data quality. 16 This figure illustrates some of the processes applied to EHR data to produce a dataset that may be appropriate for research use (i.e., steps from original source data through the final analytic dataset). This figure shows processes for EHR data; the process may differ for claims data. Quality checks for each process step are described in this section. 25
+
+### [p34] Footnotes, page 34
+
+19 17 Adapted from the Joint Committee for Guides in Metrology guidance International Vocabulary of Metrology— Basic and General Concepts and Associated Terms, 3rd edition, 2012. 18 Adapted from Sentinel System Principles and Policies (July 2019), available at https://www.sentinelinitiative.org/sites/default/files/About/Sentinel-System-Principles-and-Policies.pdf 19 See the NIH Collaboratory Living Textbook of Pragmatic Clinical Trials chapter “Electronic Health Records- Based Phenotyping,” available at https://rethinkingclinicaltrials.org/resources/ehr-phenotyping/. 30
+
+### [p35] Footnotes, page 35
+
+22 23 20 See FDA guidance for industry Best Practices for Conducting and Reporting Pharmacoepidemiologic Safety Studies Using Electronic Healthcare Data (May 2013). 21 Adapted from the “NCI Dictionary of Cancer Terms,” available at https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cumulative-dose. 22 See FDA guidance for industry Data Integrity and Compliance with Drug CGMP Questions and Answers (December 2018). 23 Adapted from Shortliffe, EH, and JJ Cimino, 2014, Biomedical Informatics: Computer Applications in Health Care and Biomedicine, 4th Edition, New York (NY): Springer. 31
+
+### [p36] Footnotes, page 36
+
+27 24 See Department of Health and Human Services Guidance Regarding Methods for De-Identification of Protected Health Information in Accordance With the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule, available at https://www.hhs.gov/sites/default/files/ocr/privacy/hipaa/understanding/coveredentities/De- identification/hhs_deid_guidance.pdf. 25 Adapted from Hartzema, A, HH Tilson, and KA Chan, 2008, Pharmacoepidemiology and Therapeutic Risk Management, Cincinnati (OH): Harvey Whitney Books. 26 See FDA guidance for industry Use of Electronic Health Record Data in Clinical Investigations (July 2018) 27 See Framework for FDA’s Real-World Evidence Program (December 2018) 32
+
+### [p37] Footnotes, page 37
+
+30 31 28 Encyclopedia of Database Systems definition of data provenance, available at https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-39940-9_1305. 29 See FDA guidance for industry Use of Electronic Health Record Data in Clinical Investigations (July 2018). 30 See FDA technical specifications document Study Data Technical Conformance Guide (October 2019). 31 Adapted from Porta, M, 2014, A Dictionary of Epidemiology, Sixth Edition, New York (NY): Oxford University Press. 33

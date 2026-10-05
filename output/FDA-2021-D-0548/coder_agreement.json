@@ -1,0 +1,1529 @@
+{
+ "docket_id": "FDA-2021-D-0548",
+ "second_coder": [
+  "jev-1.13.0"
+ ],
+ "n_asks": 324,
+ "n_compared": 323,
+ "n_t99_excluded": 1,
+ "theme": {
+  "n": 323,
+  "agree": 259,
+  "pct_agree": 0.802,
+  "kappa": 0.77,
+  "kappa_ci95": [
+   0.718,
+   0.821
+  ]
+ },
+ "stance": {
+  "n": 323,
+  "agree": 269,
+  "pct_agree": 0.833,
+  "kappa": 0.6,
+  "kappa_ci95": [
+   0.511,
+   0.683
+  ]
+ },
+ "theme_and_stance_both_agree": 216,
+ "theme_agreement_by_claude_confidence": {
+  "high": {
+   "n": 190,
+   "agree": 166,
+   "pct_agree": 0.874,
+   "kappa": 0.854,
+   "kappa_ci95": [
+    0.796,
+    0.908
+   ]
+  },
+  "medium": {
+   "n": 116,
+   "agree": 83,
+   "pct_agree": 0.716,
+   "kappa": 0.662,
+   "kappa_ci95": [
+    0.563,
+    0.753
+   ]
+  },
+  "low": {
+   "n": 17,
+   "agree": 10,
+   "pct_agree": 0.588,
+   "kappa": 0.533,
+   "kappa_ci95": [
+    0.267,
+    0.787
+   ]
+  }
+ },
+ "per_theme": {
+  "T01": {
+   "label": "Data provenance, traceability & documentation",
+   "n_claude": 38,
+   "agree": 33,
+   "n_jev": 47
+  },
+  "T02": {
+   "label": "Data relevance, fit for purpose & representativeness",
+   "n_claude": 2,
+   "agree": 2,
+   "n_jev": 6
+  },
+  "T03": {
+   "label": "Methodology: validation, study design & analytic methods",
+   "n_claude": 4,
+   "agree": 4,
+   "n_jev": 6
+  },
+  "T04": {
+   "label": "Missing data & data completeness",
+   "n_claude": 9,
+   "agree": 8,
+   "n_jev": 9
+  },
+  "T05": {
+   "label": "Linkage & tokenization",
+   "n_claude": 8,
+   "agree": 5,
+   "n_jev": 5
+  },
+  "T06": {
+   "label": "Data access, roles of data holders, retention & auditability",
+   "n_claude": 11,
+   "agree": 6,
+   "n_jev": 6
+  },
+  "T07": {
+   "label": "Proportionality, sponsor burden & feasibility",
+   "n_claude": 4,
+   "agree": 2,
+   "n_jev": 4
+  },
+  "T08": {
+   "label": "Terminology & definitional clarity",
+   "n_claude": 27,
+   "agree": 23,
+   "n_jev": 26
+  },
+  "T09": {
+   "label": "Alignment with other guidance & harmonization",
+   "n_claude": 28,
+   "agree": 17,
+   "n_jev": 20
+  },
+  "T10": {
+   "label": "FDA engagement & implementation support",
+   "n_claude": 40,
+   "agree": 35,
+   "n_jev": 39
+  },
+  "T11": {
+   "label": "Privacy & data governance",
+   "n_claude": 3,
+   "agree": 3,
+   "n_jev": 4
+  },
+  "T12": {
+   "label": "Scope & data types",
+   "n_claude": 16,
+   "agree": 10,
+   "n_jev": 13
+  },
+  "T13": {
+   "label": "Choice of data standards & the Data Standards Catalog",
+   "n_claude": 79,
+   "agree": 66,
+   "n_jev": 80
+  },
+  "T14": {
+   "label": "Mapping, transformation & controlled terminology",
+   "n_claude": 54,
+   "agree": 45,
+   "n_jev": 58
+  }
+ },
+ "top_theme_confusions": [
+  {
+   "claude": "T10",
+   "jev": "T13",
+   "n": 5
+  },
+  {
+   "claude": "T13",
+   "jev": "T14",
+   "n": 4
+  },
+  {
+   "claude": "T01",
+   "jev": "T14",
+   "n": 4
+  },
+  {
+   "claude": "T14",
+   "jev": "T13",
+   "n": 3
+  },
+  {
+   "claude": "T14",
+   "jev": "T01",
+   "n": 3
+  },
+  {
+   "claude": "T09",
+   "jev": "T13",
+   "n": 3
+  },
+  {
+   "claude": "T09",
+   "jev": "T01",
+   "n": 3
+  },
+  {
+   "claude": "T13",
+   "jev": "T10",
+   "n": 3
+  },
+  {
+   "claude": "T12",
+   "jev": "T02",
+   "n": 2
+  },
+  {
+   "claude": "T13",
+   "jev": "T12",
+   "n": 2
+  },
+  {
+   "claude": "T06",
+   "jev": "T01",
+   "n": 2
+  },
+  {
+   "claude": "T09",
+   "jev": "T14",
+   "n": 2
+  }
+ ],
+ "stance_confusions": [
+  {
+   "claude": "requests more specificity",
+   "jev": "supports as written",
+   "n": 25
+  },
+  {
+   "claude": "requests more specificity",
+   "jev": "requests more flexibility",
+   "n": 16
+  },
+  {
+   "claude": "requests more flexibility",
+   "jev": "requests more specificity",
+   "n": 5
+  },
+  {
+   "claude": "requests more flexibility",
+   "jev": "supports as written",
+   "n": 4
+  },
+  {
+   "claude": "requests more specificity",
+   "jev": "objects",
+   "n": 2
+  },
+  {
+   "claude": "objects",
+   "jev": "supports as written",
+   "n": 2
+  }
+ ],
+ "jev_input_tokens_total": 846337,
+ "disagreements": [
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A12",
+   "claude_theme": "T10",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 0.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.43,
+   "claude_confidence": "high",
+   "span": "Third, PhRMA recommends the Agency seek stakeholder feedback in updating the Catalog with additional standards for data using RWD sources, consider other common data models"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A37",
+   "claude_theme": "T10",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 0.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.54,
+   "claude_confidence": "medium",
+   "span": "BIO recommends the Agency seek Industry feedback in supported in the Catalog. updating the Catalog with additional standards for data using RWD sources."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A29",
+   "claude_theme": "T07",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.53,
+   "jev_prob_of_claude_theme": 0.13,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "Janssen requests that FDA clarifies the criticality of a data element to the definition of every data element used and all relevant information about conclusions of the study and to provide more information for critical the element”. elements (e.g., elements related to the outcome and exposure varia"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A06",
+   "claude_theme": "T10",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 0.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.67,
+   "claude_confidence": "medium",
+   "span": "We recommend the Agency seek formats are supported in the Catalog. Industry feedback in updating the Catalog with additional standards for data using RWD sources."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A02",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "high",
+   "span": "Amgen recommends the Agency provide further guidance on selecting the appropriate data standard and recommends updating the Catalog with additional standards applicable to RWD sources."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A48",
+   "claude_theme": "T13",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.97,
+   "jev_prob_of_claude_theme": 0.02,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "if it is applicable, apart from TS, the agency should clarify if conversions, or mappings that may be needed to there is a need for other trial domains for RWD."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0025-A02",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.97,
+   "claude_confidence": "high",
+   "span": "The “Alias” element in Define-XML provides a much better – and supported - mechanism for communicating the mapping of RWD sources or transformation of external coding systems to the appropriate SDTM controlled terminology."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A19",
+   "claude_theme": "T12",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.96,
+   "jev_prob_of_claude_theme": 0.02,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "high",
+   "span": "We would appreciate guidance about the applicability of FDA’s current data standards to raw RWD submitted to the Agency at its request (e.g., data in DICOM format for medical imaging data, rather than the independent reader assessments that may be captured in a structured data field)."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A03",
+   "claude_theme": "T14",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.5,
+   "jev_prob_of_claude_theme": 0.45,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.95,
+   "claude_confidence": "high",
+   "span": "As, in the case of data retrieved from EHRs, the submitted data point in the SDTM is essentially \"derived\", the mechanism for describing derived data and the derivation method in Define-XML should be used."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A06",
+   "claude_theme": "T06",
+   "jev_theme": "T07",
+   "jev_theme_confidence": 0.93,
+   "jev_prob_of_claude_theme": 0.02,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "However, for studies generating RWD initiated prior to the publication of this (and related) draft guidances, sponsors may not necessarily have access to the data FDA has now recommended be included in submissions to FDA. Accordingly, PhRMA encourages FDA to maintain flexibility in accepting RWD-der"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A22",
+   "claude_theme": "T08",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.93,
+   "jev_prob_of_claude_theme": 0.03,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.48,
+   "claude_confidence": "low",
+   "span": "In addition, Janssen proposes the following edit: “When seeking to conform RWD to data standards supported by FDA, sponsors should consider the relevant data transformations, conversions or mappings that may be needed to produce study datasets in the required format in an applicable drug submissions"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A31",
+   "claude_theme": "T09",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 0.9,
+   "jev_prob_of_claude_theme": 0.09,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.89,
+   "claude_confidence": "medium",
+   "span": "We also recommend (1) adding the Draft Guidance’s definition of “mapping” to the glossary in the EHR/Claims Draft Guidance,"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A17",
+   "claude_theme": "T09",
+   "jev_theme": "T12",
+   "jev_theme_confidence": 0.88,
+   "jev_prob_of_claude_theme": 0.1,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.76,
+   "claude_confidence": "medium",
+   "span": "Considering use of RWD from the EHR is often retrospective and potentially supportive of pharmacovigilance, etc. Revised guidance in this area would be valuable."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A19",
+   "claude_theme": "T09",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.87,
+   "jev_prob_of_claude_theme": 0.12,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "Janssen requests that FDA reference “Data Integrity and Compliance with transformation may include but are not limited to electronic Drug CGMP Questions and Answers Guidance for Industry”1 to clarify documentation (i.e., metadata-driven audit trails, quality control FDA’s expectations for “metadata-"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A08",
+   "claude_theme": "T12",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.86,
+   "jev_prob_of_claude_theme": 0.08,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "While variations in terminologies exist across all domains, there is usually more internal standardization with structured data (EHR database, medical claims, etc.) domains than RWD obtained from unstructured domains (EHR progress notes, free text, etc.). The industry would benefit from more discuss"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A02",
+   "claude_theme": "T09",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.85,
+   "claude_confidence": "high",
+   "span": "In the final guidance, PhRMA recommends that the Agency ensure the consistent application of and reference to other recently published RWD/E guidances as appropriate,"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A14",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.62,
+   "jev_prob_of_claude_theme": 0.65,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.85,
+   "claude_confidence": "medium",
+   "span": "Specifically, PhRMA recommends FDA reference ISO 1161512 to ensure consistency in the terminology and controlled vocabularies used to allow drug comparison."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A08",
+   "claude_theme": "T14",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.84,
+   "jev_prob_of_claude_theme": 0.03,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "• Recommended best practices for handling RWD fields that have been auto-populated (Some EMR systems will automatically pull forward data from past visits into subsequent visits unless deliberately overwritten, and there may not be a flag for such auto- populated data)."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A09",
+   "claude_theme": "T13",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.84,
+   "jev_prob_of_claude_theme": 0.15,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.61,
+   "claude_confidence": "medium",
+   "span": "Therefore, FDA should carefully consider how its supported standards might fundamentally misalign with the nature of RWD sources and make it difficult to conduct appropriate data mapping."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A25",
+   "claude_theme": "T05",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.82,
+   "jev_prob_of_claude_theme": 0.14,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "PhRMA requests additional guidance related to the issues and challenges raised when multiple RWD sources are used and/or linked, including recommendations on how to address divergences among multiple data sources and FDA-supported data standards."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A22",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.82,
+   "claude_confidence": "high",
+   "span": "BIO recommends the Agency consider adding RWD specified in the Data Standards Catalog (Catalog)”. standards to the Data Standards Catalog to account for nuances of RWD."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A05",
+   "claude_theme": "T04",
+   "jev_theme": "T04",
+   "jev_theme_confidence": 0.69,
+   "jev_prob_of_claude_theme": 0.72,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.82,
+   "claude_confidence": "low",
+   "span": "common data standards, and ensuring completeness of data entry (in terms of concomitant medications, ensuring start and stop dates, etc.) at the collection phase will go a long way in making these real-world data more usable for neonatal drug development purposes."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A06",
+   "claude_theme": "T14",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.53,
+   "jev_prob_of_claude_theme": 0.43,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.82,
+   "claude_confidence": "high",
+   "span": "Agencyto require sponsors to use standardized resources like WHODrug Global."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0020-A01",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "objects",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.82,
+   "claude_confidence": "high",
+   "span": "\"Decode\" should however never be used to provide mapping information to other coding systems."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A39",
+   "claude_theme": "T09",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.81,
+   "jev_prob_of_claude_theme": 0.15,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.74,
+   "claude_confidence": "medium",
+   "span": "BIO recommends the Agency work closely with key planning to issue further guidance and/or update the stakeholder groups, including data standards consortiums, Catalog with standards for study data that are data providers, industry, and other health authorities, to help derived from RWD sources. adva"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A64",
+   "claude_theme": "T09",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.56,
+   "jev_prob_of_claude_theme": 0.21000000000000002,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.8,
+   "claude_confidence": "medium",
+   "span": "FDA is encouraged to collaborate with other data standards entities that, in addition to the data standards-setting bodies mentioned throughout the draft guidance, also establish data standards for RWD used in research."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0025-A01",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "objects",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.8,
+   "claude_confidence": "high",
+   "span": "For these reasons we highly recommend against the use of “Decode” in Define-XML as a mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A02",
+   "claude_theme": "T13",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.79,
+   "jev_prob_of_claude_theme": 0.13,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.78,
+   "claude_confidence": "medium",
+   "span": "it would be beneficial to stakeholders for the Agency to acknowledge in the Final Guidance that there may be cases where sufficient mapping may not be possible and to provide guidance on what FDA’s approach would be under such circumstances."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A13",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.99,
+   "jev_prob_of_claude_theme": 0.99,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.77,
+   "claude_confidence": "medium",
+   "span": "such as the Sentinel CDM and the Observational Health Data Sciences and Informatics (ODHSI) Observational Medical Outcomes Partnership (OMOP), and leverage existing standards.11"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A05",
+   "claude_theme": "T09",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.63,
+   "jev_prob_of_claude_theme": 0.28,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.77,
+   "claude_confidence": "high",
+   "span": "• Collaborate with ONC to utilize the USCDI process through the new USCDI+ extension approach to align alignment on the ePHI relevant to real-world, data-based research."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A09",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.86,
+   "jev_prob_of_claude_theme": 0.87,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.76,
+   "claude_confidence": "medium",
+   "span": "Consensus data standards that mandate data collection utilizing specific data standards and standardized use of terminology that would accelerate progress in transformative ways."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A12",
+   "claude_theme": "T13",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.75,
+   "jev_prob_of_claude_theme": 0.17,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.95,
+   "claude_confidence": "medium",
+   "span": "data captured from real-world data and would request that FDA indicate when industry can expect further guidance."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A03",
+   "claude_theme": "T09",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 0.98,
+   "jev_prob_of_claude_theme": 0.98,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.74,
+   "claude_confidence": "low",
+   "span": "PhRMA encourages the Agency to continue to consider public comments on this and the other aforementioned RWD/E draft guidances in their totality when finalizing the RWD/E guidance series."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A51",
+   "claude_theme": "T12",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.74,
+   "jev_prob_of_claude_theme": 0.02,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.98,
+   "claude_confidence": "low",
+   "span": "BIO recommends that the Agency provide additional guidance describe these approaches, including in the protocol, on how to handle RWD used in analysis that is only available data management plan, and/or final study reports.” in the form of aggregate"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A08",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.74,
+   "claude_confidence": "high",
+   "span": "We suggest alignment on those primarily used by the source systems would promote consistency of data contributions across data sources. We particularly suggest alignment on HL7 FHIR"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A10",
+   "claude_theme": "T10",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.74,
+   "jev_prob_of_claude_theme": 0.2,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.42,
+   "claude_confidence": "medium",
+   "span": "There is a need for funding and dedicated multistakeholder initiatives to develop standards uniquely aligned with DHTs, devices and sensors."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A05",
+   "claude_theme": "T07",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.74,
+   "jev_prob_of_claude_theme": 0.17,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.31,
+   "claude_confidence": "high",
+   "span": "It is beneficial for both FDA and the Sponsor to provide key information on data transformations, including potential impacts, however, this should be done parsimoniously to avoid potential pitfalls associated with providing too much documentation that does not add value to the regulatory review."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A20",
+   "claude_theme": "T13",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 0.73,
+   "jev_prob_of_claude_theme": 0.23,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "To avoid interpretation issues, Janssen requests FDA define which section does not include reference to such standards. standards FDA is referring to in this section."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A07",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.94,
+   "jev_prob_of_claude_theme": 0.95,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.71,
+   "claude_confidence": "medium",
+   "span": "the EHRA suggests considering a corollary to the efforts of the SHIELD initiative to align vocabularies from diagnostic devices from LIS to EHRs to improve consistent data concept representations."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A18",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.92,
+   "jev_prob_of_claude_theme": 0.9400000000000001,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.71,
+   "claude_confidence": "medium",
+   "span": "Having options available where individuals can select two or more race categories captured in CRFs. In other words, we recommend the employment of technology to require clinical data managers to enter this information but also to select an option from a defined list such as this."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A06",
+   "claude_theme": "T05",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 0.7,
+   "jev_prob_of_claude_theme": 0.22,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.94,
+   "claude_confidence": "high",
+   "span": "Although the Draft Claims/EHR Guidance provides helpful considerations regarding linking data, it is not clear how that guidance should be applied in light of statements in the Draft Guidance that study data should be converted to a supported format."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A35",
+   "claude_theme": "T08",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.69,
+   "claude_confidence": "high",
+   "span": "For clarity, Janssen suggests creating a more generic definition to cover examples, whereas is also used in RWD. both study and RWD examples."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A03",
+   "claude_theme": "T01",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.69,
+   "jev_prob_of_claude_theme": 0.28,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "The guidance should include Lines 119‐123 approaches, including in the details such as specific protocol, data management documents sponsors must plan, and/or final study prepare (for eg: SDSP, the reports.” communication process, timing, and formats of the documents"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A17",
+   "claude_theme": "T05",
+   "jev_theme": "T11",
+   "jev_theme_confidence": 0.68,
+   "jev_prob_of_claude_theme": 0.3,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "medium",
+   "span": "Additional regulatory recommendations should address the need for privacy preserving record linkage in observational RWD studies which have a waiver of informed consent."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A03",
+   "claude_theme": "T01",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.95,
+   "jev_prob_of_claude_theme": 0.97,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.68,
+   "claude_confidence": "medium",
+   "span": "In lieu of standards, additional guidance is welcomed to help inform the format in which to provide this documentation. Formats might include XML files, data dictionaries, or other types of documentation."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A01",
+   "claude_theme": "T10",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.96,
+   "jev_prob_of_claude_theme": 0.97,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.67,
+   "claude_confidence": "high",
+   "span": "We suggest that targeted workshops may be a venue to convene relevant stakeholders to collaborate on key topics that enable alignment of the necessary standards,"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A17",
+   "claude_theme": "T04",
+   "jev_theme": "T03",
+   "jev_theme_confidence": 0.67,
+   "jev_prob_of_claude_theme": 0.08,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.95,
+   "claude_confidence": "medium",
+   "span": "Including guidance on how to best capture and track non-prescription concomitant medications and then use this data to screen for interactions."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A01",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.5,
+   "jev_prob_of_claude_theme": 0.54,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.66,
+   "claude_confidence": "medium",
+   "span": "We strongly encourage FDA to work with these stakeholders as the Agency establishes modern data standards best suited to the evolving and emerging RWD assets."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A23",
+   "claude_theme": "T09",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.66,
+   "jev_prob_of_claude_theme": 0.19,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "medium",
+   "span": "We would appreciate further guidance about applying the EHR/Claims Draft Guidance’s recommendations for CDMs, such as when customized study-specific data elements are used to address deficiencies."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A01",
+   "claude_theme": "T10",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.65,
+   "claude_confidence": "high",
+   "span": "Based on these examples, C-Path recommends that the Agency conduct a public workshop that aims to identify specific mechanisms toovercome the outstanding barriers in RWD with a tangible plan of action."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A04",
+   "claude_theme": "T06",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.65,
+   "jev_prob_of_claude_theme": 0.12,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "medium",
+   "span": "For instance, it is possible to review RWD from a variety of sources on a single analytics platform, which would enable Agency reviewers to access source data and analyses in a transparent manner while maintaining a level of detail that might be lost in the process of standardizing the data to a cur"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0025-A03",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.94,
+   "jev_prob_of_claude_theme": 0.95,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.65,
+   "claude_confidence": "high",
+   "span": "The Define-XML specification could be amended to include more FDA recommended values for the “Context” attribute on the “Alias” attribute, besides the currently used value of “nci:ExtCodeId”."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A30",
+   "claude_theme": "T08",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 0.38,
+   "jev_prob_of_claude_theme": 0.32,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.64,
+   "claude_confidence": "high",
+   "span": "We recommend updating the definition of “data curation” in the Draft Guidance to align with the EHR/Claims Draft Guidance by removing the reference to CDISC, as this data standard is generally used for structuring data collected in clinical trials and FDA may support other standards in the future th"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A24",
+   "claude_theme": "T14",
+   "jev_theme": "T03",
+   "jev_theme_confidence": 0.63,
+   "jev_prob_of_claude_theme": 0.04,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "medium",
+   "span": "BIO also suggests that the Agency provide recommendations/suggestions on acceptable BIO also recommends that the Agency provide methods to reconcile the challenges."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A07",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.56,
+   "jev_prob_of_claude_theme": 0.6,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.63,
+   "claude_confidence": "medium",
+   "span": "We encourage FDA, in partnership with industry, to expand and validate data models that may use these novel approaches and to outline learnings in future guidance"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A24",
+   "claude_theme": "T12",
+   "jev_theme": "T12",
+   "jev_theme_confidence": 0.43,
+   "jev_prob_of_claude_theme": 0.48,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.63,
+   "claude_confidence": "high",
+   "span": "submission should be submitted if the RWE derived from the RWD is primary evidence in the submission but does not need to be submitted if the RWE is only supportive evidence. What is considered primary evidence should be discussed with the agency.”"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A19",
+   "claude_theme": "T14",
+   "jev_theme": "T04",
+   "jev_theme_confidence": 0.54,
+   "jev_prob_of_claude_theme": 0.19,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.61,
+   "claude_confidence": "medium",
+   "span": "Optimization of systems to better capture accurateand reliablemedication information from EHRs."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A02",
+   "claude_theme": "T13",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.61,
+   "jev_prob_of_claude_theme": 0.35,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "It would also be helpful for stakeholders to understand the timeline for FDA to issue additional guidance and/or to update the Data Standards Catalog."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A02",
+   "claude_theme": "T09",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.6,
+   "jev_prob_of_claude_theme": 0.16,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.36,
+   "claude_confidence": "medium",
+   "span": "We suggest that alignment on data requirements in the context of ONC’s USCDI, which includes provenance, provides an opportunity to ensure consistency of approaches from initial capture through the various systems that data may flow before it is subsequently used for specific studies."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0006-A06",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.98,
+   "jev_prob_of_claude_theme": 0.98,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.6,
+   "claude_confidence": "medium",
+   "span": "• Align on the use of common data and data set definition expressions that certified HIT, such as EHRs, are already supporting and expanding (HL7 FHIR for APIs) or are actively developing with CMS (HL7 CQL)."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0029-A07",
+   "claude_theme": "T01",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.6,
+   "jev_prob_of_claude_theme": 0.35,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "highlight the domains involved.” should include the expectation whether all such situations Due to the nature of RWD, should be explained in detail in there may be several challenges the Reviewer’s guide."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A05",
+   "claude_theme": "T14",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.59,
+   "jev_prob_of_claude_theme": 0.21,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "• Detailed guidance on how to address data sources that may have used non-structured data (e.g., Natural Language Processing) to generate data elements."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A11",
+   "claude_theme": "T13",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.59,
+   "jev_prob_of_claude_theme": 0.11,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "low",
+   "span": "We would also encourage further clarity around the level of specificity needed to represent"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A11",
+   "claude_theme": "T10",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.93,
+   "jev_prob_of_claude_theme": 0.93,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.57,
+   "claude_confidence": "high",
+   "span": "BIO recommends that the Agency consider convening sponsors, data scientists, bioinformaticians, etc. to work together to address the aforementioned challenges. It may be worthwhile to consider workshops and/or pilot projects to have dialogue and consider other appropriate data standards for RWD."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A33",
+   "claude_theme": "T06",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.57,
+   "jev_prob_of_claude_theme": 0.33,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "high",
+   "span": "Further, some data elements are often derived by the data provider. provider (for example, overall survival, progression free survival, etc.) without the Sponsor having access to the source data in which the element was derived. It would be helpful for the guidance to clarify the expectations for su"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0016-A01",
+   "claude_theme": "T08",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "objects",
+   "jev_stance_confidence": 0.57,
+   "claude_confidence": "high",
+   "span": "Typo - “(Dugs Prescribed)” Proposed Change Change to: “(Drugs Prescribed)”"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A29",
+   "claude_theme": "T09",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 0.55,
+   "jev_prob_of_claude_theme": 0.42,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.51,
+   "claude_confidence": "high",
+   "span": "We recommend providing the same definitions for key terms across guidances to the extent possible, as recommendations in multiple guidances could apply to the same topic."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A34",
+   "claude_theme": "T08",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "objects",
+   "jev_stance_confidence": 0.54,
+   "claude_confidence": "high",
+   "span": "Janssen suggests changing “data curation” to “data capture” and to refer CDSIC Glossary for definition."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A43",
+   "claude_theme": "T13",
+   "jev_theme": "T02",
+   "jev_theme_confidence": 0.52,
+   "jev_prob_of_claude_theme": 0.44,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.94,
+   "claude_confidence": "medium",
+   "span": "BIO recommends that the Agency provide additional guidance on data standardization needs based on \"fit for purpose\" of RWE study types and its regulatory needs with existing data standards supported by FDA."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0019-A05",
+   "claude_theme": "T09",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 0.67,
+   "jev_prob_of_claude_theme": 0.69,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.52,
+   "claude_confidence": "high",
+   "span": "We recommend the Agency limited regarding the documentation reference the recent RWD draft needed during data curation and guidance titled, “Real-World Data: data transformation steps. Assessing Electronic Health Records and Medical Claims Data To Support Regulatory Decision-Making for Drug and Biol"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A10",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.51,
+   "claude_confidence": "high",
+   "span": "Second, in looking to update the Catalog, PhRMA encourages FDA to assess and evaluate how the current data standards conform with RWD used in studies such as pragmatic clinical trials, external control studies, long-term follow-up studies, and prospective and retrospective non-interventional studies"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A01",
+   "claude_theme": "T12",
+   "jev_theme": "T02",
+   "jev_theme_confidence": 0.51,
+   "jev_prob_of_claude_theme": 0.12,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "medium",
+   "span": "BIO recommends that the Agency consider highlighting the strengths and limitations of prospective and retrospective real-world data and providing language to delineate the challenges more clearly with each type of data source."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A18",
+   "claude_theme": "T08",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.51,
+   "jev_prob_of_claude_theme": 0.41,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.95,
+   "claude_confidence": "medium",
+   "span": "For clarity, Janssen requests the following edits: “adequate process should be in place to increase confidence in the resultant data.” “During data curation capture and data transformation, adequate processes should be in place to maintain or to ensure increase confidence in the resultant data”."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A33",
+   "claude_theme": "T08",
+   "jev_theme": "T08",
+   "jev_theme_confidence": 0.85,
+   "jev_prob_of_claude_theme": 0.86,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.51,
+   "claude_confidence": "high",
+   "span": "Janssen also notes that it would be helpful if the definition of “noninterventional (observational) study also be considered in the context beyond single “drug of interest” (e.g., to include observational studies of exposures/treatments, etc.)."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A07",
+   "claude_theme": "T13",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.5,
+   "jev_prob_of_claude_theme": 0.23,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "• Detailed guidance on data compliance. For example, in clinical studies Pinnacle 21 checks are executed before submission. It would be helpful for the Agency to clarify if RWD will be held to the same standard."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A56",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.93,
+   "jev_prob_of_claude_theme": 0.9400000000000001,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.5,
+   "claude_confidence": "high",
+   "span": "Specifically, the Agency should clarify if it would be be transformed to SDTM datasets and submitted to acceptable to use the study analysis datasets (ADaM format FDA in an applicable drug submission.” applied) derived from RWD directly without SDTM mapping."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A11",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.58,
+   "jev_prob_of_claude_theme": 0.62,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.5,
+   "claude_confidence": "medium",
+   "span": "Recommendation tobuild upon existing work to develop metadata standards concepts and terminology for DHTs"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0022-A03",
+   "claude_theme": "T06",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.5,
+   "jev_prob_of_claude_theme": 0.34,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.67,
+   "claude_confidence": "high",
+   "span": "Regeneron requests that in some circumstances the draft guidance also consider situations when the sponsor does not directly control the procedures leading to the creation of the final study-specific dataset. The guideline should provide recommendations for best practices when information regarding "
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A01",
+   "claude_theme": "T13",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.49,
+   "jev_prob_of_claude_theme": 0.28,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "we encourage FDA to state it will apply flexibility in its discussions regarding specific drug submissions."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A20",
+   "claude_theme": "T01",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.49,
+   "jev_prob_of_claude_theme": 0.16,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "We would appreciate further guidance about the Agency’s recommendations for any assessments that should be conducted to evaluate the final analytic dataset’s validity—e.g., to confirm that any changes to the data to conform to FDA-supported data standards have been addressed appropriately— and to ev"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A30",
+   "claude_theme": "T01",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.58,
+   "jev_prob_of_claude_theme": 0.61,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.49,
+   "claude_confidence": "medium",
+   "span": "Given that discrepant data cannot be queried the challenges when transforming RWD. same way as we typically do in clinical trials, Janssen suggests documenting the rules that are applied for decision making as to what data to use in analysis and the openness for different expectations for structured"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A03",
+   "claude_theme": "T13",
+   "jev_theme": "T07",
+   "jev_theme_confidence": 0.48,
+   "jev_prob_of_claude_theme": 0.24,
+   "claude_stance": "objects",
+   "jev_stance": "objects",
+   "jev_stance_confidence": 0.42,
+   "claude_confidence": "medium",
+   "span": "Requiring RWD in submissions to be transformed into a standardized data format would have material negative impacts on study quality and availability."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A16",
+   "claude_theme": "T13",
+   "jev_theme": "T12",
+   "jev_theme_confidence": 0.47,
+   "jev_prob_of_claude_theme": 0.47,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "low",
+   "span": "BIO recommends that the Agency clarify if clinical trial data sources conducted either prospectively or considered for submission should be the guiding principle for retrospectively. Should data standard considerations RWD/RWE/Claims/Registry data as well."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A41",
+   "claude_theme": "T09",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.47,
+   "jev_prob_of_claude_theme": 0.17,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.92,
+   "claude_confidence": "low",
+   "span": "BIO suggests the Agency reference and discuss recent work standards would come first so the RWD data can be on challenges and solutions for programmers dealing with mapped appropriately. RWD non-interventional studies."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A46",
+   "claude_theme": "T14",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.47,
+   "jev_prob_of_claude_theme": 0.47,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.64,
+   "claude_confidence": "high",
+   "span": "BIO recommends the Agency comment on and/or reference in data consistent with FDA-supported data standards. the final guidance the recently published FHIR to CDISC Joint Mapping Implementation Guide by CDISC (01 September 2021) and their views for accepting this as an approach to remap data from EHR"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A15",
+   "claude_theme": "T06",
+   "jev_theme": "T06",
+   "jev_theme_confidence": 0.85,
+   "jev_prob_of_claude_theme": 0.87,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.47,
+   "claude_confidence": "high",
+   "span": "We recommend clarifying that an RWD/E organization may have the direct insight necessary to address the Draft Guidance’s recommendations regarding the curation and transformation of RWD"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A24",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.71,
+   "jev_prob_of_claude_theme": 0.74,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.44,
+   "claude_confidence": "high",
+   "span": "These recommendations should also address CDMs that are not identified in the Data Standards Catalog, as well as scenarios in which an analytic dataset uses variables from multiple CDMs or when additional variables may need to be created outside of those CDMs (or outside of the CDISC terminology)."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A14",
+   "claude_theme": "T08",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.44,
+   "jev_prob_of_claude_theme": 0.18,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.93,
+   "claude_confidence": "medium",
+   "span": "Janssen requests the following edits: ”… (4) the many aspects of health the overall quality of the data. care data that can affect the overall quality of the data, including business processes and database structure, lack of criteria or different versions used for disease/performance evaluation, inc"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0023-A05",
+   "claude_theme": "T13",
+   "jev_theme": "T12",
+   "jev_theme_confidence": 0.42,
+   "jev_prob_of_claude_theme": 0.34,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.88,
+   "claude_confidence": "high",
+   "span": "Flatiron would appreciate clarity on whether FDA expects these same compliance checks to be conducted for regulatory submissions containing RWD/E,"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A18",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.94,
+   "jev_prob_of_claude_theme": 0.95,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.41,
+   "claude_confidence": "high",
+   "span": "PhRMA recommends including “raw” collected values as supplemental qualifiers in the SDTM to aid transparency and maintain the integrity of data for future use."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A05",
+   "claude_theme": "T06",
+   "jev_theme": "T02",
+   "jev_theme_confidence": 0.41,
+   "jev_prob_of_claude_theme": 0.27,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.66,
+   "claude_confidence": "low",
+   "span": "This is an extremely important opportunity for the draft guidance to highlight the importance of vendors developing more meaningful structured data fields (in collaboration with relevant clinicians), which may lead to greater use of structured fields by clinicians to improve the value of the underly"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0034-A02",
+   "claude_theme": "T09",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.4,
+   "jev_prob_of_claude_theme": 0.12,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.92,
+   "claude_confidence": "high",
+   "span": "Additionally, requiring conversion of data from their native format to a particular data standard may have significant implications for a study’s ability to meet the transparency and traceability recommendations that FDA has put forward in other draft guidance"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0017-A01",
+   "claude_theme": "T10",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.78,
+   "jev_prob_of_claude_theme": 0.81,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.4,
+   "claude_confidence": "medium",
+   "span": "As such, Otsuka recommends that the Agency develop workstream or novel pathway where different stakeholders such as the pharmaceutical industry and data vendors can work closely with each other to ensure adherence to all these data standard considerations."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A20",
+   "claude_theme": "T10",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.39,
+   "jev_prob_of_claude_theme": 0.02,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.95,
+   "claude_confidence": "low",
+   "span": "BIO recommends that the Agency assess the RWD details of biologics is not new. Evidence suggests that in these approvals to begin providing enhanced guidance, oncology, FDA has used RWE for approvals: based on real world research experience."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A21",
+   "claude_theme": "T14",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.38,
+   "jev_prob_of_claude_theme": 0.43,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.25,
+   "claude_confidence": "high",
+   "span": "In the final guidance, PhRMA encourages the Agency to reference the recently published FHIR to CDISC Joint Mapping Implementation Guide by CDISC and acknowledge that"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0021-A27",
+   "claude_theme": "T01",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.38,
+   "jev_prob_of_claude_theme": 0.24,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "Janssen requests that that FDA include additional information such as what information should be included whether the Study Data Reviewer’s Guide should be focused on data mappings with greater impact by defining what impact means and on what domains an ‘impact’ should be evaluated."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0024-A12",
+   "claude_theme": "T01",
+   "jev_theme": "T01",
+   "jev_theme_confidence": 0.71,
+   "jev_prob_of_claude_theme": 0.74,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.35,
+   "claude_confidence": "low",
+   "span": "For example, development ofautomated quality check standards that run either in real time/periodically to ensure the data quality as it is being collected rather than towards the end of the study when corrective measures cannot be applied"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0033-A17",
+   "claude_theme": "T10",
+   "jev_theme": "T10",
+   "jev_theme_confidence": 0.8,
+   "jev_prob_of_claude_theme": 0.81,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.34,
+   "claude_confidence": "high",
+   "span": "As FDA continues to advance the use of RWE in regulatory decision making, it will be important to facilitate communication between the Agency and data aggregators. This collaboration would strengthen review transparency and help ensure the analytic dataset is fit for purpose. Such meetings could be "
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A16",
+   "claude_theme": "T09",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 1.0,
+   "jev_prob_of_claude_theme": 1.0,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.33,
+   "claude_confidence": "high",
+   "span": "PhRMA notes that global harmonization on data standards is critical and recommends the Agency work with other regulatory agencies to seek harmonization on RWD standards."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A63",
+   "claude_theme": "T14",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.72,
+   "jev_prob_of_claude_theme": 0.75,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.31,
+   "claude_confidence": "high",
+   "span": "BIO recommends that the Agency consider, where it is original meaning is not lost through transformation appropriate, to include the ”raw “collected values as and is available for further use of the data. supplemental qualifiers in the SDTM to aid transparency and"
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A02",
+   "claude_theme": "T12",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.31,
+   "jev_prob_of_claude_theme": 0.23,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 1.0,
+   "claude_confidence": "high",
+   "span": "We would also like to see additional guidance from the agency on the use of RWD in prospective studies, as well as prospective studies leveraging EHRs."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0031-A04",
+   "claude_theme": "T01",
+   "jev_theme": "T14",
+   "jev_theme_confidence": 0.31,
+   "jev_prob_of_claude_theme": 0.31,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "medium",
+   "span": "While we are aligned with the importance of this step, we believe FDA is in a unique position to use industry submissions and offer greater specificity around common data elements of a data dictionary that can further harmonize data across different data sources."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A29",
+   "claude_theme": "T14",
+   "jev_theme": "T09",
+   "jev_theme_confidence": 0.27,
+   "jev_prob_of_claude_theme": 0.32,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.48,
+   "claude_confidence": "medium",
+   "span": "PhRMA encourages FDA to work closely with key stakeholder groups, including data standards consortia, data providers, industry, other U.S. government agencies, and other health authorities, to help advance harmonized standards and coding for RWD."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0032-A24",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.86,
+   "jev_prob_of_claude_theme": 0.88,
+   "claude_stance": "requests more flexibility",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.21,
+   "claude_confidence": "medium",
+   "span": "the Agency could encourage the collaborative development of common data models that are acceptable to submit to FDA for certain types of RWD submissions."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0028-A02",
+   "claude_theme": "T12",
+   "jev_theme": "T02",
+   "jev_theme_confidence": 0.21,
+   "jev_prob_of_claude_theme": 0.18,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more specificity",
+   "jev_stance_confidence": 0.99,
+   "claude_confidence": "medium",
+   "span": "BIO also recommends that the Agency consider highlighting the challenges between primary data (i.e., collected for research purposes) and secondary data (i.e., existing data such as claims or EHR) as conformance to FDA data standards will be much more challenging with secondary data."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0018-A02",
+   "claude_theme": "T04",
+   "jev_theme": "T04",
+   "jev_theme_confidence": 0.83,
+   "jev_prob_of_claude_theme": 0.85,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "supports as written",
+   "jev_stance_confidence": 0.21,
+   "claude_confidence": "high",
+   "span": "It is important to acknowledge that the approaches to addressing these situations could be very different."
+  },
+  {
+   "ask_id": "FDA-2021-D-0548-0030-A07",
+   "claude_theme": "T13",
+   "jev_theme": "T13",
+   "jev_theme_confidence": 0.99,
+   "jev_prob_of_claude_theme": 0.99,
+   "claude_stance": "requests more specificity",
+   "jev_stance": "requests more flexibility",
+   "jev_stance_confidence": 0.12,
+   "claude_confidence": "medium",
+   "span": "In light of these ongoing efforts, we respectfully request that FDA expedite the updates to the Data Standards Catalog so any new standards are added before the Agency publishes a final version of the Draft Guidance."
+  }
+ ]
+}

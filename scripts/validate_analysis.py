@@ -26,12 +26,17 @@ def main(path, corpus=None):
     themes = {t["theme_id"] for t in a.get("themes", [])}
     asks = {x["ask_id"] for x in a.get("asks", [])}
     secs = {s["section_id"] for s in a.get("sections", [])}
+    if (Path(path).parent / "concordance" / "final_footnotes.md").exists():
+        secs.add("footnote")
     errs += [f"comment {c['comment_id']}: unknown submitter" for c in a.get("comments", []) if c["submitter_id"] not in subs]
     errs += [f"ask {x['ask_id']}: unknown comment/theme" for x in a.get("asks", [])
              if x["comment_id"] not in coms or x["theme_id"] not in themes]
     errs += [f"concordance {c['ask_id']}: unknown ask/section" for c in a.get("concordance", [])
              if c["ask_id"] not in asks or (c["section_id"] and c["section_id"] not in secs)]
     final_text = ws(" ".join(s.get("final_text") or "" for s in a.get("sections", [])))
+    notes = Path(path).parent / "concordance" / "final_footnotes.md"  # evidence may quote a footnote
+    if notes.exists():
+        final_text += " " + ws(re.sub(r"^### .*$", " ", notes.read_text(), flags=re.M))
     errs += [f"concordance {c['ask_id']}: evidence_span not verbatim in final" for c in a.get("concordance", [])
              if c.get("evidence_span") and ws(c["evidence_span"]) not in final_text]
     if corpus:

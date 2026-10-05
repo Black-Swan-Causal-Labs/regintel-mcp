@@ -1,0 +1,289 @@
+<title>Concordance Spot Check: Data Standards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: reviewer's desk. Left rail = docket queue; right = one call at a time, ask → draft → final → verdict. */
+:root {
+  --bg: #f5f6f4; --panel: #ffffff; --ink: #1d2422; --muted: #5d6965; --line: #d9dfdc;
+  --accent: #1f5f73; --accent-ink: #ffffff; --quote: #eef3f1;
+  --ok: #2e7d4f; --ok-bg: #e3f2e8; --warn: #9a6a00; --warn-bg: #fbf0d6; --bad: #a33b2b; --bad-bg: #f8e3df; --na: #5d6965; --na-bg: #eceeed;
+  --serif: "Source Serif 4", Georgia, serif; --sans: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --panel: #1c2321; --ink: #e4ebe8; --muted: #9aa8a3; --line: #2f3a37;
+  --accent: #6fb3c8; --accent-ink: #0d1514; --quote: #22302c;
+  --ok: #7cc79a; --ok-bg: #1e3327; --warn: #e1b75a; --warn-bg: #3a3020; --bad: #ec8d7d; --bad-bg: #3d2420; --na: #a7b3af; --na-bg: #2a312f; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --panel: #1c2321; --ink: #e4ebe8; --muted: #9aa8a3; --line: #2f3a37;
+  --accent: #6fb3c8; --accent-ink: #0d1514; --quote: #22302c;
+  --ok: #7cc79a; --ok-bg: #1e3327; --warn: #e1b75a; --warn-bg: #3a3020; --bad: #ec8d7d; --bad-bg: #3d2420; --na: #a7b3af; --na-bg: #2a312f; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--sans); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: end; justify-content: space-between; margin-bottom: 16px }
+h1 { font: 600 1.6rem/1.2 var(--serif); margin: 0; text-wrap: balance }
+.sub { color: var(--muted); font-size: .9rem; margin-top: 4px }
+.stats { display: flex; gap: 18px; flex-wrap: wrap; font-variant-numeric: tabular-nums }
+.stat b { display: block; font: 600 1.25rem var(--serif) } .stat span { color: var(--muted); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; margin: 6px 0 18px } .bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s }
+.grid { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 20px; align-items: start }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0,1fr) } .rail { max-height: 320px; position: static; order: 2 } .card { order: 1 } }
+.rail { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; max-height: calc(100vh - 170px); overflow: auto; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px) }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; padding: 10px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--panel) }
+.filters button { font: 500 .78rem var(--sans); border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 999px; padding: 3px 10px; cursor: pointer }
+.filters button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.rail ol { list-style: none; margin: 0; padding: 4px 0 }
+.rail li button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 34px minmax(0,1fr) 14px; gap: 8px; padding: 7px 10px; cursor: pointer; font-size: .83rem; align-items: center }
+.rail li button:hover, .rail li button:focus-visible { background: var(--quote) }
+.rail li button[aria-current="true"] { background: var(--quote); box-shadow: inset 3px 0 0 var(--accent) }
+.rail .num { color: var(--muted); font-family: var(--mono); font-size: .75rem }
+.rail .who { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.dot { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--line) }
+.dot.agree { background: var(--ok); border-color: var(--ok) } .dot.disagree { background: var(--bad); border-color: var(--bad) } .dot.unsure { background: var(--warn); border-color: var(--warn) }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; display: grid; gap: 18px; min-width: 0 }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--muted); font-size: .85rem }
+.meta b { color: var(--ink); font-weight: 600 }
+h2 { font: 600 1.15rem/1.3 var(--serif); margin: 0 }
+.label { font: 600 .72rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px }
+blockquote { margin: 0; padding: 12px 14px; background: var(--quote); border-radius: 6px; font: 1rem/1.55 var(--serif); overflow-wrap: anywhere }
+details { border: 1px solid var(--line); border-radius: 6px }
+summary { cursor: pointer; padding: 8px 12px; font-size: .88rem; color: var(--muted) }
+details .body { padding: 0 14px 12px; font: .92rem/1.6 var(--serif); white-space: pre-wrap; max-height: 360px; overflow: auto; overflow-wrap: anywhere }
+mark { background: var(--warn-bg); color: inherit; padding: 0 1px }
+.pill { display: inline-block; font: 600 .8rem var(--sans); padding: 3px 10px; border-radius: 999px }
+.c-adopted { background: var(--ok-bg); color: var(--ok) } .c-partially-adopted { background: var(--warn-bg); color: var(--warn) }
+.c-not-adopted { background: var(--bad-bg); color: var(--bad) } .c-not-assessable { background: var(--na-bg); color: var(--na) }
+.callrow { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center }
+.small { font-size: .82rem; color: var(--muted) }
+.verdict { border-top: 1px solid var(--line); padding-top: 16px; display: grid; gap: 12px }
+.btns { display: flex; flex-wrap: wrap; gap: 8px }
+.btns button, .nav button { font: 600 .9rem var(--sans); padding: 9px 16px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer }
+.btns button kbd, .nav kbd { font: .72rem var(--mono); color: var(--muted); margin-left: 6px }
+.btns button[data-v="agree"][aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: var(--panel) }
+.btns button[data-v="disagree"][aria-pressed="true"] { background: var(--bad); border-color: var(--bad); color: var(--panel) }
+.btns button[data-v="unsure"][aria-pressed="true"] { background: var(--warn); border-color: var(--warn); color: var(--panel) }
+.btns button[aria-pressed="true"] kbd { color: inherit }
+select, textarea { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 8px }
+textarea { width: 100%; min-height: 64px; resize: vertical }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.nav { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap }
+.status { font-size: .82rem; color: var(--muted); min-height: 1.2em }
+.howto { background: var(--quote); border-radius: 8px; padding: 14px 16px; font-size: .92rem; margin-bottom: 16px }
+.howto ol { margin: 6px 0 0; padding-left: 20px; display: grid; gap: 4px }
+.def { font-size: .85rem; color: var(--muted); margin: 6px 0 0 }
+.notice { background: var(--warn-bg); color: var(--ink); border-radius: 6px; padding: 10px 12px; font-size: .88rem }
+footer { margin-top: 28px; color: var(--muted); font-size: .82rem; max-width: 75ch }
+a { color: var(--accent) }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Concordance Spot Check: Data Standards</h1>
+      <div class="sub">FDA-2021-D-0548 · Data standards for RWD submissions · Checkpoint 4 · seeded sample of 49 of 324 calls</div>
+    </div>
+    <div class="stats" aria-live="polite">
+      <div class="stat"><b id="sDone">0</b><span>Reviewed</span></div>
+      <div class="stat"><b id="sAgree">–</b><span>Agreement</span></div>
+      <div class="stat"><b id="sDis">0</b><span>Disagree</span></div>
+      <div class="stat"><b id="sUns">0</b><span>Unsure</span></div>
+    </div>
+  </header>
+  <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+  <div id="notice" class="notice" hidden></div>
+  <section class="howto" aria-label="How to review">
+    <b>Your task: check whether the AI's call is right.</b> For each item the AI read a commenter's request and decided whether FDA's final guidance made that change. You don't need to open any documents; everything you need is on this page.
+    <ol>
+      <li>Read <b>What the commenter asked</b>.</li>
+      <li>Read <b>The AI's call</b> (the coloured label), its one-line reason, and the passage it quotes from the final guidance.</li>
+      <li>Click <b>Agree</b> if the label is right. Click <b>Disagree</b> and pick the right label if it's wrong. Click <b>Unsure</b> if you can't tell. The next item opens automatically.</li>
+    </ol>
+  </section>
+
+  <div class="grid">
+    <nav class="rail" aria-label="Sampled calls">
+      <div class="filters" role="group" aria-label="Filter">
+        <button data-f="all" aria-pressed="true">All</button>
+        <button data-f="todo" aria-pressed="false">To do</button>
+        <button data-f="disagree" aria-pressed="false">Disagree</button>
+        <button data-f="low" aria-pressed="false">Low conf.</button>
+      </div>
+      <ol id="list"></ol>
+    </nav>
+
+    <main class="card" id="card">
+      <p class="small">Loading the sample…</p>
+    </main>
+  </div>
+
+  <footer>
+    <p><b>How to judge a call.</b> Adopted: the final moved the way the ask requested and substantially satisfies it. Partially adopted: same direction, narrower or softer. Not adopted: unchanged, opposite direction, or requested content absent. Not assessable: the ask concerns process or things outside the guidance text.</p>
+    <p><b>Concordance, not impact.</b> These calls record whether the final text moved in the direction a commenter asked for. Draft-to-final changes also reflect FDA's internal review, ICH M14, other guidances and evolving science; a matching change does not show that a comment caused it.</p>
+    <p>Keys: <kbd>A</kbd> agree · <kbd>D</kbd> disagree · <kbd>U</kbd> unsure · <kbd>←</kbd>/<kbd>→</kbd> previous / next. © 2026 <a href="https://blackswancausallabs.com">Black Swan Causal Labs</a></p>
+  </footer>
+</div>
+
+<script>
+const CALLS = ["adopted", "partially adopted", "not adopted", "not assessable"];
+const DEFS = {
+  "adopted": "Adopted means the final guidance changed the way the commenter asked.",
+  "partially adopted": "Partially adopted means the final moved that way, but less than asked or only for part of the request.",
+  "not adopted": "Not adopted means the final didn't make the change: the text is unchanged, went the other way, or the requested content isn't there.",
+  "not assessable": "Not assessable means the request isn't about the guidance text itself (e.g. asking FDA to hold workshops, change its meeting process, or update a different guidance), so there is nothing in the final to check it against."
+};
+const state = { items: [], reviews: {}, idx: 0, filter: "all", db: null, local: false };
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const cls = (c) => "c-" + String(c).replace(/ /g, "-");
+const LS = "spotcheck-reviews-0548-v1";
+
+function loadLocal() { try { return JSON.parse(localStorage.getItem(LS) || "{}"); } catch { return {}; } }
+function saveLocal() { try { localStorage.setItem(LS, JSON.stringify(state.reviews)); } catch {} }
+
+function visible() {
+  return state.items.filter((it) => {
+    const r = state.reviews[it.ask_id];
+    if (state.filter === "todo") return !r;
+    if (state.filter === "disagree") return r && r.verdict === "disagree";
+    if (state.filter === "low") return it.confidence === "low";
+    return true;
+  });
+}
+
+function stats() {
+  const rs = state.items.map((it) => state.reviews[it.ask_id]).filter(Boolean);
+  const a = rs.filter((r) => r.verdict === "agree").length, d = rs.filter((r) => r.verdict === "disagree").length;
+  $("#sDone").textContent = `${rs.length}/${state.items.length}`;
+  $("#sAgree").textContent = a + d ? Math.round((100 * a) / (a + d)) + "%" : "–";
+  $("#sDis").textContent = d;
+  $("#sUns").textContent = rs.filter((r) => r.verdict === "unsure").length;
+  $("#bar").style.width = (100 * rs.length) / Math.max(1, state.items.length) + "%";
+}
+
+function renderList() {
+  const cur = state.items[state.idx];
+  $("#list").innerHTML = visible().map((it) => {
+    const r = state.reviews[it.ask_id];
+    return `<li><button data-n="${it.n}" aria-current="${cur && cur.n === it.n}">
+      <span class="num">${String(it.n).padStart(3, "0")}</span>
+      <span class="who">${esc(it.submitter)} · <span class="small">${esc(it.call)}</span></span>
+      <span class="dot ${r ? r.verdict : ""}" aria-label="${r ? r.verdict : "not reviewed"}"></span></button></li>`;
+  }).join("") || `<li class="small" style="padding:10px">Nothing in this filter.</li>`;
+}
+
+function highlight(text, span) {
+  if (!text) return "";
+  const t = esc(text);
+  if (!span) return t;
+  const words = span.trim().split(/\s+/).map((w) => esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  if (words.length < 3) return t;
+  try { return t.replace(new RegExp(words.join("\\s+")), (m) => `<mark>${m}</mark>`); } catch { return t; }
+}
+
+function renderCard() {
+  const it = state.items[state.idx];
+  if (!it) return;
+  const r = state.reviews[it.ask_id] || {};
+  $("#card").innerHTML = `
+    <div class="meta"><span><b>#${it.n}</b> of ${state.items.length}</span><span><b>${esc(it.submitter)}</b> · ${esc(it.bucket)}</span>
+      <span>${esc(it.theme)}</span><span>Stance: <b>${esc(it.stance)}</b></span></div>
+    <section><div class="label">What the commenter asked · <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.comment_id)}</a> · ${esc(it.ask_id.split("-").pop())}</div>
+      <blockquote>${esc(it.display_span || it.source_span)}</blockquote>
+      ${it.display_span ? `<div class="small" style="margin:6px 0 0">This comment was a table, so the quote above is read cell by cell (issue … recommendation). <details style="margin-top:6px"><summary>Text exactly as extracted from the PDF (columns interleaved)</summary><div class="body">${esc(it.source_span)}</div></details></div>` : ""}</section>
+    ${it.draft_text ? `<details><summary>Draft ${esc(it.draft_section)} · ${esc(it.draft_heading)} (Oct 2021)</summary><div class="body">${esc(it.draft_text)}</div></details>`
+      : `<p class="small">General comment, not tied to one draft section.</p>`}
+    <section><div class="label">The AI's call</div>
+      <div class="callrow"><span class="pill ${cls(it.call)}">${esc(it.call)}</span>
+        <span class="small">AI confidence ${esc(it.confidence)}${it.fr_listed_change ? " · on FDA's own list of changes" : ""}${it.final_section ? ` · final ${esc(it.final_section)} ${esc(it.final_heading || "")}` : ""}</span></div>
+      <p class="def">${DEFS[it.call]}</p>
+      <p style="margin:10px 0 0"><b>Why:</b> ${esc(it.rationale)}</p>
+      ${it.evidence_span ? `<div class="label" style="margin-top:12px">Evidence quoted from the final (Dec 2023; may be a footnote)</div><blockquote>${esc(it.evidence_span)}</blockquote>` : ""}
+    </section>
+    ${it.final_text ? `<details><summary>Full final section ${esc(it.final_section)} for context</summary><div class="body">${highlight(it.final_text, it.evidence_span)}</div></details>` : ""}
+    <section class="verdict">
+      <div class="label">Your verdict</div>
+      <div class="btns" role="group" aria-label="Verdict">
+        <button data-v="agree" aria-pressed="${r.verdict === "agree"}">Agree<kbd>A</kbd></button>
+        <button data-v="disagree" aria-pressed="${r.verdict === "disagree"}">Disagree<kbd>D</kbd></button>
+        <button data-v="unsure" aria-pressed="${r.verdict === "unsure"}">Unsure<kbd>U</kbd></button>
+      </div>
+      <div id="corr" ${r.verdict === "disagree" ? "" : "hidden"}>
+        <label for="corrCall" class="small">Correct call</label><br>
+        <select id="corrCall"><option value="">Choose…</option>${CALLS.filter((c) => c !== it.call).map((c) => `<option ${r.corrected_call === c ? "selected" : ""}>${c}</option>`).join("")}</select>
+      </div>
+      <div><label for="note" class="small">Note (optional)</label><textarea id="note" placeholder="Why, or anything to fix">${esc(r.note || "")}</textarea></div>
+      <div class="nav"><button id="prev">← Previous</button><span class="status" id="status"></span><button id="next">Next →</button></div>
+    </section>`;
+  $("#card").querySelectorAll("[data-v]").forEach((b) => b.addEventListener("click", () => setVerdict(b.dataset.v)));
+  $("#prev").onclick = () => go(-1);
+  $("#next").onclick = () => go(1);
+  $("#corrCall").onchange = (e) => save({ corrected_call: e.target.value || null });
+  let t; $("#note").oninput = (e) => { clearTimeout(t); t = setTimeout(() => save({ note: e.target.value }), 700); };
+  renderList();
+}
+
+async function save(patch) {
+  const it = state.items[state.idx];
+  const prev = state.reviews[it.ask_id] || {};
+  if (!prev.verdict && !patch.verdict) { if (patch.note) { $("#status").textContent = "Pick a verdict to save the note."; } return; }
+  const rec = { ...prev, ...patch, ask_id: it.ask_id, n: it.n, original_call: it.call, updated_at: new Date().toISOString() };
+  state.reviews[it.ask_id] = rec;
+  stats(); renderList();
+  if (state.db) {
+    $("#status").textContent = "Saving…";
+    try { await state.db.collection("reviews").doc(it.ask_id).set(rec); $("#status").textContent = "Saved"; }
+    catch (e) { $("#status").textContent = e && e.code === "invalid_argument" ? "You can view but not save here." : "Not saved, try again."; }
+  } else { saveLocal(); $("#status").textContent = "Saved in this browser only"; }
+}
+
+function setVerdict(v) {
+  const it = state.items[state.idx];
+  const cur = state.reviews[it.ask_id];
+  save({ verdict: v, corrected_call: v === "disagree" ? (cur && cur.corrected_call) || null : null }).then(() => {
+    if (v === "disagree") { renderCard(); $("#corrCall").focus(); } else { setTimeout(() => go(1), 180); }
+  });
+}
+
+function go(d) {
+  const vis = visible(); const pos = vis.findIndex((x) => x.n === state.items[state.idx].n);
+  const next = vis[Math.min(vis.length - 1, Math.max(0, (pos < 0 ? 0 : pos) + d))];
+  if (next) { state.idx = state.items.indexOf(next); renderCard(); window.scrollTo({ top: 0 }); }
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.closest("textarea, select, input")) return;
+  const k = e.key.toLowerCase();
+  if (k === "a") setVerdict("agree"); else if (k === "d") setVerdict("disagree"); else if (k === "u") setVerdict("unsure");
+  else if (e.key === "ArrowRight") go(1); else if (e.key === "ArrowLeft") go(-1);
+});
+document.querySelector(".filters").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.filter = b.dataset.f; document.querySelectorAll(".filters button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+  renderList();
+});
+$("#list").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-n]"); if (!b) return;
+  state.idx = state.items.findIndex((x) => x.n === +b.dataset.n); renderCard(); $("#card").scrollIntoView({ block: "start" });
+});
+
+(async function start() {
+  try {
+    const res = await fetch("items.json"); const data = await res.json();
+    state.items = data.items;
+  } catch { $("#card").innerHTML = `<p>The sample file did not load. Reload the page to try again.</p>`; return; }
+  state.reviews = loadLocal();
+  renderCard(); stats();
+  const db = window.claude && window.claude.use ? await window.claude.use("db").catch(() => null) : null;
+  if (!db) { const n = $("#notice"); n.hidden = false; n.textContent = "Verdicts are saved in this browser only, so Claude can't read them. Open this page from claude.ai while signed in to save them for the analysis."; return; }
+  state.db = db;
+  db.collection("reviews").onSnapshot((snap) => {
+    const m = {}; snap.docs.forEach((d) => { m[d.id] = d.data(); });
+    state.reviews = m; stats(); renderList();
+    const it = state.items[state.idx]; const r = m[it && it.ask_id];
+    const pressed = document.querySelector('.btns [aria-pressed="true"]');
+    if ((r && r.verdict) !== (pressed && pressed.dataset.v)) renderCard();
+  }, () => { $("#status").textContent = "Live sync stopped. Reload to reconnect."; });
+})();
+</script>
+

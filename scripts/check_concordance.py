@@ -18,6 +18,9 @@ def ws(s):
 def main(path):
     p = Path(path)
     final = ws(re.sub(r"^### .*$", " ", (p.parent / "final_text.md").read_text(), flags=re.M))
+    notes = p.parent / "final_footnotes.md"  # footnotes are outside the section text; FDA moves definitions there
+    if notes.exists():
+        final += " " + ws(re.sub(r"^### .*$", " ", notes.read_text(), flags=re.M))
     sections = set(re.findall(r"^### \[([^\]]+)\]", (p.parent / "final_text.md").read_text(), flags=re.M))
     batch = p.name.split(".")[0]
     expected = {a["ask_id"] for a in json.loads((p.parent / f"{batch}.asks.json").read_text())}
@@ -27,7 +30,7 @@ def main(path):
         probs = []
         if c.get("call") not in CALLS:
             probs.append(f"call {c.get('call')!r}")
-        if c.get("section_id") and c["section_id"] not in sections:
+        if c.get("section_id") and c["section_id"] not in sections and not c["section_id"].startswith("footnote"):
             probs.append(f"unknown final section {c['section_id']}")
         if c.get("evidence_span") and ws(c["evidence_span"]) not in final:
             probs.append("evidence_span not verbatim in final")

@@ -29,7 +29,8 @@
       "decision": "final_guidance_source",
       "final_ref": "https://www.fda.gov/media/152503/download",
       "draft_ref": "FDA-2020-D-2307-0002",
-      "reason": "Use the current fda.gov copy as the final. It matches the Jul 2024 docket copy (FDA-2020-D-2307-0067) except one post-publication edit in V.E.2: 'age, gender, race' -> 'age, sex, race'. Note this in outputs."
+      "reason": "Use the current fda.gov copy as the final. It matches the Jul 2024 docket copy (FDA-2020-D-2307-0067) except one post-publication edit in V.E.2: 'age, gender, race' -> 'age, sex, race'. Note this in outputs.",
+      "note": "Current fda.gov copy (JDD decision). Identical to the Jul 2024 docket copy (FDA-2020-D-2307-0067) except a later edit in V.E.2: 'age, gender, race' -> 'age, sex, race'."
     },
     {
       "date": "2026-10-01",
@@ -89,6 +90,48 @@
         "FDA-2020-D-2307-0040"
       ],
       "notes": "Asks already satisfied by text present in both draft and final stay 'not adopted' (no change occurred), flagged already_addressed_in_draft. Applied to 0027-A14 and 0040-A30. Spot-check agreement reported as recorded at review time: 50/55."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 4,
+      "decision": "theme_spot_check_added",
+      "notes": "Theme-coding spot check added after the run (pending): seeded random 10-15% of the 1,211 asks, reviewing theme_id and stance. The existing 91% agreement covers concordance calls only."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 4,
+      "decision": "second_coder_jev",
+      "notes": "Same as FDA-2021-D-0548: TypeSafe Jev blind second coder on all asks."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "Claude (method)",
+      "checkpoint": 4,
+      "decision": "footnotes_as_evidence",
+      "notes": "Footnote evidence now available (concordance/final_footnotes.md). The asks marked not assessable because their target was in a footnote should be re-judged against it (pending)."
+    },
+    {
+      "date": "2026-10-04",
+      "by": "JDD",
+      "checkpoint": 4,
+      "decision": "theme_spot_check",
+      "notes": "Reviewed items 1-50 of the seeded random-order theme sample (n=50 of 1,211 asks); stopping point set by reviewer time. Theme: 43 agree, 5 disagree, 2 unsure -> 43/48 = 89.6% (Wilson 95% CI 77.8-95.5%). Stance: 45 agree, 4 disagree, 1 unsure -> 45/49 = 91.8% (81.0-96.8%). Human vs Jev on the same items: theme 37/48, stance 36/48. Corrections applied to asks.json (originals kept as theme_id_original / stance_original). Item 25 (0055-A225) stance corrected to 'requests more specificity' after follow-up.",
+      "theme_spot_check_agreement": 0.896,
+      "stance_spot_check_agreement": 0.918,
+      "n_reviewed": 50,
+      "corrections": [
+        "FDA-2020-D-2307-0035-A11 theme T02->T12",
+        "FDA-2020-D-2307-0055-A225 theme T03->T10",
+        "FDA-2020-D-2307-0039-A06 stance requests more flexibility->requests more specificity",
+        "FDA-2020-D-2307-0062-A29 theme T03->T02",
+        "FDA-2020-D-2307-0055-A148 theme T03->T10",
+        "FDA-2020-D-2307-0055-A148 stance requests more flexibility->requests more specificity",
+        "FDA-2020-D-2307-0054-A23 theme T07->T06",
+        "FDA-2020-D-2307-0054-A23 stance requests more flexibility->requests more specificity",
+        "FDA-2020-D-2307-0055-A225 stance requests more flexibility->requests more specificity"
+      ]
     }
   ]
 }

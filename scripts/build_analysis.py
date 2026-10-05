@@ -75,7 +75,9 @@ def guidance_overview(docket, draft_ref, final_ref_url):
     else:
         changes = [core.rstrip(".")] if core else []
     changes = [c[0].upper() + c[1:] for c in changes if c]
-    return {"summary": summary, "summary_source": final_noa["documentId"], "topics": topic_list, "topics_source": final_noa["documentId"],
+    return {"title": final_noa["title"].split(";")[0].strip(),
+            "draft_date": draft_noa["postedDate"][:10], "final_date": final_noa["postedDate"][:10],
+            "summary": summary, "summary_source": final_noa["documentId"], "topics": topic_list, "topics_source": final_noa["documentId"],
             "timeline": timeline, "fda_listed_changes": changes, "fda_listed_changes_source": final_noa["documentId"],
             "fda_listed_changes_text": block.strip(), "editorial_note": editorial.group(0) if editorial else None,
             "draft_url": f"https://www.regulations.gov/document/{draft_ref}", "final_url": final_ref_url}
@@ -114,7 +116,7 @@ def main(docket):
     checkpoints = []
     for n in (1, 2, 3, 4):
         notes = [x for x in decisions if x["checkpoint"] == n or (n == 1 and x["checkpoint"] == "Phase 1 hard stop")]
-        checkpoints.append({"n": n, "approved_by": "JDD",
+        checkpoints.append({"n": n, "approved_by": next((x["by"] for x in notes if x.get("by")), None),
                             "date": max((x["date"] for x in notes), default=None),
                             "notes": " | ".join(x.get("notes") or x.get("reason") or x["decision"] for x in notes)})
     spot = next(x for x in decisions if x["decision"] == "spot_check")
@@ -125,35 +127,38 @@ def main(docket):
               "already_addressed_in_draft", "call_original", "human_review")
     keep_s = ("section_id", "draft_section_id", "final_section_id", "heading", "draft_heading", "level", "status",
               "heading_changed", "draft_text", "final_text", "change_summary_stats", "word_diff")
+    final_ref_url = conc["final_ref"] if conc["final_ref"].startswith("http") \
+        else f"https://www.regulations.gov/document/{conc['final_ref']}"
+    guidance = guidance_overview(docket, conc["draft_ref"], final_ref_url)
+    source = next((x for x in decisions if x["decision"] == "final_guidance_source"), {})
     out = {
         "docket": {"id": docket,
-                   "title": "Real-World Data: Assessing Electronic Health Records and Medical Claims Data To Support "
-                            "Regulatory Decision-Making for Drug and Biological Products",
-                   "draft_date": "2021-09-30", "final_date": "2024-07",
+                   "title": guidance.pop("title"),
+                   "draft_date": guidance.pop("draft_date"), "final_date": guidance.pop("final_date"),
                    "n_comments": len(comments),
                    "n_submissions_represented": sum((c["agency_duplicate_count"] or 1) for c in comments),
                    "draft_ref": conc["draft_ref"], "final_ref": conc["final_ref"],
-                   "final_ref_note": "Current fda.gov copy (JDD decision). Identical to the Jul 2024 docket copy "
-                                     "(FDA-2020-D-2307-0067) except a later edit in V.E.2: 'age, gender, race' -> 'age, sex, race'.",
+                   "final_ref_note": source.get("note") or source.get("reason") or "Final guidance as posted in the docket.",
                    "docket_url": f"https://www.regulations.gov/docket/{docket}"},
         "run": {"date": date.today().isoformat(), "codebook_version": codebook["version"],
                 "checkpoints": checkpoints, "spot_check_agreement": spot["spot_check_agreement"],
                 "spot_check_n": spot["n_reviewed"],
                 "method": {"retrieval": "regintel-mcp (deterministic: regulations.gov API v4, pdfplumber, section-aligned difflib diff)",
                            "judgment": "Claude with skills submitter-taxonomy, comment-theming, draft-final-concordance; "
-                                       "coding and concordance fanned out to 6 subagents each",
+                                       "coding and concordance fanned out to parallel subagents",
                            "verification": "every source_span verbatim in the extracted comment text; every evidence_span "
                                            "verbatim in the final guidance text; 4 human checkpoints"}},
         "caveat": conc["caveat"],
         "submitters": subs,
         "comments": comments,
         "themes": [{"theme_id": t["theme_id"], "label": t["label"], "definition": t["definition"],
-                    "notes": t.get("notes"), "emergent": bool(t.get("emergent"))} for t in codebook["themes"]],
+                    "notes": t.get("notes"), "emergent": bool(t.get("emergent"))} for t in codebook["themes"]]
+                  + ([{"theme_id": "T99", "label": "Unclassified", "definition": "Fits no approved theme; held for the human.",
+                       "notes": None, "emergent": False}] if any(a["theme_id"] == "T99" for a in asks["asks"]) else []),
         "asks": [{k: a[k] for k in keep_a if k in a} for a in asks["asks"]],
         "sections": [{k: s[k] for k in keep_s if k in s} for s in diff["sections"]],
         "concordance": [{k: c[k] for k in keep_c if k in c} for c in conc["concordance"]],
-        "guidance": guidance_overview(docket, conc["draft_ref"], conc["final_ref"] if conc["final_ref"].startswith("http")
-                                      else f"https://www.regulations.gov/document/{conc['final_ref']}"),
+        "guidance": guidance,
     }
     (D / "analysis.json").write_text(json.dumps(out, indent=1))
     print(f"wrote {D / 'analysis.json'}: {len(out['asks'])} asks, {len(out['concordance'])} calls, "

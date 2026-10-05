@@ -19,10 +19,11 @@ At the start, read `decisions/$ARGUMENTS.json` if it exists. Apply every recorde
    ⏸ **Checkpoint 3:** show the codebook. **No comment is coded until the human approves it.** Then run `export_corpus` and code all comments with subagents in batches of about 10, each returning JSON. Validate the source spans and write `output/$ARGUMENTS/asks.json`.
 
 4. **Concordance.** Run `diff_guidance` (with the refs from decisions), then `draft-final-concordance`.
-   ⏸ **Checkpoint 4:** a 15% seeded random spot check. Log the agreement.
+   ⏸ **Checkpoint 4:** two seeded random spot checks, each about 10–15%: one of theme coding (theme and stance per ask) and one of concordance calls. Log both agreements.
 
 5. **Emit.**
    - Write `output/$ARGUMENTS/analysis.json` following the schema in `docs/analysis-schema.json`, and validate it with `python scripts/validate_analysis.py output/$ARGUMENTS/analysis.json`.
    - Write a short `summary.md`: who spoke, the top themes by bucket, the concordance tallies, and the caveat. Note any known differences between the final-of-record and other copies of the final.
+   - Build the local Docket Lens: `python scripts/build_explorer.py $ARGUMENTS`, then serve `explorer/$ARGUMENTS/` with any static server. Do not publish or deploy it (`scripts/build_site.sh`) unless the human asks.
 
 The concordance caveat appears in every output: concordance, not impact.

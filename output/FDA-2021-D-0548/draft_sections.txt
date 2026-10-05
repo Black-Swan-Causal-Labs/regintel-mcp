@@ -1,0 +1,11 @@
+section_id	draft lines	page	heading
+I	lines 15-49	p4	INTRODUCTION AND SCOPE
+II	lines 50-79	p5	REGULATORY BACKGROUND
+III	lines 80-82	p6	APPLYING CURRENTLY SUPPORTED DATA STANDARDS TO STUDY DATA DERIVED FROM REAL-WORLD DATA SOURCES
+III.A	lines 83-94	p6	Challenges in Real-World Data Standardization
+III.B	lines 95-104	p6	Documentation of Processes for Managing Real-World Data
+III.C	lines 105-132	p6	Considerations for Conforming Real-World Data to Currently Supported Standards
+III.D	lines 133-156	p7	Considerations for Mapping Real-World Data to Study Data Submission Standards
+III.E	lines 157-177	p8	Considerations for Data Transformations
+IV	lines 178-257	p8	GLOSSARY
+APPENDIX	lines 258-395	p11	APPENDIX: EXAMPLES OF MAPPING HEALTH CARE DATA TO CDISC SDTM

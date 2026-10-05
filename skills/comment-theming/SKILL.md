@@ -68,3 +68,11 @@ Code comments in batches of about 10 per subagent. Give each subagent the approv
 ## Validation before merging
 
 For every ask, check that `source_span` occurs **verbatim** in the comment text (normalise only whitespace). Return any failures to that batch's subagent for correction. Never fix a span silently. Write the merged result to `output/<docket>/asks.json`, then report counts by theme × submitter bucket and any `T99` proposals for the human.
+
+## Theme-coding spot check (Checkpoint 4)
+
+Draw a seeded random 10–15% sample of asks and show the human each ask's verbatim span, its comment context, and the assigned `theme_id` and `stance`. Record agreement (with a Wilson 95% CI) and corrections in `decisions/<docket>.json` as `{"checkpoint": 4, "decision": "theme_spot_check", ...}`. This is separate from the concordance spot check: the two together cover both judgment steps.
+
+## Method label
+
+This is codebook-based (directed) qualitative content analysis, also called template analysis: a codebook set before coding, refined on a sample, approved by a human, then applied to every ask and counted. It is not reflexive thematic analysis. When a codebook is carried forward from an earlier docket, record that as the starting template.

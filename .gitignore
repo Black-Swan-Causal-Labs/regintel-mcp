@@ -28,3 +28,4 @@ output/*/corpus.jsonl
 
 # Built Cloudflare Pages output
 site/public/
+site/.wrangler/

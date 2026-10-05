@@ -1,0 +1,384 @@
+{
+ "concordance": [
+  {
+   "ask_id": "FDA-2020-D-2307-0017-A12",
+   "section_id": null,
+   "call": "not assessable",
+   "evidence_span": null,
+   "rationale": "Asks to relabel Figure 1 ('manual curation' plus ML/NLP) and add validation steps; the figure's content is not in the draft or final text, and its footnote (draft fn 16, final fn 24) is unchanged and does not describe the labels, so the target still cannot be located.",
+   "fr_listed_change": false,
+   "confidence": "low",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A12",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term clinical studies refers to all study designs, including, but not limited to, interventional studies where the treatment is assigned by a protocol (e.g., randomized or single-arm trials, including those that use RWD as an external control arm) and non-interventional (observational) studies where treatment is determined in the course of routine clinical care (e.g., case-control or cohort studies).",
+   "rationale": "Asks to add randomized pragmatic, hybrid and decentralized trials to the footnote defining clinical studies; final fn 7 (draft fn 7) only rewords the observational clause and adds none of the requested designs.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": true
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0019-A29",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "When a gold standard is not clearly identified, validation may indicate concordance between methods assessed by a Kappa statistic, precent agreement, or other indices.",
+   "rationale": "Asks for guidance on acceptable reference standards for evaluating coding systems; the final adds general guidance on choosing a reference standard (IV.D.3, with an example of validating dispensing-code exposures against a drug intake diary) and new text in final fn 18 on concordance indices when no gold standard exists, but nothing specific to coding-system specificity in V.C.2.",
+   "fr_listed_change": true,
+   "confidence": "low",
+   "changed_from_previous": true
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0026-A24",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks for glossary definitions of key study periods; no study-period definitions appear in the final text or footnotes, and time periods remain examples for the protocol to define.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A09",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term clinical studies refers to all study designs, including, but not limited to, interventional studies where the treatment is assigned by a protocol (e.g., randomized or single-arm trials, including those that use RWD as an external control arm) and non-interventional (observational) studies where treatment is determined in the course of routine clinical care (e.g., case-control or cohort studies).",
+   "rationale": "Asks the guidance to state that RWD can serve as external control arms; the scope footnote already said this in the draft (fn 7) and the final fn 7 keeps it unchanged, so there is no change in the requested direction.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": true
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0033-A35",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "In certain cases, the RWD source may be the only reference. For example, if exposure is defined by whether the patient paid for the prescription, medical claims data may be used, and this information will be the reference source.",
+   "rationale": "Asks to move draft fn 14 into the main text; the same statement remains a footnote in the final (fn 21), unchanged, and is not in V.C.5 body text.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0035-A55",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Asks to define 'metadata'; neither the final text nor any final footnote defines it.",
+   "fr_listed_change": true,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0040-A76",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks for specifics on documentation needed for traceability/provenance and when to furnish it; the final adds only a definition of traceability (fn 11, adapted from the draft glossary provenance/traceability entries), not documentation or timing expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0050-A21",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, missing data are data that would have been used in the study analysis but were not observed, collected, or accessible. This refers to information that is intended to be collected but is absent and information that is not intended to be collected and is therefore absent.",
+   "rationale": "Asks to include structured-field gaps whose information sits in unstructured EHR data within 'traditional missing data'; the missing data definition moved to final fn 15 unchanged from the draft glossary, and IV.C adds no such case.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A11",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Information on potential confounders is collected in a nonrandomized study to support appropriate efforts to balance treatment and comparator groups in the analysis.",
+   "rationale": "Asks to restructure the confounder definition to lead with the definition; the glossary was removed and no confounder definition appears in the final text or footnotes.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A12",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "For the purposes of this guidance, data curation is the processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks to flesh out the data curation definition to cover broader responsibilities (e.g., organizing and managing metadata per exchange/structure standards); final fn 12 redefines curation more broadly as applying standards for exchange, integration, sharing and retrieval, but omits the cleaning, describing and metadata-management elements suggested.",
+   "fr_listed_change": true,
+   "confidence": "low",
+   "changed_from_previous": true
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A13",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "in general, the life cycle involves multiple phases: data accrual from the original source data; curation of data to the clinical data repository; transformation and de-identification of data where necessary, creation of a data warehouse; and production of a study-specific dataset for analysis (see Figure 1).",
+   "rationale": "Asks to distinguish 'data repository' from 'data warehouse'; the glossary definitions were removed, no footnote defines either term, and the text still uses both without distinguishing them.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0051-A14",
+   "section_id": "VI",
+   "call": "partially adopted",
+   "evidence_span": "in general, the life cycle involves multiple phases: data accrual from the original source data; curation of data to the clinical data repository; transformation and de-identification of data where necessary, creation of a data warehouse; and production of a study-specific dataset for analysis (see Figure 1).",
+   "rationale": "Objects to the glossary statement that a data warehouse consists of de-identified data; that definition was removed and no footnote restates it, but the life-cycle text (unchanged from the draft) still places de-identification, 'where necessary', before warehouse creation.",
+   "fr_listed_change": true,
+   "confidence": "low",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A26",
+   "section_id": "IV.B.1",
+   "call": "adopted",
+   "evidence_span": "The capture of patients’ health care information in a medical claim or EHR data source depends on continuity of coverage (i.e., enrollment and disenrollment from the health insurance plan) and continuity of care (i.e., continuous interaction with the health care system).",
+   "rationale": "Asks to define 'continuity of care'; the final defines it inline in IV.B.1.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A86",
+   "section_id": "IV.B.4",
+   "call": "not adopted",
+   "evidence_span": "A computable phenotype definition should include metadata and supporting information about the definition, its intended use, the clinical rationale or research justification for the definition, and data assessing validation in various health care settings (Richesson et al. 2016).",
+   "rationale": "Asks to define 'metadata' and 'data linkage'; neither term is defined in the final text or footnotes.",
+   "fr_listed_change": true,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A87",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, data curation is the processing of source data through the application of standards for exchange, integration, sharing, and retrieval.",
+   "rationale": "Asks to add abstraction of unstructured data to the data curation definition; the new definition in final fn 12 does not mention unstructured data or abstraction, and the VI.A curation item on unstructured data processing is unchanged from the draft.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A88",
+   "section_id": "footnote",
+   "call": "partially adopted",
+   "evidence_span": "For categorical variables, the performance of operational definitions can be measured by indices such as sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV).",
+   "rationale": "Asks to define sensitivity and specificity generically rather than in terms of disease; the final drops the disease-based glossary definitions and new fn 16 presents them as performance indices for any categorical variable (with the unchanged Table 1 formulas), but it gives no explicit generic definitions.",
+   "fr_listed_change": true,
+   "confidence": "low",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0054-A89",
+   "section_id": "IV.D.3",
+   "call": "adopted",
+   "evidence_span": "FDA also recommends using quantitative approaches, such as quantitative bias analyses, either a priori for feasibility assessment, or to facilitate interpretation of study results, or for both purposes, to demonstrate whether and how misclassification, if present, might impact study findings.",
+   "rationale": "Asks to incorporate quantitative bias analysis where validation is limited, including alongside the validation definition; the final moves the validation definition into IV.D.3 next to a new QBA recommendation (fn 18 also adds concordance indices when no gold standard exists).",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A132",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to retitle the section (e.g., 'Unavailable Data'); the final heading remains 'Missing Data: General Considerations' and fn 15 still uses 'missing data'.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A134",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks that the estimand be defined before missing data are discussed; no estimand language appears in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A135",
+   "section_id": "IV.C",
+   "call": "not adopted",
+   "evidence_span": null,
+   "rationale": "Asks to emphasize defining the estimand first and to clarify application of missing data methods; no estimand language or such clarification appears in the final text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A172",
+   "section_id": "V.C.2",
+   "call": "not adopted",
+   "evidence_span": "Uncaptured prescriptions might include low- cost generic drugs, drugs obtained through discount programs, samples provided by pharmaceutical companies and dispensed by health care providers, and drugs sold via the internet or patient out-of-pocket purchases.",
+   "rationale": "Asks for a supporting reference for the uncaptured-prescriptions statement; the statement is unchanged and no final footnote (fns 19-21 cover J codes, adherence and reference sources) or citation supports it.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A246",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(7) Conformance to open, consensus-based data curation standards, when applicable.",
+   "rationale": "Asks to clarify the sponsor's role in determining curation standards; the item is unchanged and the new curation definition (fn 12) does not address sponsor role.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A247",
+   "section_id": "VI.A",
+   "call": "not adopted",
+   "evidence_span": "(2) Traceability of data elements to allow tracking of these elements back to their respective points of origin, with clear documentation of modifications that may have occurred.",
+   "rationale": "Asks whether intermediate processing should be submitted and in what detail/format; the final adds only definitions of traceability (fn 11) and data transformation (fns 13, 25), with no submission expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A257",
+   "section_id": "V.E.1",
+   "call": "not adopted",
+   "evidence_span": "Information on potential confounders is collected in a nonrandomized study to support appropriate efforts to balance treatment and comparator groups in the analysis.",
+   "rationale": "Asks to refine the confounder and effect modifier definitions; the glossary was removed and no refined definitions appear in the final text or footnotes.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A258",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, missing data are data that would have been used in the study analysis but were not observed, collected, or accessible. This refers to information that is intended to be collected but is absent and information that is not intended to be collected and is therefore absent.",
+   "rationale": "Asks to align the missing data definition with ICH E9(R1); the draft glossary definition moved verbatim to final fn 15, with no ICH E9(R1) alignment.",
+   "fr_listed_change": true,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A42",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term clinical studies refers to all study designs, including, but not limited to, interventional studies where the treatment is assigned by a protocol (e.g., randomized or single-arm trials, including those that use RWD as an external control arm) and non-interventional (observational) studies where treatment is determined in the course of routine clinical care (e.g., case-control or cohort studies).",
+   "rationale": "Proposes adding randomized pragmatic, hybrid and decentralized trials to the clinical studies footnote; final fn 7 does not add them (only the observational clause is reworded).",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": true
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A47",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term clinical studies refers to all study designs, including, but not limited to, interventional studies where the treatment is assigned by a protocol (e.g., randomized or single-arm trials, including those that use RWD as an external control arm) and non-interventional (observational) studies where treatment is determined in the course of routine clinical care (e.g., case-control or cohort studies).",
+   "rationale": "Asks to clarify whether pragmatic trials, prospective non-interventional studies and hybrid designs are in scope given 'routinely collected'; the RWD definition and the scope footnote (final fn 7) are substantively unchanged and add no such clarification.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A52",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term clinical studies refers to all study designs, including, but not limited to, interventional studies where the treatment is assigned by a protocol (e.g., randomized or single-arm trials, including those that use RWD as an external control arm) and non-interventional (observational) studies where treatment is determined in the course of routine clinical care (e.g., case-control or cohort studies).",
+   "rationale": "Asks to clarify the term 'observational study'; final fn 7 only rewords 'noninterventional studies ... i.e., observational studies' to 'non-interventional (observational) studies' with the same examples, adding no clarification.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0055-A54",
+   "section_id": "I",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term reliability includes accuracy, completeness, and traceability. The term relevance includes the availability of data for key study variables (exposures, outcomes, covariates) and sufficient numbers of representative patients for the study.",
+   "rationale": "Asks to add 'sufficient follow-up' to the relevance definition; the final relevance definition does not include follow-up.",
+   "fr_listed_change": false,
+   "confidence": "high",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0062-A11",
+   "section_id": "V.A",
+   "call": "not adopted",
+   "evidence_span": "FDA recommends clearly defining the various time periods pertinent to the study design in the protocol (e.g., time periods for identifying study population, defining inclusion and exclusion criteria, assessing exposure, assessing outcome, assessing covariates, following up with patients, “washout” time period if applicable).",
+   "rationale": "Asks to add 'any necessary lookback period' to the study period definition; the glossary definition was removed and no study-period definition with a lookback period appears in the text or footnotes.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A43",
+   "section_id": "VI",
+   "call": "not adopted",
+   "evidence_span": "The study protocol and analysis plan should specify the traceability (curation and transformation procedures used throughout the data life cycle) and describe how these procedures could affect the integrity of the data and the overall validity of the study.",
+   "rationale": "Asks for specific documentation expectations for traceability/provenance; the final adds a traceability definition (fn 11) but no documentation or timing expectations.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A48",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "Throughout the guidance, FDA uses the terms clinical studies, studies, and study interchangeably.",
+   "rationale": "Asks for consistent use of 'clinical study/studies' vs 'study/studies' and a clearer definition of observational study; final fn 7 keeps the interchangeable-use statement unchanged and only rewords the observational clause.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": true
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A64",
+   "section_id": "IV.B.5",
+   "call": "not adopted",
+   "evidence_span": "If the protocol proposes to use AI or other derivation methods, the protocol should specify the assumptions and parameters of the computer algorithms used, the data source from which the information was used to build the algorithm, whether the algorithm was supervised (i.e., using input and review by experts) or unsupervised, and the metrics associated with validation of the methods.",
+   "rationale": "Asks to define 'supervised' and 'unsupervised'; the parenthetical is unchanged and the only new related footnote (fn 14) cites an external IMDRF machine-learning terms document without defining the terms in the guidance.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A69",
+   "section_id": "IV.D.2",
+   "call": "not adopted",
+   "evidence_span": "Understanding the implications of potential misclassification for study internal validity and study inference is the key step in determining what variables of interest might require validation and to what extent, based on the necessary level of certainty.",
+   "rationale": "Asks what 'study internal validity' means here; the final still uses the term without definition in the text or footnotes.",
+   "fr_listed_change": false,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A80",
+   "section_id": "V.C.1",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, the term exposure applies to the medical product or regimen of interest being evaluated in the proposed study.",
+   "rationale": "Asks for glossary definitions of 'exposure' and 'discontinuation'; the inline exposure definition is unchanged from the draft and no discontinuation definition appears in the text or footnotes.",
+   "fr_listed_change": true,
+   "confidence": "medium",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A81",
+   "section_id": "IV.D.1",
+   "call": "not adopted",
+   "evidence_span": "A conceptual definition should reflect current medical and scientific thinking regarding the variable of interest, such as: (1) clinical criteria to define a condition for population selection or as an outcome of interest or a covariate; or (2) measurement of drug intake to define an exposure of interest.",
+   "rationale": "Asks for more comprehensive definitions and practical examples explaining conceptual/operational definitions; the explanation is essentially unchanged (now under its own heading) and no footnote adds examples or references.",
+   "fr_listed_change": true,
+   "confidence": "low",
+   "changed_from_previous": false
+  },
+  {
+   "ask_id": "FDA-2020-D-2307-0063-A82",
+   "section_id": "footnote",
+   "call": "not adopted",
+   "evidence_span": "For the purposes of this guidance, missing data are data that would have been used in the study analysis but were not observed, collected, or accessible. This refers to information that is intended to be collected but is absent and information that is not intended to be collected and is therefore absent.",
+   "rationale": "Asks to align the missing data definition with ICH E9(R1); the draft glossary definition moved verbatim to final fn 15, with no ICH E9(R1) alignment.",
+   "fr_listed_change": true,
+   "confidence": "high",
+   "changed_from_previous": false
+  }
+ ]
+}

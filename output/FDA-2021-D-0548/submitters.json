@@ -1,0 +1,289 @@
+{
+ "docket_id": "FDA-2021-D-0548",
+ "status": "approved at checkpoint 2 (JDD, 2026-10-03)",
+ "submitters": [
+  {
+   "submitter_id": "S01",
+   "name": "Kathy McCullough",
+   "bucket": "Other / anonymous",
+   "basis": "title; off-topic body (COVID-19 vaccines)",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0003"
+   ],
+   "notes": "Zero asks (JDD decision)."
+  },
+  {
+   "submitter_id": "S02",
+   "name": "Anonymous",
+   "bucket": "Other / anonymous",
+   "basis": "title (anonymous); stub",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0004"
+   ],
+   "notes": "Zero asks (JDD decision)."
+  },
+  {
+   "submitter_id": "S03",
+   "name": "HIMSS Electronic Health Record Association (EHRA)",
+   "bucket": "Trade association",
+   "basis": "letterhead + letter: association of EHR vendor member companies",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0006"
+   ],
+   "notes": "Same bucket as in FDA-2020-D-2307."
+  },
+  {
+   "submitter_id": "S04",
+   "name": "Michael Einkauf",
+   "bucket": "Academic / independent",
+   "basis": "title; substantive technical questions, no affiliation stated; category 'Drug Industry' (weak)",
+   "confidence": "medium",
+   "alternative": "Other / anonymous",
+   "comment_ids": [
+    "FDA-2021-D-0548-0007",
+    "FDA-2021-D-0548-0008",
+    "FDA-2021-D-0548-0009"
+   ],
+   "notes": "Rule 4: named individual, no affiliation, technical content."
+  },
+  {
+   "submitter_id": "S05",
+   "name": "Epic",
+   "bucket": "CRO / data & tech vendor",
+   "basis": "title + letterhead (EHR developer)",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0010"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S06",
+   "name": "Clinical Data Interchange Standards Consortium (CDISC)",
+   "bucket": "Other / anonymous",
+   "basis": "body + letterhead: 'a standards development organization (SDO)'",
+   "confidence": "low",
+   "alternative": "Trade association",
+   "comment_ids": [
+    "FDA-2021-D-0548-0012",
+    "FDA-2021-D-0548-0025",
+    "FDA-2021-D-0548-0026"
+   ],
+   "notes": "No SDO bucket. Two different letters (-0012 background; -0025 Define-XML Alias/Decode); -0026 exact duplicate of -0025."
+  },
+  {
+   "submitter_id": "S07",
+   "name": "Rebecca Baker",
+   "bucket": "Academic / independent",
+   "basis": "title; no affiliation stated in her comments; also a signatory on CDISC -0012 (Standards Development)",
+   "confidence": "low",
+   "alternative": "Same bucket as CDISC",
+   "comment_ids": [
+    "FDA-2021-D-0548-0013",
+    "FDA-2021-D-0548-0014",
+    "FDA-2021-D-0548-0015",
+    "FDA-2021-D-0548-0016"
+   ],
+   "notes": "Classified Academic / independent (medium) in FDA-2020-D-2307. Line-by-line definitional edits."
+  },
+  {
+   "submitter_id": "S08",
+   "name": "Otsuka Pharmaceutical Development & Commercialization",
+   "bucket": "Pharma / biotech",
+   "basis": "title + letterhead",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0017"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S09",
+   "name": "American Society of Clinical Oncology (ASCO)",
+   "bucket": "Professional society",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0018"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S10",
+   "name": "Amgen",
+   "bucket": "Pharma / biotech",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0019"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S11",
+   "name": "XML4Pharma (Jozef Aerts)",
+   "bucket": "CRO / data & tech vendor",
+   "basis": "letterhead: CEO XML4Pharma; also professor of medical informatics and CDISC volunteer",
+   "confidence": "low",
+   "alternative": "Academic / independent",
+   "comment_ids": [
+    "FDA-2021-D-0548-0020"
+   ],
+   "notes": "Single-person informatics firm; letter written in a personal-expert voice."
+  },
+  {
+   "submitter_id": "S12",
+   "name": "Janssen Pharmaceuticals",
+   "bucket": "Pharma / biotech",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0021"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S13",
+   "name": "Regeneron Pharmaceuticals",
+   "bucket": "Pharma / biotech",
+   "basis": "title + body",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0022"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S14",
+   "name": "Flatiron Health",
+   "bucket": "CRO / data & tech vendor",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0023"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S15",
+   "name": "Critical Path Institute",
+   "bucket": "Academic / independent",
+   "basis": "title + letter: nonprofit, on behalf of four FDA-funded consortia",
+   "confidence": "medium",
+   "alternative": "Other / anonymous",
+   "comment_ids": [
+    "FDA-2021-D-0548-0024"
+   ],
+   "notes": "Treated like a policy institute."
+  },
+  {
+   "submitter_id": "S16",
+   "name": "IQVIA",
+   "bucket": "CRO / data & tech vendor",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0027"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S17",
+   "name": "Biotechnology Innovation Organization (BIO)",
+   "bucket": "Trade association",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0028"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S18",
+   "name": "bluebird bio",
+   "bucket": "Pharma / biotech",
+   "basis": "title + letter",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0029"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S19",
+   "name": "RWE Alliance",
+   "bucket": "Trade association",
+   "basis": "title (coalition of RWD companies)",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0030"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S20",
+   "name": "McKesson Corporation",
+   "bucket": "CRO / data & tech vendor",
+   "basis": "title + letterhead",
+   "confidence": "medium",
+   "alternative": "Other / anonymous",
+   "comment_ids": [
+    "FDA-2021-D-0548-0031"
+   ],
+   "notes": "Same bucket as McKesson (Ontada) in FDA-2020-D-2307."
+  },
+  {
+   "submitter_id": "S21",
+   "name": "PhRMA",
+   "bucket": "Trade association",
+   "basis": "title",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0032"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S22",
+   "name": "Duke-Margolis Center for Health Policy",
+   "bucket": "Academic / independent",
+   "basis": "title + letter",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0033"
+   ],
+   "notes": ""
+  },
+  {
+   "submitter_id": "S23",
+   "name": "Aetion",
+   "bucket": "CRO / data & tech vendor",
+   "basis": "title + letter",
+   "confidence": "high",
+   "alternative": null,
+   "comment_ids": [
+    "FDA-2021-D-0548-0034"
+   ],
+   "notes": ""
+  }
+ ]
+}

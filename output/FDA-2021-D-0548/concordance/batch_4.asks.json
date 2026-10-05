@@ -1,0 +1,731 @@
+[
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A07",
+  "comment_id": "FDA-2021-D-0548-0021",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "We encourage FDA, in partnership with industry, to expand and validate data models that may use these novel approaches and to outline learnings in future guidance",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A08",
+  "comment_id": "FDA-2021-D-0548-0021",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "outline learnings in future guidance and to, when possible, align with other health authorities.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A09",
+  "comment_id": "FDA-2021-D-0548-0021",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "The guidance and the entire FDA guidance series on RWD and RWE would be significantly strengthened if FDA differentiated the various stakeholders and how the stakeholders may work together to support the considerations outlined in the guidance, including acknowledging when an activity may be carried out by a data partner versus the sponsor.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A11",
+  "comment_id": "FDA-2021-D-0548-0021",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We do request that the present guidance and the RWD/RWE guidance series include additional detail regarding meeting opportunities, including how sponsors may engage as appropriate (e.g., review divisions in addition to the FDA Real-World Evidence Subcommittee), meeting type and associated timelines, and when sponsors when should engage FDA.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0022-A01",
+  "comment_id": "FDA-2021-D-0548-0022",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "This document or reference to other relevant guidance documents should provide additional details on the types of interactions that sponsors should expect (e.g. meeting/written feedback) and timelines for such interactions for submissions seeking Agency advice on the use of RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0022-A02",
+  "comment_id": "FDA-2021-D-0548-0022",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "As such, this guidance document should make clear that this is a dynamic topic and highlight the Agency’s flexibility and receptivity in engaging with Sponsor to advise on and explore other concerns, approaches, and considerations specific to individual drug development programs.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0023-A01",
+  "comment_id": "FDA-2021-D-0548-0023",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "As stated in our prior comments 4 , we respectfully request that FDA recommend processes by which an RWD/E organization could request a meeting with the",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0023-A03",
+  "comment_id": "FDA-2021-D-0548-0023",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "we recommend that FDA consider accelerating the expansion of the Data Standards Catalog to include data formats that are more amenable to using RWD sources, including standards that address cases when multiple data sources are linked.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0023-A04",
+  "comment_id": "FDA-2021-D-0548-0023",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "we encourage FDA to consider expedited steps that address these issues and consider sharing a more comprehensive strategy for accommodating the submission of studies using RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0023-A05",
+  "comment_id": "FDA-2021-D-0548-0023",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "Flatiron would appreciate clarity on whether FDA expects these same compliance checks to be conducted for regulatory submissions containing RWD/E,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0023-A06",
+  "comment_id": "FDA-2021-D-0548-0023",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "encourages the Agency to consider working with RWD/E organizations and sponsors to develop compliance check tools that are tailored to these datasets in order to streamline submissions.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0023-A07",
+  "comment_id": "FDA-2021-D-0548-0023",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "Lastly, in cases where there are compliance rule discrepancies, Flatiron requests clarity on how to handle these issues when they arise and recommends FDA provide additional guidance on this topic.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0024-A01",
+  "comment_id": "FDA-2021-D-0548-0024",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Based on these examples, C-Path recommends that the Agency conduct a public workshop that aims to identify specific mechanisms toovercome the outstanding barriers in RWD with a tangible plan of action.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0027-A02",
+  "comment_id": "FDA-2021-D-0548-0027",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "It would be helpful if the FDA would outline specific procedures about when to approach the agency using offline correspondence and in-person consultations/meetings.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0027-A03",
+  "comment_id": "FDA-2021-D-0548-0027",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Any additional resources such as case studies, examples, white papers, will be beneficial in providing further applicability of this guidance document.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A01",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency consider highlighting the strengths and limitations of prospective and retrospective real-world data and providing language to delineate the challenges more clearly with each type of data source.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A02",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "BIO also recommends that the Agency consider highlighting the challenges between primary data (i.e., collected for research purposes) and secondary data (i.e., existing data such as claims or EHR) as conformance to FDA data standards will be much more challenging with secondary data.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A03",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency consider incorporating the following elements into the draft guidance: • How to document the impact of data mapping and transformation on the source data.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A04",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "• Detailed guidance on what is the acceptable level of discrepancies between FDA standards/terminologies and those for RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A05",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "• Detailed guidance on how to address data sources that may have used non-structured data (e.g., Natural Language Processing) to generate data elements.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A06",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T05",
+  "stance": "requests more specificity",
+  "source_span": "• An acknowledgment of the issues/challenges raised when multiple RWD sources are used/linked and recommendations on how to address divergences among multiple data sources and FDA-supported data standards.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A07",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "• Detailed guidance on data compliance. For example, in clinical studies Pinnacle 21 checks are executed before submission. It would be helpful for the Agency to clarify if RWD will be held to the same standard.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A08",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "• Recommended best practices for handling RWD fields that have been auto-populated (Some EMR systems will automatically pull forward data from past visits into subsequent visits unless deliberately overwritten, and there may not be a flag for such auto- populated data).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A09",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "BIO also recommends that the Agency consider convening the relevant stakeholders that use RWD to discuss how to make these elements actionable and to provide clear guidance.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A10",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends that the Agency consider providing guidance for a more far-reaching approach to data standards and create a new data standard approach tailored for RWD,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A11",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends that the Agency consider convening sponsors, data scientists, bioinformaticians, etc. to work together to address the aforementioned challenges. It may be worthwhile to consider workshops and/or pilot projects to have dialogue and consider other appropriate data standards for RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A12",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "BIO recommends that the Agency provide an appropriate degree of flexibility and guidance for when it is not feasible for the data to be standardized into the two currently recommended formats in the Catalog.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A13",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "BIO recommends a greater degree of harmonization across the contemporary guidance documents on RWE.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A14",
+  "comment_id": "FDA-2021-D-0548-0028",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "the Agency should consider an opportunity to include details outlined in this draft guidance document in the data management plan described in “Real-World Data: Assessing Electronic Health Records and Medical Claims Data to Support Regulatory Decision-Making for Drug and Biological Products\".",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A03",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "First, we encourage the Agency to consider new approaches for reviewing analytic datasets and results, particularly data from RWD sources, that would not require standardizing the analytic datasets to conform to a specific format in order to be submitted.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A04",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "For instance, it is possible to review RWD from a variety of sources on a single analytics platform, which would enable Agency reviewers to access source data and analyses in a transparent manner while maintaining a level of detail that might be lost in the process of standardizing the data to a currently supported format.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A05",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "Another option could be for an applicant to submit RWD together with R or SAS scripts that Agency reviewers can run to validate the analysis or even the underlying data.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A08",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We welcome additional public communications from FDA about these efforts to identify and develop additional standards and about the Agency’s experience reviewing RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A10",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "It is not clear, however, if FDA expects RWD submissions to undergo the same compliance checks.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A11",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "If FDA expects compliance checks would be conducted for regulatory submissions containing RWD, we encourage the Agency to consider working with RWD/E organizations and sponsors to develop compliance checks that are tailored to these analytic datasets.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A12",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "FDA’s recommendations on the best process for an RWD/E organization to request a meeting with the Agency to discuss questions arising outside the context of an individual sponsor’s submission, as mentioned in previous comments to the Agency.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A14",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "We would also welcome Agency engagement through public workshops addressing this topic on a periodic basis (e.g., biannually).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A15",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "We recommend clarifying that an RWD/E organization may have the direct insight necessary to address the Draft Guidance’s recommendations regarding the curation and transformation of RWD",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A16",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "We encourage FDA to take additional steps to clarify how the various guidance documents and their substantive recommendations interrelate.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A18",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Another option could be to establish a centralized and public RWE Program “dashboard” on FDA’s website that includes the most recent guidance documents related to RWD/E, among other information.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A19",
+  "comment_id": "FDA-2021-D-0548-0030",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We would appreciate guidance about the applicability of FDA’s current data standards to raw RWD submitted to the Agency at its request (e.g., data in DICOM format for medical imaging data, rather than the independent reader assessments that may be captured in a structured data field).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0031-A02",
+  "comment_id": "FDA-2021-D-0548-0031",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "We would also like to see additional guidance from the agency on the use of RWD in prospective studies, as well as prospective studies leveraging EHRs.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0031-A03",
+  "comment_id": "FDA-2021-D-0548-0031",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "The agency could start with standards highlighting study outcomes measures, such as mortality, progression, and response. Establishing a common data model for known study elements will encourage harmonization.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0031-A04",
+  "comment_id": "FDA-2021-D-0548-0031",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "While we are aligned with the importance of this step, we believe FDA is in a unique position to use industry submissions and offer greater specificity around common data elements of a data dictionary that can further harmonize data across different data sources.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0031-A08",
+  "comment_id": "FDA-2021-D-0548-0031",
+  "theme_id": "T12",
+  "stance": "requests more specificity",
+  "source_span": "While variations in terminologies exist across all domains, there is usually more internal standardization with structured data (EHR database, medical claims, etc.) domains than RWD obtained from unstructured domains (EHR progress notes, free text, etc.). The industry would benefit from more discussion from FDA on these differences.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A01",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "We strongly encourage FDA to work with these stakeholders as the Agency establishes modern data standards best suited to the evolving and emerging RWD assets.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A02",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "In the final guidance, PhRMA recommends that the Agency ensure the consistent application of and reference to other recently published RWD/E guidances as appropriate,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A03",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA encourages the Agency to continue to consider public comments on this and the other aforementioned RWD/E draft guidances in their totality when finalizing the RWD/E guidance series.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A06",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T06",
+  "stance": "requests more flexibility",
+  "source_span": "However, for studies generating RWD initiated prior to the publication of this (and related) draft guidances, sponsors may not necessarily have access to the data FDA has now recommended be included in submissions to FDA. Accordingly, PhRMA encourages FDA to maintain flexibility in accepting RWD-derived datasets from sponsors for these studies.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A07",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T10",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA recommends that the guidance acknowledge that sponsors may be working with various data partners who generate RWD in different formats, and that challenges/mitigations related to information access and standardization may exist but could be part of a sponsor’s discussions with the Agency.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A08",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T07",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA encourages the Agency to recognize that implementation of practices to conform to any newly identified data standards may take time as sponsors conduct impact assessments and make appropriate process changes.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A09",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "To facilitate use of RWD, PhRMA recommends that the Agency update the Catalog to support healthcare-related terminologies (e.g., ICD- 10, RxNorm, etc.), which may not currently align to Clinical Data Interchange Standards Consortium (CDISC) Controlled Terminology.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A10",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "Second, in looking to update the Catalog, PhRMA encourages FDA to assess and evaluate how the current data standards conform with RWD used in studies such as pragmatic clinical trials, external control studies, long-term follow-up studies, and prospective and retrospective non-interventional studies,",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A11",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "When considering appropriate data standards for RWD, Analysis Data Model (ADaM)-like principles could be applied and modified to appropriately capture RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A12",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Third, PhRMA recommends the Agency seek stakeholder feedback in updating the Catalog with additional standards for data using RWD sources, consider other common data models",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A13",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "such as the Sentinel CDM and the Observational Health Data Sciences and Informatics (ODHSI) Observational Medical Outcomes Partnership (OMOP), and leverage existing standards.11",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A14",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more specificity",
+  "source_span": "Specifically, PhRMA recommends FDA reference ISO 1161512 to ensure consistency in the terminology and controlled vocabularies used to allow drug comparison.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A15",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "Further, PhRMA encourages FDA to collaborate with other data standards entities and other ongoing data standards efforts within the U.S. government, in addition to the data standards-setting bodies mentioned throughout the guidance, that also establish data standards for RWD and to share lessons learned with stakeholders in a public setting.13",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A16",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T09",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA notes that global harmonization on data standards is critical and recommends the Agency work with other regulatory agencies to seek harmonization on RWD standards.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A17",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Fourth, PhRMA recommends the Agency describe a process for contacting the Agency if there is a suggested addition to the Catalog.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A21",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "In the final guidance, PhRMA encourages the Agency to reference the recently published FHIR to CDISC Joint Mapping Implementation Guide by CDISC and acknowledge that",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A22",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA recommends that the Agency initiate user acceptance testing/pilot testing with sponsors to gain better understanding of mapping RWD sources to SDTM and share lessons learned, as appropriate, per current PDUFA VI and PDUFA VII goals.15",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A24",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "the Agency could encourage the collaborative development of common data models that are acceptable to submit to FDA for certain types of RWD submissions.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A25",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T05",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA requests additional guidance related to the issues and challenges raised when multiple RWD sources are used and/or linked, including recommendations on how to address divergences among multiple data sources and FDA-supported data standards.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A26",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA recommends FDA provide detailed guidance on how to map data standards and terminologies, including data sources and processes that may have used non-structured data to generate data elements (e.g., natural language processing).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A27",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "Some systems will automatically pull forward data into subsequent visits unless deliberately overwritten, and there may or may not be a flag for such “auto- populated” data. PhRMA recommends additional information in the final guidance on best practices to address these circumstances.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A29",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "PhRMA encourages FDA to work closely with key stakeholder groups, including data standards consortia, data providers, industry, other U.S. government agencies, and other health authorities, to help advance harmonized standards and coding for RWD.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A34",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "To help facilitate organization of regulatory submissions, PhRMA recommends that FDA be explicit in describing where certain information should be included.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A35",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T01",
+  "stance": "requests more specificity",
+  "source_span": "As RWE studies have previously been included in Module 5, under m5-3-5-4-other-study-reports, PhRMA recommends RWD datasets reside in the same section as the report, structured according to the current FDA-supported standards (i.e., SDTM/ADaM and Define.xml).",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A36",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "PhRMA also suggests FDA align its recommendations with the USCDI v2 as these standards for interoperability (linking and sharing) should be part of RWD data standards used for RWE in regulatory decision-making.17",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A37",
+  "comment_id": "FDA-2021-D-0548-0032",
+  "theme_id": "T14",
+  "stance": "requests more specificity",
+  "source_span": "For example, CDISC will require enhancements to Define-XML v1.1 (e.g., Alias element is not a suitable option in all cases) to support greater flexibility for RWD requirements. There is likely to be high variability in format and content as well as placement in the eCTD backbone without further guidance from the Agency.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0033-A01",
+  "comment_id": "FDA-2021-D-0548-0033",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Such actions could include convenings, pilot project collaborations, and other types of engagements among the stakeholder community in partnership with the FDA to develop data standards for submissions of study results.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0033-A08",
+  "comment_id": "FDA-2021-D-0548-0033",
+  "theme_id": "T06",
+  "stance": "requests more specificity",
+  "source_span": "As experience accumulates across RWD sources, the FDA might also consider providing additional guidance specific to the actions and activities taken by data aggregators and data curators involved with the conduct of data transformations and data mapping to submission standards.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0033-A09",
+  "comment_id": "FDA-2021-D-0548-0033",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "Therefore, FDA should carefully consider how its supported standards might fundamentally misalign with the nature of RWD sources and make it difficult to conduct appropriate data mapping.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0033-A11",
+  "comment_id": "FDA-2021-D-0548-0033",
+  "theme_id": "T10",
+  "stance": "requests more specificity",
+  "source_span": "Any proposed changes to the data standards catalogue should include sufficient time for public comment and transparent due process.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A01",
+  "comment_id": "FDA-2021-D-0548-0034",
+  "theme_id": "T02",
+  "stance": "requests more flexibility",
+  "source_span": "First and foremost, however, we believe that selecting a data source for a particular research question should be based on scientific considerations. Blanket formatting requirements may lead to a selection of a data source based on ease of meeting those requirements, rather than what dataset is most fit for purpose.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A02",
+  "comment_id": "FDA-2021-D-0548-0034",
+  "theme_id": "T09",
+  "stance": "requests more flexibility",
+  "source_span": "Additionally, requiring conversion of data from their native format to a particular data standard may have significant implications for a study’s ability to meet the transparency and traceability recommendations that FDA has put forward in other draft guidance",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A04",
+  "comment_id": "FDA-2021-D-0548-0034",
+  "theme_id": "T14",
+  "stance": "requests more flexibility",
+  "source_span": "In practice, RWD sources typically do not contain enough information to appropriately map RWD to CDISC SDTM or ADaM format.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A06",
+  "comment_id": "FDA-2021-D-0548-0034",
+  "theme_id": "T05",
+  "stance": "requests more specificity",
+  "source_span": "Although the Draft Claims/EHR Guidance provides helpful considerations regarding linking data, it is not clear how that guidance should be applied in light of statements in the Draft Guidance that study data should be converted to a supported format.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A08",
+  "comment_id": "FDA-2021-D-0548-0034",
+  "theme_id": "T13",
+  "stance": "requests more flexibility",
+  "source_span": "Accordingly, we believe the Agency should consider alternate approaches to standardizing the review of RWD submitted to support regulatory decision making. For example, technologies such as centralized, platform-based analytics enable the review and analyses of RWD from a variety of sources, without converting to a single supported data standard.",
+  "draft_section": null,
+  "section_inferred": false
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A09",
+  "comment_id": "FDA-2021-D-0548-0034",
+  "theme_id": "T03",
+  "stance": "requests more flexibility",
+  "source_span": "For example, another approach that would facilitate efficient review while preserving flexibility in formatting would be submitting RWD together with R scripts that FDA reviewers could use to validate or even replicate a submitted study.",
+  "draft_section": null,
+  "section_inferred": false
+ }
+]

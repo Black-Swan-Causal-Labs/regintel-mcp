@@ -1,0 +1,194 @@
+{
+ "docket_id": "FDA-2021-D-0548",
+ "version": "v1",
+ "status": "approved at checkpoint 3 (JDD, 2026-10-04)",
+ "stances": [
+  "requests more specificity",
+  "requests more flexibility",
+  "supports as written",
+  "objects"
+ ],
+ "fallback": {
+  "theme_id": "T99",
+  "label": "Unclassified — propose new theme"
+ },
+ "changes_from_starter": [
+  "Starts from the approved FDA-2020-D-2307 codebook v1 (same T01–T12 ids and labels where possible) so themes can be compared across the two guidances.",
+  "T13 (new): choice of data standards & the Data Standards Catalog — the central topic of this guidance.",
+  "T14 (new): mapping, transformation & controlled terminology.",
+  "T09 narrowed to guidance alignment & harmonization; data-standards requests move to T13.",
+  "T01 relabelled 'documentation' in place of 'quality assurance' to match this guidance's section III.B.",
+  "T02 and T03 kept for comparability; expected to be sparse.",
+  "14 themes exceeds the skill's 8–12 range; flagged for the human."
+ ],
+ "themes": [
+  {
+   "theme_id": "T01",
+   "label": "Data provenance, traceability & documentation",
+   "definition": "Documenting where RWD came from and how they were curated and transformed (lineage, ETL), and what that documentation should contain and where it goes in a submission (SDRG, data dictionary, Define-XML, protocol/DMP).",
+   "notes": "Includes: documentation of curation/transformation processes, data dictionaries, where information belongs in a submission, data-quality checks. Excludes: the mapping method itself (T14); which standard to use (T13).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0030",
+    "span": "We also recommend delineating when information about an RWD source’s characteristics belongs in the data dictionary, as part of the comments section within CDISC and its dependencies, or as part of the Study Data Reviewer’s Guide."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T02",
+   "label": "Data relevance, fit for purpose & representativeness",
+   "definition": "Whether a data source suits the research question, and how standardization affects fitness, representativeness or clinical meaning.",
+   "notes": "Includes: source selection based on science, loss of clinical specificity that affects fitness for purpose. Excludes: mechanics of mapping (T14). Expected to be rare in this docket.",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0034",
+    "span": "First and foremost, however, we believe that selecting a data source for a particular research question should be based on scientific considerations."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T03",
+   "label": "Methodology: validation, study design & analytic methods",
+   "definition": "Validation of variables or platforms, study design and analytic methods as they bear on standardized data.",
+   "notes": "Includes: validated RWE platforms, analysis software/languages, computable phenotypes as analytic definitions. Excludes: submission file formats (T13). Expected to be rare in this docket.",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0027",
+    "span": "We recommend that FDA accept the use of other programming languages (e.g., R, Python), including some of their packages or modules, if they adhere to the appropriate process and methodology."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T04",
+   "label": "Missing data & data completeness",
+   "definition": "Missing or incomplete information in RWD, including information lost or left unmapped during transformation, and acceptable thresholds or reporting.",
+   "notes": "Includes: missing-data thresholds, reporting missingness, information excluded during cleaning. Excludes: general documentation (T01).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0031",
+    "span": "It would be helpful for FDA to provide recommendations or thresholds of willingness for acceptance of missing data"
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T05",
+   "label": "Linkage & tokenization",
+   "definition": "Applying standards and submission expectations to linked or tokenized data from multiple RWD sources.",
+   "notes": "Includes: linked datasets, tokenized/de-identified linkage. Excludes: privacy consent framework (T11).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0017",
+    "span": "Otsuka recommends that the Agency delineate more specifically, information that should be kept in mind when using/submitting tokenized/linked data."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T06",
+   "label": "Data access, roles of data holders, retention & auditability",
+   "definition": "What data owners, vendors and curators versus sponsors must provide or retain, and FDA access to source data or platforms.",
+   "notes": "Includes: vendors sharing curation information, guidance aimed at data aggregators, proprietary methods. Excludes: documentation content (T01).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0022",
+    "span": "The Agency could also include language in this guidance to encourage data owners/processors to share this information with Sponsors and the Agency so it can be utilized as a reference to the use of RWD and Agency reviews."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T07",
+   "label": "Proportionality, sponsor burden & feasibility",
+   "definition": "Burden or feasibility of the recommendations, and requests for risk-based or less onerous approaches.",
+   "notes": "Includes: study-by-study conversion burden, cost of conformance. Excludes: requests for an alternative standard as such (T13).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0032",
+    "span": "PhRMA encourages the Agency to recognize that implementation of practices to conform to any newly identified data standards may take time as sponsors conduct impact assessments and make appropriate process changes."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T08",
+   "label": "Terminology & definitional clarity",
+   "definition": "Definitions and wording in the guidance and its glossary.",
+   "notes": "Includes: glossary edits, undefined terms, typos. Excludes: controlled terminologies used in the data (MedDRA, WHODrug, LOINC: T14).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0024",
+    "span": "Adding the definition of concomitant medications in the guidance document for consistency and clarity."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T09",
+   "label": "Alignment with other guidance & harmonization",
+   "definition": "Consistency with other FDA guidances (notably the EHR/claims RWD guidance), other agencies (ONC, EMA, MHRA) and international harmonization.",
+   "notes": "Includes: cross-references, conflicts between guidances, global harmonization. Narrowed from FDA-2020-D-2307: requests about which data standards FDA should support move to T13.",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0030",
+    "span": "We encourage FDA to take additional steps to clarify how the various guidance documents and their substantive recommendations interrelate."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T10",
+   "label": "FDA engagement & implementation support",
+   "definition": "Meetings, workshops, templates, examples and other support for implementing the guidance.",
+   "notes": "Includes: early engagement with review divisions, workshops, templates, pathways for vendors to meet FDA, process for suggesting Catalog additions. Excludes: the content of the Catalog (T13).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0017",
+    "span": "Otsuka recommends that the Agency consider semi-annual or annual workshops (or a series of webinars) to discuss the topics addressed in the guidance"
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T11",
+   "label": "Privacy & data governance",
+   "definition": "Privacy, consent and governance of identifiable or de-identified RWD.",
+   "notes": "Includes: consent processes, privacy frameworks. Excludes: tokenization as a linkage method (T05).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0006",
+    "span": "We suggest that appropriate guidance is provided on how to manage this consent process in the context of a clearly defined privacy framework."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T12",
+   "label": "Scope & data types",
+   "definition": "Which submissions, data types and uses the guidance covers.",
+   "notes": "Includes: eCOA, registries, digital health data, which submissions require conformance, decision contexts. Excludes: which standard applies to a given type (T13).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0024",
+    "span": "C-Path is seeking clarification on the application of the draft guidance in terms of medical product decision making."
+   },
+   "emergent": false,
+   "starter": true
+  },
+  {
+   "theme_id": "T13",
+   "label": "Choice of data standards & the Data Standards Catalog",
+   "definition": "Which standards FDA should support or require for RWD-derived study data: SDTM conformance, waivers, adding RWD standards to the Catalog, FHIR, USCDI, OMOP and other common data models, new transport formats.",
+   "notes": "NEW for this docket. Includes: alternatives to SDTM, conversion waivers, Catalog expansion, compliance/validation rules for conformance. Excludes: how to map once a standard is chosen (T14).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0010",
+    "span": "We encourage the FDA to adopt and directly support FHIR and USCDI as standards for data submission purposes."
+   },
+   "emergent": true,
+   "starter": false
+  },
+  {
+   "theme_id": "T14",
+   "label": "Mapping, transformation & controlled terminology",
+   "definition": "How RWD are mapped and transformed into FDA-supported standards, and the controlled terminologies used (MedDRA, WHODrug, LOINC, CDISC CT), including the appendix mapping examples.",
+   "notes": "NEW for this docket. Includes: Define-XML Alias/Decode, terminology divergence, information loss in mapping, mapping specifications. Excludes: documenting that mapping happened (T01).",
+   "example": {
+    "comment_id": "FDA-2021-D-0548-0025",
+    "span": "For these reasons we highly recommend against the use of “Decode” in Define-XML as a mechanism for communicating the transformation of external coding systems to the appropriate SDTM controlled terminology."
+   },
+   "emergent": true,
+   "starter": false
+  }
+ ]
+}

@@ -3,7 +3,7 @@
   "id": "FDA-2020-D-2307",
   "title": "Real-World Data: Assessing Electronic Health Records and Medical Claims Data To Support Regulatory Decision-Making for Drug and Biological Products",
   "draft_date": "2021-09-30",
-  "final_date": "2024-07",
+  "final_date": "2024-07-25",
   "n_comments": 60,
   "n_submissions_represented": 80,
   "draft_ref": "FDA-2020-D-2307-0002",
@@ -12,7 +12,7 @@
   "docket_url": "https://www.regulations.gov/docket/FDA-2020-D-2307"
  },
  "run": {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "codebook_version": "v1",
   "checkpoints": [
    {
@@ -36,15 +36,15 @@
    {
     "n": 4,
     "approved_by": "JDD",
-    "date": "2026-10-03",
-    "notes": "Reviewed items 1-55 of the seeded random-order sample (n=55 of 1,211 calls, 4.5%); stopping point set by reviewer time, not by results. Agreement 50/55 = 90.9% (Wilson 95% CI 80.4-96.1%). Disagreements in both directions (2 calls judged too generous, 2 too strict, 1 adopted->not assessable). 3 corrections applied; 2 (0027-A14, 0040-A30) pending a definitional decision: the cited final text is unchanged from the draft. | Asks already satisfied by text present in both draft and final stay 'not adopted' (no change occurred), flagged already_addressed_in_draft. Applied to 0027-A14 and 0040-A30. Spot-check agreement reported as recorded at review time: 50/55."
+    "date": "2026-10-04",
+    "notes": "Reviewed items 1-55 of the seeded random-order sample (n=55 of 1,211 calls, 4.5%); stopping point set by reviewer time, not by results. Agreement 50/55 = 90.9% (Wilson 95% CI 80.4-96.1%). Disagreements in both directions (2 calls judged too generous, 2 too strict, 1 adopted->not assessable). 3 corrections applied; 2 (0027-A14, 0040-A30) pending a definitional decision: the cited final text is unchanged from the draft. | Asks already satisfied by text present in both draft and final stay 'not adopted' (no change occurred), flagged already_addressed_in_draft. Applied to 0027-A14 and 0040-A30. Spot-check agreement reported as recorded at review time: 50/55. | Theme-coding spot check added after the run (pending): seeded random 10-15% of the 1,211 asks, reviewing theme_id and stance. The existing 91% agreement covers concordance calls only. | Same as FDA-2021-D-0548: TypeSafe Jev blind second coder on all asks. | Footnote evidence now available (concordance/final_footnotes.md). The asks marked not assessable because their target was in a footnote should be re-judged against it (pending). | Reviewed items 1-50 of the seeded random-order theme sample (n=50 of 1,211 asks); stopping point set by reviewer time. Theme: 43 agree, 5 disagree, 2 unsure -> 43/48 = 89.6% (Wilson 95% CI 77.8-95.5%). Stance: 45 agree, 4 disagree, 1 unsure -> 45/49 = 91.8% (81.0-96.8%). Human vs Jev on the same items: theme 37/48, stance 36/48. Corrections applied to asks.json (originals kept as theme_id_original / stance_original). Item 25 (0055-A225) stance corrected to 'requests more specificity' after follow-up."
    }
   ],
   "spot_check_agreement": 0.909,
   "spot_check_n": 55,
   "method": {
    "retrieval": "regintel-mcp (deterministic: regulations.gov API v4, pdfplumber, section-aligned difflib diff)",
-   "judgment": "Claude with skills submitter-taxonomy, comment-theming, draft-final-concordance; coding and concordance fanned out to 6 subagents each",
+   "judgment": "Claude with skills submitter-taxonomy, comment-theming, draft-final-concordance; coding and concordance fanned out to parallel subagents",
    "verification": "every source_span verbatim in the extracted comment text; every evidence_span verbatim in the final guidance text; 4 human checkpoints"
   }
  },
@@ -2907,8 +2907,8 @@
   {
    "ask_id": "FDA-2020-D-2307-0055-A148",
    "comment_id": "FDA-2020-D-2307-0055",
-   "theme_id": "T03",
-   "stance": "requests more flexibility",
+   "theme_id": "T10",
+   "stance": "requests more specificity",
    "source_span": "BIO recommends that the final draft guidance provide citations measures described in Table 1, sponsors should of valid algorithms or use of datasets where data are consider whether validating the variable to a greater consistently abstracted may be sufficient.",
    "display_span": "The draft guidance states, \u201cBased on the performance measures described in Table 1, sponsors should consider whether validating the variable to a greater extent (e.g., all positives classified by the operational definition) is necessary and discuss with the relevant review division.\u201d \u2026 BIO recommends that the final draft guidance provide citations of valid algorithms or use of datasets where data are consistently abstracted may be sufficient.",
    "draft_section": "IV.D",
@@ -3657,8 +3657,8 @@
   {
    "ask_id": "FDA-2020-D-2307-0055-A225",
    "comment_id": "FDA-2020-D-2307-0055",
-   "theme_id": "T03",
-   "stance": "requests more flexibility",
+   "theme_id": "T10",
+   "stance": "requests more specificity",
    "source_span": "BIO recommends the following edits: \u201cFDA recommends considering potential linkages with other data sources considering potential linkages with other data sources or or additional data collection to expand the capture of additional data collection to expand the capture of important important confounders that are unmeasured or confounders that are unmeasured or imperfectly measured in imperfectly measured in the original data source.\u201d Other the original data source. If linkages with other data sources than potential linkage or additional data collection, it is are not possible, the sponsor should discuss with the",
    "draft_section": "V.E.1",
    "section_inferred": false,
@@ -4423,7 +4423,7 @@
   {
    "ask_id": "FDA-2020-D-2307-0035-A11",
    "comment_id": "FDA-2020-D-2307-0035",
-   "theme_id": "T02",
+   "theme_id": "T12",
    "stance": "requests more specificity",
    "source_span": "We also request that FDA consider what its recommendations would be with respect to each type of data source and how they may differ, and suggest revising the Draft Guidance to distinguish more clearly between the types of data sources being discussed.",
    "draft_section": "IV.B.1",
@@ -4894,7 +4894,7 @@
    "ask_id": "FDA-2020-D-2307-0039-A06",
    "comment_id": "FDA-2020-D-2307-0039",
    "theme_id": "T06",
-   "stance": "requests more flexibility",
+   "stance": "requests more specificity",
    "source_span": "This may not be feasible as algorithms are often proprietary intellectual property. We recommend that the FDA reconsider how to approach providing adequate detail while also protecting proprietary information.",
    "draft_section": "IV.B.5",
    "section_inferred": true,
@@ -7364,8 +7364,8 @@
   {
    "ask_id": "FDA-2020-D-2307-0054-A23",
    "comment_id": "FDA-2020-D-2307-0054",
-   "theme_id": "T07",
-   "stance": "requests more flexibility",
+   "theme_id": "T06",
+   "stance": "requests more specificity",
    "source_span": "Information on the completeness of data for implementing inclusion/exclusion criteria may not always be available when the protocol is finalized, so the recommendation as written may not be feasible when unstructured EHR data are used for evaluating these criteria, though the information could be noted in the SAP. We recommend revising this text to say, \u201cprotocol and/or statistical analysis plan.\u201d",
    "draft_section": "V.B",
    "section_inferred": false,
@@ -13846,7 +13846,7 @@
   {
    "ask_id": "FDA-2020-D-2307-0062-A29",
    "comment_id": "FDA-2020-D-2307-0062",
-   "theme_id": "T03",
+   "theme_id": "T02",
    "stance": "requests more specificity",
    "source_span": "We absolutely agree that these parameters are important to measure, but we suggest they be further described in light of the idea that certain data can be fit for purpose and inexact.",
    "draft_section": "V.D.2",

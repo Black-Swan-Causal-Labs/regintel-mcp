@@ -1,0 +1,315 @@
+<title>Theme Spot Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: same reviewer's desk as Concordance Spot Check. Left rail = sampled asks; right = one ask: quote → context → theme + stance verdicts. */
+:root {
+  --bg: #f5f6f4; --panel: #ffffff; --ink: #1d2422; --muted: #5d6965; --line: #d9dfdc;
+  --accent: #1f5f73; --accent-ink: #ffffff; --quote: #eef3f1;
+  --ok: #2e7d4f; --ok-bg: #e3f2e8; --warn: #9a6a00; --warn-bg: #fbf0d6; --bad: #a33b2b; --bad-bg: #f8e3df;
+  --serif: "Source Serif 4", Georgia, serif; --sans: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --panel: #1c2321; --ink: #e4ebe8; --muted: #9aa8a3; --line: #2f3a37;
+  --accent: #6fb3c8; --accent-ink: #0d1514; --quote: #22302c;
+  --ok: #7cc79a; --ok-bg: #1e3327; --warn: #e1b75a; --warn-bg: #3a3020; --bad: #ec8d7d; --bad-bg: #3d2420; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --panel: #1c2321; --ink: #e4ebe8; --muted: #9aa8a3; --line: #2f3a37;
+  --accent: #6fb3c8; --accent-ink: #0d1514; --quote: #22302c;
+  --ok: #7cc79a; --ok-bg: #1e3327; --warn: #e1b75a; --warn-bg: #3a3020; --bad: #ec8d7d; --bad-bg: #3d2420; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--sans); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: end; justify-content: space-between; margin-bottom: 12px }
+h1 { font: 600 1.6rem/1.2 var(--serif); margin: 0; text-wrap: balance }
+.sub { color: var(--muted); font-size: .9rem; margin-top: 4px }
+.stats { display: flex; gap: 18px; flex-wrap: wrap; font-variant-numeric: tabular-nums }
+.stat b { display: block; font: 600 1.25rem var(--serif) } .stat span { color: var(--muted); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px }
+.tabs button { font: 600 .85rem var(--sans); border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 6px; padding: 7px 12px; cursor: pointer; text-align: left }
+.tabs button small { display: block; font-weight: 400; color: var(--muted) }
+.tabs button[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 -3px 0 var(--accent) }
+.tabs button:disabled { opacity: .55; cursor: default }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; margin: 6px 0 18px } .bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s }
+.grid { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 20px; align-items: start }
+@media (max-width: 860px) { .grid { grid-template-columns: minmax(0,1fr) } .rail { max-height: 320px; position: static; order: 2 } .card { order: 1 } }
+.rail { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; max-height: calc(100vh - 200px); overflow: auto; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px) }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; padding: 10px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--panel) }
+.filters button { font: 500 .78rem var(--sans); border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 999px; padding: 3px 10px; cursor: pointer }
+.filters button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+.rail ol { list-style: none; margin: 0; padding: 4px 0 }
+.rail li button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 34px minmax(0,1fr) 14px; gap: 8px; padding: 7px 10px; cursor: pointer; font-size: .83rem; align-items: center }
+.rail li button:hover, .rail li button:focus-visible { background: var(--quote) }
+.rail li button[aria-current="true"] { background: var(--quote); box-shadow: inset 3px 0 0 var(--accent) }
+.rail .num { color: var(--muted); font-family: var(--mono); font-size: .75rem }
+.rail .who { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.dot { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--line) }
+.dot.agree { background: var(--ok); border-color: var(--ok) } .dot.disagree { background: var(--bad); border-color: var(--bad) } .dot.unsure { background: var(--warn); border-color: var(--warn) }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; display: grid; gap: 18px; min-width: 0 }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--muted); font-size: .85rem }
+.meta b { color: var(--ink); font-weight: 600 }
+.label { font: 600 .72rem var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px }
+blockquote { margin: 0; padding: 12px 14px; background: var(--quote); border-radius: 6px; font: 1rem/1.55 var(--serif); overflow-wrap: anywhere }
+details { border: 1px solid var(--line); border-radius: 6px }
+summary { cursor: pointer; padding: 8px 12px; font-size: .88rem; color: var(--muted) }
+details .body { padding: 0 14px 12px; font: .92rem/1.6 var(--serif); max-height: 360px; overflow: auto; overflow-wrap: anywhere }
+mark { background: var(--warn-bg); color: inherit; padding: 0 1px }
+.call { display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 6px }
+.call .k { font: 600 1rem/1.35 var(--serif) } .call .tid { font: .78rem var(--mono); color: var(--muted) }
+.small { font-size: .82rem; color: var(--muted) }
+.def { font-size: .86rem; color: var(--muted); margin: 0 }
+.verdict { border-top: 1px solid var(--line); padding-top: 16px; display: grid; gap: 14px }
+.vrow { display: grid; grid-template-columns: 90px minmax(0,1fr); gap: 8px 12px; align-items: center }
+@media (max-width: 520px) { .vrow { grid-template-columns: minmax(0,1fr) } }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+.btns button, .nav button, .both { font: 600 .88rem var(--sans); padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer }
+.both { background: var(--accent); color: var(--accent-ink); border-color: var(--accent) }
+kbd { font: .72rem var(--mono); margin-left: 6px; opacity: .75 }
+.btns button[data-v="agree"][aria-pressed="true"] { background: var(--ok); border-color: var(--ok); color: var(--panel) }
+.btns button[data-v="disagree"][aria-pressed="true"] { background: var(--bad); border-color: var(--bad); color: var(--panel) }
+.btns button[data-v="unsure"][aria-pressed="true"] { background: var(--warn); border-color: var(--warn); color: var(--panel) }
+select, textarea { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px; max-width: 100% }
+textarea { width: 100%; min-height: 60px; resize: vertical }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.nav { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; align-items: center }
+.status { font-size: .82rem; color: var(--muted); min-height: 1.2em }
+.howto { background: var(--quote); border-radius: 8px; padding: 14px 16px; font-size: .92rem; margin-bottom: 16px }
+.howto ol { margin: 6px 0 0; padding-left: 20px; display: grid; gap: 4px }
+.notice { background: var(--warn-bg); color: var(--ink); border-radius: 6px; padding: 10px 12px; font-size: .88rem; margin-bottom: 12px }
+.cb { display: grid; gap: 10px; padding: 4px 14px 14px; font-size: .88rem }
+.cb b { font-family: var(--serif) }
+footer { margin-top: 28px; color: var(--muted); font-size: .82rem; max-width: 75ch }
+a { color: var(--accent) }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Theme Spot Check</h1>
+      <div class="sub" id="sub">Checkpoint 4 · was each request filed under the right theme and stance?</div>
+    </div>
+    <div class="stats" aria-live="polite">
+      <div class="stat"><b id="sDone">0</b><span>Reviewed</span></div>
+      <div class="stat"><b id="sTheme">–</b><span>Theme agreement</span></div>
+      <div class="stat"><b id="sStance">–</b><span>Stance agreement</span></div>
+    </div>
+  </header>
+  <div class="tabs" id="tabs" role="group" aria-label="Guidance"></div>
+  <div class="bar" aria-hidden="true"><i id="bar"></i></div>
+  <div id="notice" class="notice" hidden></div>
+  <section class="howto" aria-label="How to review">
+    <b>Your task: check how the AI filed each request.</b> The AI split every comment letter into single requests, then gave each one a theme from the approved codebook and a stance. Everything you need is on this page.
+    <ol>
+      <li>Read <b>What the commenter asked</b>. Open the surrounding text if the quote is unclear.</li>
+      <li>Check the <b>theme</b> against its definition, and the <b>stance</b>.</li>
+      <li>If both are right, click <b>Both right</b> (or press <kbd>A</kbd>) and the next item opens. Otherwise mark the one that's wrong and pick the right value.</li>
+    </ol>
+    Items are in random order, so stop whenever you like: whatever you finish is still a random sample.
+  </section>
+
+  <div class="grid">
+    <nav class="rail" aria-label="Sampled requests">
+      <div class="filters" role="group" aria-label="Filter">
+        <button data-f="all" aria-pressed="true">All</button>
+        <button data-f="todo" aria-pressed="false">To do</button>
+        <button data-f="disagree" aria-pressed="false">Disagree</button>
+        <button data-f="low" aria-pressed="false">Low conf.</button>
+      </div>
+      <ol id="list"></ol>
+    </nav>
+    <main class="card" id="card"><p class="small">Loading the sample…</p></main>
+  </div>
+
+  <footer>
+    <p><b>Stances.</b> More specificity: asks FDA to define, detail, give examples or thresholds. More flexibility: asks FDA to allow alternatives, relax or reduce burden. Supports as written: explicitly endorses a specific recommendation. Objects: asks FDA to remove or reverse a recommendation.</p>
+    <p><b>Method.</b> Codebook-based content analysis: the codebook was approved before any coding, then one AI coder applied it to every request. This check measures how often a person agrees with that coding. It is separate from the Concordance Spot Check, which checks the adopted / not adopted calls.</p>
+    <p>Keys: <kbd>A</kbd> both right · <kbd>←</kbd>/<kbd>→</kbd> previous / next. © 2026 <a href="https://blackswancausallabs.com">Black Swan Causal Labs</a></p>
+  </footer>
+</div>
+
+<script>
+const DOCKETS = [
+  { id: "FDA-2020-D-2307", file: "theme_FDA-2020-D-2307.json", name: "EHR & claims data", period: "Draft Sep 2021 → final Jul 2024" },
+  { id: "FDA-2021-D-0548", file: "theme_FDA-2021-D-0548.json", name: "Data standards for RWD", period: "Draft Oct 2021 → final Dec 2023" },
+];
+const STANCES = ["requests more specificity", "requests more flexibility", "supports as written", "objects"];
+const state = { data: {}, docket: null, items: [], themes: [], reviews: {}, idx: 0, filter: "all", db: null };
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const LS = "theme-spotcheck-v1";
+const lsGet = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
+const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+
+const overall = (r) => !r ? null : (r.theme_verdict === "disagree" || r.stance_verdict === "disagree") ? "disagree"
+  : (r.theme_verdict === "unsure" || r.stance_verdict === "unsure") ? "unsure" : (r.theme_verdict && r.stance_verdict) ? "agree" : null;
+
+function visible() {
+  return state.items.filter((it) => {
+    const o = overall(state.reviews[it.ask_id]);
+    if (state.filter === "todo") return !o;
+    if (state.filter === "disagree") return o === "disagree";
+    if (state.filter === "low") return it.confidence === "low";
+    return true;
+  });
+}
+
+function pct(list, key) {
+  const a = list.filter((r) => r[key] === "agree").length, d = list.filter((r) => r[key] === "disagree").length;
+  return a + d ? Math.round((100 * a) / (a + d)) + "%" : "–";
+}
+
+function stats() {
+  const rs = state.items.map((it) => state.reviews[it.ask_id]).filter((r) => overall(r));
+  $("#sDone").textContent = `${rs.length}/${state.items.length}`;
+  $("#sTheme").textContent = pct(rs, "theme_verdict");
+  $("#sStance").textContent = pct(rs, "stance_verdict");
+  $("#bar").style.width = (100 * rs.length) / Math.max(1, state.items.length) + "%";
+  renderTabs();
+}
+
+function renderTabs() {
+  $("#tabs").innerHTML = DOCKETS.map((d) => {
+    const data = state.data[d.id];
+    const done = data ? data.items.filter((it) => overall(state.reviews[it.ask_id])).length : 0;
+    return `<button data-d="${d.id}" aria-pressed="${state.docket === d.id}" ${data ? "" : "disabled"}>${esc(d.name)}
+      <small>${esc(d.id)} · ${data ? `${done}/${data.items.length} reviewed` : "coding in progress"}</small></button>`;
+  }).join("");
+}
+
+function renderList() {
+  const cur = state.items[state.idx];
+  $("#list").innerHTML = visible().map((it) => {
+    const o = overall(state.reviews[it.ask_id]);
+    return `<li><button data-n="${it.n}" aria-current="${!!cur && cur.n === it.n}">
+      <span class="num">${String(it.n).padStart(3, "0")}</span>
+      <span class="who">${esc(it.submitter)} · <span class="small">${esc(it.theme_id)}</span></span>
+      <span class="dot ${o || ""}" aria-label="${o || "not reviewed"}"></span></button></li>`;
+  }).join("") || `<li class="small" style="padding:10px">Nothing in this filter.</li>`;
+}
+
+function highlight(text, span) {
+  const t = esc(text);
+  const words = String(span || "").trim().split(/\s+/).slice(0, 40).map((w) => esc(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  if (words.length < 3) return t;
+  try { return t.replace(new RegExp(words.join("\\s+")), (m) => `<mark>${m}</mark>`); } catch { return t; }
+}
+
+function vbtns(group, cur) {
+  return ["agree", "disagree", "unsure"].map((v) => `<button data-g="${group}" data-v="${v}" aria-pressed="${cur === v}">${{ agree: "Right", disagree: "Wrong", unsure: "Unsure" }[v]}</button>`).join("");
+}
+
+function renderCard() {
+  const it = state.items[state.idx];
+  if (!it) { $("#card").innerHTML = `<p class="small">No items.</p>`; return; }
+  const r = state.reviews[it.ask_id] || {};
+  const th = state.themes.find((t) => t.theme_id === it.theme_id) || {};
+  $("#card").innerHTML = `
+    <div class="meta"><span><b>#${it.n}</b> of ${state.items.length}</span><span><b>${esc(it.submitter)}</b> · ${esc(it.bucket)}</span>
+      <span>${it.draft_section ? `Draft ${esc(it.draft_section)}${it.draft_heading ? " · " + esc(it.draft_heading) : ""}` : "General comment"}</span><span>AI confidence ${esc(it.confidence)}</span></div>
+    <section><div class="label">What the commenter asked · <a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.comment_id)}</a> · ${esc(it.ask_id.split("-").pop())}</div>
+      <blockquote>${esc(it.span)}</blockquote></section>
+    ${it.context ? `<details><summary>Surrounding text in the letter</summary><div class="body">${highlight(it.context, it.span)}</div></details>` : ""}
+    <section><div class="label">How the AI filed it</div>
+      <div class="call"><span class="tid">${esc(it.theme_id)} · theme</span><span class="k">${esc(it.theme)}</span><p class="def">${esc(th.definition)}</p>
+        ${th.notes ? `<p class="def">${esc(th.notes)}</p>` : ""}</div>
+      <div class="call" style="margin-top:8px"><span class="tid">stance</span><span class="k">${esc(it.stance)}</span></div>
+    </section>
+    <details><summary>All ${state.themes.length} themes in this codebook</summary><div class="cb">${state.themes.map((t) => `<div><b>${esc(t.theme_id)} ${esc(t.label)}</b><br>${esc(t.definition)}</div>`).join("")}</div></details>
+    <section class="verdict">
+      <div class="label">Your verdict</div>
+      <div><button class="both" id="both">Both right<kbd>A</kbd></button></div>
+      <div class="vrow"><span class="small">Theme</span><div class="btns">${vbtns("theme", r.theme_verdict)}
+        <select id="corrTheme" aria-label="Correct theme" ${r.theme_verdict === "disagree" ? "" : "hidden"}><option value="">Correct theme…</option>${state.themes.filter((t) => t.theme_id !== it.theme_id).map((t) => `<option value="${t.theme_id}" ${r.corrected_theme === t.theme_id ? "selected" : ""}>${esc(t.theme_id + " " + t.label)}</option>`).join("")}</select></div></div>
+      <div class="vrow"><span class="small">Stance</span><div class="btns">${vbtns("stance", r.stance_verdict)}
+        <select id="corrStance" aria-label="Correct stance" ${r.stance_verdict === "disagree" ? "" : "hidden"}><option value="">Correct stance…</option>${STANCES.filter((s) => s !== it.stance).map((s) => `<option ${r.corrected_stance === s ? "selected" : ""}>${s}</option>`).join("")}</select></div></div>
+      <div><label for="note" class="small">Note (optional)</label><textarea id="note" placeholder="Why, or anything to fix">${esc(r.note || "")}</textarea></div>
+      <div class="nav"><button id="prev">← Previous</button><span class="status" id="status"></span><button id="next">Next →</button></div>
+    </section>`;
+  $("#both").onclick = () => setBoth();
+  $("#card").querySelectorAll("[data-g]").forEach((b) => b.addEventListener("click", () => setOne(b.dataset.g, b.dataset.v)));
+  $("#corrTheme").onchange = (e) => save({ corrected_theme: e.target.value || null });
+  $("#corrStance").onchange = (e) => save({ corrected_stance: e.target.value || null });
+  $("#prev").onclick = () => go(-1);
+  $("#next").onclick = () => go(1);
+  let t; $("#note").oninput = (e) => { clearTimeout(t); t = setTimeout(() => save({ note: e.target.value }), 700); };
+  renderList();
+}
+
+async function save(patch) {
+  const it = state.items[state.idx];
+  const prev = state.reviews[it.ask_id] || {};
+  const rec = { ...prev, ...patch, ask_id: it.ask_id, docket_id: state.docket, n: it.n,
+    original_theme: it.theme_id, original_stance: it.stance, updated_at: new Date().toISOString() };
+  if (!rec.theme_verdict && !rec.stance_verdict) { if (patch.note) $("#status").textContent = "Pick a verdict to save the note."; return; }
+  state.reviews[it.ask_id] = rec;
+  stats(); renderList();
+  if (state.db) {
+    $("#status").textContent = "Saving…";
+    try { await state.db.collection("reviews").doc(it.ask_id).set(rec); $("#status").textContent = "Saved"; }
+    catch (e) { $("#status").textContent = "Not saved. Check your connection and try again."; }
+  } else { lsSet(LS, state.reviews); $("#status").textContent = "Saved in this browser only"; }
+}
+
+function setBoth() {
+  save({ theme_verdict: "agree", stance_verdict: "agree", corrected_theme: null, corrected_stance: null }).then(() => setTimeout(() => go(1), 180));
+}
+function setOne(g, v) {
+  const patch = { [g + "_verdict"]: v };
+  if (v !== "disagree") patch[g === "theme" ? "corrected_theme" : "corrected_stance"] = null;
+  save(patch).then(() => {
+    renderCard();
+    if (v === "disagree") $(g === "theme" ? "#corrTheme" : "#corrStance").focus();
+  });
+}
+
+function go(d) {
+  const vis = visible(); const pos = vis.findIndex((x) => x.n === state.items[state.idx].n);
+  const next = vis[Math.min(vis.length - 1, Math.max(0, (pos < 0 ? 0 : pos) + d))];
+  if (next) { state.idx = state.items.indexOf(next); renderCard(); window.scrollTo({ top: 0 }); }
+}
+
+function openDocket(id) {
+  const data = state.data[id]; if (!data) return;
+  state.docket = id; state.items = data.items; state.themes = data.themes;
+  const d = DOCKETS.find((x) => x.id === id);
+  $("#sub").textContent = `${id} · ${d.name} · ${d.period} · ${data.design.split(",")[0]} · codebook ${data.codebook_version}`;
+  const firstTodo = state.items.findIndex((it) => !overall(state.reviews[it.ask_id]));
+  state.idx = firstTodo < 0 ? 0 : firstTodo;
+  lsSet(LS + ":docket", id);
+  renderCard(); stats();
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.closest("textarea, select, input")) return;
+  if (e.key.toLowerCase() === "a") setBoth();
+  else if (e.key === "ArrowRight") go(1); else if (e.key === "ArrowLeft") go(-1);
+});
+document.querySelector(".filters").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.filter = b.dataset.f; document.querySelectorAll(".filters button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+  renderList();
+});
+$("#tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-d]"); if (b && !b.disabled) openDocket(b.dataset.d); });
+$("#list").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-n]"); if (!b) return;
+  state.idx = state.items.findIndex((x) => x.n === +b.dataset.n); renderCard(); $("#card").scrollIntoView({ block: "start" });
+});
+
+(async function start() {
+  await Promise.all(DOCKETS.map(async (d) => {
+    try { const res = await fetch(d.file); if (res.ok) state.data[d.id] = await res.json(); } catch {}
+  }));
+  const first = [lsGet(LS + ":docket", null), ...DOCKETS.map((d) => d.id)].find((id) => id && state.data[id]);
+  if (!first) { $("#card").innerHTML = `<p>The sample files did not load. Reload the page to try again.</p>`; renderTabs(); return; }
+  state.reviews = lsGet(LS, {});
+  openDocket(first);
+  const db = window.claude && window.claude.use ? await window.claude.use("db").catch(() => null) : null;
+  if (!db) { const n = $("#notice"); n.hidden = false; n.textContent = "Verdicts are saved in this browser only, so Claude can't read them. Open this page from claude.ai while signed in to save them for the analysis."; return; }
+  state.db = db;
+  db.collection("reviews").onSnapshot((snap) => {
+    const m = {}; snap.docs.forEach((d) => { m[d.id] = d.data(); });
+    state.reviews = m; stats(); renderList();
+  }, () => { $("#status").textContent = "Live sync stopped. Reload to reconnect."; });
+})();
+</script>

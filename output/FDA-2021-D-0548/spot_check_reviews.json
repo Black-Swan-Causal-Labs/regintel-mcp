@@ -1,0 +1,154 @@
+[
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A23",
+  "corrected_call": null,
+  "n": 2,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:38:29.620Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0024-A15",
+  "corrected_call": null,
+  "n": 3,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:38:51.315Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0018-A03",
+  "corrected_call": null,
+  "n": 4,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:39:08.166Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A17",
+  "corrected_call": null,
+  "n": 5,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:39:27.432Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0024-A18",
+  "corrected_call": null,
+  "n": 6,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:39:46.437Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0025-A02",
+  "corrected_call": null,
+  "n": 7,
+  "original_call": "adopted",
+  "updated_at": "2026-10-04T21:42:15.483Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0032-A34",
+  "corrected_call": null,
+  "n": 8,
+  "original_call": "partially adopted",
+  "updated_at": "2026-10-04T21:42:31.179Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0024-A13",
+  "corrected_call": null,
+  "n": 9,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:42:37.046Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0034-A09",
+  "corrected_call": null,
+  "n": 10,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:42:58.032Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0006-A10",
+  "corrected_call": null,
+  "n": 11,
+  "original_call": "not assessable",
+  "updated_at": "2026-10-04T21:43:10.387Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A26",
+  "corrected_call": null,
+  "n": 12,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T21:57:56.910Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0033-A03",
+  "corrected_call": null,
+  "n": 13,
+  "original_call": "partially adopted",
+  "updated_at": "2026-10-04T21:58:10.908Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0024-A05",
+  "corrected_call": null,
+  "n": 14,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T22:17:58.501Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A13",
+  "corrected_call": null,
+  "n": 15,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T22:18:13.259Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0016-A01",
+  "corrected_call": null,
+  "n": 16,
+  "original_call": "adopted",
+  "updated_at": "2026-10-04T22:18:18.725Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0031-A03",
+  "corrected_call": null,
+  "n": 17,
+  "original_call": "not assessable",
+  "updated_at": "2026-10-04T22:18:28.242Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0030-A02",
+  "corrected_call": null,
+  "n": 18,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T22:18:41.967Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0021-A12",
+  "corrected_call": null,
+  "n": 19,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T22:18:51.459Z",
+  "verdict": "agree"
+ },
+ {
+  "ask_id": "FDA-2021-D-0548-0028-A10",
+  "corrected_call": null,
+  "n": 20,
+  "original_call": "not adopted",
+  "updated_at": "2026-10-04T22:20:18.213Z",
+  "verdict": "agree"
+ }
+]
