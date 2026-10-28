@@ -1,6 +1,11 @@
-name: Publish to MCP Registry
+name: MCP Registry maintenance
 on:
   workflow_dispatch:
+    inputs:
+      retire_legacy:
+        description: Retire the old GitHub-namespace listing after verifying the domain listing
+        type: boolean
+        default: false
 permissions:
   contents: read
   id-token: write
@@ -28,7 +33,13 @@ jobs:
           tar xzf "$archive" mcp-publisher
       - name: Validate server record
         run: ./mcp-publisher validate
-      - name: Authenticate using GitHub identity
+      - name: Verify replacement is active
+        if: inputs.retire_legacy
+        run: |
+          curl -fsSL 'https://registry.modelcontextprotocol.io/v0.1/servers/com.blackswancausallabs%2Fregintel-mcp/versions/0.1.0' | jq -e '._meta["io.modelcontextprotocol.registry/official"].status == "active"'
+      - name: Authenticate for legacy namespace cleanup
+        if: inputs.retire_legacy
         run: ./mcp-publisher login github-oidc
-      - name: Publish Docket Lens
-        run: ./mcp-publisher publish
+      - name: Retire legacy listing
+        if: inputs.retire_legacy
+        run: ./mcp-publisher status --status deleted --message "Moved to com.blackswancausallabs/regintel-mcp" io.github.Black-Swan-Causal-Labs/regintel-mcp 0.1.0

@@ -1,6 +1,6 @@
 # Official MCP Registry distribution
 
-Docket Lens is published as `io.github.Black-Swan-Causal-Labs/regintel-mcp`.
+Docket Lens is published as `com.blackswancausallabs/regintel-mcp`.
 The display name is **Docket Lens**. This listing distributes the retrieval server,
 not a hosted analysis endpoint or the separately licensed Explorer.
 
@@ -29,7 +29,8 @@ analysis or generate an Explorer.
 2. Run tests and `python scripts/build_mcpb.py`.
 3. Upload the bundle to the matching GitHub release, and set `fileSha256` in
    `server.json` to the bundle's SHA-256 hash.
-4. Run the **Publish to MCP Registry** workflow on `main`.
+4. Authenticate with `mcp-publisher login dns --domain blackswancausallabs.com` using the existing domain signing key, then run `mcp-publisher publish`. Keep private key material out of source control and logs.
 
-The workflow validates metadata and authenticates with GitHub OIDC. It needs no
-stored registry publishing token. `server.json` is the checked-in Registry record.
+The **MCP Registry maintenance** workflow validates metadata. Domain publication requires DNS authentication, not GitHub OIDC. `server.json` is the checked-in Registry record.
+
+The earlier `io.github.Black-Swan-Causal-Labs/regintel-mcp` listing is retired in favor of the domain namespace used by the other Black Swan Causal Labs servers.

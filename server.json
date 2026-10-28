@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.Black-Swan-Causal-Labs/regintel-mcp",
+  "name": "com.blackswancausallabs/regintel-mcp",
   "title": "Docket Lens",
   "description": "Retrieve FDA docket comments, attachments and draft/final guidance for reviewable analysis.",
   "repository": {
