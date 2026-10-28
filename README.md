@@ -90,3 +90,9 @@ This tool measures **concordance, not impact.** Changes between draft and final 
 Server: MIT (see `LICENSE`). The Explorer template is licensed separately under PolyForm Noncommercial 1.0.0.
 
 © 2026 Black Swan Causal Labs · <https://blackswancausallabs.com>
+
+## Official MCP Registry packaging
+
+The Docket Lens retrieval server has an MCP bundle for Registry distribution.
+See [Registry installation and release instructions](docs/mcp-registry.md).
+The bundle requires `uv`, your Regulations.gov API key, and a writable working folder.

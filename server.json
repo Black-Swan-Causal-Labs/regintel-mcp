@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Black-Swan-Causal-Labs/regintel-mcp",
+  "title": "Docket Lens",
+  "description": "Retrieve FDA docket comments, attachments and draft/final guidance for reviewable analysis.",
+  "repository": {
+    "url": "https://github.com/Black-Swan-Causal-Labs/regintel-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://blackswancausallabs.com/docket-lens.html",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Black-Swan-Causal-Labs/regintel-mcp/releases/download/v0.1.0/docket-lens-0.1.0.mcpb",
+      "fileSha256": "2356507082ee7cb854c7a51530744b0ba5ad4ac4321288722796a021fadcfd31",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

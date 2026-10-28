@@ -1,0 +1,66 @@
+{
+  "manifest_version": "0.3",
+  "name": "docket-lens",
+  "display_name": "Docket Lens",
+  "version": "0.1.0",
+  "description": "Retrieve and prepare FDA Regulations.gov dockets for the Docket Lens analysis workflow.",
+  "author": {
+    "name": "Black Swan Causal Labs",
+    "url": "https://blackswancausallabs.com"
+  },
+  "homepage": "https://blackswancausallabs.com/docket-lens.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Black-Swan-Causal-Labs/regintel-mcp"
+  },
+  "license": "MIT",
+  "server": {
+    "type": "python",
+    "entry_point": "regintel_mcp/__main__.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "${__dirname}",
+        "regintel-mcp"
+      ],
+      "env": {
+        "REGULATIONS_GOV_API_KEY": "${user_config.api_key}",
+        "REGINTEL_HOME": "${user_config.data_directory}"
+      }
+    }
+  },
+  "tools_generated": true,
+  "keywords": [
+    "FDA",
+    "regulatory-intelligence",
+    "regulations.gov",
+    "Docket Lens"
+  ],
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "linux",
+      "win32"
+    ],
+    "runtimes": {
+      "python": ">=3.11"
+    }
+  },
+  "user_config": {
+    "api_key": {
+      "type": "string",
+      "title": "Regulations.gov API key",
+      "description": "Your own free key from https://open.gsa.gov/api/regulationsgov/",
+      "sensitive": true,
+      "required": true
+    },
+    "data_directory": {
+      "type": "directory",
+      "title": "Docket Lens working directory",
+      "description": "Choose a writable folder for the local cache, downloaded documents, logs and exports.",
+      "required": true
+    }
+  }
+}
